@@ -73,7 +73,7 @@ and extracts from it the spoken input syntax(es) in the JSGF-format
 to specify that only some have to be converted.)
 
 The resulting JSGF-files need possibly some post-processing: conversion into Latin1-encoding
-and removal of superfluous public-keywords (see the script Go/make_jsgf.sh).
+and removal of superfluous public-keywords (see the script `make_jsgf.sh`).
 
 
 Run time
@@ -95,7 +95,7 @@ For example
 
     echo "parse -lang=GoEst \"${recognizer_output}\"  | linearize -lang=GoApp" | gf --run Go.pgf
 
-The (simple plain text) linearization is the returned to the client.
+The (simple plain text) linearization is then returned to the client.
 In case more outputs are desired then some container format must be used.
 
 Note also, that parsing can result in more than one parse tree.
@@ -110,16 +110,16 @@ As a result of multiple parse trees also multiple linearizations are produced
 which are not necessarily different. The server would then need to post-process the
 linearizations to preserve only the first, or to preserve only the different ones and
 return them in a container format.
-Another example of ambiguity is the phrase "5 minutes in seconds" where `minutes' and `seconds'
+Another example of ambiguity is the phrase "5 minutes in seconds" where `minutes` and `seconds`
 can either refer to time or angles. This ambiguity might not reveal itself in natural
-language concrete syntaxes, but would in a mathematical syntax (`sec' vs `"').
+language concrete syntaxes, but would in a mathematical syntax (`sec` vs `"`).
 Also, the ambiguity might not reveal itself in the ``final answer'' (1 min in sec = 60).
 
 
 Grammars
 --------
 
-A little comparison of the grammars included in this directory.
+A little comparison of some of the grammars included in this directory.
 
 ### Unitconv
 
@@ -132,8 +132,9 @@ Linguistically and structurally most complicated.
 
 ### Expr
 
-Computationally most compilcated (contains recursion).
+Very small in terms of vocabulary and the type of structures allowed,
+but computationally most complicated (contains recursion).
 
 ### Address
 
-Very large in terms of terminals, otherwise very simple.
+Very large in terms of terminals (~1500 strings), otherwise very simple.

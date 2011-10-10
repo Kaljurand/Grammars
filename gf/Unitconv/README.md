@@ -10,21 +10,22 @@ This grammar demonstrates:
   * compositionality, e.g.
     * SI prefixes can be easily applied to any units,
     * area and volume units can be built from any length units,
-    * speed units are built by combining length and time units (km / h)
-  * support for multiple wordforms of the same word (`meetrit', `meetrites')
+    * speed units are built by combining length and time units (`km / h`)
+  * support for multiple wordforms of the same word (`meetrit`, `meetrites`)
   * using opers to share code
-  * smart paradigms (i.e. generate PlIn automatically from SgPart)
+  * smart paradigms (i.e. generate `PlIn` automatically from `SgPart`)
   * unit type checking (meters and feet agree, but meters and liters do not)
   * ambiguity, e.g. "kaks minutit sekundites" gets two parse trees
 
-TODO:
+
+TODO
+----
 
   * put Estonian-specific opers into a separate library and structure in the style of RGL
   * combining Unitconv with Exp, possibilities:
-    * simple union, creating a new language (Unitconv + Exp) (will need 2 startcats?);
+    * simple union, creating a new language (Unitconv + Exp) (see Calc);
     * Unitconv uses expressions instead of numbers;
     * Exp uses units instead of numbers, and Conv uses expressions (of the same type).
-    instead of numbers in Unitconv, or
   * ambiguity as a UI technique
   * complex conversions, e.g. cost of a time-limited service (internet, parking):
     * "50 cents per 10 minutes in euros per 2 hours"
@@ -85,12 +86,19 @@ additionally add a new category to Unit.gf:
 and add some functions:
 
     length_unit : Length -> LengthUnit ;
-    prefixed_length_unit : Prefix -> Length -> LengthUnit ; -- only if unit can be SI-prefixed
+    -- only if units of this quantity can be SI-prefixed
+    prefixed_length_unit : Prefix -> Length -> LengthUnit ;
+
+(Note that it is currently not possible to declare that only some units
+of a quantity can be SI-prefixed, e.g. if the grammar allows "milli seconds"
+then it also allows "nano decades".)
 
 Into the concrete syntaxes (UnitEst.gf and UnitApp.gf) add the linearizations
 of these functions, e.g. in the case of UnitEst.gf:
 
+    -- id: just copy the linearization of Length to get LengthUnit
     length_unit = id CaseStr ;
+    -- prefix: prefix the linearization of Length with a prefix word to obtain LengthUnit
     prefixed_length_unit = prefix ;
 
 Also, add the corresponding conversion function to Unitconv.gf:
