@@ -12,9 +12,9 @@
 # TODO: fix this problem
 #
 # @author Kaarel Kaljurand
-# @version 2011-10-06
+# @version 2011-10-11
 
-output_dir="../../lm/"
+output_dir="${HOME}/Dropbox/Public/projects/lm/"
 
 if [ $# -ne 2 ]
 then
