@@ -31,20 +31,22 @@ td { vertical-align: top }
 
 <h2>Introduction</h2>
 
-<div class="wip">Work in progress!</div>
+<p>Our grammars cover some fixed domains (e.g. calculator, maps) and
+support two languages <em>Est</em> and <em>App</em> for talking about
+these domains.</p>
 
-<p>(Estonian) speech recognition grammars implemented in
-<a href="http://www.grammaticalframework.org/">GF</a>.</p>
-
-<p>The grammars cover two languages <em>Est</em> and <em>App</em>.
-<em>Est</em> corresponds to spoken Estonian and is meant to guide the
-speech recognizer (i.e. it is compiled into JSGF).
-<em>App</em>
+<ul>
+<li><em>Est</em> corresponds to spoken Estonian and is meant to guide the
+speech recognizer (i.e. it is compiled into JSGF)</li>
+<li><em>App</em>
 corresponds to a machine language (e.g. standard calculator,
-Google Maps query language, etc.)</p>
+Google Maps query language)</li>
+</ul>
 
-<p>The PGF-file contains both grammars and can be used to translate
-from <em>Est</em> to <em>App</em> in order to "execute" an utterance.
+<p><a href="http://www.grammaticalframework.org/">GF</a> is a grammar
+formalism with a focus on translation.
+Describing the domains and languages in GF allows us to translate
+from <em>Est</em> to <em>App</em> in order to "execute" an Estonian utterance.
 For example, a spoken input (in <em>Est</em>):</p>
 
 <pre>
@@ -64,6 +66,17 @@ FROM Keskuse 18 , Tallinn TO Filtri tee , Tallinn
 
 <h2>Grammars</h2>
 
+<p>The grammars can be downloaded in 2 "compiled" formats:</p>
+
+<ul>
+<li>jsgf: Est-grammar in JSGF format (plain text), which can be used for speech recognition</li>
+<li>pgf: both grammars packaged in a binary format (can be opened by GF), which
+can be used for translation</li>
+</ul>
+
+<p>The GF source code is available at
+<a href="https://github.com/Kaljurand/Grammars/">http://github.com/Kaljurand/Grammars/</a>.</p>
+
 <table>
 <thead>
 <tr>
@@ -78,14 +91,14 @@ FROM Keskuse 18 , Tallinn TO Filtri tee , Tallinn
 <td>Action</td>
 <td>Direction + Calc</td>
 <td><a href="grammars/jsgf/ActionEst.jsgf">jsgf</a></td>
-<td><a href="grammars/pgf/Address.pgf">pgf</a></td>
+<td><a href="grammars/pgf/Action.pgf"></a></td>
 </tr>
 
 <tr>
 <td>Address</td>
 <td>Tallinn's street addresses</td>
 <td><a href="grammars/jsgf/AddressEst.jsgf">jsgf</a></td>
-<td><a href="grammars/pgf/Address.pgf">pgf</a></td>
+<td><a href="grammars/pgf/Address.pgf"></a></td>
 </tr>
 
 <tr>
@@ -106,57 +119,60 @@ FROM Keskuse 18 , Tallinn TO Filtri tee , Tallinn
 <td>Estvrp</td>
 <td>Estonian vehicle registration plate language, e.g. "ABC 123"</td>
 <td><a href="grammars/jsgf/EstvrpEst.jsgf">jsgf</a></td>
-<td><a href="grammars/pgf/Estvrp.pgf">pgf</a></td>
+<td><a href="grammars/pgf/Estvrp.pgf"></a></td>
 </tr>
 
 <tr>
 <td>ExpEstl</td>
 <td>Arithmetical expressions, e.g. "((1 + 2) * 3)"</td>
 <td><a href="grammars/jsgf/ExpEstl.jsgf">jsgf</a></td>
-<td><a href="grammars/pgf/Exp.pgf">pgf</a></td>
+<td><a href="grammars/pgf/Exp.pgf"></a></td>
 </tr>
 
 <tr>
 <td>Go</td>
 <td>Tiny example grammar</td>
 <td><a href="grammars/jsgf/GoEst.jsgf">jsgf</a></td>
-<td><a href="grammars/pgf/Go.pgf">pgf</a></td>
+<td><a href="grammars/pgf/Go.pgf"></a></td>
 </tr>
 
 <tr>
 <td>Unitconv</td>
 <td>Unit conversion expressions, e.g. "12.34 km^2 in ft^2"</td>
 <td><a href="grammars/jsgf/UnitconvEst.jsgf">jsgf</a></td>
-<td><a href="grammars/pgf/Unitconv.pgf">pgf</a></td>
+<td><a href="grammars/pgf/Unitconv.pgf"></a></td>
 </tr>
 </tbody>
 </table>
 
+<p>The above table lists only the top level grammars.
+The full module import-hierarchy of the abstract grammars is depicted by the
+following diagram.</p>
 
 <div class="image">
-<p>The abstract grammar import-hierarchy.</p>
 <img src="images/grammars_abstract.svg" alt="Abstract grammar component hierarchy"/>
 </div>
 
 <p>See also <a href="images/grammars.svg">this diagram</a> that covers
 both the abstract and concrete grammars.</p>
 
-<h2>GF commandline example</h2>
+<h3>Examples</h3>
+
+<h4>GF commandline example</h4>
+
+<p>Translation is performed by parsing as <em>Est</em> and linearizing the resulting
+syntax tree into <em>App</em>.</p>
 
 <pre>
 $ gf Direction.pgf
-Direction> p -lang=DirectionEst "Algus Keskuse kaheksa teist Lõpp Filtri tee Tallinn" | l -lang=DirectionApp
+Direction> parse -lang=DirectionEst "Algus Keskuse kaheksa teist Lõpp Filtri tee Tallinn" | linearize -lang=DirectionApp
 FROM Keskuse 1 8 , Tallinn TO Filtri tee , Tallinn
 </pre>
 
-<h2>Source code</h2>
-
-<p>Source code is available at
-<a href="https://github.com/Kaljurand/Grammars/">http://github.com/Kaljurand/Grammars/</a>.</p>
 
 <address>
 Kaarel Kaljurand (kaljurand@gmail.com),
-2011-10-10
+2011-10-11
 </address>
 
 </body>
