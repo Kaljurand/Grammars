@@ -2,8 +2,13 @@
 
 # Usage:
 #
-# find . -name "*.gf" | xargs cat | python make_graph.py
+# find . -name "*.gf" | xargs cat | python make_graph.py | dot -Tsvg | display
 #
+# or
+#
+# find . -name "*.gf" | xargs cat | python make_graph.py > out.dot
+# dot -Tsvg out.dot > out.svg
+# eog out.svg
 
 """GF application grammar module hierarchy visualizer
 """

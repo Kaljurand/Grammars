@@ -9,14 +9,14 @@ flags coding = utf8;
 lincat Letter = Str;
 
 lin
-la = "aa";
-lb = "bee";
-lc = "tsee";
+la = "alfa" | "aa";
+lb = "berta" | "bee";
+lc = "tseesar" | "tsee";
 ld = "dee";
 le = "ee";
 lf = "eff";
 lg = "gee";
-lh = variants { "ha" ; "has~s~" };
+lh = "ha" | "has~s~";
 li = "ii";
 lj = "jott";
 lk = "kaa";
@@ -29,17 +29,17 @@ lq = "kuu";
 lr = "err";
 ls = "ess";
 lscaron = "s~aa";
-lz = variants { "zett" ; "sett" };
-lzcaron = variants { "z~ee" ; "s~ee" };
+lz = "zett" | "sett";
+lzcaron = "z~ee" | "s~ee";
 lt = "tee";
 lu = "uu";
 lv = "vee";
-lw = variants { "kaksisvee" ; "kaksikvee" };
+lw = "kaksisvee" | "kaksikvee";
 lotilde = "õõ";
 lauml = "üü";
 louml = "öö";
 luuml = "ää";
 lx = "iks";
-ly = variants { "igrek" ; "üpsilon" };
+ly = "igrek" | "üpsilon";
 
 }
