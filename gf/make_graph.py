@@ -24,14 +24,17 @@ GF grammar structure
 
 digraph G {
 
+node [shape = "rect"];
+edge [arrowsize=1, color=black];
+
 /*
-	subgraph cluster_0 {
-		label = "Abstract grammars";
-		color = "red";
-                
-		Currency;
-		Digit;
-        }
+subgraph cluster_0 {
+	label = "Abstract grammars";
+	color = "red";
+
+	Currency;
+	Digit;
+}
 */
 """
 
@@ -42,13 +45,15 @@ re_concrete = re.compile('concrete (.*) of (.*) =(.*){.*')
 
 def match_abstract(m):
 	dot_lines = []
+	name = m.group(1).strip()
 	supers = m.group(2)
 	supers = re.sub('\*\*.*', '', supers)
 	if re.match('^\s*$', supers):
+		dot_lines.append('"{:}" -> "_abstract_" [shape = "diamond" color = "red" style = "bold"]'.format(name))
 		return dot_lines
 	for s in supers.split(','):
 		s = s.strip()
-		dot = '"{:}" -> "{:}" [shape = "diamond" color = "red" style = "bold"]'.format(m.group(1).strip(), s)
+		dot = '"{:}" -> "{:}" [shape = "diamond" color = "red" style = "bold"]'.format(name, s)
 		dot_lines.append(dot)
 	return dot_lines
 
@@ -63,6 +68,7 @@ def match_concrete(m):
 	supers = re.sub('open .*', '', supers)
 	supers = re.sub('\*\*.*', '', supers)
 	if re.match('^\s*$', supers):
+		dot_lines.append('"{:}" -> "_concrete_" [color = "green" style = "bold"]'.format(name))
 		return dot_lines
 	for s in supers.split(','):
 		s = s.strip()
