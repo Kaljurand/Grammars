@@ -17,6 +17,11 @@ oper
 	-- Identity function
 	id : (A : Type) -> A -> A = \_,a -> a ;
 
+	-- TODO: glue that takes arbitrarily many input arguments
+	glue : Str -> Str -> Str = \x,y -> x ++ BIND ++ y ;
+	glue5 : (x1,x2,x3,x4,x5 : Str) -> Str = \x1,x2,x3,x4,x5 -> x1 ++ BIND ++ x2 ++ BIND ++ x3 ++ BIND ++ x4 ++ BIND ++ x5;
+	BIND : Str = "&+" ;
+
 	-- Note that '4' is hard-coded in a few places below, therefore
 	-- if you change highestPrec to something else then
 	-- look for FIXME below for places than additionally need

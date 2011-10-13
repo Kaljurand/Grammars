@@ -11,6 +11,6 @@
 3 m / s IN k m / h
 3 c IN k m / µ s
 3 k m / µ s IN c
-3 m * s ** -2 IN k m * µ s ** -2
+3 m &+ * &+ s &+ ** &+ -2 IN k m &+ * &+ µ s &+ ** &+ -2
 3 in IN ft
 2 HUF IN EUR

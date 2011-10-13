@@ -15,3 +15,4 @@ kaks kilo meetrit milli sekundis milli meetrites mikro sekundis
 kaks kilo meetrit ruut milli sekundis milli meetrites ruut mikro sekundis
 kaks kilo vatt tundi mega vatt tundides
 kaks s~veitsi raha rublades
+kaks meetrit ruut sekundis jalgades ruut minutis

@@ -205,12 +205,6 @@ kolm kilo grammi nano grammides
 
 
 
-3 k h IN n s
-
-kolm kilo tundi nano sekundites
-
-
-
 3 °C IN m °C
 
 kolm kraadi milli kraadides

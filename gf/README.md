@@ -138,3 +138,22 @@ but computationally most complicated (contains recursion).
 ### Address
 
 Very large in terms of terminals (~1500 strings), otherwise very simple.
+
+
+Guidelines for grammar developers
+---------------------------------
+
+### Naming conventions
+
+...
+
+
+### How to form a union-grammar?
+
+...
+
+
+### Using `glue`
+
+Do not use `glue` with languages which are going to be speech recognized,
+i.e. only use it with the "App" languages.
