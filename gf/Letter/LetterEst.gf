@@ -1,44 +1,40 @@
 concrete LetterEst of Letter = open StringOper in {
 
--- Ff (eff), Šš (šaa), Zz (zett, hääldus: [sett]) ja Žž (žee, hääldus: [šee])
--- esinevad ainult võõrsõnades ja võõrnimedes.
--- Tähtede z ja ž eestipärane hääldus on vastavalt nõrk [s] ja [š].
-
 flags coding = utf8;
 
 lincat Letter = Str;
 
 lin
-la = "alfa" | "aa";
-lb = "berta" | "bee";
-lc = "tseesar" | "tsee";
-ld = "dee";
-le = "ee";
+la = "alfa" | "aaaa";
+lb = "berta" | "beeee";
+lc = "tseesar" | "tseeee";
+ld = "deeee";
+le = "eeee";
 lf = "eff";
-lg = "gee";
-lh = "ha" | "has~s~";
-li = "ii";
+lg = "geeee";
+lh = "haaaa" | "has~s~";
+li = "iiii";
 lj = "jott";
-lk = "kaa";
+lk = "kaaaa";
 ll = "ell";
 lm = "emm";
 ln = "enn";
-lo = "oo";
-lp = "pee";
-lq = "kuu";
+lo = "oooo";
+lp = "peeee";
+lq = "kuuuu";
 lr = "err";
 ls = "ess";
-lscaron = "s~aa";
-lz = "zett" | "sett";
-lzcaron = "z~ee" | "s~ee";
-lt = "tee";
-lu = "uu";
-lv = "vee";
+lscaron = "s~aaaa";
+lz = "tsett";
+lzcaron = "z~eeee" | "s~eeee";
+lt = "teeee";
+lu = "uuuu";
+lv = "veeee";
 lw = "kaksisvee" | "kaksikvee";
-lotilde = "õõ";
-lauml = "üü";
-louml = "öö";
-luuml = "ää";
+lotilde = "õõõõ";
+lauml = "üüüü";
+louml = "öööö";
+luuml = "ääää";
 lx = "iks";
 ly = "igrek" | "üpsilon";
 

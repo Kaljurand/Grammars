@@ -1,32 +1,32 @@
 alfa
 
-aa
+aaaa
 
 
 
 
 berta
 
-bee
+beeee
 
 
 
 
 tseesar
 
-tsee
+tseeee
 
 
 
 
-dee
+deeee
 
 
 
 d
 
 
-ee
+eeee
 
 
 
@@ -40,21 +40,21 @@ eff
 f
 
 
-gee
+geeee
 
 
 
 g
 
 
-ha
+haaaa
 
 has~s~
 
 
 
 
-ii
+iiii
 
 
 
@@ -68,7 +68,7 @@ jott
 j
 
 
-kaa
+kaaaa
 
 
 
@@ -96,21 +96,21 @@ enn
 n
 
 
-oo
+oooo
 
 
 
 o
 
 
-pee
+peeee
 
 
 
 p
 
 
-kuu
+kuuuu
 
 
 
@@ -131,42 +131,42 @@ ess
 s
 
 
-s~aa
+s~aaaa
 
 
 
 s~
 
 
-zett
-
-sett
+tsett
 
 
 
-
-z~ee
-
-s~ee
+z
 
 
+z~eeee
+
+s~eeee
 
 
-tee
+
+
+teeee
 
 
 
 t
 
 
-uu
+uuuu
 
 
 
 u
 
 
-vee
+veeee
 
 
 
@@ -180,28 +180,28 @@ kaksikvee
 
 
 
-õõ
+õõõõ
 
 
 
 õ
 
 
-üü
+üüüü
 
 
 
 ü
 
 
-öö
+öööö
 
 
 
 ö
 
 
-ää
+ääää
 
 
 
