@@ -18,6 +18,12 @@ This grammar demonstrates:
   * ambiguity, e.g. "kaks minutit sekundites" gets two parse trees
 
 
+Compiling
+---------
+
+    gf -s --make --optimize-pgf --mk-index --path "Numerals:Fraction:lib" Unitconv/Unitconv???.gf
+
+
 TODO
 ----
 
@@ -33,8 +39,6 @@ TODO
     { meetritesse | meetriteks }. Since these variants sound similar, we can also
     rely on the speech recognizer robustness (i.e. it would convert a spoken
     /naeltes/ or /naelteks/ into "naelades")
-  * "large" vocabulary (hundreds of terminals)
-  * "large" grammar (many productions?)
   * handling rare (but legal?) forms like "kilo minut"
   * does attaching of probabilities work (in GF, in GF->JSGF, in JSGF->FSA)
   * lexing and unlexing (writing of numbers) (maybe use binding in the decimal grammar?)

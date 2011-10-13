@@ -36,7 +36,7 @@ speed_unit,
 energy_unit,
 power_unit = id SS;
 
-prefixed_length_unit, prefixed_mass_unit, prefixed_time_unit,
+prefixed_length_unit, prefixed_mass_unit,
 prefixed_temperature_unit,
 prefixed_area_unit, prefixed_volume_unit,
 prefixed_energy_unit,
@@ -66,6 +66,10 @@ ton = ss "t";
 cup_flour = ss "flour-cup";
 
 --Time
+-- TODO: take the symbols from PrefixApp
+nano_second = ss "n s";
+micro_second = ss "µ s";
+milli_second = ss "m s";
 second = ss "s";
 minute = ss "min";
 hour = ss "h";

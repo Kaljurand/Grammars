@@ -8,6 +8,8 @@ concrete UnitEst of Unit = PrefixEst, CurrencyEst ** open StringOper, Estonian i
 --   * ruut kilo meetrit
 --   * meetrit sekundis
 --   * kilo meetrit sekundis
+--   * kilo meetrit milli sekundis
+--   * kilo meetrit ruut milli sekundis
 --   * dollarit
 --   * ameerika dollarit
 --   * ameerika raha
@@ -23,7 +25,7 @@ concrete UnitEst of Unit = PrefixEst, CurrencyEst ** open StringOper, Estonian i
 -- override it), but in most cases this form is not used (and does not even end up in JSGF).
 --
 -- @author Kaarel Kaljurand
--- @version 2011-10-04
+-- @version 2011-10-13
 
 flags coding=utf8;
 
@@ -52,7 +54,7 @@ energy_unit,
 power_unit = id CaseStr ;
 
 prefixed_length_unit, prefixed_mass_unit,
-prefixed_time_unit, prefixed_temperature_unit,
+prefixed_temperature_unit,
 prefixed_area_unit,
 prefixed_volume_unit,
 prefixed_energy_unit,
@@ -80,16 +82,19 @@ ton = mk "tonni";
 cup_flour = f "tassi jahu" "jahu tassides";
 
 --Time
--- TODO: replace "asja"
+-- TODO: take the symbols from PrefixEst
+nano_second = mk "nano sekundit";
+micro_second = mk "mikro sekundit";
+milli_second = mk "milli sekundit";
 second = mk "sekundit";
 minute = mk "minutit";
 hour = f3 "tundi" "tunnis" "tundides";
 day = mk "päeva";
-week = mk "asja";
+week = mk "nädalat";
 month = mk "kuud";
 year = mk "aastat";
-decade = mk "asja";
-century = mk "asja";
+decade = mk "dekaadi";
+century = mk "sajandit";
 
 --Temperature
 celsius = mk "kraadi";

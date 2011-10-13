@@ -5,7 +5,7 @@ abstract Unit = Prefix, Currency ** {
 -- represents a definite predetermined length."
 
 -- @author Kaarel Kaljurand
--- @version 2011-10-04
+-- @version 2011-10-13
 
 cat
 	Length ; LengthUnit ;
@@ -28,8 +28,6 @@ fun
 	-- TODO: maybe require that the 2nd argument is a SI unit
 	prefixed_length_unit : Prefix -> Length -> LengthUnit ;
 	prefixed_mass_unit : Prefix -> Mass -> MassUnit ;
-	-- TODO: maybe not prefix time (*kilo year)
-	prefixed_time_unit : Prefix -> Time -> TimeUnit ;
 	prefixed_temperature_unit : Prefix -> Temperature -> TemperatureUnit ;
 	prefixed_area_unit : Prefix -> Area -> AreaUnit ;
 	prefixed_volume_unit : Prefix -> Volume -> VolumeUnit ;
@@ -66,7 +64,13 @@ fun
 
 	meter, foot, inch, yard, mile : Length ;
 	gram, ounce, pound, ton, cup_flour : Mass ;
+
+	-- We don't generally allow SI-prefixes with Time, because
+	-- they only make sense for seconds.
+	-- So we define 3 prefixed seconds here.
+	nano_second, micro_second, milli_second,
 	second, minute, hour, day, week, month, year, decade, century : Time ;
+
 	celsius : Temperature;
 
 	-- Only the Area units which are not constructed from a length unit,

@@ -3,7 +3,6 @@
 2 k m **2 IN ha
 3 m m IN µ m
 3 k g IN n g
-3 k h IN n s
 3 °C IN m °C
 3 EEK IN EUR
 3 NOK IN NOK
