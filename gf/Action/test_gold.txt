@@ -16,7 +16,7 @@ kaks koma kolm meetrit jalgades
 
 
 
-f1 (direction_id (address2 s94 (num (pot2as3 (pot1as2 (pot0as1 (pot0 n2))))) tallinn))
+f1 (direction_id (address2 s94 (small_num (pot1as2 (pot0as1 (pot0 n2)))) tallinn))
 
 Estonia puiestee kaks Tallinn
 
@@ -24,7 +24,7 @@ Estonia puiestee kaks
 
 
 
-f1 (direction (address2 s94 (num (pot2as3 (pot1as2 (pot0as1 (pot0 n2))))) tallinn) (address1 s94 tallinn))
+f1 (direction (address2 s94 (small_num (pot1as2 (pot0as1 (pot0 n2)))) tallinn) (address1 s94 tallinn))
 
 Algus Estonia puiestee kaks Tallinn Lõpp Estonia puiestee Tallinn
 
