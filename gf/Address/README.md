@@ -12,8 +12,13 @@ GF using `make_street.py`.
 This grammar demonstrates a simple language with a reasonably large
 vocabulary (~1500 terminals).
 
+Compiling
+---------
+
+    gf -s --make --optimize-pgf --mk-index --path "Numerals:lib" Address/Address???.gf
+
 TODO
 ----
 
   * switch off numbers that are greater than 999
-  * refactor the grammar so that other towns (with their streets) can be easily plugged in
+  * refactor the grammar so that other towns (with their streets) could be easily plugged in

@@ -1,0 +1,9 @@
+import -retain Action/ActionEst.gf
+--import -retain Action/ActionApp.gf
+
+-- It seems that we can visualize only one hierarcy at the time,
+-- i.e. if we uncomment Symbols below then only the Symbols hierarcy
+-- is shown.
+-- import -retain Symbols/Symbols.gf
+
+dependency_graph
