@@ -1,0 +1,238 @@
+
+
+
+8
+
+kaheksa
+
+
+h b
+
+haaaa berta
+, , haaaa beeee
+, , has~s~ berta
+, , has~s~ beeee
+
+
+k b
+
+kaaaa berta
+, , kaaaa beeee
+
+
+5
+
+viis
+
+
+0 k
+
+null kaaaa
+
+
+7 1 3 e c
+
+seitse üks kolm eeee tseesar
+, , seitse üks kolm eeee tseeee
+
+
+
+
+
+
+
+
+p n
+
+peeee enn
+
+
+r 1 6
+
+err üks kuus
+
+
+c
+
+tseesar
+, , tseeee
+
+
+
+
+
+z~ 2 w 6
+
+z~eeee kaks kaksisvee kuus
+, , z~eeee kaks kaksikvee kuus
+, , s~eeee kaks kaksisvee kuus
+, , s~eeee kaks kaksikvee kuus
+
+
+
+
+
+r h 4 n 4
+
+err haaaa neli enn neli
+, , err has~s~ neli enn neli
+
+
+q e 0 9 8
+
+kuuuu eeee null üheksa kaheksa
+
+
+6
+
+kuus
+
+
+1 z~ q
+
+üks z~eeee kuuuu
+, , üks s~eeee kuuuu
+
+
+i 2 2 8 9
+
+iiii kaks kaks kaheksa üheksa
+
+
+0 v
+
+null veeee
+
+
+3 1
+
+kolm üks
+
+
+0
+
+null
+
+
+
+
+
+
+
+
+g 9 ü
+
+geeee üheksa üüüü
+
+
+
+
+
+2
+
+kaks
+
+
+ü 9 8 v
+
+üüüü üheksa kaheksa veeee
+
+
+3
+
+kolm
+
+
+
+
+
+
+
+
+l q l
+
+ell kuuuu ell
+
+
+ö 4 ö 5 7
+
+öööö neli öööö viis seitse
+
+
+6
+
+kuus
+
+
+j
+
+jott
+
+
+
+
+
+p 2 9 ü
+
+peeee kaks üheksa üüüü
+
+
+2 1
+
+kaks üks
+
+
+3 a ä r m
+
+kolm alfa ääää err emm
+, , kolm aaaa ääää err emm
+
+
+s~ 3 6 6
+
+s~aaaa kolm kuus kuus
+
+
+t 2 4 0
+
+teeee kaks neli null
+
+
+3 h 6 õ õ
+
+kolm haaaa kuus õõõõ õõõõ
+, , kolm has~s~ kuus õõõõ õõõõ
+
+
+
+
+
+2
+
+kaks
+
+
+4
+
+neli
+
+
+8 3
+
+kaheksa kolm
+
+
+
+
+
+1 7 8
+
+üks seitse kaheksa
+
+
+2
+
+kaks
+
+
+

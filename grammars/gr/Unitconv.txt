@@ -1,0 +1,271 @@
+1 . 5 da ft **2 IN ft **2
+
+pool teist ruut deka jalga ruut jalgades
+
+
+0 m cal IN J
+
+null milli kalorit dz~aulides
+
+
+0 . 0 EEK IN SEK
+
+null koma null krooni rootsi kroonides
+, , null koma null krooni rootsi rahas
+, , null koma null eesti krooni rootsi kroonides
+, , null koma null eesti krooni rootsi rahas
+, , null koma null eesti raha rootsi kroonides
+, , null koma null eesti raha rootsi rahas
+, , null koma null vana raha rootsi kroonides
+, , null koma null vana raha rootsi rahas
+
+
+0 . 7 5 °C IN M °C
+
+kolm veerand kraadi mega kraadides
+
+
+0 . 7 5 AUD IN CAD
+
+kolm veerand austraalia dollarit kanada dollarites
+, , kolm veerand austraalia dollarit kanada rahas
+, , kolm veerand austraalia raha kanada dollarites
+, , kolm veerand austraalia raha kanada rahas
+
+
+0 da cal IN W h
+
+null deka kalorit vatt tundides
+
+
+0 . 5 " IN "
+
+pool sekundit sekundites
+
+
+0 flour-cup IN flour-cup
+
+null tassi jahu jahu tassides
+
+
+1 . 5 c W IN µ W
+
+pool teist senti vatti mikro vattides
+
+
+0 . 0 " IN rad
+
+null koma null sekundit radiaanides
+
+
+- 0 knot IN knot
+
+miinus null sõlme sõlmedes
+
+
+- 0 h J IN T J
+
+miinus null hekto dz~auli tera dz~aulides
+
+
+0 . 7 5 n cal IN M J
+
+kolm veerand nano kalorit mega dz~aulides
+
+
+1 . 5 °C IN °C
+
+pool teist kraadi kraadides
+
+
+0 . 5 G Hz IN Hz
+
+pool giga hertsi hertsides
+
+
+0 . 2 5 m s IN n s
+
+veerand milli sekundit nano sekundites
+
+
+0 . 2 5 g IN h lb
+
+veerand grammi hekto naelades
+
+
+PI m ha IN ha
+
+Pii milli hektarit hektarites
+
+
+1 . 5 c Hz IN Hz
+
+pool teist senti hertsi hertsides
+
+
+- 0 . 0 °C IN °C
+
+miinus null koma null kraadi kraadides
+
+
+1 . 5 µ lb IN flour-cup
+
+pool teist mikro naela jahu tassides
+
+
+- 0 . 0 °C IN M °C
+
+miinus null koma null kraadi mega kraadides
+
+
+0 . 5 W h IN J
+
+pool vatt tundi dz~aulides
+
+
+- 0 . 0 ha IN m **2
+
+miinus null koma null hektarit ruut meetrites
+
+
+PI GBP IN ISK
+
+Pii naela islandi kroonides
+, , Pii naela islandi rahas
+, , Pii inglise naela islandi kroonides
+, , Pii inglise naela islandi rahas
+, , Pii inglise raha islandi kroonides
+, , Pii inglise raha islandi rahas
+
+
+0 . 0 Hz IN m Hz
+
+null koma null hertsi milli hertsides
+
+
+- 0 M in **3 IN da gal
+
+miinus null kuup mega tolli deka gallonites
+
+
+0 . 2 5 M in IN yard
+
+veerand mega tolli jardides
+
+
+0 . 5 °C IN m °C
+
+pool kraadi milli kraadides
+
+
+- 0 . 0 ft **2 IN ha
+
+miinus null koma null ruut jalga hektarites
+
+
+0 . 2 5 M W IN W
+
+veerand mega vatti vattides
+
+
+0 . 5 n J IN c cal
+
+pool nano dz~auli senti kalorites
+
+
+0 . 7 5 G W IN W
+
+kolm veerand giga vatti vattides
+
+
+PI c W h IN M W h
+
+Pii senti vatt tundi mega vatt tundides
+
+
+1 . 5 W IN W
+
+pool teist vatti vattides
+
+
+0 . 5 d Hz IN da Hz
+
+pool detsi hertsi deka hertsides
+
+
+0 . 2 5 c t IN lb
+
+veerand senti tonni naelades
+
+
+0 d m **3 IN T ft **3
+
+null kuup detsi meetrit kuup tera jalgades
+
+
+PI d °C IN d °C
+
+Pii detsi kraadi detsi kraadides
+
+
+- 0 . 0 ° IN °
+
+miinus null koma null kraadi kraadides
+
+
+- 0 T mile IN T mile
+
+miinus null tera miili tera miilides
+
+
+0 . 0 cal IN W h
+
+null koma null kalorit vatt tundides
+
+
+- 0 . 0 mile **3 IN M pint
+
+miinus null koma null kuup miili mega pintides
+
+
+0 . 7 5 ISK IN USD
+
+kolm veerand islandi krooni dollarites
+, , kolm veerand islandi krooni ameerika dollarites
+, , kolm veerand islandi krooni ameerika rahas
+, , kolm veerand islandi raha dollarites
+, , kolm veerand islandi raha ameerika dollarites
+, , kolm veerand islandi raha ameerika rahas
+
+
+0 . 0 G yard **3 IN gal
+
+null koma null kuup giga jardi gallonites
+
+
+0 µ W IN h W
+
+null mikro vatti hekto vattides
+
+
+1 . 5 M ha IN c mile **2
+
+pool teist mega hektarit ruut senti miilides
+
+
+0 ft IN µ m
+
+null jalga mikro meetrites
+
+
+0 . 2 5 W h IN h J
+
+veerand vatt tundi hekto dz~aulides
+
+
+0 . 0 s IN century
+
+null koma null sekundit sajandites
+
+
+

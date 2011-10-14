@@ -1,0 +1,299 @@
+6 2 0 h s ä
+
+kuus kaks null haaaa ess ääää
+, , kuus kaks null has~s~ ess ääää
+
+
+8 5 5 c u ü
+
+kaheksa viis viis tseesar uuuu üüüü
+, , kaheksa viis viis tseeee uuuu üüüü
+
+
+9 3 5 b v w
+
+üheksa kolm viis berta veeee kaksisvee
+, , üheksa kolm viis berta veeee kaksikvee
+, , üheksa kolm viis beeee veeee kaksisvee
+, , üheksa kolm viis beeee veeee kaksikvee
+
+
+3 7 6 x r ü
+
+kolm seitse kuus iks err üüüü
+
+
+5 0 9 d a r
+
+viis null üheksa deeee alfa err
+, , viis null üheksa deeee aaaa err
+
+
+4 9 0 s g w
+
+neli üheksa null ess geeee kaksisvee
+, , neli üheksa null ess geeee kaksikvee
+
+
+7 1 5 h x g
+
+seitse üks viis haaaa iks geeee
+, , seitse üks viis has~s~ iks geeee
+
+
+2 0 4 s~ e b
+
+kaks null neli s~aaaa eeee berta
+, , kaks null neli s~aaaa eeee beeee
+
+
+8 9 2 p r h
+
+kaheksa üheksa kaks peeee err haaaa
+, , kaheksa üheksa kaks peeee err has~s~
+
+
+2 0 0 ö ü n
+
+kaks null null öööö üüüü enn
+
+
+1 7 6 g i o
+
+üks seitse kuus geeee iiii oooo
+
+
+7 3 4 w ö f
+
+seitse kolm neli kaksisvee öööö eff
+, , seitse kolm neli kaksikvee öööö eff
+
+
+4 3 4 v r r
+
+neli kolm neli veeee err err
+
+
+0 4 3 u y v
+
+null neli kolm uuuu igrek veeee
+, , null neli kolm uuuu üpsilon veeee
+
+
+0 2 0 p y s
+
+null kaks null peeee igrek ess
+, , null kaks null peeee üpsilon ess
+
+
+6 4 3 p s ö
+
+kuus neli kolm peeee ess öööö
+
+
+9 5 4 u p e
+
+üheksa viis neli uuuu peeee eeee
+
+
+2 6 6 t a i
+
+kaks kuus kuus teeee alfa iiii
+, , kaks kuus kuus teeee aaaa iiii
+
+
+7 0 1 w f g
+
+seitse null üks kaksisvee eff geeee
+, , seitse null üks kaksikvee eff geeee
+
+
+3 6 9 o x y
+
+kolm kuus üheksa oooo iks igrek
+, , kolm kuus üheksa oooo iks üpsilon
+
+
+2 9 3 x l p
+
+kaks üheksa kolm iks ell peeee
+
+
+9 5 2 i e w
+
+üheksa viis kaks iiii eeee kaksisvee
+, , üheksa viis kaks iiii eeee kaksikvee
+
+
+2 8 9 a l m
+
+kaks kaheksa üheksa alfa ell emm
+, , kaks kaheksa üheksa aaaa ell emm
+
+
+8 5 1 z~ g ü
+
+kaheksa viis üks z~eeee geeee üüüü
+, , kaheksa viis üks s~eeee geeee üüüü
+
+
+5 1 6 m j ä
+
+viis üks kuus emm jott ääää
+
+
+3 6 4 z~ ö v
+
+kolm kuus neli z~eeee öööö veeee
+, , kolm kuus neli s~eeee öööö veeee
+
+
+3 9 1 i w õ
+
+kolm üheksa üks iiii kaksisvee õõõõ
+, , kolm üheksa üks iiii kaksikvee õõõõ
+
+
+3 0 9 f n g
+
+kolm null üheksa eff enn geeee
+
+
+7 6 5 g s~ z
+
+seitse kuus viis geeee s~aaaa tsett
+
+
+3 2 2 ö o g
+
+kolm kaks kaks öööö oooo geeee
+
+
+8 7 0 z~ g y
+
+kaheksa seitse null z~eeee geeee igrek
+, , kaheksa seitse null z~eeee geeee üpsilon
+, , kaheksa seitse null s~eeee geeee igrek
+, , kaheksa seitse null s~eeee geeee üpsilon
+
+
+0 2 1 z~ c z~
+
+null kaks üks z~eeee tseesar z~eeee
+, , null kaks üks z~eeee tseesar s~eeee
+, , null kaks üks z~eeee tseeee z~eeee
+, , null kaks üks z~eeee tseeee s~eeee
+, , null kaks üks s~eeee tseesar z~eeee
+, , null kaks üks s~eeee tseesar s~eeee
+, , null kaks üks s~eeee tseeee z~eeee
+, , null kaks üks s~eeee tseeee s~eeee
+
+
+4 9 9 z w l
+
+neli üheksa üheksa tsett kaksisvee ell
+, , neli üheksa üheksa tsett kaksikvee ell
+
+
+0 8 7 ü o õ
+
+null kaheksa seitse üüüü oooo õõõõ
+
+
+1 9 9 o z q
+
+üks üheksa üheksa oooo tsett kuuuu
+
+
+1 0 3 j s w
+
+üks null kolm jott ess kaksisvee
+, , üks null kolm jott ess kaksikvee
+
+
+1 6 5 a j h
+
+üks kuus viis alfa jott haaaa
+, , üks kuus viis alfa jott has~s~
+, , üks kuus viis aaaa jott haaaa
+, , üks kuus viis aaaa jott has~s~
+
+
+3 3 7 y d i
+
+kolm kolm seitse igrek deeee iiii
+, , kolm kolm seitse üpsilon deeee iiii
+
+
+4 4 6 ä p ü
+
+neli neli kuus ääää peeee üüüü
+
+
+1 3 3 v f m
+
+üks kolm kolm veeee eff emm
+
+
+1 1 0 z~ o x
+
+üks üks null z~eeee oooo iks
+, , üks üks null s~eeee oooo iks
+
+
+1 7 3 i n g
+
+üks seitse kolm iiii enn geeee
+
+
+9 7 8 ä o p
+
+üheksa seitse kaheksa ääää oooo peeee
+
+
+9 8 9 z~ l x
+
+üheksa kaheksa üheksa z~eeee ell iks
+, , üheksa kaheksa üheksa s~eeee ell iks
+
+
+4 6 7 g ä n
+
+neli kuus seitse geeee ääää enn
+
+
+1 0 1 k r c
+
+üks null üks kaaaa err tseesar
+, , üks null üks kaaaa err tseeee
+
+
+4 2 7 n i a
+
+neli kaks seitse enn iiii alfa
+, , neli kaks seitse enn iiii aaaa
+
+
+8 4 1 a a y
+
+kaheksa neli üks alfa alfa igrek
+, , kaheksa neli üks alfa alfa üpsilon
+, , kaheksa neli üks alfa aaaa igrek
+, , kaheksa neli üks alfa aaaa üpsilon
+, , kaheksa neli üks aaaa alfa igrek
+, , kaheksa neli üks aaaa alfa üpsilon
+, , kaheksa neli üks aaaa aaaa igrek
+, , kaheksa neli üks aaaa aaaa üpsilon
+
+
+4 8 0 l o ö
+
+neli kaheksa null ell oooo öööö
+
+
+2 1 3 j n ü
+
+kaks üks kolm jott enn üüüü
+
+
+

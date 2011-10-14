@@ -1,0 +1,251 @@
+( 1 . 5 / ( ( PI * 0 . 2 5 ) / ( 0 . 2 5 - PI ) ) )
+
+pool teist jagatud Pii korda veerand jagatud veerand miinus Pii
+
+
+( - 0 . 0 / ( ( 1 . 5 / 0 . 7 5 ) / ( 0 . 5 / PI ) ) )
+
+miinus null koma null jagatud pool teist jagatud kolm veerand jagatud pool jagatud Pii
+
+
+( ( ( 0 . 2 5 ^ 0 . 7 5 ) ^ ( PI * 0 . 5 ) ) - ( 0 . 2 5 - ( 1 . 5 * 1 . 5 ) ) )
+
+veerand astmel kolm veerand astmel Pii korda pool miinus veerand miinus pool teist korda pool teist
+
+
+( ( 0 . 2 5 / ( 0 . 7 5 - 0 . 2 5 ) ) * ( ( 0 . 7 5 - 0 . 2 5 ) / ( PI + PI ) ) )
+
+veerand jagatud kolm veerand miinus veerand korda kolm veerand miinus veerand jagatud Pii pluss Pii
+
+
+( 0 . 7 5 / ( ( 1 . 5 ^ 0 . 5 ) + ( 0 . 7 5 * 0 . 2 5 ) ) )
+
+kolm veerand jagatud pool teist astmel pool pluss kolm veerand korda veerand
+
+
+( ( ( 1 . 5 * 0 . 7 5 ) ^ ( PI - PI ) ) / ( ( 1 . 5 + 0 . 2 5 ) / ( 0 . 2 5 - 0 . 7 5 ) ) )
+
+pool teist korda kolm veerand astmel Pii miinus Pii jagatud pool teist pluss veerand jagatud veerand miinus kolm veerand
+
+
+( ( ( PI - 0 . 5 ) / ( 0 . 2 5 * 0 . 5 ) ) ^ ( ( PI * 0 . 2 5 ) + ( 0 . 2 5 + 0 . 5 ) ) )
+
+Pii miinus pool jagatud veerand korda pool astmel Pii korda veerand pluss veerand pluss pool
+
+
+( ( ( 0 . 5 ^ 0 . 2 5 ) - ( 0 . 5 / 0 . 7 5 ) ) - ( ( PI ^ 0 . 5 ) * ( 0 . 5 * 0 . 5 ) ) )
+
+pool astmel veerand miinus pool jagatud kolm veerand miinus Pii astmel pool korda pool korda pool
+
+
+( ( 0 . 5 + ( 0 . 2 5 ^ 1 . 5 ) ) + PI )
+
+pool pluss veerand astmel pool teist pluss Pii
+
+
+( - 0 . 0 ^ ( ( 1 . 5 - 0 . 7 5 ) / ( PI / 1 . 5 ) ) )
+
+miinus null koma null astmel pool teist miinus kolm veerand jagatud Pii jagatud pool teist
+
+
+0
+
+null
+
+
+( PI + ( ( 0 . 2 5 + 0 . 5 ) + ( 0 . 2 5 ^ 0 . 7 5 ) ) )
+
+Pii pluss veerand pluss pool pluss veerand astmel kolm veerand
+
+
+( ( ( PI ^ 0 . 7 5 ) ^ - 0 ) + ( ( 1 . 5 ^ 0 . 5 ) ^ ( PI - 0 . 2 5 ) ) )
+
+Pii astmel kolm veerand astmel miinus null pluss pool teist astmel pool astmel Pii miinus veerand
+
+
+( 0 + ( ( 0 . 2 5 + 0 . 2 5 ) / ( 0 . 5 ^ 0 . 2 5 ) ) )
+
+null pluss veerand pluss veerand jagatud pool astmel veerand
+
+
+( ( ( PI - 0 . 2 5 ) + ( 1 . 5 / PI ) ) - ( ( 0 . 7 5 * PI ) - ( 0 . 7 5 / 0 . 2 5 ) ) )
+
+Pii miinus veerand pluss pool teist jagatud Pii miinus kolm veerand korda Pii miinus kolm veerand jagatud veerand
+
+
+( ( ( 0 . 7 5 - 0 . 5 ) / ( 0 . 2 5 - 1 . 5 ) ) / ( ( 1 . 5 / 0 . 5 ) ^ ( 1 . 5 / 0 . 2 5 ) ) )
+
+kolm veerand miinus pool jagatud veerand miinus pool teist jagatud pool teist jagatud pool astmel pool teist jagatud veerand
+
+
+( ( ( 0 . 2 5 - 1 . 5 ) + ( PI - 0 . 7 5 ) ) + ( ( 0 . 7 5 * 1 . 5 ) + ( 0 . 5 - 0 . 7 5 ) ) )
+
+veerand miinus pool teist pluss Pii miinus kolm veerand pluss kolm veerand korda pool teist pluss pool miinus kolm veerand
+
+
+( 1 . 5 - ( ( 0 . 2 5 + 1 . 5 ) * ( 0 . 7 5 ^ PI ) ) )
+
+pool teist miinus veerand pluss pool teist korda kolm veerand astmel Pii
+
+
+0 . 2 5
+
+veerand
+
+
+( ( ( 0 . 7 5 ^ PI ) ^ ( 0 . 5 - 0 . 7 5 ) ) - ( ( 0 . 7 5 + PI ) * ( PI - 0 . 2 5 ) ) )
+
+kolm veerand astmel Pii astmel pool miinus kolm veerand miinus kolm veerand pluss Pii korda Pii miinus veerand
+
+
+0 . 0
+
+null koma null
+
+
+( ( ( 0 . 5 * 1 . 5 ) + ( 0 . 7 5 + 0 . 5 ) ) + ( ( PI / PI ) / 0 . 5 ) )
+
+pool korda pool teist pluss kolm veerand pluss pool pluss Pii jagatud Pii jagatud pool
+
+
+( - 0 ^ ( ( 0 . 7 5 - PI ) - ( 0 . 5 * 0 . 2 5 ) ) )
+
+miinus null astmel kolm veerand miinus Pii miinus pool korda veerand
+
+
+( ( ( 0 . 5 + 0 . 5 ) + ( 0 . 7 5 * 0 . 5 ) ) - ( ( 0 . 2 5 / 0 . 7 5 ) - ( 0 . 7 5 / 0 . 7 5 ) ) )
+
+pool pluss pool pluss kolm veerand korda pool miinus veerand jagatud kolm veerand miinus kolm veerand jagatud kolm veerand
+
+
+PI
+
+Pii
+
+
+0 . 7 5
+
+kolm veerand
+
+
+( ( ( 0 . 7 5 + 0 . 7 5 ) - ( PI + 0 . 5 ) ) / ( ( 0 . 7 5 / 0 . 5 ) / ( 0 . 5 / 0 . 2 5 ) ) )
+
+kolm veerand pluss kolm veerand miinus Pii pluss pool jagatud kolm veerand jagatud pool jagatud pool jagatud veerand
+
+
+( 0 + ( ( 0 . 5 - 1 . 5 ) * ( 0 . 5 / 0 . 2 5 ) ) )
+
+null pluss pool miinus pool teist korda pool jagatud veerand
+
+
+( ( ( 0 . 5 - 0 . 5 ) ^ ( 0 . 2 5 ^ 0 . 7 5 ) ) ^ ( 0 . 2 5 - ( 0 . 2 5 / 0 . 2 5 ) ) )
+
+pool miinus pool astmel veerand astmel kolm veerand astmel veerand miinus veerand jagatud veerand
+
+
+( ( ( 0 . 5 - PI ) ^ ( 1 . 5 + 1 . 5 ) ) ^ ( ( 0 . 5 ^ 0 . 5 ) ^ ( 0 . 5 ^ PI ) ) )
+
+pool miinus Pii astmel pool teist pluss pool teist astmel pool astmel pool astmel pool astmel Pii
+
+
+PI
+
+Pii
+
+
+( ( ( 1 . 5 ^ 0 . 5 ) + ( 0 . 2 5 + 1 . 5 ) ) + ( ( 0 . 2 5 - 1 . 5 ) / ( 0 . 2 5 ^ 0 . 7 5 ) ) )
+
+pool teist astmel pool pluss veerand pluss pool teist pluss veerand miinus pool teist jagatud veerand astmel kolm veerand
+
+
+( ( ( PI * PI ) / ( 0 . 2 5 / 0 . 2 5 ) ) / 0 . 7 5 )
+
+Pii korda Pii jagatud veerand jagatud veerand jagatud kolm veerand
+
+
+0 . 7 5
+
+kolm veerand
+
+
+( ( ( PI * 0 . 5 ) ^ ( PI - 0 . 7 5 ) ) - ( ( 0 . 5 ^ 1 . 5 ) ^ ( 0 . 7 5 / 0 . 2 5 ) ) )
+
+Pii korda pool astmel Pii miinus kolm veerand miinus pool astmel pool teist astmel kolm veerand jagatud veerand
+
+
+( 0 . 5 * ( 0 . 5 ^ ( 0 . 7 5 ^ 1 . 5 ) ) )
+
+pool korda pool astmel kolm veerand astmel pool teist
+
+
+1 . 5
+
+pool teist
+
+
+( ( ( 0 . 2 5 / 0 . 2 5 ) ^ 0 . 2 5 ) * ( ( 1 . 5 + PI ) - ( 0 . 2 5 - PI ) ) )
+
+veerand jagatud veerand astmel veerand korda pool teist pluss Pii miinus veerand miinus Pii
+
+
+1 . 5
+
+pool teist
+
+
+( 0 . 7 5 - ( ( 1 . 5 + 1 . 5 ) * ( PI + 0 . 7 5 ) ) )
+
+kolm veerand miinus pool teist pluss pool teist korda Pii pluss kolm veerand
+
+
+( ( ( PI + 0 . 2 5 ) + 0 . 5 ) - 0 )
+
+Pii pluss veerand pluss pool miinus null
+
+
+( ( ( 0 . 7 5 / 0 . 7 5 ) / ( PI + 0 . 2 5 ) ) - ( ( PI / 0 . 7 5 ) * ( 0 . 5 - 0 . 2 5 ) ) )
+
+kolm veerand jagatud kolm veerand jagatud Pii pluss veerand miinus Pii jagatud kolm veerand korda pool miinus veerand
+
+
+( ( 0 . 2 5 ^ ( 0 . 2 5 * 0 . 2 5 ) ) * ( ( 0 . 7 5 / 1 . 5 ) - ( PI + 0 . 7 5 ) ) )
+
+veerand astmel veerand korda veerand korda kolm veerand jagatud pool teist miinus Pii pluss kolm veerand
+
+
+( ( ( PI / 1 . 5 ) ^ ( 0 . 5 + PI ) ) + ( ( 0 . 2 5 ^ PI ) - ( 0 . 5 * 0 . 2 5 ) ) )
+
+Pii jagatud pool teist astmel pool pluss Pii pluss veerand astmel Pii miinus pool korda veerand
+
+
+( ( ( PI / 0 . 7 5 ) - 0 . 5 ) / ( ( 0 . 2 5 * 0 . 2 5 ) / ( PI / 1 . 5 ) ) )
+
+Pii jagatud kolm veerand miinus pool jagatud veerand korda veerand jagatud Pii jagatud pool teist
+
+
+( ( 0 ^ ( 0 . 5 - 0 . 5 ) ) ^ ( ( 0 . 7 5 / 0 . 2 5 ) + 0 . 2 5 ) )
+
+null astmel pool miinus pool astmel kolm veerand jagatud veerand pluss veerand
+
+
+PI
+
+Pii
+
+
+( ( ( 0 . 5 + PI ) - 0 . 7 5 ) - ( ( 0 . 2 5 - 0 . 5 ) / ( 0 . 7 5 / PI ) ) )
+
+pool pluss Pii miinus kolm veerand miinus veerand miinus pool jagatud kolm veerand jagatud Pii
+
+
+( ( ( 0 . 7 5 ^ PI ) ^ ( 0 . 2 5 - 0 . 2 5 ) ) + ( ( 0 . 7 5 * 0 . 5 ) * PI ) )
+
+kolm veerand astmel Pii astmel veerand miinus veerand pluss kolm veerand korda pool korda Pii
+
+
+( ( ( 1 . 5 * 1 . 5 ) - ( 0 . 2 5 ^ 0 . 5 ) ) - ( - 0 * ( 0 . 7 5 / 0 . 2 5 ) ) )
+
+pool teist korda pool teist miinus veerand astmel pool miinus miinus null korda kolm veerand jagatud veerand
+
+
+

@@ -1,0 +1,301 @@
+Pärnade puiestee 7 1 1 , Tallinn
+
+Pärnade puiestee seitse sada üks teist Tallinn
+, , Pärnade puiestee seitse sada üks teist
+
+
+Vambola , Tallinn
+
+Vambola Tallinn
+, , Vambola
+
+
+Bremeni käik , Tallinn
+
+Bremeni käik Tallinn
+, , Bremeni käik
+
+
+Varsaallika , Tallinn
+
+Varsaallika Tallinn
+, , Varsaallika
+
+
+Käokannu tee , Tallinn
+
+Käokannu tee Tallinn
+, , Käokannu tee
+
+
+Toomiku tee , Tallinn
+
+Toomiku tee Tallinn
+, , Toomiku tee
+
+
+Eha , Tallinn
+
+Eha Tallinn
+, , Eha
+
+
+Laeva , Tallinn
+
+Laeva Tallinn
+, , Laeva
+
+
+Niidu tee , Tallinn
+
+Niidu tee Tallinn
+, , Niidu tee
+
+
+Paekaare , Tallinn
+
+Paekaare Tallinn
+, , Paekaare
+
+
+Saeveski , Tallinn
+
+Saeveski Tallinn
+, , Saeveski
+
+
+Prii , Tallinn
+
+Prii Tallinn
+, , Prii
+
+
+Ferdinand Johann Wiedemanni , Tallinn
+
+Ferdinand Johann Wiedemanni Tallinn
+, , Ferdinand Johann Wiedemanni
+
+
+Juhkentali , Tallinn
+
+Juhkentali Tallinn
+, , Juhkentali
+
+
+Eerikneeme tee , Tallinn
+
+Eerikneeme tee Tallinn
+, , Eerikneeme tee
+
+
+Joone , Tallinn
+
+Joone Tallinn
+, , Joone
+
+
+Vee , Tallinn
+
+Vee Tallinn
+, , Vee
+
+
+Luha 1 0 0 , Tallinn
+
+Luha sada Tallinn
+, , Luha sada
+
+
+Väina tee 1 0 0 , Tallinn
+
+Väina tee sada Tallinn
+, , Väina tee sada
+
+
+Koskla 1 1 9 , Tallinn
+
+Koskla sada üheksa teist Tallinn
+, , Koskla sada üheksa teist
+
+
+Merimetsa tee 5 0 0 , Tallinn
+
+Merimetsa tee viis sada Tallinn
+, , Merimetsa tee viis sada
+
+
+Mehaanika põik 1 1 , Tallinn
+
+Mehaanika põik üks teist Tallinn
+, , Mehaanika põik üks teist
+
+
+Suvila 1 0 , Tallinn
+
+Suvila kümme Tallinn
+, , Suvila kümme
+
+
+Vimma , Tallinn
+
+Vimma Tallinn
+, , Vimma
+
+
+Sitska tee 3 0 8 , Tallinn
+
+Sitska tee kolm sada kaheksa Tallinn
+, , Sitska tee kolm sada kaheksa
+
+
+Vana-Kalamaja 1 0 0 , Tallinn
+
+Vana-Kalamaja sada Tallinn
+, , Vana-Kalamaja sada
+
+
+Sõnajala , Tallinn
+
+Sõnajala Tallinn
+, , Sõnajala
+
+
+Pääsukese , Tallinn
+
+Pääsukese Tallinn
+, , Pääsukese
+
+
+Männimetsa põik , Tallinn
+
+Männimetsa põik Tallinn
+, , Männimetsa põik
+
+
+Vana-Tartu maantee 1 0 , Tallinn
+
+Vana-Tartu maantee kümme Tallinn
+, , Vana-Tartu maantee kümme
+
+
+Kirsi , Tallinn
+
+Kirsi Tallinn
+, , Kirsi
+
+
+Vaate põik , Tallinn
+
+Vaate põik Tallinn
+, , Vaate põik
+
+
+Õie põik 1 9 , Tallinn
+
+Õie põik üheksa teist Tallinn
+, , Õie põik üheksa teist
+
+
+Väo tee 1 8 1 , Tallinn
+
+Väo tee sada kaheksa kümmend üks Tallinn
+, , Väo tee sada kaheksa kümmend üks
+
+
+Rävala puiestee , Tallinn
+
+Rävala puiestee Tallinn
+, , Rävala puiestee
+
+
+Toome põik 5 0 0 , Tallinn
+
+Toome põik viis sada Tallinn
+, , Toome põik viis sada
+
+
+Rahvakooli tee 8 , Tallinn
+
+Rahvakooli tee kaheksa Tallinn
+, , Rahvakooli tee kaheksa
+
+
+Põlde põik , Tallinn
+
+Põlde põik Tallinn
+, , Põlde põik
+
+
+Endla , Tallinn
+
+Endla Tallinn
+, , Endla
+
+
+Uus-Maleva 1 0 0 , Tallinn
+
+Uus-Maleva sada Tallinn
+, , Uus-Maleva sada
+
+
+Veski , Tallinn
+
+Veski Tallinn
+, , Veski
+
+
+Kiuru , Tallinn
+
+Kiuru Tallinn
+, , Kiuru
+
+
+Kaskede puiestee , Tallinn
+
+Kaskede puiestee Tallinn
+, , Kaskede puiestee
+
+
+Vaimu , Tallinn
+
+Vaimu Tallinn
+, , Vaimu
+
+
+Rangu 8 0 , Tallinn
+
+Rangu kaheksa kümmend Tallinn
+, , Rangu kaheksa kümmend
+
+
+Hobusepea 4 0 0 , Tallinn
+
+Hobusepea neli sada Tallinn
+, , Hobusepea neli sada
+
+
+Juhan Sütiste tee 8 1 1 , Tallinn
+
+Juhan Sütiste tee kaheksa sada üks teist Tallinn
+, , Juhan Sütiste tee kaheksa sada üks teist
+
+
+Tõivu 5 , Tallinn
+
+Tõivu viis Tallinn
+, , Tõivu viis
+
+
+Kivimurru , Tallinn
+
+Kivimurru Tallinn
+, , Kivimurru
+
+
+Kärbi , Tallinn
+
+Kärbi Tallinn
+, , Kärbi
+
+
+

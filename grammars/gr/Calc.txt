@@ -1,0 +1,259 @@
+- 0 . 0 T t IN lb
+
+miinus null koma null tera tonni naelades
+
+
+( ( 0 . 2 5 * 0 . 2 5 ) - ( 0 . 2 5 / 0 . 7 5 ) )
+
+veerand korda veerand miinus ( veerand jagatud kolm veerand )
+
+
+- 0 k ft **2 IN ha
+
+miinus null ruut kilo jalga hektarites
+
+
+0 . 2 5 °C IN G °C
+
+veerand kraadi giga kraadides
+
+
+( ( 0 . 5 ^ PI ) * ( 0 . 5 ^ PI ) )
+
+pool astmel Pii korda ( pool astmel Pii )
+
+
+( ( 1 . 5 - 0 . 7 5 ) + ( 0 . 7 5 + 0 . 5 ) )
+
+pool teist miinus kolm veerand pluss ( kolm veerand pluss pool )
+
+
+0 . 0 CHF IN DKK
+
+null koma null franki taani kroonides
+, , null koma null franki taani rahas
+, , null koma null s~veitsi franki taani kroonides
+, , null koma null s~veitsi franki taani rahas
+, , null koma null s~veitsi raha taani kroonides
+, , null koma null s~veitsi raha taani rahas
+
+
+- 0 . 0
+
+miinus null koma null
+
+
+- 0 . 0 J IN M W h
+
+miinus null koma null dz~auli mega vatt tundides
+
+
+( ( 0 . 7 5 / 0 . 2 5 ) + ( 1 . 5 * 0 . 5 ) )
+
+kolm veerand jagatud veerand pluss ( pool teist korda pool )
+
+
+0 W IN W
+
+null vatti vattides
+
+
+- 0 J IN W h
+
+miinus null dz~auli vatt tundides
+
+
+- 0 . 0 cal IN J
+
+miinus null koma null kalorit dz~aulides
+
+
+1 . 5 T Hz IN Hz
+
+pool teist tera hertsi hertsides
+
+
+- 0 in IN m
+
+miinus null tolli meetrites
+
+
+0 . 0 h g IN m oz
+
+null koma null hekto grammi milli untsides
+
+
+0 . 2 5 T cal IN G W h
+
+veerand tera kalorit giga vatt tundides
+
+
+PI ha IN k ft **2
+
+Pii hektarit ruut kilo jalgades
+
+
+0 . 7 5 lb IN g
+
+kolm veerand naela grammides
+
+
+( 0 . 5 ^ ( 0 . 5 / 0 . 5 ) )
+
+pool astmel ( pool jagatud pool )
+
+
+0 ha IN G ha
+
+null hektarit giga hektarites
+
+
+( ( 0 . 7 5 ^ 0 . 7 5 ) - ( 0 . 7 5 / 0 . 7 5 ) )
+
+kolm veerand astmel kolm veerand miinus ( kolm veerand jagatud kolm veerand )
+
+
+0 . 7 5 NZD IN DKK
+
+kolm veerand uus mere maa dollarit taani kroonides
+, , kolm veerand uus mere maa dollarit taani rahas
+, , kolm veerand uus mere maa raha taani kroonides
+, , kolm veerand uus mere maa raha taani rahas
+
+
+- 0 °C IN n °C
+
+miinus null kraadi nano kraadides
+
+
+0 mile / century IN knot
+
+null miili sajandis sõlmedes
+
+
+0 . 2 5 ° IN rad
+
+veerand kraadi radiaanides
+
+
+( 0 . 5 / ( 0 . 5 - PI ) )
+
+pool jagatud ( pool miinus Pii )
+
+
+0 . 2 5 ha IN m **2
+
+veerand hektarit ruut meetrites
+
+
+( ( 1 . 5 * PI ) / ( 1 . 5 ^ 1 . 5 ) )
+
+pool teist korda Pii jagatud ( pool teist astmel pool teist )
+
+
+- 0 . 0
+
+miinus null koma null
+
+
+0 n t IN t
+
+null nano tonni tonnides
+
+
+( ( 0 . 5 * 0 . 2 5 ) + 1 . 5 )
+
+pool korda veerand pluss pool teist
+
+
+0 . 0 ha IN ha
+
+null koma null hektarit hektarites
+
+
+( 0 . 7 5 ^ ( 0 . 7 5 / PI ) )
+
+kolm veerand astmel ( kolm veerand jagatud Pii )
+
+
+- 0 M Hz IN µ Hz
+
+miinus null mega hertsi mikro hertsides
+
+
+( ( 0 . 7 5 / 1 . 5 ) - ( 0 . 5 + 1 . 5 ) )
+
+kolm veerand jagatud pool teist miinus ( pool pluss pool teist )
+
+
+0 . 2 5 G J IN J
+
+veerand giga dz~auli dz~aulides
+
+
+- 0 m IN yard
+
+miinus null meetrit jardides
+
+
+0 . 2 5 W h IN cal
+
+veerand vatt tundi kalorites
+
+
+( ( 0 . 5 * 0 . 5 ) - 0 . 2 5 )
+
+pool korda pool miinus veerand
+
+
+0 m cal IN n cal
+
+null milli kalorit nano kalorites
+
+
+( ( 0 . 5 * 0 . 5 ) - ( PI / 0 . 2 5 ) )
+
+pool korda pool miinus ( Pii jagatud veerand )
+
+
+( ( PI - 0 . 5 ) ^ ( 1 . 5 * PI ) )
+
+Pii miinus pool astmel ( pool teist korda Pii )
+
+
+( ( 1 . 5 / PI ) - 0 )
+
+pool teist jagatud Pii miinus null
+
+
+0 . 5 d Hz IN da Hz
+
+pool detsi hertsi deka hertsides
+
+
+1 . 5
+
+pool teist
+
+
+( ( 0 . 5 / 1 . 5 ) / ( PI * 0 . 5 ) )
+
+pool jagatud pool teist jagatud ( Pii korda pool )
+
+
+( ( 1 . 5 - 0 . 2 5 ) ^ ( 0 . 2 5 - 0 . 5 ) )
+
+pool teist miinus veerand astmel ( veerand miinus pool )
+
+
+1 . 5 m Hz IN h Hz
+
+pool teist milli hertsi hekto hertsides
+
+
+0 . 0 G °C IN d °C
+
+null koma null giga kraadi detsi kraadides
+
+
+

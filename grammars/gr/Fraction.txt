@@ -1,0 +1,251 @@
+0 . 0
+
+null koma null
+
+
+- 0 . 0
+
+miinus null koma null
+
+
+- 0 . 0
+
+miinus null koma null
+
+
+0
+
+null
+
+
+0 . 0
+
+null koma null
+
+
+0 . 5
+
+pool
+
+
+0 . 0
+
+null koma null
+
+
+- 0
+
+miinus null
+
+
+1 . 5
+
+pool teist
+
+
+0
+
+null
+
+
+0 . 7 5
+
+kolm veerand
+
+
+0 . 2 5
+
+veerand
+
+
+1 1 0
+
+sada kümme
+
+
+1 . 5
+
+pool teist
+
+
+- 1 1 1 0 0
+
+miinus üks teist tuhat sada
+
+
+- 0
+
+miinus null
+
+
+0 . 5
+
+pool
+
+
+- 1 1 1 0 1 0
+
+miinus sada üks teist tuhat kümme
+
+
+0 . 7 5
+
+kolm veerand
+
+
+1 . 5
+
+pool teist
+
+
+- 0 . 0
+
+miinus null koma null
+
+
+0 . 2 5
+
+veerand
+
+
+0
+
+null
+
+
+PI
+
+Pii
+
+
+- 1 0 0 1 1 1
+
+miinus sada tuhat sada üks teist
+
+
+1 . 5
+
+pool teist
+
+
+- 0
+
+miinus null
+
+
+- 0 . 0
+
+miinus null koma null
+
+
+PI
+
+Pii
+
+
+0 . 0
+
+null koma null
+
+
+- 0 . 0
+
+miinus null koma null
+
+
+0 . 2 5
+
+veerand
+
+
+1 . 5
+
+pool teist
+
+
+- 0 . 0
+
+miinus null koma null
+
+
+- 0 . 0
+
+miinus null koma null
+
+
+0 . 0
+
+null koma null
+
+
+0 . 7 5
+
+kolm veerand
+
+
+- 0 . 0
+
+miinus null koma null
+
+
+0
+
+null
+
+
+- 0 . 0
+
+miinus null koma null
+
+
+0 . 7 5
+
+kolm veerand
+
+
+1 . 5
+
+pool teist
+
+
+- 0
+
+miinus null
+
+
+- 0 . 0
+
+miinus null koma null
+
+
+- 1 0 0
+
+miinus sada
+
+
+0 . 7 5
+
+kolm veerand
+
+
+PI
+
+Pii
+
+
+0 . 5
+
+pool
+
+
+1 0 0 0 0 0
+
+sada tuhat
+
+
+0 . 0
+
+null koma null
+
+
+

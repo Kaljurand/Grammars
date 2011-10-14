@@ -1,0 +1,355 @@
+FROM Karuse , Tallinn TO Sarra , Tallinn
+
+Algus Karuse Tallinn Lõpp Sarra Tallinn
+, , Algus Karuse Tallinn Lõpp Sarra
+, , Algus Karuse Lõpp Sarra Tallinn
+, , Algus Karuse Lõpp Sarra
+
+
+FROM Väike-Ameerika 1 1 , Tallinn TO Naeri , Tallinn
+
+Algus Väike-Ameerika üks teist Tallinn Lõpp Naeri Tallinn
+, , Algus Väike-Ameerika üks teist Tallinn Lõpp Naeri
+, , Algus Väike-Ameerika üks teist Lõpp Naeri Tallinn
+, , Algus Väike-Ameerika üks teist Lõpp Naeri
+
+
+FROM Orava , Tallinn TO Kangru , Tallinn
+
+Algus Orava Tallinn Lõpp Kangru Tallinn
+, , Algus Orava Tallinn Lõpp Kangru
+, , Algus Orava Lõpp Kangru Tallinn
+, , Algus Orava Lõpp Kangru
+
+
+Käba 4 4 1 , Tallinn
+
+Käba neli sada neli kümmend üks Tallinn
+, , Käba neli sada neli kümmend üks
+
+
+FROM Vaimu , Tallinn TO Luha 6 2 0 , Tallinn
+
+Algus Vaimu Tallinn Lõpp Luha kuus sada kaks kümmend Tallinn
+, , Algus Vaimu Tallinn Lõpp Luha kuus sada kaks kümmend
+, , Algus Vaimu Lõpp Luha kuus sada kaks kümmend Tallinn
+, , Algus Vaimu Lõpp Luha kuus sada kaks kümmend
+
+
+FROM Keevise , Tallinn TO Rahu tee , Tallinn
+
+Algus Keevise Tallinn Lõpp Rahu tee Tallinn
+, , Algus Keevise Tallinn Lõpp Rahu tee
+, , Algus Keevise Lõpp Rahu tee Tallinn
+, , Algus Keevise Lõpp Rahu tee
+
+
+FROM Rännaku puiestee , Tallinn TO Oa 3 0 , Tallinn
+
+Algus Rännaku puiestee Tallinn Lõpp Oa kolm kümmend Tallinn
+, , Algus Rännaku puiestee Tallinn Lõpp Oa kolm kümmend
+, , Algus Rännaku puiestee Lõpp Oa kolm kümmend Tallinn
+, , Algus Rännaku puiestee Lõpp Oa kolm kümmend
+
+
+Kihnu 2 0 0 , Tallinn
+
+Kihnu kaks sada Tallinn
+, , Kihnu kaks sada
+
+
+FROM Salu tee , Tallinn TO Noole , Tallinn
+
+Algus Salu tee Tallinn Lõpp Noole Tallinn
+, , Algus Salu tee Tallinn Lõpp Noole
+, , Algus Salu tee Lõpp Noole Tallinn
+, , Algus Salu tee Lõpp Noole
+
+
+Sõstra 7 1 , Tallinn
+
+Sõstra seitse kümmend üks Tallinn
+, , Sõstra seitse kümmend üks
+
+
+FROM Kalmistu tee , Tallinn TO Artelli , Tallinn
+
+Algus Kalmistu tee Tallinn Lõpp Artelli Tallinn
+, , Algus Kalmistu tee Tallinn Lõpp Artelli
+, , Algus Kalmistu tee Lõpp Artelli Tallinn
+, , Algus Kalmistu tee Lõpp Artelli
+
+
+FROM Sarapiku tee , Tallinn TO Vana-Rannamõisa tee 1 0 1 , Tallinn
+
+Algus Sarapiku tee Tallinn Lõpp Vana-Rannamõisa tee sada üks Tallinn
+, , Algus Sarapiku tee Tallinn Lõpp Vana-Rannamõisa tee sada üks
+, , Algus Sarapiku tee Lõpp Vana-Rannamõisa tee sada üks Tallinn
+, , Algus Sarapiku tee Lõpp Vana-Rannamõisa tee sada üks
+
+
+Martsa , Tallinn
+
+Martsa Tallinn
+, , Martsa
+
+
+Sõõru 1 0 0 , Tallinn
+
+Sõõru sada Tallinn
+, , Sõõru sada
+
+
+FROM Peterburi tee 1 0 0 , Tallinn TO Paekivi 4 1 0 , Tallinn
+
+Algus Peterburi tee sada Tallinn Lõpp Paekivi neli sada kümme Tallinn
+, , Algus Peterburi tee sada Tallinn Lõpp Paekivi neli sada kümme
+, , Algus Peterburi tee sada Lõpp Paekivi neli sada kümme Tallinn
+, , Algus Peterburi tee sada Lõpp Paekivi neli sada kümme
+
+
+FROM Joone 1 0 1 , Tallinn TO Katusepapi , Tallinn
+
+Algus Joone sada üks Tallinn Lõpp Katusepapi Tallinn
+, , Algus Joone sada üks Tallinn Lõpp Katusepapi
+, , Algus Joone sada üks Lõpp Katusepapi Tallinn
+, , Algus Joone sada üks Lõpp Katusepapi
+
+
+Ehitajate tee , Tallinn
+
+Ehitajate tee Tallinn
+, , Ehitajate tee
+
+
+FROM Eevardi , Tallinn TO Kauri , Tallinn
+
+Algus Eevardi Tallinn Lõpp Kauri Tallinn
+, , Algus Eevardi Tallinn Lõpp Kauri
+, , Algus Eevardi Lõpp Kauri Tallinn
+, , Algus Eevardi Lõpp Kauri
+
+
+FROM Koidu , Tallinn TO Teaduspargi 8 0 0 , Tallinn
+
+Algus Koidu Tallinn Lõpp Teaduspargi kaheksa sada Tallinn
+, , Algus Koidu Tallinn Lõpp Teaduspargi kaheksa sada
+, , Algus Koidu Lõpp Teaduspargi kaheksa sada Tallinn
+, , Algus Koidu Lõpp Teaduspargi kaheksa sada
+
+
+Mõisapõllu , Tallinn
+
+Mõisapõllu Tallinn
+, , Mõisapõllu
+
+
+Palusambla 8 1 0 , Tallinn
+
+Palusambla kaheksa sada kümme Tallinn
+, , Palusambla kaheksa sada kümme
+
+
+FROM Tungla 4 0 0 , Tallinn TO Toom-Kooli , Tallinn
+
+Algus Tungla neli sada Tallinn Lõpp Toom-Kooli Tallinn
+, , Algus Tungla neli sada Tallinn Lõpp Toom-Kooli
+, , Algus Tungla neli sada Lõpp Toom-Kooli Tallinn
+, , Algus Tungla neli sada Lõpp Toom-Kooli
+
+
+FROM Vaalu , Tallinn TO Sookaskede puiestee , Tallinn
+
+Algus Vaalu Tallinn Lõpp Sookaskede puiestee Tallinn
+, , Algus Vaalu Tallinn Lõpp Sookaskede puiestee
+, , Algus Vaalu Lõpp Sookaskede puiestee Tallinn
+, , Algus Vaalu Lõpp Sookaskede puiestee
+
+
+FROM Sepise , Tallinn TO Liivalaia , Tallinn
+
+Algus Sepise Tallinn Lõpp Liivalaia Tallinn
+, , Algus Sepise Tallinn Lõpp Liivalaia
+, , Algus Sepise Lõpp Liivalaia Tallinn
+, , Algus Sepise Lõpp Liivalaia
+
+
+Kotermaa 7 1 , Tallinn
+
+Kotermaa seitse kümmend üks Tallinn
+, , Kotermaa seitse kümmend üks
+
+
+FROM Välja , Tallinn TO Paldiski maantee , Tallinn
+
+Algus Välja Tallinn Lõpp Paldiski maantee Tallinn
+, , Algus Välja Tallinn Lõpp Paldiski maantee
+, , Algus Välja Lõpp Paldiski maantee Tallinn
+, , Algus Välja Lõpp Paldiski maantee
+
+
+Kohila , Tallinn
+
+Kohila Tallinn
+, , Kohila
+
+
+FROM Varju tee , Tallinn TO Päevakoera , Tallinn
+
+Algus Varju tee Tallinn Lõpp Päevakoera Tallinn
+, , Algus Varju tee Tallinn Lõpp Päevakoera
+, , Algus Varju tee Lõpp Päevakoera Tallinn
+, , Algus Varju tee Lõpp Päevakoera
+
+
+Ojaveere 1 , Tallinn
+
+Ojaveere üks Tallinn
+, , Ojaveere üks
+
+
+Majaka 1 1 1 , Tallinn
+
+Majaka sada üks teist Tallinn
+, , Majaka sada üks teist
+
+
+FROM Mehaanika 1 1 , Tallinn TO Tursa 2 0 0 , Tallinn
+
+Algus Mehaanika üks teist Tallinn Lõpp Tursa kaks sada Tallinn
+, , Algus Mehaanika üks teist Tallinn Lõpp Tursa kaks sada
+, , Algus Mehaanika üks teist Lõpp Tursa kaks sada Tallinn
+, , Algus Mehaanika üks teist Lõpp Tursa kaks sada
+
+
+Laane 4 0 , Tallinn
+
+Laane neli kümmend Tallinn
+, , Laane neli kümmend
+
+
+FROM Hiidtamme , Tallinn TO Rännaku puiestee , Tallinn
+
+Algus Hiidtamme Tallinn Lõpp Rännaku puiestee Tallinn
+, , Algus Hiidtamme Tallinn Lõpp Rännaku puiestee
+, , Algus Hiidtamme Lõpp Rännaku puiestee Tallinn
+, , Algus Hiidtamme Lõpp Rännaku puiestee
+
+
+Vaimu , Tallinn
+
+Vaimu Tallinn
+, , Vaimu
+
+
+Vahtriku tee 5 0 0 , Tallinn
+
+Vahtriku tee viis sada Tallinn
+, , Vahtriku tee viis sada
+
+
+FROM Kotkapoja 1 , Tallinn TO Ujuki 1 0 , Tallinn
+
+Algus Kotkapoja üks Tallinn Lõpp Ujuki kümme Tallinn
+, , Algus Kotkapoja üks Tallinn Lõpp Ujuki kümme
+, , Algus Kotkapoja üks Lõpp Ujuki kümme Tallinn
+, , Algus Kotkapoja üks Lõpp Ujuki kümme
+
+
+Mahtra 6 0 0 , Tallinn
+
+Mahtra kuus sada Tallinn
+, , Mahtra kuus sada
+
+
+FROM Jumika tee , Tallinn TO Pärnaõie tee 5 0 0 , Tallinn
+
+Algus Jumika tee Tallinn Lõpp Pärnaõie tee viis sada Tallinn
+, , Algus Jumika tee Tallinn Lõpp Pärnaõie tee viis sada
+, , Algus Jumika tee Lõpp Pärnaõie tee viis sada Tallinn
+, , Algus Jumika tee Lõpp Pärnaõie tee viis sada
+
+
+Koidu , Tallinn
+
+Koidu Tallinn
+, , Koidu
+
+
+FROM Väike-Pääsukese 6 0 , Tallinn TO Merivälja tee , Tallinn
+
+Algus Väike-Pääsukese kuus kümmend Tallinn Lõpp Merivälja tee Tallinn
+, , Algus Väike-Pääsukese kuus kümmend Tallinn Lõpp Merivälja tee
+, , Algus Väike-Pääsukese kuus kümmend Lõpp Merivälja tee Tallinn
+, , Algus Väike-Pääsukese kuus kümmend Lõpp Merivälja tee
+
+
+Tagala , Tallinn
+
+Tagala Tallinn
+, , Tagala
+
+
+FROM Lühike 1 , Tallinn TO Särje 1 6 1 , Tallinn
+
+Algus Lühike üks Tallinn Lõpp Särje sada kuus kümmend üks Tallinn
+, , Algus Lühike üks Tallinn Lõpp Särje sada kuus kümmend üks
+, , Algus Lühike üks Lõpp Särje sada kuus kümmend üks Tallinn
+, , Algus Lühike üks Lõpp Särje sada kuus kümmend üks
+
+
+FROM Rao 4 1 , Tallinn TO Saiakang 3 0 0 , Tallinn
+
+Algus Rao neli kümmend üks Tallinn Lõpp Saiakang kolm sada Tallinn
+, , Algus Rao neli kümmend üks Tallinn Lõpp Saiakang kolm sada
+, , Algus Rao neli kümmend üks Lõpp Saiakang kolm sada Tallinn
+, , Algus Rao neli kümmend üks Lõpp Saiakang kolm sada
+
+
+Suitsu , Tallinn
+
+Suitsu Tallinn
+, , Suitsu
+
+
+Endla , Tallinn
+
+Endla Tallinn
+, , Endla
+
+
+Sarra , Tallinn
+
+Sarra Tallinn
+, , Sarra
+
+
+FROM Alemaa 9 0 0 , Tallinn TO Vana-Lõuna 1 1 , Tallinn
+
+Algus Alemaa üheksa sada Tallinn Lõpp Vana-Lõuna üks teist Tallinn
+, , Algus Alemaa üheksa sada Tallinn Lõpp Vana-Lõuna üks teist
+, , Algus Alemaa üheksa sada Lõpp Vana-Lõuna üks teist Tallinn
+, , Algus Alemaa üheksa sada Lõpp Vana-Lõuna üks teist
+
+
+FROM Kuldnoka 1 0 , Tallinn TO Tasuja puiestee 1 4 , Tallinn
+
+Algus Kuldnoka kümme Tallinn Lõpp Tasuja puiestee neli teist Tallinn
+, , Algus Kuldnoka kümme Tallinn Lõpp Tasuja puiestee neli teist
+, , Algus Kuldnoka kümme Lõpp Tasuja puiestee neli teist Tallinn
+, , Algus Kuldnoka kümme Lõpp Tasuja puiestee neli teist
+
+
+Vene 1 7 , Tallinn
+
+Vene seitse teist Tallinn
+, , Vene seitse teist
+
+
+Loomuse , Tallinn
+
+Loomuse Tallinn
+, , Loomuse
+
+
+
