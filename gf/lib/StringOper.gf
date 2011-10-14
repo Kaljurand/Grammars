@@ -19,6 +19,8 @@ oper
 
 	-- TODO: glue that takes arbitrarily many input arguments
 	glue : Str -> Str -> Str = \x,y -> x ++ BIND ++ y ;
+	glue3 : (x1,x2,x3 : Str) -> Str = \x1,x2,x3 -> x1 ++ BIND ++ x2 ++ BIND ++ x3;
+	glue4 : (x1,x2,x3,x4 : Str) -> Str = \x1,x2,x3,x4 -> x1 ++ BIND ++ x2 ++ BIND ++ x3 ++ BIND ++ x4;
 	glue5 : (x1,x2,x3,x4,x5 : Str) -> Str = \x1,x2,x3,x4,x5 -> x1 ++ BIND ++ x2 ++ BIND ++ x3 ++ BIND ++ x4 ++ BIND ++ x5;
 	BIND : Str = "&+" ;
 
