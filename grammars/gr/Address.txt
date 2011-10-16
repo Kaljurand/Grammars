@@ -1,301 +1,282 @@
-Pärnade puiestee 7 1 1 , Tallinn
+Rägavere , Estonia
 
-Pärnade puiestee seitse sada üks teist Tallinn
-, , Pärnade puiestee seitse sada üks teist
+Rägavere
 
 
-Vambola , Tallinn
+Kuuse , Tallinn
 
-Vambola Tallinn
-, , Vambola
+Kuuse Tallinn
+, , Kuuse
 
 
-Bremeni käik , Tallinn
+Hiie , Tallinn
 
-Bremeni käik Tallinn
-, , Bremeni käik
+Hiie Tallinn
+, , Hiie
 
 
-Varsaallika , Tallinn
+Alasi 1 0 0 , Tallinn
 
-Varsaallika Tallinn
-, , Varsaallika
+Alasi sada Tallinn
+, , Alasi sada
 
 
-Käokannu tee , Tallinn
+Mäeranna , Estonia
 
-Käokannu tee Tallinn
-, , Käokannu tee
+Mäeranna
 
 
-Toomiku tee , Tallinn
+Piibe , Estonia
 
-Toomiku tee Tallinn
-, , Toomiku tee
+Piibe
 
 
-Eha , Tallinn
+Rähkloo 7 0 0 , Tallinn
 
-Eha Tallinn
-, , Eha
+Rähkloo seitse sada Tallinn
+, , Rähkloo seitse sada
 
 
-Laeva , Tallinn
+Vaagi 1 1 , Tallinn
 
-Laeva Tallinn
-, , Laeva
+Vaagi üks teist Tallinn
+, , Vaagi üks teist
 
 
-Niidu tee , Tallinn
+Paljandi , Tallinn
 
-Niidu tee Tallinn
-, , Niidu tee
+Paljandi Tallinn
+, , Paljandi
 
 
-Paekaare , Tallinn
+Vuti 5 0 0 , Tallinn
 
-Paekaare Tallinn
-, , Paekaare
+Vuti viis sada Tallinn
+, , Vuti viis sada
 
 
-Saeveski , Tallinn
+Rändrahnu tee 2 0 , Tallinn
 
-Saeveski Tallinn
-, , Saeveski
+Rändrahnu tee kaks kümmend Tallinn
+, , Rändrahnu tee kaks kümmend
 
 
-Prii , Tallinn
+Astla tee 3 0 0 , Tallinn
 
-Prii Tallinn
-, , Prii
+Astla tee kolm sada Tallinn
+, , Astla tee kolm sada
 
 
-Ferdinand Johann Wiedemanni , Tallinn
+Võru , Tallinn
 
-Ferdinand Johann Wiedemanni Tallinn
-, , Ferdinand Johann Wiedemanni
+Võru Tallinn
+, , Võru
 
 
-Juhkentali , Tallinn
+Vabe 5 0 3 , Tallinn
 
-Juhkentali Tallinn
-, , Juhkentali
+Vabe viis sada kolm Tallinn
+, , Vabe viis sada kolm
 
 
-Eerikneeme tee , Tallinn
+Vahulille tee 9 0 0 , Tallinn
 
-Eerikneeme tee Tallinn
-, , Eerikneeme tee
+Vahulille tee üheksa sada Tallinn
+, , Vahulille tee üheksa sada
 
 
-Joone , Tallinn
+Eoste , Estonia
 
-Joone Tallinn
-, , Joone
+Eoste
 
 
-Vee , Tallinn
+Sutu , Estonia
 
-Vee Tallinn
-, , Vee
+Sutu
 
 
-Luha 1 0 0 , Tallinn
+Liivaoja 3 1 , Tallinn
 
-Luha sada Tallinn
-, , Luha sada
+Liivaoja kolm kümmend üks Tallinn
+, , Liivaoja kolm kümmend üks
 
 
-Väina tee 1 0 0 , Tallinn
+Viitina , Estonia
 
-Väina tee sada Tallinn
-, , Väina tee sada
+Viitina
 
 
-Koskla 1 1 9 , Tallinn
+Vainutalu 1 1 0 , Tallinn
 
-Koskla sada üheksa teist Tallinn
-, , Koskla sada üheksa teist
+Vainutalu sada kümme Tallinn
+, , Vainutalu sada kümme
 
 
-Merimetsa tee 5 0 0 , Tallinn
+Lemmiku , Tallinn
 
-Merimetsa tee viis sada Tallinn
-, , Merimetsa tee viis sada
+Lemmiku Tallinn
+, , Lemmiku
 
 
-Mehaanika põik 1 1 , Tallinn
+Holdre , Estonia
 
-Mehaanika põik üks teist Tallinn
-, , Mehaanika põik üks teist
+Holdre
 
 
-Suvila 1 0 , Tallinn
+Mustjõe 1 9 1 , Tallinn
 
-Suvila kümme Tallinn
-, , Suvila kümme
+Mustjõe sada üheksa kümmend üks Tallinn
+, , Mustjõe sada üheksa kümmend üks
 
 
-Vimma , Tallinn
+Muraka , Tallinn
 
-Vimma Tallinn
-, , Vimma
+Muraka Tallinn
+, , Muraka
 
 
-Sitska tee 3 0 8 , Tallinn
+Õepa , Estonia
 
-Sitska tee kolm sada kaheksa Tallinn
-, , Sitska tee kolm sada kaheksa
+Õepa
 
 
-Vana-Kalamaja 1 0 0 , Tallinn
+Paju , Tallinn
 
-Vana-Kalamaja sada Tallinn
-, , Vana-Kalamaja sada
+Paju Tallinn
+, , Paju
 
 
-Sõnajala , Tallinn
+Lükati tee , Tallinn
 
-Sõnajala Tallinn
-, , Sõnajala
+Lükati tee Tallinn
+, , Lükati tee
 
 
-Pääsukese , Tallinn
+Soela , Estonia
 
-Pääsukese Tallinn
-, , Pääsukese
+Soela
 
 
-Männimetsa põik , Tallinn
+Parve , Estonia
 
-Männimetsa põik Tallinn
-, , Männimetsa põik
+Parve
 
 
-Vana-Tartu maantee 1 0 , Tallinn
+Viru väljak , Tallinn
 
-Vana-Tartu maantee kümme Tallinn
-, , Vana-Tartu maantee kümme
+Viru väljak Tallinn
+, , Viru väljak
 
 
-Kirsi , Tallinn
+Linnu , Estonia
 
-Kirsi Tallinn
-, , Kirsi
+Linnu
 
 
-Vaate põik , Tallinn
+Puhma 7 0 5 , Tallinn
 
-Vaate põik Tallinn
-, , Vaate põik
+Puhma seitse sada viis Tallinn
+, , Puhma seitse sada viis
 
 
-Õie põik 1 9 , Tallinn
+Mehide , Estonia
 
-Õie põik üheksa teist Tallinn
-, , Õie põik üheksa teist
+Mehide
 
 
-Väo tee 1 8 1 , Tallinn
+Vabaõhukooli tee 9 1 1 , Tallinn
 
-Väo tee sada kaheksa kümmend üks Tallinn
-, , Väo tee sada kaheksa kümmend üks
+Vabaõhukooli tee üheksa sada üks teist Tallinn
+, , Vabaõhukooli tee üheksa sada üks teist
 
 
-Rävala puiestee , Tallinn
+Moora , Tallinn
 
-Rävala puiestee Tallinn
-, , Rävala puiestee
+Moora Tallinn
+, , Moora
 
 
-Toome põik 5 0 0 , Tallinn
+Lina , Tallinn
 
-Toome põik viis sada Tallinn
-, , Toome põik viis sada
+Lina Tallinn
+, , Lina
 
 
-Rahvakooli tee 8 , Tallinn
+Lasnamäe , Tallinn
 
-Rahvakooli tee kaheksa Tallinn
-, , Rahvakooli tee kaheksa
+Lasnamäe Tallinn
+, , Lasnamäe
 
 
-Põlde põik , Tallinn
+Kodu , Tallinn
 
-Põlde põik Tallinn
-, , Põlde põik
+Kodu Tallinn
+, , Kodu
 
 
-Endla , Tallinn
+Viinistu , Estonia
 
-Endla Tallinn
-, , Endla
+Viinistu
 
 
-Uus-Maleva 1 0 0 , Tallinn
+Sõlme 1 0 , Tallinn
 
-Uus-Maleva sada Tallinn
-, , Uus-Maleva sada
+Sõlme kümme Tallinn
+, , Sõlme kümme
 
 
-Veski , Tallinn
+Lihulõpe , Estonia
 
-Veski Tallinn
-, , Veski
+Lihulõpe
 
 
-Kiuru , Tallinn
+Kullese 1 0 0 , Tallinn
 
-Kiuru Tallinn
-, , Kiuru
+Kullese sada Tallinn
+, , Kullese sada
 
 
-Kaskede puiestee , Tallinn
+Kirikküla , Estonia
 
-Kaskede puiestee Tallinn
-, , Kaskede puiestee
+Kirikküla
 
 
-Vaimu , Tallinn
+Tuulemäe , Tallinn
 
-Vaimu Tallinn
-, , Vaimu
+Tuulemäe Tallinn
+, , Tuulemäe
 
 
-Rangu 8 0 , Tallinn
+Soovildiku 1 0 , Tallinn
 
-Rangu kaheksa kümmend Tallinn
-, , Rangu kaheksa kümmend
+Soovildiku kümme Tallinn
+, , Soovildiku kümme
 
 
-Hobusepea 4 0 0 , Tallinn
+Luuri , Estonia
 
-Hobusepea neli sada Tallinn
-, , Hobusepea neli sada
+Luuri
 
 
-Juhan Sütiste tee 8 1 1 , Tallinn
+Padu , Estonia
 
-Juhan Sütiste tee kaheksa sada üks teist Tallinn
-, , Juhan Sütiste tee kaheksa sada üks teist
+Padu
 
 
-Tõivu 5 , Tallinn
+Talviku , Tallinn
 
-Tõivu viis Tallinn
-, , Tõivu viis
+Talviku Tallinn
+, , Talviku
 
 
-Kivimurru , Tallinn
+Unimäe , Estonia
 
-Kivimurru Tallinn
-, , Kivimurru
+Unimäe
 
 
-Kärbi , Tallinn
+Alaküla , Estonia
 
-Kärbi Tallinn
-, , Kärbi
+Alaküla
 
 
 
