@@ -18,7 +18,8 @@ fun
 	-- So we define a new function instead.
 	small_num : Sub1000 -> SmallNumeral;
 
+	address0 : Town -> Address;
 	address1 : Street -> Town -> Address;
-	address2 : Street -> SmallNumeral -> Town -> Address;
+	address2 : SmallNumeral -> Street -> Town -> Address;
 
 }

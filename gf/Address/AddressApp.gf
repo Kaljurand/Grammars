@@ -8,6 +8,7 @@ lincat Address, SmallNumeral = SS;
 
 lin
 	small_num n = {s = n.s ! noz} ;
+	address0 x = ss x;
 	address1 x y = ss (x ++ "," ++ y);
-	address2 x y z = ss (x ++ y.s ++ "," ++ z);
+	address2 x y z = ss (y ++ x.s ++ "," ++ z);
 }
