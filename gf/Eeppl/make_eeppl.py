@@ -6,7 +6,7 @@
 
 # Usage:
 #
-# cat tallinn3.htm | sh filter.sh | python make_street.py
+# cat EE.txt | cut -f2,8 | grep PPL | cut -f1 | sort | uniq | python make_eeppl.py
 #
 # TODO:
 #
