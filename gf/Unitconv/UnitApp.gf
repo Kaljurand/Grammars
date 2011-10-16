@@ -5,7 +5,7 @@ flags coding=utf8;
 oper
 
 	simple_product : Str -> SS -> SS -> SS
-        = \n1,x,y -> ss (glue5 x.s "*" y.s "**" n1) ;
+        = \n1,x,y -> ss (glue x.s "*" y.s "**" n1) ;
 
 	product : Str -> Str -> SS -> SS -> SS
         = \n1,n2,x,y -> ss (x.s ++ "**" ++ n1 ++ "*" ++ y.s ++ "**" ++ n2) ;
