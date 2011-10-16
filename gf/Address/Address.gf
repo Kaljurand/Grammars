@@ -1,4 +1,4 @@
-abstract Address = Town, StreetF, Numerals ** {
+abstract Address = Eeppl, Town, StreetF, Numerals ** {
 
 flags startcat = Address;
 
@@ -18,7 +18,7 @@ fun
 	-- So we define a new function instead.
 	small_num : Sub1000 -> SmallNumeral;
 
-	address0 : Town -> Address;
+	address0 : Eeppl -> Address;
 	address1 : Street -> Town -> Address;
 	address2 : SmallNumeral -> Street -> Town -> Address;
 

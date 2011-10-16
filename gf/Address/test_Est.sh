@@ -1,6 +1,6 @@
 # Declare the name of the grammar and the paths to the used libraries
-name="Address"
-path=":../Numerals/:../lib/"
+name=$1
+path=$2
 
 l="${name}Est"
 examples="examples/"

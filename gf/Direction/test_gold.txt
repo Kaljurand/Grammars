@@ -6,6 +6,8 @@ direction_id (address1 s74 tallinn)
 
 direction_id (address2 (small_num (pot1as2 (pot0as1 (pot0 n4)))) s74 tallinn)
 
+direction (address2 (small_num (pot1as2 (pot0as1 (pot0 n2)))) s597 tallinn) (address0 Pariisi)
+
 direction (address2 (small_num (pot1as2 (pot0as1 (pot0 n2)))) s94 tallinn) (address2 (small_num (pot1as2 (pot0as1 (pot0 n4)))) s74 tallinn)
 
 FROM Estonia puiestee 2 , Tallinn TO Carl Robert Jakobsoni 4 , Tallinn

@@ -1,4 +1,4 @@
-concrete AddressEst of Address = TownEst - [tallinn], StreetFEst, estonian ** open StringOper in {
+concrete AddressEst of Address = EepplEst, TownEst - [tallinn], StreetFEst, estonian ** open StringOper in {
 
 flags coding=utf8;
 
