@@ -1,14 +1,19 @@
 concrete CurrencyEst of Currency = open StringOper, Estonian in {
 
 -- @author Kaarel Kaljurand
--- @version 2011-10-05
+-- @version 2011-10-19
 
 flags coding=utf8;
 
 oper
 
+	mk_major_currency : CaseStr = f "suurt valuutat" "suures valuutas" ;
+
 	mk_raha : Str -> CaseStr = \x ->
 		f (x ++ "raha") (x ++ "rahas") ;
+
+	mk_currency_variants_4 : Str -> Str -> CaseStr = \x,y ->
+		variants { mk y ; mk (x ++ y); mk_raha x; mk_major_currency };
 
 	-- Generates 3 variants, from two input strings, e.g.:
 	-- Input: "ameerika", "dollarit"
@@ -28,9 +33,9 @@ lincat CurrencyUnit = CaseStr;
 lin
 
 -- TODO: get the country names from the Country-module
-usd = mk_currency_variants_3 "ameerika" "dollarit";
-gbp = mk_currency_variants_3 "inglise" "naela";
-jpy = mk_currency_variants_3 "jaapani" "jeeni";
+usd = mk_currency_variants_4 "ameerika" "dollarit";
+gbp = mk_currency_variants_4 "inglise" "naela";
+jpy = mk_currency_variants_4 "jaapani" "jeeni";
 rub = mk_currency_variants_3 "vene" "rubla";
 huf = mk_currency_variants_3 "ungari" "forintit";
 
@@ -45,10 +50,10 @@ isk = mk_currency_variants_2 "islandi" "krooni";
 -- This gradation does not seem to be very regular
 -- e.g. meetrit -> *meetrides; dollarit -> *dollarides
 -- TODO: what does it depend on?
-eur = f "eurot" "eurodes";
+eur = f "eurot" "eurodes" | mk_major_currency;
 
 -- TODO: use Unicode!
-chf = mk_currency_variants_3 "s~veitsi" "franki";
+chf = mk_currency_variants_4 "s~veitsi" "franki";
 
 eek = variants {
 		mk "krooni" ;

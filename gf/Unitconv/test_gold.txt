@@ -5,11 +5,9 @@ Parsing examples/Est.txt
 kaks meetrit jalgades
 
 
-
 3 0 0 0 L IN cup_us
 
 kolm tuhat liitrit tassides
-
 
 
 1 1 1 1 1 0 flour-cup IN flour-cup
@@ -17,22 +15,18 @@ kolm tuhat liitrit tassides
 sada üks teist tuhat sada kümme tassi jahu jahu tassides
 
 
-
 1 2 ft IN ft
 
 kaks teist jalga jalgades
-
 
 
 5 ' IN "
 
 viis minutit sekundites
 
-
 5 min IN s
 
 viis minutit sekundites
-
 
 
 2 ha IN k m **2
@@ -40,13 +34,11 @@ viis minutit sekundites
 kaks hektarit ruut kilo meetrites
 
 
-
 2 k m IN c m
 
 kaks kilo meetrit senti meetrites
 
 
-
 2 NOK IN EEK
 
 kaks norra krooni kroonides
@@ -66,7 +58,6 @@ kaks norra raha eesti rahas
 kaks norra raha vanas rahas
 
 
-
 2 NOK IN EEK
 
 kaks norra krooni kroonides
@@ -84,7 +75,6 @@ kaks norra raha eesti kroonides
 kaks norra raha eesti rahas
 
 kaks norra raha vanas rahas
-
 
 
 2 EEK IN USD
@@ -95,11 +85,15 @@ kaks krooni ameerika dollarites
 
 kaks krooni ameerika rahas
 
+kaks krooni suures valuutas
+
 kaks eesti krooni dollarites
 
 kaks eesti krooni ameerika dollarites
 
 kaks eesti krooni ameerika rahas
+
+kaks eesti krooni suures valuutas
 
 kaks eesti raha dollarites
 
@@ -107,12 +101,15 @@ kaks eesti raha ameerika dollarites
 
 kaks eesti raha ameerika rahas
 
+kaks eesti raha suures valuutas
+
 kaks vana raha dollarites
 
 kaks vana raha ameerika dollarites
 
 kaks vana raha ameerika rahas
 
+kaks vana raha suures valuutas
 
 
 2 m L IN µ cup_us
@@ -120,11 +117,9 @@ kaks vana raha ameerika rahas
 kaks milli liitrit mikro tassides
 
 
-
 2 M ha IN k m **2
 
 kaks mega hektarit ruut kilo meetrites
-
 
 
 5 0 0 c m **3 IN µ ft **3
@@ -133,22 +128,10 @@ viis sada kuup senti meetrit kuup mikro jalgades
 
 
 
-2 k m / m s IN m m / µ s
-
-kaks kilo meetrit milli sekundis milli meetrites mikro sekundis
-
-
-
-2 k m * m s ** -2 IN m m * µ s ** -2
-
-kaks kilo meetrit ruut milli sekundis milli meetrites ruut mikro sekundis
-
-
 
 2 k W h IN M W h
 
 kaks kilo vatt tundi mega vatt tundides
-
 
 
 2 CHF IN RUB
@@ -171,6 +154,99 @@ kaks s~veitsi raha vene rublades
 
 kaks s~veitsi raha vene rahas
 
+kaks suurt valuutat rublades
+
+kaks suurt valuutat vene rublades
+
+kaks suurt valuutat vene rahas
+
+
+2 m*s**-2 IN ft*min**-2
+
+kaks meetrit ruut sekundis jalgades ruut minutis
+
+
+2 NOK IN CHF
+
+kaks norra krooni frankides
+
+kaks norra krooni s~veitsi frankides
+
+kaks norra krooni s~veitsi rahas
+
+kaks norra krooni suures valuutas
+
+kaks norra raha frankides
+
+kaks norra raha s~veitsi frankides
+
+kaks norra raha s~veitsi rahas
+
+kaks norra raha suures valuutas
+
+2 NOK IN EUR
+
+kaks norra krooni eurodes
+
+kaks norra krooni suures valuutas
+
+kaks norra raha eurodes
+
+kaks norra raha suures valuutas
+
+2 NOK IN GBP
+
+kaks norra krooni naelades
+
+kaks norra krooni inglise naelades
+
+kaks norra krooni inglise rahas
+
+kaks norra krooni suures valuutas
+
+kaks norra raha naelades
+
+kaks norra raha inglise naelades
+
+kaks norra raha inglise rahas
+
+kaks norra raha suures valuutas
+
+2 NOK IN JPY
+
+kaks norra krooni jeenides
+
+kaks norra krooni jaapani jeenides
+
+kaks norra krooni jaapani rahas
+
+kaks norra krooni suures valuutas
+
+kaks norra raha jeenides
+
+kaks norra raha jaapani jeenides
+
+kaks norra raha jaapani rahas
+
+kaks norra raha suures valuutas
+
+2 NOK IN USD
+
+kaks norra krooni dollarites
+
+kaks norra krooni ameerika dollarites
+
+kaks norra krooni ameerika rahas
+
+kaks norra krooni suures valuutas
+
+kaks norra raha dollarites
+
+kaks norra raha ameerika dollarites
+
+kaks norra raha ameerika rahas
+
+kaks norra raha suures valuutas
 
 
 Parsing examples/App.txt
@@ -180,11 +256,9 @@ Parsing examples/App.txt
 kaks meetrit jalgades
 
 
-
 1 0 0 0 m °C IN °C
 
 tuhat milli kraadi kraadides
-
 
 
 2 k m **2 IN ha
@@ -192,11 +266,9 @@ tuhat milli kraadi kraadides
 kaks ruut kilo meetrit hektarites
 
 
-
 3 m m IN µ m
 
 kolm milli meetrit mikro meetrites
-
 
 
 3 k g IN n g
@@ -204,23 +276,28 @@ kolm milli meetrit mikro meetrites
 kolm kilo grammi nano grammides
 
 
-
 3 °C IN m °C
 
 kolm kraadi milli kraadides
-
 
 
 3 EEK IN EUR
 
 kolm krooni eurodes
 
+kolm krooni suures valuutas
+
 kolm eesti krooni eurodes
+
+kolm eesti krooni suures valuutas
 
 kolm eesti raha eurodes
 
+kolm eesti raha suures valuutas
+
 kolm vana raha eurodes
 
+kolm vana raha suures valuutas
 
 
 3 NOK IN NOK
@@ -234,7 +311,6 @@ kolm norra raha norra kroonides
 kolm norra raha norra rahas
 
 
-
 3 USD IN USD
 
 kolm dollarit dollarites
@@ -243,11 +319,15 @@ kolm dollarit ameerika dollarites
 
 kolm dollarit ameerika rahas
 
+kolm dollarit suures valuutas
+
 kolm ameerika dollarit dollarites
 
 kolm ameerika dollarit ameerika dollarites
 
 kolm ameerika dollarit ameerika rahas
+
+kolm ameerika dollarit suures valuutas
 
 kolm ameerika raha dollarites
 
@@ -255,6 +335,15 @@ kolm ameerika raha ameerika dollarites
 
 kolm ameerika raha ameerika rahas
 
+kolm ameerika raha suures valuutas
+
+kolm suurt valuutat dollarites
+
+kolm suurt valuutat ameerika dollarites
+
+kolm suurt valuutat ameerika rahas
+
+kolm suurt valuutat suures valuutas
 
 
 3 m Hz IN µ Hz
@@ -262,11 +351,9 @@ kolm ameerika raha ameerika rahas
 kolm milli hertsi mikro hertsides
 
 
-
 3 m / s IN k m / h
 
 kolm meetrit sekundis kilo meetrites tunnis
-
 
 
 3 c IN k m / µ s
@@ -274,17 +361,14 @@ kolm meetrit sekundis kilo meetrites tunnis
 kolm valgus kiirust kilo meetrites mikro sekundis
 
 
-
 3 k m / µ s IN c
 
 kolm kilo meetrit mikro sekundis valgus kiirustes
 
 
-
-3 m * s ** -2 IN k m * µ s ** -2
+3 m*s**-2 IN k m*µ s**-2
 
 kolm meetrit ruut sekundis kilo meetrites ruut mikro sekundis
-
 
 
 3 in IN ft
@@ -292,14 +376,18 @@ kolm meetrit ruut sekundis kilo meetrites ruut mikro sekundis
 kolm tolli jalgades
 
 
-
 2 HUF IN EUR
 
 kaks forintit eurodes
 
+kaks forintit suures valuutas
+
 kaks ungari forintit eurodes
+
+kaks ungari forintit suures valuutas
 
 kaks ungari raha eurodes
 
+kaks ungari raha suures valuutas
 
 

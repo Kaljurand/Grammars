@@ -54,6 +54,18 @@ TODO
     * (a + (b ^ (c * d)))
     * ((a + (b ^ c)) * d)
 
+BUGs
+-----
+
+These used to work but do not anymore for some reason,
+i.e. generation to Est works but parsing of Est does not:
+
+    kaks kilo meetrit milli sekundis milli meetrites mikro sekundis
+    2 k m / m s IN m m / µ s
+
+    kaks kilo meetrit ruut milli sekundis milli meetrites ruut mikro sekundis
+    2 k m * m s ** -2 IN m m * µ s ** -2
+
 
 How to add a new unit to the grammar
 ------------------------------------
