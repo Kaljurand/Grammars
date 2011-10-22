@@ -1,10 +1,11 @@
-export GF_LIB_PATH="../lib/"
+path="../lib/"
 
 echo "Testing: App -> ALL"
 echo
 
-echo "read_file -file=\"examples/App.txt\" -lines | p -tr -lang=NumeralApp | l | ps -bind" | gf --run Numeral???.gf
+cat examples/App.txt | sed "s/^/p -tr -lang=NumeralApp \"/" | sed 's/$/" | l | ps -bind/' | gf --run --path $path Numeral???.gf
 
 echo "Testing: Est -> App"
 echo
-echo "read_file -file=\"examples/Est.txt\" -lines | p -tr -lang=NumeralEst | l -lang=NumeralApp | ps -unchars" | gf --run Numeral???.gf
+
+cat examples/Est.txt | sed "s/^/p -tr -lang=NumeralEst \"/" | sed 's/$/" | l -lang=NumeralApp | ps -bind/' | gf --run --path $path Numeral???.gf

@@ -1,31 +1,46 @@
 Testing: App -> ALL
 
 num (pot3plus (pot2plus (pot0 n9) (pot1plus n8 (pot0 n7))) (pot2plus (pot0 n5) (pot1plus n4 pot01)))
+
+987541
+üheksa sada kaheksa kümmend seitse tuhat viis sada neli kümmend üks
+
 num (pot2as3 (pot2 pot01))
+
+100
+sada
+
 num (pot2as3 (pot1as2 pot111))
+
+11
+üks teist
+
 num (pot2as3 (pot2plus pot01 pot111))
+
+111
+sada üks teist
+
 num (pot3plus (pot2plus (pot0 n3) (pot1plus n9 (pot0 n8))) (pot2plus (pot0 n7) (pot1plus n5 (pot0 n4))))
+
+398754
+kolm sada üheksa kümmend kaheksa tuhat seitse sada viis kümmend neli
+
 num (pot3plus (pot1as2 (pot0as1 (pot0 n4))) (pot2plus (pot0 n3) (pot1to19 n7)))
 
-9 8 7 5 4 1
-üheksa sada kaheksa kümmend seitse tuhat viis sada neli kümmend üks
-1 0 0
-sada
-1 1
-üks teist
-1 1 1
-sada üks teist
-3 9 8 7 5 4
-kolm sada üheksa kümmend kaheksa tuhat seitse sada viis kümmend neli
-4 3 1 7
+4317
 neli tuhat kolm sada seitse teist
 
 Testing: Est -> App
 
 num (pot3plus (pot1as2 (pot0as1 (pot0 n2))) (pot1as2 (pot0as1 (pot0 n2))))
-num (pot2as3 (pot2plus pot01 pot111))
-The parser failed at token "sada"
 
 2002
+
+num (pot2as3 (pot2plus pot01 pot111))
+
 111
+
+num (pot3plus (pot1as2 (pot0as1 (pot0 n2))) (pot2plus (pot0 n2) (pot1plus n2 (pot0 n2))))
+
+2222
 
