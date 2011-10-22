@@ -1,8 +1,6 @@
 concrete NumeralEst of Numeral = {
 
--- This is a simple port of examples/numerals/finnish.gf (GF v3.2.9) to Estonian.
--- Only some strings have been renamed ("viisi" -> "viis") but no structures
--- have been changed.
+-- This is a port of examples/numerals/finnish.gf (GF v3.2.9) to Estonian.
 --
 -- Note: this grammar does not glue -teist, -kümmend, ja -sada, which is
 -- orthographically incorrect but more suitable for the Estonian speech recognizer.
@@ -10,68 +8,63 @@ concrete NumeralEst of Numeral = {
 -- Note: this grammar supports "tuhat sada" and does not support "tuhat üks sada".
 --
 -- @author Kaarel Kaljurand
--- @version 2011-10-14
+-- @version 2011-10-22
 
 flags coding=utf8;
 
-param Place = indep | attr  ;
-param Nm = sg  | pl  ;
--- TODO: remove this complexity (which does not exist in Estonian)
-oper sata : Nm => Str =
-  table {sg => "sada" ; pl => "sada"} ;
-oper tuhat : Nm => Str =
-  table {sg => "tuhat" ; pl => "tuhat"} ;
+param Place = indep | attr ;
+param Nm = sg | pl ;
 lincat Numeral = {s : Str} ;
 lincat Digit = {s : Str} ;
-lincat Sub10 = {inh : Nm ; s : Place => Str} ;
-lincat Sub100 = {inh : Nm ; s : Place => Str} ;
-lincat Sub1000 = {inh : Nm ; s : Place => Str} ;
+lincat Sub10 = {s : Place => Str} ;
+lincat Sub100 = {s : Place => Str} ;
+lincat Sub1000 = {s : Place => Str} ;
 lincat Sub1000000 = {s : Str} ;
 lin num x0 =
   {s = x0.s} ;
-lin n2  =
+lin n2 =
   {s = "kaks"} ;
-lin n3  =
+lin n3 =
   {s = "kolm"} ;
-lin n4  =
+lin n4 =
   {s = "neli"} ;
-lin n5  =
+lin n5 =
   {s = "viis"} ;
-lin n6  =
+lin n6 =
   {s = "kuus"} ;
-lin n7  =
+lin n7 =
   {s = "seitse"} ;
-lin n8  =
+lin n8 =
   {s = "kaheksa"} ;
-lin n9  =
+lin n9 =
   {s = "üheksa"} ;
-lin pot01  =
-  {inh = sg ; s = table {attr => [] ; indep => "üks"}} ;
+lin pot01 =
+  {s = table {attr => [] ; indep => "üks"}} ;
 lin pot0 d =
-  {inh = pl ; s = table {p => d.s}} ;
-lin pot110  =
-  {inh = pl ; s = table {p => "kümme"}} ;
-lin pot111  =
-  {inh = pl ; s = table {p => "üks"++"teist"}} ;
+  {s = table {p => d.s}} ;
+lin pot110 =
+  {s = table {p => "kümme"}} ;
+lin pot111 =
+  {s = table {p => "üks" ++ "teist"}} ;
 lin pot1to19 d =
-  {inh = pl ; s = table {p => d.s ++ "teist"}} ;
+  {s = table {p => d.s ++ "teist"}} ;
 lin pot0as1 n =
-  {inh = n.inh ; s = table {p => n.s ! p}} ;
+  {s = table {p => n.s ! p}} ;
 lin pot1 d =
-  {inh = pl ; s = table {p => d.s ++ "kümmend"}} ;
+  {s = table {p => d.s ++ "kümmend"}} ;
 lin pot1plus d e =
-  {inh = pl ; s = table {p => d.s ++ "kümmend" ++ e.s ! indep}} ;
+  {s = table {p => d.s ++ "kümmend" ++ e.s ! indep}} ;
 lin pot1as2 n =
-  {inh = n.inh ; s = table {p => n.s ! p}} ;
+  {s = table {p => n.s ! p}} ;
 lin pot2 d =
-  {inh = pl ; s = table {p => (d.s ! attr) ++ sata ! (d.inh)}} ;
+  {s = table {p => (d.s ! attr) ++ "sada" }} ;
 lin pot2plus d e =
-  {inh = pl ; s = table {p => (d.s ! attr) ++ (sata ! (d.inh)) ++ e.s ! indep}} ;
+  {s = table {p => (d.s ! attr) ++ "sada" ++ e.s ! indep}} ;
 lin pot2as3 n =
   {s = n.s ! indep} ;
 lin pot3 n =
-  {s = (n.s ! attr) ++ tuhat ! (n.inh)} ;
+  {s = (n.s ! attr) ++ "tuhat"} ;
 lin pot3plus n m =
-  {s = (n.s ! attr) ++ (tuhat ! (n.inh)) ++ m.s ! indep} ;
+  {s = (n.s ! attr) ++ "tuhat" ++ m.s ! indep} ;
 
 }
