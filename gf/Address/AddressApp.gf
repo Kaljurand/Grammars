@@ -1,4 +1,4 @@
-concrete AddressApp of Address = EepplEst, TownEst, StreetFEst, decimal ** open StringOper in {
+concrete AddressApp of Address = EepplEst, TownEst, StreetFEst, NumeralApp ** open StringOper in {
 
 -- AddressApp refers to the Google Maps query language
 -- which has the following features:

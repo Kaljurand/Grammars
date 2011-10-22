@@ -5,17 +5,17 @@ Parsing examples/Est.txt
 kaks meetrit jalgades
 
 
-3 0 0 0 L IN cup_us
+3000 L IN cup_us
 
 kolm tuhat liitrit tassides
 
 
-1 1 1 1 1 0 flour-cup IN flour-cup
+111110 flour-cup IN flour-cup
 
 sada üks teist tuhat sada kümme tassi jahu jahu tassides
 
 
-1 2 ft IN ft
+12 ft IN ft
 
 kaks teist jalga jalgades
 
@@ -122,7 +122,7 @@ kaks milli liitrit mikro tassides
 kaks mega hektarit ruut kilo meetrites
 
 
-5 0 0 c m **3 IN µ ft **3
+500 c m **3 IN µ ft **3
 
 viis sada kuup senti meetrit kuup mikro jalgades
 
@@ -256,7 +256,7 @@ Parsing examples/App.txt
 kaks meetrit jalgades
 
 
-1 0 0 0 m °C IN °C
+1000 m °C IN °C
 
 tuhat milli kraadi kraadides
 

@@ -1,36 +1,27 @@
 Pariisi , Estonia
 Pariisi
 
+Estonia puiestee , Tallinn
+Estonia puiestee Tallinn
+
+Estonia puiestee 23 , Tallinn
+Estonia puiestee kaks kümmend kolm Tallinn
 
 Estonia puiestee , Tallinn
 Estonia puiestee Tallinn
 
-
-Estonia puiestee 2 3 , Tallinn
+Estonia puiestee 23 , Tallinn
 Estonia puiestee kaks kümmend kolm Tallinn
 
-
-Estonia puiestee , Tallinn
-Estonia puiestee Tallinn
-
-
-Estonia puiestee 2 3 , Tallinn
-Estonia puiestee kaks kümmend kolm Tallinn
-
-
-Estonia puiestee 8 7 6 , Tallinn
+Estonia puiestee 876 , Tallinn
 Estonia puiestee kaheksa sada seitse kümmend kuus Tallinn
 
-
 Estonia puiestee , Tallinn
 Estonia puiestee Tallinn
 
-
-Estonia puiestee 2 3 , Tallinn
+Estonia puiestee 23 , Tallinn
 Estonia puiestee kaks kümmend kolm Tallinn
 
-
-Estonia puiestee 9 8 7 , Tallinn
+Estonia puiestee 987 , Tallinn
 Estonia puiestee üheksa sada kaheksa kümmend seitse Tallinn
-
 

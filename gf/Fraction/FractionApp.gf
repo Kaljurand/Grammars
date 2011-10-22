@@ -1,8 +1,6 @@
---# -path=lib:Numerals
+concrete FractionApp of Fraction = NumeralApp ** open StringOper in {
 
-concrete FractionApp of Fraction = decimal ** open StringOper in {
-
--- The simple combination by placing a dot between two numberals has the
+-- The simple combination by placing a dot between two numerals has the
 -- following consequences for the lexical space:
 --
 --   * allowed: "1 . 200"

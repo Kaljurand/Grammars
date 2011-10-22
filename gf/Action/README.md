@@ -11,4 +11,4 @@ sense in the context of "voice actions", e.g.
 Compiling
 ---------
 
-    gf -s --make --optimize-pgf --mk-index --path "Calc:Address:Direction:Exp:Unitconv:Numerals:Fraction:lib" Action/Action???.gf
+    gf -s --make --optimize-pgf --mk-index --path "Calc:Address:Direction:Exp:Unitconv:Numeral:Fraction:lib" Action/Action???.gf

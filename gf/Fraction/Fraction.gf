@@ -1,6 +1,4 @@
---# -path=Numerals
-
-abstract Fraction = Numerals ** {
+abstract Fraction = Numeral ** {
 
 -- Fraction is an extension of Numeral which adds a function
 -- for combining two numerals (e.g. with a decimal point).

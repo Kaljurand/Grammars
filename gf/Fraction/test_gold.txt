@@ -78,7 +78,7 @@ fraction (copy2 (pair (num (pot2as3 (pot1as2 (pot0as1 (pot0 n2))))) (num (pot2as
 
 fraction (copy2 (pair null (num (pot2as3 (pot1as2 (pot1 n5))))))
 
-0 . 5 0
+0 . 5 &+ 0
 
 
 
@@ -100,7 +100,7 @@ PI
 
 fraction (neg2 (pair null (num (pot2as3 (pot1as2 (pot1to19 n5))))))
 
-- 0 . 1 5
+- 0 . 1 &+ 5
 
 
 

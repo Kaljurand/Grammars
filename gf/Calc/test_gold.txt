@@ -3,18 +3,14 @@ exp (e_mult (e_plus (numeral (fraction (copy1 (num (pot2as3 (pot1as2 (pot0as1 (p
 kaks pluss kolm korda viis
 
 
-
 unitconv (main (fraction (copy1 (num (pot2as3 (pot1as2 (pot0as1 (pot0 n2))))))) (length (length_unit meter) (length_unit foot)))
 
 kaks meetrit jalgades
 
 
-
 ( ( 2 + 3 ) * 5 )
 
 
-
 2 ft **2 IN m **2
-
 
 

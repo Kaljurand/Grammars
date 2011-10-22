@@ -1,4 +1,4 @@
-path="lib:Address:Calc:Digit:Direction:Eeppl:Exp:Fraction:Letter:Numerals:Unitconv"
+path="lib:Address:Calc:Digit:Direction:Eeppl:Exp:Fraction:Letter:Numeral:Unitconv"
 
 # TODO: this script assumes that the languages are always called Est and App.
 # This is needed for "gr -lang". If we do not specify lang then we

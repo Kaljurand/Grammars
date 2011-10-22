@@ -16,10 +16,4 @@ so we use ExpEstl.
 Compiling
 ---------
 
-    gf -s --make --optimize-pgf --mk-index --path "../Exp/:../Unitconv/:../Numerals/:../Fraction/:../lib/" Calc???.gf
-
-
-TODO
-----
-
-  * Maybe there exists a nicer way to achieve this union?
+    gf -s --make --optimize-pgf --mk-index --path "Exp:Unitconv:Numeral:Fraction:lib" Calc/Calc???.gf

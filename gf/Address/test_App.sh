@@ -10,5 +10,5 @@ e_f="${examples}App.txt"
 # These are the actual tests
 cat ${e_f} |\
 sed "s/^/p -lang=${l} \"/" |\
-sed "s/$/\" | l/" |\
+sed "s/$/\" | l | ps -bind/" |\
 gf --run --path $path ${name}???.gf

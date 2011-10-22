@@ -1,5 +1,5 @@
 2 m IN ft
-1 0 0 0 m °C IN °C
+1 &+ 0 &+ 0 &+ 0 m °C IN °C
 2 k m **2 IN ha
 3 m m IN µ m
 3 k g IN n g

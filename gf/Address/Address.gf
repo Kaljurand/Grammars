@@ -1,4 +1,4 @@
-abstract Address = Eeppl, Town, StreetF, Numerals ** {
+abstract Address = Eeppl, Town, StreetF, Numeral ** {
 
 flags startcat = Address;
 
