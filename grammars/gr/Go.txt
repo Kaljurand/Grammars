@@ -1,43 +1,8 @@
-5 m >
-
-go five meters forward
-
-mine viis meetrit tagasi
-
-
 4 m >
 
 go four meters forward
 
 mine neli meetrit tagasi
-
-
-3 m >
-
-go three meters forward
-
-mine kolm meetrit tagasi
-
-
-5 m >
-
-go five meters forward
-
-mine viis meetrit tagasi
-
-
-4 m <
-
-go four meters back
-
-mine neli meetrit edasi
-
-
-4 m <
-
-go four meters back
-
-mine neli meetrit edasi
 
 
 1 m >
@@ -47,46 +12,11 @@ go one meters forward
 mine üks meetrit tagasi
 
 
-1 m >
+2 m <
 
-go one meters forward
+go two meters back
 
-mine üks meetrit tagasi
-
-
-3 m >
-
-go three meters forward
-
-mine kolm meetrit tagasi
-
-
-5 m <
-
-go five meters back
-
-mine viis meetrit edasi
-
-
-3 m >
-
-go three meters forward
-
-mine kolm meetrit tagasi
-
-
-4 m >
-
-go four meters forward
-
-mine neli meetrit tagasi
-
-
-4 m <
-
-go four meters back
-
-mine neli meetrit edasi
+mine kaks meetrit edasi
 
 
 3 m <
@@ -96,6 +26,48 @@ go three meters back
 mine kolm meetrit edasi
 
 
+5 m >
+
+go five meters forward
+
+mine viis meetrit tagasi
+
+
+5 m <
+
+go five meters back
+
+mine viis meetrit edasi
+
+
+4 m >
+
+go four meters forward
+
+mine neli meetrit tagasi
+
+
+5 m <
+
+go five meters back
+
+mine viis meetrit edasi
+
+
+5 m <
+
+go five meters back
+
+mine viis meetrit edasi
+
+
+2 m >
+
+go two meters forward
+
+mine kaks meetrit tagasi
+
+
 3 m >
 
 go three meters forward
@@ -103,18 +75,18 @@ go three meters forward
 mine kolm meetrit tagasi
 
 
-1 m >
+5 m >
 
-go one meters forward
+go five meters forward
 
-mine üks meetrit tagasi
+mine viis meetrit tagasi
 
 
-1 m >
+3 m <
 
-go one meters forward
+go three meters back
 
-mine üks meetrit tagasi
+mine kolm meetrit edasi
 
 
 2 m >
@@ -131,18 +103,11 @@ go two meters back
 mine kaks meetrit edasi
 
 
-1 m >
+3 m <
 
-go one meters forward
+go three meters back
 
-mine üks meetrit tagasi
-
-
-1 m >
-
-go one meters forward
-
-mine üks meetrit tagasi
+mine kolm meetrit edasi
 
 
 2 m >
@@ -152,6 +117,13 @@ go two meters forward
 mine kaks meetrit tagasi
 
 
+4 m >
+
+go four meters forward
+
+mine neli meetrit tagasi
+
+
 1 m <
 
 go one meters back
@@ -159,18 +131,11 @@ go one meters back
 mine üks meetrit edasi
 
 
-1 m <
+4 m <
 
-go one meters back
+go four meters back
 
-mine üks meetrit edasi
-
-
-2 m <
-
-go two meters back
-
-mine kaks meetrit edasi
+mine neli meetrit edasi
 
 
 3 m <
@@ -178,20 +143,6 @@ mine kaks meetrit edasi
 go three meters back
 
 mine kolm meetrit edasi
-
-
-5 m <
-
-go five meters back
-
-mine viis meetrit edasi
-
-
-5 m >
-
-go five meters forward
-
-mine viis meetrit tagasi
 
 
 4 m >
@@ -201,11 +152,46 @@ go four meters forward
 mine neli meetrit tagasi
 
 
-3 m <
+2 m >
 
-go three meters back
+go two meters forward
 
-mine kolm meetrit edasi
+mine kaks meetrit tagasi
+
+
+4 m >
+
+go four meters forward
+
+mine neli meetrit tagasi
+
+
+2 m <
+
+go two meters back
+
+mine kaks meetrit edasi
+
+
+1 m <
+
+go one meters back
+
+mine üks meetrit edasi
+
+
+4 m <
+
+go four meters back
+
+mine neli meetrit edasi
+
+
+5 m <
+
+go five meters back
+
+mine viis meetrit edasi
 
 
 1 m >
@@ -215,46 +201,39 @@ go one meters forward
 mine üks meetrit tagasi
 
 
-2 m <
+5 m >
 
-go two meters back
+go five meters forward
 
-mine kaks meetrit edasi
-
-
-2 m <
-
-go two meters back
-
-mine kaks meetrit edasi
+mine viis meetrit tagasi
 
 
-4 m >
+1 m >
 
-go four meters forward
+go one meters forward
 
-mine neli meetrit tagasi
-
-
-4 m >
-
-go four meters forward
-
-mine neli meetrit tagasi
+mine üks meetrit tagasi
 
 
-2 m <
+1 m >
 
-go two meters back
+go one meters forward
 
-mine kaks meetrit edasi
+mine üks meetrit tagasi
 
 
-4 m <
+5 m <
 
-go four meters back
+go five meters back
 
-mine neli meetrit edasi
+mine viis meetrit edasi
+
+
+2 m >
+
+go two meters forward
+
+mine kaks meetrit tagasi
 
 
 4 m <
@@ -262,6 +241,20 @@ mine neli meetrit edasi
 go four meters back
 
 mine neli meetrit edasi
+
+
+2 m <
+
+go two meters back
+
+mine kaks meetrit edasi
+
+
+3 m >
+
+go three meters forward
+
+mine kolm meetrit tagasi
 
 
 5 m >
@@ -271,11 +264,11 @@ go five meters forward
 mine viis meetrit tagasi
 
 
-4 m <
+2 m <
 
-go four meters back
+go two meters back
 
-mine neli meetrit edasi
+mine kaks meetrit edasi
 
 
 2 m <
@@ -292,39 +285,11 @@ go five meters back
 mine viis meetrit edasi
 
 
-4 m <
-
-go four meters back
-
-mine neli meetrit edasi
-
-
-4 m <
-
-go four meters back
-
-mine neli meetrit edasi
-
-
 5 m <
 
 go five meters back
 
 mine viis meetrit edasi
-
-
-5 m >
-
-go five meters forward
-
-mine viis meetrit tagasi
-
-
-4 m <
-
-go four meters back
-
-mine neli meetrit edasi
 
 
 5 m >
@@ -346,6 +311,41 @@ mine kolm meetrit tagasi
 go one meters back
 
 mine üks meetrit edasi
+
+
+4 m <
+
+go four meters back
+
+mine neli meetrit edasi
+
+
+2 m <
+
+go two meters back
+
+mine kaks meetrit edasi
+
+
+1 m >
+
+go one meters forward
+
+mine üks meetrit tagasi
+
+
+5 m >
+
+go five meters forward
+
+mine viis meetrit tagasi
+
+
+2 m <
+
+go two meters back
+
+mine kaks meetrit edasi
 
 
 

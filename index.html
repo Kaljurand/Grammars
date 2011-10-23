@@ -107,13 +107,6 @@ is syntactically possible in the described languages).</p>
 </tr>
 
 <tr>
-<td>Address</td>
-<td>Estonian place names and Tallinn's street addresses, e.g. "Pariisi", "Lossi plats kaks"</td>
-<td><a href="grammars/gr/Address.txt">txt</a></td>
-<td><a href="grammars/pgf/Address.pgf"></a></td>
-</tr>
-
-<tr>
 <td>Calc</td>
 <td>Exp + Unitconv</td>
 <td><a href="grammars/gr/Calc.txt">txt</a></td>
@@ -122,7 +115,8 @@ is syntactically possible in the described languages).</p>
 
 <tr>
 <td>Direction</td>
-<td>Address + FROM-TO queries over addresses</td>
+<td>FROM-TO queries over Estonian place names (e.g. "Pariisi")
+and Tallinn's street addresses (e.g. "Lossi plats kaks")</td>
 <td><a href="grammars/gr/Direction.txt">txt</a></td>
 <td><a href="grammars/pgf/Direction.pgf">pgf</a></td>
 </tr>
@@ -143,7 +137,7 @@ is syntactically possible in the described languages).</p>
 
 <tr>
 <td>Go</td>
-<td>Tiny example grammar</td>
+<td>Tiny example grammar with 3 concrete syntaxes (<em>Est</em>, <em>App</em>, <em>Eng</em>)</td>
 <td><a href="grammars/gr/Go.txt">txt</a></td>
 <td><a href="grammars/pgf/Go.pgf">pgf</a></td>
 </tr>
@@ -153,6 +147,13 @@ is syntactically possible in the described languages).</p>
 <td>Arbitrary length sequence of digits and Estonian letters</td>
 <td><a href="grammars/gr/Symbols.txt">txt</a></td>
 <td><a href="grammars/pgf/Symbols.pgf">pgf</a></td>
+</tr>
+
+<tr>
+<td>Tallinndirection</td>
+<td>FROM-TO queries over Tallinn's addresses</td>
+<td><a href="grammars/gr/Tallinndirection.txt">txt</a></td>
+<td><a href="grammars/pgf/Tallinndirection.pgf">pgf</a></td>
 </tr>
 
 <tr>
@@ -187,8 +188,8 @@ syntax tree into <em>App</em>.</p>
 
 <pre>
 $ gf Direction.pgf
-Direction> parse -lang=DirectionEst "Algus Keskuse kaheksa teist Lõpp Filtri tee Tallinn" | linearize -lang=DirectionApp
-FROM Keskuse 1 8 , Tallinn TO Filtri tee , Tallinn
+Direction> parse -lang=DirectionEst "Algus Keskuse kaheksa teist Lõpp Filtri tee Tallinn" | linearize -lang=DirectionApp -bind
+FROM Keskuse 18 , Tallinn TO Filtri tee , Tallinn
 </pre>
 
 
@@ -214,7 +215,7 @@ via a Pull Request.</p>
 
 <address>
 Kaarel Kaljurand (kaljurand@gmail.com),
-2011-10-16
+2011-10-24
 </address>
 
 </body>

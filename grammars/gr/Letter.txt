@@ -1,33 +1,16 @@
-r
+m
 
-err
-
-
-h
-
-haaaa
-, , has~s~
+emm
 
 
-l
+o
 
-ell
-
-
-l
-
-ell
+oooo
 
 
-c
+p
 
-tseesar
-, , tseeee
-
-
-k
-
-kaaaa
+peeee
 
 
 s~
@@ -35,50 +18,9 @@ s~
 s~aaaa
 
 
-g
-
-geeee
-
-
-i
-
-iiii
-
-
-ü
-
-üüüü
-
-
-i
-
-iiii
-
-
 r
 
 err
-
-
-õ
-
-õõõõ
-
-
-m
-
-emm
-
-
-t
-
-teeee
-
-
-h
-
-haaaa
-, , has~s~
 
 
 b
@@ -87,51 +29,21 @@ berta
 , , beeee
 
 
-l
+b
 
-ell
-
-
-p
-
-peeee
+berta
+, , beeee
 
 
-w
+s
 
-kaksisvee
-, , kaksikvee
-
-
-k
-
-kaaaa
+ess
 
 
-w
+c
 
-kaksisvee
-, , kaksikvee
-
-
-i
-
-iiii
-
-
-u
-
-uuuu
-
-
-x
-
-iks
-
-
-p
-
-peeee
+tseesar
+, , tseeee
 
 
 f
@@ -139,30 +51,21 @@ f
 eff
 
 
-w
-
-kaksisvee
-, , kaksikvee
-
-
-v
-
-veeee
-
-
-m
-
-emm
-
-
-p
-
-peeee
-
-
 õ
 
 õõõõ
+
+
+c
+
+tseesar
+, , tseeee
+
+
+c
+
+tseesar
+, , tseeee
 
 
 n
@@ -170,10 +73,14 @@ n
 enn
 
 
-c
+r
 
-tseesar
-, , tseeee
+err
+
+
+s
+
+ess
 
 
 a
@@ -182,40 +89,14 @@ alfa
 , , aaaa
 
 
-s
+x
 
-ess
-
-
-i
-
-iiii
+iks
 
 
-s
+u
 
-ess
-
-
-v
-
-veeee
-
-
-w
-
-kaksisvee
-, , kaksikvee
-
-
-m
-
-emm
-
-
-q
-
-kuuuu
+uuuu
 
 
 p
@@ -223,24 +104,24 @@ p
 peeee
 
 
-k
-
-kaaaa
-
-
-d
-
-deeee
-
-
 j
 
 jott
 
 
-j
+g
 
-jott
+geeee
+
+
+o
+
+oooo
+
+
+r
+
+err
 
 
 b
@@ -249,14 +130,134 @@ berta
 , , beeee
 
 
-ö
+u
 
-öööö
+uuuu
+
+
+m
+
+emm
+
+
+x
+
+iks
+
+
+i
+
+iiii
+
+
+q
+
+kuuuu
+
+
+b
+
+berta
+, , beeee
+
+
+v
+
+veeee
+
+
+r
+
+err
+
+
+ä
+
+ääää
+
+
+k
+
+kaaaa
+
+
+v
+
+veeee
+
+
+i
+
+iiii
+
+
+y
+
+igrek
+, , üpsilon
+
+
+o
+
+oooo
+
+
+j
+
+jott
 
 
 õ
 
 õõõõ
+
+
+h
+
+haaaa
+, , has~s~
+
+
+ä
+
+ääää
+
+
+o
+
+oooo
+
+
+n
+
+enn
+
+
+u
+
+uuuu
+
+
+t
+
+teeee
+
+
+j
+
+jott
+
+
+a
+
+alfa
+, , aaaa
+
+
+z~
+
+z~eeee
+, , s~eeee
 
 
 

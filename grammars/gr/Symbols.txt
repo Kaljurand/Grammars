@@ -1,141 +1,57 @@
 
 
 
-8
 
-kaheksa
 
 
-h b
 
-haaaa berta
-, , haaaa beeee
-, , has~s~ berta
-, , has~s~ beeee
 
 
-k b
+8 m 7 0
 
-kaaaa berta
-, , kaaaa beeee
+kaheksa emm seitse null
 
 
-5
 
-viis
 
 
-0 k
+6 ö p
 
-null kaaaa
+kuus öööö peeee
 
 
-7 1 3 e c
+3 3 h
 
-seitse üks kolm eeee tseesar
-, , seitse üks kolm eeee tseeee
+kolm kolm haaaa
+, , kolm kolm has~s~
 
 
 
 
 
+r z y
 
+err tsett igrek
+, , err tsett üpsilon
 
 
-p n
 
-peeee enn
 
 
-r 1 6
+4 ö 8 r
 
-err üks kuus
+neli öööö kaheksa err
 
 
-c
+y 3 v
 
-tseesar
-, , tseeee
+igrek kolm veeee
+, , üpsilon kolm veeee
 
 
+1
 
-
-
-z~ 2 w 6
-
-z~eeee kaks kaksisvee kuus
-, , z~eeee kaks kaksikvee kuus
-, , s~eeee kaks kaksisvee kuus
-, , s~eeee kaks kaksikvee kuus
-
-
-
-
-
-r h 4 n 4
-
-err haaaa neli enn neli
-, , err has~s~ neli enn neli
-
-
-q e 0 9 8
-
-kuuuu eeee null üheksa kaheksa
-
-
-6
-
-kuus
-
-
-1 z~ q
-
-üks z~eeee kuuuu
-, , üks s~eeee kuuuu
-
-
-i 2 2 8 9
-
-iiii kaks kaks kaheksa üheksa
-
-
-0 v
-
-null veeee
-
-
-3 1
-
-kolm üks
-
-
-0
-
-null
-
-
-
-
-
-
-
-
-g 9 ü
-
-geeee üheksa üüüü
-
-
-
-
-
-2
-
-kaks
-
-
-ü 9 8 v
-
-üüüü üheksa kaheksa veeee
+üks
 
 
 3
@@ -143,96 +59,171 @@ kaks
 kolm
 
 
+4 5 0
+
+neli viis null
+
+
+5
+
+viis
+
+
+g 8 o
+
+geeee kaheksa oooo
+
+
+
+
+
+i 2
+
+iiii kaks
 
 
 
 
 
 
-l q l
-
-ell kuuuu ell
 
 
-ö 4 ö 5 7
+z q ö x y
 
-öööö neli öööö viis seitse
-
-
-6
-
-kuus
+tsett kuuuu öööö iks igrek
+, , tsett kuuuu öööö iks üpsilon
 
 
-j
+k v v
 
-jott
+kaaaa veeee veeee
 
 
 
 
 
-p 2 9 ü
+4 5 1 6 w
 
-peeee kaks üheksa üüüü
-
-
-2 1
-
-kaks üks
-
-
-3 a ä r m
-
-kolm alfa ääää err emm
-, , kolm aaaa ääää err emm
-
-
-s~ 3 6 6
-
-s~aaaa kolm kuus kuus
-
-
-t 2 4 0
-
-teeee kaks neli null
-
-
-3 h 6 õ õ
-
-kolm haaaa kuus õõõõ õõõõ
-, , kolm has~s~ kuus õõõõ õõõõ
+neli viis üks kuus kaksisvee
+, , neli viis üks kuus kaksikvee
 
 
 
 
 
-2
-
-kaks
 
 
-4
 
-neli
+8 8 l 3 h
 
-
-8 3
-
-kaheksa kolm
+kaheksa kaheksa ell kolm haaaa
+, , kaheksa kaheksa ell kolm has~s~
 
 
 
 
 
-1 7 8
-
-üks seitse kaheksa
 
 
-2
 
-kaks
+
+
+
+9
+
+üheksa
+
+
+ä
+
+ääää
+
+
+ö o 1
+
+öööö oooo üks
+
+
+0 3
+
+null kolm
+
+
+ü
+
+üüüü
+
+
+
+
+
+0
+
+null
+
+
+7
+
+seitse
+
+
+n 4 2 6 4
+
+enn neli kaks kuus neli
+
+
+8 0 m t n
+
+kaheksa null emm teeee enn
+
+
+u c 9 e
+
+uuuu tseesar üheksa eeee
+, , uuuu tseeee üheksa eeee
+
+
+4 c
+
+neli tseesar
+, , neli tseeee
+
+
+b 9 5
+
+berta üheksa viis
+, , beeee üheksa viis
+
+
+4 d
+
+neli deeee
+
+
+3
+
+kolm
+
+
+s~
+
+s~aaaa
+
+
+y 2 k
+
+igrek kaks kaaaa
+, , üpsilon kaks kaaaa
+
+
+9
+
+üheksa
+
+
+8
+
+kaheksa
 
 
 

@@ -3,54 +3,14 @@
 null koma null
 
 
+0 . 2 5
+
+veerand
+
+
 - 0 . 0
 
 miinus null koma null
-
-
-- 0 . 0
-
-miinus null koma null
-
-
-0
-
-null
-
-
-0 . 0
-
-null koma null
-
-
-0 . 5
-
-pool
-
-
-0 . 0
-
-null koma null
-
-
-- 0
-
-miinus null
-
-
-1 . 5
-
-pool teist
-
-
-0
-
-null
-
-
-0 . 7 5
-
-kolm veerand
 
 
 0 . 2 5
@@ -58,91 +18,31 @@ kolm veerand
 veerand
 
 
-1 1 0
+- 0
+
+miinus null
+
+
+100111
+
+sada tuhat sada üks teist
+
+
+- 100000
+
+miinus sada tuhat
+
+
+0 . 5
+
+pool
+
+
+110
 
 sada kümme
 
 
-1 . 5
-
-pool teist
-
-
-- 1 1 1 0 0
-
-miinus üks teist tuhat sada
-
-
-- 0
-
-miinus null
-
-
-0 . 5
-
-pool
-
-
-- 1 1 1 0 1 0
-
-miinus sada üks teist tuhat kümme
-
-
-0 . 7 5
-
-kolm veerand
-
-
-1 . 5
-
-pool teist
-
-
-- 0 . 0
-
-miinus null koma null
-
-
-0 . 2 5
-
-veerand
-
-
-0
-
-null
-
-
-PI
-
-Pii
-
-
-- 1 0 0 1 1 1
-
-miinus sada tuhat sada üks teist
-
-
-1 . 5
-
-pool teist
-
-
-- 0
-
-miinus null
-
-
-- 0 . 0
-
-miinus null koma null
-
-
-PI
-
-Pii
-
-
 0 . 0
 
 null koma null
@@ -163,9 +63,34 @@ veerand
 pool teist
 
 
-- 0 . 0
+0 . 5
 
-miinus null koma null
+pool
+
+
+0 . 7 5
+
+kolm veerand
+
+
+0 . 7 5
+
+kolm veerand
+
+
+0 . 0
+
+null koma null
+
+
+0
+
+null
+
+
+- 100010
+
+miinus sada tuhat kümme
 
 
 - 0 . 0
@@ -178,14 +103,34 @@ miinus null koma null
 null koma null
 
 
-0 . 7 5
+0 . 5
 
-kolm veerand
+pool
 
 
-- 0 . 0
+1 . 5
 
-miinus null koma null
+pool teist
+
+
+1 . 5
+
+pool teist
+
+
+0 . 0
+
+null koma null
+
+
+- 0
+
+miinus null
+
+
+0 . 0
+
+null koma null
 
 
 0
@@ -193,9 +138,79 @@ miinus null koma null
 null
 
 
-- 0 . 0
+0 . 5
 
-miinus null koma null
+pool
+
+
+0 . 7 5
+
+kolm veerand
+
+
+- 10000
+
+miinus kümme tuhat
+
+
+PI
+
+Pii
+
+
+0 . 0
+
+null koma null
+
+
+PI
+
+Pii
+
+
+0 . 0
+
+null koma null
+
+
+0 . 0
+
+null koma null
+
+
+- 110
+
+miinus sada kümme
+
+
+0 . 2 5
+
+veerand
+
+
+0 . 5
+
+pool
+
+
+- 0
+
+miinus null
+
+
+0 . 7 5
+
+kolm veerand
+
+
+0 . 0
+
+null koma null
+
+
+1 . 5
+
+pool teist
 
 
 0 . 7 5
@@ -208,19 +223,19 @@ kolm veerand
 pool teist
 
 
-- 0
+0 . 0
 
-miinus null
-
-
-- 0 . 0
-
-miinus null koma null
+null koma null
 
 
-- 1 0 0
+1 . 5
 
-miinus sada
+pool teist
+
+
+0 . 0
+
+null koma null
 
 
 0 . 7 5
@@ -228,24 +243,9 @@ miinus sada
 kolm veerand
 
 
-PI
+0 . 2 5
 
-Pii
-
-
-0 . 5
-
-pool
-
-
-1 0 0 0 0 0
-
-sada tuhat
-
-
-0 . 0
-
-null koma null
+veerand
 
 
 

@@ -1,0 +1,251 @@
+Ahvena 101 , Tallinn
+
+Ahvena sada üks
+
+
+Coca-Cola Plaza , Tallinn
+
+Coca-Cola Plaza
+
+
+FROM Coca-Cola Plaza , Tallinn TO Kanuti aed , Tallinn
+
+Algus Coca-Cola Plaza Lõpp Kanuti aed
+
+
+Vesse 810 , Tallinn
+
+Vesse kaheksa sada kümme
+
+
+FROM Juurdeveo , Tallinn TO Linnahall , Tallinn
+
+Algus Juurdeveo Lõpp Linnahall
+
+
+FROM Coca-Cola Plaza , Tallinn TO Leesika 110 , Tallinn
+
+Algus Coca-Cola Plaza Lõpp Leesika sada kümme
+
+
+Nurme 880 , Tallinn
+
+Nurme kaheksa sada kaheksa kümmend
+
+
+FROM Jasmiini tee 900 , Tallinn TO Coca-Cola Plaza , Tallinn
+
+Algus Jasmiini tee üheksa sada Lõpp Coca-Cola Plaza
+
+
+Suvila 110 , Tallinn
+
+Suvila sada kümme
+
+
+FROM Coca-Cola Plaza , Tallinn TO Kanuti aed , Tallinn
+
+Algus Coca-Cola Plaza Lõpp Kanuti aed
+
+
+FROM Coca-Cola Plaza , Tallinn TO Kauba , Tallinn
+
+Algus Coca-Cola Plaza Lõpp Kauba
+
+
+Väike-Karja , Tallinn
+
+Väike-Karja
+
+
+FROM Linnahall , Tallinn TO Lillevälja 100 , Tallinn
+
+Algus Linnahall Lõpp Lillevälja sada
+
+
+FROM Coca-Cola Plaza , Tallinn TO Meika , Tallinn
+
+Algus Coca-Cola Plaza Lõpp Meika
+
+
+FROM Coca-Cola Plaza , Tallinn TO Kanuti aed , Tallinn
+
+Algus Coca-Cola Plaza Lõpp Kanuti aed
+
+
+FROM Madala 301 , Tallinn TO Kanuti aed , Tallinn
+
+Algus Madala kolm sada üks Lõpp Kanuti aed
+
+
+Sepapere 111 , Tallinn
+
+Sepapere sada üks teist
+
+
+FROM Sarve 201 , Tallinn TO Kloostrimetsa tee 101 , Tallinn
+
+Algus Sarve kaks sada üks Lõpp Kloostrimetsa tee sada üks
+
+
+Madara 800 , Tallinn
+
+Madara kaheksa sada
+
+
+FROM Linnahall , Tallinn TO Leete 100 , Tallinn
+
+Algus Linnahall Lõpp Leete sada
+
+
+Lühike , Tallinn
+
+Lühike
+
+
+Tohu 1 , Tallinn
+
+Tohu üks
+
+
+FROM Kanuti aed , Tallinn TO Coca-Cola Plaza , Tallinn
+
+Algus Kanuti aed Lõpp Coca-Cola Plaza
+
+
+FROM Palli 100 , Tallinn TO Hälli 930 , Tallinn
+
+Algus Palli sada Lõpp Hälli üheksa sada kolm kümmend
+
+
+FROM Hunditubaka tee 800 , Tallinn TO Kaja 370 , Tallinn
+
+Algus Hunditubaka tee kaheksa sada Lõpp Kaja kolm sada seitse kümmend
+
+
+FROM Lesta , Tallinn TO Kurikneeme tee 110 , Tallinn
+
+Algus Lesta Lõpp Kurikneeme tee sada kümme
+
+
+Tammepärja 30 , Tallinn
+
+Tammepärja kolm kümmend
+
+
+Odra , Tallinn
+
+Odra
+
+
+Voorimehe 100 , Tallinn
+
+Voorimehe sada
+
+
+Raua 71 , Tallinn
+
+Raua seitse kümmend üks
+
+
+Linnahall , Tallinn
+
+Linnahall
+
+
+FROM Tooma 170 , Tallinn TO Vanaturu kael 500 , Tallinn
+
+Algus Tooma sada seitse kümmend Lõpp Vanaturu kael viis sada
+
+
+FROM Roheline aas 1 , Tallinn TO Tagala 18 , Tallinn
+
+Algus Roheline aas üks Lõpp Tagala kaheksa teist
+
+
+Rajametsa , Tallinn
+
+Rajametsa
+
+
+Jaan Poska 1 , Tallinn
+
+Jaan Poska üks
+
+
+FROM Tala , Tallinn TO Õismäe tee , Tallinn
+
+Algus Tala Lõpp Õismäe tee
+
+
+FROM Toome puiestee , Tallinn TO Linnahall , Tallinn
+
+Algus Toome puiestee Lõpp Linnahall
+
+
+FROM Alliksoo , Tallinn TO Hiie , Tallinn
+
+Algus Alliksoo Lõpp Hiie
+
+
+FROM Maikellukese tee , Tallinn TO Kaitse 1 , Tallinn
+
+Algus Maikellukese tee Lõpp Kaitse üks
+
+
+Kanuti aed , Tallinn
+
+Kanuti aed
+
+
+FROM Kanuti aed , Tallinn TO Linnahall , Tallinn
+
+Algus Kanuti aed Lõpp Linnahall
+
+
+Looklev tee , Tallinn
+
+Looklev tee
+
+
+Viru 400 , Tallinn
+
+Viru neli sada
+
+
+Kanuti aed , Tallinn
+
+Kanuti aed
+
+
+FROM Piibelehe 310 , Tallinn TO Mõõna tee 100 , Tallinn
+
+Algus Piibelehe kolm sada kümme Lõpp Mõõna tee sada
+
+
+Linnahall , Tallinn
+
+Linnahall
+
+
+Lasnamäe , Tallinn
+
+Lasnamäe
+
+
+Kanuti aed , Tallinn
+
+Kanuti aed
+
+
+Linnahall , Tallinn
+
+Linnahall
+
+
+Coca-Cola Plaza , Tallinn
+
+Coca-Cola Plaza
+
+
+

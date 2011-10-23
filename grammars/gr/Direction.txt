@@ -1,309 +1,302 @@
-Purde 8 0 0 , Tallinn
+Johannes Kappeli , Tallinn
 
-Purde kaheksa sada Tallinn
-, , Purde kaheksa sada
+Johannes Kappeli Tallinn
+, , Johannes Kappeli
 
 
-FROM Liivaoja 8 0 0 , Tallinn TO Estonia puiestee , Tallinn
+Tuulemäe , Tallinn
 
-Algus Liivaoja kaheksa sada Tallinn Lõpp Estonia puiestee Tallinn
-, , Algus Liivaoja kaheksa sada Tallinn Lõpp Estonia puiestee
-, , Algus Liivaoja kaheksa sada Lõpp Estonia puiestee Tallinn
-, , Algus Liivaoja kaheksa sada Lõpp Estonia puiestee
+Tuulemäe Tallinn
+, , Tuulemäe
 
 
-Unukse , Estonia
+Kurge , Estonia
 
-Unukse
+Kurge
 
 
-FROM Nautrasi , Estonia TO Hälli põik 1 0 1 , Tallinn
+FROM Tulimulla 1 , Tallinn TO Tuleraua , Tallinn
 
-Algus Nautrasi Lõpp Hälli põik sada üks Tallinn
-, , Algus Nautrasi Lõpp Hälli põik sada üks
+Algus Tulimulla üks Tallinn Lõpp Tuleraua Tallinn
+, , Algus Tulimulla üks Tallinn Lõpp Tuleraua
+, , Algus Tulimulla üks Lõpp Tuleraua Tallinn
+, , Algus Tulimulla üks Lõpp Tuleraua
 
 
-FROM Peygle , Estonia TO Mustika , Tallinn
+Asula põik , Tallinn
 
-Algus Peygle Lõpp Mustika Tallinn
-, , Algus Peygle Lõpp Mustika
+Asula põik Tallinn
+, , Asula põik
 
 
-Meistri 1 0 0 , Tallinn
+Astla tee 161 , Tallinn
 
-Meistri sada Tallinn
-, , Meistri sada
+Astla tee sada kuus kümmend üks Tallinn
+, , Astla tee sada kuus kümmend üks
 
 
-Kõrtsi , Estonia
+Kuhja 10 , Tallinn
 
-Kõrtsi
+Kuhja kümme Tallinn
+, , Kuhja kümme
 
 
-Toom-Kooli 6 0 0 , Tallinn
+Sõstramäe 51 , Tallinn
 
-Toom-Kooli kuus sada Tallinn
-, , Toom-Kooli kuus sada
+Sõstramäe viis kümmend üks Tallinn
+, , Sõstramäe viis kümmend üks
 
 
-FROM Atu , Estonia TO Regati puiestee 9 0 0 , Tallinn
+Kaisla , Tallinn
 
-Algus Atu Lõpp Regati puiestee üheksa sada Tallinn
-, , Algus Atu Lõpp Regati puiestee üheksa sada
+Kaisla Tallinn
+, , Kaisla
 
 
-Kaerepere , Estonia
+Pihlametsa tee , Tallinn
 
-Kaerepere
+Pihlametsa tee Tallinn
+, , Pihlametsa tee
 
 
-FROM Sinimäe , Estonia TO Kesk-Sõjamäe , Tallinn
+Wismari 310 , Tallinn
 
-Algus Sinimäe Lõpp Kesk-Sõjamäe Tallinn
-, , Algus Sinimäe Lõpp Kesk-Sõjamäe
+Wismari kolm sada kümme Tallinn
+, , Wismari kolm sada kümme
 
 
-FROM Virmalise , Tallinn TO Pesa , Tallinn
+Kauge , Tallinn
 
-Algus Virmalise Tallinn Lõpp Pesa Tallinn
-, , Algus Virmalise Tallinn Lõpp Pesa
-, , Algus Virmalise Lõpp Pesa Tallinn
-, , Algus Virmalise Lõpp Pesa
+Kauge Tallinn
+, , Kauge
 
 
-FROM Tööstuse 8 9 1 , Tallinn TO Kaevuri , Tallinn
+Neanurme , Estonia
 
-Algus Tööstuse kaheksa sada üheksa kümmend üks Tallinn Lõpp Kaevuri Tallinn
-, , Algus Tööstuse kaheksa sada üheksa kümmend üks Tallinn Lõpp Kaevuri
-, , Algus Tööstuse kaheksa sada üheksa kümmend üks Lõpp Kaevuri Tallinn
-, , Algus Tööstuse kaheksa sada üheksa kümmend üks Lõpp Kaevuri
+Neanurme
 
 
-Nulu , Tallinn
+FROM Toom-Rüütli 40 , Tallinn TO Puusepa , Tallinn
 
-Nulu Tallinn
-, , Nulu
+Algus Toom-Rüütli neli kümmend Tallinn Lõpp Puusepa Tallinn
+, , Algus Toom-Rüütli neli kümmend Tallinn Lõpp Puusepa
+, , Algus Toom-Rüütli neli kümmend Lõpp Puusepa Tallinn
+, , Algus Toom-Rüütli neli kümmend Lõpp Puusepa
 
 
-Sügislase 1 1 , Tallinn
+FROM Maleva põik 100 , Tallinn TO Kriilevälja , Estonia
 
-Sügislase üks teist Tallinn
-, , Sügislase üks teist
+Algus Maleva põik sada Tallinn Lõpp Kriilevälja
+, , Algus Maleva põik sada Lõpp Kriilevälja
 
 
-Kosemetsa , Tallinn
+FROM Räime , Tallinn TO Õnniste , Estonia
 
-Kosemetsa Tallinn
-, , Kosemetsa
+Algus Räime Tallinn Lõpp Õnniste
+, , Algus Räime Lõpp Õnniste
 
 
-FROM Alakülaääre , Estonia TO Viluste , Estonia
+Lauri tee 112 , Tallinn
 
-Algus Alakülaääre Lõpp Viluste
+Lauri tee sada kaks teist Tallinn
+, , Lauri tee sada kaks teist
 
 
-Lodumetsa tee 6 0 0 , Tallinn
+Pärja 10 , Tallinn
 
-Lodumetsa tee kuus sada Tallinn
-, , Lodumetsa tee kuus sada
+Pärja kümme Tallinn
+, , Pärja kümme
 
 
-Sandimetsa , Estonia
+Sirptiiva 11 , Tallinn
 
-Sandimetsa
+Sirptiiva üks teist Tallinn
+, , Sirptiiva üks teist
 
 
-FROM Muuluka 8 0 1 , Tallinn TO Õie põik 7 0 , Tallinn
+Rohula 21 , Tallinn
 
-Algus Muuluka kaheksa sada üks Tallinn Lõpp Õie põik seitse kümmend Tallinn
-, , Algus Muuluka kaheksa sada üks Tallinn Lõpp Õie põik seitse kümmend
-, , Algus Muuluka kaheksa sada üks Lõpp Õie põik seitse kümmend Tallinn
-, , Algus Muuluka kaheksa sada üks Lõpp Õie põik seitse kümmend
+Rohula kaks kümmend üks Tallinn
+, , Rohula kaks kümmend üks
 
 
-Torni , Tallinn
+FROM Kulina , Estonia TO Paekalda 101 , Tallinn
 
-Torni Tallinn
-, , Torni
+Algus Kulina Lõpp Paekalda sada üks Tallinn
+, , Algus Kulina Lõpp Paekalda sada üks
 
 
-Lustivere , Estonia
+FROM Käia 21 , Tallinn TO Puiatu-Aru , Estonia
 
-Lustivere
+Algus Käia kaks kümmend üks Tallinn Lõpp Puiatu-Aru
+, , Algus Käia kaks kümmend üks Lõpp Puiatu-Aru
 
 
-FROM Rotermanni , Tallinn TO Lümanda , Estonia
+Hälli põik , Tallinn
 
-Algus Rotermanni Tallinn Lõpp Lümanda
-, , Algus Rotermanni Lõpp Lümanda
+Hälli põik Tallinn
+, , Hälli põik
 
 
-FROM Linnu tee , Tallinn TO Anna , Estonia
+FROM Möllatsi , Estonia TO Tõrdu , Estonia
 
-Algus Linnu tee Tallinn Lõpp Anna
-, , Algus Linnu tee Lõpp Anna
+Algus Möllatsi Lõpp Tõrdu
 
 
-Apuparra , Estonia
+Viru väljak 100 , Tallinn
 
-Apuparra
+Viru väljak sada Tallinn
+, , Viru väljak sada
 
 
-Varju tee 1 0 0 , Tallinn
+FROM Võru 21 , Tallinn TO Sookaskede puiestee 917 , Tallinn
 
-Varju tee sada Tallinn
-, , Varju tee sada
+Algus Võru kaks kümmend üks Tallinn Lõpp Sookaskede puiestee üheksa sada seitse teist Tallinn
+, , Algus Võru kaks kümmend üks Tallinn Lõpp Sookaskede puiestee üheksa sada seitse teist
+, , Algus Võru kaks kümmend üks Lõpp Sookaskede puiestee üheksa sada seitse teist Tallinn
+, , Algus Võru kaks kümmend üks Lõpp Sookaskede puiestee üheksa sada seitse teist
 
 
-FROM Paelama , Estonia TO Tormi , Tallinn
+FROM Viru-Kabala , Estonia TO Müürivahe , Tallinn
 
-Algus Paelama Lõpp Tormi Tallinn
-, , Algus Paelama Lõpp Tormi
+Algus Viru-Kabala Lõpp Müürivahe Tallinn
+, , Algus Viru-Kabala Lõpp Müürivahe
 
 
-FROM Vanaturu kael 5 0 1 , Tallinn TO Kilingi-Nõmme , Estonia
+Ädala , Tallinn
 
-Algus Vanaturu kael viis sada üks Tallinn Lõpp Kilingi-Nõmme
-, , Algus Vanaturu kael viis sada üks Lõpp Kilingi-Nõmme
+Ädala Tallinn
+, , Ädala
 
 
-FROM Nõo tee 9 0 0 , Tallinn TO Astangu 1 1 7 , Tallinn
+Aiandi 10 , Tallinn
 
-Algus Nõo tee üheksa sada Tallinn Lõpp Astangu sada seitse teist Tallinn
-, , Algus Nõo tee üheksa sada Tallinn Lõpp Astangu sada seitse teist
-, , Algus Nõo tee üheksa sada Lõpp Astangu sada seitse teist Tallinn
-, , Algus Nõo tee üheksa sada Lõpp Astangu sada seitse teist
+Aiandi kümme Tallinn
+, , Aiandi kümme
 
 
-Himma , Estonia
+Rebu , Estonia
 
-Himma
+Rebu
 
 
-FROM Laulupeo 1 1 , Tallinn TO Hoburaua , Tallinn
+FROM Marati , Tallinn TO Merirahu 710 , Tallinn
 
-Algus Laulupeo üks teist Tallinn Lõpp Hoburaua Tallinn
-, , Algus Laulupeo üks teist Tallinn Lõpp Hoburaua
-, , Algus Laulupeo üks teist Lõpp Hoburaua Tallinn
-, , Algus Laulupeo üks teist Lõpp Hoburaua
+Algus Marati Tallinn Lõpp Merirahu seitse sada kümme Tallinn
+, , Algus Marati Tallinn Lõpp Merirahu seitse sada kümme
+, , Algus Marati Lõpp Merirahu seitse sada kümme Tallinn
+, , Algus Marati Lõpp Merirahu seitse sada kümme
 
 
-Kiviranna tee , Tallinn
+Viu 15 , Tallinn
 
-Kiviranna tee Tallinn
-, , Kiviranna tee
+Viu viis teist Tallinn
+, , Viu viis teist
 
 
-FROM Moonalao 4 1 , Tallinn TO Laagri , Estonia
+FROM Vana-Kalamaja , Tallinn TO Valtu , Estonia
 
-Algus Moonalao neli kümmend üks Tallinn Lõpp Laagri
-, , Algus Moonalao neli kümmend üks Lõpp Laagri
+Algus Vana-Kalamaja Tallinn Lõpp Valtu
+, , Algus Vana-Kalamaja Lõpp Valtu
 
 
-Roopa 5 0 , Tallinn
+FROM Vesikaare , Tallinn TO Abara , Tallinn
 
-Roopa viis kümmend Tallinn
-, , Roopa viis kümmend
+Algus Vesikaare Tallinn Lõpp Abara Tallinn
+, , Algus Vesikaare Tallinn Lõpp Abara
+, , Algus Vesikaare Lõpp Abara Tallinn
+, , Algus Vesikaare Lõpp Abara
 
 
-FROM Angerpisti 2 0 0 , Tallinn TO Kasari , Estonia
+FROM Suur-Sõjamäe , Tallinn TO Tammuru , Estonia
 
-Algus Angerpisti kaks sada Tallinn Lõpp Kasari
-, , Algus Angerpisti kaks sada Lõpp Kasari
+Algus Suur-Sõjamäe Tallinn Lõpp Tammuru
+, , Algus Suur-Sõjamäe Lõpp Tammuru
 
 
-Hoburaua , Tallinn
+FROM Rukki , Tallinn TO Sarapuu 111 , Tallinn
 
-Hoburaua Tallinn
-, , Hoburaua
+Algus Rukki Tallinn Lõpp Sarapuu sada üks teist Tallinn
+, , Algus Rukki Tallinn Lõpp Sarapuu sada üks teist
+, , Algus Rukki Lõpp Sarapuu sada üks teist Tallinn
+, , Algus Rukki Lõpp Sarapuu sada üks teist
 
 
-Rüütli , Tallinn
+Tammiku 12 , Tallinn
 
-Rüütli Tallinn
-, , Rüütli
+Tammiku kaks teist Tallinn
+, , Tammiku kaks teist
 
 
-Suurekivi , Tallinn
+Kallavere , Estonia
 
-Suurekivi Tallinn
-, , Suurekivi
+Kallavere
 
 
-Vahtraste , Estonia
+Karnapi tee , Tallinn
 
-Vahtraste
+Karnapi tee Tallinn
+, , Karnapi tee
 
 
-Hundipea , Tallinn
+Marana , Tallinn
 
-Hundipea Tallinn
-, , Hundipea
+Marana Tallinn
+, , Marana
 
 
-Adra 9 0 0 , Tallinn
+Österbi , Estonia
 
-Adra üheksa sada Tallinn
-, , Adra üheksa sada
+Österbi
 
 
-FROM Rupsi , Estonia TO Lembitu , Tallinn
+Veduri , Tallinn
 
-Algus Rupsi Lõpp Lembitu Tallinn
-, , Algus Rupsi Lõpp Lembitu
+Veduri Tallinn
+, , Veduri
 
 
-FROM Pyadeva , Estonia TO Suurpea , Estonia
+FROM Yarvekyulya , Estonia TO Rataskaevu 113 , Tallinn
 
-Algus Pyadeva Lõpp Suurpea
+Algus Yarvekyulya Lõpp Rataskaevu sada kolm teist Tallinn
+, , Algus Yarvekyulya Lõpp Rataskaevu sada kolm teist
 
 
-FROM Künni 1 0 , Tallinn TO Piiritsa , Tallinn
+Lehmja , Estonia
 
-Algus Künni kümme Tallinn Lõpp Piiritsa Tallinn
-, , Algus Künni kümme Tallinn Lõpp Piiritsa
-, , Algus Künni kümme Lõpp Piiritsa Tallinn
-, , Algus Künni kümme Lõpp Piiritsa
+Lehmja
 
 
-FROM Orava , Tallinn TO Kuninga , Tallinn
+FROM Orkse , Estonia TO Abaja 40 , Tallinn
 
-Algus Orava Tallinn Lõpp Kuninga Tallinn
-, , Algus Orava Tallinn Lõpp Kuninga
-, , Algus Orava Lõpp Kuninga Tallinn
-, , Algus Orava Lõpp Kuninga
+Algus Orkse Lõpp Abaja neli kümmend Tallinn
+, , Algus Orkse Lõpp Abaja neli kümmend
 
 
-FROM Roopa 8 1 2 , Tallinn TO Haavametsa , Estonia
+FROM Liivamäe , Estonia TO Kobra , Estonia
 
-Algus Roopa kaheksa sada kaks teist Tallinn Lõpp Haavametsa
-, , Algus Roopa kaheksa sada kaks teist Lõpp Haavametsa
+Algus Liivamäe Lõpp Kobra
 
 
-FROM Kastli , Estonia TO Meeliku , Tallinn
+Lohala , Estonia
 
-Algus Kastli Lõpp Meeliku Tallinn
-, , Algus Kastli Lõpp Meeliku
+Lohala
 
 
-FROM Jahimehe tee 1 1 , Tallinn TO Suusa 7 1 0 , Tallinn
+FROM Piibumäe , Estonia TO Rehemäe , Estonia
 
-Algus Jahimehe tee üks teist Tallinn Lõpp Suusa seitse sada kümme Tallinn
-, , Algus Jahimehe tee üks teist Tallinn Lõpp Suusa seitse sada kümme
-, , Algus Jahimehe tee üks teist Lõpp Suusa seitse sada kümme Tallinn
-, , Algus Jahimehe tee üks teist Lõpp Suusa seitse sada kümme
+Algus Piibumäe Lõpp Rehemäe
 
 
-Roopa 1 5 1 , Tallinn
+Palamulla , Estonia
 
-Roopa sada viis kümmend üks Tallinn
-, , Roopa sada viis kümmend üks
+Palamulla
 
 
-Nigli , Tallinn
+Rudolf Tobiase , Tallinn
 
-Nigli Tallinn
-, , Nigli
+Rudolf Tobiase Tallinn
+, , Rudolf Tobiase
 
 
 

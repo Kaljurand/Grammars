@@ -1,205 +1,227 @@
-Rägavere , Estonia
+Mahtra , Tallinn
 
-Rägavere
+Mahtra Tallinn
+, , Mahtra
 
 
-Kuuse , Tallinn
+Küti 824 , Tallinn
 
-Kuuse Tallinn
-, , Kuuse
+Küti kaheksa sada kaks kümmend neli Tallinn
+, , Küti kaheksa sada kaks kümmend neli
 
 
-Hiie , Tallinn
+Lume , Tallinn
 
-Hiie Tallinn
-, , Hiie
+Lume Tallinn
+, , Lume
 
 
-Alasi 1 0 0 , Tallinn
+Kuiv 205 , Tallinn
 
-Alasi sada Tallinn
-, , Alasi sada
+Kuiv kaks sada viis Tallinn
+, , Kuiv kaks sada viis
 
 
-Mäeranna , Estonia
+Valgeranna , Estonia
 
-Mäeranna
+Valgeranna
 
 
-Piibe , Estonia
+Lesta 11 , Tallinn
 
-Piibe
+Lesta üks teist Tallinn
+, , Lesta üks teist
 
 
-Rähkloo 7 0 0 , Tallinn
+Varsaallika 600 , Tallinn
 
-Rähkloo seitse sada Tallinn
-, , Rähkloo seitse sada
+Varsaallika kuus sada Tallinn
+, , Varsaallika kuus sada
 
 
-Vaagi 1 1 , Tallinn
+Viruvere , Estonia
 
-Vaagi üks teist Tallinn
-, , Vaagi üks teist
+Viruvere
 
 
-Paljandi , Tallinn
+Loo , Tallinn
 
-Paljandi Tallinn
-, , Paljandi
+Loo Tallinn
+, , Loo
 
 
-Vuti 5 0 0 , Tallinn
+Loe , Estonia
 
-Vuti viis sada Tallinn
-, , Vuti viis sada
+Loe
 
 
-Rändrahnu tee 2 0 , Tallinn
+Pühatu , Estonia
 
-Rändrahnu tee kaks kümmend Tallinn
-, , Rändrahnu tee kaks kümmend
+Pühatu
 
 
-Astla tee 3 0 0 , Tallinn
+Sonda , Estonia
 
-Astla tee kolm sada Tallinn
-, , Astla tee kolm sada
+Sonda
 
 
-Võru , Tallinn
+Kumma , Estonia
 
-Võru Tallinn
-, , Võru
+Kumma
 
 
-Vabe 5 0 3 , Tallinn
+Väikese Illimari , Tallinn
 
-Vabe viis sada kolm Tallinn
-, , Vabe viis sada kolm
+Väikese Illimari Tallinn
+, , Väikese Illimari
 
 
-Vahulille tee 9 0 0 , Tallinn
+Pärnaõie tee 191 , Tallinn
 
-Vahulille tee üheksa sada Tallinn
-, , Vahulille tee üheksa sada
+Pärnaõie tee sada üheksa kümmend üks Tallinn
+, , Pärnaõie tee sada üheksa kümmend üks
 
 
-Eoste , Estonia
+Humala , Tallinn
 
-Eoste
+Humala Tallinn
+, , Humala
 
 
-Sutu , Estonia
+Köömne , Tallinn
 
-Sutu
+Köömne Tallinn
+, , Köömne
 
 
-Liivaoja 3 1 , Tallinn
+Vedruka , Estonia
 
-Liivaoja kolm kümmend üks Tallinn
-, , Liivaoja kolm kümmend üks
+Vedruka
 
 
-Viitina , Estonia
+Iyekyula , Estonia
 
-Viitina
+Iyekyula
 
 
-Vainutalu 1 1 0 , Tallinn
+Esku , Estonia
 
-Vainutalu sada kümme Tallinn
-, , Vainutalu sada kümme
+Esku
 
 
-Lemmiku , Tallinn
+Teatri väljak , Tallinn
 
-Lemmiku Tallinn
-, , Lemmiku
+Teatri väljak Tallinn
+, , Teatri väljak
 
 
-Holdre , Estonia
+Keeru tee 100 , Tallinn
 
-Holdre
+Keeru tee sada Tallinn
+, , Keeru tee sada
 
 
-Mustjõe 1 9 1 , Tallinn
+Teivi 713 , Tallinn
 
-Mustjõe sada üheksa kümmend üks Tallinn
-, , Mustjõe sada üheksa kümmend üks
+Teivi seitse sada kolm teist Tallinn
+, , Teivi seitse sada kolm teist
 
 
-Muraka , Tallinn
+Jaani , Estonia
 
-Muraka Tallinn
-, , Muraka
+Jaani
 
 
-Õepa , Estonia
+Palderjani tee 11 , Tallinn
 
-Õepa
+Palderjani tee üks teist Tallinn
+, , Palderjani tee üks teist
 
 
-Paju , Tallinn
+Saare 500 , Tallinn
 
-Paju Tallinn
-, , Paju
+Saare viis sada Tallinn
+, , Saare viis sada
 
 
-Lükati tee , Tallinn
+Tubala , Estonia
 
-Lükati tee Tallinn
-, , Lükati tee
+Tubala
 
 
-Soela , Estonia
+Tuhkru 100 , Tallinn
 
-Soela
+Tuhkru sada Tallinn
+, , Tuhkru sada
 
 
-Parve , Estonia
+Marja 39 , Tallinn
 
-Parve
+Marja kolm kümmend üheksa Tallinn
+, , Marja kolm kümmend üheksa
 
 
-Viru väljak , Tallinn
+Turu plats , Tallinn
 
-Viru väljak Tallinn
-, , Viru väljak
+Turu plats Tallinn
+, , Turu plats
 
 
-Linnu , Estonia
+Metsakooli põik 1 , Tallinn
 
-Linnu
+Metsakooli põik üks Tallinn
+, , Metsakooli põik üks
 
 
-Puhma 7 0 5 , Tallinn
+Kloostrimetsa tee , Tallinn
 
-Puhma seitse sada viis Tallinn
-, , Puhma seitse sada viis
+Kloostrimetsa tee Tallinn
+, , Kloostrimetsa tee
 
 
-Mehide , Estonia
+Varese 500 , Tallinn
 
-Mehide
+Varese viis sada Tallinn
+, , Varese viis sada
 
 
-Vabaõhukooli tee 9 1 1 , Tallinn
+Kruusaranna tee 100 , Tallinn
 
-Vabaõhukooli tee üheksa sada üks teist Tallinn
-, , Vabaõhukooli tee üheksa sada üks teist
+Kruusaranna tee sada Tallinn
+, , Kruusaranna tee sada
 
 
-Moora , Tallinn
+Metsaveere 521 , Tallinn
 
-Moora Tallinn
-, , Moora
+Metsaveere viis sada kaks kümmend üks Tallinn
+, , Metsaveere viis sada kaks kümmend üks
 
 
-Lina , Tallinn
+Loite 25 , Tallinn
 
-Lina Tallinn
-, , Lina
+Loite kaks kümmend viis Tallinn
+, , Loite kaks kümmend viis
+
+
+Helda , Estonia
+
+Helda
+
+
+August Kitzbergi 100 , Tallinn
+
+August Kitzbergi sada Tallinn
+, , August Kitzbergi sada
+
+
+Määsovitsa , Estonia
+
+Määsovitsa
+
+
+Puuri , Estonia
+
+Puuri
 
 
 Lasnamäe , Tallinn
@@ -208,75 +230,53 @@ Lasnamäe Tallinn
 , , Lasnamäe
 
 
-Kodu , Tallinn
+Virve , Tallinn
 
-Kodu Tallinn
-, , Kodu
-
-
-Viinistu , Estonia
-
-Viinistu
+Virve Tallinn
+, , Virve
 
 
-Sõlme 1 0 , Tallinn
+Kaunis , Tallinn
 
-Sõlme kümme Tallinn
-, , Sõlme kümme
-
-
-Lihulõpe , Estonia
-
-Lihulõpe
+Kaunis Tallinn
+, , Kaunis
 
 
-Kullese 1 0 0 , Tallinn
+Pääsküla 111 , Tallinn
 
-Kullese sada Tallinn
-, , Kullese sada
-
-
-Kirikküla , Estonia
-
-Kirikküla
+Pääsküla sada üks teist Tallinn
+, , Pääsküla sada üks teist
 
 
-Tuulemäe , Tallinn
+Tyurgikyula , Estonia
 
-Tuulemäe Tallinn
-, , Tuulemäe
-
-
-Soovildiku 1 0 , Tallinn
-
-Soovildiku kümme Tallinn
-, , Soovildiku kümme
+Tyurgikyula
 
 
-Luuri , Estonia
+Sihva , Estonia
 
-Luuri
-
-
-Padu , Estonia
-
-Padu
+Sihva
 
 
-Talviku , Tallinn
+Vyaanla , Estonia
 
-Talviku Tallinn
-, , Talviku
-
-
-Unimäe , Estonia
-
-Unimäe
+Vyaanla
 
 
-Alaküla , Estonia
+Sõõru , Estonia
 
-Alaküla
+Sõõru
+
+
+Muti , Estonia
+
+Muti
+
+
+Põlde põik 10 , Tallinn
+
+Põlde põik kümme Tallinn
+, , Põlde põik kümme
 
 
 

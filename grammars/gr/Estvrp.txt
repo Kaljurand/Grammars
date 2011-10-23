@@ -1,299 +1,301 @@
-6 2 0 h s ä
+1 1 0 c q c
 
-kuus kaks null haaaa ess ääää
-, , kuus kaks null has~s~ ess ääää
+üks üks null tseesar kuuuu tseesar
+, , üks üks null tseesar kuuuu tseeee
+, , üks üks null tseeee kuuuu tseesar
+, , üks üks null tseeee kuuuu tseeee
 
 
-8 5 5 c u ü
+7 0 3 s~ m d
 
-kaheksa viis viis tseesar uuuu üüüü
-, , kaheksa viis viis tseeee uuuu üüüü
+seitse null kolm s~aaaa emm deeee
 
 
-9 3 5 b v w
+9 8 9 ü r a
 
-üheksa kolm viis berta veeee kaksisvee
-, , üheksa kolm viis berta veeee kaksikvee
-, , üheksa kolm viis beeee veeee kaksisvee
-, , üheksa kolm viis beeee veeee kaksikvee
+üheksa kaheksa üheksa üüüü err alfa
+, , üheksa kaheksa üheksa üüüü err aaaa
 
 
-3 7 6 x r ü
+2 9 7 ü f ö
 
-kolm seitse kuus iks err üüüü
+kaks üheksa seitse üüüü eff öööö
 
 
-5 0 9 d a r
+6 3 4 z s z~
 
-viis null üheksa deeee alfa err
-, , viis null üheksa deeee aaaa err
+kuus kolm neli tsett ess z~eeee
+, , kuus kolm neli tsett ess s~eeee
 
 
-4 9 0 s g w
+2 0 2 g t p
 
-neli üheksa null ess geeee kaksisvee
-, , neli üheksa null ess geeee kaksikvee
+kaks null kaks geeee teeee peeee
 
 
-7 1 5 h x g
+5 5 4 m u i
 
-seitse üks viis haaaa iks geeee
-, , seitse üks viis has~s~ iks geeee
+viis viis neli emm uuuu iiii
 
 
-2 0 4 s~ e b
+3 6 4 s~ y c
 
-kaks null neli s~aaaa eeee berta
-, , kaks null neli s~aaaa eeee beeee
+kolm kuus neli s~aaaa igrek tseesar
+, , kolm kuus neli s~aaaa igrek tseeee
+, , kolm kuus neli s~aaaa üpsilon tseesar
+, , kolm kuus neli s~aaaa üpsilon tseeee
 
 
-8 9 2 p r h
+7 7 9 y f j
 
-kaheksa üheksa kaks peeee err haaaa
-, , kaheksa üheksa kaks peeee err has~s~
+seitse seitse üheksa igrek eff jott
+, , seitse seitse üheksa üpsilon eff jott
 
 
-2 0 0 ö ü n
+8 6 5 ä p a
 
-kaks null null öööö üüüü enn
+kaheksa kuus viis ääää peeee alfa
+, , kaheksa kuus viis ääää peeee aaaa
 
 
-1 7 6 g i o
+4 4 5 i w l
 
-üks seitse kuus geeee iiii oooo
+neli neli viis iiii kaksisvee ell
+, , neli neli viis iiii kaksikvee ell
 
 
-7 3 4 w ö f
+3 8 1 k c v
 
-seitse kolm neli kaksisvee öööö eff
-, , seitse kolm neli kaksikvee öööö eff
+kolm kaheksa üks kaaaa tseesar veeee
+, , kolm kaheksa üks kaaaa tseeee veeee
 
 
-4 3 4 v r r
+1 6 4 x ö ä
 
-neli kolm neli veeee err err
+üks kuus neli iks öööö ääää
 
 
-0 4 3 u y v
+0 1 8 j ö b
 
-null neli kolm uuuu igrek veeee
-, , null neli kolm uuuu üpsilon veeee
+null üks kaheksa jott öööö berta
+, , null üks kaheksa jott öööö beeee
 
 
-0 2 0 p y s
+9 7 6 o b g
 
-null kaks null peeee igrek ess
-, , null kaks null peeee üpsilon ess
+üheksa seitse kuus oooo berta geeee
+, , üheksa seitse kuus oooo beeee geeee
 
 
-6 4 3 p s ö
+8 9 8 f y p
 
-kuus neli kolm peeee ess öööö
+kaheksa üheksa kaheksa eff igrek peeee
+, , kaheksa üheksa kaheksa eff üpsilon peeee
 
 
-9 5 4 u p e
+5 6 8 m r m
 
-üheksa viis neli uuuu peeee eeee
+viis kuus kaheksa emm err emm
 
 
-2 6 6 t a i
+7 1 8 a ö u
 
-kaks kuus kuus teeee alfa iiii
-, , kaks kuus kuus teeee aaaa iiii
+seitse üks kaheksa alfa öööö uuuu
+, , seitse üks kaheksa aaaa öööö uuuu
 
 
-7 0 1 w f g
+3 4 8 m n s~
 
-seitse null üks kaksisvee eff geeee
-, , seitse null üks kaksikvee eff geeee
+kolm neli kaheksa emm enn s~aaaa
 
 
-3 6 9 o x y
+9 7 6 ö w z
 
-kolm kuus üheksa oooo iks igrek
-, , kolm kuus üheksa oooo iks üpsilon
+üheksa seitse kuus öööö kaksisvee tsett
+, , üheksa seitse kuus öööö kaksikvee tsett
 
 
-2 9 3 x l p
+6 1 3 d x d
 
-kaks üheksa kolm iks ell peeee
+kuus üks kolm deeee iks deeee
 
 
-9 5 2 i e w
+5 8 3 u e a
 
-üheksa viis kaks iiii eeee kaksisvee
-, , üheksa viis kaks iiii eeee kaksikvee
+viis kaheksa kolm uuuu eeee alfa
+, , viis kaheksa kolm uuuu eeee aaaa
 
 
-2 8 9 a l m
+8 8 2 o y b
 
-kaks kaheksa üheksa alfa ell emm
-, , kaks kaheksa üheksa aaaa ell emm
+kaheksa kaheksa kaks oooo igrek berta
+, , kaheksa kaheksa kaks oooo igrek beeee
+, , kaheksa kaheksa kaks oooo üpsilon berta
+, , kaheksa kaheksa kaks oooo üpsilon beeee
 
 
-8 5 1 z~ g ü
+0 1 6 z~ w z~
 
-kaheksa viis üks z~eeee geeee üüüü
-, , kaheksa viis üks s~eeee geeee üüüü
+null üks kuus z~eeee kaksisvee z~eeee
+, , null üks kuus z~eeee kaksisvee s~eeee
+, , null üks kuus z~eeee kaksikvee z~eeee
+, , null üks kuus z~eeee kaksikvee s~eeee
+, , null üks kuus s~eeee kaksisvee z~eeee
+, , null üks kuus s~eeee kaksisvee s~eeee
+, , null üks kuus s~eeee kaksikvee z~eeee
+, , null üks kuus s~eeee kaksikvee s~eeee
 
 
-5 1 6 m j ä
+6 3 6 z o b
 
-viis üks kuus emm jott ääää
+kuus kolm kuus tsett oooo berta
+, , kuus kolm kuus tsett oooo beeee
 
 
-3 6 4 z~ ö v
+3 1 9 c n r
 
-kolm kuus neli z~eeee öööö veeee
-, , kolm kuus neli s~eeee öööö veeee
+kolm üks üheksa tseesar enn err
+, , kolm üks üheksa tseeee enn err
 
 
-3 9 1 i w õ
+6 4 1 n d õ
 
-kolm üheksa üks iiii kaksisvee õõõõ
-, , kolm üheksa üks iiii kaksikvee õõõõ
+kuus neli üks enn deeee õõõõ
 
 
-3 0 9 f n g
+8 0 6 r g o
 
-kolm null üheksa eff enn geeee
+kaheksa null kuus err geeee oooo
 
 
-7 6 5 g s~ z
+7 1 7 õ s~ e
 
-seitse kuus viis geeee s~aaaa tsett
+seitse üks seitse õõõõ s~aaaa eeee
 
 
-3 2 2 ö o g
+3 4 2 j t x
 
-kolm kaks kaks öööö oooo geeee
+kolm neli kaks jott teeee iks
 
 
-8 7 0 z~ g y
+9 8 3 a o n
 
-kaheksa seitse null z~eeee geeee igrek
-, , kaheksa seitse null z~eeee geeee üpsilon
-, , kaheksa seitse null s~eeee geeee igrek
-, , kaheksa seitse null s~eeee geeee üpsilon
+üheksa kaheksa kolm alfa oooo enn
+, , üheksa kaheksa kolm aaaa oooo enn
 
 
-0 2 1 z~ c z~
+6 1 4 t h g
 
-null kaks üks z~eeee tseesar z~eeee
-, , null kaks üks z~eeee tseesar s~eeee
-, , null kaks üks z~eeee tseeee z~eeee
-, , null kaks üks z~eeee tseeee s~eeee
-, , null kaks üks s~eeee tseesar z~eeee
-, , null kaks üks s~eeee tseesar s~eeee
-, , null kaks üks s~eeee tseeee z~eeee
-, , null kaks üks s~eeee tseeee s~eeee
+kuus üks neli teeee haaaa geeee
+, , kuus üks neli teeee has~s~ geeee
 
 
-4 9 9 z w l
+6 7 9 s~ l j
 
-neli üheksa üheksa tsett kaksisvee ell
-, , neli üheksa üheksa tsett kaksikvee ell
+kuus seitse üheksa s~aaaa ell jott
 
 
-0 8 7 ü o õ
+4 1 4 f t k
 
-null kaheksa seitse üüüü oooo õõõõ
+neli üks neli eff teeee kaaaa
 
 
-1 9 9 o z q
+9 9 2 ü l o
 
-üks üheksa üheksa oooo tsett kuuuu
+üheksa üheksa kaks üüüü ell oooo
 
 
-1 0 3 j s w
+9 3 0 b z~ e
 
-üks null kolm jott ess kaksisvee
-, , üks null kolm jott ess kaksikvee
+üheksa kolm null berta z~eeee eeee
+, , üheksa kolm null berta s~eeee eeee
+, , üheksa kolm null beeee z~eeee eeee
+, , üheksa kolm null beeee s~eeee eeee
 
 
-1 6 5 a j h
+2 8 1 z e ä
 
-üks kuus viis alfa jott haaaa
-, , üks kuus viis alfa jott has~s~
-, , üks kuus viis aaaa jott haaaa
-, , üks kuus viis aaaa jott has~s~
+kaks kaheksa üks tsett eeee ääää
 
 
-3 3 7 y d i
+5 9 4 h y t
 
-kolm kolm seitse igrek deeee iiii
-, , kolm kolm seitse üpsilon deeee iiii
+viis üheksa neli haaaa igrek teeee
+, , viis üheksa neli haaaa üpsilon teeee
+, , viis üheksa neli has~s~ igrek teeee
+, , viis üheksa neli has~s~ üpsilon teeee
 
 
-4 4 6 ä p ü
+6 9 1 e q f
 
-neli neli kuus ääää peeee üüüü
+kuus üheksa üks eeee kuuuu eff
 
 
-1 3 3 v f m
+7 1 7 c q i
 
-üks kolm kolm veeee eff emm
+seitse üks seitse tseesar kuuuu iiii
+, , seitse üks seitse tseeee kuuuu iiii
 
 
-1 1 0 z~ o x
+7 6 4 õ s w
 
-üks üks null z~eeee oooo iks
-, , üks üks null s~eeee oooo iks
+seitse kuus neli õõõõ ess kaksisvee
+, , seitse kuus neli õõõõ ess kaksikvee
 
 
-1 7 3 i n g
+4 0 1 t j y
 
-üks seitse kolm iiii enn geeee
+neli null üks teeee jott igrek
+, , neli null üks teeee jott üpsilon
 
 
-9 7 8 ä o p
+9 0 8 z~ m s~
 
-üheksa seitse kaheksa ääää oooo peeee
+üheksa null kaheksa z~eeee emm s~aaaa
+, , üheksa null kaheksa s~eeee emm s~aaaa
 
 
-9 8 9 z~ l x
+8 6 8 w b e
 
-üheksa kaheksa üheksa z~eeee ell iks
-, , üheksa kaheksa üheksa s~eeee ell iks
+kaheksa kuus kaheksa kaksisvee berta eeee
+, , kaheksa kuus kaheksa kaksisvee beeee eeee
+, , kaheksa kuus kaheksa kaksikvee berta eeee
+, , kaheksa kuus kaheksa kaksikvee beeee eeee
 
 
-4 6 7 g ä n
+8 6 8 e y c
 
-neli kuus seitse geeee ääää enn
+kaheksa kuus kaheksa eeee igrek tseesar
+, , kaheksa kuus kaheksa eeee igrek tseeee
+, , kaheksa kuus kaheksa eeee üpsilon tseesar
+, , kaheksa kuus kaheksa eeee üpsilon tseeee
 
 
-1 0 1 k r c
+4 5 0 õ z e
 
-üks null üks kaaaa err tseesar
-, , üks null üks kaaaa err tseeee
+neli viis null õõõõ tsett eeee
 
 
-4 2 7 n i a
+4 8 1 p n i
 
-neli kaks seitse enn iiii alfa
-, , neli kaks seitse enn iiii aaaa
+neli kaheksa üks peeee enn iiii
 
 
-8 4 1 a a y
+7 8 2 i b s~
 
-kaheksa neli üks alfa alfa igrek
-, , kaheksa neli üks alfa alfa üpsilon
-, , kaheksa neli üks alfa aaaa igrek
-, , kaheksa neli üks alfa aaaa üpsilon
-, , kaheksa neli üks aaaa alfa igrek
-, , kaheksa neli üks aaaa alfa üpsilon
-, , kaheksa neli üks aaaa aaaa igrek
-, , kaheksa neli üks aaaa aaaa üpsilon
+seitse kaheksa kaks iiii berta s~aaaa
+, , seitse kaheksa kaks iiii beeee s~aaaa
 
 
-4 8 0 l o ö
+1 8 1 ö h f
 
-neli kaheksa null ell oooo öööö
+üks kaheksa üks öööö haaaa eff
+, , üks kaheksa üks öööö has~s~ eff
 
 
-2 1 3 j n ü
+1 2 6 l t o
 
-kaks üks kolm jott enn üüüü
+üks kaks kuus ell teeee oooo
 
 
 
