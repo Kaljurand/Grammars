@@ -15,7 +15,7 @@ mkdir -p ${dir_gr}
 mkdir -p ${dir_pgf}
 
 echo "Building PGF files..."
-for grammar in Action Address Calc Digit Direction Estvrp Exp Fraction Go Letter Symbols Unitconv; do
+for grammar in Action Address Calc Digit Direction Estvrp Exp Fraction Go Letter Symbols Tallinnaddress Unitconv; do
 	echo "  $grammar";
 	echo "    PGF";
 	gf -s --make --optimize-pgf --mk-index --path $path --output-dir ${dir_pgf} ${grammar}/${grammar}???.gf
