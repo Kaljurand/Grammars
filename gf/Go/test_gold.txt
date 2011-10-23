@@ -1,41 +1,41 @@
 1 m <
 go one meters back
-mine üks meetrit edasi
+mine üks meetrit tagasi
 
 1 m >
 go one meters forward
-mine üks meetrit tagasi
+mine üks meetrit edasi
 
 2 m <
 go two meters back
-mine kaks meetrit edasi
+mine kaks meetrit tagasi
 
 2 m >
 go two meters forward
-mine kaks meetrit tagasi
+mine kaks meetrit edasi
 
 3 m <
 go three meters back
-mine kolm meetrit edasi
+mine kolm meetrit tagasi
 
 3 m >
 go three meters forward
-mine kolm meetrit tagasi
+mine kolm meetrit edasi
 
 4 m <
 go four meters back
-mine neli meetrit edasi
+mine neli meetrit tagasi
 
 4 m >
 go four meters forward
-mine neli meetrit tagasi
+mine neli meetrit edasi
 
 5 m <
 go five meters back
-mine viis meetrit edasi
+mine viis meetrit tagasi
 
 5 m >
 go five meters forward
-mine viis meetrit tagasi
+mine viis meetrit edasi
 
 

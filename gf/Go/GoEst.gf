@@ -7,8 +7,8 @@ concrete GoEst of Go = {
 	lin
 		go x y z = {s = "mine" ++ x.s ++ y.s ++ z.s};
 
-		back = { s = "edasi" };
-		forward = { s = "tagasi" };
+		back = { s = "tagasi" };
+		forward = { s = "edasi" };
 
 		n1 = { s = "üks" };
 		n2 = { s = "kaks" };
