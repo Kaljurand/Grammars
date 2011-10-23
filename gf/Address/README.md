@@ -15,7 +15,7 @@ vocabulary (~1500 terminals).
 Compiling
 ---------
 
-    gf -s --make --optimize-pgf --mk-index --path "Eeppl:Numerals:lib" Address/Address???.gf
+    gf -s --make --optimize-pgf --mk-index --path "Eeppl:Numeral:lib" Address/Address???.gf
 
 TODO
 ----
