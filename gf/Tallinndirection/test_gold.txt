@@ -1,0 +1,20 @@
+direction (address2 (small_num (pot1as2 (pot0as1 (pot0 n2)))) Estonia_puiestee) (address2 (small_num (pot1as2 (pot0as1 (pot0 n4)))) Carl_Robert_Jakobsoni)
+
+direction (address1 Estonia_puiestee) (address2 (small_num (pot1as2 (pot0as1 (pot0 n4)))) Carl_Robert_Jakobsoni)
+
+direction_id (address1 Carl_Robert_Jakobsoni)
+
+direction_id (address2 (small_num (pot1as2 (pot0as1 (pot0 n4)))) Carl_Robert_Jakobsoni)
+
+direction (address2 (small_num (pot1as2 (pot0as1 (pot0 n2)))) Estonia_puiestee) (address2 (small_num (pot1as2 (pot0as1 (pot0 n4)))) Carl_Robert_Jakobsoni)
+
+FROM Estonia puiestee 2 , Tallinn TO Carl Robert Jakobsoni 4 , Tallinn
+
+
+
+direction_id (address2 (small_num (pot1as2 (pot0as1 (pot0 n2)))) Estonia_puiestee)
+
+Estonia puiestee 2 , Tallinn
+
+
+

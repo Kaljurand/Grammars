@@ -1,4 +1,4 @@
-path="lib:Address:Calc:Digit:Direction:Eeppl:Exp:Fraction:Letter:Numeral:Unitconv"
+path="lib:Address:Calc:Digit:Direction:Eeppl:Exp:Fraction:Letter:Numeral:Tallinnaddress:Unitconv"
 
 # TODO: this script assumes that the languages are always called Est and App.
 # This is needed for "gr -lang". If we do not specify lang then we
@@ -15,7 +15,7 @@ mkdir -p ${dir_gr}
 mkdir -p ${dir_pgf}
 
 echo "Building PGF files..."
-for grammar in Action Address Calc Digit Direction Estvrp Exp Fraction Go Letter Symbols Tallinnaddress Unitconv; do
+for grammar in Action Address Calc Digit Direction Estvrp Exp Fraction Go Letter Symbols Tallinndirection Unitconv; do
 	echo "  $grammar";
 	echo "    PGF";
 	gf -s --make --optimize-pgf --mk-index --path $path --output-dir ${dir_pgf} ${grammar}/${grammar}???.gf
