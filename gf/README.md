@@ -157,3 +157,9 @@ Guidelines for grammar developers
 
 Do not use `glue` with languages which are going to be speech recognized,
 i.e. only use it with the "App" languages.
+
+
+### Working with many strings
+
+To convert a large number of strings (e.g. place names) into GF functions and their linearizations
+use the script `tools/make_fun.py`.

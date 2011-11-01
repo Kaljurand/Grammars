@@ -1,4 +1,4 @@
-abstract Address = Eeppl, Town, StreetF, Numeral ** {
+abstract Address = Eeppl, Town, Tallinnstreet, Numeral ** {
 
 flags startcat = Address;
 
@@ -19,7 +19,7 @@ fun
 	small_num : Sub1000 -> SmallNumeral;
 
 	address0 : Eeppl -> Address;
-	address1 : Street -> Town -> Address;
-	address2 : SmallNumeral -> Street -> Town -> Address;
+	address1 : Tallinnstreet -> Town -> Address;
+	address2 : SmallNumeral -> Tallinnstreet -> Town -> Address;
 
 }

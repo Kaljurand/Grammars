@@ -1,20 +1,20 @@
-direction (address2 (small_num (pot1as2 (pot0as1 (pot0 n2)))) s94 tallinn) (address2 (small_num (pot1as2 (pot0as1 (pot0 n4)))) s74 tallinn)
+direction (address2 (small_num (pot1as2 (pot0as1 (pot0 n2)))) Estonia_puiestee tallinn) (address2 (small_num (pot1as2 (pot0as1 (pot0 n4)))) Carl_Robert_Jakobsoni tallinn)
 
-direction (address1 s94 tallinn) (address2 (small_num (pot1as2 (pot0as1 (pot0 n4)))) s74 tallinn)
+direction (address1 Estonia_puiestee tallinn) (address2 (small_num (pot1as2 (pot0as1 (pot0 n4)))) Carl_Robert_Jakobsoni tallinn)
 
-direction_id (address1 s74 tallinn)
+direction_id (address1 Carl_Robert_Jakobsoni tallinn)
 
-direction_id (address2 (small_num (pot1as2 (pot0as1 (pot0 n4)))) s74 tallinn)
+direction_id (address2 (small_num (pot1as2 (pot0as1 (pot0 n4)))) Carl_Robert_Jakobsoni tallinn)
 
-direction (address2 (small_num (pot1as2 (pot0as1 (pot0 n2)))) s597 tallinn) (address0 Pariisi)
+direction (address2 (small_num (pot1as2 (pot0as1 (pot0 n2)))) Lossi_plats tallinn) (address0 Eeppl__Pariisi)
 
-direction (address2 (small_num (pot1as2 (pot0as1 (pot0 n2)))) s94 tallinn) (address2 (small_num (pot1as2 (pot0as1 (pot0 n4)))) s74 tallinn)
+direction (address2 (small_num (pot1as2 (pot0as1 (pot0 n2)))) Estonia_puiestee tallinn) (address2 (small_num (pot1as2 (pot0as1 (pot0 n4)))) Carl_Robert_Jakobsoni tallinn)
 
 FROM Estonia puiestee 2 , Tallinn TO Carl Robert Jakobsoni 4 , Tallinn
 
 
 
-direction_id (address2 (small_num (pot1as2 (pot0as1 (pot0 n2)))) s94 tallinn)
+direction_id (address2 (small_num (pot1as2 (pot0as1 (pot0 n2)))) Estonia_puiestee tallinn)
 
 Estonia puiestee 2 , Tallinn
 
