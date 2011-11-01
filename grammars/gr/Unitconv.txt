@@ -1,279 +1,290 @@
-0 mile IN m
+0 n mi **2 IN in **2
 
-null miili meetrites
+null ruut nano miili ruut tollides
 
 
-1 . 5 yard **2 IN mile **2
+- 0 da W IN n W
 
-pool teist ruut jardi ruut miilides
+miinus null deka vatti nano vattides
 
 
-- 0 °C IN °C
+0 . 0 T ft*month**-2 IN k in*day**-2
 
-miinus null kraadi kraadides
+null koma null tera jalga ruut kuus kilo tollides ruut päevas
 
 
-0 . 2 5 n J IN J
+0 . 7 5 CHF IN EEK
 
-veerand nano dz~auli dz~aulides
+kolm veerand franki kroonides
+, , kolm veerand franki eesti kroonides
+, , kolm veerand franki eesti rahas
+, , kolm veerand franki vanas rahas
+, , kolm veerand s~veitsi franki kroonides
+, , kolm veerand s~veitsi franki eesti kroonides
+, , kolm veerand s~veitsi franki eesti rahas
+, , kolm veerand s~veitsi franki vanas rahas
+, , kolm veerand s~veitsi raha kroonides
+, , kolm veerand s~veitsi raha eesti kroonides
+, , kolm veerand s~veitsi raha eesti rahas
+, , kolm veerand s~veitsi raha vanas rahas
+, , kolm veerand suurt valuutat kroonides
+, , kolm veerand suurt valuutat eesti kroonides
+, , kolm veerand suurt valuutat eesti rahas
+, , kolm veerand suurt valuutat vanas rahas
 
 
-1 . 5 century IN min
+0 . 0 mi **2 IN T ha
 
-pool teist sajandit minutites
+null koma null ruut miili tera hektarites
 
 
-0 . 5 in IN in
+1 . 5 °C IN M °C
 
-pool tolli tollides
+pool teist kraadi mega kraadides
 
 
-1 . 5 c Hz IN Hz
+- 0 ft / decade IN knot
 
-pool teist senti hertsi hertsides
+miinus null jalga dekaadis sõlmedes
 
 
-PI knot IN G m / year
+0 . 7 5 T flour-cup IN d oz
 
-Pii sõlme giga meetrites aastas
+kolm veerand tera tassi jahu detsi untsides
 
 
-- 0 . 0 Hz IN Hz
+0 . 2 5 day IN n s
 
-miinus null koma null hertsi hertsides
+veerand päeva nano sekundites
 
 
-- 0 Hz IN m Hz
+0 . 7 5 W IN W
 
-miinus null hertsi milli hertsides
+kolm veerand vatti vattides
 
 
-- 0 c IN knot
+0 . 0 k °C IN c °C
 
-miinus null valgus kiirust sõlmedes
+null koma null kilo kraadi senti kraadides
 
 
-- 0 . 0 c J IN cal
+0 . 0 W IN W
 
-miinus null koma null senti dz~auli kalorites
+null koma null vatti vattides
 
 
-PI m cal IN cal
+0 yd*m s**-2 IN mi*min**-2
 
-Pii milli kalorit kalorites
+null jardi ruut milli sekundis miilides ruut minutis
 
 
-0 . 2 5 Hz IN Hz
+0 . 7 5 M W IN W
 
-veerand hertsi hertsides
+kolm veerand mega vatti vattides
 
 
-0 . 0 h W h IN W h
+0 . 7 5 in*year**-2 IN mi*week**-2
 
-null koma null hekto vatt tundi vatt tundides
+kolm veerand tolli ruut aastas miilides ruut nädalas
 
 
-0 . 7 5 m yard IN yard
+0 h lb IN oz
 
-kolm veerand milli jardi jardides
+null hekto naela untsides
 
 
-PI ft IN in
+0 . 7 5 pt IN µ ft **3
 
-Pii jalga tollides
+kolm veerand pinti kuup mikro jalgades
 
 
-- 0 . 0 CHF IN JPY
+0 . 5 m W IN W
 
-miinus null koma null franki jeenides
-, , miinus null koma null franki jaapani jeenides
-, , miinus null koma null franki jaapani rahas
-, , miinus null koma null franki suures valuutas
-, , miinus null koma null s~veitsi franki jeenides
-, , miinus null koma null s~veitsi franki jaapani jeenides
-, , miinus null koma null s~veitsi franki jaapani rahas
-, , miinus null koma null s~veitsi franki suures valuutas
-, , miinus null koma null s~veitsi raha jeenides
-, , miinus null koma null s~veitsi raha jaapani jeenides
-, , miinus null koma null s~veitsi raha jaapani rahas
-, , miinus null koma null s~veitsi raha suures valuutas
-, , miinus null koma null suurt valuutat jeenides
-, , miinus null koma null suurt valuutat jaapani jeenides
-, , miinus null koma null suurt valuutat jaapani rahas
-, , miinus null koma null suurt valuutat suures valuutas
+pool milli vatti vattides
 
 
-0 . 7 5 c IN knot
+0 m IN m
 
-kolm veerand valgus kiirust sõlmedes
+null meetrit meetrites
 
 
-0 . 5 Hz IN G Hz
+1 . 5 m IN ft
 
-pool hertsi giga hertsides
+pool teist meetrit jalgades
 
 
-PI M W IN G W
+- 0 . 0 yd IN m
 
-Pii mega vatti giga vattides
+miinus null koma null jardi meetrites
 
 
-0 . 0 m / century IN k yard / decade
+0 . 7 5 " IN rad
 
-null koma null meetrit sajandis kilo jardides dekaadis
+kolm veerand sekundit radiaanides
 
 
-1 . 5 M W IN W
+0 m s IN decade
 
-pool teist mega vatti vattides
+null milli sekundit dekaadides
 
 
-- 0 . 0 " IN "
+- 0 . 0 M Hz IN m Hz
 
-miinus null koma null sekundit sekundites
+miinus null koma null mega hertsi milli hertsides
 
 
-0 . 2 5 c °C IN °C
+1 . 5 W h IN J
 
-veerand senti kraadi kraadides
+pool teist vatt tundi dz~aulides
 
 
-1 . 5 W IN µ W
+- 0 AUD IN CHF
 
-pool teist vatti mikro vattides
+miinus null austraalia dollarit frankides
+, , miinus null austraalia dollarit s~veitsi frankides
+, , miinus null austraalia dollarit s~veitsi rahas
+, , miinus null austraalia dollarit suures valuutas
+, , miinus null austraalia raha frankides
+, , miinus null austraalia raha s~veitsi frankides
+, , miinus null austraalia raha s~veitsi rahas
+, , miinus null austraalia raha suures valuutas
 
 
-0 . 5 T W h IN W h
+0 . 0 W h IN J
 
-pool tera vatt tundi vatt tundides
+null koma null vatt tundi dz~aulides
 
 
-0 . 2 5 m*year**-2 IN yard*s**-2
+1 . 5 NOK IN EEK
 
-veerand meetrit ruut aastas jardides ruut sekundis
+pool teist norra krooni kroonides
+, , pool teist norra krooni eesti kroonides
+, , pool teist norra krooni eesti rahas
+, , pool teist norra krooni vanas rahas
+, , pool teist norra raha kroonides
+, , pool teist norra raha eesti kroonides
+, , pool teist norra raha eesti rahas
+, , pool teist norra raha vanas rahas
 
 
-- 0 ft **3 IN da yard **3
+0 . 7 5 G m / s IN yd / n s
 
-miinus null kuup jalga kuup deka jardides
+kolm veerand giga meetrit sekundis jardides nano sekundis
 
 
-0 mile IN T mile
+- 0 W IN W
 
-null miili tera miilides
+miinus null vatti vattides
 
 
-0 . 2 5 m mile / month IN c
+- 0 d W h IN M J
 
-veerand milli miili kuus valgus kiirustes
+miinus null detsi vatt tundi mega dz~aulides
 
 
-- 0 °C IN n °C
+- 0 rad IN '
 
-miinus null kraadi nano kraadides
+miinus null radiaani minutites
 
 
-0 . 2 5 °C IN d °C
+0 ha IN ha
 
-veerand kraadi detsi kraadides
+null hektarit hektarites
 
 
-1 . 5 ISK IN CAD
+0 . 0 n mi IN in
 
-pool teist islandi krooni kanada dollarites
-, , pool teist islandi krooni kanada rahas
-, , pool teist islandi raha kanada dollarites
-, , pool teist islandi raha kanada rahas
+null koma null nano miili tollides
 
 
-- 0 yard **3 IN G cup_us
+0 . 7 5 in **2 IN mi **2
 
-miinus null kuup jardi giga tassides
+kolm veerand ruut tolli ruut miilides
 
 
-1 . 5 W IN W
+- 0 . 0 d in*s**-2 IN mi*m s**-2
 
-pool teist vatti vattides
+miinus null koma null detsi tolli ruut sekundis miilides ruut milli sekundis
 
 
-0 in*h**-2 IN M ft*decade**-2
+0 oz IN t
 
-null tolli ruut tunnis mega jalgades ruut dekaadis
+null untsi tonnides
 
 
-- 0 . 0 µ °C IN °C
+- 0 c m*day**-2 IN ft*week**-2
 
-miinus null koma null mikro kraadi kraadides
+miinus null senti meetrit ruut päevas jalgades ruut nädalas
 
 
-- 0 Hz IN Hz
+0 . 7 5 h pt IN yd **3
 
-miinus null hertsi hertsides
+kolm veerand hekto pinti kuup jardides
 
 
-0 . 2 5 in IN in
+PI decade IN decade
 
-veerand tolli tollides
+Pii dekaadi dekaadides
 
 
-PI c ha IN ha
+PI cal IN da W h
 
-Pii senti hektarit hektarites
+Pii kalorit deka vatt tundides
 
 
-- 0 . 0 yard **3 IN d cup_us
+0 . 2 5 yd **3 IN m **3
 
-miinus null koma null kuup jardi detsi tassides
+veerand kuup jardi kuup meetrites
 
 
-PI h IN year
+PI n s IN s
 
-Pii tundi aastates
+Pii nano sekundit sekundites
 
 
-0 ha IN in **2
+1 . 5 cup_us IN h cup_us
 
-null hektarit ruut tollides
+pool teist tassi hekto tassides
 
 
-PI k °C IN G °C
+PI " IN '
 
-Pii kilo kraadi giga kraadides
+Pii sekundit minutites
 
 
-0 . 0 J IN da W h
+0 . 0 cup_us IN c gal
 
-null koma null dz~auli deka vatt tundides
+null koma null tassi senti gallonites
 
 
-0 . 7 5 CAD IN NZD
+0 . 2 5 NZD IN ISK
 
-kolm veerand kanada dollarit uus mere maa dollarites
-, , kolm veerand kanada dollarit uus mere maa rahas
-, , kolm veerand kanada raha uus mere maa dollarites
-, , kolm veerand kanada raha uus mere maa rahas
+veerand uus mere maa dollarit islandi kroonides
+, , veerand uus mere maa dollarit islandi rahas
+, , veerand uus mere maa raha islandi kroonides
+, , veerand uus mere maa raha islandi rahas
 
 
-- 0 . 0 ° IN °
+0 DKK IN USD
 
-miinus null koma null kraadi kraadides
+null taani krooni dollarites
+, , null taani krooni ameerika dollarites
+, , null taani krooni ameerika rahas
+, , null taani krooni suures valuutas
+, , null taani raha dollarites
+, , null taani raha ameerika dollarites
+, , null taani raha ameerika rahas
+, , null taani raha suures valuutas
 
 
-0 . 0 n g IN oz
+0 M mi / s IN knot
 
-null koma null nano grammi untsides
+null mega miili sekundis sõlmedes
 
 
-- 0 USD IN CAD
+0 . 7 5 in **2 IN acre
 
-miinus null dollarit kanada dollarites
-, , miinus null dollarit kanada rahas
-, , miinus null ameerika dollarit kanada dollarites
-, , miinus null ameerika dollarit kanada rahas
-, , miinus null ameerika raha kanada dollarites
-, , miinus null ameerika raha kanada rahas
-, , miinus null suurt valuutat kanada dollarites
-, , miinus null suurt valuutat kanada rahas
+kolm veerand ruut tolli aakrites
 
 
 

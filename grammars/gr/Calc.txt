@@ -1,239 +1,21 @@
-( ( 0 . 2 5 * PI ) * ( 0 . 5 / 0 . 7 5 ) )
+( ( 0 . 7 5 ^ 0 . 5 ) - ( 0 . 7 5 / 1 . 5 ) )
 
-veerand korda Pii korda ( pool jagatud kolm veerand )
+kolm veerand astmel pool miinus ( kolm veerand jagatud pool teist )
 
 
-- 0 h mile*week**-2 IN mile*year**-2
+( 1 . 5 / ( PI + 0 . 5 ) )
 
-miinus null hekto miili ruut nädalas miilides ruut aastas
+pool teist jagatud ( Pii pluss pool )
 
 
-0 . 2 5 rad IN rad
+( ( 0 . 2 5 - PI ) * ( 0 . 7 5 - 0 . 7 5 ) )
 
-veerand radiaani radiaanides
+veerand miinus Pii korda ( kolm veerand miinus kolm veerand )
 
 
-0 . 0 m yard **3 IN n pint
+( ( 1 . 5 * PI ) + 0 . 7 5 )
 
-null koma null kuup milli jardi nano pintides
-
-
-PI yard / m s IN yard / month
-
-Pii jardi milli sekundis jardides kuus
-
-
-0 . 0 c IN c
-
-null koma null valgus kiirust valgus kiirustes
-
-
-0 . 5 c ft*century**-2 IN h m*year**-2
-
-pool senti jalga ruut sajandis hekto meetrites ruut aastas
-
-
-( ( 0 . 7 5 + 1 . 5 ) - ( 0 . 2 5 + PI ) )
-
-kolm veerand pluss pool teist miinus ( veerand pluss Pii )
-
-
-( ( 0 . 2 5 * 1 . 5 ) - ( 1 . 5 / 0 . 5 ) )
-
-veerand korda pool teist miinus ( pool teist jagatud pool )
-
-
-0 . 2 5 mile IN mile
-
-veerand miili miilides
-
-
-( ( 0 . 5 - 0 . 2 5 ) / ( 1 . 5 ^ 0 . 5 ) )
-
-pool miinus veerand jagatud ( pool teist astmel pool )
-
-
-- 0 . 0 c L IN L
-
-miinus null koma null senti liitrit liitrites
-
-
-0 . 0 EUR IN HUF
-
-null koma null eurot forintites
-, , null koma null eurot ungari forintites
-, , null koma null eurot ungari rahas
-, , null koma null suurt valuutat forintites
-, , null koma null suurt valuutat ungari forintites
-, , null koma null suurt valuutat ungari rahas
-
-
-( 0 + 1 . 5 )
-
-null pluss pool teist
-
-
-- 0 Hz IN c Hz
-
-miinus null hertsi senti hertsides
-
-
-( ( 0 . 2 5 - 1 . 5 ) / ( 0 . 7 5 ^ PI ) )
-
-veerand miinus pool teist jagatud ( kolm veerand astmel Pii )
-
-
-( ( PI ^ 0 . 5 ) ^ ( 0 . 5 * 0 . 2 5 ) )
-
-Pii astmel pool astmel ( pool korda veerand )
-
-
-0 . 5
-
-pool
-
-
-- 0 J IN cal
-
-miinus null dz~auli kalorites
-
-
-0 . 5 century IN day
-
-pool sajandit päevades
-
-
-- 0 c IN c
-
-miinus null valgus kiirust valgus kiirustes
-
-
-0 . 2 5 c W IN c W
-
-veerand senti vatti senti vattides
-
-
-( ( 0 . 2 5 - 0 . 2 5 ) ^ ( 1 . 5 ^ 0 . 2 5 ) )
-
-veerand miinus veerand astmel ( pool teist astmel veerand )
-
-
-0 . 7 5 lb IN c flour-cup
-
-kolm veerand naela senti jahu tassides
-
-
-( ( 0 . 5 ^ 0 . 2 5 ) + ( 0 . 2 5 / 1 . 5 ) )
-
-pool astmel veerand pluss ( veerand jagatud pool teist )
-
-
-0 ' IN "
-
-null minutit sekundites
-
-
-( ( 0 . 5 - PI ) * 0 . 2 5 )
-
-pool miinus Pii korda veerand
-
-
-0 . 7 5 J IN cal
-
-kolm veerand dz~auli kalorites
-
-
-- 0 m mile*µ s**-2 IN ft*n s**-2
-
-miinus null milli miili ruut mikro sekundis jalgades ruut nano sekundis
-
-
-1 . 5 Hz IN k Hz
-
-pool teist hertsi kilo hertsides
-
-
-0 ft*s**-2 IN yard*decade**-2
-
-null jalga ruut sekundis jardides ruut dekaadis
-
-
-( ( 1 . 5 * 0 . 7 5 ) ^ ( 0 . 7 5 ^ PI ) )
-
-pool teist korda kolm veerand astmel ( kolm veerand astmel Pii )
-
-
-( ( 0 . 5 * 0 . 5 ) - ( 0 . 2 5 ^ 1 . 5 ) )
-
-pool korda pool miinus ( veerand astmel pool teist )
-
-
-0 t IN oz
-
-null tonni untsides
-
-
-( 0 . 7 5 / 0 . 5 )
-
-kolm veerand jagatud pool
-
-
-( 1 . 5 - ( 0 . 5 ^ 0 . 7 5 ) )
-
-pool teist miinus ( pool astmel kolm veerand )
-
-
-( ( 0 . 5 / PI ) - ( 0 . 7 5 - PI ) )
-
-pool jagatud Pii miinus ( kolm veerand miinus Pii )
-
-
-( ( 0 . 7 5 ^ 0 . 7 5 ) ^ ( 1 . 5 / PI ) )
-
-kolm veerand astmel kolm veerand astmel ( pool teist jagatud Pii )
-
-
-0 . 7 5
-
-kolm veerand
-
-
-( ( 1 . 5 * 1 . 5 ) + 1 . 5 )
-
-pool teist korda pool teist pluss pool teist
-
-
-1 . 5 NOK IN DKK
-
-pool teist norra krooni taani kroonides
-, , pool teist norra krooni taani rahas
-, , pool teist norra raha taani kroonides
-, , pool teist norra raha taani rahas
-
-
-( 0 + ( 1 . 5 ^ 0 . 2 5 ) )
-
-null pluss ( pool teist astmel veerand )
-
-
-1 . 5
-
-pool teist
-
-
-( ( 1 . 5 + 0 . 5 ) + 0 . 2 5 )
-
-pool teist pluss pool pluss veerand
-
-
-( ( 0 . 5 + 0 . 7 5 ) ^ ( 0 . 5 + 1 . 5 ) )
-
-pool pluss kolm veerand astmel ( pool pluss pool teist )
-
-
-- 0 . 0 d mile IN h in
-
-miinus null koma null detsi miili hekto tollides
+pool teist korda Pii pluss kolm veerand
 
 
 0 . 2 5
@@ -241,19 +23,243 @@ miinus null koma null detsi miili hekto tollides
 veerand
 
 
-( ( 0 . 7 5 ^ 0 . 2 5 ) ^ ( PI ^ PI ) )
+( ( 0 . 7 5 + 0 . 7 5 ) ^ ( 0 . 5 ^ 1 . 5 ) )
 
-kolm veerand astmel veerand astmel ( Pii astmel Pii )
-
-
-( ( 0 . 5 ^ 0 . 7 5 ) ^ ( 1 . 5 - 0 . 2 5 ) )
-
-pool astmel kolm veerand astmel ( pool teist miinus veerand )
+kolm veerand pluss kolm veerand astmel ( pool astmel pool teist )
 
 
-- 0 flour-cup IN h lb
+( ( PI / 1 . 5 ) ^ ( 0 . 7 5 ^ 1 . 5 ) )
 
-miinus null tassi jahu hekto naelades
+Pii jagatud pool teist astmel ( kolm veerand astmel pool teist )
+
+
+- 0 . 0 Hz IN n Hz
+
+miinus null koma null hertsi nano hertsides
+
+
+0 . 7 5
+
+kolm veerand
+
+
+( ( 0 . 2 5 / 0 . 5 ) * ( 0 . 5 - PI ) )
+
+veerand jagatud pool korda ( pool miinus Pii )
+
+
+( ( PI / PI ) + ( 0 . 2 5 - 0 . 7 5 ) )
+
+Pii jagatud Pii pluss ( veerand miinus kolm veerand )
+
+
+PI ha IN ha
+
+Pii hektarit hektarites
+
+
+0 . 0
+
+null koma null
+
+
+- 0
+
+miinus null
+
+
+0 . 7 5 Hz IN Hz
+
+kolm veerand hertsi hertsides
+
+
+( ( PI * 0 . 7 5 ) - 0 )
+
+Pii korda kolm veerand miinus null
+
+
+( ( 0 . 7 5 ^ 0 . 7 5 ) - ( 0 . 5 / 0 . 5 ) )
+
+kolm veerand astmel kolm veerand miinus ( pool jagatud pool )
+
+
+( ( 0 . 2 5 ^ 0 . 2 5 ) ^ ( 0 . 2 5 * 0 . 7 5 ) )
+
+veerand astmel veerand astmel ( veerand korda kolm veerand )
+
+
+0 . 7 5
+
+kolm veerand
+
+
+0 . 2 5
+
+veerand
+
+
+- 0 . 0 ' IN rad
+
+miinus null koma null minutit radiaanides
+
+
+PI ft IN k mi
+
+Pii jalga kilo miilides
+
+
+( 0 ^ ( PI / 1 . 5 ) )
+
+null astmel ( Pii jagatud pool teist )
+
+
+( ( 0 . 2 5 ^ PI ) * 0 . 7 5 )
+
+veerand astmel Pii korda kolm veerand
+
+
+- 0 d m*min**-2 IN m*year**-2
+
+miinus null detsi meetrit ruut minutis meetrites ruut aastas
+
+
+0 g IN M flour-cup
+
+null grammi mega jahu tassides
+
+
+0 . 5 rad IN rad
+
+pool radiaani radiaanides
+
+
+( ( 0 . 2 5 - 1 . 5 ) / ( 1 . 5 - 0 . 2 5 ) )
+
+veerand miinus pool teist jagatud ( pool teist miinus veerand )
+
+
+( ( 0 . 5 / 0 . 7 5 ) * - 0 )
+
+pool jagatud kolm veerand korda miinus null
+
+
+( 0 . 7 5 * ( 0 . 2 5 * 0 . 7 5 ) )
+
+kolm veerand korda ( veerand korda kolm veerand )
+
+
+0 . 7 5
+
+kolm veerand
+
+
+PI EEK IN AUD
+
+Pii krooni austraalia dollarites
+, , Pii krooni austraalia rahas
+, , Pii eesti krooni austraalia dollarites
+, , Pii eesti krooni austraalia rahas
+, , Pii eesti raha austraalia dollarites
+, , Pii eesti raha austraalia rahas
+, , Pii vana raha austraalia dollarites
+, , Pii vana raha austraalia rahas
+
+
+- 0 m Hz IN Hz
+
+miinus null milli hertsi hertsides
+
+
+0 . 7 5 century IN year
+
+kolm veerand sajandit aastates
+
+
+0 . 2 5 ° IN "
+
+veerand kraadi sekundites
+
+
+0 . 2 5 W IN da W
+
+veerand vatti deka vattides
+
+
+0 . 5 n s IN year
+
+pool nano sekundit aastates
+
+
+- 0 Hz IN da Hz
+
+miinus null hertsi deka hertsides
+
+
+1 . 5 AUD IN GBP
+
+pool teist austraalia dollarit naelades
+, , pool teist austraalia dollarit inglise naelades
+, , pool teist austraalia dollarit inglise rahas
+, , pool teist austraalia dollarit suures valuutas
+, , pool teist austraalia raha naelades
+, , pool teist austraalia raha inglise naelades
+, , pool teist austraalia raha inglise rahas
+, , pool teist austraalia raha suures valuutas
+
+
+( 0 . 5 ^ ( PI / 0 . 7 5 ) )
+
+pool astmel ( Pii jagatud kolm veerand )
+
+
+( ( PI * PI ) / ( 1 . 5 * 1 . 5 ) )
+
+Pii korda Pii jagatud ( pool teist korda pool teist )
+
+
+( ( 1 . 5 - 0 . 2 5 ) - ( 0 . 2 5 / 1 . 5 ) )
+
+pool teist miinus veerand miinus ( veerand jagatud pool teist )
+
+
+( 0 . 7 5 / ( PI - 0 . 7 5 ) )
+
+kolm veerand jagatud ( Pii miinus kolm veerand )
+
+
+1 . 5 n Hz IN Hz
+
+pool teist nano hertsi hertsides
+
+
+( ( 0 . 7 5 + 0 . 5 ) + 0 . 5 )
+
+kolm veerand pluss pool pluss pool
+
+
+- 0 k yd*century**-2 IN yd*s**-2
+
+miinus null kilo jardi ruut sajandis jardides ruut sekundis
+
+
+( ( 0 . 2 5 + 0 . 5 ) * ( 0 . 7 5 / 0 . 7 5 ) )
+
+veerand pluss pool korda ( kolm veerand jagatud kolm veerand )
+
+
+( ( 0 . 5 + PI ) ^ ( 0 . 5 - 1 . 5 ) )
+
+pool pluss Pii astmel ( pool miinus pool teist )
+
+
+0
+
+null
+
+
+PI M m / day IN m in / h
+
+Pii mega meetrit päevas milli tollides tunnis
 
 
 

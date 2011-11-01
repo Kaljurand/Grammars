@@ -1,251 +1,351 @@
-Ahvena 101 , Tallinn
+Kanuti aed , Tallinn
 
-Ahvena sada üks
+map Kanuti aed , Tallinn
 
+Kanuti aed
 
-Coca-Cola Plaza , Tallinn
 
-Coca-Cola Plaza
+Karuse , Tallinn
 
+map Karuse , Tallinn
 
-FROM Coca-Cola Plaza , Tallinn TO Kanuti aed , Tallinn
+Karuse
 
-Algus Coca-Cola Plaza Lõpp Kanuti aed
 
+Linnahall , Tallinn
 
-Vesse 810 , Tallinn
+map Linnahall , Tallinn
 
-Vesse kaheksa sada kümme
+Linnahall
 
 
-FROM Juurdeveo , Tallinn TO Linnahall , Tallinn
+Vabaõhukooli tee 114 , Tallinn
 
-Algus Juurdeveo Lõpp Linnahall
+map Vabaõhukooli tee 114 , Tallinn
 
+Vabaõhukooli tee sada neli teist
 
-FROM Coca-Cola Plaza , Tallinn TO Leesika 110 , Tallinn
 
-Algus Coca-Cola Plaza Lõpp Leesika sada kümme
+FROM Rukki , Tallinn TO Suur-Sõjamäe 119 , Tallinn
 
+get directions to Suur-Sõjamäe 119 , Tallinn
 
-Nurme 880 , Tallinn
+Algus Rukki Lõpp Suur-Sõjamäe sada üheksa teist
 
-Nurme kaheksa sada kaheksa kümmend
 
+FROM Põldmarja , Tallinn TO Kanuti aed , Tallinn
 
-FROM Jasmiini tee 900 , Tallinn TO Coca-Cola Plaza , Tallinn
+get directions to Kanuti aed , Tallinn
 
-Algus Jasmiini tee üheksa sada Lõpp Coca-Cola Plaza
+Algus Põldmarja Lõpp Kanuti aed
 
 
-Suvila 110 , Tallinn
+FROM Madala , Tallinn TO Ketta , Tallinn
 
-Suvila sada kümme
+get directions to Ketta , Tallinn
 
+Algus Madala Lõpp Ketta
 
-FROM Coca-Cola Plaza , Tallinn TO Kanuti aed , Tallinn
 
-Algus Coca-Cola Plaza Lõpp Kanuti aed
+Mõtuse 510 , Tallinn
 
+map Mõtuse 510 , Tallinn
 
-FROM Coca-Cola Plaza , Tallinn TO Kauba , Tallinn
+Mõtuse viis sada kümme
 
-Algus Coca-Cola Plaza Lõpp Kauba
 
+Maleva , Tallinn
 
-Väike-Karja , Tallinn
+map Maleva , Tallinn
 
-Väike-Karja
+Maleva
 
 
-FROM Linnahall , Tallinn TO Lillevälja 100 , Tallinn
+FROM Humala 11 , Tallinn TO Coca-Cola Plaza , Tallinn
 
-Algus Linnahall Lõpp Lillevälja sada
+get directions to Coca-Cola Plaza , Tallinn
 
+Algus Humala üks teist Lõpp Coca-Cola Plaza
 
-FROM Coca-Cola Plaza , Tallinn TO Meika , Tallinn
 
-Algus Coca-Cola Plaza Lõpp Meika
+FROM Ketraja , Tallinn TO Nisu , Tallinn
 
+get directions to Nisu , Tallinn
 
-FROM Coca-Cola Plaza , Tallinn TO Kanuti aed , Tallinn
+Algus Ketraja Lõpp Nisu
 
-Algus Coca-Cola Plaza Lõpp Kanuti aed
 
+FROM Coca-Cola Plaza , Tallinn TO Helbe 800 , Tallinn
 
-FROM Madala 301 , Tallinn TO Kanuti aed , Tallinn
+get directions to Helbe 800 , Tallinn
 
-Algus Madala kolm sada üks Lõpp Kanuti aed
+Algus Coca-Cola Plaza Lõpp Helbe kaheksa sada
 
 
-Sepapere 111 , Tallinn
+FROM Võidu põik 80 , Tallinn TO Lennujaama tee 100 , Tallinn
 
-Sepapere sada üks teist
+get directions to Lennujaama tee 100 , Tallinn
 
+Algus Võidu põik kaheksa kümmend Lõpp Lennujaama tee sada
 
-FROM Sarve 201 , Tallinn TO Kloostrimetsa tee 101 , Tallinn
 
-Algus Sarve kaks sada üks Lõpp Kloostrimetsa tee sada üks
+FROM Kanuti aed , Tallinn TO Jakob Mändmetsa , Tallinn
 
+get directions to Jakob Mändmetsa , Tallinn
 
-Madara 800 , Tallinn
+Algus Kanuti aed Lõpp Jakob Mändmetsa
 
-Madara kaheksa sada
 
+FROM Maimu 800 , Tallinn TO Coca-Cola Plaza , Tallinn
 
-FROM Linnahall , Tallinn TO Leete 100 , Tallinn
+get directions to Coca-Cola Plaza , Tallinn
 
-Algus Linnahall Lõpp Leete sada
+Algus Maimu kaheksa sada Lõpp Coca-Cola Plaza
 
 
-Lühike , Tallinn
+Armatuuri 31 , Tallinn
 
-Lühike
+map Armatuuri 31 , Tallinn
 
-
-Tohu 1 , Tallinn
-
-Tohu üks
+Armatuuri kolm kümmend üks
 
 
 FROM Kanuti aed , Tallinn TO Coca-Cola Plaza , Tallinn
 
+get directions to Coca-Cola Plaza , Tallinn
+
 Algus Kanuti aed Lõpp Coca-Cola Plaza
 
 
-FROM Palli 100 , Tallinn TO Hälli 930 , Tallinn
+FROM Linnahall , Tallinn TO Kauge , Tallinn
 
-Algus Palli sada Lõpp Hälli üheksa sada kolm kümmend
+get directions to Kauge , Tallinn
 
-
-FROM Hunditubaka tee 800 , Tallinn TO Kaja 370 , Tallinn
-
-Algus Hunditubaka tee kaheksa sada Lõpp Kaja kolm sada seitse kümmend
+Algus Linnahall Lõpp Kauge
 
 
-FROM Lesta , Tallinn TO Kurikneeme tee 110 , Tallinn
+Telliskivi 100 , Tallinn
 
-Algus Lesta Lõpp Kurikneeme tee sada kümme
+map Telliskivi 100 , Tallinn
 
-
-Tammepärja 30 , Tallinn
-
-Tammepärja kolm kümmend
-
-
-Odra , Tallinn
-
-Odra
-
-
-Voorimehe 100 , Tallinn
-
-Voorimehe sada
-
-
-Raua 71 , Tallinn
-
-Raua seitse kümmend üks
+Telliskivi sada
 
 
 Linnahall , Tallinn
 
-Linnahall
-
-
-FROM Tooma 170 , Tallinn TO Vanaturu kael 500 , Tallinn
-
-Algus Tooma sada seitse kümmend Lõpp Vanaturu kael viis sada
-
-
-FROM Roheline aas 1 , Tallinn TO Tagala 18 , Tallinn
-
-Algus Roheline aas üks Lõpp Tagala kaheksa teist
-
-
-Rajametsa , Tallinn
-
-Rajametsa
-
-
-Jaan Poska 1 , Tallinn
-
-Jaan Poska üks
-
-
-FROM Tala , Tallinn TO Õismäe tee , Tallinn
-
-Algus Tala Lõpp Õismäe tee
-
-
-FROM Toome puiestee , Tallinn TO Linnahall , Tallinn
-
-Algus Toome puiestee Lõpp Linnahall
-
-
-FROM Alliksoo , Tallinn TO Hiie , Tallinn
-
-Algus Alliksoo Lõpp Hiie
-
-
-FROM Maikellukese tee , Tallinn TO Kaitse 1 , Tallinn
-
-Algus Maikellukese tee Lõpp Kaitse üks
-
-
-Kanuti aed , Tallinn
-
-Kanuti aed
-
-
-FROM Kanuti aed , Tallinn TO Linnahall , Tallinn
-
-Algus Kanuti aed Lõpp Linnahall
-
-
-Looklev tee , Tallinn
-
-Looklev tee
-
-
-Viru 400 , Tallinn
-
-Viru neli sada
-
-
-Kanuti aed , Tallinn
-
-Kanuti aed
-
-
-FROM Piibelehe 310 , Tallinn TO Mõõna tee 100 , Tallinn
-
-Algus Piibelehe kolm sada kümme Lõpp Mõõna tee sada
-
-
-Linnahall , Tallinn
+map Linnahall , Tallinn
 
 Linnahall
 
 
-Lasnamäe , Tallinn
+FROM Paasiku 1 , Tallinn TO Coca-Cola Plaza , Tallinn
 
-Lasnamäe
+get directions to Coca-Cola Plaza , Tallinn
 
-
-Kanuti aed , Tallinn
-
-Kanuti aed
+Algus Paasiku üks Lõpp Coca-Cola Plaza
 
 
-Linnahall , Tallinn
+Poldri 15 , Tallinn
 
-Linnahall
+map Poldri 15 , Tallinn
+
+Poldri viis teist
+
+
+FROM Halla , Tallinn TO Linnahall , Tallinn
+
+get directions to Linnahall , Tallinn
+
+Algus Halla Lõpp Linnahall
 
 
 Coca-Cola Plaza , Tallinn
 
+map Coca-Cola Plaza , Tallinn
+
 Coca-Cola Plaza
+
+
+FROM Kärneri 101 , Tallinn TO Kanuti aed , Tallinn
+
+get directions to Kanuti aed , Tallinn
+
+Algus Kärneri sada üks Lõpp Kanuti aed
+
+
+FROM Coca-Cola Plaza , Tallinn TO Linnahall , Tallinn
+
+get directions to Linnahall , Tallinn
+
+Algus Coca-Cola Plaza Lõpp Linnahall
+
+
+Saarepiiga puiestee , Tallinn
+
+map Saarepiiga puiestee , Tallinn
+
+Saarepiiga puiestee
+
+
+Turu plats , Tallinn
+
+map Turu plats , Tallinn
+
+Turu plats
+
+
+FROM Mäealuse , Tallinn TO Latika , Tallinn
+
+get directions to Latika , Tallinn
+
+Algus Mäealuse Lõpp Latika
+
+
+Coca-Cola Plaza , Tallinn
+
+map Coca-Cola Plaza , Tallinn
+
+Coca-Cola Plaza
+
+
+FROM Saue 10 , Tallinn TO Coca-Cola Plaza , Tallinn
+
+get directions to Coca-Cola Plaza , Tallinn
+
+Algus Saue kümme Lõpp Coca-Cola Plaza
+
+
+FROM Coca-Cola Plaza , Tallinn TO Roseni 81 , Tallinn
+
+get directions to Roseni 81 , Tallinn
+
+Algus Coca-Cola Plaza Lõpp Roseni kaheksa kümmend üks
+
+
+Friedrich Robert Faehlmanni 100 , Tallinn
+
+map Friedrich Robert Faehlmanni 100 , Tallinn
+
+Friedrich Robert Faehlmanni sada
+
+
+FROM Kanuti aed , Tallinn TO Õpetajate 100 , Tallinn
+
+get directions to Õpetajate 100 , Tallinn
+
+Algus Kanuti aed Lõpp Õpetajate sada
+
+
+FROM Padriku tee 111 , Tallinn TO Linnahall , Tallinn
+
+get directions to Linnahall , Tallinn
+
+Algus Padriku tee sada üks teist Lõpp Linnahall
+
+
+FROM Sepapere 400 , Tallinn TO Tedre põik , Tallinn
+
+get directions to Tedre põik , Tallinn
+
+Algus Sepapere neli sada Lõpp Tedre põik
+
+
+Prii , Tallinn
+
+map Prii , Tallinn
+
+Prii
+
+
+Linnahall , Tallinn
+
+map Linnahall , Tallinn
+
+Linnahall
+
+
+Pune tee , Tallinn
+
+map Pune tee , Tallinn
+
+Pune tee
+
+
+Talve , Tallinn
+
+map Talve , Tallinn
+
+Talve
+
+
+FROM Alajaama , Tallinn TO Kuusenõmme tee 80 , Tallinn
+
+get directions to Kuusenõmme tee 80 , Tallinn
+
+Algus Alajaama Lõpp Kuusenõmme tee kaheksa kümmend
+
+
+Linnahall , Tallinn
+
+map Linnahall , Tallinn
+
+Linnahall
+
+
+Puki tee 431 , Tallinn
+
+map Puki tee 431 , Tallinn
+
+Puki tee neli sada kolm kümmend üks
+
+
+FROM Linnahall , Tallinn TO Tõivu 100 , Tallinn
+
+get directions to Tõivu 100 , Tallinn
+
+Algus Linnahall Lõpp Tõivu sada
+
+
+Rästa põik 110 , Tallinn
+
+map Rästa põik 110 , Tallinn
+
+Rästa põik sada kümme
+
+
+Coca-Cola Plaza , Tallinn
+
+map Coca-Cola Plaza , Tallinn
+
+Coca-Cola Plaza
+
+
+FROM Tiiru , Tallinn TO Coca-Cola Plaza , Tallinn
+
+get directions to Coca-Cola Plaza , Tallinn
+
+Algus Tiiru Lõpp Coca-Cola Plaza
+
+
+Ranniku põik , Tallinn
+
+map Ranniku põik , Tallinn
+
+Ranniku põik
+
+
+FROM Kloostrimetsa tee , Tallinn TO Lõhe 114 , Tallinn
+
+get directions to Lõhe 114 , Tallinn
+
+Algus Kloostrimetsa tee Lõpp Lõhe sada neli teist
+
+
+Lemmiku , Tallinn
+
+map Lemmiku , Tallinn
+
+Lemmiku
 
 
 
