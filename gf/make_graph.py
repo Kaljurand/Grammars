@@ -71,6 +71,8 @@ def match_concrete(m):
 	#dot_lines.append(dot)
 	supers = m.group(3)
 	supers = re.sub('open .*', '', supers)
+	# Remove restricted inheritance
+	supers = re.sub('-?\[[^\]]*\]', '', supers)
 	supers = re.sub('\*\*.*', '', supers)
 	if re.match('^\s*$', supers):
 		dot_lines.append('"{:}" -> "_concrete_" [color = "green" style = "bold"]'.format(name))
