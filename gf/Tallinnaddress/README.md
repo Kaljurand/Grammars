@@ -18,9 +18,11 @@ a reasonably large vocabulary (~1500 terminals).
 Origin
 ------
 
-TALLINNA TÄNAVAD LINNAOSADE KAUPA
-3. juuni 2011
-Downloaded from: http://www.eki.ee/knab/tallinn3.htm
+Eesti Keele Instituudi kohanimeandmed (http://www.eki.ee/knab/)
+
+  * TALLINNA TÄNAVAD LINNAOSADE KAUPA
+  * 3. juuni 2011
+  * Downloaded from: http://www.eki.ee/knab/tallinn3.htm
 
 
 Pre-processing
