@@ -18,8 +18,9 @@ echo "Building PGF files..."
 for grammar in Action Address Calc Digit Direction Estvrp Exp Fraction Go Letter Symbols Tallinndirection Unitconv; do
 	echo "  $grammar";
 	echo "    PGF";
-	gf -s --make --optimize-pgf --mk-index --path $path --output-dir ${dir_pgf} ${grammar}/${grammar}???.gf
+	gf -s --make --optimize-pgf --mk-index --path $path --output-dir ${dir_pgf} ${grammar}/${grammar}*.gf
 	echo "    gr";
-	echo "gr -lang=${grammar}Est,${grammar}App -number=50 -depth=5 | l -list -bind" | gf --run ${grammar}.pgf > ${dir_gr}/${grammar}.txt
+	#echo "gr -lang=${grammar}Est,${grammar}App -number=50 -depth=5 | l -list -bind" | gf --run ${grammar}.pgf > ${dir_gr}/${grammar}.txt
+	echo "gr -number=50 -depth=5 | l -list -bind" | gf --run ${grammar}.pgf > ${dir_gr}/${grammar}.txt
 done
 echo "done."
