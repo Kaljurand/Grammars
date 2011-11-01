@@ -101,6 +101,7 @@ celsius = mk "kraadi";
 
 --Area
 hectare = mk "hektarit";
+acre = mk "aakrit";
 
 --Volume
 liter = mk "liitrit";

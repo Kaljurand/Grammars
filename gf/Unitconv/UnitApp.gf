@@ -54,9 +54,9 @@ acceleration = simple_product "-2";
 --Length
 meter = ss "m";
 foot = ss "ft";
-mile = ss "mile";
+mile = ss "mi";
 inch = ss "in";
-yard = ss "yard";
+yard = ss "yd";
 
 --Mass
 gram = ss "g";
@@ -86,10 +86,12 @@ celsius = ss "°C";
 
 --Area
 hectare = ss "ha";
+acre = ss "acre";
+
 
 --Volume
 liter = ss "L";
-pint = ss "pint";
+pint = ss "pt";
 gallon = ss "gal";
 cup = ss "cup_us";
 

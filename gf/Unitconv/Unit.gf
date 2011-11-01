@@ -75,7 +75,7 @@ fun
 
 	-- Only the Area units which are not constructed from a length unit,
 	-- i.e. we have `hectare` here but not `square meter`.
-	hectare : Area ;
+	hectare, acre : Area ;
 
 	-- Only the Volume units which are not constructed from Length (e.g. cm^3)
 	liter, gallon, pint, cup : Volume ;
