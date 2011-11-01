@@ -25,7 +25,8 @@ Conversion to GF
 
 Extracting the list of names of populated places (`PPL`) from `EE.txt`:
 
-    cat EE.txt | cut -f2,8 | grep PPL | cut -f1 | sort | uniq | python make_eeppl.py
+    cat EE.txt | cut -f2,8 | grep PPL | cut -f1 | sort | uniq | python ../tools/make_fun.py --lang Est Eeppl
+    Warning: Ignoring line 586: Jaunāmuiža
 
 One PPL-line was excluded because it contained a name with characters outside of
 Estonian alphabet (a Latvian placename). About 100 names in the data

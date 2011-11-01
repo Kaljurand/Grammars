@@ -85,6 +85,7 @@ for line in sys.stdin.readlines():
 	if not re.match('^[a-zA-Z0-9\'_]+$', line_key):
 		print >> sys.stderr, 'Warning: Ignoring line {:}: {:}'.format(i, line)
 	else:
+		line_key = args.name + "__" + line_key
 		f.write('{:} = "{:}";\n'.format(line_key, line_val))
 		fun_names.append(line_key)
 f.write(get_footer_concrete())
