@@ -16,6 +16,13 @@ oper
 
 	prefix : Str -> CaseStr -> CaseStr = \x,y -> add_prefix x y;
 
+	mkUnit = overload {
+		mkUnit : (x1 : Str) -> CaseStr = mk ;
+		mkUnit : (x1,x2 : Str) -> CaseStr = f ;
+		mkUnit : (x1,x2,x3 : Str) -> CaseStr = f3 ;
+	};
+
+
 	f3 : Str -> Str -> Str -> CaseStr = \sg1,sg2,pl1 ->
 		{
 			s = table {
