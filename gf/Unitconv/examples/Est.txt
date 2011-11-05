@@ -17,3 +17,4 @@ kaks kilo vatt tundi mega vatt tundides
 kaks s~veitsi raha rublades
 kaks meetrit ruut sekundis jalgades ruut minutis
 kaks norra raha suures valuutas
+kaks meetrit sekundis sekundis sõlmedes tunnis

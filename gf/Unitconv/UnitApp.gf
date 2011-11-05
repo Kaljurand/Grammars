@@ -51,6 +51,8 @@ speed = infixSS "/";
 --acceleration = product "1" "-2";
 acceleration = simple_product "-2";
 
+acceleration2 x y = ss (glue x.s "/" y.s);
+
 --Length
 meter = ss "m";
 foot = ss "ft";

@@ -65,6 +65,13 @@ oper
 	-- SgIn: * meetris sekundis
 	-- Note the first argument is used to provide "ruut" in case of
 	-- "meetrit ruut sekundis".
+	-- Note that we can use the resulting CaseStr as the 1st CaseStr argument, e.g.:
+	-- Pass 1 (constructing speed):
+	-- SgPart: meetrit (SgPart) sekundis (SgIn)
+	-- PlIn: meetrites (PlIn) sekundis (SgIn)
+	-- Pass 2 (constructing acceleration from speed):
+	-- SgPart: meetrit sekundis (SgPart) sekundis (SgIn)
+	-- PlIn : meetrites sekundis (PlIn) sekundis (SgIn)
 	mk_meter_per_second : Str -> CaseStr -> CaseStr -> CaseStr = \p,x,y ->
 		{
 			s = table {

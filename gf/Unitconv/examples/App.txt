@@ -14,3 +14,4 @@
 3 m &+ * &+ s &+ ** &+ -2 IN k m &+ * &+ µ s &+ ** &+ -2
 3 in IN ft
 2 HUF IN EUR
+2 c &+ / &+ s IN k m / h &+ / &+ s

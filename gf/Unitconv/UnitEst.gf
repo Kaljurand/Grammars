@@ -10,9 +10,8 @@ concrete UnitEst of Unit = PrefixEst, CurrencyEst ** open StringOper, Estonian i
 --   * kilo meetrit sekundis
 --   * kilo meetrit milli sekundis
 --   * kilo meetrit ruut milli sekundis
---   * dollarit
---   * ameerika dollarit
---   * ameerika raha
+--   * meetrit sekundis sekundis [= (m/s)/s]
+-- For the currency examples see `CurrencyEst`.
 --
 -- In principle two forms of each word must be provided
 -- (singular partitiv and plural inessiv), but using the mk-function
@@ -25,7 +24,7 @@ concrete UnitEst of Unit = PrefixEst, CurrencyEst ** open StringOper, Estonian i
 -- override it), but in most cases this form is not used (and does not even end up in JSGF).
 --
 -- @author Kaarel Kaljurand
--- @version 2011-10-13
+-- @version 2011-11-05
 
 flags coding=utf8;
 
@@ -64,7 +63,7 @@ prefixed_frequency_unit = prefix ;
 square = prefix "ruut";
 cube = prefix "kuup";
 
-speed = mk_meter_per_second "";
+speed, acceleration2 = mk_meter_per_second "";
 acceleration = mk_meter_per_second "ruut";
 
 --Length

@@ -249,6 +249,11 @@ kaks norra raha ameerika rahas
 kaks norra raha suures valuutas
 
 
+2 m / s/s IN knot/h
+
+kaks meetrit sekundis sekundis sõlmedes tunnis
+
+
 Parsing examples/App.txt
 -------
 2 m IN ft
@@ -389,5 +394,10 @@ kaks ungari forintit suures valuutas
 kaks ungari raha eurodes
 
 kaks ungari raha suures valuutas
+
+
+2 c/s IN k m / h/s
+
+kaks valgus kiirust sekundis kilo meetrites tunnis sekundis
 
 

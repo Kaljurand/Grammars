@@ -59,6 +59,9 @@ fun
 	-- km / h, km*m**-2
 	speed : LengthUnit -> TimeUnit -> SpeedUnit ;
 	acceleration : LengthUnit -> TimeUnit -> AccelerationUnit ;
+	-- Acceleration can also be expressed by speed and time,
+	-- `c/s IN km/s/s`, where `c` and `km/s` are for speed and `s` is for time.
+	acceleration2 : SpeedUnit -> TimeUnit -> AccelerationUnit ;
 
 	-- Simple units
 
