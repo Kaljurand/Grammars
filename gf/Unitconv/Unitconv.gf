@@ -10,6 +10,11 @@ fun
 	-- Quantified unit conversion
 	main : Fraction -> Conv -> Main ;
 
+	-- TODO: this should cover all possible type pairs
+	general :
+		Fraction -> CurrencyUnit -> Fraction -> TimeUnit ->
+		Fraction -> CurrencyUnit -> Fraction -> TimeUnit -> Main ;
+
 	-- Type-aware unit conversion
 	-- TODO: use dependent types
 

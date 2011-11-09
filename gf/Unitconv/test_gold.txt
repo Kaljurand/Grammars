@@ -254,6 +254,17 @@ kaks norra raha suures valuutas
 kaks meetrit sekundis sekundis sõlmedes tunnis
 
 
+( ( ( 2 * 0 . 7 5 ) / ( 0 . 5 * 0 . 2 5 ) ) * ( ( EUR IN NOK ) / ( h IN s ) ) )
+
+kaks eurot pool tunnis teeb kolm veerand sekundis veerand norra kroonides
+
+kaks eurot pool tunnis teeb kolm veerand sekundis veerand norra rahas
+
+kaks suurt valuutat pool tunnis teeb kolm veerand sekundis veerand norra kroonides
+
+kaks suurt valuutat pool tunnis teeb kolm veerand sekundis veerand norra rahas
+
+
 Parsing examples/App.txt
 -------
 2 m IN ft

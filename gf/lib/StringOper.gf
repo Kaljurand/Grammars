@@ -63,6 +63,8 @@ oper
 		mkPrec p (usePrec (nextPrec p) x ++ f ++ usePrec p y) ;
 
 	parenth : Str -> Str = \s -> "(" ++ s ++ ")" ;
+	parenthSS : SS -> SS = \s -> ss ("(" ++ s.s ++ ")");
+
 	parenthOpt : Str -> Str = \s -> variants {s ; "(" ++ s ++ ")"} ;
 
 	usePrec : Prec -> TermPrec -> Str = \p,x ->
