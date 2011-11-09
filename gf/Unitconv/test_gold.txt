@@ -254,7 +254,7 @@ kaks norra raha suures valuutas
 kaks meetrit sekundis sekundis sõlmedes tunnis
 
 
-( ( ( 2 * 0 . 7 5 ) / ( 0 . 5 * 0 . 2 5 ) ) * ( ( EUR IN NOK ) / ( h IN s ) ) )
+( ( ( EUR IN NOK ) / ( h IN s ) ) * ( ( 2 * 0 . 7 5 ) / ( 0 . 5 * 0 . 2 5 ) ) )
 
 kaks eurot pool tunnis teeb kolm veerand sekundis veerand norra kroonides
 
@@ -263,6 +263,17 @@ kaks eurot pool tunnis teeb kolm veerand sekundis veerand norra rahas
 kaks suurt valuutat pool tunnis teeb kolm veerand sekundis veerand norra kroonides
 
 kaks suurt valuutat pool tunnis teeb kolm veerand sekundis veerand norra rahas
+
+
+( ( ( EUR IN NOK ) / ( h IN s ) ) * ( ( 2 * 1 ) / ( 1 * 1 ) ) )
+
+kaks eurot tunnis teeb sekundis norra kroonides
+
+kaks eurot tunnis teeb sekundis norra rahas
+
+kaks suurt valuutat tunnis teeb sekundis norra kroonides
+
+kaks suurt valuutat tunnis teeb sekundis norra rahas
 
 
 Parsing examples/App.txt

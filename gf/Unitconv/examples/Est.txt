@@ -19,3 +19,4 @@ kaks meetrit ruut sekundis jalgades ruut minutis
 kaks norra raha suures valuutas
 kaks meetrit sekundis sekundis sõlmedes tunnis
 kaks eurot pool tunnis teeb kolm veerand sekundis veerand norra kroonides
+kaks eurot tunnis teeb sekundis norra kroonides

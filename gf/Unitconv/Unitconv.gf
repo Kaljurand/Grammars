@@ -5,15 +5,19 @@ flags startcat = Main ;
 cat
 	Main ;
 	Conv ;
+	FractionD ;
 
 fun
 	-- Quantified unit conversion
 	main : Fraction -> Conv -> Main ;
 
+	fraction_default : FractionD;
+	fraction_copy : Fraction -> FractionD;
+
 	-- TODO: this should cover all possible type pairs
 	general :
-		Fraction -> CurrencyUnit -> Fraction -> TimeUnit ->
-		Fraction -> CurrencyUnit -> Fraction -> TimeUnit -> Main ;
+		FractionD -> CurrencyUnit -> FractionD -> TimeUnit ->
+		FractionD -> CurrencyUnit -> FractionD -> TimeUnit -> Main ;
 
 	-- Type-aware unit conversion
 	-- TODO: use dependent types
