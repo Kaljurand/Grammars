@@ -1,17 +1,17 @@
-2 m IN ft
-1 &+ 0 &+ 0 &+ 0 m °C IN °C
-2 k m **2 IN ha
-3 m m IN µ m
-3 k g IN n g
-3 °C IN m °C
-3 EEK IN EUR
-3 NOK IN NOK
-3 USD IN USD
-3 m Hz IN µ Hz
-3 m / s IN k m / h
-3 c IN k m / µ s
-3 k m / µ s IN c
-3 m &+ * &+ s &+ ** &+ -2 IN k m &+ * &+ µ s &+ ** &+ -2
-3 in IN ft
-2 HUF IN EUR
-2 c &+ / &+ s IN k m / h &+ / &+ s
+convert 2 m to ft
+convert 1 &+ 0 &+ 0 &+ 0 m °C to °C
+convert 2 k m **2 to ha
+convert 3 m m to µ m
+convert 3 k g to n g
+convert 3 °C to m °C
+convert 3 EEK to EUR
+convert 3 NOK to NOK
+convert 3 USD to USD
+convert 3 m Hz to µ Hz
+convert 3 m / s to k m / h
+convert 3 c to k m / µ s
+convert 3 k m / µ s to c
+convert 3 m &+ * &+ s &+ ** &+ -2 to k m &+ * &+ µ s &+ ** &+ -2
+convert 3 in to ft
+convert 2 HUF to EUR
+convert 2 c &+ / &+ s to k m / h &+ / &+ s

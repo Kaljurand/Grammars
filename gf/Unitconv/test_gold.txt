@@ -1,45 +1,45 @@
 Parsing examples/Est.txt
 -------
-2 m IN ft
+convert 2 m to ft
 
 kaks meetrit jalgades
 
 
-3000 L IN cup_us
+convert 3000 L to cup_us
 
 kolm tuhat liitrit tassides
 
 
-111110 flour-cup IN flour-cup
+convert 111110 flour-cup to flour-cup
 
 sada üks teist tuhat sada kümme tassi jahu jahu tassides
 
 
-12 ft IN ft
+convert 12 ft to ft
 
 kaks teist jalga jalgades
 
 
-5 ' IN "
+convert 5 ' to "
 
 viis minutit sekundites
 
-5 min IN s
+convert 5 min to s
 
 viis minutit sekundites
 
 
-2 ha IN k m **2
+convert 2 ha to k m **2
 
 kaks hektarit ruut kilo meetrites
 
 
-2 k m IN c m
+convert 2 k m to c m
 
 kaks kilo meetrit senti meetrites
 
 
-2 NOK IN EEK
+convert 2 NOK to EEK
 
 kaks norra krooni kroonides
 
@@ -58,7 +58,7 @@ kaks norra raha eesti rahas
 kaks norra raha vanas rahas
 
 
-2 NOK IN EEK
+convert 2 NOK to EEK
 
 kaks norra krooni kroonides
 
@@ -77,7 +77,7 @@ kaks norra raha eesti rahas
 kaks norra raha vanas rahas
 
 
-2 EEK IN USD
+convert 2 EEK to USD
 
 kaks krooni dollarites
 
@@ -112,29 +112,29 @@ kaks vana raha ameerika rahas
 kaks vana raha suures valuutas
 
 
-2 m L IN µ cup_us
+convert 2 m L to µ cup_us
 
 kaks milli liitrit mikro tassides
 
 
-2 M ha IN k m **2
+convert 2 M ha to k m **2
 
 kaks mega hektarit ruut kilo meetrites
 
 
-500 c m **3 IN µ ft **3
+convert 500 c m **3 to µ ft **3
 
 viis sada kuup senti meetrit kuup mikro jalgades
 
 
 
 
-2 k W h IN M W h
+convert 2 k W h to M W h
 
 kaks kilo vatt tundi mega vatt tundides
 
 
-2 CHF IN RUB
+convert 2 CHF to RUB
 
 kaks franki rublades
 
@@ -161,12 +161,12 @@ kaks suurt valuutat vene rublades
 kaks suurt valuutat vene rahas
 
 
-2 m*s**-2 IN ft*min**-2
+convert 2 m*s**-2 to ft*min**-2
 
 kaks meetrit ruut sekundis jalgades ruut minutis
 
 
-2 NOK IN CHF
+convert 2 NOK to CHF
 
 kaks norra krooni frankides
 
@@ -184,7 +184,7 @@ kaks norra raha s~veitsi rahas
 
 kaks norra raha suures valuutas
 
-2 NOK IN EUR
+convert 2 NOK to EUR
 
 kaks norra krooni eurodes
 
@@ -194,7 +194,7 @@ kaks norra raha eurodes
 
 kaks norra raha suures valuutas
 
-2 NOK IN GBP
+convert 2 NOK to GBP
 
 kaks norra krooni naelades
 
@@ -212,7 +212,7 @@ kaks norra raha inglise rahas
 
 kaks norra raha suures valuutas
 
-2 NOK IN JPY
+convert 2 NOK to JPY
 
 kaks norra krooni jeenides
 
@@ -230,7 +230,7 @@ kaks norra raha jaapani rahas
 
 kaks norra raha suures valuutas
 
-2 NOK IN USD
+convert 2 NOK to USD
 
 kaks norra krooni dollarites
 
@@ -249,12 +249,12 @@ kaks norra raha ameerika rahas
 kaks norra raha suures valuutas
 
 
-2 m / s/s IN knot/h
+convert 2 m / s/s to knot/h
 
 kaks meetrit sekundis sekundis sõlmedes tunnis
 
 
-( ( ( EUR IN NOK ) / ( h IN s ) ) * ( ( 2 * 0 . 7 5 ) / ( 0 . 5 * 0 . 2 5 ) ) )
+( ( ( EUR to NOK ) / ( h to s ) ) * ( ( 2 * 0 . 7 5 ) / ( 0 . 5 * 0 . 2 5 ) ) )
 
 kaks eurot pool tunnis teeb kolm veerand sekundis veerand norra kroonides
 
@@ -265,7 +265,7 @@ kaks suurt valuutat pool tunnis teeb kolm veerand sekundis veerand norra kroonid
 kaks suurt valuutat pool tunnis teeb kolm veerand sekundis veerand norra rahas
 
 
-( ( ( EUR IN NOK ) / ( h IN s ) ) * ( ( 2 * 1 ) / ( 1 * 1 ) ) )
+( ( ( EUR to NOK ) / ( h to s ) ) * ( ( 2 * 1 ) / ( 1 * 1 ) ) )
 
 kaks eurot tunnis teeb sekundis norra kroonides
 
@@ -278,37 +278,37 @@ kaks suurt valuutat tunnis teeb sekundis norra rahas
 
 Parsing examples/App.txt
 -------
-2 m IN ft
+convert 2 m to ft
 
 kaks meetrit jalgades
 
 
-1000 m °C IN °C
+convert 1000 m °C to °C
 
 tuhat milli kraadi kraadides
 
 
-2 k m **2 IN ha
+convert 2 k m **2 to ha
 
 kaks ruut kilo meetrit hektarites
 
 
-3 m m IN µ m
+convert 3 m m to µ m
 
 kolm milli meetrit mikro meetrites
 
 
-3 k g IN n g
+convert 3 k g to n g
 
 kolm kilo grammi nano grammides
 
 
-3 °C IN m °C
+convert 3 °C to m °C
 
 kolm kraadi milli kraadides
 
 
-3 EEK IN EUR
+convert 3 EEK to EUR
 
 kolm krooni eurodes
 
@@ -327,7 +327,7 @@ kolm vana raha eurodes
 kolm vana raha suures valuutas
 
 
-3 NOK IN NOK
+convert 3 NOK to NOK
 
 kolm norra krooni norra kroonides
 
@@ -338,7 +338,7 @@ kolm norra raha norra kroonides
 kolm norra raha norra rahas
 
 
-3 USD IN USD
+convert 3 USD to USD
 
 kolm dollarit dollarites
 
@@ -373,37 +373,37 @@ kolm suurt valuutat ameerika rahas
 kolm suurt valuutat suures valuutas
 
 
-3 m Hz IN µ Hz
+convert 3 m Hz to µ Hz
 
 kolm milli hertsi mikro hertsides
 
 
-3 m / s IN k m / h
+convert 3 m / s to k m / h
 
 kolm meetrit sekundis kilo meetrites tunnis
 
 
-3 c IN k m / µ s
+convert 3 c to k m / µ s
 
 kolm valgus kiirust kilo meetrites mikro sekundis
 
 
-3 k m / µ s IN c
+convert 3 k m / µ s to c
 
 kolm kilo meetrit mikro sekundis valgus kiirustes
 
 
-3 m*s**-2 IN k m*µ s**-2
+convert 3 m*s**-2 to k m*µ s**-2
 
 kolm meetrit ruut sekundis kilo meetrites ruut mikro sekundis
 
 
-3 in IN ft
+convert 3 in to ft
 
 kolm tolli jalgades
 
 
-2 HUF IN EUR
+convert 2 HUF to EUR
 
 kaks forintit eurodes
 
@@ -418,7 +418,7 @@ kaks ungari raha eurodes
 kaks ungari raha suures valuutas
 
 
-2 c/s IN k m / h/s
+convert 2 c/s to k m / h/s
 
 kaks valgus kiirust sekundis kilo meetrites tunnis sekundis
 

@@ -2,13 +2,13 @@ concrete UnitconvApp of Unitconv = FractionApp, UnitApp ** open StringOper in {
 
 oper
 	c : { s : Str } -> { s : Str } -> { s : Str }
-		= \x,y -> { s = x.s ++ "IN" ++ y.s };
+		= \x,y -> { s = x.s ++ "to" ++ y.s };
 
 
 lincat Main, Conv, FractionD = {s : Str} ;
 
 lin
-	main num conv = {s = num.s ++ conv.s} ;
+	main num conv = {s = "convert" ++ num.s ++ conv.s} ;
 
 	length, mass, time, temperature, area, volume, angle, frequency,
 	conv_speed, conv_acceleration,
