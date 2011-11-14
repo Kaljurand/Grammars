@@ -4,6 +4,9 @@ oper
 	c : { s : Str } -> { s : Str } -> { s : Str }
 		= \x,y -> { s = x.s ++ "to" ++ y.s };
 
+	c1 : { s : Str } -> { s : Str } -> { s : Str }
+		= \x,y -> { s = "convert" ++ x.s ++ "to" ++ y.s };
+
 
 lincat Main, Conv, FractionD = {s : Str} ;
 
@@ -17,7 +20,7 @@ lin
 
 	general x1 u1 x2 u2 y1 v1 y2 v2 =
 		infix "*"
-		(infix "/" (parenthSS (c u1 v1)) (parenthSS (c u2 v2)))
+		(infix "/" (parenthSS (c1 u1 v1)) (parenthSS (c1 u2 v2)))
 		(infix "/" (infix "*" x1 y2) (infix "*" x2 y1)) ;
 
 	fraction_copy = id SS;
