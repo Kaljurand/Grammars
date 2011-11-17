@@ -29,12 +29,12 @@ convert 5 min to s
 viis minutit sekundites
 
 
-convert 2 ha to k m **2
+convert 2 ha to km**2
 
 kaks hektarit ruut kilo meetrites
 
 
-convert 2 k m to c m
+convert 2 km to cm
 
 kaks kilo meetrit senti meetrites
 
@@ -112,24 +112,24 @@ kaks vana raha ameerika rahas
 kaks vana raha suures valuutas
 
 
-convert 2 m L to µ cup_us
+convert 2 mL to µcup_us
 
 kaks milli liitrit mikro tassides
 
 
-convert 2 M ha to k m **2
+convert 2 Mha to km**2
 
 kaks mega hektarit ruut kilo meetrites
 
 
-convert 500 c m **3 to µ ft **3
+convert 500 cm**3 to µft**3
 
 viis sada kuup senti meetrit kuup mikro jalgades
 
 
 
 
-convert 2 k W h to M W h
+convert 2 kW⋅h to MW⋅h
 
 kaks kilo vatt tundi mega vatt tundides
 
@@ -249,7 +249,7 @@ kaks norra raha ameerika rahas
 kaks norra raha suures valuutas
 
 
-convert 2 m / s/s to knot/h
+convert 2 m/s/s to knot/h
 
 kaks meetrit sekundis sekundis sõlmedes tunnis
 
@@ -283,27 +283,27 @@ convert 2 m to ft
 kaks meetrit jalgades
 
 
-convert 1000 m °C to °C
+convert 1000 m°C to °C
 
 tuhat milli kraadi kraadides
 
 
-convert 2 k m **2 to ha
+convert 2 km**2 to ha
 
 kaks ruut kilo meetrit hektarites
 
 
-convert 3 m m to µ m
+convert 3 mm to µm
 
 kolm milli meetrit mikro meetrites
 
 
-convert 3 k g to n g
+convert 3 kg to ng
 
 kolm kilo grammi nano grammides
 
 
-convert 3 °C to m °C
+convert 3 °C to m°C
 
 kolm kraadi milli kraadides
 
@@ -373,27 +373,27 @@ kolm suurt valuutat ameerika rahas
 kolm suurt valuutat suures valuutas
 
 
-convert 3 m Hz to µ Hz
+convert 3 mHz to µHz
 
 kolm milli hertsi mikro hertsides
 
 
-convert 3 m / s to k m / h
+convert 3 m/s to km/h
 
 kolm meetrit sekundis kilo meetrites tunnis
 
 
-convert 3 c to k m / µ s
+convert 3 c to km/µs
 
 kolm valgus kiirust kilo meetrites mikro sekundis
 
 
-convert 3 k m / µ s to c
+convert 3 km/µs to c
 
 kolm kilo meetrit mikro sekundis valgus kiirustes
 
 
-convert 3 m*s**-2 to k m*µ s**-2
+convert 3 m*s**-2 to km*µs**-2
 
 kolm meetrit ruut sekundis kilo meetrites ruut mikro sekundis
 
@@ -418,7 +418,7 @@ kaks ungari raha eurodes
 kaks ungari raha suures valuutas
 
 
-convert 2 c/s to k m / h/s
+convert 2 c/s to km/h/s
 
 kaks valgus kiirust sekundis kilo meetrites tunnis sekundis
 

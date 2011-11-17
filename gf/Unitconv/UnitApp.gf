@@ -41,12 +41,12 @@ prefixed_temperature_unit,
 prefixed_area_unit, prefixed_volume_unit,
 prefixed_energy_unit,
 prefixed_power_unit,
-prefixed_frequency_unit = prefixSS ;
+prefixed_frequency_unit = prefixSS_glue ;
 
-square = postfixSS "**2";
-cube = postfixSS "**3";
+square = postfixSS_glue "**2";
+cube = postfixSS_glue "**3";
 
-speed = infixSS "/";
+speed = infixSS_glue "/";
 -- m*s-2, m/s², m·s-², m*s**-2
 --acceleration = product "1" "-2";
 acceleration = simple_product "-2";
@@ -69,9 +69,9 @@ cup_flour = ss "flour-cup";
 
 --Time
 -- TODO: take the symbols from PrefixApp
-nano_second = ss "n s";
-micro_second = ss "µ s";
-milli_second = ss "m s";
+nano_second = ss "ns";
+micro_second = ss "µs";
+milli_second = ss "ms";
 second = ss "s";
 minute = ss "min";
 hour = ss "h";
@@ -107,8 +107,9 @@ knot = ss "knot";
 -- Energy
 joule = ss "J";
 calorie = ss "cal";
--- watt_hour = infixSS "⋅" watt hour;
-watt_hour = infixSS "" watt hour;
+watt_hour = infixSS_glue "⋅" watt hour;
+-- TODO: glue does not seem to work with empty strings
+--watt_hour = infixSS_glue "" watt hour;
 
 -- Power
 watt = ss "W";

@@ -44,10 +44,15 @@ oper
 	ss : Str -> SS = \s -> {s = s} ;
 
 	prefixSS : Str -> SS -> SS = \f,x -> ss (f ++ x.s) ;
+	prefixSS_glue : Str -> SS -> SS = \f,x -> ss (glue f x.s) ;
+
 	postfixSS : Str -> SS -> SS = \f,x -> ss (x.s ++ f) ;
+	postfixSS_glue : Str -> SS -> SS = \f,x -> ss (glue x.s f) ;
 
 	infixSS : Str -> SS -> SS -> SS
 		= \f,x,y -> ss (x.s ++ f ++ y.s) ;
+	infixSS_glue : Str -> SS -> SS -> SS
+		= \f,x,y -> ss (glue x.s f y.s) ;
 
 	infix : Str -> SS -> SS -> SS
 		= \f,x,y -> ss (parenth (x.s ++ f ++ y.s)) ;
