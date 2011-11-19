@@ -1,251 +1,301 @@
-0 . 0
+Fraction: fraction one_and_half
+FractionApp: 1 . 5
 
-null koma null
+FractionEst: pool teist
 
 
-0 . 2 5
+Fraction: fraction three_quarters
+FractionApp: 0 . 7 5
 
-veerand
+FractionEst: kolm veerand
 
 
-- 0 . 0
+Fraction: fraction pi
+FractionApp: PI
 
-miinus null koma null
+FractionEst: Pii
 
 
-0 . 2 5
+Fraction: fraction three_quarters
+FractionApp: 0 . 7 5
 
-veerand
+FractionEst: kolm veerand
 
 
-- 0
+Fraction: fraction (neg2 (pair null null))
+FractionApp: - 0 . 0
 
-miinus null
+FractionEst: miinus null koma null
 
 
-100111
+Fraction: fraction pi
+FractionApp: PI
 
-sada tuhat sada üks teist
+FractionEst: Pii
 
 
-- 100000
+Fraction: fraction quarter
+FractionApp: 0 . 2 5
 
-miinus sada tuhat
+FractionEst: veerand
 
 
-0 . 5
+Fraction: fraction (copy1 null)
+FractionApp: 0
 
-pool
+FractionEst: null
 
 
-110
+Fraction: fraction pi
+FractionApp: PI
 
-sada kümme
+FractionEst: Pii
 
 
-0 . 0
+Fraction: fraction half
+FractionApp: 0 . 5
 
-null koma null
+FractionEst: pool
 
 
-- 0 . 0
+Fraction: fraction half
+FractionApp: 0 . 5
 
-miinus null koma null
+FractionEst: pool
 
 
-0 . 2 5
+Fraction: fraction three_quarters
+FractionApp: 0 . 7 5
 
-veerand
+FractionEst: kolm veerand
 
 
-1 . 5
+Fraction: fraction pi
+FractionApp: PI
 
-pool teist
+FractionEst: Pii
 
 
-0 . 5
+Fraction: fraction half
+FractionApp: 0 . 5
 
-pool
+FractionEst: pool
 
 
-0 . 7 5
+Fraction: fraction (neg1 (num (pot3 (pot1as2 pot111))))
+FractionApp: - 11000
 
-kolm veerand
+FractionEst: miinus üks teist tuhat
 
 
-0 . 7 5
+Fraction: fraction (neg1 null)
+FractionApp: - 0
 
-kolm veerand
+FractionEst: miinus null
 
 
-0 . 0
+Fraction: fraction one_and_half
+FractionApp: 1 . 5
 
-null koma null
+FractionEst: pool teist
 
 
-0
+Fraction: fraction half
+FractionApp: 0 . 5
 
-null
+FractionEst: pool
 
 
-- 100010
+Fraction: fraction one_and_half
+FractionApp: 1 . 5
 
-miinus sada tuhat kümme
+FractionEst: pool teist
 
 
-- 0 . 0
+Fraction: fraction (copy2 (pair null null))
+FractionApp: 0 . 0
 
-miinus null koma null
+FractionEst: null koma null
 
 
-0 . 0
+Fraction: fraction quarter
+FractionApp: 0 . 2 5
 
-null koma null
+FractionEst: veerand
 
 
-0 . 5
+Fraction: fraction (neg2 (pair null null))
+FractionApp: - 0 . 0
 
-pool
+FractionEst: miinus null koma null
 
 
-1 . 5
+Fraction: fraction one_and_half
+FractionApp: 1 . 5
 
-pool teist
+FractionEst: pool teist
 
 
-1 . 5
+Fraction: fraction (neg2 (pair null null))
+FractionApp: - 0 . 0
 
-pool teist
+FractionEst: miinus null koma null
 
 
-0 . 0
+Fraction: fraction pi
+FractionApp: PI
 
-null koma null
+FractionEst: Pii
 
 
-- 0
+Fraction: fraction quarter
+FractionApp: 0 . 2 5
 
-miinus null
+FractionEst: veerand
 
 
-0 . 0
+Fraction: fraction (neg2 (pair null null))
+FractionApp: - 0 . 0
 
-null koma null
+FractionEst: miinus null koma null
 
 
-0
+Fraction: fraction (copy2 (pair null null))
+FractionApp: 0 . 0
 
-null
+FractionEst: null koma null
 
 
-0 . 5
+Fraction: fraction half
+FractionApp: 0 . 5
 
-pool
+FractionEst: pool
 
 
-0 . 7 5
+Fraction: fraction quarter
+FractionApp: 0 . 2 5
 
-kolm veerand
+FractionEst: veerand
 
 
-- 10000
+Fraction: fraction half
+FractionApp: 0 . 5
 
-miinus kümme tuhat
+FractionEst: pool
 
 
-PI
+Fraction: fraction (copy1 null)
+FractionApp: 0
 
-Pii
+FractionEst: null
 
 
-0 . 0
+Fraction: fraction (neg2 (pair null null))
+FractionApp: - 0 . 0
 
-null koma null
+FractionEst: miinus null koma null
 
 
-PI
+Fraction: fraction three_quarters
+FractionApp: 0 . 7 5
 
-Pii
+FractionEst: kolm veerand
 
 
-0 . 0
+Fraction: fraction (copy2 (pair null null))
+FractionApp: 0 . 0
 
-null koma null
+FractionEst: null koma null
 
 
-0 . 0
+Fraction: fraction half
+FractionApp: 0 . 5
 
-null koma null
+FractionEst: pool
 
 
-- 110
+Fraction: fraction pi
+FractionApp: PI
 
-miinus sada kümme
+FractionEst: Pii
 
 
-0 . 2 5
+Fraction: fraction one_and_half
+FractionApp: 1 . 5
 
-veerand
+FractionEst: pool teist
 
 
-0 . 5
+Fraction: fraction one_and_half
+FractionApp: 1 . 5
 
-pool
+FractionEst: pool teist
 
 
-- 0
+Fraction: fraction (neg2 (pair null null))
+FractionApp: - 0 . 0
 
-miinus null
+FractionEst: miinus null koma null
 
 
-0 . 7 5
+Fraction: fraction quarter
+FractionApp: 0 . 2 5
 
-kolm veerand
+FractionEst: veerand
 
 
-0 . 0
+Fraction: fraction (neg2 (pair null null))
+FractionApp: - 0 . 0
 
-null koma null
+FractionEst: miinus null koma null
 
 
-1 . 5
+Fraction: fraction half
+FractionApp: 0 . 5
 
-pool teist
+FractionEst: pool
 
 
-0 . 7 5
+Fraction: fraction (copy2 (pair null null))
+FractionApp: 0 . 0
 
-kolm veerand
+FractionEst: null koma null
 
 
-1 . 5
+Fraction: fraction (neg2 (pair null null))
+FractionApp: - 0 . 0
 
-pool teist
+FractionEst: miinus null koma null
 
 
-0 . 0
+Fraction: fraction (neg1 null)
+FractionApp: - 0
 
-null koma null
+FractionEst: miinus null
 
 
-1 . 5
+Fraction: fraction (neg1 null)
+FractionApp: - 0
 
-pool teist
+FractionEst: miinus null
 
 
-0 . 0
+Fraction: fraction half
+FractionApp: 0 . 5
 
-null koma null
+FractionEst: pool
 
 
-0 . 7 5
+Fraction: fraction (neg2 (pair null null))
+FractionApp: - 0 . 0
 
-kolm veerand
+FractionEst: miinus null koma null
 
 
-0 . 2 5
+Fraction: fraction (neg1 (num (pot3 (pot1as2 pot111))))
+FractionApp: - 11000
 
-veerand
+FractionEst: miinus üks teist tuhat
 
 
 

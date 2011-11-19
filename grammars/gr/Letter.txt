@@ -1,263 +1,301 @@
-m
+Letter: lscaron
+LetterApp: s~
 
-emm
+LetterEst: s~aaaa
 
 
-o
+Letter: lw
+LetterApp: w
 
-oooo
+LetterEst: kaksisvee
 
 
-p
+Letter: luuml
+LetterApp: ä
 
-peeee
+LetterEst: ääää
 
 
-s~
+Letter: louml
+LetterApp: ö
 
-s~aaaa
+LetterEst: öööö
 
 
-r
+Letter: lscaron
+LetterApp: s~
 
-err
+LetterEst: s~aaaa
 
 
-b
+Letter: le
+LetterApp: e
 
-berta
-, , beeee
+LetterEst: eeee
 
 
-b
+Letter: li
+LetterApp: i
 
-berta
-, , beeee
+LetterEst: iiii
 
 
-s
+Letter: lw
+LetterApp: w
 
-ess
+LetterEst: kaksisvee
 
 
-c
+Letter: lr
+LetterApp: r
 
-tseesar
-, , tseeee
+LetterEst: err
 
 
-f
+Letter: lr
+LetterApp: r
 
-eff
+LetterEst: err
 
 
-õ
+Letter: lx
+LetterApp: x
 
-õõõõ
+LetterEst: iks
 
 
-c
+Letter: lh
+LetterApp: h
 
-tseesar
-, , tseeee
+LetterEst: haaaa
 
 
-c
+Letter: lb
+LetterApp: b
 
-tseesar
-, , tseeee
+LetterEst: berta
 
 
-n
+Letter: lk
+LetterApp: k
 
-enn
+LetterEst: kaaaa
 
 
-r
+Letter: lm
+LetterApp: m
 
-err
+LetterEst: emm
 
 
-s
+Letter: ln
+LetterApp: n
 
-ess
+LetterEst: enn
 
 
-a
+Letter: lf
+LetterApp: f
 
-alfa
-, , aaaa
+LetterEst: eff
 
 
-x
+Letter: lc
+LetterApp: c
 
-iks
+LetterEst: tseesar
 
 
-u
+Letter: lscaron
+LetterApp: s~
 
-uuuu
+LetterEst: s~aaaa
 
 
-p
+Letter: lq
+LetterApp: q
 
-peeee
+LetterEst: kuuuu
 
 
-j
+Letter: lb
+LetterApp: b
 
-jott
+LetterEst: berta
 
 
-g
+Letter: lv
+LetterApp: v
 
-geeee
+LetterEst: veeee
 
 
-o
+Letter: lj
+LetterApp: j
 
-oooo
+LetterEst: jott
 
 
-r
+Letter: lv
+LetterApp: v
 
-err
+LetterEst: veeee
 
 
-b
+Letter: li
+LetterApp: i
 
-berta
-, , beeee
+LetterEst: iiii
 
 
-u
+Letter: lk
+LetterApp: k
 
-uuuu
+LetterEst: kaaaa
 
 
-m
+Letter: lx
+LetterApp: x
 
-emm
+LetterEst: iks
 
 
-x
+Letter: li
+LetterApp: i
 
-iks
+LetterEst: iiii
 
 
-i
+Letter: ll
+LetterApp: l
 
-iiii
+LetterEst: ell
 
 
-q
+Letter: louml
+LetterApp: ö
 
-kuuuu
+LetterEst: öööö
 
 
-b
+Letter: lc
+LetterApp: c
 
-berta
-, , beeee
+LetterEst: tseesar
 
 
-v
+Letter: lv
+LetterApp: v
 
-veeee
+LetterEst: veeee
 
 
-r
+Letter: ll
+LetterApp: l
 
-err
+LetterEst: ell
 
 
-ä
+Letter: lt
+LetterApp: t
 
-ääää
+LetterEst: teeee
 
 
-k
+Letter: lk
+LetterApp: k
 
-kaaaa
+LetterEst: kaaaa
 
 
-v
+Letter: ll
+LetterApp: l
 
-veeee
+LetterEst: ell
 
 
-i
+Letter: lr
+LetterApp: r
 
-iiii
+LetterEst: err
 
 
-y
+Letter: lr
+LetterApp: r
 
-igrek
-, , üpsilon
+LetterEst: err
 
 
-o
+Letter: lz
+LetterApp: z
 
-oooo
+LetterEst: tsett
 
 
-j
+Letter: lu
+LetterApp: u
 
-jott
+LetterEst: uuuu
 
 
-õ
+Letter: lc
+LetterApp: c
 
-õõõõ
+LetterEst: tseesar
 
 
-h
+Letter: lr
+LetterApp: r
 
-haaaa
-, , has~s~
+LetterEst: err
 
 
-ä
+Letter: lf
+LetterApp: f
 
-ääää
+LetterEst: eff
 
 
-o
+Letter: ll
+LetterApp: l
 
-oooo
+LetterEst: ell
 
 
-n
+Letter: lj
+LetterApp: j
 
-enn
+LetterEst: jott
 
 
-u
+Letter: ld
+LetterApp: d
 
-uuuu
+LetterEst: deeee
 
 
-t
+Letter: lscaron
+LetterApp: s~
 
-teeee
+LetterEst: s~aaaa
 
 
-j
+Letter: louml
+LetterApp: ö
 
-jott
+LetterEst: öööö
 
 
-a
+Letter: li
+LetterApp: i
 
-alfa
-, , aaaa
+LetterEst: iiii
 
 
-z~
+Letter: le
+LetterApp: e
 
-z~eeee
-, , s~eeee
+LetterEst: eeee
 
 
 

@@ -1,251 +1,301 @@
-5
+Digit: d6
+DigitApp: 6
 
-viis
+DigitEst: kuus
 
 
-7
+Digit: d8
+DigitApp: 8
 
-seitse
+DigitEst: kaheksa
 
 
-1
+Digit: d2
+DigitApp: 2
 
-üks
+DigitEst: kaks
 
 
-0
+Digit: d9
+DigitApp: 9
 
-null
+DigitEst: üheksa
 
 
-3
+Digit: d0
+DigitApp: 0
 
-kolm
+DigitEst: null
 
 
-9
+Digit: d5
+DigitApp: 5
 
-üheksa
+DigitEst: viis
 
 
-4
+Digit: d3
+DigitApp: 3
 
-neli
+DigitEst: kolm
 
 
-7
+Digit: d6
+DigitApp: 6
 
-seitse
+DigitEst: kuus
 
 
-9
+Digit: d6
+DigitApp: 6
 
-üheksa
+DigitEst: kuus
 
 
-8
+Digit: d5
+DigitApp: 5
 
-kaheksa
+DigitEst: viis
 
 
-4
+Digit: d9
+DigitApp: 9
 
-neli
+DigitEst: üheksa
 
 
-5
+Digit: d0
+DigitApp: 0
 
-viis
+DigitEst: null
 
 
-3
+Digit: d2
+DigitApp: 2
 
-kolm
+DigitEst: kaks
 
 
-9
+Digit: d8
+DigitApp: 8
 
-üheksa
+DigitEst: kaheksa
 
 
-1
+Digit: d9
+DigitApp: 9
 
-üks
+DigitEst: üheksa
 
 
-5
+Digit: d4
+DigitApp: 4
 
-viis
+DigitEst: neli
 
 
-7
+Digit: d5
+DigitApp: 5
 
-seitse
+DigitEst: viis
 
 
-2
+Digit: d0
+DigitApp: 0
 
-kaks
+DigitEst: null
 
 
-6
+Digit: d4
+DigitApp: 4
 
-kuus
+DigitEst: neli
 
 
-3
+Digit: d5
+DigitApp: 5
 
-kolm
+DigitEst: viis
 
 
-9
+Digit: d3
+DigitApp: 3
 
-üheksa
+DigitEst: kolm
 
 
-0
+Digit: d9
+DigitApp: 9
 
-null
+DigitEst: üheksa
 
 
-6
+Digit: d7
+DigitApp: 7
 
-kuus
+DigitEst: seitse
 
 
-2
+Digit: d6
+DigitApp: 6
 
-kaks
+DigitEst: kuus
 
 
-4
+Digit: d2
+DigitApp: 2
 
-neli
+DigitEst: kaks
 
 
-1
+Digit: d8
+DigitApp: 8
 
-üks
+DigitEst: kaheksa
 
 
-9
+Digit: d3
+DigitApp: 3
 
-üheksa
+DigitEst: kolm
 
 
-9
+Digit: d9
+DigitApp: 9
 
-üheksa
+DigitEst: üheksa
 
 
-1
+Digit: d0
+DigitApp: 0
 
-üks
+DigitEst: null
 
 
-9
+Digit: d8
+DigitApp: 8
 
-üheksa
+DigitEst: kaheksa
 
 
-7
+Digit: d1
+DigitApp: 1
 
-seitse
+DigitEst: üks
 
 
-4
+Digit: d8
+DigitApp: 8
 
-neli
+DigitEst: kaheksa
 
 
-8
+Digit: d0
+DigitApp: 0
 
-kaheksa
+DigitEst: null
 
 
-9
+Digit: d0
+DigitApp: 0
 
-üheksa
+DigitEst: null
 
 
-4
+Digit: d8
+DigitApp: 8
 
-neli
+DigitEst: kaheksa
 
 
-6
+Digit: d9
+DigitApp: 9
 
-kuus
+DigitEst: üheksa
 
 
-4
+Digit: d8
+DigitApp: 8
 
-neli
+DigitEst: kaheksa
 
 
-6
+Digit: d1
+DigitApp: 1
 
-kuus
+DigitEst: üks
 
 
-6
+Digit: d9
+DigitApp: 9
 
-kuus
+DigitEst: üheksa
 
 
-0
+Digit: d5
+DigitApp: 5
 
-null
+DigitEst: viis
 
 
-1
+Digit: d5
+DigitApp: 5
 
-üks
+DigitEst: viis
 
 
-0
+Digit: d0
+DigitApp: 0
 
-null
+DigitEst: null
 
 
-7
+Digit: d6
+DigitApp: 6
 
-seitse
+DigitEst: kuus
 
 
-3
+Digit: d8
+DigitApp: 8
 
-kolm
+DigitEst: kaheksa
 
 
-2
+Digit: d1
+DigitApp: 1
 
-kaks
+DigitEst: üks
 
 
-1
+Digit: d0
+DigitApp: 0
 
-üks
+DigitEst: null
 
 
-2
+Digit: d7
+DigitApp: 7
 
-kaks
+DigitEst: seitse
 
 
-0
+Digit: d3
+DigitApp: 3
 
-null
+DigitEst: kolm
 
 
-1
+Digit: d9
+DigitApp: 9
 
-üks
+DigitEst: üheksa
 
 
-6
+Digit: d6
+DigitApp: 6
 
-kuus
+DigitEst: kuus
 
 
 
