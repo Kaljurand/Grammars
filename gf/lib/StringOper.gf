@@ -72,6 +72,11 @@ oper
 
 	parenthOpt : Str -> Str = \s -> variants {s ; "(" ++ s ++ ")"} ;
 
+	-- Optional string with preference on the string vs. empty.
+
+	optStr : Str -> Str = \s -> variants {s ; []} ;
+	strOpt : Str -> Str = \s -> variants {[] ; s} ;
+
 	usePrec : Prec -> TermPrec -> Str = \p,x ->
 		case lessPrec x.p p of {
 			True => parenth x.s ;

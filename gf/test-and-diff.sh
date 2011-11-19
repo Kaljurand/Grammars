@@ -6,7 +6,7 @@ ant clean
 
 echo "Testing..."
 date
-for x in Go Numeral Unitconv Exp Fraction Calc Address Direction Action Digit Letter Estvrp Tallinnaddress Tallinndirection; do
+for x in Date Go Numeral Unitconv Exp Fraction Calc Address Direction Action Digit Letter Estvrp Tallinnaddress Tallinndirection; do
 	echo " $x";
 	echo "   ${of}";
 	gf --make --quiet --optimize-pgf --output-format=${of} --path $path --output-dir $x $x/${x}Est.gf
