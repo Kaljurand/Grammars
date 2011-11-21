@@ -1,2 +1,2 @@
 ( &+ ( &+ 2 + 3 &+ ) * 5 &+ )
-convert 2 ft &+ **2 to m &+ **2
+convert 2 ft &+ ^2 to m &+ ^2

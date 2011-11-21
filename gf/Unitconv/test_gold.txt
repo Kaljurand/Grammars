@@ -29,7 +29,7 @@ convert 5 min to s
 viis minutit sekundites
 
 
-convert 2 ha to km**2
+convert 2 ha to km^2
 
 kaks hektarit ruut kilo meetrites
 
@@ -117,12 +117,12 @@ convert 2 mL to µcup_us
 kaks milli liitrit mikro tassides
 
 
-convert 2 Mha to km**2
+convert 2 Mha to km^2
 
 kaks mega hektarit ruut kilo meetrites
 
 
-convert 500 cm**3 to µft**3
+convert 500 cm^3 to µft^3
 
 viis sada kuup senti meetrit kuup mikro jalgades
 
@@ -161,7 +161,7 @@ kaks suurt valuutat vene rublades
 kaks suurt valuutat vene rahas
 
 
-convert 2 m*s**-2 to ft*min**-2
+convert 2 m*s^-2 to ft*min^-2
 
 kaks meetrit ruut sekundis jalgades ruut minutis
 
@@ -288,7 +288,7 @@ convert 1000 m°C to °C
 tuhat milli kraadi kraadides
 
 
-convert 2 km**2 to ha
+convert 2 km^2 to ha
 
 kaks ruut kilo meetrit hektarites
 
@@ -393,7 +393,7 @@ convert 3 km/µs to c
 kolm kilo meetrit mikro sekundis valgus kiirustes
 
 
-convert 3 m*s**-2 to km*µs**-2
+convert 3 m*s^-2 to km*µs^-2
 
 kolm meetrit ruut sekundis kilo meetrites ruut mikro sekundis
 

@@ -5,14 +5,13 @@ flags coding=utf8;
 oper
 
 	simple_product : Str -> SS -> SS -> SS
-        = \n1,x,y -> ss (glue x.s "*" y.s "**" n1) ;
+        = \n1,x,y -> ss (glue x.s "*" y.s "^" n1) ;
 
 	product : Str -> Str -> SS -> SS -> SS
-        = \n1,n2,x,y -> ss (x.s ++ "**" ++ n1 ++ "*" ++ y.s ++ "**" ++ n2) ;
+        = \n1,n2,x,y -> ss (x.s ++ "^" ++ n1 ++ "*" ++ y.s ++ "^" ++ n2) ;
 
 
 lincat
-	-- TODO: why do we use SS and not Str?
 	Length, LengthUnit,
 	Mass, MassUnit,
 	Time, TimeUnit,
@@ -43,11 +42,10 @@ prefixed_energy_unit,
 prefixed_power_unit,
 prefixed_frequency_unit = prefixSS_glue ;
 
-square = postfixSS_glue "**2";
-cube = postfixSS_glue "**3";
+square = postfixSS_glue "^2";
+cube = postfixSS_glue "^3";
 
 speed = infixSS_glue "/";
--- m*s-2, m/s², m·s-², m*s**-2
 --acceleration = product "1" "-2";
 acceleration = simple_product "-2";
 

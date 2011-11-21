@@ -1,6 +1,6 @@
 convert 2 m to ft
 convert 1 &+ 0 &+ 0 &+ 0 m &+ °C to °C
-convert 2 k &+ m &+ **2 to ha
+convert 2 k &+ m &+ ^2 to ha
 convert 3 m &+ m to µ &+ m
 convert 3 k &+ g to n &+ g
 convert 3 °C to m &+ °C
@@ -11,7 +11,7 @@ convert 3 m &+ Hz to µ &+ Hz
 convert 3 m &+ / &+ s to k &+ m &+ / &+ h
 convert 3 c to k &+ m &+ / &+ µs
 convert 3 k &+ m &+ / &+ µs to c
-convert 3 m &+ * &+ s &+ ** &+ -2 to k &+ m &+ * &+ µs &+ ** &+ -2
+convert 3 m &+ * &+ s &+ ^ &+ -2 to k &+ m &+ * &+ µs &+ ^ &+ -2
 convert 3 in to ft
 convert 2 HUF to EUR
 convert 2 c &+ / &+ s to k &+ m &+ / &+ h &+ / &+ s
