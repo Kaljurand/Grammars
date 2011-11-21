@@ -66,29 +66,31 @@ fraction (copy1 null)
 
 fraction (copy2 (pair null null))
 
-0 . 0
+0 &+ . &+ 0
 
 
 
 fraction (copy2 (pair (num (pot2as3 (pot1as2 (pot0as1 (pot0 n2))))) (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3)))))))
 
-2 . 3
+2 &+ . &+ 3
 
 
 
 fraction (copy2 (pair null (num (pot2as3 (pot1as2 (pot1 n5))))))
 
-0 . 5 &+ 0
+0 &+ . &+ 5 &+ 0
+
+
+
+fraction one_and_half
+
+1.5
 
 
 
 fraction (copy2 (pair (num (pot2as3 (pot1as2 (pot0as1 pot01)))) (num (pot2as3 (pot1as2 (pot0as1 (pot0 n5)))))))
-fraction one_and_half
 
-1 . 5
-
-
-1 . 5
+1 &+ . &+ 5
 
 
 
@@ -100,7 +102,7 @@ PI
 
 fraction (neg2 (pair null (num (pot2as3 (pot1as2 (pot1to19 n5))))))
 
-- 0 . 1 &+ 5
+- &+ 0 &+ . &+ 1 &+ 5
 
 
 

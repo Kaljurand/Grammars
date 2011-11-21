@@ -55,7 +55,7 @@ oper
 		= \f,x,y -> ss (glue x.s f y.s) ;
 
 	infix : Str -> SS -> SS -> SS
-		= \f,x,y -> ss (parenth (x.s ++ f ++ y.s)) ;
+		= \f,x,y -> ss (parenth_Glue (x.s ++ f ++ y.s)) ;
 
 	mkPrec : Prec -> Str -> TermPrec = \p,s -> {s = s ; p = p} ;
 
@@ -68,6 +68,7 @@ oper
 		mkPrec p (usePrec (nextPrec p) x ++ f ++ usePrec p y) ;
 
 	parenth : Str -> Str = \s -> "(" ++ s ++ ")" ;
+	parenth_Glue : Str -> Str = \s -> glue "(" s ")" ;
 	parenthSS : SS -> SS = \s -> ss ("(" ++ s.s ++ ")");
 
 	parenthOpt : Str -> Str = \s -> variants {s ; "(" ++ s ++ ")"} ;

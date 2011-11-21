@@ -8,7 +8,7 @@ unitconv (main (fraction (copy1 (num (pot2as3 (pot1as2 (pot0as1 (pot0 n2))))))) 
 kaks meetrit jalgades
 
 
-( ( 2 + 3 ) * 5 )
+((2 + 3) * 5)
 
 
 convert 2 ft**2 to m**2

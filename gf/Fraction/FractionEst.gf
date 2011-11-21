@@ -11,9 +11,7 @@ lin
 	three_quarters = ss "kolm veerand";
 	one_and_half = ss "pool teist";
 	pi = ss "Pii";
-	pair x y = infixSS "koma" x y;
-	neg1 x = prefixSS "miinus" x;
-	neg2 x = prefixSS "miinus" x;
-	copy1, copy2 = id SS;
-	fraction = id SS;
+	pair = infixSS "koma";
+	neg1, neg2 = prefixSS "miinus";
+	copy1, copy2, fraction = id SS;
 }
