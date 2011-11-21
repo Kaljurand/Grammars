@@ -99,6 +99,7 @@ century = mkUnit "sajandit";
 
 --Temperature
 celsius = mkUnit "kraadi";
+fahrenheit = mkUnit "fahrenheiti";
 
 --Area
 hectare = mkUnit "hektarit";

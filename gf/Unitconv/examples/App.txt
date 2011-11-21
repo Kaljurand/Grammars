@@ -15,3 +15,4 @@ convert 3 m &+ * &+ s &+ ^ &+ -2 to k &+ m &+ * &+ µs &+ ^ &+ -2
 convert 3 in to ft
 convert 2 HUF to EUR
 convert 2 c &+ / &+ s to k &+ m &+ / &+ h &+ / &+ s
+convert 2 °C to °F

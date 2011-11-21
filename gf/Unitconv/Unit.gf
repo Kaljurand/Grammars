@@ -74,7 +74,7 @@ fun
 	nano_second, micro_second, milli_second,
 	second, minute, hour, day, week, month, year, decade, century : Time ;
 
-	celsius : Temperature;
+	celsius, fahrenheit : Temperature;
 
 	-- Only the Area units which are not constructed from a length unit,
 	-- i.e. we have `hectare` here but not `square meter`.

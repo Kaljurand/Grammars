@@ -83,6 +83,7 @@ century = ss "century";
 
 --Temperature
 celsius = ss "°C";
+fahrenheit = ss "°F";
 
 --Area
 hectare = ss "ha";

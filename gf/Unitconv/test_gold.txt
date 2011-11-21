@@ -423,3 +423,8 @@ convert 2 c/s to km/h/s
 kaks valgus kiirust sekundis kilo meetrites tunnis sekundis
 
 
+convert 2 °C to °F
+
+kaks kraadi fahrenheitides
+
+
