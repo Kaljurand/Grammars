@@ -1,19 +1,19 @@
-Letter: lscaron
-LetterApp: s~
+Letter: lz
+LetterApp: z
 
-LetterEst: s~aaaa
-
-
-Letter: lw
-LetterApp: w
-
-LetterEst: kaksisvee
+LetterEst: tsett
 
 
-Letter: luuml
-LetterApp: ä
+Letter: lu
+LetterApp: u
 
-LetterEst: ääää
+LetterEst: uuuu
+
+
+Letter: lz
+LetterApp: z
+
+LetterEst: tsett
 
 
 Letter: louml
@@ -22,52 +22,22 @@ LetterApp: ö
 LetterEst: öööö
 
 
-Letter: lscaron
-LetterApp: s~
+Letter: lotilde
+LetterApp: õ
 
-LetterEst: s~aaaa
-
-
-Letter: le
-LetterApp: e
-
-LetterEst: eeee
+LetterEst: õõõõ
 
 
-Letter: li
-LetterApp: i
+Letter: luuml
+LetterApp: ä
 
-LetterEst: iiii
-
-
-Letter: lw
-LetterApp: w
-
-LetterEst: kaksisvee
+LetterEst: ääää
 
 
-Letter: lr
-LetterApp: r
+Letter: lg
+LetterApp: g
 
-LetterEst: err
-
-
-Letter: lr
-LetterApp: r
-
-LetterEst: err
-
-
-Letter: lx
-LetterApp: x
-
-LetterEst: iks
-
-
-Letter: lh
-LetterApp: h
-
-LetterEst: haaaa
+LetterEst: geeee
 
 
 Letter: lb
@@ -76,34 +46,34 @@ LetterApp: b
 LetterEst: berta
 
 
-Letter: lk
-LetterApp: k
+Letter: ly
+LetterApp: y
 
-LetterEst: kaaaa
-
-
-Letter: lm
-LetterApp: m
-
-LetterEst: emm
+LetterEst: igrek
 
 
-Letter: ln
-LetterApp: n
+Letter: lv
+LetterApp: v
 
-LetterEst: enn
-
-
-Letter: lf
-LetterApp: f
-
-LetterEst: eff
+LetterEst: veeee
 
 
-Letter: lc
-LetterApp: c
+Letter: lp
+LetterApp: p
 
-LetterEst: tseesar
+LetterEst: peeee
+
+
+Letter: louml
+LetterApp: ö
+
+LetterEst: öööö
+
+
+Letter: lq
+LetterApp: q
+
+LetterEst: kuuuu
 
 
 Letter: lscaron
@@ -118,118 +88,22 @@ LetterApp: q
 LetterEst: kuuuu
 
 
-Letter: lb
-LetterApp: b
+Letter: lscaron
+LetterApp: s~
 
-LetterEst: berta
-
-
-Letter: lv
-LetterApp: v
-
-LetterEst: veeee
+LetterEst: s~aaaa
 
 
-Letter: lj
-LetterApp: j
+Letter: ld
+LetterApp: d
 
-LetterEst: jott
-
-
-Letter: lv
-LetterApp: v
-
-LetterEst: veeee
-
-
-Letter: li
-LetterApp: i
-
-LetterEst: iiii
-
-
-Letter: lk
-LetterApp: k
-
-LetterEst: kaaaa
-
-
-Letter: lx
-LetterApp: x
-
-LetterEst: iks
-
-
-Letter: li
-LetterApp: i
-
-LetterEst: iiii
-
-
-Letter: ll
-LetterApp: l
-
-LetterEst: ell
-
-
-Letter: louml
-LetterApp: ö
-
-LetterEst: öööö
+LetterEst: deeee
 
 
 Letter: lc
 LetterApp: c
 
 LetterEst: tseesar
-
-
-Letter: lv
-LetterApp: v
-
-LetterEst: veeee
-
-
-Letter: ll
-LetterApp: l
-
-LetterEst: ell
-
-
-Letter: lt
-LetterApp: t
-
-LetterEst: teeee
-
-
-Letter: lk
-LetterApp: k
-
-LetterEst: kaaaa
-
-
-Letter: ll
-LetterApp: l
-
-LetterEst: ell
-
-
-Letter: lr
-LetterApp: r
-
-LetterEst: err
-
-
-Letter: lr
-LetterApp: r
-
-LetterEst: err
-
-
-Letter: lz
-LetterApp: z
-
-LetterEst: tsett
 
 
 Letter: lu
@@ -238,28 +112,88 @@ LetterApp: u
 LetterEst: uuuu
 
 
-Letter: lc
-LetterApp: c
+Letter: ly
+LetterApp: y
 
-LetterEst: tseesar
-
-
-Letter: lr
-LetterApp: r
-
-LetterEst: err
+LetterEst: igrek
 
 
-Letter: lf
-LetterApp: f
+Letter: lauml
+LetterApp: ü
 
-LetterEst: eff
+LetterEst: üüüü
+
+
+Letter: lscaron
+LetterApp: s~
+
+LetterEst: s~aaaa
+
+
+Letter: luuml
+LetterApp: ä
+
+LetterEst: ääää
+
+
+Letter: lt
+LetterApp: t
+
+LetterEst: teeee
+
+
+Letter: ls
+LetterApp: s
+
+LetterEst: ess
+
+
+Letter: li
+LetterApp: i
+
+LetterEst: iiii
+
+
+Letter: lk
+LetterApp: k
+
+LetterEst: kaaaa
+
+
+Letter: le
+LetterApp: e
+
+LetterEst: eeee
 
 
 Letter: ll
 LetterApp: l
 
 LetterEst: ell
+
+
+Letter: lc
+LetterApp: c
+
+LetterEst: tseesar
+
+
+Letter: lw
+LetterApp: w
+
+LetterEst: kaksisvee
+
+
+Letter: lu
+LetterApp: u
+
+LetterEst: uuuu
+
+
+Letter: li
+LetterApp: i
+
+LetterEst: iiii
 
 
 Letter: lj
@@ -274,16 +208,28 @@ LetterApp: d
 LetterEst: deeee
 
 
-Letter: lscaron
-LetterApp: s~
+Letter: lg
+LetterApp: g
 
-LetterEst: s~aaaa
+LetterEst: geeee
 
 
-Letter: louml
-LetterApp: ö
+Letter: lz
+LetterApp: z
 
-LetterEst: öööö
+LetterEst: tsett
+
+
+Letter: la
+LetterApp: a
+
+LetterEst: alfa
+
+
+Letter: lk
+LetterApp: k
+
+LetterEst: kaaaa
 
 
 Letter: li
@@ -292,10 +238,64 @@ LetterApp: i
 LetterEst: iiii
 
 
-Letter: le
-LetterApp: e
+Letter: lf
+LetterApp: f
 
-LetterEst: eeee
+LetterEst: eff
+
+
+Letter: lzcaron
+LetterApp: z~
+
+LetterEst: z~eeee
+
+
+Letter: ln
+LetterApp: n
+
+LetterEst: enn
+
+
+Letter: lh
+LetterApp: h
+
+LetterEst: haaaa
+
+
+Letter: lv
+LetterApp: v
+
+LetterEst: veeee
+
+
+Letter: lt
+LetterApp: t
+
+LetterEst: teeee
+
+
+Letter: lg
+LetterApp: g
+
+LetterEst: geeee
+
+
+Letter: lq
+LetterApp: q
+
+LetterEst: kuuuu
+
+
+Letter: lscaron
+LetterApp: s~
+
+LetterEst: s~aaaa
+
+
+Letter: lq
+LetterApp: q
+
+LetterEst: kuuuu
 
 
 

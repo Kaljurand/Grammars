@@ -1,301 +1,301 @@
-Calc: unitconv (general fraction_default dkk (fraction_copy (fraction quarter)) (time_unit century) (fraction_copy (fraction quarter)) aud (fraction_copy (fraction half)) (time_unit second))
-CalcApp: ( ( ( convert DKK to AUD ) / ( convert century to s ) ) * ( ( 1 * 0 . 5 ) / ( 0 . 2 5 * 0 . 2 5 ) ) )
+Calc: unitconv (main (fraction (copy1 null)) (length (length_unit meter) (prefixed_length_unit micro meter)))
+CalcApp: convert 0 m to µm
 
-CalcEst: taani krooni veerand sajandis teeb pool sekundis veerand austraalia dollarites
-
-
-Calc: unitconv (general fraction_default chf fraction_default (time_unit week) (fraction_copy (fraction pi)) eur (fraction_copy (fraction three_quarters)) (time_unit milli_second))
-CalcApp: ( ( ( convert CHF to EUR ) / ( convert week to ms ) ) * ( ( 1 * 0 . 7 5 ) / ( 1 * PI ) ) )
-
-CalcEst: franki nädalas teeb kolm veerand milli sekundis Pii eurodes
+CalcEst: null meetrit mikro meetrites
 
 
-Calc: unitconv (main (fraction (copy1 null)) (angle arcminute radian))
-CalcApp: convert 0 ' to rad
+Calc: unitconv (general (fraction_copy (fraction pi)) chf fraction_default (time_unit century) fraction_default usd (fraction_copy (fraction (neg1 null))) (time_unit minute))
+CalcApp: ((( convert CHF to USD ) / ( convert century to min )) * ((PI * -0) / (1 * 1)))
 
-CalcEst: null minutit radiaanides
-
-
-Calc: unitconv (main (fraction (neg2 (pair null null))) (temperature (prefixed_temperature_unit kilo celsius) (temperature_unit celsius)))
-CalcApp: convert - 0 . 0 k°C to °C
-
-CalcEst: miinus null koma null kilo kraadi kraadides
+CalcEst: Pii franki sajandis teeb miinus null minutis dollarites
 
 
-Calc: unitconv (general fraction_default nzd fraction_default (time_unit decade) fraction_default cad (fraction_copy (fraction half)) (time_unit micro_second))
-CalcApp: ( ( ( convert NZD to CAD ) / ( convert decade to µs ) ) * ( ( 1 * 0 . 5 ) / ( 1 * 1 ) ) )
+Calc: unitconv (main (fraction (copy1 null)) (mass (mass_unit ounce) (mass_unit ounce)))
+CalcApp: convert 0 oz to oz
 
-CalcEst: uus mere maa dollarit dekaadis teeb pool mikro sekundis kanada dollarites
-
-
-Calc: unitconv (main (fraction (neg2 (pair null null))) (angle arcsecond arcsecond))
-CalcApp: convert - 0 . 0 " to "
-
-CalcEst: miinus null koma null sekundit sekundites
+CalcEst: null untsi untsides
 
 
-Calc: exp (e_pow (e_mult (numeral (fraction one_and_half)) (numeral (fraction half))) (e_div (numeral (fraction half)) (numeral (fraction three_quarters))))
-CalcApp: ( ( 1 . 5 * 0 . 5 ) ^ ( 0 . 5 / 0 . 7 5 ) )
+Calc: unitconv (main (fraction (copy1 null)) (currency cad cad))
+CalcApp: convert 0 CAD to CAD
 
-CalcEst: pool teist korda pool astmel ( pool jagatud kolm veerand )
-
-
-Calc: exp (numeral (fraction (neg1 null)))
-CalcApp: - 0
-
-CalcEst: miinus null
+CalcEst: null kanada dollarit kanada dollarites
 
 
-Calc: exp (e_plus (e_plus (numeral (fraction half)) (numeral (fraction one_and_half))) (e_pow (numeral (fraction half)) (numeral (fraction half))))
-CalcApp: ( ( 0 . 5 + 1 . 5 ) + ( 0 . 5 ^ 0 . 5 ) )
+Calc: expr (e_plus (e_div (numeral (fraction one_and_half)) (numeral (fraction three_quarters))) (e_pow (numeral (fraction one_and_half)) (numeral (fraction half))))
+CalcApp: ((1.5 / 0.75) + (1.5 ^ 0.5))
 
-CalcEst: pool pluss pool teist pluss ( pool astmel pool )
-
-
-Calc: unitconv (general (fraction_copy (fraction (neg1 null))) eek (fraction_copy (fraction (neg1 null))) (time_unit milli_second) fraction_default nzd (fraction_copy (fraction quarter)) (time_unit milli_second))
-CalcApp: ( ( ( convert EEK to NZD ) / ( convert ms to ms ) ) * ( ( - 0 * 0 . 2 5 ) / ( - 0 * 1 ) ) )
-
-CalcEst: miinus null krooni miinus null milli sekundis teeb veerand milli sekundis uus mere maa dollarites
+CalcEst: pool teist jagatud kolm veerand pluss ( pool teist astmel pool )
 
 
-Calc: exp (e_pow (e_plus (numeral (fraction half)) (numeral (fraction quarter))) (e_div (numeral (fraction three_quarters)) (numeral (fraction half))))
-CalcApp: ( ( 0 . 5 + 0 . 2 5 ) ^ ( 0 . 7 5 / 0 . 5 ) )
+Calc: expr (e_pow (e_mult (numeral (fraction three_quarters)) (numeral (fraction quarter))) (e_plus (numeral (fraction quarter)) (numeral (fraction three_quarters))))
+CalcApp: ((0.75 * 0.25) ^ (0.25 + 0.75))
 
-CalcEst: pool pluss veerand astmel ( kolm veerand jagatud pool )
-
-
-Calc: exp (e_plus (e_minus (numeral (fraction pi)) (numeral (fraction three_quarters))) (e_pow (numeral (fraction quarter)) (numeral (fraction quarter))))
-CalcApp: ( ( PI - 0 . 7 5 ) + ( 0 . 2 5 ^ 0 . 2 5 ) )
-
-CalcEst: Pii miinus kolm veerand pluss ( veerand astmel veerand )
+CalcEst: kolm veerand korda veerand astmel ( veerand pluss kolm veerand )
 
 
-Calc: unitconv (general (fraction_copy (fraction pi)) eur fraction_default (time_unit hour) fraction_default cad (fraction_copy (fraction (neg1 null))) (time_unit year))
-CalcApp: ( ( ( convert EUR to CAD ) / ( convert h to year ) ) * ( ( PI * - 0 ) / ( 1 * 1 ) ) )
+Calc: unitconv (main (fraction pi) (time (time_unit decade) (time_unit century)))
+CalcApp: convert PI decade to century
 
-CalcEst: Pii eurot tunnis teeb miinus null aastas kanada dollarites
-
-
-Calc: unitconv (general fraction_default gbp fraction_default (time_unit nano_second) (fraction_copy (fraction (neg1 null))) gbp fraction_default (time_unit second))
-CalcApp: ( ( ( convert GBP to GBP ) / ( convert ns to s ) ) * ( ( 1 * 1 ) / ( 1 * - 0 ) ) )
-
-CalcEst: naela nano sekundis teeb sekundis miinus null naelades
+CalcEst: Pii dekaadi sajandites
 
 
-Calc: exp (e_plus (numeral (fraction one_and_half)) (e_plus (numeral (fraction half)) (numeral (fraction half))))
-CalcApp: ( 1 . 5 + ( 0 . 5 + 0 . 5 ) )
+Calc: unitconv (main (fraction three_quarters) (conv_acceleration (acceleration (length_unit mile) (time_unit minute)) (acceleration (prefixed_length_unit deka mile) (time_unit second))))
+CalcApp: convert 0.75 mi*min^-2 to dami*s^-2
 
-CalcEst: pool teist pluss ( pool pluss pool )
-
-
-Calc: unitconv (general (fraction_copy (fraction quarter)) eek fraction_default (time_unit decade) fraction_default gbp fraction_default (time_unit micro_second))
-CalcApp: ( ( ( convert EEK to GBP ) / ( convert decade to µs ) ) * ( ( 0 . 2 5 * 1 ) / ( 1 * 1 ) ) )
-
-CalcEst: veerand krooni dekaadis teeb mikro sekundis naelades
+CalcEst: kolm veerand miili ruut minutis deka miilides ruut sekundis
 
 
-Calc: unitconv (main (fraction half) (conv_power (power_unit watt) (prefixed_power_unit mega watt)))
-CalcApp: convert 0 . 5 W to MW
+Calc: unitconv (main (fraction three_quarters) (conv_acceleration (acceleration2 (speed_unit the_speed_of_light) (time_unit week)) (acceleration (length_unit foot) (time_unit nano_second))))
+CalcApp: convert 0.75 c/week to ft*ns^-2
 
-CalcEst: pool vatti mega vattides
-
-
-Calc: unitconv (general (fraction_copy (fraction (copy1 null))) dkk (fraction_copy (fraction half)) (time_unit milli_second) (fraction_copy (fraction (copy1 null))) sek (fraction_copy (fraction one_and_half)) (time_unit micro_second))
-CalcApp: ( ( ( convert DKK to SEK ) / ( convert ms to µs ) ) * ( ( 0 * 1 . 5 ) / ( 0 . 5 * 0 ) ) )
-
-CalcEst: null taani krooni pool milli sekundis teeb pool teist mikro sekundis null rootsi kroonides
+CalcEst: kolm veerand valgus kiirust nädalas jalgades ruut nano sekundis
 
 
-Calc: exp (numeral (fraction one_and_half))
-CalcApp: 1 . 5
+Calc: unitconv (main (fraction (copy1 null)) (currency cad nzd))
+CalcApp: convert 0 CAD to NZD
+
+CalcEst: null kanada dollarit uus mere maa dollarites
+
+
+Calc: expr (e_mult (e_minus (numeral (fraction quarter)) (numeral (fraction quarter))) (e_mult (numeral (fraction quarter)) (numeral (fraction quarter))))
+CalcApp: ((0.25 - 0.25) * (0.25 * 0.25))
+
+CalcEst: veerand miinus veerand korda ( veerand korda veerand )
+
+
+Calc: expr (e_plus (e_mult (numeral (fraction pi)) (numeral (fraction three_quarters))) (e_minus (numeral (fraction quarter)) (numeral (fraction quarter))))
+CalcApp: ((PI * 0.75) + (0.25 - 0.25))
+
+CalcEst: Pii korda kolm veerand pluss ( veerand miinus veerand )
+
+
+Calc: unitconv (main (fraction pi) (currency huf sek))
+CalcApp: convert PI HUF to SEK
+
+CalcEst: Pii forintit rootsi kroonides
+
+
+Calc: expr (e_plus (e_mult (numeral (fraction three_quarters)) (numeral (fraction quarter))) (e_plus (numeral (fraction half)) (numeral (fraction half))))
+CalcApp: ((0.75 * 0.25) + (0.5 + 0.5))
+
+CalcEst: kolm veerand korda veerand pluss ( pool pluss pool )
+
+
+Calc: expr (e_pow (e_minus (numeral (fraction pi)) (numeral (fraction half))) (e_minus (numeral (fraction three_quarters)) (numeral (fraction quarter))))
+CalcApp: ((PI - 0.5) ^ (0.75 - 0.25))
+
+CalcEst: Pii miinus pool astmel ( kolm veerand miinus veerand )
+
+
+Calc: unitconv (main (fraction quarter) (area (square (prefixed_length_unit deka yard)) (square (length_unit mile))))
+CalcApp: convert 0.25 dayd^2 to mi^2
+
+CalcEst: veerand ruut deka jardi ruut miilides
+
+
+Calc: unitconv (general fraction_default eek fraction_default (time_unit century) fraction_default isk fraction_default (time_unit nano_second))
+CalcApp: ((( convert EEK to ISK ) / ( convert century to ns )) * ((1 * 1) / (1 * 1)))
+
+CalcEst: krooni sajandis teeb nano sekundis islandi kroonides
+
+
+Calc: unitconv (main (fraction pi) (length (prefixed_length_unit nano inch) (length_unit inch)))
+CalcApp: convert PI nin to in
+
+CalcEst: Pii nano tolli tollides
+
+
+Calc: expr (numeral (fraction (neg2 (pair null null))))
+CalcApp: -0.0
+
+CalcEst: miinus null koma null
+
+
+Calc: expr (e_div (numeral (fraction quarter)) (numeral (fraction (neg1 null))))
+CalcApp: (0.25 / -0)
+
+CalcEst: veerand jagatud miinus null
+
+
+Calc: expr (e_minus (e_minus (numeral (fraction half)) (numeral (fraction pi))) (e_div (numeral (fraction quarter)) (numeral (fraction quarter))))
+CalcApp: ((0.5 - PI) - (0.25 / 0.25))
+
+CalcEst: pool miinus Pii miinus ( veerand jagatud veerand )
+
+
+Calc: unitconv (main (fraction (neg1 null)) (conv_energy (prefixed_energy_unit kilo joule) (prefixed_energy_unit tera joule)))
+CalcApp: convert -0 kJ to TJ
+
+CalcEst: miinus null kilo dz~auli tera dz~aulides
+
+
+Calc: expr (e_mult (e_minus (numeral (fraction three_quarters)) (numeral (fraction quarter))) (e_pow (numeral (fraction three_quarters)) (numeral (fraction half))))
+CalcApp: ((0.75 - 0.25) * (0.75 ^ 0.5))
+
+CalcEst: kolm veerand miinus veerand korda ( kolm veerand astmel pool )
+
+
+Calc: expr (e_div (e_div (numeral (fraction three_quarters)) (numeral (fraction pi))) (e_mult (numeral (fraction pi)) (numeral (fraction half))))
+CalcApp: ((0.75 / PI) / (PI * 0.5))
+
+CalcEst: kolm veerand jagatud Pii jagatud ( Pii korda pool )
+
+
+Calc: expr (e_div (numeral (fraction one_and_half)) (e_minus (numeral (fraction one_and_half)) (numeral (fraction half))))
+CalcApp: (1.5 / (1.5 - 0.5))
+
+CalcEst: pool teist jagatud ( pool teist miinus pool )
+
+
+Calc: expr (e_minus (e_minus (numeral (fraction pi)) (numeral (fraction half))) (e_div (numeral (fraction three_quarters)) (numeral (fraction one_and_half))))
+CalcApp: ((PI - 0.5) - (0.75 / 1.5))
+
+CalcEst: Pii miinus pool miinus ( kolm veerand jagatud pool teist )
+
+
+Calc: expr (e_minus (e_div (numeral (fraction one_and_half)) (numeral (fraction three_quarters))) (numeral (fraction (neg1 null))))
+CalcApp: ((1.5 / 0.75) - -0)
+
+CalcEst: pool teist jagatud kolm veerand miinus miinus null
+
+
+Calc: expr (e_mult (e_mult (numeral (fraction three_quarters)) (numeral (fraction one_and_half))) (e_div (numeral (fraction half)) (numeral (fraction half))))
+CalcApp: ((0.75 * 1.5) * (0.5 / 0.5))
+
+CalcEst: kolm veerand korda pool teist korda ( pool jagatud pool )
+
+
+Calc: expr (e_mult (e_plus (numeral (fraction three_quarters)) (numeral (fraction half))) (e_plus (numeral (fraction pi)) (numeral (fraction pi))))
+CalcApp: ((0.75 + 0.5) * (PI + PI))
+
+CalcEst: kolm veerand pluss pool korda ( Pii pluss Pii )
+
+
+Calc: expr (e_minus (e_plus (numeral (fraction pi)) (numeral (fraction one_and_half))) (e_plus (numeral (fraction half)) (numeral (fraction quarter))))
+CalcApp: ((PI + 1.5) - (0.5 + 0.25))
+
+CalcEst: Pii pluss pool teist miinus ( pool pluss veerand )
+
+
+Calc: expr (e_pow (e_div (numeral (fraction pi)) (numeral (fraction three_quarters))) (e_div (numeral (fraction half)) (numeral (fraction pi))))
+CalcApp: ((PI / 0.75) ^ (0.5 / PI))
+
+CalcEst: Pii jagatud kolm veerand astmel ( pool jagatud Pii )
+
+
+Calc: unitconv (main (fraction (neg2 (pair null null))) (angle arcminute arcsecond))
+CalcApp: convert -0.0 ' to "
+
+CalcEst: miinus null koma null minutit sekundites
+
+
+Calc: unitconv (main (fraction (neg2 (pair null null))) (temperature (temperature_unit fahrenheit) (temperature_unit fahrenheit)))
+CalcApp: convert -0.0 °F to °F
+
+CalcEst: miinus null koma null fahrenheiti fahrenheitides
+
+
+Calc: expr (numeral (fraction one_and_half))
+CalcApp: 1.5
 
 CalcEst: pool teist
 
 
-Calc: exp (numeral (fraction one_and_half))
-CalcApp: 1 . 5
+Calc: unitconv (main (fraction (neg2 (pair null null))) (conv_energy (energy_unit calorie) (energy_unit watt_hour)))
+CalcApp: convert -0.0 cal to W⋅h
 
-CalcEst: pool teist
+CalcEst: miinus null koma null kalorit vatt tundides
 
 
-Calc: unitconv (general fraction_default rub fraction_default (time_unit century) (fraction_copy (fraction three_quarters)) eur fraction_default (time_unit second))
-CalcApp: ( ( ( convert RUB to EUR ) / ( convert century to s ) ) * ( ( 1 * 1 ) / ( 1 * 0 . 7 5 ) ) )
+Calc: unitconv (general (fraction_copy (fraction (copy1 null))) eek fraction_default (time_unit month) (fraction_copy (fraction (copy1 null))) nzd fraction_default (time_unit micro_second))
+CalcApp: ((( convert EEK to NZD ) / ( convert month to µs )) * ((0 * 1) / (1 * 0)))
 
-CalcEst: rubla sajandis teeb sekundis kolm veerand eurodes
+CalcEst: null krooni kuus teeb mikro sekundis null uus mere maa dollarites
 
 
-Calc: exp (e_pow (e_mult (numeral (fraction three_quarters)) (numeral (fraction half))) (e_mult (numeral (fraction half)) (numeral (fraction half))))
-CalcApp: ( ( 0 . 7 5 * 0 . 5 ) ^ ( 0 . 5 * 0 . 5 ) )
+Calc: expr (e_div (numeral (fraction three_quarters)) (e_div (numeral (fraction pi)) (numeral (fraction three_quarters))))
+CalcApp: (0.75 / (PI / 0.75))
 
-CalcEst: kolm veerand korda pool astmel ( pool korda pool )
+CalcEst: kolm veerand jagatud ( Pii jagatud kolm veerand )
 
 
-Calc: unitconv (main (fraction quarter) (length (prefixed_length_unit milli inch) (prefixed_length_unit mega foot)))
-CalcApp: convert 0 . 2 5 min to Mft
+Calc: expr (e_mult (e_pow (numeral (fraction pi)) (numeral (fraction half))) (e_minus (numeral (fraction one_and_half)) (numeral (fraction three_quarters))))
+CalcApp: ((PI ^ 0.5) * (1.5 - 0.75))
 
-CalcEst: veerand milli tolli mega jalgades
+CalcEst: Pii astmel pool korda ( pool teist miinus kolm veerand )
 
 
-Calc: unitconv (main (fraction half) (conv_speed (speed (prefixed_length_unit giga foot) (time_unit day)) (speed (length_unit mile) (time_unit month))))
-CalcApp: convert 0 . 5 Gft/day to mi/month
+Calc: unitconv (general fraction_default rub fraction_default (time_unit week) (fraction_copy (fraction one_and_half)) jpy (fraction_copy (fraction half)) (time_unit hour))
+CalcApp: ((( convert RUB to JPY ) / ( convert week to h )) * ((1 * 0.5) / (1 * 1.5)))
 
-CalcEst: pool giga jalga päevas miilides kuus
+CalcEst: rubla nädalas teeb pool tunnis pool teist jeenides
 
 
-Calc: exp (e_plus (e_div (numeral (fraction one_and_half)) (numeral (fraction quarter))) (e_plus (numeral (fraction half)) (numeral (fraction quarter))))
-CalcApp: ( ( 1 . 5 / 0 . 2 5 ) + ( 0 . 5 + 0 . 2 5 ) )
+Calc: unitconv (general fraction_default cad (fraction_copy (fraction (neg1 null))) (time_unit week) (fraction_copy (fraction quarter)) eek (fraction_copy (fraction half)) (time_unit month))
+CalcApp: ((( convert CAD to EEK ) / ( convert week to month )) * ((1 * 0.5) / (-0 * 0.25)))
 
-CalcEst: pool teist jagatud veerand pluss ( pool pluss veerand )
+CalcEst: kanada dollarit miinus null nädalas teeb pool kuus veerand kroonides
 
 
-Calc: exp (e_minus (e_plus (numeral (fraction pi)) (numeral (fraction quarter))) (e_mult (numeral (fraction pi)) (numeral (fraction half))))
-CalcApp: ( ( PI + 0 . 2 5 ) - ( PI * 0 . 5 ) )
+Calc: expr (e_div (e_mult (numeral (fraction one_and_half)) (numeral (fraction three_quarters))) (e_pow (numeral (fraction one_and_half)) (numeral (fraction one_and_half))))
+CalcApp: ((1.5 * 0.75) / (1.5 ^ 1.5))
 
-CalcEst: Pii pluss veerand miinus ( Pii korda pool )
+CalcEst: pool teist korda kolm veerand jagatud ( pool teist astmel pool teist )
 
 
-Calc: unitconv (general fraction_default isk fraction_default (time_unit century) fraction_default sek (fraction_copy (fraction three_quarters)) (time_unit second))
-CalcApp: ( ( ( convert ISK to SEK ) / ( convert century to s ) ) * ( ( 1 * 0 . 7 5 ) / ( 1 * 1 ) ) )
+Calc: unitconv (general fraction_default sek fraction_default (time_unit second) (fraction_copy (fraction half)) cad fraction_default (time_unit second))
+CalcApp: ((( convert SEK to CAD ) / ( convert s to s )) * ((1 * 1) / (1 * 0.5)))
 
-CalcEst: islandi krooni sajandis teeb kolm veerand sekundis rootsi kroonides
+CalcEst: rootsi krooni sekundis teeb sekundis pool kanada dollarites
 
 
-Calc: exp (e_mult (e_minus (numeral (fraction quarter)) (numeral (fraction quarter))) (e_pow (numeral (fraction half)) (numeral (fraction pi))))
-CalcApp: ( ( 0 . 2 5 - 0 . 2 5 ) * ( 0 . 5 ^ PI ) )
+Calc: expr (e_plus (e_div (numeral (fraction one_and_half)) (numeral (fraction half))) (e_div (numeral (fraction quarter)) (numeral (fraction quarter))))
+CalcApp: ((1.5 / 0.5) + (0.25 / 0.25))
 
-CalcEst: veerand miinus veerand korda ( pool astmel Pii )
+CalcEst: pool teist jagatud pool pluss ( veerand jagatud veerand )
 
 
-Calc: unitconv (general fraction_default usd (fraction_copy (fraction pi)) (time_unit hour) (fraction_copy (fraction pi)) jpy (fraction_copy (fraction (neg1 null))) (time_unit century))
-CalcApp: ( ( ( convert USD to JPY ) / ( convert h to century ) ) * ( ( 1 * - 0 ) / ( PI * PI ) ) )
+Calc: unitconv (general fraction_default jpy (fraction_copy (fraction (copy1 null))) (time_unit century) (fraction_copy (fraction (neg1 null))) gbp (fraction_copy (fraction (copy1 null))) (time_unit minute))
+CalcApp: ((( convert JPY to GBP ) / ( convert century to min )) * ((1 * 0) / (0 * -0)))
 
-CalcEst: dollarit Pii tunnis teeb miinus null sajandis Pii jeenides
+CalcEst: jeeni null sajandis teeb null minutis miinus null naelades
 
 
-Calc: unitconv (main (fraction pi) (length (prefixed_length_unit milli yard) (prefixed_length_unit mega foot)))
-CalcApp: convert PI myd to Mft
+Calc: unitconv (main (fraction quarter) (conv_power (prefixed_power_unit mega watt) (power_unit watt)))
+CalcApp: convert 0.25 MW to W
 
-CalcEst: Pii milli jardi mega jalgades
+CalcEst: veerand mega vatti vattides
 
 
-Calc: unitconv (general (fraction_copy (fraction half)) nok (fraction_copy (fraction one_and_half)) (time_unit second) (fraction_copy (fraction three_quarters)) chf fraction_default (time_unit milli_second))
-CalcApp: ( ( ( convert NOK to CHF ) / ( convert s to ms ) ) * ( ( 0 . 5 * 1 ) / ( 1 . 5 * 0 . 7 5 ) ) )
+Calc: expr (e_minus (e_pow (numeral (fraction three_quarters)) (numeral (fraction half))) (e_mult (numeral (fraction one_and_half)) (numeral (fraction pi))))
+CalcApp: ((0.75 ^ 0.5) - (1.5 * PI))
 
-CalcEst: pool norra krooni pool teist sekundis teeb milli sekundis kolm veerand frankides
+CalcEst: kolm veerand astmel pool miinus ( pool teist korda Pii )
 
 
-Calc: exp (e_div (numeral (fraction one_and_half)) (e_pow (numeral (fraction pi)) (numeral (fraction quarter))))
-CalcApp: ( 1 . 5 / ( PI ^ 0 . 2 5 ) )
+Calc: expr (e_div (e_plus (numeral (fraction one_and_half)) (numeral (fraction three_quarters))) (e_minus (numeral (fraction three_quarters)) (numeral (fraction half))))
+CalcApp: ((1.5 + 0.75) / (0.75 - 0.5))
 
-CalcEst: pool teist jagatud ( Pii astmel veerand )
+CalcEst: pool teist pluss kolm veerand jagatud ( kolm veerand miinus pool )
 
 
-Calc: unitconv (general fraction_default aud fraction_default (time_unit year) (fraction_copy (fraction (neg1 null))) rub fraction_default (time_unit hour))
-CalcApp: ( ( ( convert AUD to RUB ) / ( convert year to h ) ) * ( ( 1 * 1 ) / ( 1 * - 0 ) ) )
+Calc: expr (e_plus (numeral (fraction (neg1 null))) (e_pow (numeral (fraction one_and_half)) (numeral (fraction pi))))
+CalcApp: (-0 + (1.5 ^ PI))
 
-CalcEst: austraalia dollarit aastas teeb tunnis miinus null rublades
+CalcEst: miinus null pluss ( pool teist astmel Pii )
 
 
-Calc: unitconv (main (fraction (copy2 (pair null null))) (temperature (prefixed_temperature_unit giga celsius) (temperature_unit celsius)))
-CalcApp: convert 0 . 0 G°C to °C
+Calc: expr (e_minus (numeral (fraction (copy1 null))) (numeral (fraction pi)))
+CalcApp: (0 - PI)
 
-CalcEst: null koma null giga kraadi kraadides
+CalcEst: null miinus Pii
 
 
-Calc: exp (e_pow (numeral (fraction (copy1 null))) (numeral (fraction one_and_half)))
-CalcApp: ( 0 ^ 1 . 5 )
+Calc: unitconv (main (fraction pi) (temperature (temperature_unit celsius) (temperature_unit fahrenheit)))
+CalcApp: convert PI °C to °F
 
-CalcEst: null astmel pool teist
-
-
-Calc: unitconv (general (fraction_copy (fraction (neg1 null))) chf (fraction_copy (fraction (copy1 null))) (time_unit micro_second) fraction_default chf fraction_default (time_unit day))
-CalcApp: ( ( ( convert CHF to CHF ) / ( convert µs to day ) ) * ( ( - 0 * 1 ) / ( 0 * 1 ) ) )
-
-CalcEst: miinus null franki null mikro sekundis teeb päevas frankides
-
-
-Calc: unitconv (general (fraction_copy (fraction (copy1 null))) gbp fraction_default (time_unit second) fraction_default dkk (fraction_copy (fraction half)) (time_unit century))
-CalcApp: ( ( ( convert GBP to DKK ) / ( convert s to century ) ) * ( ( 0 * 0 . 5 ) / ( 1 * 1 ) ) )
-
-CalcEst: null naela sekundis teeb pool sajandis taani kroonides
-
-
-Calc: unitconv (main (fraction half) (time (time_unit decade) (time_unit decade)))
-CalcApp: convert 0 . 5 decade to decade
-
-CalcEst: pool dekaadi dekaadides
-
-
-Calc: unitconv (main (fraction (copy2 (pair null null))) (mass (prefixed_mass_unit micro gram) (prefixed_mass_unit tera pound)))
-CalcApp: convert 0 . 0 µg to Tlb
-
-CalcEst: null koma null mikro grammi tera naelades
-
-
-Calc: exp (e_div (e_minus (numeral (fraction quarter)) (numeral (fraction one_and_half))) (e_plus (numeral (fraction three_quarters)) (numeral (fraction pi))))
-CalcApp: ( ( 0 . 2 5 - 1 . 5 ) / ( 0 . 7 5 + PI ) )
-
-CalcEst: veerand miinus pool teist jagatud ( kolm veerand pluss Pii )
-
-
-Calc: exp (e_minus (e_pow (numeral (fraction half)) (numeral (fraction quarter))) (e_div (numeral (fraction three_quarters)) (numeral (fraction pi))))
-CalcApp: ( ( 0 . 5 ^ 0 . 2 5 ) - ( 0 . 7 5 / PI ) )
-
-CalcEst: pool astmel veerand miinus ( kolm veerand jagatud Pii )
-
-
-Calc: unitconv (general fraction_default gbp (fraction_copy (fraction quarter)) (time_unit century) (fraction_copy (fraction pi)) sek (fraction_copy (fraction (copy1 null))) (time_unit decade))
-CalcApp: ( ( ( convert GBP to SEK ) / ( convert century to decade ) ) * ( ( 1 * 0 ) / ( 0 . 2 5 * PI ) ) )
-
-CalcEst: naela veerand sajandis teeb null dekaadis Pii rootsi kroonides
-
-
-Calc: unitconv (main (fraction (copy2 (pair null null))) (frequency (frequency_unit hertz) (prefixed_frequency_unit giga hertz)))
-CalcApp: convert 0 . 0 Hz to GHz
-
-CalcEst: null koma null hertsi giga hertsides
-
-
-Calc: unitconv (main (fraction one_and_half) (conv_energy (energy_unit watt_hour) (energy_unit watt_hour)))
-CalcApp: convert 1 . 5 W⋅h to W⋅h
-
-CalcEst: pool teist vatt tundi vatt tundides
-
-
-Calc: unitconv (general (fraction_copy (fraction one_and_half)) chf fraction_default (time_unit nano_second) (fraction_copy (fraction one_and_half)) usd (fraction_copy (fraction quarter)) (time_unit micro_second))
-CalcApp: ( ( ( convert CHF to USD ) / ( convert ns to µs ) ) * ( ( 1 . 5 * 0 . 2 5 ) / ( 1 * 1 . 5 ) ) )
-
-CalcEst: pool teist franki nano sekundis teeb veerand mikro sekundis pool teist dollarites
-
-
-Calc: unitconv (general fraction_default huf fraction_default (time_unit micro_second) fraction_default eur fraction_default (time_unit day))
-CalcApp: ( ( ( convert HUF to EUR ) / ( convert µs to day ) ) * ( ( 1 * 1 ) / ( 1 * 1 ) ) )
-
-CalcEst: forintit mikro sekundis teeb päevas eurodes
-
-
-Calc: unitconv (general fraction_default nok fraction_default (time_unit decade) fraction_default usd (fraction_copy (fraction quarter)) (time_unit month))
-CalcApp: ( ( ( convert NOK to USD ) / ( convert decade to month ) ) * ( ( 1 * 0 . 2 5 ) / ( 1 * 1 ) ) )
-
-CalcEst: norra krooni dekaadis teeb veerand kuus dollarites
-
-
-Calc: exp (e_minus (numeral (fraction pi)) (e_minus (numeral (fraction quarter)) (numeral (fraction pi))))
-CalcApp: ( PI - ( 0 . 2 5 - PI ) )
-
-CalcEst: Pii miinus ( veerand miinus Pii )
-
-
-Calc: unitconv (general (fraction_copy (fraction pi)) jpy fraction_default (time_unit second) (fraction_copy (fraction three_quarters)) gbp (fraction_copy (fraction half)) (time_unit minute))
-CalcApp: ( ( ( convert JPY to GBP ) / ( convert s to min ) ) * ( ( PI * 0 . 5 ) / ( 1 * 0 . 7 5 ) ) )
-
-CalcEst: Pii jeeni sekundis teeb pool minutis kolm veerand naelades
-
-
-Calc: unitconv (general (fraction_copy (fraction half)) nok fraction_default (time_unit month) fraction_default nzd (fraction_copy (fraction one_and_half)) (time_unit nano_second))
-CalcApp: ( ( ( convert NOK to NZD ) / ( convert month to ns ) ) * ( ( 0 . 5 * 1 . 5 ) / ( 1 * 1 ) ) )
-
-CalcEst: pool norra krooni kuus teeb pool teist nano sekundis uus mere maa dollarites
+CalcEst: Pii kraadi fahrenheitides
 
 
 

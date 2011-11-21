@@ -1,19 +1,47 @@
-Symbols: digit d8 empty
-SymbolsApp: 8
+Symbols: digit d7 (letter lb empty)
+SymbolsApp: 7 b
 
-SymbolsEst: kaheksa
-
-
-Symbols: letter lz (letter lg empty)
-SymbolsApp: z g
-
-SymbolsEst: tsett geeee
+SymbolsEst: seitse berta
 
 
-Symbols: letter ly (digit d2 (digit d7 (digit d4 (digit d3 empty))))
-SymbolsApp: y 2 7 4 3
+Symbols: digit d0 (letter lo (letter lf (digit d7 (digit d3 empty))))
+SymbolsApp: 0 o f 7 3
 
-SymbolsEst: igrek kaks seitse neli kolm
+SymbolsEst: null oooo eff seitse kolm
+
+
+Symbols: empty
+SymbolsApp: 
+SymbolsEst: 
+
+Symbols: digit d6 empty
+SymbolsApp: 6
+
+SymbolsEst: kuus
+
+
+Symbols: digit d6 (digit d2 (digit d0 (digit d8 empty)))
+SymbolsApp: 6 2 0 8
+
+SymbolsEst: kuus kaks null kaheksa
+
+
+Symbols: letter lw empty
+SymbolsApp: w
+
+SymbolsEst: kaksisvee
+
+
+Symbols: letter lscaron (letter lm (letter lw (letter ld (letter lh empty))))
+SymbolsApp: s~ m w d h
+
+SymbolsEst: s~aaaa emm kaksisvee deeee haaaa
+
+
+Symbols: digit d5 (digit d2 empty)
+SymbolsApp: 5 2
+
+SymbolsEst: viis kaks
 
 
 Symbols: empty
@@ -24,72 +52,28 @@ Symbols: empty
 SymbolsApp: 
 SymbolsEst: 
 
-Symbols: digit d0 empty
-SymbolsApp: 0
+Symbols: letter lz empty
+SymbolsApp: z
 
-SymbolsEst: null
-
-
-Symbols: letter ly (digit d4 (letter ly (letter lw empty)))
-SymbolsApp: y 4 y w
-
-SymbolsEst: igrek neli igrek kaksisvee
+SymbolsEst: tsett
 
 
-Symbols: letter lg (letter lw empty)
-SymbolsApp: g w
+Symbols: digit d1 (digit d8 empty)
+SymbolsApp: 1 8
 
-SymbolsEst: geeee kaksisvee
-
-
-Symbols: letter lc empty
-SymbolsApp: c
-
-SymbolsEst: tseesar
+SymbolsEst: üks kaheksa
 
 
-Symbols: letter lz (digit d3 (digit d0 empty))
-SymbolsApp: z 3 0
+Symbols: letter louml (letter ld empty)
+SymbolsApp: ö d
 
-SymbolsEst: tsett kolm null
-
-
-Symbols: digit d0 (letter lscaron (digit d2 (digit d6 (letter lauml empty))))
-SymbolsApp: 0 s~ 2 6 ü
-
-SymbolsEst: null s~aaaa kaks kuus üüüü
+SymbolsEst: öööö deeee
 
 
-Symbols: empty
-SymbolsApp: 
-SymbolsEst: 
+Symbols: letter lc (letter lu (letter lr (letter lb empty)))
+SymbolsApp: c u r b
 
-Symbols: digit d5 (letter lotilde (letter lf (letter lscaron (letter le empty))))
-SymbolsApp: 5 õ f s~ e
-
-SymbolsEst: viis õõõõ eff s~aaaa eeee
-
-
-Symbols: digit d3 (letter luuml (digit d3 empty))
-SymbolsApp: 3 ä 3
-
-SymbolsEst: kolm ääää kolm
-
-
-Symbols: digit d5 (letter lb (digit d0 (digit d9 (letter luuml empty))))
-SymbolsApp: 5 b 0 9 ä
-
-SymbolsEst: viis berta null üheksa ääää
-
-
-Symbols: empty
-SymbolsApp: 
-SymbolsEst: 
-
-Symbols: digit d5 (digit d4 (digit d5 (letter lf (letter lp empty))))
-SymbolsApp: 5 4 5 f p
-
-SymbolsEst: viis neli viis eff peeee
+SymbolsEst: tseesar uuuu err berta
 
 
 Symbols: empty
@@ -100,40 +84,166 @@ Symbols: empty
 SymbolsApp: 
 SymbolsEst: 
 
-Symbols: letter lp empty
-SymbolsApp: p
+Symbols: digit d1 (digit d0 (letter lh (letter lo (digit d0 empty))))
+SymbolsApp: 1 0 h o 0
 
-SymbolsEst: peeee
-
-
-Symbols: letter lk (digit d8 (digit d4 (letter li (digit d7 empty))))
-SymbolsApp: k 8 4 i 7
-
-SymbolsEst: kaaaa kaheksa neli iiii seitse
+SymbolsEst: üks null haaaa oooo null
 
 
-Symbols: digit d8 (letter lm (digit d9 empty))
-SymbolsApp: 8 m 9
+Symbols: empty
+SymbolsApp: 
+SymbolsEst: 
 
-SymbolsEst: kaheksa emm üheksa
+Symbols: empty
+SymbolsApp: 
+SymbolsEst: 
 
+Symbols: letter lz (digit d3 (letter lp empty))
+SymbolsApp: z 3 p
 
-Symbols: digit d8 empty
-SymbolsApp: 8
-
-SymbolsEst: kaheksa
-
-
-Symbols: digit d2 empty
-SymbolsApp: 2
-
-SymbolsEst: kaks
+SymbolsEst: tsett kolm peeee
 
 
-Symbols: digit d5 (letter lt (letter lzcaron (digit d1 empty)))
-SymbolsApp: 5 t z~ 1
+Symbols: digit d9 (digit d0 empty)
+SymbolsApp: 9 0
 
-SymbolsEst: viis teeee z~eeee üks
+SymbolsEst: üheksa null
+
+
+Symbols: letter ld (digit d1 (digit d0 empty))
+SymbolsApp: d 1 0
+
+SymbolsEst: deeee üks null
+
+
+Symbols: letter le (digit d1 (letter lg empty))
+SymbolsApp: e 1 g
+
+SymbolsEst: eeee üks geeee
+
+
+Symbols: letter lscaron (letter lj empty)
+SymbolsApp: s~ j
+
+SymbolsEst: s~aaaa jott
+
+
+Symbols: letter lt (letter la empty)
+SymbolsApp: t a
+
+SymbolsEst: teeee alfa
+
+
+Symbols: digit d7 (letter lh (letter la (letter lk empty)))
+SymbolsApp: 7 h a k
+
+SymbolsEst: seitse haaaa alfa kaaaa
+
+
+Symbols: empty
+SymbolsApp: 
+SymbolsEst: 
+
+Symbols: empty
+SymbolsApp: 
+SymbolsEst: 
+
+Symbols: empty
+SymbolsApp: 
+SymbolsEst: 
+
+Symbols: letter le empty
+SymbolsApp: e
+
+SymbolsEst: eeee
+
+
+Symbols: letter lt (digit d7 empty)
+SymbolsApp: t 7
+
+SymbolsEst: teeee seitse
+
+
+Symbols: empty
+SymbolsApp: 
+SymbolsEst: 
+
+Symbols: letter lc (digit d1 (letter lu (letter la empty)))
+SymbolsApp: c 1 u a
+
+SymbolsEst: tseesar üks uuuu alfa
+
+
+Symbols: empty
+SymbolsApp: 
+SymbolsEst: 
+
+Symbols: empty
+SymbolsApp: 
+SymbolsEst: 
+
+Symbols: letter lz empty
+SymbolsApp: z
+
+SymbolsEst: tsett
+
+
+Symbols: empty
+SymbolsApp: 
+SymbolsEst: 
+
+Symbols: letter luuml (digit d1 (letter lx (letter lt (letter lf empty))))
+SymbolsApp: ä 1 x t f
+
+SymbolsEst: ääää üks iks teeee eff
+
+
+Symbols: digit d6 (digit d0 (digit d3 (letter lauml (letter ld empty))))
+SymbolsApp: 6 0 3 ü d
+
+SymbolsEst: kuus null kolm üüüü deeee
+
+
+Symbols: empty
+SymbolsApp: 
+SymbolsEst: 
+
+Symbols: digit d6 (digit d7 empty)
+SymbolsApp: 6 7
+
+SymbolsEst: kuus seitse
+
+
+Symbols: empty
+SymbolsApp: 
+SymbolsEst: 
+
+Symbols: letter lv (digit d5 (digit d4 (letter ln (letter lw empty))))
+SymbolsApp: v 5 4 n w
+
+SymbolsEst: veeee viis neli enn kaksisvee
+
+
+Symbols: digit d0 (digit d5 empty)
+SymbolsApp: 0 5
+
+SymbolsEst: null viis
+
+
+Symbols: digit d6 (digit d4 empty)
+SymbolsApp: 6 4
+
+SymbolsEst: kuus neli
+
+
+Symbols: empty
+SymbolsApp: 
+SymbolsEst: 
+
+Symbols: letter le (letter ld empty)
+SymbolsApp: e d
+
+SymbolsEst: eeee deeee
 
 
 Symbols: digit d5 empty
@@ -142,132 +252,16 @@ SymbolsApp: 5
 SymbolsEst: viis
 
 
-Symbols: digit d9 empty
-SymbolsApp: 9
+Symbols: digit d2 empty
+SymbolsApp: 2
 
-SymbolsEst: üheksa
-
-
-Symbols: letter lz (letter le empty)
-SymbolsApp: z e
-
-SymbolsEst: tsett eeee
+SymbolsEst: kaks
 
 
-Symbols: empty
-SymbolsApp: 
-SymbolsEst: 
+Symbols: digit d9 (digit d2 (digit d7 empty))
+SymbolsApp: 9 2 7
 
-Symbols: empty
-SymbolsApp: 
-SymbolsEst: 
-
-Symbols: digit d1 (digit d9 empty)
-SymbolsApp: 1 9
-
-SymbolsEst: üks üheksa
-
-
-Symbols: digit d2 (digit d4 (letter lf (digit d1 empty)))
-SymbolsApp: 2 4 f 1
-
-SymbolsEst: kaks neli eff üks
-
-
-Symbols: letter le (letter la (letter lt (letter le empty)))
-SymbolsApp: e a t e
-
-SymbolsEst: eeee alfa teeee eeee
-
-
-Symbols: digit d8 (digit d4 empty)
-SymbolsApp: 8 4
-
-SymbolsEst: kaheksa neli
-
-
-Symbols: empty
-SymbolsApp: 
-SymbolsEst: 
-
-Symbols: empty
-SymbolsApp: 
-SymbolsEst: 
-
-Symbols: empty
-SymbolsApp: 
-SymbolsEst: 
-
-Symbols: empty
-SymbolsApp: 
-SymbolsEst: 
-
-Symbols: letter lt empty
-SymbolsApp: t
-
-SymbolsEst: teeee
-
-
-Symbols: digit d6 empty
-SymbolsApp: 6
-
-SymbolsEst: kuus
-
-
-Symbols: letter lauml empty
-SymbolsApp: ü
-
-SymbolsEst: üüüü
-
-
-Symbols: empty
-SymbolsApp: 
-SymbolsEst: 
-
-Symbols: empty
-SymbolsApp: 
-SymbolsEst: 
-
-Symbols: letter lz (letter lotilde (digit d6 (digit d7 (letter ll empty))))
-SymbolsApp: z õ 6 7 l
-
-SymbolsEst: tsett õõõõ kuus seitse ell
-
-
-Symbols: letter li (digit d6 (digit d2 empty))
-SymbolsApp: i 6 2
-
-SymbolsEst: iiii kuus kaks
-
-
-Symbols: digit d7 (letter lp (digit d6 (digit d4 empty)))
-SymbolsApp: 7 p 6 4
-
-SymbolsEst: seitse peeee kuus neli
-
-
-Symbols: digit d6 (digit d4 (digit d6 empty))
-SymbolsApp: 6 4 6
-
-SymbolsEst: kuus neli kuus
-
-
-Symbols: letter ln (letter lj (digit d5 empty))
-SymbolsApp: n j 5
-
-SymbolsEst: enn jott viis
-
-
-Symbols: digit d9 (digit d9 (letter lscaron (digit d4 empty)))
-SymbolsApp: 9 9 s~ 4
-
-SymbolsEst: üheksa üheksa s~aaaa neli
-
-
-Symbols: letter lscaron (letter lw (letter lscaron empty))
-SymbolsApp: s~ w s~
-
-SymbolsEst: s~aaaa kaksisvee s~aaaa
+SymbolsEst: üheksa kaks seitse
 
 
 

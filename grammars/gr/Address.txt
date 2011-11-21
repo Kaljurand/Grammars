@@ -1,301 +1,301 @@
-Address: address2 (small_num (pot2 pot01)) Pikse tallinn
-AddressApp: Pikse 100 , Tallinn
+Address: address2 (small_num (pot2plus pot01 pot111)) Nurme tallinn
+AddressApp: Nurme 111 , Tallinn
 
-AddressEst: Pikse sada Tallinn
+AddressEst: Nurme sada üks teist Tallinn
 
 
-Address: address2 (small_num (pot1as2 (pot1plus n2 pot01))) Merirahu tallinn
-AddressApp: Merirahu 21 , Tallinn
+Address: address2 (small_num (pot2plus pot01 pot111)) Logi tallinn
+AddressApp: Logi 111 , Tallinn
 
-AddressEst: Merirahu kaks kümmend üks Tallinn
+AddressEst: Logi sada üks teist Tallinn
 
 
-Address: address0 Eeppl__Tamsalu
-AddressApp: Tamsalu , Estonia
+Address: address1 Ronga tallinn
+AddressApp: Ronga , Tallinn
 
-AddressEst: Tamsalu
+AddressEst: Ronga Tallinn
 
 
-Address: address1 Vana_Tartu_maantee tallinn
-AddressApp: Vana-Tartu maantee , Tallinn
+Address: address1 Vene tallinn
+AddressApp: Vene , Tallinn
 
-AddressEst: Vana-Tartu maantee Tallinn
+AddressEst: Vene Tallinn
 
 
-Address: address0 Eeppl__Punsa
-AddressApp: Punsa , Estonia
+Address: address0 Eeppl__Piirumi
+AddressApp: Piirumi , Estonia
 
-AddressEst: Punsa
+AddressEst: Piirumi
 
 
-Address: address0 Eeppl__Koidu_Lopi
-AddressApp: Koidu-Lopi , Estonia
+Address: address0 Eeppl__Rannakuumlla
+AddressApp: Rannaküla , Estonia
 
-AddressEst: Koidu-Lopi
+AddressEst: Rannaküla
 
 
-Address: address0 Eeppl__Pennikuumlla
-AddressApp: Penniküla , Estonia
+Address: address1 Suusa tallinn
+AddressApp: Suusa , Tallinn
 
-AddressEst: Penniküla
+AddressEst: Suusa Tallinn
 
 
-Address: address2 (small_num (pot1as2 pot111)) Maumle tallinn
-AddressApp: Mäe 11 , Tallinn
+Address: address2 (small_num (pot1as2 (pot1to19 n3))) Betooni tallinn
+AddressApp: Betooni 13 , Tallinn
 
-AddressEst: Mäe üks teist Tallinn
+AddressEst: Betooni kolm teist Tallinn
 
 
-Address: address1 Tanuma tallinn
-AddressApp: Tanuma , Tallinn
+Address: address0 Eeppl__Raudsepa
+AddressApp: Raudsepa , Estonia
 
-AddressEst: Tanuma Tallinn
+AddressEst: Raudsepa
 
 
-Address: address2 (small_num (pot2plus (pot0 n9) (pot1plus n4 pot01))) Sirptiiva tallinn
-AddressApp: Sirptiiva 941 , Tallinn
+Address: address2 (small_num (pot2 (pot0 n5))) Paljassaare_tee tallinn
+AddressApp: Paljassaare tee 500 , Tallinn
 
-AddressEst: Sirptiiva üheksa sada neli kümmend üks Tallinn
+AddressEst: Paljassaare tee viis sada Tallinn
 
 
-Address: address2 (small_num (pot1as2 (pot1plus n4 pot01))) Suur_Patarei tallinn
-AddressApp: Suur-Patarei 41 , Tallinn
+Address: address0 Eeppl__Vyana
+AddressApp: Vyana , Estonia
 
-AddressEst: Suur-Patarei neli kümmend üks Tallinn
+AddressEst: Vyana
 
 
-Address: address2 (small_num (pot2 (pot0 n4))) Leigeri tallinn
-AddressApp: Leigeri 400 , Tallinn
+Address: address1 Kasvu tallinn
+AddressApp: Kasvu , Tallinn
 
-AddressEst: Leigeri neli sada Tallinn
+AddressEst: Kasvu Tallinn
 
 
-Address: address2 (small_num (pot1as2 (pot0as1 pot01))) Matka_tee tallinn
-AddressApp: Matka tee 1 , Tallinn
+Address: address1 Veetorni tallinn
+AddressApp: Veetorni , Tallinn
 
-AddressEst: Matka tee üks Tallinn
+AddressEst: Veetorni Tallinn
 
 
-Address: address2 (small_num (pot2 (pot0 n6))) Vana_Tartu_maantee tallinn
-AddressApp: Vana-Tartu maantee 600 , Tallinn
+Address: address2 (small_num (pot1as2 (pot1plus n5 pot01))) Keskuse tallinn
+AddressApp: Keskuse 51 , Tallinn
 
-AddressEst: Vana-Tartu maantee kuus sada Tallinn
+AddressEst: Keskuse viis kümmend üks Tallinn
 
 
-Address: address2 (small_num (pot2plus pot01 (pot1to19 n7))) Meeruse tallinn
-AddressApp: Meeruse 117 , Tallinn
+Address: address2 (small_num (pot2plus (pot0 n8) (pot1 n5))) Punga tallinn
+AddressApp: Punga 850 , Tallinn
 
-AddressEst: Meeruse sada seitse teist Tallinn
+AddressEst: Punga kaheksa sada viis kümmend Tallinn
 
 
-Address: address1 Parda tallinn
-AddressApp: Parda , Tallinn
+Address: address0 Eeppl__Otikuumlla
+AddressApp: Otiküla , Estonia
 
-AddressEst: Parda Tallinn
+AddressEst: Otiküla
 
 
-Address: address2 (small_num (pot2 pot01)) Abaja tallinn
-AddressApp: Abaja 100 , Tallinn
+Address: address0 Eeppl__Raja
+AddressApp: Raja , Estonia
 
-AddressEst: Abaja sada Tallinn
+AddressEst: Raja
 
 
-Address: address0 Eeppl__Podmotsa
-AddressApp: Podmotsa , Estonia
+Address: address2 (small_num (pot1as2 (pot0as1 (pot0 n7)))) Vana_Viru tallinn
+AddressApp: Vana-Viru 7 , Tallinn
 
-AddressEst: Podmotsa
+AddressEst: Vana-Viru seitse Tallinn
 
 
-Address: address1 Roosi tallinn
-AddressApp: Roosi , Tallinn
+Address: address0 Eeppl__Visiska
+AddressApp: Visiska , Estonia
 
-AddressEst: Roosi Tallinn
+AddressEst: Visiska
 
 
-Address: address1 Risti tallinn
-AddressApp: Risti , Tallinn
+Address: address1 Viirpuu_tee tallinn
+AddressApp: Viirpuu tee , Tallinn
 
-AddressEst: Risti Tallinn
+AddressEst: Viirpuu tee Tallinn
 
 
-Address: address2 (small_num (pot1as2 pot110)) Kandle tallinn
-AddressApp: Kandle 10 , Tallinn
+Address: address2 (small_num (pot2plus (pot0 n7) (pot1 n6))) Ruumluumltli tallinn
+AddressApp: Rüütli 760 , Tallinn
 
-AddressEst: Kandle kümme Tallinn
+AddressEst: Rüütli seitse sada kuus kümmend Tallinn
 
 
-Address: address1 Valge tallinn
-AddressApp: Valge , Tallinn
+Address: address2 (small_num (pot2plus (pot0 n9) (pot0as1 pot01))) Suur_Ameerika tallinn
+AddressApp: Suur-Ameerika 901 , Tallinn
 
-AddressEst: Valge Tallinn
+AddressEst: Suur-Ameerika üheksa sada üks Tallinn
 
 
-Address: address0 Eeppl__Viltina
-AddressApp: Viltina , Estonia
+Address: address0 Eeppl__Ihamaru
+AddressApp: Ihamaru , Estonia
 
-AddressEst: Viltina
+AddressEst: Ihamaru
 
 
-Address: address2 (small_num (pot2plus (pot0 n5) (pot1 n7))) Villem_Reimani tallinn
-AddressApp: Villem Reimani 570 , Tallinn
+Address: address0 Eeppl__Kiiu_Aabla
+AddressApp: Kiiu-Aabla , Estonia
 
-AddressEst: Villem Reimani viis sada seitse kümmend Tallinn
+AddressEst: Kiiu-Aabla
 
 
-Address: address1 Trahteri tallinn
-AddressApp: Trahteri , Tallinn
+Address: address1 Teivi tallinn
+AddressApp: Teivi , Tallinn
 
-AddressEst: Trahteri Tallinn
+AddressEst: Teivi Tallinn
 
 
-Address: address1 Puhke tallinn
-AddressApp: Puhke , Tallinn
+Address: address0 Eeppl__Padakotilderve
+AddressApp: Padakõrve , Estonia
 
-AddressEst: Puhke Tallinn
+AddressEst: Padakõrve
 
 
-Address: address1 Juhan_Kunderi tallinn
-AddressApp: Juhan Kunderi , Tallinn
+Address: address2 (small_num (pot2plus pot01 (pot1to19 n6))) Vee tallinn
+AddressApp: Vee 116 , Tallinn
 
-AddressEst: Juhan Kunderi Tallinn
+AddressEst: Vee sada kuus teist Tallinn
 
 
-Address: address2 (small_num (pot1as2 pot110)) Loode tallinn
-AddressApp: Loode 10 , Tallinn
+Address: address2 (small_num (pot2plus pot01 (pot0as1 (pot0 n2)))) Otildele tallinn
+AddressApp: Õle 102 , Tallinn
 
-AddressEst: Loode kümme Tallinn
+AddressEst: Õle sada kaks Tallinn
 
 
-Address: address2 (small_num (pot2 pot01)) Vaagi tallinn
-AddressApp: Vaagi 100 , Tallinn
+Address: address0 Eeppl__Altnurga
+AddressApp: Altnurga , Estonia
 
-AddressEst: Vaagi sada Tallinn
+AddressEst: Altnurga
 
 
-Address: address1 Tanuma tallinn
-AddressApp: Tanuma , Tallinn
+Address: address1 Kiviriku tallinn
+AddressApp: Kiviriku , Tallinn
 
-AddressEst: Tanuma Tallinn
+AddressEst: Kiviriku Tallinn
 
 
-Address: address1 Teisepere tallinn
-AddressApp: Teisepere , Tallinn
+Address: address1 Suurtuumlki tallinn
+AddressApp: Suurtüki , Tallinn
 
-AddressEst: Teisepere Tallinn
+AddressEst: Suurtüki Tallinn
 
 
-Address: address1 Pohla tallinn
-AddressApp: Pohla , Tallinn
+Address: address0 Eeppl__Jotildeune
+AddressApp: Jõune , Estonia
 
-AddressEst: Pohla Tallinn
+AddressEst: Jõune
 
 
-Address: address1 Votildergukivi tallinn
-AddressApp: Võrgukivi , Tallinn
+Address: address1 Paju tallinn
+AddressApp: Paju , Tallinn
 
-AddressEst: Võrgukivi Tallinn
+AddressEst: Paju Tallinn
 
 
-Address: address1 Salve tallinn
-AddressApp: Salve , Tallinn
+Address: address0 Eeppl__Moori
+AddressApp: Moori , Estonia
 
-AddressEst: Salve Tallinn
+AddressEst: Moori
 
 
-Address: address0 Eeppl__Totildeivere
-AddressApp: Tõivere , Estonia
+Address: address2 (small_num (pot2 (pot0 n6))) Paumlrja tallinn
+AddressApp: Pärja 600 , Tallinn
 
-AddressEst: Tõivere
+AddressEst: Pärja kuus sada Tallinn
 
 
-Address: address0 Eeppl__Suhka
-AddressApp: Suhka , Estonia
+Address: address2 (small_num (pot2plus pot01 (pot1 n4))) Loopealse_puiestee tallinn
+AddressApp: Loopealse puiestee 140 , Tallinn
 
-AddressEst: Suhka
+AddressEst: Loopealse puiestee sada neli kümmend Tallinn
 
 
-Address: address0 Eeppl__Kotildervenurga
-AddressApp: Kõrvenurga , Estonia
+Address: address1 Jakob_Maumlndmetsa tallinn
+AddressApp: Jakob Mändmetsa , Tallinn
 
-AddressEst: Kõrvenurga
+AddressEst: Jakob Mändmetsa Tallinn
 
 
-Address: address2 (small_num (pot1as2 (pot1 n7))) Varre tallinn
-AddressApp: Varre 70 , Tallinn
+Address: address2 (small_num (pot2plus pot01 (pot0as1 (pot0 n4)))) Nigli tallinn
+AddressApp: Nigli 104 , Tallinn
 
-AddressEst: Varre seitse kümmend Tallinn
+AddressEst: Nigli sada neli Tallinn
 
 
-Address: address1 Leesika tallinn
-AddressApp: Leesika , Tallinn
+Address: address0 Eeppl__Riidamaumle
+AddressApp: Riidamäe , Estonia
 
-AddressEst: Leesika Tallinn
+AddressEst: Riidamäe
 
 
-Address: address2 (small_num (pot2plus pot01 pot110)) Eevardi tallinn
-AddressApp: Eevardi 110 , Tallinn
+Address: address0 Eeppl__Hundinurga
+AddressApp: Hundinurga , Estonia
 
-AddressEst: Eevardi sada kümme Tallinn
+AddressEst: Hundinurga
 
 
-Address: address1 Islandi_vaumlljak tallinn
-AddressApp: Islandi väljak , Tallinn
+Address: address2 (small_num (pot2plus pot01 pot111)) Uustalu tallinn
+AddressApp: Uustalu 111 , Tallinn
 
-AddressEst: Islandi väljak Tallinn
+AddressEst: Uustalu sada üks teist Tallinn
 
 
-Address: address1 Jahimehe_tee tallinn
-AddressApp: Jahimehe tee , Tallinn
+Address: address0 Eeppl__Hosby
+AddressApp: Hosby , Estonia
 
-AddressEst: Jahimehe tee Tallinn
+AddressEst: Hosby
 
 
-Address: address2 (small_num (pot1as2 pot111)) Rataskaevu tallinn
-AddressApp: Rataskaevu 11 , Tallinn
+Address: address1 Halu tallinn
+AddressApp: Halu , Tallinn
 
-AddressEst: Rataskaevu üks teist Tallinn
+AddressEst: Halu Tallinn
 
 
-Address: address0 Eeppl__Taabri
-AddressApp: Taabri , Estonia
+Address: address1 Pirita_tee tallinn
+AddressApp: Pirita tee , Tallinn
 
-AddressEst: Taabri
+AddressEst: Pirita tee Tallinn
 
 
-Address: address0 Eeppl__Olga
-AddressApp: Olga , Estonia
+Address: address0 Eeppl__Nohipalu
+AddressApp: Nohipalu , Estonia
 
-AddressEst: Olga
+AddressEst: Nohipalu
 
 
-Address: address0 Eeppl__Maumleltkuumlla
-AddressApp: Mäeltküla , Estonia
+Address: address1 Ratta tallinn
+AddressApp: Ratta , Tallinn
 
-AddressEst: Mäeltküla
+AddressEst: Ratta Tallinn
 
 
-Address: address0 Eeppl__Uusvada
-AddressApp: Uusvada , Estonia
+Address: address0 Eeppl__Kinnita
+AddressApp: Kinnita , Estonia
 
-AddressEst: Uusvada
+AddressEst: Kinnita
 
 
-Address: address2 (small_num (pot2plus pot01 (pot1to19 n3))) Maumle tallinn
-AddressApp: Mäe 113 , Tallinn
+Address: address2 (small_num (pot2plus (pot0 n4) (pot1plus n9 (pot0 n7)))) Vete tallinn
+AddressApp: Vete 497 , Tallinn
 
-AddressEst: Mäe sada kolm teist Tallinn
+AddressEst: Vete neli sada üheksa kümmend seitse Tallinn
 
 
-Address: address1 Toompea tallinn
-AddressApp: Toompea , Tallinn
+Address: address1 Vaari tallinn
+AddressApp: Vaari , Tallinn
 
-AddressEst: Toompea Tallinn
+AddressEst: Vaari Tallinn
 
 
-Address: address0 Eeppl__Jakobimotildeisa
-AddressApp: Jakobimõisa , Estonia
+Address: address1 Kesk_Ameerika tallinn
+AddressApp: Kesk-Ameerika , Tallinn
 
-AddressEst: Jakobimõisa
+AddressEst: Kesk-Ameerika Tallinn
 
 
 
