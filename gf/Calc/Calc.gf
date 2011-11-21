@@ -1,6 +1,6 @@
-abstract Calc = Exp, Unitconv ** {
+abstract Calc = Expr, Unitconv ** {
 
--- Calc is a union of Exp and Unitconv.
+-- Calc is a union of Expr and Unitconv.
 --
 -- @author Kaarel Kaljurand
 -- @version 2011-10-03
@@ -10,6 +10,6 @@ flags startcat = Calc;
 cat Calc;
 
 fun
-	exp : Exp -> Calc;
+	expr : Expr -> Calc;
 	unitconv : Main -> Calc;
 }

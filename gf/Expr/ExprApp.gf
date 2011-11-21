@@ -1,8 +1,8 @@
-concrete ExpApp of Exp = FractionApp ** open StringOper in {
+concrete ExprApp of Expr = FractionApp ** open StringOper in {
 
 flags coding=utf8;
 
-lincat Exp = {s : Str};
+lincat Expr = SS;
 
 lin
 	e_plus = infix "+";

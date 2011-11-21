@@ -1,8 +1,8 @@
-concrete ExpEst of Exp = FractionEst ** open StringOper in {
+concrete ExprEstamb of Expr = FractionEst ** open StringOper in {
 
 flags coding=utf8;
 
-lincat Exp = {s : Str};
+lincat Expr = SS;
 
 lin
 	e_plus = infixSS "pluss";
