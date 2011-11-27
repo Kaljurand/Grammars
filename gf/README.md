@@ -4,7 +4,7 @@ GF grammars in speech applications
 Introduction
 ------------
 
-This document describes the current thinking of how to use GF grammars in speech-enabled applications.
+This document describes how to use GF grammars in speech-enabled applications.
 
 The main idea is that every grammar comes with two concrete syntaxes. One corresponds
 to the spoken input and the other to the desired output, either (1) the language that the user wants
@@ -93,7 +93,7 @@ then linearized into all the desired syntaxes.
 
 For example
 
-    echo "parse -lang=GoEst \"${recognizer_output}\"  | linearize -lang=GoApp" | gf --run Go.pgf
+    echo "parse -lang=GoEst \"${recognizer_output}\"  | linearize -lang=GoApp -bind" | gf --run Go.pgf
 
 The (simple plain text) linearization is then returned to the client.
 In case more outputs are desired then some container format must be used.
@@ -102,8 +102,8 @@ Note also, that parsing can result in more than one parse tree.
 This is the case when the input is ambiguous, e.g. "2 - 3 - 4" with respect
 to a simple calculator grammar:
 
-    minus : Exp -> Exp -> Exp;
-    number : Number -> Exp;
+    minus : Expr -> Expr -> Expr;
+    number : Number -> Expr;
 
 in case the concrete syntax (which describes the "-" sign) does not specify the associativity.
 As a result of multiple parse trees also multiple linearizations are produced
@@ -143,6 +143,27 @@ Very large in terms of terminals (~1500 strings), otherwise very simple.
 Guidelines for grammar developers
 ---------------------------------
 
+### Two types of concrete syntaxes
+
+The PGF packs two types of concrete syntaxes.
+
+#### Parsing grammars (e.g. Est)
+
+  * used in parsing
+  * correspond to natural language speech
+    * use words (`two`), not symbols (`2`)
+    * do not use `glue`
+  * possibly allow ambiguous input (i.e. produce multiple parse trees)
+  * possibly allow variants (synonyms)
+
+#### Linearization grammars (e.g. Wolframalpha)
+
+  * used in linearization
+    * `glue` is OK because we use `linearize -bind`
+  * typically correspond to a machine language
+    * symbols are OK
+  * typically we do not care about variants (no `linearize -all`)
+
 ### Naming conventions
 
 ...
@@ -151,12 +172,6 @@ Guidelines for grammar developers
 ### How to form a union-grammar?
 
 ...
-
-
-### Using `glue`
-
-Do not use `glue` with languages which are going to be speech recognized,
-i.e. only use it with the "App" languages.
 
 
 ### Working with many strings
