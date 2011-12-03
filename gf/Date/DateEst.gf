@@ -3,15 +3,15 @@ concrete DateEst of Date = NumeralEst ** open StringOper in {
 flags coding = utf8 ;
 
 lincat
-  Date, Year, Day, Time, Minute = Str ;
+  Year, Day, Minute = Str ;
   Month, Weekday = Case => Str ;
   Hour = Str ;
-  SmallNumeral = SS ;
+  Date, Time, SmallNumeral = SS ;
 
 lin
   SmallNum n = ss (n.s ! indep) ;
 
-  DFull y m d t = opts (d ++ (m ! Nom)) ++ opts (opts "aastal" ++ y) ++ opts (klo ++ t) ;
+  DFull y m d t = ss (opts (d ++ (m ! Nom)) ++ opts (opts "aastal" ++ y) ++ opts (klo ++ t.s) );
 
   MkYear i = i.s ;
 
@@ -30,7 +30,7 @@ lin
 
   MkDay i = i.s ;
 
-  MkTime h m = h ++ (opts m) ;
+  MkTime h m = ss (h ++ (opts m)) ;
 
   H01 = "üks";
   H02 = "kaks";
@@ -80,8 +80,8 @@ param
   Case = Nom | Ad ;
 
 lin
-  DToday t     = "täna" ++ opts (klo ++ t) ;
-  DTomorrow t  = "homme" ++ opts (klo ++ t) ;
-  DYesterday t = "eile" ++ opts (klo ++ t) ;
+  DToday t     = ss ("täna" ++ opts (klo ++ t.s)) ;
+  DTomorrow t  = ss ("homme" ++ opts (klo ++ t.s)) ;
+  DYesterday t = ss ("eile" ++ opts (klo ++ t.s)) ;
 
 }

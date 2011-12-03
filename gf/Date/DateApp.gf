@@ -3,15 +3,15 @@ concrete DateApp of Date = NumeralApp ** open StringOper in {
 flags coding = utf8 ;
 
 lincat
-  Date, Year, Day, Time, Minute = Str ;
+  Year, Day, Minute = Str ;
   Month, Weekday = Str ;
   Hour = Str ;
-  SmallNumeral = SS ;
+  Date, Time, SmallNumeral = SS ;
 
 lin
   SmallNum n = {s = n.s ! noz} ;
 
-  DFull y m d t = y ++ "-" ++ m ++ "-" ++ d ++ t ;
+  DFull y m d t = ss (y ++ "-" ++ m ++ "-" ++ d ++ t.s);
 
   MkYear i = i.s ;
 
@@ -30,7 +30,7 @@ lin
 
   MkDay i = i.s ;
 
-  MkTime h m = h ++ ":" ++ m ;
+  MkTime h m = ss (h ++ ":" ++ m) ;
 
   H01 = "01";
   H02 = "02";
@@ -71,8 +71,8 @@ oper
   dot = "." ;
 
 lin
-  DToday t     = "TODAY" ++ t ;
-  DTomorrow t  = "TOMORROW" ++ t ;
-  DYesterday t = "YESTERDAY" ++ t ;
+  DToday = prefixSS "TODAY";
+  DTomorrow = prefixSS "TOMORROW";
+  DYesterday = prefixSS "YESTERDAY";
 
 }
