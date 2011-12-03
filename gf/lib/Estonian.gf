@@ -1,7 +1,5 @@
 resource Estonian = {
 
--- TODO: use overloading to share oper names
-
 -- @author Kaarel Kaljurand
 -- @version 2011-10-05
 
@@ -32,14 +30,7 @@ oper
 			}
 	};
 
-	f : Str -> Str -> CaseStr = \x,y ->
-		{
-			s = table {
-				SgPart => x ;
-				PlIn => y ;
-				_ => "NOT_IMPLEMENTED"
-			}
-	};
+	f : Str -> Str -> CaseStr = \x,y -> f3 x "NOT_IMPLEMENTED" y;
 
 	mk : Str -> CaseStr = \sg_part -> 
 		let 
