@@ -1,4 +1,4 @@
-DFull ?1 ?2 ?3 (MkTime H02 (MkMinute (SmallNum (pot1as2 (pot1 n3)))))
+DFull ?1 ?2 ?3 (MkTime H02 M30)
 
 ?3 ?2 aastal ?1 kell kaks kolm kümmend
 
@@ -38,15 +38,15 @@ kell kaks
 
 
 
-DTomorrow (MkTime H14 (MkMinute (SmallNum (pot1as2 (pot1plus n3 (pot0 n5))))))
+DTomorrow (MkTime H14 M35)
 
-TOMORROW 14 : 3 &+ 5
+TOMORROW 14 : 35
 
 
 
-DFull (MkYear (SmallNum (pot2plus (pot0 n2) (pot0as1 pot01)))) MNov (MkDay (SmallNum (pot1as2 (pot1 n2)))) (MkTime H24 (MkMinute (SmallNum (pot1as2 (pot1to19 n7)))))
+DFull (MkYear (SmallNum (pot2plus (pot0 n2) (pot0as1 pot01)))) MNov (MkDay (SmallNum (pot1as2 (pot1 n2)))) (MkTime H00 M17)
 
-2 &+ 0 &+ 1 - 11 - 2 &+ 0 00 : 1 &+ 7
+2 &+ 0 &+ 1 - 11 - 2 &+ 0 00 : 17
 
 
 

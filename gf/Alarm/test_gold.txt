@@ -1,4 +1,8 @@
-alarm_time (MkTime H04 (MkMinute (SmallNum (pot1as2 (pot1to19 n5)))))
+alarm_time (MkTime H04 M15)
+
+ärata mind kell neli viis teist
+
+ärata mind kell neli
 
 ärata mind neli viis teist
 
@@ -6,9 +10,21 @@ alarm_time (MkTime H04 (MkMinute (SmallNum (pot1as2 (pot1to19 n5)))))
 
 
 
-alarm_time (MkTime H04 (MkMinute (SmallNum (pot1as2 (pot1to19 n5)))))
+alarm_time (MkTime H04 M00)
 
-alarm 04 : 1 &+ 5
+ärata mind kell neli null null
+
+ärata mind kell neli
+
+ärata mind neli null null
+
+ärata mind neli
+
+
+
+alarm_time (MkTime H04 M15)
+
+alarm 04 : 15
 
 
 

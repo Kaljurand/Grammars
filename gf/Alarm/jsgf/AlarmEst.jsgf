@@ -9,45 +9,44 @@ public <MAIN> = <Alarm_cat> ;
 
 public <Alarm_cat> = <Alarm_1> ;
 
-<Digit_1> = kaks | kolm | neli | viis | kuus
-            | seitse | kaheksa | üheksa ;
-
-public <Digit_cat> = <Digit_1> ;
-
-<Hour_1> = üks | kaks | kolm | neli | viis | kuus
-           | seitse | kaheksa | üheksa | kümme | üks teist
-           | kaks teist | kolm teist | neli teist
-           | viis teist | kuus teist | seitse teist
-           | kaheksa teist | üheksa teist | kaks kümmend
-           | kaks kümmend üks | kaks kümmend kaks
-           | kaks kümmend kolm | kaks kümmend neli ;
+<Hour_1> = kaks kümmend neli | üks | kaks | kolm
+           | neli | viis | kuus | seitse | kaheksa | üheksa
+           | kümme | üks teist | kaks teist | kolm teist
+           | neli teist | viis teist | kuus teist
+           | seitse teist | kaheksa teist | üheksa teist
+           | kaks kümmend | kaks kümmend üks
+           | kaks kümmend kaks | kaks kümmend kolm ;
 
 public <Hour_cat> = <Hour_1> ;
 
-<Minute_1> = <SmallNumeral_1> ;
+<Minute_1> = null null | null üks | null kaks
+             | null kolm | null neli | null viis | null kuus
+             | null seitse | null kaheksa | null üheksa | kümme
+             | üks teist | kaks teist | kolm teist | neli teist
+             | viis teist | kuus teist | seitse teist
+             | kaheksa teist | üheksa teist | kaks kümmend
+             | kaks kümmend üks | kaks kümmend kaks
+             | kaks kümmend kolm | kaks kümmend neli
+             | kaks kümmend viis | kaks kümmend kuus
+             | kaks kümmend seitse | kaks kümmend kaheksa
+             | kaks kümmend üheksa | kolm kümmend
+             | kolm kümmend üks | kolm kümmend kaks
+             | kolm kümmend kolm | kolm kümmend neli
+             | kolm kümmend viis | kolm kümmend kuus
+             | kolm kümmend seitse | kolm kümmend kaheksa
+             | kolm kümmend üheksa | neli kümmend
+             | neli kümmend üks | neli kümmend kaks
+             | neli kümmend kolm | neli kümmend neli
+             | neli kümmend viis | neli kümmend kuus
+             | neli kümmend seitse | neli kümmend kaheksa
+             | neli kümmend üheksa | viis kümmend
+             | viis kümmend üks | viis kümmend kaks
+             | viis kümmend kolm | viis kümmend neli
+             | viis kümmend viis | viis kümmend kuus
+             | viis kümmend seitse | viis kümmend kaheksa
+             | viis kümmend üheksa ;
 
 public <Minute_cat> = <Minute_1> ;
-
-<SmallNumeral_1> = <Sub1000_1> ;
-
-public <SmallNumeral_cat> = <SmallNumeral_1> ;
-
-<Sub1000_1> = <Sub100_1> | <Sub10_2> sada
-              | <Sub10_2> sada <Sub100_1> ;
-
-public <Sub1000_cat> = <Sub1000_1> ;
-
-<Sub100_1> = <Sub10_1> | <Digit_1> kümmend | kümme
-             | üks teist | <Digit_1> kümmend <Sub10_1>
-             | <Digit_1> teist ;
-
-public <Sub100_cat> = <Sub100_1> ;
-
-<Sub10_1> = <Digit_1> | üks ;
-
-<Sub10_2> = <Digit_1> | <NULL> ;
-
-public <Sub10_cat> = <Sub10_1> | <Sub10_2> ;
 
 <Time_1> = <Hour_1> <Minute_1> | <Hour_1> ;
 
