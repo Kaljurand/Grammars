@@ -1,0 +1,301 @@
+Alarm: alarm_time (MkTime H12 M45)
+AlarmApp: alarm 12 : 45
+
+AlarmEst: ärata mind kell kaks teist neli kümmend viis
+
+
+Alarm: alarm_time (MkTime H12 M20)
+AlarmApp: alarm 12 : 20
+
+AlarmEst: ärata mind kell kaks teist kaks kümmend
+
+
+Alarm: alarm_time (MkTime H13 M36)
+AlarmApp: alarm 13 : 36
+
+AlarmEst: ärata mind kell kolm teist kolm kümmend kuus
+
+
+Alarm: alarm_time (MkTime H11 M34)
+AlarmApp: alarm 11 : 34
+
+AlarmEst: ärata mind kell üks teist kolm kümmend neli
+
+
+Alarm: alarm_time (MkTime H13 M41)
+AlarmApp: alarm 13 : 41
+
+AlarmEst: ärata mind kell kolm teist neli kümmend üks
+
+
+Alarm: alarm_time (MkTime H20 M18)
+AlarmApp: alarm 20 : 18
+
+AlarmEst: ärata mind kell kaks kümmend kaheksa teist
+
+
+Alarm: alarm_time (MkTime H19 M45)
+AlarmApp: alarm 19 : 45
+
+AlarmEst: ärata mind kell üheksa teist neli kümmend viis
+
+
+Alarm: alarm_time (MkTime H06 M24)
+AlarmApp: alarm 06 : 24
+
+AlarmEst: ärata mind kell kuus kaks kümmend neli
+
+
+Alarm: alarm_time (MkTime H13 M58)
+AlarmApp: alarm 13 : 58
+
+AlarmEst: ärata mind kell kolm teist viis kümmend kaheksa
+
+
+Alarm: alarm_time (MkTime H01 M27)
+AlarmApp: alarm 01 : 27
+
+AlarmEst: ärata mind kell üks kaks kümmend seitse
+
+
+Alarm: alarm_time (MkTime H22 M33)
+AlarmApp: alarm 22 : 33
+
+AlarmEst: ärata mind kell kaks kümmend kaks kolm kümmend kolm
+
+
+Alarm: alarm_time (MkTime H18 M42)
+AlarmApp: alarm 18 : 42
+
+AlarmEst: ärata mind kell kaheksa teist neli kümmend kaks
+
+
+Alarm: alarm_time (MkTime H04 M57)
+AlarmApp: alarm 04 : 57
+
+AlarmEst: ärata mind kell neli viis kümmend seitse
+
+
+Alarm: alarm_time (MkTime H04 M31)
+AlarmApp: alarm 04 : 31
+
+AlarmEst: ärata mind kell neli kolm kümmend üks
+
+
+Alarm: alarm_time (MkTime H06 M49)
+AlarmApp: alarm 06 : 49
+
+AlarmEst: ärata mind kell kuus neli kümmend üheksa
+
+
+Alarm: alarm_time (MkTime H15 M34)
+AlarmApp: alarm 15 : 34
+
+AlarmEst: ärata mind kell viis teist kolm kümmend neli
+
+
+Alarm: alarm_time (MkTime H19 M04)
+AlarmApp: alarm 19 : 04
+
+AlarmEst: ärata mind kell üheksa teist null neli
+
+
+Alarm: alarm_time (MkTime H21 M13)
+AlarmApp: alarm 21 : 13
+
+AlarmEst: ärata mind kell kaks kümmend üks kolm teist
+
+
+Alarm: alarm_time (MkTime H17 M39)
+AlarmApp: alarm 17 : 39
+
+AlarmEst: ärata mind kell seitse teist kolm kümmend üheksa
+
+
+Alarm: alarm_time (MkTime H04 M36)
+AlarmApp: alarm 04 : 36
+
+AlarmEst: ärata mind kell neli kolm kümmend kuus
+
+
+Alarm: alarm_time (MkTime H11 M48)
+AlarmApp: alarm 11 : 48
+
+AlarmEst: ärata mind kell üks teist neli kümmend kaheksa
+
+
+Alarm: alarm_time (MkTime H06 M27)
+AlarmApp: alarm 06 : 27
+
+AlarmEst: ärata mind kell kuus kaks kümmend seitse
+
+
+Alarm: alarm_time (MkTime H07 M06)
+AlarmApp: alarm 07 : 06
+
+AlarmEst: ärata mind kell seitse null kuus
+
+
+Alarm: alarm_time (MkTime H18 M10)
+AlarmApp: alarm 18 : 10
+
+AlarmEst: ärata mind kell kaheksa teist kümme
+
+
+Alarm: alarm_time (MkTime H06 M05)
+AlarmApp: alarm 06 : 05
+
+AlarmEst: ärata mind kell kuus null viis
+
+
+Alarm: alarm_time (MkTime H15 M04)
+AlarmApp: alarm 15 : 04
+
+AlarmEst: ärata mind kell viis teist null neli
+
+
+Alarm: alarm_time (MkTime H21 M54)
+AlarmApp: alarm 21 : 54
+
+AlarmEst: ärata mind kell kaks kümmend üks viis kümmend neli
+
+
+Alarm: alarm_time (MkTime H17 M33)
+AlarmApp: alarm 17 : 33
+
+AlarmEst: ärata mind kell seitse teist kolm kümmend kolm
+
+
+Alarm: alarm_time (MkTime H21 M26)
+AlarmApp: alarm 21 : 26
+
+AlarmEst: ärata mind kell kaks kümmend üks kaks kümmend kuus
+
+
+Alarm: alarm_time (MkTime H21 M05)
+AlarmApp: alarm 21 : 05
+
+AlarmEst: ärata mind kell kaks kümmend üks null viis
+
+
+Alarm: alarm_time (MkTime H14 M28)
+AlarmApp: alarm 14 : 28
+
+AlarmEst: ärata mind kell neli teist kaks kümmend kaheksa
+
+
+Alarm: alarm_time (MkTime H01 M57)
+AlarmApp: alarm 01 : 57
+
+AlarmEst: ärata mind kell üks viis kümmend seitse
+
+
+Alarm: alarm_time (MkTime H19 M25)
+AlarmApp: alarm 19 : 25
+
+AlarmEst: ärata mind kell üheksa teist kaks kümmend viis
+
+
+Alarm: alarm_time (MkTime H02 M16)
+AlarmApp: alarm 02 : 16
+
+AlarmEst: ärata mind kell kaks kuus teist
+
+
+Alarm: alarm_time (MkTime H21 M02)
+AlarmApp: alarm 21 : 02
+
+AlarmEst: ärata mind kell kaks kümmend üks null kaks
+
+
+Alarm: alarm_time (MkTime H02 M12)
+AlarmApp: alarm 02 : 12
+
+AlarmEst: ärata mind kell kaks kaks teist
+
+
+Alarm: alarm_time (MkTime H16 M02)
+AlarmApp: alarm 16 : 02
+
+AlarmEst: ärata mind kell kuus teist null kaks
+
+
+Alarm: alarm_time (MkTime H16 M14)
+AlarmApp: alarm 16 : 14
+
+AlarmEst: ärata mind kell kuus teist neli teist
+
+
+Alarm: alarm_time (MkTime H20 M00)
+AlarmApp: alarm 20 : 00
+
+AlarmEst: ärata mind kell kaks kümmend null null
+
+
+Alarm: alarm_time (MkTime H21 M24)
+AlarmApp: alarm 21 : 24
+
+AlarmEst: ärata mind kell kaks kümmend üks kaks kümmend neli
+
+
+Alarm: alarm_time (MkTime H11 M21)
+AlarmApp: alarm 11 : 21
+
+AlarmEst: ärata mind kell üks teist kaks kümmend üks
+
+
+Alarm: alarm_time (MkTime H17 M51)
+AlarmApp: alarm 17 : 51
+
+AlarmEst: ärata mind kell seitse teist viis kümmend üks
+
+
+Alarm: alarm_time (MkTime H00 M08)
+AlarmApp: alarm 00 : 08
+
+AlarmEst: ärata mind kell kaks kümmend neli null kaheksa
+
+
+Alarm: alarm_time (MkTime H08 M06)
+AlarmApp: alarm 08 : 06
+
+AlarmEst: ärata mind kell kaheksa null kuus
+
+
+Alarm: alarm_time (MkTime H11 M35)
+AlarmApp: alarm 11 : 35
+
+AlarmEst: ärata mind kell üks teist kolm kümmend viis
+
+
+Alarm: alarm_time (MkTime H18 M49)
+AlarmApp: alarm 18 : 49
+
+AlarmEst: ärata mind kell kaheksa teist neli kümmend üheksa
+
+
+Alarm: alarm_time (MkTime H14 M02)
+AlarmApp: alarm 14 : 02
+
+AlarmEst: ärata mind kell neli teist null kaks
+
+
+Alarm: alarm_time (MkTime H15 M09)
+AlarmApp: alarm 15 : 09
+
+AlarmEst: ärata mind kell viis teist null üheksa
+
+
+Alarm: alarm_time (MkTime H04 M17)
+AlarmApp: alarm 04 : 17
+
+AlarmEst: ärata mind kell neli seitse teist
+
+
+Alarm: alarm_time (MkTime H03 M59)
+AlarmApp: alarm 03 : 59
+
+AlarmEst: ärata mind kell kolm viis kümmend üheksa
+
+
+

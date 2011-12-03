@@ -1,25 +1,241 @@
-Expr: e_div (e_plus (e_pow (numeral (fraction quarter)) (numeral (fraction three_quarters))) (e_pow (numeral (fraction three_quarters)) (numeral (fraction quarter)))) (e_plus (e_div (numeral (fraction quarter)) (numeral (fraction one_and_half))) (e_pow (numeral (fraction quarter)) (numeral (fraction three_quarters))))
-ExprApp: (((0.25 ^ 0.75) + (0.75 ^ 0.25)) / ((0.25 / 1.5) + (0.25 ^ 0.75)))
+Expr: e_mult (e_div (e_div (numeral (fraction pi)) (numeral (fraction three_quarters))) (e_mult (numeral (fraction half)) (numeral (fraction pi)))) (e_plus (e_pow (numeral (fraction half)) (numeral (fraction one_and_half))) (e_plus (numeral (fraction half)) (numeral (fraction three_quarters))))
+ExprApp: (((PI / 0.75) / (0.5 * PI)) * ((0.5 ^ 1.5) + (0.5 + 0.75)))
 
-ExprEst: veerand astmel kolm veerand pluss ( kolm veerand astmel veerand ) jagatud ( veerand jagatud pool teist pluss ( veerand astmel kolm veerand ) )
+ExprEst: Pii jagatud kolm veerand jagatud ( pool korda Pii ) korda ( pool astmel pool teist pluss ( pool pluss kolm veerand ) )
 
-
-Expr: numeral (fraction quarter)
-ExprApp: 0.25
-
-ExprEst: veerand
+ExprEstamb: Pii jagatud kolm veerand jagatud pool korda Pii korda pool astmel pool teist pluss pool pluss kolm veerand
 
 
-Expr: numeral (fraction (neg2 (pair null null)))
-ExprApp: -0.0
+Expr: numeral (fraction (copy1 null))
+ExprApp: 0
 
-ExprEst: miinus null koma null
+ExprEst: null
+
+ExprEstamb: null
 
 
-Expr: e_pow (e_minus (numeral (fraction one_and_half)) (e_plus (numeral (fraction half)) (numeral (fraction pi)))) (e_plus (numeral (fraction (copy1 null))) (e_minus (numeral (fraction pi)) (numeral (fraction quarter))))
-ExprApp: ((1.5 - (0.5 + PI)) ^ (0 + (PI - 0.25)))
+Expr: e_minus (numeral (fraction three_quarters)) (e_minus (e_div (numeral (fraction three_quarters)) (numeral (fraction one_and_half))) (numeral (fraction (neg1 null))))
+ExprApp: (0.75 - ((0.75 / 1.5) - -0))
 
-ExprEst: pool teist miinus ( pool pluss Pii ) astmel ( null pluss ( Pii miinus veerand ) )
+ExprEst: kolm veerand miinus ( kolm veerand jagatud pool teist miinus miinus null )
+
+ExprEstamb: kolm veerand miinus kolm veerand jagatud pool teist miinus miinus null
+
+
+Expr: e_mult (e_pow (e_minus (numeral (fraction half)) (numeral (fraction pi))) (e_plus (numeral (fraction half)) (numeral (fraction three_quarters)))) (e_plus (e_mult (numeral (fraction half)) (numeral (fraction three_quarters))) (e_plus (numeral (fraction three_quarters)) (numeral (fraction one_and_half))))
+ExprApp: (((0.5 - PI) ^ (0.5 + 0.75)) * ((0.5 * 0.75) + (0.75 + 1.5)))
+
+ExprEst: pool miinus Pii astmel ( pool pluss kolm veerand ) korda ( pool korda kolm veerand pluss ( kolm veerand pluss pool teist ) )
+
+ExprEstamb: pool miinus Pii astmel pool pluss kolm veerand korda pool korda kolm veerand pluss kolm veerand pluss pool teist
+
+
+Expr: e_minus (e_div (e_plus (numeral (fraction three_quarters)) (numeral (fraction three_quarters))) (e_minus (numeral (fraction quarter)) (numeral (fraction quarter)))) (e_div (e_div (numeral (fraction three_quarters)) (numeral (fraction three_quarters))) (numeral (fraction half)))
+ExprApp: (((0.75 + 0.75) / (0.25 - 0.25)) - ((0.75 / 0.75) / 0.5))
+
+ExprEst: kolm veerand pluss kolm veerand jagatud ( veerand miinus veerand ) miinus ( kolm veerand jagatud kolm veerand jagatud pool )
+
+ExprEstamb: kolm veerand pluss kolm veerand jagatud veerand miinus veerand miinus kolm veerand jagatud kolm veerand jagatud pool
+
+
+Expr: numeral (fraction three_quarters)
+ExprApp: 0.75
+
+ExprEst: kolm veerand
+
+ExprEstamb: kolm veerand
+
+
+Expr: e_mult (numeral (fraction one_and_half)) (e_pow (e_mult (numeral (fraction quarter)) (numeral (fraction quarter))) (e_div (numeral (fraction quarter)) (numeral (fraction one_and_half))))
+ExprApp: (1.5 * ((0.25 * 0.25) ^ (0.25 / 1.5)))
+
+ExprEst: pool teist korda ( veerand korda veerand astmel ( veerand jagatud pool teist ) )
+
+ExprEstamb: pool teist korda veerand korda veerand astmel veerand jagatud pool teist
+
+
+Expr: e_plus (numeral (fraction one_and_half)) (e_pow (numeral (fraction (neg1 null))) (e_mult (numeral (fraction three_quarters)) (numeral (fraction one_and_half))))
+ExprApp: (1.5 + (-0 ^ (0.75 * 1.5)))
+
+ExprEst: pool teist pluss ( miinus null astmel ( kolm veerand korda pool teist ) )
+
+ExprEstamb: pool teist pluss miinus null astmel kolm veerand korda pool teist
+
+
+Expr: e_minus (numeral (fraction (neg1 null))) (numeral (fraction quarter))
+ExprApp: (-0 - 0.25)
+
+ExprEst: miinus null miinus veerand
+
+ExprEstamb: miinus null miinus veerand
+
+
+Expr: e_plus (e_pow (e_div (numeral (fraction three_quarters)) (numeral (fraction quarter))) (e_minus (numeral (fraction pi)) (numeral (fraction pi)))) (numeral (fraction half))
+ExprApp: (((0.75 / 0.25) ^ (PI - PI)) + 0.5)
+
+ExprEst: kolm veerand jagatud veerand astmel ( Pii miinus Pii ) pluss pool
+
+ExprEstamb: kolm veerand jagatud veerand astmel Pii miinus Pii pluss pool
+
+
+Expr: numeral (fraction one_and_half)
+ExprApp: 1.5
+
+ExprEst: pool teist
+
+ExprEstamb: pool teist
+
+
+Expr: e_mult (e_minus (e_mult (numeral (fraction three_quarters)) (numeral (fraction quarter))) (e_plus (numeral (fraction pi)) (numeral (fraction pi)))) (e_div (e_div (numeral (fraction one_and_half)) (numeral (fraction quarter))) (e_mult (numeral (fraction pi)) (numeral (fraction half))))
+ExprApp: (((0.75 * 0.25) - (PI + PI)) * ((1.5 / 0.25) / (PI * 0.5)))
+
+ExprEst: kolm veerand korda veerand miinus ( Pii pluss Pii ) korda ( pool teist jagatud veerand jagatud ( Pii korda pool ) )
+
+ExprEstamb: kolm veerand korda veerand miinus Pii pluss Pii korda pool teist jagatud veerand jagatud Pii korda pool
+
+
+Expr: e_pow (e_div (e_minus (numeral (fraction one_and_half)) (numeral (fraction pi))) (e_pow (numeral (fraction pi)) (numeral (fraction one_and_half)))) (e_plus (e_pow (numeral (fraction one_and_half)) (numeral (fraction quarter))) (e_plus (numeral (fraction quarter)) (numeral (fraction one_and_half))))
+ExprApp: (((1.5 - PI) / (PI ^ 1.5)) ^ ((1.5 ^ 0.25) + (0.25 + 1.5)))
+
+ExprEst: pool teist miinus Pii jagatud ( Pii astmel pool teist ) astmel ( pool teist astmel veerand pluss ( veerand pluss pool teist ) )
+
+ExprEstamb: pool teist miinus Pii jagatud Pii astmel pool teist astmel pool teist astmel veerand pluss veerand pluss pool teist
+
+
+Expr: e_mult (e_plus (e_minus (numeral (fraction quarter)) (numeral (fraction pi))) (e_pow (numeral (fraction one_and_half)) (numeral (fraction three_quarters)))) (e_minus (e_div (numeral (fraction one_and_half)) (numeral (fraction half))) (e_minus (numeral (fraction half)) (numeral (fraction pi))))
+ExprApp: (((0.25 - PI) + (1.5 ^ 0.75)) * ((1.5 / 0.5) - (0.5 - PI)))
+
+ExprEst: veerand miinus Pii pluss ( pool teist astmel kolm veerand ) korda ( pool teist jagatud pool miinus ( pool miinus Pii ) )
+
+ExprEstamb: veerand miinus Pii pluss pool teist astmel kolm veerand korda pool teist jagatud pool miinus pool miinus Pii
+
+
+Expr: e_mult (e_plus (e_plus (numeral (fraction quarter)) (numeral (fraction one_and_half))) (e_div (numeral (fraction quarter)) (numeral (fraction pi)))) (numeral (fraction (neg1 null)))
+ExprApp: (((0.25 + 1.5) + (0.25 / PI)) * -0)
+
+ExprEst: veerand pluss pool teist pluss ( veerand jagatud Pii ) korda miinus null
+
+ExprEstamb: veerand pluss pool teist pluss veerand jagatud Pii korda miinus null
+
+
+Expr: numeral (fraction (copy2 (pair null null)))
+ExprApp: 0.0
+
+ExprEst: null koma null
+
+ExprEstamb: null koma null
+
+
+Expr: e_div (e_minus (numeral (fraction three_quarters)) (e_mult (numeral (fraction pi)) (numeral (fraction quarter)))) (e_plus (e_minus (numeral (fraction three_quarters)) (numeral (fraction half))) (e_minus (numeral (fraction half)) (numeral (fraction pi))))
+ExprApp: ((0.75 - (PI * 0.25)) / ((0.75 - 0.5) + (0.5 - PI)))
+
+ExprEst: kolm veerand miinus ( Pii korda veerand ) jagatud ( kolm veerand miinus pool pluss ( pool miinus Pii ) )
+
+ExprEstamb: kolm veerand miinus Pii korda veerand jagatud kolm veerand miinus pool pluss pool miinus Pii
+
+
+Expr: e_plus (numeral (fraction (copy1 null))) (e_plus (e_mult (numeral (fraction three_quarters)) (numeral (fraction half))) (numeral (fraction one_and_half)))
+ExprApp: (0 + ((0.75 * 0.5) + 1.5))
+
+ExprEst: null pluss ( kolm veerand korda pool pluss pool teist )
+
+ExprEstamb: null pluss kolm veerand korda pool pluss pool teist
+
+
+Expr: e_minus (e_pow (e_pow (numeral (fraction quarter)) (numeral (fraction one_and_half))) (e_pow (numeral (fraction one_and_half)) (numeral (fraction one_and_half)))) (e_mult (e_plus (numeral (fraction one_and_half)) (numeral (fraction three_quarters))) (e_plus (numeral (fraction quarter)) (numeral (fraction half))))
+ExprApp: (((0.25 ^ 1.5) ^ (1.5 ^ 1.5)) - ((1.5 + 0.75) * (0.25 + 0.5)))
+
+ExprEst: veerand astmel pool teist astmel ( pool teist astmel pool teist ) miinus ( pool teist pluss kolm veerand korda ( veerand pluss pool ) )
+
+ExprEstamb: veerand astmel pool teist astmel pool teist astmel pool teist miinus pool teist pluss kolm veerand korda veerand pluss pool
+
+
+Expr: e_plus (e_div (numeral (fraction pi)) (e_plus (numeral (fraction one_and_half)) (numeral (fraction pi)))) (e_minus (e_mult (numeral (fraction three_quarters)) (numeral (fraction one_and_half))) (e_plus (numeral (fraction quarter)) (numeral (fraction half))))
+ExprApp: ((PI / (1.5 + PI)) + ((0.75 * 1.5) - (0.25 + 0.5)))
+
+ExprEst: Pii jagatud ( pool teist pluss Pii ) pluss ( kolm veerand korda pool teist miinus ( veerand pluss pool ) )
+
+ExprEstamb: Pii jagatud pool teist pluss Pii pluss kolm veerand korda pool teist miinus veerand pluss pool
+
+
+Expr: e_minus (e_div (numeral (fraction half)) (numeral (fraction (copy1 null)))) (e_minus (numeral (fraction half)) (e_div (numeral (fraction pi)) (numeral (fraction half))))
+ExprApp: ((0.5 / 0) - (0.5 - (PI / 0.5)))
+
+ExprEst: pool jagatud null miinus ( pool miinus ( Pii jagatud pool ) )
+
+ExprEstamb: pool jagatud null miinus pool miinus Pii jagatud pool
+
+
+Expr: e_mult (e_pow (e_div (numeral (fraction one_and_half)) (numeral (fraction pi))) (e_mult (numeral (fraction one_and_half)) (numeral (fraction one_and_half)))) (e_mult (e_pow (numeral (fraction half)) (numeral (fraction quarter))) (e_div (numeral (fraction one_and_half)) (numeral (fraction one_and_half))))
+ExprApp: (((1.5 / PI) ^ (1.5 * 1.5)) * ((0.5 ^ 0.25) * (1.5 / 1.5)))
+
+ExprEst: pool teist jagatud Pii astmel ( pool teist korda pool teist ) korda ( pool astmel veerand korda ( pool teist jagatud pool teist ) )
+
+ExprEstamb: pool teist jagatud Pii astmel pool teist korda pool teist korda pool astmel veerand korda pool teist jagatud pool teist
+
+
+Expr: e_div (e_minus (e_plus (numeral (fraction quarter)) (numeral (fraction one_and_half))) (e_div (numeral (fraction quarter)) (numeral (fraction three_quarters)))) (e_pow (e_minus (numeral (fraction one_and_half)) (numeral (fraction one_and_half))) (e_plus (numeral (fraction pi)) (numeral (fraction half))))
+ExprApp: (((0.25 + 1.5) - (0.25 / 0.75)) / ((1.5 - 1.5) ^ (PI + 0.5)))
+
+ExprEst: veerand pluss pool teist miinus ( veerand jagatud kolm veerand ) jagatud ( pool teist miinus pool teist astmel ( Pii pluss pool ) )
+
+ExprEstamb: veerand pluss pool teist miinus veerand jagatud kolm veerand jagatud pool teist miinus pool teist astmel Pii pluss pool
+
+
+Expr: e_plus (e_minus (e_plus (numeral (fraction one_and_half)) (numeral (fraction half))) (e_pow (numeral (fraction one_and_half)) (numeral (fraction half)))) (e_pow (e_div (numeral (fraction quarter)) (numeral (fraction half))) (numeral (fraction half)))
+ExprApp: (((1.5 + 0.5) - (1.5 ^ 0.5)) + ((0.25 / 0.5) ^ 0.5))
+
+ExprEst: pool teist pluss pool miinus ( pool teist astmel pool ) pluss ( veerand jagatud pool astmel pool )
+
+ExprEstamb: pool teist pluss pool miinus pool teist astmel pool pluss veerand jagatud pool astmel pool
+
+
+Expr: e_minus (numeral (fraction three_quarters)) (e_div (e_pow (numeral (fraction quarter)) (numeral (fraction half))) (numeral (fraction (neg1 null))))
+ExprApp: (0.75 - ((0.25 ^ 0.5) / -0))
+
+ExprEst: kolm veerand miinus ( veerand astmel pool jagatud miinus null )
+
+ExprEstamb: kolm veerand miinus veerand astmel pool jagatud miinus null
+
+
+Expr: e_plus (e_mult (numeral (fraction (neg1 null))) (e_plus (numeral (fraction pi)) (numeral (fraction quarter)))) (e_mult (e_minus (numeral (fraction pi)) (numeral (fraction pi))) (e_pow (numeral (fraction half)) (numeral (fraction three_quarters))))
+ExprApp: ((-0 * (PI + 0.25)) + ((PI - PI) * (0.5 ^ 0.75)))
+
+ExprEst: miinus null korda ( Pii pluss veerand ) pluss ( Pii miinus Pii korda ( pool astmel kolm veerand ) )
+
+ExprEstamb: miinus null korda Pii pluss veerand pluss Pii miinus Pii korda pool astmel kolm veerand
+
+
+Expr: numeral (fraction (copy1 null))
+ExprApp: 0
+
+ExprEst: null
+
+ExprEstamb: null
+
+
+Expr: e_plus (e_div (e_pow (numeral (fraction three_quarters)) (numeral (fraction quarter))) (numeral (fraction quarter))) (e_mult (e_mult (numeral (fraction quarter)) (numeral (fraction one_and_half))) (e_div (numeral (fraction quarter)) (numeral (fraction three_quarters))))
+ExprApp: (((0.75 ^ 0.25) / 0.25) + ((0.25 * 1.5) * (0.25 / 0.75)))
+
+ExprEst: kolm veerand astmel veerand jagatud veerand pluss ( veerand korda pool teist korda ( veerand jagatud kolm veerand ) )
+
+ExprEstamb: kolm veerand astmel veerand jagatud veerand pluss veerand korda pool teist korda veerand jagatud kolm veerand
+
+
+Expr: e_div (e_pow (e_minus (numeral (fraction half)) (numeral (fraction three_quarters))) (e_plus (numeral (fraction half)) (numeral (fraction pi)))) (e_pow (e_minus (numeral (fraction pi)) (numeral (fraction quarter))) (e_mult (numeral (fraction pi)) (numeral (fraction pi))))
+ExprApp: (((0.5 - 0.75) ^ (0.5 + PI)) / ((PI - 0.25) ^ (PI * PI)))
+
+ExprEst: pool miinus kolm veerand astmel ( pool pluss Pii ) jagatud ( Pii miinus veerand astmel ( Pii korda Pii ) )
+
+ExprEstamb: pool miinus kolm veerand astmel pool pluss Pii jagatud Pii miinus veerand astmel Pii korda Pii
+
+
+Expr: e_mult (numeral (fraction half)) (e_plus (e_minus (numeral (fraction quarter)) (numeral (fraction pi))) (e_mult (numeral (fraction quarter)) (numeral (fraction half))))
+ExprApp: (0.5 * ((0.25 - PI) + (0.25 * 0.5)))
+
+ExprEst: pool korda ( veerand miinus Pii pluss ( veerand korda pool ) )
+
+ExprEstamb: pool korda veerand miinus Pii pluss veerand korda pool
 
 
 Expr: numeral (fraction half)
@@ -27,275 +243,159 @@ ExprApp: 0.5
 
 ExprEst: pool
 
+ExprEstamb: pool
 
-Expr: e_pow (e_minus (e_minus (numeral (fraction one_and_half)) (numeral (fraction quarter))) (e_plus (numeral (fraction one_and_half)) (numeral (fraction three_quarters)))) (e_div (e_plus (numeral (fraction half)) (numeral (fraction pi))) (e_div (numeral (fraction pi)) (numeral (fraction pi))))
-ExprApp: (((1.5 - 0.25) - (1.5 + 0.75)) ^ ((0.5 + PI) / (PI / PI)))
 
-ExprEst: pool teist miinus veerand miinus ( pool teist pluss kolm veerand ) astmel ( pool pluss Pii jagatud ( Pii jagatud Pii ) )
+Expr: e_minus (e_pow (e_plus (numeral (fraction one_and_half)) (numeral (fraction half))) (e_plus (numeral (fraction pi)) (numeral (fraction three_quarters)))) (e_div (e_minus (numeral (fraction half)) (numeral (fraction half))) (numeral (fraction quarter)))
+ExprApp: (((1.5 + 0.5) ^ (PI + 0.75)) - ((0.5 - 0.5) / 0.25))
 
+ExprEst: pool teist pluss pool astmel ( Pii pluss kolm veerand ) miinus ( pool miinus pool jagatud veerand )
 
-Expr: e_mult (e_minus (e_plus (numeral (fraction half)) (numeral (fraction one_and_half))) (e_div (numeral (fraction pi)) (numeral (fraction quarter)))) (e_div (e_div (numeral (fraction half)) (numeral (fraction half))) (e_plus (numeral (fraction half)) (numeral (fraction three_quarters))))
-ExprApp: (((0.5 + 1.5) - (PI / 0.25)) * ((0.5 / 0.5) / (0.5 + 0.75)))
+ExprEstamb: pool teist pluss pool astmel Pii pluss kolm veerand miinus pool miinus pool jagatud veerand
 
-ExprEst: pool pluss pool teist miinus ( Pii jagatud veerand ) korda ( pool jagatud pool jagatud ( pool pluss kolm veerand ) )
 
+Expr: e_plus (numeral (fraction half)) (e_plus (e_div (numeral (fraction half)) (numeral (fraction one_and_half))) (e_div (numeral (fraction quarter)) (numeral (fraction three_quarters))))
+ExprApp: (0.5 + ((0.5 / 1.5) + (0.25 / 0.75)))
 
-Expr: e_minus (numeral (fraction (neg1 null))) (e_mult (e_div (numeral (fraction quarter)) (numeral (fraction three_quarters))) (e_plus (numeral (fraction quarter)) (numeral (fraction half))))
-ExprApp: (-0 - ((0.25 / 0.75) * (0.25 + 0.5)))
+ExprEst: pool pluss ( pool jagatud pool teist pluss ( veerand jagatud kolm veerand ) )
 
-ExprEst: miinus null miinus ( veerand jagatud kolm veerand korda ( veerand pluss pool ) )
+ExprEstamb: pool pluss pool jagatud pool teist pluss veerand jagatud kolm veerand
 
 
-Expr: e_minus (e_pow (e_mult (numeral (fraction quarter)) (numeral (fraction quarter))) (e_plus (numeral (fraction three_quarters)) (numeral (fraction three_quarters)))) (e_pow (numeral (fraction quarter)) (e_mult (numeral (fraction three_quarters)) (numeral (fraction half))))
-ExprApp: (((0.25 * 0.25) ^ (0.75 + 0.75)) - (0.25 ^ (0.75 * 0.5)))
+Expr: e_div (numeral (fraction (copy1 null))) (e_div (e_minus (numeral (fraction pi)) (numeral (fraction three_quarters))) (e_pow (numeral (fraction three_quarters)) (numeral (fraction pi))))
+ExprApp: (0 / ((PI - 0.75) / (0.75 ^ PI)))
 
-ExprEst: veerand korda veerand astmel ( kolm veerand pluss kolm veerand ) miinus ( veerand astmel ( kolm veerand korda pool ) )
+ExprEst: null jagatud ( Pii miinus kolm veerand jagatud ( kolm veerand astmel Pii ) )
 
+ExprEstamb: null jagatud Pii miinus kolm veerand jagatud kolm veerand astmel Pii
 
-Expr: e_div (e_minus (e_mult (numeral (fraction pi)) (numeral (fraction one_and_half))) (e_pow (numeral (fraction pi)) (numeral (fraction quarter)))) (e_minus (e_pow (numeral (fraction three_quarters)) (numeral (fraction quarter))) (numeral (fraction one_and_half)))
-ExprApp: (((PI * 1.5) - (PI ^ 0.25)) / ((0.75 ^ 0.25) - 1.5))
 
-ExprEst: Pii korda pool teist miinus ( Pii astmel veerand ) jagatud ( kolm veerand astmel veerand miinus pool teist )
+Expr: e_plus (e_plus (e_plus (numeral (fraction three_quarters)) (numeral (fraction quarter))) (e_plus (numeral (fraction three_quarters)) (numeral (fraction half)))) (e_minus (e_pow (numeral (fraction pi)) (numeral (fraction three_quarters))) (e_pow (numeral (fraction pi)) (numeral (fraction pi))))
+ExprApp: (((0.75 + 0.25) + (0.75 + 0.5)) + ((PI ^ 0.75) - (PI ^ PI)))
 
+ExprEst: kolm veerand pluss veerand pluss ( kolm veerand pluss pool ) pluss ( Pii astmel kolm veerand miinus ( Pii astmel Pii ) )
 
-Expr: e_plus (e_plus (e_minus (numeral (fraction one_and_half)) (numeral (fraction pi))) (e_mult (numeral (fraction half)) (numeral (fraction half)))) (e_minus (numeral (fraction half)) (e_mult (numeral (fraction three_quarters)) (numeral (fraction quarter))))
-ExprApp: (((1.5 - PI) + (0.5 * 0.5)) + (0.5 - (0.75 * 0.25)))
+ExprEstamb: kolm veerand pluss veerand pluss kolm veerand pluss pool pluss Pii astmel kolm veerand miinus Pii astmel Pii
 
-ExprEst: pool teist miinus Pii pluss ( pool korda pool ) pluss ( pool miinus ( kolm veerand korda veerand ) )
 
+Expr: e_minus (e_minus (e_pow (numeral (fraction pi)) (numeral (fraction half))) (e_div (numeral (fraction one_and_half)) (numeral (fraction three_quarters)))) (e_plus (numeral (fraction one_and_half)) (e_div (numeral (fraction one_and_half)) (numeral (fraction pi))))
+ExprApp: (((PI ^ 0.5) - (1.5 / 0.75)) - (1.5 + (1.5 / PI)))
 
-Expr: numeral (fraction (neg2 (pair null null)))
-ExprApp: -0.0
+ExprEst: Pii astmel pool miinus ( pool teist jagatud kolm veerand ) miinus ( pool teist pluss ( pool teist jagatud Pii ) )
 
-ExprEst: miinus null koma null
+ExprEstamb: Pii astmel pool miinus pool teist jagatud kolm veerand miinus pool teist pluss pool teist jagatud Pii
 
 
-Expr: e_div (e_plus (e_pow (numeral (fraction quarter)) (numeral (fraction three_quarters))) (e_pow (numeral (fraction pi)) (numeral (fraction quarter)))) (e_pow (e_minus (numeral (fraction one_and_half)) (numeral (fraction half))) (e_minus (numeral (fraction half)) (numeral (fraction pi))))
-ExprApp: (((0.25 ^ 0.75) + (PI ^ 0.25)) / ((1.5 - 0.5) ^ (0.5 - PI)))
+Expr: e_minus (e_minus (e_pow (numeral (fraction pi)) (numeral (fraction pi))) (e_div (numeral (fraction pi)) (numeral (fraction half)))) (e_div (e_mult (numeral (fraction half)) (numeral (fraction quarter))) (e_plus (numeral (fraction half)) (numeral (fraction quarter))))
+ExprApp: (((PI ^ PI) - (PI / 0.5)) - ((0.5 * 0.25) / (0.5 + 0.25)))
 
-ExprEst: veerand astmel kolm veerand pluss ( Pii astmel veerand ) jagatud ( pool teist miinus pool astmel ( pool miinus Pii ) )
+ExprEst: Pii astmel Pii miinus ( Pii jagatud pool ) miinus ( pool korda veerand jagatud ( pool pluss veerand ) )
 
+ExprEstamb: Pii astmel Pii miinus Pii jagatud pool miinus pool korda veerand jagatud pool pluss veerand
 
-Expr: numeral (fraction one_and_half)
-ExprApp: 1.5
 
-ExprEst: pool teist
+Expr: e_div (e_plus (e_div (numeral (fraction half)) (numeral (fraction three_quarters))) (e_pow (numeral (fraction quarter)) (numeral (fraction one_and_half)))) (e_minus (numeral (fraction (copy1 null))) (numeral (fraction three_quarters)))
+ExprApp: (((0.5 / 0.75) + (0.25 ^ 1.5)) / (0 - 0.75))
 
+ExprEst: pool jagatud kolm veerand pluss ( veerand astmel pool teist ) jagatud ( null miinus kolm veerand )
 
-Expr: e_mult (e_plus (e_minus (numeral (fraction quarter)) (numeral (fraction one_and_half))) (e_plus (numeral (fraction one_and_half)) (numeral (fraction pi)))) (e_mult (e_plus (numeral (fraction quarter)) (numeral (fraction three_quarters))) (e_minus (numeral (fraction half)) (numeral (fraction one_and_half))))
-ExprApp: (((0.25 - 1.5) + (1.5 + PI)) * ((0.25 + 0.75) * (0.5 - 1.5)))
+ExprEstamb: pool jagatud kolm veerand pluss veerand astmel pool teist jagatud null miinus kolm veerand
 
-ExprEst: veerand miinus pool teist pluss ( pool teist pluss Pii ) korda ( veerand pluss kolm veerand korda ( pool miinus pool teist ) )
 
+Expr: e_plus (numeral (fraction (copy1 null))) (e_div (e_plus (numeral (fraction half)) (numeral (fraction pi))) (e_pow (numeral (fraction pi)) (numeral (fraction pi))))
+ExprApp: (0 + ((0.5 + PI) / (PI ^ PI)))
 
-Expr: e_pow (e_div (e_mult (numeral (fraction quarter)) (numeral (fraction one_and_half))) (e_plus (numeral (fraction three_quarters)) (numeral (fraction one_and_half)))) (e_minus (numeral (fraction (copy1 null))) (e_pow (numeral (fraction quarter)) (numeral (fraction quarter))))
-ExprApp: (((0.25 * 1.5) / (0.75 + 1.5)) ^ (0 - (0.25 ^ 0.25)))
+ExprEst: null pluss ( pool pluss Pii jagatud ( Pii astmel Pii ) )
 
-ExprEst: veerand korda pool teist jagatud ( kolm veerand pluss pool teist ) astmel ( null miinus ( veerand astmel veerand ) )
+ExprEstamb: null pluss pool pluss Pii jagatud Pii astmel Pii
 
 
-Expr: e_mult (numeral (fraction quarter)) (numeral (fraction quarter))
-ExprApp: (0.25 * 0.25)
+Expr: e_div (e_mult (numeral (fraction three_quarters)) (e_plus (numeral (fraction quarter)) (numeral (fraction half)))) (e_pow (e_mult (numeral (fraction quarter)) (numeral (fraction one_and_half))) (e_plus (numeral (fraction quarter)) (numeral (fraction quarter))))
+ExprApp: ((0.75 * (0.25 + 0.5)) / ((0.25 * 1.5) ^ (0.25 + 0.25)))
 
-ExprEst: veerand korda veerand
+ExprEst: kolm veerand korda ( veerand pluss pool ) jagatud ( veerand korda pool teist astmel ( veerand pluss veerand ) )
 
+ExprEstamb: kolm veerand korda veerand pluss pool jagatud veerand korda pool teist astmel veerand pluss veerand
 
-Expr: e_minus (e_div (numeral (fraction (copy1 null))) (e_minus (numeral (fraction pi)) (numeral (fraction quarter)))) (e_pow (numeral (fraction three_quarters)) (e_div (numeral (fraction one_and_half)) (numeral (fraction half))))
-ExprApp: ((0 / (PI - 0.25)) - (0.75 ^ (1.5 / 0.5)))
 
-ExprEst: null jagatud ( Pii miinus veerand ) miinus ( kolm veerand astmel ( pool teist jagatud pool ) )
+Expr: e_plus (e_mult (e_div (numeral (fraction half)) (numeral (fraction pi))) (e_pow (numeral (fraction quarter)) (numeral (fraction pi)))) (e_div (numeral (fraction quarter)) (e_minus (numeral (fraction one_and_half)) (numeral (fraction three_quarters))))
+ExprApp: (((0.5 / PI) * (0.25 ^ PI)) + (0.25 / (1.5 - 0.75)))
 
+ExprEst: pool jagatud Pii korda ( veerand astmel Pii ) pluss ( veerand jagatud ( pool teist miinus kolm veerand ) )
 
-Expr: e_mult (e_minus (e_div (numeral (fraction one_and_half)) (numeral (fraction quarter))) (e_mult (numeral (fraction pi)) (numeral (fraction three_quarters)))) (numeral (fraction pi))
-ExprApp: (((1.5 / 0.25) - (PI * 0.75)) * PI)
+ExprEstamb: pool jagatud Pii korda veerand astmel Pii pluss veerand jagatud pool teist miinus kolm veerand
 
-ExprEst: pool teist jagatud veerand miinus ( Pii korda kolm veerand ) korda Pii
 
+Expr: e_minus (e_minus (e_mult (numeral (fraction one_and_half)) (numeral (fraction pi))) (e_div (numeral (fraction three_quarters)) (numeral (fraction quarter)))) (e_minus (e_div (numeral (fraction three_quarters)) (numeral (fraction three_quarters))) (e_pow (numeral (fraction one_and_half)) (numeral (fraction pi))))
+ExprApp: (((1.5 * PI) - (0.75 / 0.25)) - ((0.75 / 0.75) - (1.5 ^ PI)))
 
-Expr: numeral (fraction quarter)
-ExprApp: 0.25
+ExprEst: pool teist korda Pii miinus ( kolm veerand jagatud veerand ) miinus ( kolm veerand jagatud kolm veerand miinus ( pool teist astmel Pii ) )
 
-ExprEst: veerand
+ExprEstamb: pool teist korda Pii miinus kolm veerand jagatud veerand miinus kolm veerand jagatud kolm veerand miinus pool teist astmel Pii
 
 
-Expr: e_pow (e_mult (e_plus (numeral (fraction pi)) (numeral (fraction half))) (e_mult (numeral (fraction one_and_half)) (numeral (fraction half)))) (e_mult (e_div (numeral (fraction three_quarters)) (numeral (fraction three_quarters))) (e_minus (numeral (fraction pi)) (numeral (fraction half))))
-ExprApp: (((PI + 0.5) * (1.5 * 0.5)) ^ ((0.75 / 0.75) * (PI - 0.5)))
+Expr: e_div (e_pow (e_div (numeral (fraction half)) (numeral (fraction quarter))) (numeral (fraction half))) (numeral (fraction (copy2 (pair null null))))
+ExprApp: (((0.5 / 0.25) ^ 0.5) / 0.0)
 
-ExprEst: Pii pluss pool korda ( pool teist korda pool ) astmel ( kolm veerand jagatud kolm veerand korda ( Pii miinus pool ) )
+ExprEst: pool jagatud veerand astmel pool jagatud null koma null
 
+ExprEstamb: pool jagatud veerand astmel pool jagatud null koma null
 
-Expr: numeral (fraction (neg2 (pair null null)))
-ExprApp: -0.0
 
-ExprEst: miinus null koma null
+Expr: e_minus (e_plus (e_minus (numeral (fraction one_and_half)) (numeral (fraction quarter))) (e_mult (numeral (fraction pi)) (numeral (fraction three_quarters)))) (numeral (fraction three_quarters))
+ExprApp: (((1.5 - 0.25) + (PI * 0.75)) - 0.75)
 
+ExprEst: pool teist miinus veerand pluss ( Pii korda kolm veerand ) miinus kolm veerand
 
-Expr: e_mult (numeral (fraction one_and_half)) (e_minus (numeral (fraction pi)) (e_div (numeral (fraction three_quarters)) (numeral (fraction quarter))))
-ExprApp: (1.5 * (PI - (0.75 / 0.25)))
+ExprEstamb: pool teist miinus veerand pluss Pii korda kolm veerand miinus kolm veerand
 
-ExprEst: pool teist korda ( Pii miinus ( kolm veerand jagatud veerand ) )
 
+Expr: e_plus (e_minus (e_div (numeral (fraction three_quarters)) (numeral (fraction quarter))) (e_div (numeral (fraction pi)) (numeral (fraction one_and_half)))) (e_div (e_plus (numeral (fraction pi)) (numeral (fraction quarter))) (e_plus (numeral (fraction half)) (numeral (fraction pi))))
+ExprApp: (((0.75 / 0.25) - (PI / 1.5)) + ((PI + 0.25) / (0.5 + PI)))
 
-Expr: e_mult (e_div (e_minus (numeral (fraction three_quarters)) (numeral (fraction half))) (e_minus (numeral (fraction three_quarters)) (numeral (fraction pi)))) (numeral (fraction one_and_half))
-ExprApp: (((0.75 - 0.5) / (0.75 - PI)) * 1.5)
+ExprEst: kolm veerand jagatud veerand miinus ( Pii jagatud pool teist ) pluss ( Pii pluss veerand jagatud ( pool pluss Pii ) )
 
-ExprEst: kolm veerand miinus pool jagatud ( kolm veerand miinus Pii ) korda pool teist
+ExprEstamb: kolm veerand jagatud veerand miinus Pii jagatud pool teist pluss Pii pluss veerand jagatud pool pluss Pii
 
 
-Expr: numeral (fraction pi)
-ExprApp: PI
+Expr: e_div (e_div (e_mult (numeral (fraction quarter)) (numeral (fraction pi))) (e_plus (numeral (fraction one_and_half)) (numeral (fraction half)))) (numeral (fraction quarter))
+ExprApp: (((0.25 * PI) / (1.5 + 0.5)) / 0.25)
 
-ExprEst: Pii
+ExprEst: veerand korda Pii jagatud ( pool teist pluss pool ) jagatud veerand
 
+ExprEstamb: veerand korda Pii jagatud pool teist pluss pool jagatud veerand
 
-Expr: e_mult (numeral (fraction (neg1 null))) (e_minus (e_mult (numeral (fraction half)) (numeral (fraction pi))) (e_div (numeral (fraction half)) (numeral (fraction three_quarters))))
-ExprApp: (-0 * ((0.5 * PI) - (0.5 / 0.75)))
 
-ExprEst: miinus null korda ( pool korda Pii miinus ( pool jagatud kolm veerand ) )
+Expr: e_div (numeral (fraction quarter)) (e_plus (e_mult (numeral (fraction half)) (numeral (fraction half))) (e_div (numeral (fraction half)) (numeral (fraction quarter))))
+ExprApp: (0.25 / ((0.5 * 0.5) + (0.5 / 0.25)))
 
+ExprEst: veerand jagatud ( pool korda pool pluss ( pool jagatud veerand ) )
 
-Expr: e_div (e_minus (e_pow (numeral (fraction three_quarters)) (numeral (fraction half))) (e_minus (numeral (fraction pi)) (numeral (fraction one_and_half)))) (e_pow (e_pow (numeral (fraction pi)) (numeral (fraction one_and_half))) (e_div (numeral (fraction three_quarters)) (numeral (fraction pi))))
-ExprApp: (((0.75 ^ 0.5) - (PI - 1.5)) / ((PI ^ 1.5) ^ (0.75 / PI)))
+ExprEstamb: veerand jagatud pool korda pool pluss pool jagatud veerand
 
-ExprEst: kolm veerand astmel pool miinus ( Pii miinus pool teist ) jagatud ( Pii astmel pool teist astmel ( kolm veerand jagatud Pii ) )
 
+Expr: e_plus (e_minus (e_pow (numeral (fraction quarter)) (numeral (fraction half))) (e_pow (numeral (fraction quarter)) (numeral (fraction half)))) (e_mult (e_pow (numeral (fraction half)) (numeral (fraction three_quarters))) (e_minus (numeral (fraction pi)) (numeral (fraction three_quarters))))
+ExprApp: (((0.25 ^ 0.5) - (0.25 ^ 0.5)) + ((0.5 ^ 0.75) * (PI - 0.75)))
 
-Expr: e_pow (e_plus (numeral (fraction quarter)) (e_mult (numeral (fraction quarter)) (numeral (fraction three_quarters)))) (e_minus (e_pow (numeral (fraction one_and_half)) (numeral (fraction three_quarters))) (e_div (numeral (fraction pi)) (numeral (fraction one_and_half))))
-ExprApp: ((0.25 + (0.25 * 0.75)) ^ ((1.5 ^ 0.75) - (PI / 1.5)))
+ExprEst: veerand astmel pool miinus ( veerand astmel pool ) pluss ( pool astmel kolm veerand korda ( Pii miinus kolm veerand ) )
 
-ExprEst: veerand pluss ( veerand korda kolm veerand ) astmel ( pool teist astmel kolm veerand miinus ( Pii jagatud pool teist ) )
+ExprEstamb: veerand astmel pool miinus veerand astmel pool pluss pool astmel kolm veerand korda Pii miinus kolm veerand
 
 
-Expr: e_minus (e_plus (e_div (numeral (fraction pi)) (numeral (fraction three_quarters))) (e_minus (numeral (fraction one_and_half)) (numeral (fraction pi)))) (e_pow (numeral (fraction pi)) (numeral (fraction (copy1 null))))
-ExprApp: (((PI / 0.75) + (1.5 - PI)) - (PI ^ 0))
+Expr: e_plus (e_div (e_pow (numeral (fraction half)) (numeral (fraction one_and_half))) (e_mult (numeral (fraction pi)) (numeral (fraction half)))) (e_plus (e_minus (numeral (fraction quarter)) (numeral (fraction half))) (e_div (numeral (fraction half)) (numeral (fraction pi))))
+ExprApp: (((0.5 ^ 1.5) / (PI * 0.5)) + ((0.25 - 0.5) + (0.5 / PI)))
 
-ExprEst: Pii jagatud kolm veerand pluss ( pool teist miinus Pii ) miinus ( Pii astmel null )
+ExprEst: pool astmel pool teist jagatud ( Pii korda pool ) pluss ( veerand miinus pool pluss ( pool jagatud Pii ) )
 
+ExprEstamb: pool astmel pool teist jagatud Pii korda pool pluss veerand miinus pool pluss pool jagatud Pii
 
-Expr: e_mult (e_plus (e_div (numeral (fraction pi)) (numeral (fraction one_and_half))) (e_div (numeral (fraction quarter)) (numeral (fraction half)))) (e_plus (e_minus (numeral (fraction quarter)) (numeral (fraction half))) (numeral (fraction half)))
-ExprApp: (((PI / 1.5) + (0.25 / 0.5)) * ((0.25 - 0.5) + 0.5))
 
-ExprEst: Pii jagatud pool teist pluss ( veerand jagatud pool ) korda ( veerand miinus pool pluss pool )
+Expr: e_minus (numeral (fraction (neg2 (pair null null)))) (e_div (e_div (numeral (fraction one_and_half)) (numeral (fraction half))) (e_div (numeral (fraction half)) (numeral (fraction pi))))
+ExprApp: (-0.0 - ((1.5 / 0.5) / (0.5 / PI)))
 
+ExprEst: miinus null koma null miinus ( pool teist jagatud pool jagatud ( pool jagatud Pii ) )
 
-Expr: e_div (e_mult (e_plus (numeral (fraction quarter)) (numeral (fraction three_quarters))) (numeral (fraction one_and_half))) (e_mult (numeral (fraction (neg1 null))) (e_plus (numeral (fraction quarter)) (numeral (fraction quarter))))
-ExprApp: (((0.25 + 0.75) * 1.5) / (-0 * (0.25 + 0.25)))
-
-ExprEst: veerand pluss kolm veerand korda pool teist jagatud ( miinus null korda ( veerand pluss veerand ) )
-
-
-Expr: e_div (e_minus (e_div (numeral (fraction one_and_half)) (numeral (fraction quarter))) (e_div (numeral (fraction pi)) (numeral (fraction one_and_half)))) (e_mult (e_plus (numeral (fraction three_quarters)) (numeral (fraction half))) (e_plus (numeral (fraction one_and_half)) (numeral (fraction quarter))))
-ExprApp: (((1.5 / 0.25) - (PI / 1.5)) / ((0.75 + 0.5) * (1.5 + 0.25)))
-
-ExprEst: pool teist jagatud veerand miinus ( Pii jagatud pool teist ) jagatud ( kolm veerand pluss pool korda ( pool teist pluss veerand ) )
-
-
-Expr: e_plus (e_pow (numeral (fraction half)) (numeral (fraction pi))) (numeral (fraction (neg2 (pair null null))))
-ExprApp: ((0.5 ^ PI) + -0.0)
-
-ExprEst: pool astmel Pii pluss miinus null koma null
-
-
-Expr: e_minus (e_mult (e_minus (numeral (fraction quarter)) (numeral (fraction one_and_half))) (e_plus (numeral (fraction pi)) (numeral (fraction pi)))) (numeral (fraction pi))
-ExprApp: (((0.25 - 1.5) * (PI + PI)) - PI)
-
-ExprEst: veerand miinus pool teist korda ( Pii pluss Pii ) miinus Pii
-
-
-Expr: e_mult (e_plus (e_pow (numeral (fraction quarter)) (numeral (fraction three_quarters))) (e_mult (numeral (fraction quarter)) (numeral (fraction half)))) (e_mult (e_mult (numeral (fraction one_and_half)) (numeral (fraction half))) (e_plus (numeral (fraction half)) (numeral (fraction one_and_half))))
-ExprApp: (((0.25 ^ 0.75) + (0.25 * 0.5)) * ((1.5 * 0.5) * (0.5 + 1.5)))
-
-ExprEst: veerand astmel kolm veerand pluss ( veerand korda pool ) korda ( pool teist korda pool korda ( pool pluss pool teist ) )
-
-
-Expr: e_pow (e_div (e_minus (numeral (fraction one_and_half)) (numeral (fraction one_and_half))) (e_minus (numeral (fraction quarter)) (numeral (fraction half)))) (e_div (e_plus (numeral (fraction one_and_half)) (numeral (fraction one_and_half))) (e_plus (numeral (fraction pi)) (numeral (fraction one_and_half))))
-ExprApp: (((1.5 - 1.5) / (0.25 - 0.5)) ^ ((1.5 + 1.5) / (PI + 1.5)))
-
-ExprEst: pool teist miinus pool teist jagatud ( veerand miinus pool ) astmel ( pool teist pluss pool teist jagatud ( Pii pluss pool teist ) )
-
-
-Expr: e_pow (e_div (e_pow (numeral (fraction quarter)) (numeral (fraction quarter))) (numeral (fraction quarter))) (numeral (fraction (neg1 null)))
-ExprApp: (((0.25 ^ 0.25) / 0.25) ^ -0)
-
-ExprEst: veerand astmel veerand jagatud veerand astmel miinus null
-
-
-Expr: e_mult (e_div (e_mult (numeral (fraction three_quarters)) (numeral (fraction quarter))) (e_div (numeral (fraction three_quarters)) (numeral (fraction pi)))) (e_plus (e_div (numeral (fraction half)) (numeral (fraction quarter))) (numeral (fraction quarter)))
-ExprApp: (((0.75 * 0.25) / (0.75 / PI)) * ((0.5 / 0.25) + 0.25))
-
-ExprEst: kolm veerand korda veerand jagatud ( kolm veerand jagatud Pii ) korda ( pool jagatud veerand pluss veerand )
-
-
-Expr: e_minus (e_plus (e_plus (numeral (fraction three_quarters)) (numeral (fraction pi))) (e_mult (numeral (fraction quarter)) (numeral (fraction three_quarters)))) (numeral (fraction three_quarters))
-ExprApp: (((0.75 + PI) + (0.25 * 0.75)) - 0.75)
-
-ExprEst: kolm veerand pluss Pii pluss ( veerand korda kolm veerand ) miinus kolm veerand
-
-
-Expr: e_div (e_pow (e_plus (numeral (fraction three_quarters)) (numeral (fraction pi))) (e_pow (numeral (fraction half)) (numeral (fraction pi)))) (e_minus (e_pow (numeral (fraction half)) (numeral (fraction three_quarters))) (numeral (fraction pi)))
-ExprApp: (((0.75 + PI) ^ (0.5 ^ PI)) / ((0.5 ^ 0.75) - PI))
-
-ExprEst: kolm veerand pluss Pii astmel ( pool astmel Pii ) jagatud ( pool astmel kolm veerand miinus Pii )
-
-
-Expr: e_minus (e_minus (numeral (fraction one_and_half)) (e_mult (numeral (fraction three_quarters)) (numeral (fraction quarter)))) (e_pow (e_mult (numeral (fraction three_quarters)) (numeral (fraction pi))) (e_plus (numeral (fraction pi)) (numeral (fraction quarter))))
-ExprApp: ((1.5 - (0.75 * 0.25)) - ((0.75 * PI) ^ (PI + 0.25)))
-
-ExprEst: pool teist miinus ( kolm veerand korda veerand ) miinus ( kolm veerand korda Pii astmel ( Pii pluss veerand ) )
-
-
-Expr: e_plus (e_mult (e_minus (numeral (fraction pi)) (numeral (fraction three_quarters))) (e_pow (numeral (fraction pi)) (numeral (fraction half)))) (e_pow (e_mult (numeral (fraction quarter)) (numeral (fraction three_quarters))) (e_div (numeral (fraction pi)) (numeral (fraction one_and_half))))
-ExprApp: (((PI - 0.75) * (PI ^ 0.5)) + ((0.25 * 0.75) ^ (PI / 1.5)))
-
-ExprEst: Pii miinus kolm veerand korda ( Pii astmel pool ) pluss ( veerand korda kolm veerand astmel ( Pii jagatud pool teist ) )
-
-
-Expr: e_div (e_minus (e_minus (numeral (fraction quarter)) (numeral (fraction quarter))) (e_pow (numeral (fraction pi)) (numeral (fraction quarter)))) (e_minus (numeral (fraction quarter)) (numeral (fraction (copy1 null))))
-ExprApp: (((0.25 - 0.25) - (PI ^ 0.25)) / (0.25 - 0))
-
-ExprEst: veerand miinus veerand miinus ( Pii astmel veerand ) jagatud ( veerand miinus null )
-
-
-Expr: numeral (fraction one_and_half)
-ExprApp: 1.5
-
-ExprEst: pool teist
-
-
-Expr: numeral (fraction pi)
-ExprApp: PI
-
-ExprEst: Pii
-
-
-Expr: e_div (e_div (e_pow (numeral (fraction half)) (numeral (fraction half))) (e_div (numeral (fraction pi)) (numeral (fraction pi)))) (e_div (numeral (fraction half)) (e_mult (numeral (fraction quarter)) (numeral (fraction pi))))
-ExprApp: (((0.5 ^ 0.5) / (PI / PI)) / (0.5 / (0.25 * PI)))
-
-ExprEst: pool astmel pool jagatud ( Pii jagatud Pii ) jagatud ( pool jagatud ( veerand korda Pii ) )
-
-
-Expr: e_pow (e_pow (e_minus (numeral (fraction pi)) (numeral (fraction quarter))) (e_div (numeral (fraction half)) (numeral (fraction pi)))) (e_plus (e_pow (numeral (fraction three_quarters)) (numeral (fraction one_and_half))) (e_pow (numeral (fraction three_quarters)) (numeral (fraction half))))
-ExprApp: (((PI - 0.25) ^ (0.5 / PI)) ^ ((0.75 ^ 1.5) + (0.75 ^ 0.5)))
-
-ExprEst: Pii miinus veerand astmel ( pool jagatud Pii ) astmel ( kolm veerand astmel pool teist pluss ( kolm veerand astmel pool ) )
-
-
-Expr: e_div (e_mult (e_plus (numeral (fraction quarter)) (numeral (fraction half))) (e_plus (numeral (fraction half)) (numeral (fraction three_quarters)))) (e_pow (numeral (fraction (neg1 null))) (e_pow (numeral (fraction three_quarters)) (numeral (fraction three_quarters))))
-ExprApp: (((0.25 + 0.5) * (0.5 + 0.75)) / (-0 ^ (0.75 ^ 0.75)))
-
-ExprEst: veerand pluss pool korda ( pool pluss kolm veerand ) jagatud ( miinus null astmel ( kolm veerand astmel kolm veerand ) )
-
-
-Expr: e_mult (e_mult (e_div (numeral (fraction quarter)) (numeral (fraction one_and_half))) (numeral (fraction (copy1 null)))) (e_mult (e_div (numeral (fraction pi)) (numeral (fraction one_and_half))) (e_pow (numeral (fraction quarter)) (numeral (fraction one_and_half))))
-ExprApp: (((0.25 / 1.5) * 0) * ((PI / 1.5) * (0.25 ^ 1.5)))
-
-ExprEst: veerand jagatud pool teist korda null korda ( Pii jagatud pool teist korda ( veerand astmel pool teist ) )
-
-
-Expr: e_mult (e_pow (numeral (fraction quarter)) (e_div (numeral (fraction quarter)) (numeral (fraction one_and_half)))) (numeral (fraction half))
-ExprApp: ((0.25 ^ (0.25 / 1.5)) * 0.5)
-
-ExprEst: veerand astmel ( veerand jagatud pool teist ) korda pool
+ExprEstamb: miinus null koma null miinus pool teist jagatud pool jagatud pool jagatud Pii
 
 
 

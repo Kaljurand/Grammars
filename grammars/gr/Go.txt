@@ -1,9 +1,9 @@
-Go: go n4 meter forward
-GoApp: 4 m >
+Go: go n1 meter back
+GoApp: 1 m <
 
-GoEng: go four meters forward
+GoEng: go one meters back
 
-GoEst: mine neli meetrit edasi
+GoEst: mine üks meetrit tagasi
 
 
 Go: go n3 meter back
@@ -14,20 +14,60 @@ GoEng: go three meters back
 GoEst: mine kolm meetrit tagasi
 
 
-Go: go n4 meter back
-GoApp: 4 m <
+Go: go n2 meter forward
+GoApp: 2 m >
 
-GoEng: go four meters back
+GoEng: go two meters forward
 
-GoEst: mine neli meetrit tagasi
+GoEst: mine kaks meetrit edasi
 
 
-Go: go n5 meter forward
-GoApp: 5 m >
+Go: go n4 meter forward
+GoApp: 4 m >
 
-GoEng: go five meters forward
+GoEng: go four meters forward
 
-GoEst: mine viis meetrit edasi
+GoEst: mine neli meetrit edasi
+
+
+Go: go n2 meter back
+GoApp: 2 m <
+
+GoEng: go two meters back
+
+GoEst: mine kaks meetrit tagasi
+
+
+Go: go n3 meter back
+GoApp: 3 m <
+
+GoEng: go three meters back
+
+GoEst: mine kolm meetrit tagasi
+
+
+Go: go n5 meter back
+GoApp: 5 m <
+
+GoEng: go five meters back
+
+GoEst: mine viis meetrit tagasi
+
+
+Go: go n1 meter back
+GoApp: 1 m <
+
+GoEng: go one meters back
+
+GoEst: mine üks meetrit tagasi
+
+
+Go: go n4 meter forward
+GoApp: 4 m >
+
+GoEng: go four meters forward
+
+GoEst: mine neli meetrit edasi
 
 
 Go: go n1 meter forward
@@ -36,6 +76,46 @@ GoApp: 1 m >
 GoEng: go one meters forward
 
 GoEst: mine üks meetrit edasi
+
+
+Go: go n4 meter forward
+GoApp: 4 m >
+
+GoEng: go four meters forward
+
+GoEst: mine neli meetrit edasi
+
+
+Go: go n2 meter back
+GoApp: 2 m <
+
+GoEng: go two meters back
+
+GoEst: mine kaks meetrit tagasi
+
+
+Go: go n4 meter back
+GoApp: 4 m <
+
+GoEng: go four meters back
+
+GoEst: mine neli meetrit tagasi
+
+
+Go: go n5 meter back
+GoApp: 5 m <
+
+GoEng: go five meters back
+
+GoEst: mine viis meetrit tagasi
+
+
+Go: go n5 meter forward
+GoApp: 5 m >
+
+GoEng: go five meters forward
+
+GoEst: mine viis meetrit edasi
 
 
 Go: go n3 meter forward
@@ -46,12 +126,20 @@ GoEng: go three meters forward
 GoEst: mine kolm meetrit edasi
 
 
-Go: go n1 meter forward
-GoApp: 1 m >
+Go: go n2 meter forward
+GoApp: 2 m >
 
-GoEng: go one meters forward
+GoEng: go two meters forward
 
-GoEst: mine üks meetrit edasi
+GoEst: mine kaks meetrit edasi
+
+
+Go: go n3 meter back
+GoApp: 3 m <
+
+GoEng: go three meters back
+
+GoEst: mine kolm meetrit tagasi
 
 
 Go: go n4 meter back
@@ -60,30 +148,6 @@ GoApp: 4 m <
 GoEng: go four meters back
 
 GoEst: mine neli meetrit tagasi
-
-
-Go: go n1 meter forward
-GoApp: 1 m >
-
-GoEng: go one meters forward
-
-GoEst: mine üks meetrit edasi
-
-
-Go: go n1 meter back
-GoApp: 1 m <
-
-GoEng: go one meters back
-
-GoEst: mine üks meetrit tagasi
-
-
-Go: go n4 meter forward
-GoApp: 4 m >
-
-GoEng: go four meters forward
-
-GoEst: mine neli meetrit edasi
 
 
 Go: go n5 meter back
@@ -102,12 +166,36 @@ GoEng: go four meters back
 GoEst: mine neli meetrit tagasi
 
 
-Go: go n2 meter back
-GoApp: 2 m <
+Go: go n3 meter back
+GoApp: 3 m <
 
-GoEng: go two meters back
+GoEng: go three meters back
 
-GoEst: mine kaks meetrit tagasi
+GoEst: mine kolm meetrit tagasi
+
+
+Go: go n3 meter back
+GoApp: 3 m <
+
+GoEng: go three meters back
+
+GoEst: mine kolm meetrit tagasi
+
+
+Go: go n1 meter back
+GoApp: 1 m <
+
+GoEng: go one meters back
+
+GoEst: mine üks meetrit tagasi
+
+
+Go: go n4 meter forward
+GoApp: 4 m >
+
+GoEng: go four meters forward
+
+GoEst: mine neli meetrit edasi
 
 
 Go: go n3 meter forward
@@ -118,20 +206,20 @@ GoEng: go three meters forward
 GoEst: mine kolm meetrit edasi
 
 
-Go: go n5 meter forward
-GoApp: 5 m >
+Go: go n3 meter forward
+GoApp: 3 m >
 
-GoEng: go five meters forward
+GoEng: go three meters forward
 
-GoEst: mine viis meetrit edasi
+GoEst: mine kolm meetrit edasi
 
 
-Go: go n2 meter back
-GoApp: 2 m <
+Go: go n4 meter forward
+GoApp: 4 m >
 
-GoEng: go two meters back
+GoEng: go four meters forward
 
-GoEst: mine kaks meetrit tagasi
+GoEst: mine neli meetrit edasi
 
 
 Go: go n5 meter back
@@ -142,12 +230,20 @@ GoEng: go five meters back
 GoEst: mine viis meetrit tagasi
 
 
-Go: go n3 meter back
-GoApp: 3 m <
+Go: go n5 meter back
+GoApp: 5 m <
 
-GoEng: go three meters back
+GoEng: go five meters back
 
-GoEst: mine kolm meetrit tagasi
+GoEst: mine viis meetrit tagasi
+
+
+Go: go n2 meter back
+GoApp: 2 m <
+
+GoEng: go two meters back
+
+GoEst: mine kaks meetrit tagasi
 
 
 Go: go n4 meter back
@@ -166,156 +262,12 @@ GoEng: go four meters forward
 GoEst: mine neli meetrit edasi
 
 
-Go: go n1 meter back
-GoApp: 1 m <
-
-GoEng: go one meters back
-
-GoEst: mine üks meetrit tagasi
-
-
-Go: go n1 meter forward
-GoApp: 1 m >
-
-GoEng: go one meters forward
-
-GoEst: mine üks meetrit edasi
-
-
-Go: go n3 meter back
-GoApp: 3 m <
-
-GoEng: go three meters back
-
-GoEst: mine kolm meetrit tagasi
-
-
-Go: go n2 meter forward
-GoApp: 2 m >
-
-GoEng: go two meters forward
-
-GoEst: mine kaks meetrit edasi
-
-
-Go: go n4 meter back
-GoApp: 4 m <
-
-GoEng: go four meters back
-
-GoEst: mine neli meetrit tagasi
-
-
-Go: go n3 meter back
-GoApp: 3 m <
-
-GoEng: go three meters back
-
-GoEst: mine kolm meetrit tagasi
-
-
-Go: go n2 meter back
-GoApp: 2 m <
-
-GoEng: go two meters back
-
-GoEst: mine kaks meetrit tagasi
-
-
-Go: go n3 meter back
-GoApp: 3 m <
-
-GoEng: go three meters back
-
-GoEst: mine kolm meetrit tagasi
-
-
-Go: go n1 meter forward
-GoApp: 1 m >
-
-GoEng: go one meters forward
-
-GoEst: mine üks meetrit edasi
-
-
-Go: go n1 meter forward
-GoApp: 1 m >
-
-GoEng: go one meters forward
-
-GoEst: mine üks meetrit edasi
-
-
-Go: go n2 meter back
-GoApp: 2 m <
-
-GoEng: go two meters back
-
-GoEst: mine kaks meetrit tagasi
-
-
 Go: go n5 meter back
 GoApp: 5 m <
 
 GoEng: go five meters back
 
 GoEst: mine viis meetrit tagasi
-
-
-Go: go n2 meter forward
-GoApp: 2 m >
-
-GoEng: go two meters forward
-
-GoEst: mine kaks meetrit edasi
-
-
-Go: go n5 meter back
-GoApp: 5 m <
-
-GoEng: go five meters back
-
-GoEst: mine viis meetrit tagasi
-
-
-Go: go n2 meter back
-GoApp: 2 m <
-
-GoEng: go two meters back
-
-GoEst: mine kaks meetrit tagasi
-
-
-Go: go n1 meter back
-GoApp: 1 m <
-
-GoEng: go one meters back
-
-GoEst: mine üks meetrit tagasi
-
-
-Go: go n4 meter back
-GoApp: 4 m <
-
-GoEng: go four meters back
-
-GoEst: mine neli meetrit tagasi
-
-
-Go: go n4 meter forward
-GoApp: 4 m >
-
-GoEng: go four meters forward
-
-GoEst: mine neli meetrit edasi
-
-
-Go: go n1 meter forward
-GoApp: 1 m >
-
-GoEng: go one meters forward
-
-GoEst: mine üks meetrit edasi
 
 
 Go: go n2 meter back
@@ -334,6 +286,14 @@ GoEng: go four meters forward
 GoEst: mine neli meetrit edasi
 
 
+Go: go n3 meter back
+GoApp: 3 m <
+
+GoEng: go three meters back
+
+GoEst: mine kolm meetrit tagasi
+
+
 Go: go n2 meter forward
 GoApp: 2 m >
 
@@ -342,12 +302,60 @@ GoEng: go two meters forward
 GoEst: mine kaks meetrit edasi
 
 
-Go: go n5 meter forward
-GoApp: 5 m >
+Go: go n1 meter back
+GoApp: 1 m <
 
-GoEng: go five meters forward
+GoEng: go one meters back
 
-GoEst: mine viis meetrit edasi
+GoEst: mine üks meetrit tagasi
+
+
+Go: go n1 meter forward
+GoApp: 1 m >
+
+GoEng: go one meters forward
+
+GoEst: mine üks meetrit edasi
+
+
+Go: go n2 meter back
+GoApp: 2 m <
+
+GoEng: go two meters back
+
+GoEst: mine kaks meetrit tagasi
+
+
+Go: go n2 meter forward
+GoApp: 2 m >
+
+GoEng: go two meters forward
+
+GoEst: mine kaks meetrit edasi
+
+
+Go: go n4 meter forward
+GoApp: 4 m >
+
+GoEng: go four meters forward
+
+GoEst: mine neli meetrit edasi
+
+
+Go: go n3 meter forward
+GoApp: 3 m >
+
+GoEng: go three meters forward
+
+GoEst: mine kolm meetrit edasi
+
+
+Go: go n5 meter back
+GoApp: 5 m <
+
+GoEng: go five meters back
+
+GoEst: mine viis meetrit tagasi
 
 
 Go: go n4 meter forward
@@ -364,14 +372,6 @@ GoApp: 5 m <
 GoEng: go five meters back
 
 GoEst: mine viis meetrit tagasi
-
-
-Go: go n1 meter back
-GoApp: 1 m <
-
-GoEng: go one meters back
-
-GoEst: mine üks meetrit tagasi
 
 
 Go: go n3 meter back
