@@ -5,7 +5,7 @@ flags coding = utf8 ;
 lincat
   Year, Day, Hour, Minute = Str ;
   Month, Weekday = Case => Str ;
-  Date, Time, SmallNumeral = SS ;
+  Date, Timestamp, YearNumber = SS ;
 
 lin
   SmallNum n = ss (n.s ! indep) ;

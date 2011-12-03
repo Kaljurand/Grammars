@@ -10,5 +10,5 @@ flags startcat = Alarm;
 cat Alarm;
 
 fun
-	alarm_time : Time -> Alarm;
+	alarm_time : Timestamp -> Alarm;
 }

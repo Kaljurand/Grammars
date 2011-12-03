@@ -5,7 +5,7 @@ grammar AlarmEst;
 
 public <MAIN> = <Alarm_cat> ;
 
-<Alarm_1> = ärata mind [kell] <Time_1> ;
+<Alarm_1> = ärata mind [kell] <Timestamp_1> ;
 
 public <Alarm_cat> = <Alarm_1> ;
 
@@ -48,6 +48,6 @@ public <Hour_cat> = <Hour_1> ;
 
 public <Minute_cat> = <Minute_1> ;
 
-<Time_1> = <Hour_1> <Minute_1> | <Hour_1> ;
+<Timestamp_1> = <Hour_1> <Minute_1> | <Hour_1> ;
 
-public <Time_cat> = <Time_1> ;
+public <Timestamp_cat> = <Timestamp_1> ;
