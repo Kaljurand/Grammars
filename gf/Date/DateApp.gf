@@ -5,8 +5,7 @@ flags coding = utf8 ;
 lincat
   Date, Year, Day, Time, Minute = Str ;
   Month, Weekday = Str ;
-  Hour = PAMPM => Str ;
-  Ampm = {s : Str ; p : PAMPM} ;
+  Hour = Str ;
   SmallNumeral = SS ;
 
 lin
@@ -31,20 +30,32 @@ lin
 
   MkDay i = i.s ;
 
-  MkTime ap h m = h ! ap.p ++ ":" ++ m ++ ap.s ;
+  MkTime h m = h ++ ":" ++ m ;
 
-  H01 = ampm "1" "13" ;
-  H02 = ampm "2" "14" ;
-  H03 = ampm "3" "15" ;
-  H04 = ampm "4" "16" ;
-  H05 = ampm "5" "17" ;
-  H06 = ampm "6" "18" ;
-  H07 = ampm "7" "19" ;
-  H08 = ampm "8" "20" ;
-  H09 = ampm "9" "21" ;
-  H10 = ampm "10" "22" ;
-  H11 = ampm "11" "23" ;
-  H12 = ampm "0" "12" ; -- 12.01 a.m. = 0.01 ; 12.01 p.m. = 13.01
+  H01 = "01";
+  H02 = "02";
+  H03 = "03";
+  H04 = "04";
+  H05 = "05";
+  H06 = "06";
+  H07 = "07";
+  H08 = "08";
+  H09 = "09";
+  H10 = "10";
+  H11 = "11";
+  H12 = "12";
+  H13 = "13";
+  H14 = "14";
+  H15 = "15" ;
+  H16 = "16" ;
+  H17 = "17" ;
+  H18 = "18" ;
+  H19 = "19" ;
+  H20 = "20" ;
+  H21 = "21" ;
+  H22 = "22" ;
+  H23 = "23" ;
+  H24 = "00" ;
 
   MkMinute i = i.s ;
 
@@ -56,16 +67,8 @@ lin
   WFri = "Friday" ;
   WSat = "Saturday" ;
 
-  AM = {s = [] ; p = PAM} ;
-  PM = {s = [] ; p = PPM} ;
-
 oper
   dot = "." ;
-
-  ampm : Str -> Str -> PAMPM => Str = \a,p -> table {PAM => a ; PPM => p} ;
-
-param
-  PAMPM = PAM | PPM ;
 
 lin
   DToday t     = "TODAY" ++ t ;
