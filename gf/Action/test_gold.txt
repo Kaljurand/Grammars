@@ -1,16 +1,22 @@
 f2 (expr (e_mult (e_plus (numeral (fraction (copy1 (num (pot2as3 (pot1as2 (pot0as1 (pot0 n2)))))))) (numeral (fraction (copy1 (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3))))))))) (numeral (fraction (copy1 (num (pot2as3 (pot1as2 (pot0as1 (pot0 n5))))))))))
 
+kui palju on kaks pluss kolm korda viis
+
 kaks pluss kolm korda viis
 
 
 
 f2 (expr (e_pow (e_mult (e_plus (numeral (fraction (copy1 (num (pot2as3 (pot1as2 (pot0as1 (pot0 n2)))))))) (numeral (fraction (copy1 (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3))))))))) (numeral (fraction (copy1 (num (pot2as3 (pot1as2 (pot0as1 (pot0 n5))))))))) (numeral (fraction (neg1 (num (pot2as3 (pot1as2 (pot0as1 (pot0 n6))))))))))
 
+kui palju on kaks pluss kolm korda viis astmel miinus kuus
+
 kaks pluss kolm korda viis astmel miinus kuus
 
 
 
 f2 (unitconv (main (fraction (copy2 (pair (num (pot2as3 (pot1as2 (pot0as1 (pot0 n2))))) (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3)))))))) (length (length_unit meter) (length_unit foot))))
+
+kui palju on kaks koma kolm meetrit jalgades
 
 kaks koma kolm meetrit jalgades
 
