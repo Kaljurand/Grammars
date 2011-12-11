@@ -70,6 +70,7 @@ oper
 	parenth : Str -> Str = \s -> "(" ++ s ++ ")" ;
 	parenth_Glue : Str -> Str = \s -> glue "(" s ")" ;
 	parenthSS : SS -> SS = \s -> ss ("(" ++ s.s ++ ")");
+	parenthSS_glue : SS -> SS = \s -> ss (glue "(" s.s ")");
 
 	parenthOpt : Str -> Str = \s -> variants {s ; "(" ++ s ++ ")"} ;
 

@@ -7,7 +7,7 @@ concrete FractionApp of Fraction = NumeralApp ** open StringOper in {
 --   * not allowed: "1 . 002"
 --
 -- @author Kaarel Kaljurand
--- @version 2011-11-21
+-- @version 2011-12-11
 
 
 flags coding = utf8;
@@ -22,6 +22,7 @@ lin
 	one_and_half = ss "1.5";
 	pi = ss "PI";
 	pair = infixSS_glue ".";
-	neg1, neg2 = prefixSS_glue "-";
+	neg1 x = parenthSS_glue (prefixSS_glue "-" x);
+	neg2 x = parenthSS_glue (prefixSS_glue "-" x);
 	copy1, copy2, fraction = id SS;
 }
