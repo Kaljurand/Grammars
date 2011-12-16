@@ -79,15 +79,16 @@ FROM Keskuse 18 , Tallinn TO Filtri tee , Tallinn
 can be used directly in applications (e.g. via the
 <a href="https://github.com/GrammaticalFramework/JPGF">JPGF Java library</a>) or it
 can be opened by the GF commandline tool and converted into other formats
-(e.g. JSGF, Javascript, ...).</p>
+(e.g. JSGF, Javascript, ...). Some of the grammars are also referenced in the
+Android speech recognition app
+<a href="http://code.google.com/p/recognizer-intent/">Speak/Kõnele</a>.
+The source code of all the grammars is available at
+<a href="https://github.com/Kaljurand/Grammars/">http://github.com/Kaljurand/Grammars/</a>.</p>
 
 <p>To get an overview of the sentences allowed by the grammars, look at the
 examples. Note that the examples have been obtained by random generation
 (which doesn't always agree with common sense but which does convey some idea of what
 is syntactically possible in the described languages).</p>
-
-<p>The source code of all the grammars is also available, see
-<a href="https://github.com/Kaljurand/Grammars/">http://github.com/Kaljurand/Grammars/</a>.</p>
 
 <table>
 <thead>
@@ -140,7 +141,7 @@ and Tallinn's street addresses (e.g. "Lossi plats kaks")</td>
 <td>Arithmetical expressions, e.g.
 <a href="http://www.google.com/search?q=(((1%2B-2.3)*PI)^5)">(((1 + -2.3) * PI) ^ 5)</a></td>
 <td><a href="grammars/gr/Expr.txt">txt</a></td>
-<td><a href="grammars/pgf/Expr.pgf"></a></td>
+<td><a href="grammars/pgf/Expr.pgf">pgf</a></td>
 </tr>
 
 <tr>
@@ -169,7 +170,7 @@ and Tallinn's street addresses (e.g. "Lossi plats kaks")</td>
 <td>Unit conversion expressions, e.g.
 <a href="http://www.google.com/search?q=12.34+km^2+IN+ft^2">12.34 km^2 in ft^2</a></td>
 <td><a href="grammars/gr/Unitconv.txt">txt</a></td>
-<td><a href="grammars/pgf/Unitconv.pgf"></a></td>
+<td><a href="grammars/pgf/Unitconv.pgf">pgf</a></td>
 </tr>
 </tbody>
 </table>
@@ -217,14 +218,24 @@ Writing SymbolsEst.jsgf...
 
 <p>Everybody is welcome to contribute grammars to this project provided
 that the grammar is made available as open source. If you would like
-to contribute a grammar please proceed by forking the
+to contribute a grammar please proceed as follows</p>
+
+<ol>
+<li>fork the
 <a href="https://github.com/Kaljurand/Grammars/">Grammars-project</a>
-on GitHub, adding your grammar to the fork, and submitting the addition
-via a Pull Request.</p>
+on GitHub,</li>
+<li>create a new branch in your fork,</li>
+<li>add your grammar in this branch, and</li>
+<li>submit the branch via a pull request.</li>
+</ol>
+
+<p>Read more about <a href="http://help.github.com/send-pull-requests/">
+sending pull requests</a>.</p>
 
 <address>
 Kaarel Kaljurand (kaljurand@gmail.com),
-2011-12-03
+2011-12-16
+(<a href="https://github.com/Kaljurand/Grammars/commit/023408a90d28f98334fd6fd42d5bb821eadcadaa">corresponding commit</a>)
 </address>
 
 </body>
