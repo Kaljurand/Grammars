@@ -21,7 +21,7 @@ This grammar demonstrates:
 Compiling
 ---------
 
-    gf -s --make --optimize-pgf --mk-index --path "Numerals:Fraction:lib" Unitconv/Unitconv???.gf
+    gf -s --make --optimize-pgf --mk-index --path "Numeral:Fraction:lib" Unitconv/Unitconv???.gf
 
 
 TODO
@@ -80,16 +80,16 @@ to the existing quantity:
 
 and add the words of the unit to the concrete syntaxes (UnitEst.gf and UnitApp.gf):
 
-    lin meter = mk "meetrit";
+    lin meter = mkUnit "meetrit";
     lin meter = ss "m";
 
-The functions `mk` and `ss` are predefined. They take a string and generate the internally
-used lexicon structure, e.g. the `mk` function (defined in UnitEst.gf) also generates
+The functions `mkUnit` and `ss` are predefined. They take a string and generate the internally
+used lexicon structure, e.g. the `mkUnit` function (defined in `lib/Estonian.gf`) also generates
 the plural inessive (`PlIn`) form from the given singular partitive form (`SgPart`).
 If it turnes out that the automatically generated form is incorrect then use
-the `f`-function to provide both forms manually, e.g.
+a multi-argument version of `mkUnit` to provide the forms manually, e.g.
 
-    lin euro = f "eurot" "eurodes" ;
+    lin euro = mkUnit "eurot" "eurodes" ;
 
 
 ### If you want to add a unit of new physical quantity
