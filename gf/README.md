@@ -186,3 +186,13 @@ grammar formalism such as JSGF (see e.g. the Copy-language example).
 This means that translation to JSGF might fail or produce a grammar that overgenerates.
 It is therefore important to independently test the JSGF to see if it describes the same language
 as the original GF grammar.
+
+### Avoid similarly sounding words in the same syntactic positions
+
+E.g. EstvrpEst and the address-grammars violate this rule
+
+TODO: need tools to help with that
+
+### Avoid short words
+
+because these are difficult to recognize.
