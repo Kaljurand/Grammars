@@ -178,3 +178,11 @@ The PGF packs two types of concrete syntaxes.
 
 To convert a large number of strings (e.g. place names) into GF functions and their linearizations
 use the script `tools/make_fun.py`.
+
+### Compiling to a speech recognition grammar
+
+Note that GF is a more expressive formalism than a typical speech recognition
+grammar formalism such as JSGF (see e.g. the Copy-language example).
+This means that translation to JSGF might fail or produce a grammar that overgenerates.
+It is therefore important to independently test the JSGF to see if it describes the same language
+as the original GF grammar.
