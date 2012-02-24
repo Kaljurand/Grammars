@@ -10,13 +10,13 @@ null koma null
 
 
 
-fraction (copy2 (pair null (num (pot2as3 (pot1as2 (pot1to19 n5))))))
+fraction (copy2 (pair null (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot1to19 n5))))))))
 
 null koma viis teist
 
 
 
-fraction (copy2 (pair (num (pot2as3 (pot1as2 (pot1to19 n2)))) (num (pot2as3 (pot2 (pot0 n3))))))
+fraction (copy2 (pair (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot1to19 n2)))))) (num (pot4as5 (pot3as4 (pot2as3 (pot2 (pot0 n3))))))))
 
 kaks teist koma kolm sada
 
@@ -52,7 +52,7 @@ Pii
 
 
 
-fraction (neg2 (pair null (num (pot2as3 (pot2 (pot0 n5))))))
+fraction (neg2 (pair null (num (pot4as5 (pot3as4 (pot2as3 (pot2 (pot0 n5))))))))
 
 miinus null koma viis sada
 
@@ -72,14 +72,14 @@ fraction (copy2 (pair null null))
 
 
 
-fraction (copy2 (pair (num (pot2as3 (pot1as2 (pot0as1 (pot0 n2))))) (num (pot2as3 (pot1as2 (pot0as1 (pot0 n3)))))))
+fraction (copy2 (pair (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n2))))))) (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n3)))))))))
 
 2.3
 
 
 
 
-fraction (copy2 (pair null (num (pot2as3 (pot1as2 (pot1 n5))))))
+fraction (copy2 (pair null (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot1 n5))))))))
 
 0.50
 
@@ -93,7 +93,7 @@ fraction one_and_half
 
 
 
-fraction (copy2 (pair (num (pot2as3 (pot1as2 (pot0as1 pot01)))) (num (pot2as3 (pot1as2 (pot0as1 (pot0 n5)))))))
+fraction (copy2 (pair (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 pot01)))))) (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n5)))))))))
 
 1.5
 
@@ -107,7 +107,7 @@ PI
 
 
 
-fraction (neg2 (pair null (num (pot2as3 (pot1as2 (pot1to19 n5))))))
+fraction (neg2 (pair null (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot1to19 n5))))))))
 
 (-0.15)
 

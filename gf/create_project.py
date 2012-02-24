@@ -19,6 +19,8 @@ from os.path import join
 
 placeholder_name_abstract = re.compile('<NAME_ABSTRACT>')
 placeholder_name_lang = re.compile('<NAME_LANG>')
+# TODO: use templates
+# http://docs.python.org/library/string.html
 abstract = """abstract <NAME_ABSTRACT> = {
 
 -- <NAME_ABSTRACT> is ...

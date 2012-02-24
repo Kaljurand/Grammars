@@ -1,4 +1,4 @@
-concrete NumeralEst of Numeral = {
+concrete NumeralEst of Numeral = open StringOper in {
 
 -- This is a port of examples/numerals/finnish.gf (GF v3.2.9) to Estonian.
 --
@@ -6,65 +6,78 @@ concrete NumeralEst of Numeral = {
 -- orthographically incorrect but more suitable for the Estonian speech recognizer.
 --
 -- Note: this grammar supports "tuhat sada" and does not support "tuhat üks sada".
+-- Note: this grammar supports "üks miljonit" and does not support "miljon".
 --
 -- @author Kaarel Kaljurand
--- @version 2011-10-22
+-- @version 2012-02-25
 
 flags coding=utf8;
 
 param Place = indep | attr ;
-param Nm = sg | pl ;
 lincat Numeral = {s : Str} ;
 lincat Digit = {s : Str} ;
 lincat Sub10 = {s : Place => Str} ;
 lincat Sub100 = {s : Place => Str} ;
 lincat Sub1000 = {s : Place => Str} ;
 lincat Sub1000000 = {s : Str} ;
-lin num x0 =
-  {s = x0.s} ;
-lin n2 =
-  {s = "kaks"} ;
-lin n3 =
-  {s = "kolm"} ;
-lin n4 =
-  {s = "neli"} ;
-lin n5 =
-  {s = "viis"} ;
-lin n6 =
-  {s = "kuus"} ;
-lin n7 =
-  {s = "seitse"} ;
-lin n8 =
-  {s = "kaheksa"} ;
-lin n9 =
-  {s = "üheksa"} ;
-lin pot01 =
-  {s = table {attr => [] ; indep => "üks"}} ;
-lin pot0 d =
-  {s = table {p => d.s}} ;
-lin pot110 =
-  {s = table {p => "kümme"}} ;
-lin pot111 =
-  {s = table {p => "üks" ++ "teist"}} ;
-lin pot1to19 d =
-  {s = table {p => d.s ++ "teist"}} ;
-lin pot0as1 n =
-  {s = table {p => n.s ! p}} ;
-lin pot1 d =
-  {s = table {p => d.s ++ "kümmend"}} ;
-lin pot1plus d e =
-  {s = table {p => d.s ++ "kümmend" ++ e.s ! indep}} ;
-lin pot1as2 n =
-  {s = table {p => n.s ! p}} ;
-lin pot2 d =
-  {s = table {p => (d.s ! attr) ++ "sada" }} ;
-lin pot2plus d e =
-  {s = table {p => (d.s ! attr) ++ "sada" ++ e.s ! indep}} ;
-lin pot2as3 n =
-  {s = n.s ! indep} ;
-lin pot3 n =
-  {s = (n.s ! attr) ++ "tuhat"} ;
-lin pot3plus n m =
-  {s = (n.s ! attr) ++ "tuhat" ++ m.s ! indep} ;
+lincat Sub9 = {s : Str} ;
+lincat Sub12 = {s : Str} ;
+
+lin num x0 = {s = x0.s} ;
+
+lin n2 = ss "kaks" ;
+lin n3 = ss "kolm" ;
+lin n4 = ss "neli" ;
+lin n5 = ss "viis" ;
+lin n6 = ss "kuus" ;
+lin n7 = ss "seitse" ;
+lin n8 = ss "kaheksa" ;
+lin n9 = ss "üheksa" ;
+
+-- üks is dropped in some cases
+-- TODO: make this dropping a variant
+lin pot01 = {s = table {attr => [] ; indep => "üks"}} ;
+
+-- 2..9
+lin pot0 d = {s = table {_ => d.s}} ;
+
+-- Sub100 (10)
+lin pot110 = {s = table {_ => "kümme"}} ;
+
+-- Sub100 (11)
+lin pot111 = {s = table {_ => "üks" ++ "teist"}} ;
+
+-- Digit -> Sub100 (d -> d + teist, where d = {2..9})
+lin pot1to19 d = {s = table {_ => d.s ++ "teist"}} ;
+
+-- Sub10 -> Sub100 (1..9)
+lin pot0as1 n = {s = table {p => n.s ! p}} ;
+
+-- Digit -> Sub100 (2-9)
+lin pot1 d = {s = table {_ => d.s ++ "kümmend"}} ;
+
+-- Digit -> Sub10 -> Sub100
+lin pot1plus d e = {s = table {_ => d.s ++ "kümmend" ++ e.s ! indep}} ;
+
+-- Sub100 -> Sub1000
+lin pot1as2 n = {s = table {p => n.s ! p}} ;
+
+-- Sub10 -> Sub1000 (1..9)
+lin pot2 d = {s = table {_ => (d.s ! attr) ++ "sada" }} ;
+
+-- Sub10 -> Sub100 -> Sub1000
+lin pot2plus d e = {s = table {_ => (d.s ! attr) ++ "sada" ++ e.s ! indep}} ;
+
+lin pot2as3 n = {s = n.s ! indep} ;
+lin pot3 n = {s = (n.s ! attr) ++ "tuhat"} ;
+lin pot3plus n m = {s = (n.s ! attr) ++ "tuhat" ++ m.s ! indep} ;
+
+lin pot3as4 n = n ;
+lin pot4 n = {s = (n.s ! indep) ++ "miljonit"} ;
+lin pot4plus n m = {s = (n.s ! indep) ++ "miljonit" ++ m.s} ;
+
+lin pot4as5 n = n ;
+lin pot5 n = {s = (n.s ! indep) ++ "miljardit"} ;
+lin pot5plus n m = {s = (n.s ! indep) ++ "miljardit" ++ m.s} ;
 
 }

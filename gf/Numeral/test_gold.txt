@@ -1,46 +1,105 @@
 Testing: App -> ALL
 
-num (pot3plus (pot2plus (pot0 n9) (pot1plus n8 (pot0 n7))) (pot2plus (pot0 n5) (pot1plus n4 pot01)))
+num (pot4as5 (pot3as4 (pot3plus (pot2plus (pot0 n9) (pot1plus n8 (pot0 n7))) (pot2plus (pot0 n5) (pot1plus n4 pot01)))))
 
 987541
 üheksa sada kaheksa kümmend seitse tuhat viis sada neli kümmend üks
 
-num (pot2as3 (pot2 pot01))
+num (pot4as5 (pot3as4 (pot2as3 (pot2 pot01))))
 
 100
 sada
 
-num (pot2as3 (pot1as2 pot111))
+num (pot4as5 (pot3as4 (pot2as3 (pot1as2 pot111))))
 
 11
 üks teist
 
-num (pot2as3 (pot2plus pot01 pot111))
+num (pot4as5 (pot3as4 (pot2as3 (pot2plus pot01 pot111))))
 
 111
 sada üks teist
 
-num (pot3plus (pot2plus (pot0 n3) (pot1plus n9 (pot0 n8))) (pot2plus (pot0 n7) (pot1plus n5 (pot0 n4))))
+num (pot4as5 (pot3as4 (pot3plus (pot2plus (pot0 n3) (pot1plus n9 (pot0 n8))) (pot2plus (pot0 n7) (pot1plus n5 (pot0 n4))))))
 
 398754
 kolm sada üheksa kümmend kaheksa tuhat seitse sada viis kümmend neli
 
-num (pot3plus (pot1as2 (pot0as1 (pot0 n4))) (pot2plus (pot0 n3) (pot1to19 n7)))
+num (pot4as5 (pot3as4 (pot3plus (pot1as2 (pot0as1 (pot0 n4))) (pot2plus (pot0 n3) (pot1to19 n7)))))
 
 4317
 neli tuhat kolm sada seitse teist
 
+num (pot4as5 (pot4plus (pot1as2 (pot0as1 pot01)) (pot3plus (pot2plus pot01 (pot1plus n3 (pot0 n4))) (pot2plus (pot0 n5) (pot1plus n6 (pot0 n7))))))
+
+1134567
+üks miljonit sada kolm kümmend neli tuhat viis sada kuus kümmend seitse
+
+num (pot4as5 (pot4plus (pot2 pot01) (pot3plus (pot2plus pot01 (pot1plus n3 (pot0 n4))) (pot2plus (pot0 n5) (pot1plus n6 (pot0 n7))))))
+
+100134567
+sada miljonit sada kolm kümmend neli tuhat viis sada kuus kümmend seitse
+
+num (pot4as5 (pot4plus (pot1as2 (pot0as1 (pot0 n2))) (pot2as3 (pot1as2 (pot0as1 (pot0 n7))))))
+
+2000007
+kaks miljonit seitse
+
 Testing: Est -> App
 
-num (pot3plus (pot1as2 (pot0as1 (pot0 n2))) (pot1as2 (pot0as1 (pot0 n2))))
+num (pot4as5 (pot3as4 (pot3plus (pot1as2 (pot0as1 (pot0 n2))) (pot1as2 (pot0as1 (pot0 n2))))))
 
 2002
 
-num (pot2as3 (pot2plus pot01 pot111))
+num (pot4as5 (pot3as4 (pot2as3 (pot2plus pot01 pot111))))
 
 111
 
-num (pot3plus (pot1as2 (pot0as1 (pot0 n2))) (pot2plus (pot0 n2) (pot1plus n2 (pot0 n2))))
+num (pot4as5 (pot3as4 (pot3plus (pot1as2 (pot0as1 (pot0 n2))) (pot2plus (pot0 n2) (pot1plus n2 (pot0 n2))))))
 
 2222
+
+num (pot4as5 (pot4plus (pot1as2 (pot0as1 pot01)) (pot3plus (pot2plus pot01 (pot1plus n3 (pot0 n4))) (pot2plus (pot0 n5) (pot1plus n6 (pot0 n7))))))
+
+1134567
+
+num (pot4as5 (pot4plus (pot2 pot01) (pot3plus (pot2plus pot01 (pot1plus n3 (pot0 n4))) (pot2plus (pot0 n5) (pot1plus n6 (pot0 n7))))))
+
+100134567
+
+num (pot4as5 (pot4plus (pot1as2 (pot0as1 (pot0 n2))) (pot2as3 (pot1as2 (pot0as1 (pot0 n7))))))
+
+2000007
+
+num (pot4as5 (pot4plus (pot1as2 (pot0as1 (pot0 n2))) (pot2as3 (pot2 (pot0 n7)))))
+
+2000700
+
+num (pot4as5 (pot4plus (pot1as2 (pot0as1 (pot0 n2))) (pot3 (pot1as2 (pot0as1 (pot0 n7))))))
+
+2007000
+
+num (pot4as5 (pot4plus (pot1as2 (pot0as1 (pot0 n2))) (pot3plus (pot1as2 (pot0as1 (pot0 n7))) (pot1as2 (pot0as1 (pot0 n2))))))
+
+2007002
+
+num (pot5plus (pot1as2 (pot0as1 (pot0 n2))) (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n7))))))
+
+2000000007
+
+num (pot5plus (pot1as2 (pot0as1 (pot0 n2))) (pot3as4 (pot2as3 (pot2 (pot0 n7)))))
+
+2000000700
+
+num (pot5plus (pot1as2 (pot0as1 (pot0 n2))) (pot3as4 (pot3 (pot1as2 (pot0as1 (pot0 n7))))))
+
+2000007000
+
+num (pot5plus (pot1as2 (pot0as1 (pot0 n2))) (pot3as4 (pot3plus (pot1as2 (pot0as1 (pot0 n7))) (pot1as2 (pot0as1 (pot0 n2))))))
+
+2000007002
+
+num (pot5plus (pot1as2 (pot0as1 (pot0 n2))) (pot4plus (pot1as2 (pot0as1 (pot0 n7))) (pot2as3 (pot1as2 (pot0as1 (pot0 n2))))))
+
+2007000002
 

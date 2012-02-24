@@ -276,6 +276,11 @@ kaks suurt valuutat tunnis teeb sekundis norra kroonides
 kaks suurt valuutat tunnis teeb sekundis norra rahas
 
 
+convert 817650401305 m to ft
+
+kaheksa sada seitse teist miljardit kuus sada viis kümmend miljonit neli sada üks tuhat kolm sada viis meetrit jalgades
+
+
 Parsing examples/App.txt
 -------
 convert 2 m to ft
