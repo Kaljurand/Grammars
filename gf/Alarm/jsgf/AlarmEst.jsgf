@@ -5,9 +5,19 @@ grammar AlarmEst;
 
 public <MAIN> = <Alarm_cat> ;
 
-<Alarm_1> = ärata mind [kell] <Timestamp_1> ;
+<Alarm_1> = ärata mind <Period_1> hiljem
+            | ärata mind [kell] <Timestamp_1> ;
 
 public <Alarm_cat> = <Alarm_1> ;
+
+<Digit_1> = kaks | kolm | neli | viis | kuus
+            | seitse | kaheksa | üheksa ;
+
+public <Digit_cat> = <Digit_1> ;
+
+<HPeriod_1> = <Sub100_1> ;
+
+public <HPeriod_cat> = <HPeriod_1> ;
 
 <Hour_1> = kaks kümmend neli | üks | kaks | kolm
            | neli | viis | kuus | seitse | kaheksa | üheksa
@@ -18,6 +28,10 @@ public <Alarm_cat> = <Alarm_1> ;
            | kaks kümmend kaks | kaks kümmend kolm ;
 
 public <Hour_cat> = <Hour_1> ;
+
+<MPeriod_1> = <Sub1000_1> ;
+
+public <MPeriod_cat> = <MPeriod_1> ;
 
 <Minute_1> = null null | null üks | null kaks
              | null kolm | null neli | null viis | null kuus
@@ -47,6 +61,29 @@ public <Hour_cat> = <Hour_1> ;
              | viis kümmend üheksa ;
 
 public <Minute_cat> = <Minute_1> ;
+
+<Period_1> = <HPeriod_1> tundi ja <MPeriod_1>
+             minutit
+             | <MPeriod_1> minutit ;
+
+public <Period_cat> = <Period_1> ;
+
+<Sub1000_1> = <Sub100_1> | <Sub10_2> sada
+              | <Sub10_2> sada <Sub100_1> ;
+
+public <Sub1000_cat> = <Sub1000_1> ;
+
+<Sub100_1> = <Sub10_1> | <Digit_1> kümmend | kümme
+             | üks teist | <Digit_1> kümmend <Sub10_1>
+             | <Digit_1> teist ;
+
+public <Sub100_cat> = <Sub100_1> ;
+
+<Sub10_1> = <Digit_1> | üks ;
+
+<Sub10_2> = <Digit_1> | [üks] ;
+
+public <Sub10_cat> = <Sub10_1> | <Sub10_2> ;
 
 <Timestamp_1> = <Hour_1> <Minute_1> | <Hour_1> ;
 

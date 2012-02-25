@@ -22,9 +22,21 @@ alarm_time (MkTime H04 M00)
 
 
 
+alarm_period (period_h_min (hperiod (pot1plus n9 (pot0 n8))) (mperiod (pot2plus (pot0 n7) (pot1plus n6 (pot0 n5)))))
+
+ärata mind üheksa kümmend kaheksa tundi ja seitse sada kuus kümmend viis minutit hiljem
+
+
+
 alarm_time (MkTime H04 M15)
 
 alarm 04 : 15
+
+
+
+alarm_period (period_h_min (hperiod (pot0as1 pot01)) (mperiod (pot1as2 (pot0as1 pot01))))
+
+alarm in 1 hours and 1 minutes
 
 
 
