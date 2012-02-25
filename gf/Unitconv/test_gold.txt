@@ -14,6 +14,12 @@ convert 111110 flour-cup to flour-cup
 
 sada üks teist tuhat sada kümme tassi jahu jahu tassides
 
+sada üks teist tuhat üks sada kümme tassi jahu jahu tassides
+
+üks sada üks teist tuhat sada kümme tassi jahu jahu tassides
+
+üks sada üks teist tuhat üks sada kümme tassi jahu jahu tassides
+
 
 convert 12 ft to ft
 
@@ -278,6 +284,12 @@ kaks suurt valuutat tunnis teeb sekundis norra rahas
 
 convert 817650401305 m to ft
 
+kaheksa sada seitse teist miljardit ja kuus sada viis kümmend miljonit ja neli sada üks tuhat kolm sada viis meetrit jalgades
+
+kaheksa sada seitse teist miljardit ja kuus sada viis kümmend miljonit neli sada üks tuhat kolm sada viis meetrit jalgades
+
+kaheksa sada seitse teist miljardit kuus sada viis kümmend miljonit ja neli sada üks tuhat kolm sada viis meetrit jalgades
+
 kaheksa sada seitse teist miljardit kuus sada viis kümmend miljonit neli sada üks tuhat kolm sada viis meetrit jalgades
 
 
@@ -291,6 +303,8 @@ kaks meetrit jalgades
 convert 1000 m°C to °C
 
 tuhat milli kraadi kraadides
+
+üks tuhat milli kraadi kraadides
 
 
 convert 2 km^2 to ha

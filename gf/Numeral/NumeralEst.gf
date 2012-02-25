@@ -1,12 +1,12 @@
 concrete NumeralEst of Numeral = open StringOper in {
 
--- This is a port of examples/numerals/finnish.gf (GF v3.2.9) to Estonian.
---
 -- Note: this grammar does not glue -teist, -kümmend, ja -sada, which is
 -- orthographically incorrect but more suitable for the Estonian speech recognizer.
 --
--- Note: this grammar supports "tuhat sada" and does not support "tuhat üks sada".
--- Note: this grammar supports "üks miljonit" and does not support "miljon".
+-- Note: 'üks' in attributive position is optional (unless it is in front
+-- of 'miljonit' or 'miljardit')
+--
+-- Note: after 'miljonit' and 'miljardit' comes an optional 'ja'
 --
 -- @author Kaarel Kaljurand
 -- @version 2012-02-25
@@ -34,9 +34,10 @@ lin n7 = ss "seitse" ;
 lin n8 = ss "kaheksa" ;
 lin n9 = ss "üheksa" ;
 
--- üks is dropped in some cases
--- TODO: make this dropping a variant
-lin pot01 = {s = table {attr => [] ; indep => "üks"}} ;
+-- 'üks' can be dropped in the attributive position, i.e. these are all OK
+-- and denote the sama numeral (1100):
+-- 'üks tuhat sada', 'tuhat üks sada', 'üks tuhat üks sada'
+lin pot01 = {s = table {attr => strOpt "üks" ; indep => "üks"}} ;
 
 -- 2..9
 lin pot0 d = {s = table {_ => d.s}} ;
@@ -74,10 +75,10 @@ lin pot3plus n m = {s = (n.s ! attr) ++ "tuhat" ++ m.s ! indep} ;
 
 lin pot3as4 n = n ;
 lin pot4 n = {s = (n.s ! indep) ++ "miljonit"} ;
-lin pot4plus n m = {s = (n.s ! indep) ++ "miljonit" ++ m.s} ;
+lin pot4plus n m = {s = (n.s ! indep) ++ "miljonit" ++ optStr "ja" ++ m.s} ;
 
 lin pot4as5 n = n ;
 lin pot5 n = {s = (n.s ! indep) ++ "miljardit"} ;
-lin pot5plus n m = {s = (n.s ! indep) ++ "miljardit" ++ m.s} ;
+lin pot5plus n m = {s = (n.s ! indep) ++ "miljardit" ++ optStr "ja" ++ m.s} ;
 
 }
