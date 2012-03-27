@@ -4,5 +4,6 @@ lincat Symbols = SS;
 
 lin
 	empty = ss "";
-	digit, letter = prefixSS;
+	letter = prefixSS;
+	digit d = prefixSS d.s;
 }

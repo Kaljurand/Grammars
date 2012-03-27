@@ -6,7 +6,7 @@ Symbols
 Compiling
 ---------
 
-   gf -s --make --optimize-pgf --mk-index --path "../lib/:../Digit/:../Letter/" Symbols???.gf
+   gf -s --make --optimize-pgf --mk-index --path "../lib/:../Numeral/:../Digit/:../Letter/" Symbols???.gf
 
 
 TODO

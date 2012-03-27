@@ -1,18 +1,8 @@
-concrete DigitEst of Digit = open StringOper in {
+concrete DigitEst of Digit = NumeralEst [Digit, n2, n3, n4, n5, n6, n7, n8, n9] ** open StringOper in {
 
 flags coding = utf8;
 
-lincat Digit = Str;
-
 lin
-	d0 = "null";
-	d1 = "üks";
-	d2 = "kaks";
-	d3 = "kolm";
-	d4 = "neli";
-	d5 = "viis";
-	d6 = "kuus";
-	d7 = "seitse";
-	d8 = "kaheksa";
-	d9 = "üheksa";
+	n0 = ss "null";
+	n1 = ss "üks";
 }

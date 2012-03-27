@@ -1,5 +1,5 @@
 name="Estvrp"
-path="../lib/:../Digit/:../Letter/"
+path="../lib/:../Numeral/:../Digit/:../Letter/"
 
 # Testing the roundtrip: App -> Est -> App
 

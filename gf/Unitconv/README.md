@@ -86,7 +86,7 @@ and add the words of the unit to the concrete syntaxes (UnitEst.gf and UnitApp.g
 The functions `mkUnit` and `ss` are predefined. They take a string and generate the internally
 used lexicon structure, e.g. the `mkUnit` function (defined in `lib/Estonian.gf`) also generates
 the plural inessive (`PlIn`) form from the given singular partitive form (`SgPart`).
-If it turnes out that the automatically generated form is incorrect then use
+If it turns out that the automatically generated form is incorrect then use
 a multi-argument version of `mkUnit` to provide the forms manually, e.g.
 
     lin euro = mkUnit "eurot" "eurodes" ;

@@ -1,9 +1,7 @@
-abstract Digit = {
+abstract Digit = Numeral [Digit, n2, n3, n4, n5, n6, n7, n8, n9] ** {
 
 flags startcat = Digit;
 
-cat Digit;
-
 fun
-	d0, d1, d2, d3, d4, d5, d6, d7, d8, d9 : Digit;
+	n0, n1 : Digit;
 }

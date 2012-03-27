@@ -1,18 +1,8 @@
-concrete DigitApp of Digit = open StringOper in {
+concrete DigitApp of Digit = NumeralApp [Digit, n2, n3, n4, n5, n6, n7, n8, n9] ** open StringOper in {
 
 flags coding = utf8;
 
-lincat Digit = Str;
-
 lin
-	d0 = "0";
-	d1 = "1";
-	d2 = "2";
-	d3 = "3";
-	d4 = "4";
-	d5 = "5";
-	d6 = "6";
-	d7 = "7";
-	d8 = "8";
-	d9 = "9";
+	n0 = ss "0";
+	n1 = ss "1";
 }

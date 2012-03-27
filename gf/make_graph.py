@@ -30,17 +30,7 @@ GF grammar structure
 digraph G {
 
 node [shape = "rect"];
-edge [arrowsize=1, color=black];
-
-/*
-subgraph cluster_0 {
-	label = "Abstract grammars";
-	color = "red";
-
-	Currency;
-	Digit;
-}
-*/
+edge [arrowsize=1, color = "red", style = "bold"];
 """
 
 footer_dot = "}"
@@ -53,12 +43,14 @@ def match_abstract(m):
 	name = m.group(1).strip()
 	supers = m.group(2)
 	supers = re.sub('\*\*.*', '', supers)
+	supers = re.sub('\[.*\]', '', supers)
 	if re.match('^\s*$', supers):
-		dot_lines.append('"{:}" -> "_abstract_" [shape = "diamond" color = "red" style = "bold"]'.format(name))
+		#dot_lines.append('"{:}"'.format(name))
+		#dot_lines.append('"{:}" -> "_abstract_"'.format(name))
 		return dot_lines
 	for s in supers.split(','):
 		s = s.strip()
-		dot = '"{:}" -> "{:}" [shape = "diamond" color = "red" style = "bold"]'.format(name, s)
+		dot = '"{:}" -> "{:}"'.format(name, s)
 		dot_lines.append(dot)
 	return dot_lines
 
@@ -75,12 +67,12 @@ def match_concrete(m):
 	supers = re.sub('-?\[[^\]]*\]', '', supers)
 	supers = re.sub('\*\*.*', '', supers)
 	if re.match('^\s*$', supers):
-		dot_lines.append('"{:}" -> "_concrete_" [color = "green" style = "bold"]'.format(name))
+		#dot_lines.append('"{:}" -> "_concrete_" [color = "green"]'.format(name))
 		return dot_lines
 	for s in supers.split(','):
 		s = s.strip()
 		s = re.sub('\s*-.*', '', s)
-		dot = '"{:}" -> "{:}" [color = "green" style = "bold"]'.format(name, s)
+		dot = '"{:}" -> "{:}" [color = "green"]'.format(name, s)
 		dot_lines.append(dot)
 	return dot_lines
 

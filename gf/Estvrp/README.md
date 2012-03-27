@@ -8,4 +8,4 @@ three digits and three letters (e.g. 123 ABC).
 Compiling
 ---------
 
-    gf -s --make --optimize-pgf --mk-index --path "../lib/:../Digit/:../Letter/" Estvrp???.gf
+    gf -s --make --optimize-pgf --mk-index --path "../lib/:../Numeral/:../Digit/:../Letter/" Estvrp???.gf
