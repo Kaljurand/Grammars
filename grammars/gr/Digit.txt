@@ -1,301 +1,301 @@
-Digit: d8
+Digit: n6
+DigitApp: 6
+
+DigitEst: kuus
+
+
+Digit: n5
+DigitApp: 5
+
+DigitEst: viis
+
+
+Digit: n4
+DigitApp: 4
+
+DigitEst: neli
+
+
+Digit: n5
+DigitApp: 5
+
+DigitEst: viis
+
+
+Digit: n1
+DigitApp: 1
+
+DigitEst: üks
+
+
+Digit: n1
+DigitApp: 1
+
+DigitEst: üks
+
+
+Digit: n6
+DigitApp: 6
+
+DigitEst: kuus
+
+
+Digit: n5
+DigitApp: 5
+
+DigitEst: viis
+
+
+Digit: n9
+DigitApp: 9
+
+DigitEst: üheksa
+
+
+Digit: n6
+DigitApp: 6
+
+DigitEst: kuus
+
+
+Digit: n5
+DigitApp: 5
+
+DigitEst: viis
+
+
+Digit: n4
+DigitApp: 4
+
+DigitEst: neli
+
+
+Digit: n1
+DigitApp: 1
+
+DigitEst: üks
+
+
+Digit: n8
 DigitApp: 8
 
 DigitEst: kaheksa
 
 
-Digit: d7
-DigitApp: 7
+Digit: n1
+DigitApp: 1
 
-DigitEst: seitse
+DigitEst: üks
 
 
-Digit: d2
+Digit: n4
+DigitApp: 4
+
+DigitEst: neli
+
+
+Digit: n3
+DigitApp: 3
+
+DigitEst: kolm
+
+
+Digit: n0
+DigitApp: 0
+
+DigitEst: null
+
+
+Digit: n1
+DigitApp: 1
+
+DigitEst: üks
+
+
+Digit: n0
+DigitApp: 0
+
+DigitEst: null
+
+
+Digit: n0
+DigitApp: 0
+
+DigitEst: null
+
+
+Digit: n8
+DigitApp: 8
+
+DigitEst: kaheksa
+
+
+Digit: n9
+DigitApp: 9
+
+DigitEst: üheksa
+
+
+Digit: n1
+DigitApp: 1
+
+DigitEst: üks
+
+
+Digit: n9
+DigitApp: 9
+
+DigitEst: üheksa
+
+
+Digit: n9
+DigitApp: 9
+
+DigitEst: üheksa
+
+
+Digit: n1
+DigitApp: 1
+
+DigitEst: üks
+
+
+Digit: n8
+DigitApp: 8
+
+DigitEst: kaheksa
+
+
+Digit: n5
+DigitApp: 5
+
+DigitEst: viis
+
+
+Digit: n8
+DigitApp: 8
+
+DigitEst: kaheksa
+
+
+Digit: n0
+DigitApp: 0
+
+DigitEst: null
+
+
+Digit: n8
+DigitApp: 8
+
+DigitEst: kaheksa
+
+
+Digit: n6
+DigitApp: 6
+
+DigitEst: kuus
+
+
+Digit: n0
+DigitApp: 0
+
+DigitEst: null
+
+
+Digit: n0
+DigitApp: 0
+
+DigitEst: null
+
+
+Digit: n4
+DigitApp: 4
+
+DigitEst: neli
+
+
+Digit: n1
+DigitApp: 1
+
+DigitEst: üks
+
+
+Digit: n1
+DigitApp: 1
+
+DigitEst: üks
+
+
+Digit: n1
+DigitApp: 1
+
+DigitEst: üks
+
+
+Digit: n6
+DigitApp: 6
+
+DigitEst: kuus
+
+
+Digit: n1
+DigitApp: 1
+
+DigitEst: üks
+
+
+Digit: n2
 DigitApp: 2
 
 DigitEst: kaks
 
 
-Digit: d7
+Digit: n6
+DigitApp: 6
+
+DigitEst: kuus
+
+
+Digit: n7
 DigitApp: 7
 
 DigitEst: seitse
 
 
-Digit: d8
-DigitApp: 8
-
-DigitEst: kaheksa
-
-
-Digit: d3
-DigitApp: 3
-
-DigitEst: kolm
-
-
-Digit: d3
-DigitApp: 3
-
-DigitEst: kolm
-
-
-Digit: d2
-DigitApp: 2
-
-DigitEst: kaks
-
-
-Digit: d9
-DigitApp: 9
-
-DigitEst: üheksa
-
-
-Digit: d9
-DigitApp: 9
-
-DigitEst: üheksa
-
-
-Digit: d1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: d7
-DigitApp: 7
-
-DigitEst: seitse
-
-
-Digit: d6
+Digit: n6
 DigitApp: 6
 
 DigitEst: kuus
 
 
-Digit: d1
+Digit: n1
 DigitApp: 1
 
 DigitEst: üks
 
 
-Digit: d0
-DigitApp: 0
-
-DigitEst: null
-
-
-Digit: d6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: d0
-DigitApp: 0
-
-DigitEst: null
-
-
-Digit: d9
-DigitApp: 9
-
-DigitEst: üheksa
-
-
-Digit: d1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: d9
-DigitApp: 9
-
-DigitEst: üheksa
-
-
-Digit: d4
-DigitApp: 4
-
-DigitEst: neli
-
-
-Digit: d6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: d9
-DigitApp: 9
-
-DigitEst: üheksa
-
-
-Digit: d0
-DigitApp: 0
-
-DigitEst: null
-
-
-Digit: d5
+Digit: n5
 DigitApp: 5
 
 DigitEst: viis
 
 
-Digit: d9
-DigitApp: 9
-
-DigitEst: üheksa
-
-
-Digit: d6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: d9
-DigitApp: 9
-
-DigitEst: üheksa
-
-
-Digit: d1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: d9
-DigitApp: 9
-
-DigitEst: üheksa
-
-
-Digit: d6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: d4
-DigitApp: 4
-
-DigitEst: neli
-
-
-Digit: d7
-DigitApp: 7
-
-DigitEst: seitse
-
-
-Digit: d5
-DigitApp: 5
-
-DigitEst: viis
-
-
-Digit: d8
+Digit: n8
 DigitApp: 8
 
 DigitEst: kaheksa
 
 
-Digit: d8
-DigitApp: 8
-
-DigitEst: kaheksa
-
-
-Digit: d1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: d1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: d9
-DigitApp: 9
-
-DigitEst: üheksa
-
-
-Digit: d6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: d4
+Digit: n4
 DigitApp: 4
 
 DigitEst: neli
 
 
-Digit: d6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: d6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: d3
-DigitApp: 3
-
-DigitEst: kolm
-
-
-Digit: d6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: d5
+Digit: n5
 DigitApp: 5
 
 DigitEst: viis
-
-
-Digit: d0
-DigitApp: 0
-
-DigitEst: null
-
-
-Digit: d6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: d6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: d0
-DigitApp: 0
-
-DigitEst: null
 
 
 

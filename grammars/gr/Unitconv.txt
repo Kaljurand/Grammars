@@ -1,301 +1,301 @@
-Unitconv: main (fraction (copy2 (pair null null))) (conv_power (power_unit watt) (prefixed_power_unit nano watt))
-UnitconvApp: convert 0.0 W to nW
+Unitconv: general (fraction_copy (fraction (copy1 null))) cad (fraction_copy (fraction one_and_half)) (time_unit day) fraction_default nzd fraction_default (time_unit second)
+UnitconvApp: ((( convert CAD to NZD ) / ( convert day to s )) * ((0 * 1) / (1.5 * 1)))
 
-UnitconvEst: null koma null vatti nano vattides
+UnitconvEst: null kanada dollarit pool teist päevas teeb sekundis uus mere maa dollarites
 
 
-Unitconv: general (fraction_copy (fraction (copy1 null))) isk fraction_default (time_unit decade) fraction_default rub fraction_default (time_unit month)
-UnitconvApp: ((( convert ISK to RUB ) / ( convert decade to month )) * ((0 * 1) / (1 * 1)))
+Unitconv: general fraction_default cad fraction_default (time_unit decade) (fraction_copy (fraction half)) sek (fraction_copy (fraction three_quarters)) (time_unit micro_second)
+UnitconvApp: ((( convert CAD to SEK ) / ( convert decade to µs )) * ((1 * 0.75) / (1 * 0.5)))
 
-UnitconvEst: null islandi krooni dekaadis teeb kuus rublades
+UnitconvEst: kanada dollarit dekaadis teeb kolm veerand mikro sekundis pool rootsi kroonides
 
 
-Unitconv: main (fraction one_and_half) (angle arcminute degree)
-UnitconvApp: convert 1.5 ' to °
+Unitconv: main (fraction one_and_half) (time (time_unit week) (time_unit week))
+UnitconvApp: convert 1.5 week to week
 
-UnitconvEst: pool teist minutit kraadides
+UnitconvEst: pool teist nädalat nädalates
 
 
-Unitconv: general fraction_default jpy (fraction_copy (fraction one_and_half)) (time_unit second) (fraction_copy (fraction (neg1 null))) eek fraction_default (time_unit minute)
-UnitconvApp: ((( convert JPY to EEK ) / ( convert s to min )) * ((1 * 1) / (1.5 * -0)))
+Unitconv: main (fraction (neg1 null)) (conv_speed (speed (length_unit inch) (time_unit micro_second)) (speed (prefixed_length_unit mega meter) (time_unit hour)))
+UnitconvApp: convert (-0) in/µs to Mm/h
 
-UnitconvEst: jeeni pool teist sekundis teeb minutis miinus null kroonides
+UnitconvEst: miinus null tolli mikro sekundis mega meetrites tunnis
 
 
-Unitconv: main (fraction quarter) (currency rub rub)
-UnitconvApp: convert 0.25 RUB to RUB
+Unitconv: main (fraction half) (conv_power (power_unit watt) (prefixed_power_unit deka watt))
+UnitconvApp: convert 0.5 W to daW
 
-UnitconvEst: veerand rubla rublades
+UnitconvEst: pool vatti deka vattides
 
 
-Unitconv: main (fraction three_quarters) (conv_acceleration (acceleration2 (speed_unit knot) (time_unit milli_second)) (acceleration (length_unit inch) (time_unit year)))
-UnitconvApp: convert 0.75 knot/ms to in*year^-2
+Unitconv: general fraction_default nok (fraction_copy (fraction one_and_half)) (time_unit day) fraction_default aud (fraction_copy (fraction (neg2 (pair null null)))) (time_unit micro_second)
+UnitconvApp: ((( convert NOK to AUD ) / ( convert day to µs )) * ((1 * (-0.0)) / (1.5 * 1)))
 
-UnitconvEst: kolm veerand sõlme milli sekundis tollides ruut aastas
+UnitconvEst: norra krooni pool teist päevas teeb miinus null koma null mikro sekundis austraalia dollarites
 
 
-Unitconv: general (fraction_copy (fraction (neg1 null))) gbp fraction_default (time_unit day) fraction_default aud fraction_default (time_unit week)
-UnitconvApp: ((( convert GBP to AUD ) / ( convert day to week )) * ((-0 * 1) / (1 * 1)))
+Unitconv: general fraction_default aud (fraction_copy (fraction one_and_half)) (time_unit month) fraction_default nok fraction_default (time_unit hour)
+UnitconvApp: ((( convert AUD to NOK ) / ( convert month to h )) * ((1 * 1) / (1.5 * 1)))
 
-UnitconvEst: miinus null naela päevas teeb nädalas austraalia dollarites
+UnitconvEst: austraalia dollarit pool teist kuus teeb tunnis norra kroonides
 
 
-Unitconv: general fraction_default nok (fraction_copy (fraction (neg1 null))) (time_unit micro_second) (fraction_copy (fraction pi)) nzd (fraction_copy (fraction (copy2 (pair null null)))) (time_unit milli_second)
-UnitconvApp: ((( convert NOK to NZD ) / ( convert µs to ms )) * ((1 * 0.0) / (-0 * PI)))
+Unitconv: general (fraction_copy (fraction (neg1 null))) cad (fraction_copy (fraction one_and_half)) (time_unit year) (fraction_copy (fraction quarter)) gbp (fraction_copy (fraction (neg1 null))) (time_unit day)
+UnitconvApp: ((( convert CAD to GBP ) / ( convert year to day )) * (((-0) * (-0)) / (1.5 * 0.25)))
 
-UnitconvEst: norra krooni miinus null mikro sekundis teeb null koma null milli sekundis Pii uus mere maa dollarites
+UnitconvEst: miinus null kanada dollarit pool teist aastas teeb miinus null päevas veerand naelades
 
 
-Unitconv: main (fraction (copy2 (pair null null))) (angle arcminute arcsecond)
-UnitconvApp: convert 0.0 ' to "
+Unitconv: main (fraction quarter) (length (length_unit mile) (length_unit meter))
+UnitconvApp: convert 0.25 mi to m
 
-UnitconvEst: null koma null minutit sekundites
+UnitconvEst: veerand miili meetrites
 
 
-Unitconv: main (fraction (neg1 null)) (time (time_unit second) (time_unit minute))
-UnitconvApp: convert -0 s to min
+Unitconv: general fraction_default gbp fraction_default (time_unit day) (fraction_copy (fraction pi)) gbp fraction_default (time_unit micro_second)
+UnitconvApp: ((( convert GBP to GBP ) / ( convert day to µs )) * ((1 * 1) / (1 * PI)))
 
-UnitconvEst: miinus null sekundit minutites
+UnitconvEst: naela päevas teeb mikro sekundis Pii naelades
 
 
-Unitconv: general (fraction_copy (fraction (neg1 null))) rub (fraction_copy (fraction three_quarters)) (time_unit micro_second) fraction_default gbp (fraction_copy (fraction quarter)) (time_unit nano_second)
-UnitconvApp: ((( convert RUB to GBP ) / ( convert µs to ns )) * ((-0 * 0.25) / (0.75 * 1)))
+Unitconv: main (fraction quarter) (conv_speed (speed_unit knot) (speed (prefixed_length_unit centi inch) (time_unit micro_second)))
+UnitconvApp: convert 0.25 knot to cin/µs
 
-UnitconvEst: miinus null rubla kolm veerand mikro sekundis teeb veerand nano sekundis naelades
+UnitconvEst: veerand sõlme senti tollides mikro sekundis
 
 
-Unitconv: general fraction_default nzd (fraction_copy (fraction (neg2 (pair null null)))) (time_unit milli_second) (fraction_copy (fraction three_quarters)) gbp (fraction_copy (fraction (copy2 (pair null null)))) (time_unit hour)
-UnitconvApp: ((( convert NZD to GBP ) / ( convert ms to h )) * ((1 * 0.0) / (-0.0 * 0.75)))
+Unitconv: main (fraction pi) (volume (cube (prefixed_length_unit deci mile)) (cube (prefixed_length_unit giga foot)))
+UnitconvApp: convert PI dmi^3 to Gft^3
 
-UnitconvEst: uus mere maa dollarit miinus null koma null milli sekundis teeb null koma null tunnis kolm veerand naelades
+UnitconvEst: Pii kuup detsi miili kuup giga jalgades
 
 
-Unitconv: general fraction_default eur (fraction_copy (fraction (copy2 (pair null null)))) (time_unit year) (fraction_copy (fraction (copy2 (pair null null)))) eek (fraction_copy (fraction one_and_half)) (time_unit month)
-UnitconvApp: ((( convert EUR to EEK ) / ( convert year to month )) * ((1 * 1.5) / (0.0 * 0.0)))
+Unitconv: general (fraction_copy (fraction quarter)) isk fraction_default (time_unit century) (fraction_copy (fraction (neg2 (pair null null)))) jpy fraction_default (time_unit day)
+UnitconvApp: ((( convert ISK to JPY ) / ( convert century to day )) * ((0.25 * 1) / (1 * (-0.0))))
 
-UnitconvEst: eurot null koma null aastas teeb pool teist kuus null koma null kroonides
+UnitconvEst: veerand islandi krooni sajandis teeb päevas miinus null koma null jeenides
 
 
-Unitconv: main (fraction (copy1 null)) (frequency (frequency_unit hertz) (frequency_unit hertz))
-UnitconvApp: convert 0 Hz to Hz
+Unitconv: general (fraction_copy (fraction (neg2 (pair null null)))) isk (fraction_copy (fraction three_quarters)) (time_unit micro_second) (fraction_copy (fraction half)) gbp fraction_default (time_unit decade)
+UnitconvApp: ((( convert ISK to GBP ) / ( convert µs to decade )) * (((-0.0) * 1) / (0.75 * 0.5)))
 
-UnitconvEst: null hertsi hertsides
+UnitconvEst: miinus null koma null islandi krooni kolm veerand mikro sekundis teeb dekaadis pool naelades
 
 
-Unitconv: main (fraction pi) (frequency (prefixed_frequency_unit giga hertz) (prefixed_frequency_unit mega hertz))
-UnitconvApp: convert PI GHz to MHz
+Unitconv: main (fraction one_and_half) (conv_energy (energy_unit watt_hour) (prefixed_energy_unit micro watt_hour))
+UnitconvApp: convert 1.5 W⋅h to µW⋅h
 
-UnitconvEst: Pii giga hertsi mega hertsides
+UnitconvEst: pool teist vatt tundi mikro vatt tundides
 
 
-Unitconv: general fraction_default chf fraction_default (time_unit second) (fraction_copy (fraction pi)) gbp (fraction_copy (fraction (neg1 null))) (time_unit nano_second)
-UnitconvApp: ((( convert CHF to GBP ) / ( convert s to ns )) * ((1 * -0) / (1 * PI)))
+Unitconv: general (fraction_copy (fraction pi)) gbp (fraction_copy (fraction (neg1 null))) (time_unit hour) fraction_default chf (fraction_copy (fraction one_and_half)) (time_unit day)
+UnitconvApp: ((( convert GBP to CHF ) / ( convert h to day )) * ((PI * 1.5) / ((-0) * 1)))
 
-UnitconvEst: franki sekundis teeb miinus null nano sekundis Pii naelades
+UnitconvEst: Pii naela miinus null tunnis teeb pool teist päevas frankides
 
 
-Unitconv: main (fraction half) (volume (cube (length_unit mile)) (volume_unit pint))
-UnitconvApp: convert 0.5 mi^3 to pt
+Unitconv: main (fraction (neg1 null)) (mass (prefixed_mass_unit kilo cup_flour) (prefixed_mass_unit giga cup_flour))
+UnitconvApp: convert (-0) kflour-cup to Gflour-cup
 
-UnitconvEst: pool kuup miili pintides
+UnitconvEst: miinus null kilo tassi jahu giga jahu tassides
 
 
-Unitconv: general (fraction_copy (fraction (copy2 (pair null null)))) eur (fraction_copy (fraction (copy1 null))) (time_unit second) fraction_default usd fraction_default (time_unit month)
-UnitconvApp: ((( convert EUR to USD ) / ( convert s to month )) * ((0.0 * 1) / (0 * 1)))
+Unitconv: main (fraction three_quarters) (mass (prefixed_mass_unit giga ounce) (mass_unit ounce))
+UnitconvApp: convert 0.75 Goz to oz
 
-UnitconvEst: null koma null eurot null sekundis teeb kuus dollarites
+UnitconvEst: kolm veerand giga untsi untsides
 
 
-Unitconv: main (fraction (copy1 null)) (frequency (frequency_unit hertz) (frequency_unit hertz))
-UnitconvApp: convert 0 Hz to Hz
+Unitconv: main (fraction pi) (length (length_unit meter) (length_unit inch))
+UnitconvApp: convert PI m to in
 
-UnitconvEst: null hertsi hertsides
+UnitconvEst: Pii meetrit tollides
 
 
-Unitconv: general fraction_default chf fraction_default (time_unit century) fraction_default eur fraction_default (time_unit week)
-UnitconvApp: ((( convert CHF to EUR ) / ( convert century to week )) * ((1 * 1) / (1 * 1)))
+Unitconv: general (fraction_copy (fraction one_and_half)) rub fraction_default (time_unit decade) (fraction_copy (fraction three_quarters)) nok fraction_default (time_unit nano_second)
+UnitconvApp: ((( convert RUB to NOK ) / ( convert decade to ns )) * ((1.5 * 1) / (1 * 0.75)))
 
-UnitconvEst: franki sajandis teeb nädalas eurodes
+UnitconvEst: pool teist rubla dekaadis teeb nano sekundis kolm veerand norra kroonides
 
 
-Unitconv: main (fraction pi) (temperature (prefixed_temperature_unit micro celsius) (temperature_unit fahrenheit))
-UnitconvApp: convert PI µ°C to °F
+Unitconv: general fraction_default eur fraction_default (time_unit hour) (fraction_copy (fraction (copy1 null))) gbp fraction_default (time_unit second)
+UnitconvApp: ((( convert EUR to GBP ) / ( convert h to s )) * ((1 * 1) / (1 * 0)))
 
-UnitconvEst: Pii mikro kraadi fahrenheitides
+UnitconvEst: eurot tunnis teeb sekundis null naelades
 
 
-Unitconv: general (fraction_copy (fraction half)) usd fraction_default (time_unit micro_second) fraction_default gbp fraction_default (time_unit milli_second)
-UnitconvApp: ((( convert USD to GBP ) / ( convert µs to ms )) * ((0.5 * 1) / (1 * 1)))
+Unitconv: main (fraction (copy1 null)) (area (prefixed_area_unit mega acre) (area_unit acre))
+UnitconvApp: convert 0 Macre to acre
 
-UnitconvEst: pool dollarit mikro sekundis teeb milli sekundis naelades
+UnitconvEst: null mega aakrit aakrites
 
 
-Unitconv: main (fraction three_quarters) (angle radian degree)
-UnitconvApp: convert 0.75 rad to °
+Unitconv: main (fraction (copy1 null)) (frequency (prefixed_frequency_unit hecto hertz) (frequency_unit hertz))
+UnitconvApp: convert 0 hHz to Hz
 
-UnitconvEst: kolm veerand radiaani kraadides
+UnitconvEst: null hekto hertsi hertsides
 
 
-Unitconv: main (fraction (neg2 (pair null null))) (mass (prefixed_mass_unit tera ton) (mass_unit pound))
-UnitconvApp: convert -0.0 Tt to lb
+Unitconv: main (fraction (neg2 (pair null null))) (temperature (temperature_unit celsius) (temperature_unit fahrenheit))
+UnitconvApp: convert (-0.0) °C to °F
 
-UnitconvEst: miinus null koma null tera tonni naelades
+UnitconvEst: miinus null koma null kraadi fahrenheitides
 
 
-Unitconv: general (fraction_copy (fraction pi)) chf fraction_default (time_unit week) (fraction_copy (fraction three_quarters)) jpy fraction_default (time_unit milli_second)
-UnitconvApp: ((( convert CHF to JPY ) / ( convert week to ms )) * ((PI * 1) / (1 * 0.75)))
+Unitconv: general (fraction_copy (fraction (copy1 null))) nzd (fraction_copy (fraction quarter)) (time_unit week) fraction_default dkk fraction_default (time_unit year)
+UnitconvApp: ((( convert NZD to DKK ) / ( convert week to year )) * ((0 * 1) / (0.25 * 1)))
 
-UnitconvEst: Pii franki nädalas teeb milli sekundis kolm veerand jeenides
+UnitconvEst: null uus mere maa dollarit veerand nädalas teeb aastas taani kroonides
 
 
-Unitconv: general (fraction_copy (fraction (neg2 (pair null null)))) eur fraction_default (time_unit decade) fraction_default cad (fraction_copy (fraction three_quarters)) (time_unit decade)
-UnitconvApp: ((( convert EUR to CAD ) / ( convert decade to decade )) * ((-0.0 * 0.75) / (1 * 1)))
+Unitconv: general fraction_default nzd (fraction_copy (fraction one_and_half)) (time_unit century) fraction_default gbp (fraction_copy (fraction (neg2 (pair null null)))) (time_unit day)
+UnitconvApp: ((( convert NZD to GBP ) / ( convert century to day )) * ((1 * (-0.0)) / (1.5 * 1)))
 
-UnitconvEst: miinus null koma null eurot dekaadis teeb kolm veerand dekaadis kanada dollarites
+UnitconvEst: uus mere maa dollarit pool teist sajandis teeb miinus null koma null päevas naelades
 
 
-Unitconv: general fraction_default eek (fraction_copy (fraction (copy2 (pair null null)))) (time_unit micro_second) (fraction_copy (fraction half)) isk fraction_default (time_unit milli_second)
-UnitconvApp: ((( convert EEK to ISK ) / ( convert µs to ms )) * ((1 * 1) / (0.0 * 0.5)))
+Unitconv: main (fraction (neg2 (pair null null))) (angle arcsecond degree)
+UnitconvApp: convert (-0.0) " to °
 
-UnitconvEst: krooni null koma null mikro sekundis teeb milli sekundis pool islandi kroonides
+UnitconvEst: miinus null koma null sekundit kraadides
 
 
-Unitconv: main (fraction (copy1 null)) (time (time_unit century) (time_unit year))
-UnitconvApp: convert 0 century to year
+Unitconv: general (fraction_copy (fraction (copy2 (pair null null)))) chf fraction_default (time_unit hour) (fraction_copy (fraction (copy2 (pair null null)))) jpy (fraction_copy (fraction (copy1 null))) (time_unit milli_second)
+UnitconvApp: ((( convert CHF to JPY ) / ( convert h to ms )) * ((0.0 * 0) / (1 * 0.0)))
 
-UnitconvEst: null sajandit aastates
+UnitconvEst: null koma null franki tunnis teeb null milli sekundis null koma null jeenides
 
 
-Unitconv: general (fraction_copy (fraction (copy1 null))) jpy fraction_default (time_unit century) fraction_default dkk fraction_default (time_unit week)
-UnitconvApp: ((( convert JPY to DKK ) / ( convert century to week )) * ((0 * 1) / (1 * 1)))
+Unitconv: main (fraction one_and_half) (angle arcminute arcminute)
+UnitconvApp: convert 1.5 ' to '
 
-UnitconvEst: null jeeni sajandis teeb nädalas taani kroonides
+UnitconvEst: pool teist minutit minutites
 
 
-Unitconv: general (fraction_copy (fraction one_and_half)) cad fraction_default (time_unit month) fraction_default usd (fraction_copy (fraction one_and_half)) (time_unit minute)
-UnitconvApp: ((( convert CAD to USD ) / ( convert month to min )) * ((1.5 * 1.5) / (1 * 1)))
+Unitconv: general fraction_default gbp (fraction_copy (fraction three_quarters)) (time_unit hour) (fraction_copy (fraction (copy2 (pair null null)))) huf (fraction_copy (fraction (neg1 null))) (time_unit century)
+UnitconvApp: ((( convert GBP to HUF ) / ( convert h to century )) * ((1 * (-0)) / (0.75 * 0.0)))
 
-UnitconvEst: pool teist kanada dollarit kuus teeb pool teist minutis dollarites
+UnitconvEst: naela kolm veerand tunnis teeb miinus null sajandis null koma null forintites
 
 
-Unitconv: general fraction_default nok fraction_default (time_unit century) (fraction_copy (fraction (neg2 (pair null null)))) rub fraction_default (time_unit hour)
-UnitconvApp: ((( convert NOK to RUB ) / ( convert century to h )) * ((1 * 1) / (1 * -0.0)))
+Unitconv: main (fraction half) (area (square (length_unit mile)) (area_unit acre))
+UnitconvApp: convert 0.5 mi^2 to acre
 
-UnitconvEst: norra krooni sajandis teeb tunnis miinus null koma null rublades
+UnitconvEst: pool ruut miili aakrites
 
 
-Unitconv: main (fraction one_and_half) (conv_acceleration (acceleration2 (speed_unit knot) (time_unit century)) (acceleration2 (speed_unit knot) (time_unit milli_second)))
-UnitconvApp: convert 1.5 knot/century to knot/ms
+Unitconv: main (fraction (copy1 null)) (volume (cube (prefixed_length_unit nano foot)) (prefixed_volume_unit centi gallon))
+UnitconvApp: convert 0 nft^3 to cgal
 
-UnitconvEst: pool teist sõlme sajandis sõlmedes milli sekundis
+UnitconvEst: null kuup nano jalga senti gallonites
 
 
-Unitconv: general fraction_default nzd fraction_default (time_unit year) fraction_default rub fraction_default (time_unit second)
-UnitconvApp: ((( convert NZD to RUB ) / ( convert year to s )) * ((1 * 1) / (1 * 1)))
+Unitconv: general (fraction_copy (fraction pi)) cad (fraction_copy (fraction half)) (time_unit year) (fraction_copy (fraction quarter)) huf fraction_default (time_unit month)
+UnitconvApp: ((( convert CAD to HUF ) / ( convert year to month )) * ((PI * 1) / (0.5 * 0.25)))
 
-UnitconvEst: uus mere maa dollarit aastas teeb sekundis rublades
+UnitconvEst: Pii kanada dollarit pool aastas teeb kuus veerand forintites
 
 
-Unitconv: general fraction_default sek (fraction_copy (fraction (copy2 (pair null null)))) (time_unit nano_second) (fraction_copy (fraction (copy2 (pair null null)))) sek fraction_default (time_unit hour)
-UnitconvApp: ((( convert SEK to SEK ) / ( convert ns to h )) * ((1 * 1) / (0.0 * 0.0)))
+Unitconv: general fraction_default cad (fraction_copy (fraction (neg2 (pair null null)))) (time_unit nano_second) fraction_default dkk fraction_default (time_unit day)
+UnitconvApp: ((( convert CAD to DKK ) / ( convert ns to day )) * ((1 * 1) / ((-0.0) * 1)))
 
-UnitconvEst: rootsi krooni null koma null nano sekundis teeb tunnis null koma null rootsi kroonides
+UnitconvEst: kanada dollarit miinus null koma null nano sekundis teeb päevas taani kroonides
 
 
-Unitconv: general fraction_default nzd fraction_default (time_unit micro_second) (fraction_copy (fraction quarter)) jpy (fraction_copy (fraction three_quarters)) (time_unit week)
-UnitconvApp: ((( convert NZD to JPY ) / ( convert µs to week )) * ((1 * 0.75) / (1 * 0.25)))
+Unitconv: general fraction_default sek (fraction_copy (fraction (copy1 null))) (time_unit decade) (fraction_copy (fraction (copy1 null))) nzd fraction_default (time_unit micro_second)
+UnitconvApp: ((( convert SEK to NZD ) / ( convert decade to µs )) * ((1 * 1) / (0 * 0)))
 
-UnitconvEst: uus mere maa dollarit mikro sekundis teeb kolm veerand nädalas veerand jeenides
+UnitconvEst: rootsi krooni null dekaadis teeb mikro sekundis null uus mere maa dollarites
 
 
-Unitconv: main (fraction one_and_half) (time (time_unit micro_second) (time_unit day))
-UnitconvApp: convert 1.5 µs to day
+Unitconv: general (fraction_copy (fraction quarter)) nok fraction_default (time_unit nano_second) (fraction_copy (fraction (neg1 null))) rub fraction_default (time_unit decade)
+UnitconvApp: ((( convert NOK to RUB ) / ( convert ns to decade )) * ((0.25 * 1) / (1 * (-0))))
 
-UnitconvEst: pool teist mikro sekundit päevades
+UnitconvEst: veerand norra krooni nano sekundis teeb dekaadis miinus null rublades
 
 
-Unitconv: general fraction_default usd fraction_default (time_unit second) fraction_default eek fraction_default (time_unit milli_second)
-UnitconvApp: ((( convert USD to EEK ) / ( convert s to ms )) * ((1 * 1) / (1 * 1)))
+Unitconv: main (fraction (neg1 null)) (conv_speed (speed_unit the_speed_of_light) (speed_unit the_speed_of_light))
+UnitconvApp: convert (-0) c to c
 
-UnitconvEst: dollarit sekundis teeb milli sekundis kroonides
+UnitconvEst: miinus null valgus kiirust valgus kiirustes
 
 
-Unitconv: main (fraction (copy2 (pair null null))) (area (area_unit acre) (prefixed_area_unit kilo hectare))
-UnitconvApp: convert 0.0 acre to kha
+Unitconv: general fraction_default gbp fraction_default (time_unit second) (fraction_copy (fraction half)) jpy (fraction_copy (fraction (copy1 null))) (time_unit micro_second)
+UnitconvApp: ((( convert GBP to JPY ) / ( convert s to µs )) * ((1 * 0) / (1 * 0.5)))
 
-UnitconvEst: null koma null aakrit kilo hektarites
+UnitconvEst: naela sekundis teeb null mikro sekundis pool jeenides
 
 
-Unitconv: main (fraction (copy1 null)) (temperature (prefixed_temperature_unit milli fahrenheit) (temperature_unit celsius))
-UnitconvApp: convert 0 m°F to °C
+Unitconv: main (fraction (copy2 (pair null null))) (mass (prefixed_mass_unit nano ton) (prefixed_mass_unit tera ton))
+UnitconvApp: convert 0.0 nt to Tt
 
-UnitconvEst: null milli fahrenheiti kraadides
+UnitconvEst: null koma null nano tonni tera tonnides
 
 
-Unitconv: main (fraction (copy1 null)) (conv_power (power_unit watt) (prefixed_power_unit deci watt))
-UnitconvApp: convert 0 W to dW
+Unitconv: main (fraction three_quarters) (currency usd chf)
+UnitconvApp: convert 0.75 USD to CHF
 
-UnitconvEst: null vatti detsi vattides
+UnitconvEst: kolm veerand dollarit frankides
 
 
-Unitconv: general fraction_default jpy (fraction_copy (fraction three_quarters)) (time_unit year) (fraction_copy (fraction (neg1 null))) sek fraction_default (time_unit decade)
-UnitconvApp: ((( convert JPY to SEK ) / ( convert year to decade )) * ((1 * 1) / (0.75 * -0)))
+Unitconv: general (fraction_copy (fraction one_and_half)) cad (fraction_copy (fraction three_quarters)) (time_unit nano_second) (fraction_copy (fraction pi)) chf fraction_default (time_unit second)
+UnitconvApp: ((( convert CAD to CHF ) / ( convert ns to s )) * ((1.5 * 1) / (0.75 * PI)))
 
-UnitconvEst: jeeni kolm veerand aastas teeb dekaadis miinus null rootsi kroonides
+UnitconvEst: pool teist kanada dollarit kolm veerand nano sekundis teeb sekundis Pii frankides
 
 
-Unitconv: main (fraction pi) (conv_acceleration (acceleration (prefixed_length_unit giga yard) (time_unit second)) (acceleration (length_unit inch) (time_unit nano_second)))
-UnitconvApp: convert PI Gyd*s^-2 to in*ns^-2
+Unitconv: general fraction_default eek fraction_default (time_unit minute) (fraction_copy (fraction (neg2 (pair null null)))) gbp fraction_default (time_unit month)
+UnitconvApp: ((( convert EEK to GBP ) / ( convert min to month )) * ((1 * 1) / (1 * (-0.0))))
 
-UnitconvEst: Pii giga jardi ruut sekundis tollides ruut nano sekundis
+UnitconvEst: krooni minutis teeb kuus miinus null koma null naelades
 
 
-Unitconv: main (fraction three_quarters) (conv_acceleration (acceleration2 (speed (length_unit mile) (time_unit minute)) (time_unit hour)) (acceleration2 (speed_unit the_speed_of_light) (time_unit nano_second)))
-UnitconvApp: convert 0.75 mi/min/h to c/ns
+Unitconv: main (fraction (copy1 null)) (conv_acceleration (acceleration (prefixed_length_unit deka foot) (time_unit hour)) (acceleration (prefixed_length_unit micro meter) (time_unit week)))
+UnitconvApp: convert 0 daft*h^-2 to µm*week^-2
 
-UnitconvEst: kolm veerand miili minutis tunnis valgus kiirustes nano sekundis
+UnitconvEst: null deka jalga ruut tunnis mikro meetrites ruut nädalas
 
 
-Unitconv: main (fraction (neg1 null)) (frequency (prefixed_frequency_unit nano hertz) (prefixed_frequency_unit tera hertz))
-UnitconvApp: convert -0 nHz to THz
+Unitconv: general (fraction_copy (fraction one_and_half)) isk (fraction_copy (fraction (neg2 (pair null null)))) (time_unit milli_second) (fraction_copy (fraction (neg1 null))) aud (fraction_copy (fraction (copy2 (pair null null)))) (time_unit milli_second)
+UnitconvApp: ((( convert ISK to AUD ) / ( convert ms to ms )) * ((1.5 * 0.0) / ((-0.0) * (-0))))
 
-UnitconvEst: miinus null nano hertsi tera hertsides
+UnitconvEst: pool teist islandi krooni miinus null koma null milli sekundis teeb null koma null milli sekundis miinus null austraalia dollarites
 
 
-Unitconv: general (fraction_copy (fraction (neg2 (pair null null)))) nok fraction_default (time_unit week) fraction_default eek (fraction_copy (fraction half)) (time_unit decade)
-UnitconvApp: ((( convert NOK to EEK ) / ( convert week to decade )) * ((-0.0 * 0.5) / (1 * 1)))
+Unitconv: general (fraction_copy (fraction half)) jpy fraction_default (time_unit day) (fraction_copy (fraction quarter)) nok fraction_default (time_unit milli_second)
+UnitconvApp: ((( convert JPY to NOK ) / ( convert day to ms )) * ((0.5 * 1) / (1 * 0.25)))
 
-UnitconvEst: miinus null koma null norra krooni nädalas teeb pool dekaadis kroonides
+UnitconvEst: pool jeeni päevas teeb milli sekundis veerand norra kroonides
 
 
-Unitconv: general fraction_default usd (fraction_copy (fraction (neg1 null))) (time_unit century) fraction_default cad fraction_default (time_unit second)
-UnitconvApp: ((( convert USD to CAD ) / ( convert century to s )) * ((1 * 1) / (-0 * 1)))
+Unitconv: main (fraction quarter) (temperature (prefixed_temperature_unit tera fahrenheit) (prefixed_temperature_unit deka celsius))
+UnitconvApp: convert 0.25 T°F to da°C
 
-UnitconvEst: dollarit miinus null sajandis teeb sekundis kanada dollarites
+UnitconvEst: veerand tera fahrenheiti deka kraadides
 
 
-Unitconv: general (fraction_copy (fraction one_and_half)) gbp (fraction_copy (fraction half)) (time_unit second) fraction_default sek fraction_default (time_unit second)
-UnitconvApp: ((( convert GBP to SEK ) / ( convert s to s )) * ((1.5 * 1) / (0.5 * 1)))
+Unitconv: main (fraction (copy2 (pair null null))) (currency dkk dkk)
+UnitconvApp: convert 0.0 DKK to DKK
 
-UnitconvEst: pool teist naela pool sekundis teeb sekundis rootsi kroonides
+UnitconvEst: null koma null taani krooni taani kroonides
 
 
-Unitconv: general fraction_default cad fraction_default (time_unit decade) fraction_default usd (fraction_copy (fraction (neg1 null))) (time_unit week)
-UnitconvApp: ((( convert CAD to USD ) / ( convert decade to week )) * ((1 * -0) / (1 * 1)))
+Unitconv: general fraction_default jpy (fraction_copy (fraction (copy2 (pair null null)))) (time_unit decade) fraction_default nzd (fraction_copy (fraction (neg1 null))) (time_unit minute)
+UnitconvApp: ((( convert JPY to NZD ) / ( convert decade to min )) * ((1 * (-0)) / (0.0 * 1)))
 
-UnitconvEst: kanada dollarit dekaadis teeb miinus null nädalas dollarites
+UnitconvEst: jeeni null koma null dekaadis teeb miinus null minutis uus mere maa dollarites
 
 
-Unitconv: main (fraction quarter) (currency jpy gbp)
-UnitconvApp: convert 0.25 JPY to GBP
+Unitconv: main (fraction one_and_half) (conv_acceleration (acceleration (prefixed_length_unit nano meter) (time_unit decade)) (acceleration2 (speed_unit the_speed_of_light) (time_unit nano_second)))
+UnitconvApp: convert 1.5 nm*decade^-2 to c/ns
 
-UnitconvEst: veerand jeeni naelades
+UnitconvEst: pool teist nano meetrit ruut dekaadis valgus kiirustes nano sekundis
 
 
-Unitconv: general (fraction_copy (fraction pi)) huf fraction_default (time_unit month) fraction_default nzd fraction_default (time_unit week)
-UnitconvApp: ((( convert HUF to NZD ) / ( convert month to week )) * ((PI * 1) / (1 * 1)))
+Unitconv: main (fraction three_quarters) (conv_speed (speed (prefixed_length_unit mega mile) (time_unit micro_second)) (speed (length_unit foot) (time_unit second)))
+UnitconvApp: convert 0.75 Mmi/µs to ft/s
 
-UnitconvEst: Pii forintit kuus teeb nädalas uus mere maa dollarites
+UnitconvEst: kolm veerand mega miili mikro sekundis jalgades sekundis
 
 
 

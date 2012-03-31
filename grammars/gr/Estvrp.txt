@@ -1,301 +1,301 @@
-Estvrp: estvrp d5 d7 d9 le ly li
-EstvrpApp: 5 7 9 e y i
+Estvrp: estvrp n2 n4 n8 ly luuml lc
+EstvrpApp: 2 4 8 y ä c
 
-EstvrpEst: viis seitse üheksa eeee igrek iiii
+EstvrpEst: kaks neli kaheksa igrek ääää tseesar
 
 
-Estvrp: estvrp d5 d6 d4 ly ll lk
-EstvrpApp: 5 6 4 y l k
+Estvrp: estvrp n6 n7 n1 lp lzcaron ln
+EstvrpApp: 6 7 1 p z~ n
 
-EstvrpEst: viis kuus neli igrek ell kaaaa
+EstvrpEst: kuus seitse üks peeee z~eeee enn
 
 
-Estvrp: estvrp d9 d7 d9 lj luuml ln
-EstvrpApp: 9 7 9 j ä n
+Estvrp: estvrp n1 n6 n7 lscaron lc lz
+EstvrpApp: 1 6 7 s~ c z
 
-EstvrpEst: üheksa seitse üheksa jott ääää enn
+EstvrpEst: üks kuus seitse s~aaaa tseesar tsett
 
 
-Estvrp: estvrp d3 d5 d5 la lm luuml
-EstvrpApp: 3 5 5 a m ä
+Estvrp: estvrp n4 n7 n6 lq lotilde la
+EstvrpApp: 4 7 6 q õ a
 
-EstvrpEst: kolm viis viis alfa emm ääää
+EstvrpEst: neli seitse kuus kuuuu õõõõ alfa
 
 
-Estvrp: estvrp d4 d4 d7 lr lp lz
-EstvrpApp: 4 4 7 r p z
+Estvrp: estvrp n9 n6 n5 ln lp lzcaron
+EstvrpApp: 9 6 5 n p z~
 
-EstvrpEst: neli neli seitse err peeee tsett
+EstvrpEst: üheksa kuus viis enn peeee z~eeee
 
 
-Estvrp: estvrp d7 d3 d1 lo lzcaron louml
-EstvrpApp: 7 3 1 o z~ ö
+Estvrp: estvrp n9 n4 n7 lp lg lz
+EstvrpApp: 9 4 7 p g z
 
-EstvrpEst: seitse kolm üks oooo z~eeee öööö
+EstvrpEst: üheksa neli seitse peeee geeee tsett
 
 
-Estvrp: estvrp d6 d3 d0 lj lf lw
-EstvrpApp: 6 3 0 j f w
+Estvrp: estvrp n4 n2 n9 lk lh lv
+EstvrpApp: 4 2 9 k h v
 
-EstvrpEst: kuus kolm null jott eff kaksisvee
+EstvrpEst: neli kaks üheksa kaaaa haaaa veeee
 
 
-Estvrp: estvrp d0 d6 d2 lz lx lscaron
-EstvrpApp: 0 6 2 z x s~
+Estvrp: estvrp n2 n7 n3 ls lh le
+EstvrpApp: 2 7 3 s h e
 
-EstvrpEst: null kuus kaks tsett iks s~aaaa
+EstvrpEst: kaks seitse kolm ess haaaa eeee
 
 
-Estvrp: estvrp d0 d3 d3 ll lh lo
-EstvrpApp: 0 3 3 l h o
+Estvrp: estvrp n9 n7 n8 ly lf lq
+EstvrpApp: 9 7 8 y f q
 
-EstvrpEst: null kolm kolm ell haaaa oooo
+EstvrpEst: üheksa seitse kaheksa igrek eff kuuuu
 
 
-Estvrp: estvrp d8 d3 d2 lu lr lo
-EstvrpApp: 8 3 2 u r o
+Estvrp: estvrp n9 n4 n0 le lr lp
+EstvrpApp: 9 4 0 e r p
 
-EstvrpEst: kaheksa kolm kaks uuuu err oooo
+EstvrpEst: üheksa neli null eeee err peeee
 
 
-Estvrp: estvrp d6 d8 d4 lk la lx
-EstvrpApp: 6 8 4 k a x
+Estvrp: estvrp n4 n3 n0 li lr lm
+EstvrpApp: 4 3 0 i r m
 
-EstvrpEst: kuus kaheksa neli kaaaa alfa iks
+EstvrpEst: neli kolm null iiii err emm
 
 
-Estvrp: estvrp d5 d5 d6 ln lb ld
-EstvrpApp: 5 5 6 n b d
+Estvrp: estvrp n6 n3 n5 ln ls le
+EstvrpApp: 6 3 5 n s e
 
-EstvrpEst: viis viis kuus enn berta deeee
+EstvrpEst: kuus kolm viis enn ess eeee
 
 
-Estvrp: estvrp d0 d6 d0 la la lz
-EstvrpApp: 0 6 0 a a z
+Estvrp: estvrp n5 n1 n9 ls lp lp
+EstvrpApp: 5 1 9 s p p
 
-EstvrpEst: null kuus null alfa alfa tsett
+EstvrpEst: viis üks üheksa ess peeee peeee
 
 
-Estvrp: estvrp d8 d6 d4 li lw lc
-EstvrpApp: 8 6 4 i w c
+Estvrp: estvrp n0 n5 n9 lx lx lv
+EstvrpApp: 0 5 9 x x v
 
-EstvrpEst: kaheksa kuus neli iiii kaksisvee tseesar
+EstvrpEst: null viis üheksa iks iks veeee
 
 
-Estvrp: estvrp d3 d8 d2 ln lg ln
-EstvrpApp: 3 8 2 n g n
+Estvrp: estvrp n4 n7 n4 lzcaron lw lx
+EstvrpApp: 4 7 4 z~ w x
 
-EstvrpEst: kolm kaheksa kaks enn geeee enn
+EstvrpEst: neli seitse neli z~eeee kaksisvee iks
 
 
-Estvrp: estvrp d3 d5 d3 lotilde lz lf
-EstvrpApp: 3 5 3 õ z f
+Estvrp: estvrp n7 n0 n9 lauml ls la
+EstvrpApp: 7 0 9 ü s a
 
-EstvrpEst: kolm viis kolm õõõõ tsett eff
+EstvrpEst: seitse null üheksa üüüü ess alfa
 
 
-Estvrp: estvrp d0 d7 d7 lc lw lscaron
-EstvrpApp: 0 7 7 c w s~
+Estvrp: estvrp n0 n8 n3 lf luuml ll
+EstvrpApp: 0 8 3 f ä l
 
-EstvrpEst: null seitse seitse tseesar kaksisvee s~aaaa
+EstvrpEst: null kaheksa kolm eff ääää ell
 
 
-Estvrp: estvrp d8 d6 d6 louml lf lg
-EstvrpApp: 8 6 6 ö f g
+Estvrp: estvrp n7 n2 n1 lt lzcaron lm
+EstvrpApp: 7 2 1 t z~ m
 
-EstvrpEst: kaheksa kuus kuus öööö eff geeee
+EstvrpEst: seitse kaks üks teeee z~eeee emm
 
 
-Estvrp: estvrp d4 d9 d5 lr lu lzcaron
-EstvrpApp: 4 9 5 r u z~
+Estvrp: estvrp n1 n9 n1 lb ly lw
+EstvrpApp: 1 9 1 b y w
 
-EstvrpEst: neli üheksa viis err uuuu z~eeee
+EstvrpEst: üks üheksa üks berta igrek kaksisvee
 
 
-Estvrp: estvrp d8 d6 d2 ls lj lb
-EstvrpApp: 8 6 2 s j b
+Estvrp: estvrp n9 n1 n9 lz lotilde lg
+EstvrpApp: 9 1 9 z õ g
 
-EstvrpEst: kaheksa kuus kaks ess jott berta
+EstvrpEst: üheksa üks üheksa tsett õõõõ geeee
 
 
-Estvrp: estvrp d1 d3 d6 ln lr lt
-EstvrpApp: 1 3 6 n r t
+Estvrp: estvrp n2 n9 n5 lr lotilde lv
+EstvrpApp: 2 9 5 r õ v
 
-EstvrpEst: üks kolm kuus enn err teeee
+EstvrpEst: kaks üheksa viis err õõõõ veeee
 
 
-Estvrp: estvrp d3 d8 d4 lt luuml lu
-EstvrpApp: 3 8 4 t ä u
+Estvrp: estvrp n8 n5 n7 lm lzcaron ls
+EstvrpApp: 8 5 7 m z~ s
 
-EstvrpEst: kolm kaheksa neli teeee ääää uuuu
+EstvrpEst: kaheksa viis seitse emm z~eeee ess
 
 
-Estvrp: estvrp d0 d1 d5 lh la ld
-EstvrpApp: 0 1 5 h a d
+Estvrp: estvrp n6 n0 n6 lr ld ls
+EstvrpApp: 6 0 6 r d s
 
-EstvrpEst: null üks viis haaaa alfa deeee
+EstvrpEst: kuus null kuus err deeee ess
 
 
-Estvrp: estvrp d1 d2 d5 lr lr ln
-EstvrpApp: 1 2 5 r r n
+Estvrp: estvrp n8 n5 n7 luuml lotilde lf
+EstvrpApp: 8 5 7 ä õ f
 
-EstvrpEst: üks kaks viis err err enn
+EstvrpEst: kaheksa viis seitse ääää õõõõ eff
 
 
-Estvrp: estvrp d8 d6 d4 lauml lp la
-EstvrpApp: 8 6 4 ü p a
+Estvrp: estvrp n7 n3 n2 ls lp lj
+EstvrpApp: 7 3 2 s p j
 
-EstvrpEst: kaheksa kuus neli üüüü peeee alfa
+EstvrpEst: seitse kolm kaks ess peeee jott
 
 
-Estvrp: estvrp d0 d0 d0 lx ly lzcaron
-EstvrpApp: 0 0 0 x y z~
+Estvrp: estvrp n2 n2 n7 lh ls lk
+EstvrpApp: 2 2 7 h s k
 
-EstvrpEst: null null null iks igrek z~eeee
+EstvrpEst: kaks kaks seitse haaaa ess kaaaa
 
 
-Estvrp: estvrp d4 d7 d7 louml lb ly
-EstvrpApp: 4 7 7 ö b y
+Estvrp: estvrp n5 n5 n3 lauml lx la
+EstvrpApp: 5 5 3 ü x a
 
-EstvrpEst: neli seitse seitse öööö berta igrek
+EstvrpEst: viis viis kolm üüüü iks alfa
 
 
-Estvrp: estvrp d8 d7 d3 lc lp li
-EstvrpApp: 8 7 3 c p i
+Estvrp: estvrp n0 n8 n7 lw lz lj
+EstvrpApp: 0 8 7 w z j
 
-EstvrpEst: kaheksa seitse kolm tseesar peeee iiii
+EstvrpEst: null kaheksa seitse kaksisvee tsett jott
 
 
-Estvrp: estvrp d4 d2 d3 lz lq louml
-EstvrpApp: 4 2 3 z q ö
+Estvrp: estvrp n8 n3 n8 lu le lv
+EstvrpApp: 8 3 8 u e v
 
-EstvrpEst: neli kaks kolm tsett kuuuu öööö
+EstvrpEst: kaheksa kolm kaheksa uuuu eeee veeee
 
 
-Estvrp: estvrp d4 d2 d6 le lauml luuml
-EstvrpApp: 4 2 6 e ü ä
+Estvrp: estvrp n1 n5 n9 lauml lb li
+EstvrpApp: 1 5 9 ü b i
 
-EstvrpEst: neli kaks kuus eeee üüüü ääää
+EstvrpEst: üks viis üheksa üüüü berta iiii
 
 
-Estvrp: estvrp d0 d9 d3 lx lk lz
-EstvrpApp: 0 9 3 x k z
+Estvrp: estvrp n6 n4 n1 lzcaron ld lw
+EstvrpApp: 6 4 1 z~ d w
 
-EstvrpEst: null üheksa kolm iks kaaaa tsett
+EstvrpEst: kuus neli üks z~eeee deeee kaksisvee
 
 
-Estvrp: estvrp d4 d6 d8 lauml ls li
-EstvrpApp: 4 6 8 ü s i
+Estvrp: estvrp n3 n9 n2 lb le lf
+EstvrpApp: 3 9 2 b e f
 
-EstvrpEst: neli kuus kaheksa üüüü ess iiii
+EstvrpEst: kolm üheksa kaks berta eeee eff
 
 
-Estvrp: estvrp d7 d6 d3 lb lx le
-EstvrpApp: 7 6 3 b x e
+Estvrp: estvrp n2 n9 n4 lw li lscaron
+EstvrpApp: 2 9 4 w i s~
 
-EstvrpEst: seitse kuus kolm berta iks eeee
+EstvrpEst: kaks üheksa neli kaksisvee iiii s~aaaa
 
 
-Estvrp: estvrp d9 d9 d7 lq luuml ll
-EstvrpApp: 9 9 7 q ä l
+Estvrp: estvrp n1 n8 n8 lq lf ly
+EstvrpApp: 1 8 8 q f y
 
-EstvrpEst: üheksa üheksa seitse kuuuu ääää ell
+EstvrpEst: üks kaheksa kaheksa kuuuu eff igrek
 
 
-Estvrp: estvrp d4 d8 d6 louml lh lq
-EstvrpApp: 4 8 6 ö h q
+Estvrp: estvrp n2 n9 n3 ly lh louml
+EstvrpApp: 2 9 3 y h ö
 
-EstvrpEst: neli kaheksa kuus öööö haaaa kuuuu
+EstvrpEst: kaks üheksa kolm igrek haaaa öööö
 
 
-Estvrp: estvrp d2 d1 d9 lr lotilde lm
-EstvrpApp: 2 1 9 r õ m
+Estvrp: estvrp n6 n6 n9 lauml lb ly
+EstvrpApp: 6 6 9 ü b y
 
-EstvrpEst: kaks üks üheksa err õõõõ emm
+EstvrpEst: kuus kuus üheksa üüüü berta igrek
 
 
-Estvrp: estvrp d0 d2 d6 li luuml lauml
-EstvrpApp: 0 2 6 i ä ü
+Estvrp: estvrp n1 n0 n5 lv lu lzcaron
+EstvrpApp: 1 0 5 v u z~
 
-EstvrpEst: null kaks kuus iiii ääää üüüü
+EstvrpEst: üks null viis veeee uuuu z~eeee
 
 
-Estvrp: estvrp d8 d9 d0 lu ls lt
-EstvrpApp: 8 9 0 u s t
+Estvrp: estvrp n3 n4 n4 lj ls lu
+EstvrpApp: 3 4 4 j s u
 
-EstvrpEst: kaheksa üheksa null uuuu ess teeee
+EstvrpEst: kolm neli neli jott ess uuuu
 
 
-Estvrp: estvrp d0 d4 d4 lh lx lp
-EstvrpApp: 0 4 4 h x p
+Estvrp: estvrp n2 n3 n4 lg li lc
+EstvrpApp: 2 3 4 g i c
 
-EstvrpEst: null neli neli haaaa iks peeee
+EstvrpEst: kaks kolm neli geeee iiii tseesar
 
 
-Estvrp: estvrp d6 d6 d2 lx lr lauml
-EstvrpApp: 6 6 2 x r ü
+Estvrp: estvrp n6 n0 n7 lw lr lzcaron
+EstvrpApp: 6 0 7 w r z~
 
-EstvrpEst: kuus kuus kaks iks err üüüü
+EstvrpEst: kuus null seitse kaksisvee err z~eeee
 
 
-Estvrp: estvrp d2 d9 d5 li louml ly
-EstvrpApp: 2 9 5 i ö y
+Estvrp: estvrp n6 n9 n9 lscaron lb ly
+EstvrpApp: 6 9 9 s~ b y
 
-EstvrpEst: kaks üheksa viis iiii öööö igrek
+EstvrpEst: kuus üheksa üheksa s~aaaa berta igrek
 
 
-Estvrp: estvrp d9 d5 d9 lg louml lw
-EstvrpApp: 9 5 9 g ö w
+Estvrp: estvrp n3 n6 n9 lu lotilde lauml
+EstvrpApp: 3 6 9 u õ ü
 
-EstvrpEst: üheksa viis üheksa geeee öööö kaksisvee
+EstvrpEst: kolm kuus üheksa uuuu õõõõ üüüü
 
 
-Estvrp: estvrp d2 d1 d1 lk la lscaron
-EstvrpApp: 2 1 1 k a s~
+Estvrp: estvrp n7 n6 n0 ll lotilde lo
+EstvrpApp: 7 6 0 l õ o
 
-EstvrpEst: kaks üks üks kaaaa alfa s~aaaa
+EstvrpEst: seitse kuus null ell õõõõ oooo
 
 
-Estvrp: estvrp d8 d4 d8 lp la lb
-EstvrpApp: 8 4 8 p a b
+Estvrp: estvrp n3 n3 n3 lotilde lscaron lb
+EstvrpApp: 3 3 3 õ s~ b
 
-EstvrpEst: kaheksa neli kaheksa peeee alfa berta
+EstvrpEst: kolm kolm kolm õõõõ s~aaaa berta
 
 
-Estvrp: estvrp d9 d9 d2 lh lm lb
-EstvrpApp: 9 9 2 h m b
+Estvrp: estvrp n4 n8 n8 lh lf luuml
+EstvrpApp: 4 8 8 h f ä
 
-EstvrpEst: üheksa üheksa kaks haaaa emm berta
+EstvrpEst: neli kaheksa kaheksa haaaa eff ääää
 
 
-Estvrp: estvrp d6 d0 d2 ln lk lr
-EstvrpApp: 6 0 2 n k r
+Estvrp: estvrp n1 n5 n7 ld lk lauml
+EstvrpApp: 1 5 7 d k ü
 
-EstvrpEst: kuus null kaks enn kaaaa err
+EstvrpEst: üks viis seitse deeee kaaaa üüüü
 
 
-Estvrp: estvrp d2 d7 d2 lp ly lx
-EstvrpApp: 2 7 2 p y x
+Estvrp: estvrp n6 n2 n2 lw lr lu
+EstvrpApp: 6 2 2 w r u
 
-EstvrpEst: kaks seitse kaks peeee igrek iks
+EstvrpEst: kuus kaks kaks kaksisvee err uuuu
 
 
-Estvrp: estvrp d8 d6 d2 lg louml luuml
-EstvrpApp: 8 6 2 g ö ä
+Estvrp: estvrp n3 n0 n9 lt lz lt
+EstvrpApp: 3 0 9 t z t
 
-EstvrpEst: kaheksa kuus kaks geeee öööö ääää
+EstvrpEst: kolm null üheksa teeee tsett teeee
 
 
-Estvrp: estvrp d0 d3 d6 lzcaron lk lm
-EstvrpApp: 0 3 6 z~ k m
+Estvrp: estvrp n5 n3 n4 lg lt lm
+EstvrpApp: 5 3 4 g t m
 
-EstvrpEst: null kolm kuus z~eeee kaaaa emm
+EstvrpEst: viis kolm neli geeee teeee emm
 
 
-Estvrp: estvrp d3 d7 d0 lv lw lg
-EstvrpApp: 3 7 0 v w g
+Estvrp: estvrp n3 n9 n5 lg lu lauml
+EstvrpApp: 3 9 5 g u ü
 
-EstvrpEst: kolm seitse null veeee kaksisvee geeee
+EstvrpEst: kolm üheksa viis geeee uuuu üüüü
 
 
 

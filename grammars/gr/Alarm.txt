@@ -1,301 +1,301 @@
-Alarm: alarm_time (MkTime H12 M45)
-AlarmApp: alarm 12 : 45
+Alarm: alarm_time (MkTime H21 M56)
+AlarmApp: alarm 21 : 56
 
-AlarmEst: ärata mind kell kaks teist neli kümmend viis
+AlarmEst: ärata mind kell kaks kümmend üks viis kümmend kuus
 
 
-Alarm: alarm_time (MkTime H12 M20)
-AlarmApp: alarm 12 : 20
+Alarm: alarm_period (period_min (mperiod (pot1as2 (pot0as1 pot01))))
+AlarmApp: alarm in 1 minutes
 
-AlarmEst: ärata mind kell kaks teist kaks kümmend
+AlarmEst: ärata mind üks minutit hiljem
 
 
-Alarm: alarm_time (MkTime H13 M36)
-AlarmApp: alarm 13 : 36
+Alarm: alarm_period (period_h_min (hperiod pot110) (mperiod (pot2 pot01)))
+AlarmApp: alarm in 10 hours and 100 minutes
 
-AlarmEst: ärata mind kell kolm teist kolm kümmend kuus
+AlarmEst: ärata mind kümme tundi ja sada minutit hiljem
 
 
-Alarm: alarm_time (MkTime H11 M34)
-AlarmApp: alarm 11 : 34
+Alarm: alarm_time (MkTime H07 M40)
+AlarmApp: alarm 07 : 40
 
-AlarmEst: ärata mind kell üks teist kolm kümmend neli
+AlarmEst: ärata mind kell seitse neli kümmend
 
 
-Alarm: alarm_time (MkTime H13 M41)
-AlarmApp: alarm 13 : 41
+Alarm: alarm_period (period_h_min (hperiod pot111) (mperiod (pot2plus pot01 (pot1plus n9 pot01))))
+AlarmApp: alarm in 11 hours and 191 minutes
 
-AlarmEst: ärata mind kell kolm teist neli kümmend üks
+AlarmEst: ärata mind üks teist tundi ja sada üheksa kümmend üks minutit hiljem
 
 
-Alarm: alarm_time (MkTime H20 M18)
-AlarmApp: alarm 20 : 18
+Alarm: alarm_period (period_min (mperiod (pot2 (pot0 n5))))
+AlarmApp: alarm in 500 minutes
 
-AlarmEst: ärata mind kell kaks kümmend kaheksa teist
+AlarmEst: ärata mind viis sada minutit hiljem
 
 
-Alarm: alarm_time (MkTime H19 M45)
-AlarmApp: alarm 19 : 45
+Alarm: alarm_time (MkTime H09 M21)
+AlarmApp: alarm 09 : 21
 
-AlarmEst: ärata mind kell üheksa teist neli kümmend viis
+AlarmEst: ärata mind kell üheksa kaks kümmend üks
 
 
-Alarm: alarm_time (MkTime H06 M24)
-AlarmApp: alarm 06 : 24
+Alarm: alarm_period (period_h_min (hperiod (pot1plus n5 pot01)) (mperiod (pot1as2 pot111)))
+AlarmApp: alarm in 51 hours and 11 minutes
 
-AlarmEst: ärata mind kell kuus kaks kümmend neli
+AlarmEst: ärata mind viis kümmend üks tundi ja üks teist minutit hiljem
 
 
-Alarm: alarm_time (MkTime H13 M58)
-AlarmApp: alarm 13 : 58
+Alarm: alarm_period (period_min (mperiod (pot1as2 (pot1 n9))))
+AlarmApp: alarm in 90 minutes
 
-AlarmEst: ärata mind kell kolm teist viis kümmend kaheksa
+AlarmEst: ärata mind üheksa kümmend minutit hiljem
 
 
-Alarm: alarm_time (MkTime H01 M27)
-AlarmApp: alarm 01 : 27
+Alarm: alarm_time (MkTime H11 M43)
+AlarmApp: alarm 11 : 43
 
-AlarmEst: ärata mind kell üks kaks kümmend seitse
+AlarmEst: ärata mind kell üks teist neli kümmend kolm
 
 
-Alarm: alarm_time (MkTime H22 M33)
-AlarmApp: alarm 22 : 33
+Alarm: alarm_time (MkTime H17 M23)
+AlarmApp: alarm 17 : 23
 
-AlarmEst: ärata mind kell kaks kümmend kaks kolm kümmend kolm
+AlarmEst: ärata mind kell seitse teist kaks kümmend kolm
 
 
-Alarm: alarm_time (MkTime H18 M42)
-AlarmApp: alarm 18 : 42
+Alarm: alarm_period (period_min (mperiod (pot1as2 pot110)))
+AlarmApp: alarm in 10 minutes
 
-AlarmEst: ärata mind kell kaheksa teist neli kümmend kaks
+AlarmEst: ärata mind kümme minutit hiljem
 
 
-Alarm: alarm_time (MkTime H04 M57)
-AlarmApp: alarm 04 : 57
+Alarm: alarm_period (period_min (mperiod (pot2plus (pot0 n4) pot110)))
+AlarmApp: alarm in 410 minutes
 
-AlarmEst: ärata mind kell neli viis kümmend seitse
+AlarmEst: ärata mind neli sada kümme minutit hiljem
 
 
-Alarm: alarm_time (MkTime H04 M31)
-AlarmApp: alarm 04 : 31
+Alarm: alarm_period (period_h_min (hperiod pot110) (mperiod (pot1as2 (pot1 n7))))
+AlarmApp: alarm in 10 hours and 70 minutes
 
-AlarmEst: ärata mind kell neli kolm kümmend üks
+AlarmEst: ärata mind kümme tundi ja seitse kümmend minutit hiljem
 
 
-Alarm: alarm_time (MkTime H06 M49)
-AlarmApp: alarm 06 : 49
+Alarm: alarm_time (MkTime H23 M01)
+AlarmApp: alarm 23 : 01
 
-AlarmEst: ärata mind kell kuus neli kümmend üheksa
+AlarmEst: ärata mind kell kaks kümmend kolm null üks
 
 
-Alarm: alarm_time (MkTime H15 M34)
-AlarmApp: alarm 15 : 34
+Alarm: alarm_time (MkTime H05 M12)
+AlarmApp: alarm 05 : 12
 
-AlarmEst: ärata mind kell viis teist kolm kümmend neli
+AlarmEst: ärata mind kell viis kaks teist
 
 
-Alarm: alarm_time (MkTime H19 M04)
-AlarmApp: alarm 19 : 04
+Alarm: alarm_period (period_min (mperiod (pot2 (pot0 n6))))
+AlarmApp: alarm in 600 minutes
 
-AlarmEst: ärata mind kell üheksa teist null neli
+AlarmEst: ärata mind kuus sada minutit hiljem
 
 
-Alarm: alarm_time (MkTime H21 M13)
-AlarmApp: alarm 21 : 13
+Alarm: alarm_period (period_min (mperiod (pot1as2 pot110)))
+AlarmApp: alarm in 10 minutes
 
-AlarmEst: ärata mind kell kaks kümmend üks kolm teist
+AlarmEst: ärata mind kümme minutit hiljem
 
 
-Alarm: alarm_time (MkTime H17 M39)
-AlarmApp: alarm 17 : 39
+Alarm: alarm_period (period_h_min (hperiod (pot0as1 pot01)) (mperiod (pot1as2 (pot1to19 n8))))
+AlarmApp: alarm in 1 hours and 18 minutes
 
-AlarmEst: ärata mind kell seitse teist kolm kümmend üheksa
+AlarmEst: ärata mind üks tundi ja kaheksa teist minutit hiljem
 
 
-Alarm: alarm_time (MkTime H04 M36)
-AlarmApp: alarm 04 : 36
+Alarm: alarm_time (MkTime H11 M17)
+AlarmApp: alarm 11 : 17
 
-AlarmEst: ärata mind kell neli kolm kümmend kuus
+AlarmEst: ärata mind kell üks teist seitse teist
 
 
-Alarm: alarm_time (MkTime H11 M48)
-AlarmApp: alarm 11 : 48
+Alarm: alarm_period (period_h_min (hperiod (pot1plus n7 (pot0 n8))) (mperiod (pot2plus (pot0 n2) (pot1 n4))))
+AlarmApp: alarm in 78 hours and 240 minutes
 
-AlarmEst: ärata mind kell üks teist neli kümmend kaheksa
+AlarmEst: ärata mind seitse kümmend kaheksa tundi ja kaks sada neli kümmend minutit hiljem
 
 
-Alarm: alarm_time (MkTime H06 M27)
-AlarmApp: alarm 06 : 27
+Alarm: alarm_period (period_min (mperiod (pot1as2 pot111)))
+AlarmApp: alarm in 11 minutes
 
-AlarmEst: ärata mind kell kuus kaks kümmend seitse
+AlarmEst: ärata mind üks teist minutit hiljem
 
 
-Alarm: alarm_time (MkTime H07 M06)
-AlarmApp: alarm 07 : 06
+Alarm: alarm_time (MkTime H08 M15)
+AlarmApp: alarm 08 : 15
 
-AlarmEst: ärata mind kell seitse null kuus
+AlarmEst: ärata mind kell kaheksa viis teist
 
 
-Alarm: alarm_time (MkTime H18 M10)
-AlarmApp: alarm 18 : 10
+Alarm: alarm_time (MkTime H01 M09)
+AlarmApp: alarm 01 : 09
 
-AlarmEst: ärata mind kell kaheksa teist kümme
+AlarmEst: ärata mind kell üks null üheksa
 
 
-Alarm: alarm_time (MkTime H06 M05)
-AlarmApp: alarm 06 : 05
+Alarm: alarm_period (period_min (mperiod (pot2 (pot0 n3))))
+AlarmApp: alarm in 300 minutes
 
-AlarmEst: ärata mind kell kuus null viis
+AlarmEst: ärata mind kolm sada minutit hiljem
 
 
-Alarm: alarm_time (MkTime H15 M04)
-AlarmApp: alarm 15 : 04
+Alarm: alarm_time (MkTime H03 M14)
+AlarmApp: alarm 03 : 14
 
-AlarmEst: ärata mind kell viis teist null neli
+AlarmEst: ärata mind kell kolm neli teist
 
 
-Alarm: alarm_time (MkTime H21 M54)
-AlarmApp: alarm 21 : 54
+Alarm: alarm_time (MkTime H10 M25)
+AlarmApp: alarm 10 : 25
 
-AlarmEst: ärata mind kell kaks kümmend üks viis kümmend neli
+AlarmEst: ärata mind kell kümme kaks kümmend viis
 
 
-Alarm: alarm_time (MkTime H17 M33)
-AlarmApp: alarm 17 : 33
+Alarm: alarm_period (period_min (mperiod (pot2 (pot0 n6))))
+AlarmApp: alarm in 600 minutes
 
-AlarmEst: ärata mind kell seitse teist kolm kümmend kolm
+AlarmEst: ärata mind kuus sada minutit hiljem
 
 
-Alarm: alarm_time (MkTime H21 M26)
-AlarmApp: alarm 21 : 26
+Alarm: alarm_time (MkTime H21 M59)
+AlarmApp: alarm 21 : 59
 
-AlarmEst: ärata mind kell kaks kümmend üks kaks kümmend kuus
+AlarmEst: ärata mind kell kaks kümmend üks viis kümmend üheksa
 
 
-Alarm: alarm_time (MkTime H21 M05)
-AlarmApp: alarm 21 : 05
+Alarm: alarm_time (MkTime H22 M39)
+AlarmApp: alarm 22 : 39
 
-AlarmEst: ärata mind kell kaks kümmend üks null viis
+AlarmEst: ärata mind kell kaks kümmend kaks kolm kümmend üheksa
 
 
-Alarm: alarm_time (MkTime H14 M28)
-AlarmApp: alarm 14 : 28
+Alarm: alarm_period (period_min (mperiod (pot1as2 pot110)))
+AlarmApp: alarm in 10 minutes
 
-AlarmEst: ärata mind kell neli teist kaks kümmend kaheksa
+AlarmEst: ärata mind kümme minutit hiljem
 
 
-Alarm: alarm_time (MkTime H01 M57)
-AlarmApp: alarm 01 : 57
+Alarm: alarm_time (MkTime H15 M47)
+AlarmApp: alarm 15 : 47
 
-AlarmEst: ärata mind kell üks viis kümmend seitse
+AlarmEst: ärata mind kell viis teist neli kümmend seitse
 
 
-Alarm: alarm_time (MkTime H19 M25)
-AlarmApp: alarm 19 : 25
+Alarm: alarm_period (period_min (mperiod (pot2 pot01)))
+AlarmApp: alarm in 100 minutes
 
-AlarmEst: ärata mind kell üheksa teist kaks kümmend viis
+AlarmEst: ärata mind sada minutit hiljem
 
 
-Alarm: alarm_time (MkTime H02 M16)
-AlarmApp: alarm 02 : 16
+Alarm: alarm_period (period_min (mperiod (pot1as2 (pot1to19 n7))))
+AlarmApp: alarm in 17 minutes
 
-AlarmEst: ärata mind kell kaks kuus teist
+AlarmEst: ärata mind seitse teist minutit hiljem
 
 
-Alarm: alarm_time (MkTime H21 M02)
-AlarmApp: alarm 21 : 02
+Alarm: alarm_period (period_min (mperiod (pot2 pot01)))
+AlarmApp: alarm in 100 minutes
 
-AlarmEst: ärata mind kell kaks kümmend üks null kaks
+AlarmEst: ärata mind sada minutit hiljem
 
 
-Alarm: alarm_time (MkTime H02 M12)
-AlarmApp: alarm 02 : 12
+Alarm: alarm_period (period_min (mperiod (pot2plus pot01 (pot1 n8))))
+AlarmApp: alarm in 180 minutes
 
-AlarmEst: ärata mind kell kaks kaks teist
+AlarmEst: ärata mind sada kaheksa kümmend minutit hiljem
 
 
-Alarm: alarm_time (MkTime H16 M02)
-AlarmApp: alarm 16 : 02
+Alarm: alarm_period (period_h_min (hperiod (pot0as1 pot01)) (mperiod (pot2 pot01)))
+AlarmApp: alarm in 1 hours and 100 minutes
 
-AlarmEst: ärata mind kell kuus teist null kaks
+AlarmEst: ärata mind üks tundi ja sada minutit hiljem
 
 
-Alarm: alarm_time (MkTime H16 M14)
-AlarmApp: alarm 16 : 14
+Alarm: alarm_period (period_min (mperiod (pot2 (pot0 n6))))
+AlarmApp: alarm in 600 minutes
 
-AlarmEst: ärata mind kell kuus teist neli teist
+AlarmEst: ärata mind kuus sada minutit hiljem
 
 
-Alarm: alarm_time (MkTime H20 M00)
-AlarmApp: alarm 20 : 00
+Alarm: alarm_period (period_h_min (hperiod pot110) (mperiod (pot2plus (pot0 n4) pot110)))
+AlarmApp: alarm in 10 hours and 410 minutes
 
-AlarmEst: ärata mind kell kaks kümmend null null
+AlarmEst: ärata mind kümme tundi ja neli sada kümme minutit hiljem
 
 
-Alarm: alarm_time (MkTime H21 M24)
-AlarmApp: alarm 21 : 24
+Alarm: alarm_period (period_h_min (hperiod (pot1plus n4 pot01)) (mperiod (pot2 pot01)))
+AlarmApp: alarm in 41 hours and 100 minutes
 
-AlarmEst: ärata mind kell kaks kümmend üks kaks kümmend neli
+AlarmEst: ärata mind neli kümmend üks tundi ja sada minutit hiljem
 
 
-Alarm: alarm_time (MkTime H11 M21)
-AlarmApp: alarm 11 : 21
+Alarm: alarm_time (MkTime H02 M50)
+AlarmApp: alarm 02 : 50
 
-AlarmEst: ärata mind kell üks teist kaks kümmend üks
+AlarmEst: ärata mind kell kaks viis kümmend
 
 
-Alarm: alarm_time (MkTime H17 M51)
-AlarmApp: alarm 17 : 51
+Alarm: alarm_time (MkTime H05 M48)
+AlarmApp: alarm 05 : 48
 
-AlarmEst: ärata mind kell seitse teist viis kümmend üks
+AlarmEst: ärata mind kell viis neli kümmend kaheksa
 
 
-Alarm: alarm_time (MkTime H00 M08)
-AlarmApp: alarm 00 : 08
+Alarm: alarm_time (MkTime H11 M29)
+AlarmApp: alarm 11 : 29
 
-AlarmEst: ärata mind kell kaks kümmend neli null kaheksa
+AlarmEst: ärata mind kell üks teist kaks kümmend üheksa
 
 
-Alarm: alarm_time (MkTime H08 M06)
-AlarmApp: alarm 08 : 06
+Alarm: alarm_period (period_h_min (hperiod pot110) (mperiod (pot2plus pot01 (pot1 n3))))
+AlarmApp: alarm in 10 hours and 130 minutes
 
-AlarmEst: ärata mind kell kaheksa null kuus
+AlarmEst: ärata mind kümme tundi ja sada kolm kümmend minutit hiljem
 
 
-Alarm: alarm_time (MkTime H11 M35)
-AlarmApp: alarm 11 : 35
+Alarm: alarm_period (period_h_min (hperiod (pot1plus n5 pot01)) (mperiod (pot1as2 pot110)))
+AlarmApp: alarm in 51 hours and 10 minutes
 
-AlarmEst: ärata mind kell üks teist kolm kümmend viis
+AlarmEst: ärata mind viis kümmend üks tundi ja kümme minutit hiljem
 
 
-Alarm: alarm_time (MkTime H18 M49)
-AlarmApp: alarm 18 : 49
+Alarm: alarm_time (MkTime H05 M00)
+AlarmApp: alarm 05 : 00
 
-AlarmEst: ärata mind kell kaheksa teist neli kümmend üheksa
+AlarmEst: ärata mind kell viis null null
 
 
-Alarm: alarm_time (MkTime H14 M02)
-AlarmApp: alarm 14 : 02
+Alarm: alarm_time (MkTime H23 M22)
+AlarmApp: alarm 23 : 22
 
-AlarmEst: ärata mind kell neli teist null kaks
+AlarmEst: ärata mind kell kaks kümmend kolm kaks kümmend kaks
 
 
-Alarm: alarm_time (MkTime H15 M09)
-AlarmApp: alarm 15 : 09
+Alarm: alarm_period (period_min (mperiod (pot1as2 pot110)))
+AlarmApp: alarm in 10 minutes
 
-AlarmEst: ärata mind kell viis teist null üheksa
+AlarmEst: ärata mind kümme minutit hiljem
 
 
-Alarm: alarm_time (MkTime H04 M17)
-AlarmApp: alarm 04 : 17
+Alarm: alarm_period (period_h_min (hperiod pot111) (mperiod (pot1as2 (pot1plus n9 pot01))))
+AlarmApp: alarm in 11 hours and 91 minutes
 
-AlarmEst: ärata mind kell neli seitse teist
+AlarmEst: ärata mind üks teist tundi ja üheksa kümmend üks minutit hiljem
 
 
-Alarm: alarm_time (MkTime H03 M59)
-AlarmApp: alarm 03 : 59
+Alarm: alarm_period (period_min (mperiod (pot2 pot01)))
+AlarmApp: alarm in 100 minutes
 
-AlarmEst: ärata mind kell kolm viis kümmend üheksa
+AlarmEst: ärata mind sada minutit hiljem
 
 
 
