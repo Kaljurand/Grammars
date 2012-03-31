@@ -2,15 +2,15 @@
 
 # Usage:
 #
-# find . -name "*.gf" | xargs cat | python make_graph.py | dot -Tsvg | display
+# find . -name "*.gf" | xargs cat | ./make-diagram.py --concrete=True | dot -Tsvg | display
 #
 # or
 #
-# find . -name "*.gf" | xargs cat | python make_graph.py > out.dot
+# find . -name "*.gf" | xargs cat | ./make-diagram.py > out.dot
 # dot -Tsvg out.dot > out.svg
 # eog out.svg
 
-"""GF application grammar module hierarchy visualizer
+"""GF grammar module hierarchy visualizer
 """
 
 __author__ = 'kaljurand@gmail.com (Kaarel Kaljurand)'
@@ -67,37 +67,57 @@ def match_concrete(m):
 	supers = re.sub('-?\[[^\]]*\]', '', supers)
 	supers = re.sub('\*\*.*', '', supers)
 	if re.match('^\s*$', supers):
-		#dot_lines.append('"{:}" -> "_concrete_" [color = "green"]'.format(name))
+		#dot_lines.append('"{:}" -> "_concrete_" [color = "darkolivegreen"]'.format(name))
 		return dot_lines
 	for s in supers.split(','):
 		s = s.strip()
 		s = re.sub('\s*-.*', '', s)
-		dot = '"{:}" -> "{:}" [color = "green"]'.format(name, s)
+		dot = '"{:}" -> "{:}" [color = "darkolivegreen"]'.format(name, s)
 		dot_lines.append(dot)
 	return dot_lines
 
 
-def line_to_dot_lines(line):
+def line_to_dot_lines(args, line):
 	"""
-	concrete UnitconvEst of Unitconv = FractionEst, UnitEst ** open Estonian in {
 	abstract Unitconv = Fraction, Unit ** {
+	concrete UnitconvEst of Unitconv = FractionEst, UnitEst ** open Estonian in {
 	"""
 	dot_lines = []
-	m1 = re_abstract.search(line)
-	if m1:
-		print '/* {:} */'.format(line)
-		return match_abstract(m1)
-	m2 = re_concrete.search(line)
-	if m2:
-		print '/* {:} */'.format(line)
-		return match_concrete(m2)
+	if args.abstract:
+		m = re_abstract.search(line)
+		if m:
+			print '/* {:} */'.format(line)
+			return match_abstract(m)
+	if args.concrete:
+		m = re_concrete.search(line)
+		if m:
+			print '/* {:} */'.format(line)
+			return match_concrete(m)
 	return []
+
+
+parser = argparse.ArgumentParser(description='GF grammar module hierarchy visualizer')
+
+parser.add_argument('-a', '--abstract', type=bool, action='store',
+					default=True,
+					dest='abstract',
+					help='output abstract hierarchy')
+
+parser.add_argument('-c', '--concrete', type=bool, action='store',
+					default=False,
+					dest='concrete',
+					help='output concrete hierarchy')
+
+parser.add_argument('-v', '--version', action='version', version='%(prog)s v0.1')
+
+args = parser.parse_args()
+
 
 
 print header_dot
 for raw_line in sys.stdin.readlines():
 	line = raw_line.strip()
-	dot_lines = line_to_dot_lines(line)
+	dot_lines = line_to_dot_lines(args, line)
 	for l in dot_lines:
 		print l
 print footer_dot
