@@ -98,12 +98,12 @@ kaks pluss kolm astmel neli
 kaks pluss kolm astmel neli
 
 
-((2 ^ 3) ^ 4)
+(2 ^ (3 ^ 4))
 
 kaks astmel kolm astmel neli
 
 
-(2 ^ (3 ^ 4))
+((2 ^ 3) ^ 4)
 
 kaks astmel kolm astmel neli
 
