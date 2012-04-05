@@ -4,8 +4,8 @@ Eeppl (Estonian populated places)
 Introduction
 ------------
 
-4333 names of Estonian populated places.
-Based on GeoNames EE.zip of 04-Apr-2012 01:59.
+4330 names of Estonian populated places.
+Based on GeoNames EE.zip of 05-Apr-2012.
 
 
 Origin of this data
@@ -20,10 +20,13 @@ Relevant links:
   * http://download.geonames.org/export/dump/
   * http://www.geonames.org/export/codes.html
   * http://download.geonames.org/export/dump/readme.txt
+  * http://www.geonames.org/recent-changes/country/EE/
 
-The grammar is automatically generated from the GeoNames file and should not
+The grammar is automatically generated from the GeoNames file and should _not_
 be manually edited. In order to improve the names edit the GeoNames source,
 and the changes will propagate into the grammar at some point.
+
+The grammar is updated using the script `update_from_geonames.sh`.
 
 
 Conversion to GF
