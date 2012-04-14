@@ -1,33 +1,28 @@
-alfa
-
-aaaa
+anna
 
 
+a
 
 
 berta
 
-beeee
 
-
+b
 
 
 tseesar
 
-tseeee
+
+c
 
 
-
-
-deeee
-
+daavid
 
 
 d
 
 
-eeee
-
+eedu
 
 
 e
@@ -36,96 +31,82 @@ e
 eff
 
 
-
 f
 
 
-geeee
-
+gustav
 
 
 g
 
 
-haaaa
-
-has~s~
+harald
 
 
+h
 
 
-iiii
-
+iida
 
 
 i
 
 
-jott
-
+jaan
 
 
 j
 
 
-kaaaa
-
+kalle
 
 
 k
 
 
-ell
-
+linda
 
 
 l
 
 
-emm
-
+mati
 
 
 m
 
 
-enn
-
+narva
 
 
 n
 
 
-oooo
-
+oskar
 
 
 o
 
 
-peeee
-
+paul
 
 
 p
 
 
-kuuuu
-
+kuu
 
 
 q
 
 
-err
-
+raivo
 
 
 r
 
 
-ess
-
+salme
 
 
 s
@@ -134,12 +115,10 @@ s
 s~aaaa
 
 
-
 s~
 
 
 tsett
-
 
 
 z
@@ -147,62 +126,53 @@ z
 
 z~eeee
 
-s~eeee
+
+z~
 
 
-
-
-teeee
-
+tango
 
 
 t
 
 
-uuuu
-
+uuno
 
 
 u
 
 
-veeee
-
+viktor
 
 
 v
 
 
-kaksisvee
-
-kaksikvee
+washington
 
 
+w
 
 
-õõõõ
-
+õnne
 
 
 õ
 
 
-üüüü
-
+ülle
 
 
 ü
 
 
-öööö
-
+ööbik
 
 
 ö
 
 
-ääää
-
+ärni
 
 
 ä
@@ -211,14 +181,12 @@ kaksikvee
 iks
 
 
-
 x
 
 
 igrek
 
-üpsilon
 
-
+y
 
 
