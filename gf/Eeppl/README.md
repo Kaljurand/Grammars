@@ -17,8 +17,8 @@ Origin of this data
 -------------------
 
 The names originate from the GeoNames `PPL`-fields (populated places)
-and include only the official name and not any alternative names.
-Based on GeoNames EE.zip of 2012-04-05.
+and include only the official name (i.e. not any alternative names).
+Based on GeoNames EE.zip of 2012-06-14.
 
 Relevant links:
 
@@ -40,7 +40,7 @@ Conversion to GF
 
 Extracting the list of names of populated places (`PPL`) from `EE.txt`:
 
-> cat EE.txt | cut -f2,8 | grep PPL | cut -f1 | sort | uniq | python ../tools/make_fun.py --lang Est Eeppl
+	$ cat EE.txt | cut -f2,8 | grep PPL | cut -f1 | sort | uniq | python ../tools/make_fun.py --lang Est Eeppl
 
 	Warning: Ignoring line 586: Jaunāmuiža
 
