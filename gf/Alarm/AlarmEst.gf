@@ -4,9 +4,12 @@ flags coding = utf8;
 
 lincat Alarm, HPeriod, MPeriod, Period = SS;
 
+oper
+	request : Str = ("ärata mind" ++ optStr "palun") | "palun ärata mind";
+
 lin
-	alarm_time = prefixSS ("ärata mind" ++ optStr "kell");
-	alarm_period p = ss ("ärata mind" ++ p.s ++ "hiljem");
+	alarm_time = prefixSS (request ++ optStr "kell");
+	alarm_period p = ss (request ++ p.s ++ "hiljem");
 
 	hperiod n = ss (n.s ! indep);
 	mperiod n = ss (n.s ! indep);
