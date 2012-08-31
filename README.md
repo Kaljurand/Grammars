@@ -4,28 +4,28 @@ Grammars-project website
 Compiling the website
 ---------------------
 
-> git checkout master
+	git checkout master
 
-> ant clean
+	ant clean
 
-> sh make-diagrams.sh
+	sh make-diagrams.sh
 
-> sh make-pgf.sh
+	sh make-pgf.sh
 
-> git checkout gh-pages
+	git checkout gh-pages
 
-> cp gf/build/gr/* grammars/gr/
+	cp gf/build/gr/* grammars/gr/
 
-> cp gf/*.pgf grammars/pgf/
+	cp gf/*.pgf grammars/pgf/
 
-> cp gf/*.png images/
+	cp gf/*.png images/
 
-> vim index.html # update the date and the commit ID
+	vim index.html # update the date and the commit ID
 
-> git commit -a
+	git commit -a
 
-> git push
+	git push
 
-> git checkout master
+	git checkout master
 
-> # update the grammars on the server
+	# update the grammars on the server
