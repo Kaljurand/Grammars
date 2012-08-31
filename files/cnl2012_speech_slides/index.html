@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Controlled natural language in speech recognition based user interfaces</title>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <link rel="stylesheet" media="all" href="theme/css/default.css"/>
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css"/>
+  <base target="_blank"/> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+<slide class="title-slide nobackground">
+<hgroup>
+<h1 data-config-title></h1>
+</hgroup>
+<article class="flexbox vcenter">
+<p data-config-contact>
+<!-- populated from slide_config.json -->
+</p>
+<p>CNL 2012, Zurich, 2012-08-31</p>
+</article>
+</slide>
+
+
+<slide>
+<hgroup>
+<h2>Speech-based user interfaces</h2>
+</hgroup>
+<article>
+<ul>
+<li>command the computer by human speech (instead of mouse, keyboard, etc.)</li>
+<li>effective and natural in many environments and for many tasks
+<ul>
+<li>hands/eyes free (car, operating room)</li>
+<li>small mobile devices (personal assistants)</li>
+<li>assumes: lack of background noise, privacy concerns</li>
+</ul></li>
+<li>increasingly popular on smart phones
+<ul>
+<li>Apple's Siri, Google Now</li>
+</ul></li>
+<li>dominated by closed-source systems</li>
+<li>not available for smaller languages
+e.g. with less than 1 million speakers
+<ul>
+<li>Google Voice Search supports 42 languages, mostly dictation-only (2012-08-17)</li>
+<li>Siri supports 9 languages</li>
+</ul></li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide class="fill" style="background-image: url(images/Oeraals_verspreiding-af.svg)">
+<aside class="note">
+<section style="background-color: rgba(200, 200, 255, 0.9)">
+<h3>Estonian</h3>
+<ul>
+<li>official language of Estonia</li>
+<li>1.1 million speakers</li>
+<li>belongs to the Finno-Ugric language family</li>
+<li>free word order, complex morphology
+<ul>
+<li>14 noun cases</li>
+</ul></li>
+</ul>
+</section>
+</aside>
+<footer class="source">source: Wikipedia</footer>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Our goals</h2>
+</hgroup>
+<article>
+<ul>
+<li>demonstrate the state of Estonian automatic speech recognition (ASR)
+<ul>
+<li>make widely available as a web service and on smart phones</li>
+</ul>
+</li>
+<li>build usable (90%+ precision) and useful applications, assumes:
+<ul>
+<li>single speaker</li>
+<li>smaller vocabulary</li>
+<li>simpler syntax</li>
+</ul></li>
+<li>provide a platform for building speech-enabled applications
+<ul>
+<li>open source</li>
+<li>modular</li>
+<li>easy to use for a general programmer
+(with no knowledge of speech and language engineering)</li>
+</ul>
+</li>
+<li>build domain-specific grammars for Estonian</li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>CNL definition</h2>
+</hgroup>
+<article>
+<ul>
+<li>clearly defined syntax
+<ul>
+<li>explained to the user via construction rules and example sentences</li>
+</ul></li>
+<li>clearly defined semantics
+<ul>
+<li>explained to the user via interpretation rules and example sentences</li>
+<li>machine executable</li>
+</ul></li>
+<li>ambiguity is controlled
+<ul>
+<li>possibly no ambiguity</li>
+</ul></li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Properties of speech-oriented CNLs</h2>
+</hgroup>
+<article>
+<ul>
+<li>not studied explicitly (e.g. at CNL2009, CNL2010)</li>
+<li>suitable for simpler domains (calculator, unit conversion, alarm clock)</li>
+<li>cannot assume flexible editing, e.g. backtracking, look-ahead</li>
+<li>units must be pronounceable (no punctuation, layout, ...)</li>
+<li>acoustic cues and ambiguity
+<ul>
+<li>background noise</li>
+<li>homophones, e.g. <i>cite</i>, <i>site</i>, <i>sight</i>
+(less of a problem in Estonian)</li>
+<li>oronyms, e.g. <i>I scream</i>, <i>ice scream</i></li>
+<li>sometimes speech gives more cues than standard written form,
+i.e. do not decode into orthographic text</li>
+</ul></li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide class="segue dark nobackground">
+<hgroup class="auto-fadein">
+<h2>CNL grammars</h2>
+<h3>for (Estonian) speech-based UIs</h3>
+</hgroup>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Requirements for the grammar formalism</h2>
+</hgroup>
+<article>
+<ul>
+<li>mapping between human and machine language
+<ul>
+<li>"quarter to ten in the morning" vs <code>09:45</code></li>
+<li>"lecture hall 2.A.01" vs <a href="http://maps.google.ca/maps?ll=47.414736,8.548753&amp;z=19">47.414736,8.548753</a></li>
+</ul>
+</li>
+<li>can handle the complexities of natural language</li>
+<li>developer-friendly syntax / editing environments</li>
+<li>support for standard software engineering practices, e.g.
+<ul>
+<li>reusable modules</li>
+<li>unit and regression testing</li>
+<li>compatibility with modern programming languages</li>
+</ul></li>
+<li>compatibility with open-source ASR toolkits (CMU Sphinx)</li>
+<li>considered two formalisms: JSGF and GF</li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Java Speech Grammar Format (JSGF)</h2>
+</hgroup>
+<article>
+<ul>
+<li>standard speech recognition grammar format supported by e.g. CMU Sphinx</li>
+<li>simple BNF format</li>
+<li>no special support for natural languages</li>
+<li>little support for input normalization into a machine language</li>
+</ul>
+<pre class="prettyprint" data-lang="jsgf">
+&lt;command> = &lt;action> | (&lt;action> and &lt;command>);
+&lt;action> = stop {STOP} | start | pause | resume | finish {STOP};
+</pre>
+</article>
+</slide>
+
+
+<slide>
+<hgroup>
+<h2>Grammatical Framework (GF)</h2>
+</hgroup>
+<article>
+<ul>
+<li>functional programming language for grammar engineering</li>
+<li>expressivity beyond context-free</li>
+<li>parsing and generation (linearizing)</li>
+<li>focus on multilinguality
+<ul>
+<li>multiple concrete grammars</li>
+<li>common single abstract grammar</li>
+<li>translate = parse to abstract tree + linearize into a concrete language</li>
+</ul></li>
+<li>special support for natural language features
+<ul>
+<li>long distance dependencies</li>
+<li>word form generation</li>
+<li>resource grammar library (RGL)</li>
+</ul></li>
+<li>support for speech recognition formats (incl. JSGF) via mappings</li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>GF grammar example</h2>
+</hgroup>
+<article class="smaller">
+<pre class="prettyprint" data-lang="gf">
+-- Unitconv/Unit.gf (abstract grammar)
+speed : LengthUnit -&gt; TimeUnit -&gt; SpeedUnit ;
+time_unit : Time -&gt; TimeUnit ;
+second, minute, hour, day, week, month, year, decade, century : Time ;
+</pre>
+<pre class="prettyprint" data-lang="gf">
+-- Unitconv/UnitEst.gf (concrete grammar for Estonian)
+speed = mk_meter_per_second "";
+<b>minute = mkUnit "minutit";
+hour = mkUnit "tundi" "tunnis" "tundides";</b>
+</pre>
+<pre class="prettyprint" data-lang="gf">
+-- Unitconv/UnitApp.gf (concrete grammar for a machine language)
+speed = infixSS_glue "/"; -- e.g. "km/h"
+<b>minute = ss "min";
+hour = ss "h";</b>
+</pre>
+<pre class="prettyprint" data-lang="gf">
+-- lib/*.gf (resources)
+ss : Str -> SS = \s -> {s = s} ;
+infixSS_glue : Str -> SS -> SS -> SS = \f,x,y -> ss (glue x.s f y.s) ;
+</pre>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Our speech application grammars</h2>
+</hgroup>
+<article>
+<ul>
+<li>implemented in GF, compilable to JSGF</li>
+<li>target small domain languages: calculator, map query, alarm clock, ...</li>
+<li>linguistically quite simple
+<ul>
+<li>fixed word order</li>
+<li>little morphological variation</li>
+</ul></li>
+<li>simplicity motivated by
+<ul>
+<li>need for reliable ASR</li>
+<li>simple domains</li>
+</ul></li>
+<li>available on GitHub
+<ul>
+<li>in source format for collaborative development</li>
+<li>in GF's portable grammar format (PGF) to be used in applications</li>
+</ul></li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Two types of concrete languages</h2>
+<h3>described by every grammar</h3>
+</hgroup>
+<article>
+<ul>
+<li>type 1 (currently only Estonian)
+<ul>
+<li>CNL</li>
+<li>spoken, i.e. each token corresponds to a sequence of phonemes</li>
+<li>possibly (syntactically) ambiguous</li>
+<li>input to GF parsing</li>
+<li>respective grammar compiled to JSGF for ASR</li>
+</ul></li>
+<li>type 2
+<ul>
+<li>provides semantics for the CNL</li>
+<li>machine-executable (Google Search, Wolfram Alpha, ...)</li>
+<li>output of GF linearization</li>
+</ul></li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>GF-based translation</h2>
+<h3>Human says /one plus two/, machine responds by displaying 3</h3>
+</hgroup>
+<article>
+<img src='images/translation.svg' alt="Translation" title="Translation"/>
+<ul>
+<li>ASR/GF: transcribe speech input using a JSGF grammar
+automatically derived from a GF grammar</li>
+<li>GF: parse transcription into an abstract tree</li>
+<li>GF: linearize tree into application format(s)</li>
+<li>app: evaluate application format(s)</li>
+<li>app: communicate evaluation result(s) to the user</li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Grammar module hierarchy</h2>
+</hgroup>
+<article>
+<img src='images/modules_abstract.svg' alt="Grammar modules" title="Grammar modules"/>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Main grammars</h2>
+</hgroup>
+<article>
+<table>
+<tr>
+<td>Action</td>
+<td>covers everything, i.e. Alarm + Direction + Calc</td>
+</tr>
+
+<tr>
+<td>Alarm</td>
+<td>simple 24h-clock, e.g. "alarm 06:05", "alarm in 20 minutes"</td>
+</tr>
+
+<tr>
+<td>Calc</td>
+<td>Expr + Unitconv; optional prefix "kui palju on" (<i>how much is</i>)
+to help ASR</td>
+</tr>
+<tr>
+<td>Direction</td>
+<td>FROM-TO queries over Estonian place names
+and Tallinn's street addresses</td>
+</tr>
+
+<tr>
+<td>Expr</td>
+<td>arithmetical expressions, e.g.
+<a href="http://www.google.com/search?q=(((1%2B-2.3)*PI)^5)">(((1 + -2.3) * PI) ^ 5)</a></td>
+</tr>
+
+<tr>
+<td>Numeral</td>
+<td>integers -10^12–10^12;
+imported by most other grammars</td>
+</tr>
+
+<tr>
+<td>Symbols, Estvrp</td>
+<td>sequence of digits and letters</td>
+</tr>
+
+<tr>
+<td>Unitconv</td>
+<td>unit and currency conversion expressions, e.g.
+<a href="http://www.wolframalpha.com/input/?i=convert+12.34+km%5E2+to+ft%5E2">convert 12.34 km^2 to ft^2</a></td>
+</tr>
+</table>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Direction</h2>
+</hgroup>
+<article>
+<pre data-lang="Est, App">
+Est: algus sõpruse puiestee kakssada neliteist lõpp lossi plats kaks
+App: FROM Sõpruse puiestee 214, Tallinn TO Lossi plats 2, Tallinn
+</pre>
+<ul>
+<li>syntactically simple (from street A 123 to street B 321)</li>
+<li>good coverage (although could be better)
+<ul>
+<li>4330 names of Estonian populated places (source: GeoNames)</li>
+<li>1500 names of Tallinn's streets (source: Estonian Language Institute)</li>
+</ul></li>
+<li>shortcomings:
+<ul>
+<li>does not model naming variation:
+<ul>
+<li><code>(August|A) Weizenbergi (tänav) 39</code></li>
+<li>Estonian/Swedish parallel names (very few)</li>
+</ul></li>
+<li>does not handle ambiguity,
+e.g. villages with the same name but different location</li>
+<li>only nominative case</li>
+<li>over-generates with house numbers</li>
+</ul></li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Unitconv</h2>
+</hgroup>
+<article>
+<pre data-lang="Est, App">
+Est: sada koma üks miili ruut tunnis meetrites ruut sekundis
+App: convert 100.1 mi*h^-2 to m*s^-2
+</pre>
+<ul>
+<li>type-aware unit conversion expressions
+<ul>
+<li>syntax error: "convert 10 USD to km/h"</li>
+</ul></li>
+<li>covers most important units and the main currencies</li>
+<li>automatically generates required morphological forms</li>
+<li>supports some syntactic sugar
+<ul>
+<li><code>USD</code> can be expressed by "dollar", "ameerika dollar" or "ameerika raha"</li>
+</ul></li>
+<li>supports some ambiguity
+<ul>
+<li>"two euros in large currency" is ambiguous between ~5 readings</li>
+</ul></li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Expr</h2>
+</hgroup>
+<article>
+<pre data-lang="Est, App">
+Est: Pii pluss üks miinus kaks korda kolm jagatud neli astmel viis
+App: (((((PI + 1) - 2) * 3) / 4) ^ 5)
+</pre>
+<ul>
+<li>arithmetical expressions with the 5 main operations</li>
+<li>tiny vocabulary</li>
+<li>infinitely many expressions</li>
+<li>left-associative interpretation</li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide class="segue dark nobackground">
+<hgroup class="auto-fadein">
+<h2>Platform</h2>
+<h3>for developing speech-based UIs</h3>
+</hgroup>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Open source stack</h2>
+</hgroup>
+<article class="smaller">
+<ul>
+<li>cloud service
+<ul>
+<li>real-time ASR (optionally grammar-based) of streaming audio</li>
+<li>HTTP/REST/JSON</li>
+<li>users can upload their GF and JSGF grammars</li>
+</ul></li>
+<li>ASR system
+<ul>
+<li>CMU Sphinx (Pocketsphinx) decoder</li>
+<li>supports (JSGF) grammars and n-gram language models</li>
+<li>Estonian acoustic models</li>
+</ul></li>
+<li>grammar development
+<ul>
+<li>GF</li>
+<li>existing modules in a GitHub repository</li>
+</ul></li>
+<li>app development
+<ul>
+<li>Android</li>
+<li>extended RecognizerIntent-API supported by Kõnele</li>
+</ul></li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>System architecture</h2>
+</hgroup>
+<article>
+<img src="images/architecture.svg" alt="System architecture" title="System architecture"/>
+<p></p>
+<ul>
+<li><b>CNL grammars</b>: PGF files accessible over HTTP</li>
+<li><b>ASR server</b>: transcribes speech; uses grammars</li>
+<li><b>Kõnele</b> (<i>speak!</i>)
+<ul>
+<li>maps apps to grammars</li>
+<li>records speech and transcribes it using the server</li>
+</ul></li>
+<li><b>Arvutaja</b> (<i>the one who computes</i>)
+<ul>
+<li>maps voice commands to actions (possibly carried out by other apps)</li>
+<li>transcribes speech using Kõnele with the <i>Action</i>-grammar</li>
+</ul></li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Setting an app to use grammar-based ASR</h2>
+<h3>via Kõnele's configuration panel (as an end-user)</h3>
+</hgroup>
+<article>
+<img height="450" src="images/screenshot_k6nele_grammars.png" alt="" title=""/>
+<img height="450" src="images/screenshot_k6nele_apps.png" alt="" title=""/>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Programming your app to use
+Kõnele's API</h2>
+</hgroup>
+<article>
+<pre class="prettyprint" data-lang="java">
+// Set of non-standard extras that K6nele supports
+public static final String EXTRA_GRAMMAR_URL =
+	"ee.ioc.phon.android.extra.GRAMMAR_URL";
+public static final String EXTRA_GRAMMAR_TARGET_LANG =
+	"ee.ioc.phon.android.extra.GRAMMAR_TARGET_LANG";
+// ...
+Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+intent.setComponent(new ComponentName(
+	"ee.ioc.phon.android.speak",
+	"ee.ioc.phon.android.speak.RecognizerIntentActivity"));
+intent.putExtra(EXTRA_GRAMMAR_URL,
+	"http://kaljurand.github.com/Grammars/grammars/pgf/Action.pgf");
+intent.putExtra(EXTRA_GRAMMAR_TARGET_LANG, "App");
+// ...
+startActivityForResult(intent, 1234);
+</pre>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Arvutaja</h2>
+<h3>front-end to the <i>Action</i>-grammar</h3>
+</hgroup>
+<article>
+<img height="450" src="images/screenshot_arvutaja.png" alt="Screenshot: Arvutaja" title="Screenshot: Arvutaja"/>
+<img height="450" src="images/screenshot_arvutaja_listening.png" alt="Screenshot: Arvutaja listening" title="Screenshot: Arvutaja listening"/>
+<img height="450" src="images/screenshot_arvutaja_wolframalpha.png" alt="Screenshot: Arvutaja WolframAlpha" title="Screenshot: Arvutaja WolframAlpha"/>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Results</h2>
+</hgroup>
+<article>
+<ul>
+<li>grammars
+<ul>
+<li>enable useful applications with high precision (90%+) speech recognition</li>
+<li>scalable at least to ~6000 terminals</li>
+</ul></li>
+<li>development platform
+<ul>
+<li>easy to use</li>
+<li>flexible</li>
+<li>scalable to multiple natural/formal languages (thanks to GF)</li>
+</ul></li>
+<li>successfully demonstrated/demonstrates Estonian ASR
+<ul>
+<li>Kõnele: 10,000+ downloads</li>
+<li>Arvutaja: 4,500+ downloads</li>
+<li>award: Estonian Language Deed 2011</li>
+<li>however, daily usage is still small :(</li>
+</ul></li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Future work</h2>
+</hgroup>
+<article>
+<ul>
+<li>support multiple natural languages
+based on GF's resource grammar library</li>
+<li>mixing grammar-based and n-gram based models
+<ul>
+<li>"email Bob at work I'm running late"</li>
+</ul>
+</li>
+<li>dialog (grammar-based)
+<ul>
+<li>error recovery</li>
+<li>awareness of past input/output</li>
+<li>text-to-speech</li>
+</ul></li>
+<li>developer tools optimized for speech-oriented CNLs
+<ul>
+<li>search for potential ambiguity (resulting from e.g. homophones)</li>
+<li>propose changes to the grammars based on query log analysis</li>
+</ul>
+</li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Summary</h2>
+</hgroup>
+<article>
+<ul>
+<li>speech-based UIs</li>
+<li>CNLs for such UIs</li>
+<li>GF as an effective formalism/tool for implementing such CNLs</li>
+<li>open/extendable platform for building such UIs (also for small languages)</li>
+<li>voice actions smart phone app for Estonian</li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide>
+<hgroup>
+<h2>Links</h2>
+</hgroup>
+<article>
+<ul>
+<li>grammars:
+<ul>
+<li><a href='http://www.grammaticalframework.org/'>Grammatical Framework</a></li>
+<li><a href='http://kaljurand.github.com/Grammars/'>GF-based speech recognition grammars for Estonian</a></li>
+</ul></li>
+<li>Android apps:
+<ul>
+<li><a href='http://recognizer-intent.googlecode.com'>Kõnele</a></li>
+<li><a href='http://kaljurand.github.com/Arvutaja/'>Arvutaja</a></li>
+</ul></li>
+<li>ASR server components:
+<ul>
+<li><a href='http://cmusphinx.sourceforge.net/'>CMU Sphinx</a></li>
+<li><a href='http://github.com/alumae/ruby-pocketsphinx-server'>ruby-pocketsphinx-server</a></li>
+<li><a href='http://github.com/alumae/et-pocketsphinx-tutorial'>et-pocketsphinx-tutorial</a> (incl. Estonian acoustic models)</li>
+</ul></li>
+</ul>
+</article>
+</slide>
+
+
+
+<slide class="thank-you-slide nobackground">
+<article class="flexbox vcenter auto-fadein">
+<h2>Thank You!</h2>
+</article>
+</slide>
+
+
+<slide class="backdrop"></slide>
+
+</slides>
+
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
