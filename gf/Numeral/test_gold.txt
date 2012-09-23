@@ -2,11 +2,15 @@ Testing: App -> ALL
 
 987541
 
+nine hundred and eighty seven thousand five hundred and forty one
+
 üheksa sada kaheksa kümmend seitse tuhat viis sada neli kümmend üks
 
 
 
 100
+
+one hundred
 
 sada
 
@@ -14,11 +18,15 @@ sada
 
 11
 
+eleven
+
 üks teist
 
 
 
 111
+
+one hundred and eleven
 
 sada üks teist
 
@@ -26,11 +34,15 @@ sada üks teist
 
 398754
 
+three hundred and ninety eight thousand seven hundred and fifty four
+
 kolm sada üheksa kümmend kaheksa tuhat seitse sada viis kümmend neli
 
 
 
 4317
+
+four thousand three hundred and seventeen
 
 neli tuhat kolm sada seitse teist
 
@@ -38,11 +50,15 @@ neli tuhat kolm sada seitse teist
 
 1134567
 
+one million one hundred and thirty four thousand five hundred and sixty seven
+
 üks miljonit ja sada kolm kümmend neli tuhat viis sada kuus kümmend seitse
 
 
 
 100134567
+
+one hundred million one hundred and thirty four thousand five hundred and sixty seven
 
 sada miljonit ja sada kolm kümmend neli tuhat viis sada kuus kümmend seitse
 
@@ -50,11 +66,15 @@ sada miljonit ja sada kolm kümmend neli tuhat viis sada kuus kümmend seitse
 
 1000007
 
+one million seven
+
 üks miljonit ja seitse
 
 
 
 111111111117
+
+one hundred and eleven billion one hundred and eleven million one hundred and eleven thousand one hundred and seventeen
 
 sada üks teist miljardit ja sada üks teist miljonit ja sada üks teist tuhat sada seitse teist
 
