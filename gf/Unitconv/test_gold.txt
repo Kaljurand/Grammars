@@ -2,15 +2,21 @@ Parsing examples/Est.txt
 -------
 convert 2 m to ft
 
+convert two meters to feet
+
 kaks meetrit jalgades
 
 
 convert 3000 L to cup_us
 
+convert three thousand liters to cups
+
 kolm tuhat liitrit tassides
 
 
 convert 111110 flour-cup to flour-cup
+
+convert one hundred and eleven thousand one hundred and ten cups of flour to cups of flour
 
 sada üks teist tuhat sada kümme tassi jahu jahu tassides
 
@@ -23,29 +29,41 @@ sada üks teist tuhat üks sada kümme tassi jahu jahu tassides
 
 convert 12 ft to ft
 
+convert twelve feet to feet
+
 kaks teist jalga jalgades
 
 
 convert 5 ' to "
 
+convert five minutes to seconds
+
 viis minutit sekundites
 
 convert 5 min to s
+
+convert five minutes to seconds
 
 viis minutit sekundites
 
 
 convert 2 ha to km^2
 
+convert two hectares to square kilo meters
+
 kaks hektarit ruut kilo meetrites
 
 
 convert 2 km to cm
 
+convert two kilo meters to centi meters
+
 kaks kilo meetrit senti meetrites
 
 
 convert 2 NOK to EEK
+
+convert two Norwegian crowns to Estonian crowns
 
 kaks norra krooni kroonides
 
@@ -65,6 +83,8 @@ kaks norra raha vanas rahas
 
 
 convert 2 NOK to EEK
+
+convert two Norwegian crowns to Estonian crowns
 
 kaks norra krooni kroonides
 
@@ -84,6 +104,8 @@ kaks norra raha vanas rahas
 
 
 convert 2 EEK to USD
+
+convert two Estonian crowns to American dollars
 
 kaks krooni dollarites
 
@@ -120,15 +142,21 @@ kaks vana raha suures valuutas
 
 convert 2 mL to µcup_us
 
+convert two milli liters to micro cups
+
 kaks milli liitrit mikro tassides
 
 
 convert 2 Mha to km^2
 
+convert two mega hectares to square kilo meters
+
 kaks mega hektarit ruut kilo meetrites
 
 
 convert 500 cm^3 to µft^3
+
+convert five hundred cubic centi meters to cubic micro feet
 
 viis sada kuup senti meetrit kuup mikro jalgades
 
@@ -137,10 +165,14 @@ viis sada kuup senti meetrit kuup mikro jalgades
 
 convert 2 kW⋅h to MW⋅h
 
+convert two kilo watt hours to mega watt hours
+
 kaks kilo vatt tundi mega vatt tundides
 
 
 convert 2 CHF to RUB
+
+convert two Swiss francs to Russian roubles
 
 kaks franki rublades
 
@@ -169,10 +201,14 @@ kaks suurt valuutat vene rahas
 
 convert 2 m*s^-2 to ft*min^-2
 
+convert two meters per seconds squared to feet per minutes squared
+
 kaks meetrit ruut sekundis jalgades ruut minutis
 
 
 convert 2 NOK to CHF
+
+convert two Norwegian crowns to Swiss francs
 
 kaks norra krooni frankides
 
@@ -192,6 +228,8 @@ kaks norra raha suures valuutas
 
 convert 2 NOK to EUR
 
+convert two Norwegian crowns to Euros
+
 kaks norra krooni eurodes
 
 kaks norra krooni suures valuutas
@@ -201,6 +239,8 @@ kaks norra raha eurodes
 kaks norra raha suures valuutas
 
 convert 2 NOK to GBP
+
+convert two Norwegian crowns to British pounds
 
 kaks norra krooni naelades
 
@@ -220,6 +260,8 @@ kaks norra raha suures valuutas
 
 convert 2 NOK to JPY
 
+convert two Norwegian crowns to Japanese yens
+
 kaks norra krooni jeenides
 
 kaks norra krooni jaapani jeenides
@@ -237,6 +279,8 @@ kaks norra raha jaapani rahas
 kaks norra raha suures valuutas
 
 convert 2 NOK to USD
+
+convert two Norwegian crowns to American dollars
 
 kaks norra krooni dollarites
 
@@ -257,10 +301,14 @@ kaks norra raha suures valuutas
 
 convert 2 m/s/s to knot/h
 
+convert two meters per seconds per seconds to knots per hours
+
 kaks meetrit sekundis sekundis sõlmedes tunnis
 
 
 ((( convert EUR to NOK ) / ( convert h to s )) * ((2 * 0.75) / (0.5 * 0.25)))
+
+two Euros in zero point five hours makes in zero point seventy five seconds in zero point twenty five Norwegian crowns
 
 kaks eurot pool tunnis teeb kolm veerand sekundis veerand norra kroonides
 
@@ -273,6 +321,8 @@ kaks suurt valuutat pool tunnis teeb kolm veerand sekundis veerand norra rahas
 
 ((( convert EUR to NOK ) / ( convert h to s )) * ((2 * 1) / (1 * 1)))
 
+two Euros in hours makes in seconds in Norwegian crowns
+
 kaks eurot tunnis teeb sekundis norra kroonides
 
 kaks eurot tunnis teeb sekundis norra rahas
@@ -283,6 +333,8 @@ kaks suurt valuutat tunnis teeb sekundis norra rahas
 
 
 convert 817650401305 m to ft
+
+convert eight hundred and seventeen billion six hundred and fifty million four hundred and one thousand three hundred and five meters to feet
 
 kaheksa sada seitse teist miljardit ja kuus sada viis kümmend miljonit ja neli sada üks tuhat kolm sada viis meetrit jalgades
 
@@ -297,10 +349,14 @@ Parsing examples/App.txt
 -------
 convert 2 m to ft
 
+convert two meters to feet
+
 kaks meetrit jalgades
 
 
 convert 1000 m°C to °C
+
+convert one thousand milli degrees to degrees
 
 tuhat milli kraadi kraadides
 
@@ -309,25 +365,35 @@ tuhat milli kraadi kraadides
 
 convert 2 km^2 to ha
 
+convert two square kilo meters to hectares
+
 kaks ruut kilo meetrit hektarites
 
 
 convert 3 mm to µm
+
+convert three milli meters to micro meters
 
 kolm milli meetrit mikro meetrites
 
 
 convert 3 kg to ng
 
+convert three kilo grams to nano grams
+
 kolm kilo grammi nano grammides
 
 
 convert 3 °C to m°C
 
+convert three degrees to milli degrees
+
 kolm kraadi milli kraadides
 
 
 convert 3 EEK to EUR
+
+convert three Estonian crowns to Euros
 
 kolm krooni eurodes
 
@@ -348,6 +414,8 @@ kolm vana raha suures valuutas
 
 convert 3 NOK to NOK
 
+convert three Norwegian crowns to Norwegian crowns
+
 kolm norra krooni norra kroonides
 
 kolm norra krooni norra rahas
@@ -358,6 +426,8 @@ kolm norra raha norra rahas
 
 
 convert 3 USD to USD
+
+convert three American dollars to American dollars
 
 kolm dollarit dollarites
 
@@ -394,35 +464,49 @@ kolm suurt valuutat suures valuutas
 
 convert 3 mHz to µHz
 
+convert three milli hertz to micro hertz
+
 kolm milli hertsi mikro hertsides
 
 
 convert 3 m/s to km/h
+
+convert three meters per seconds to kilo meters per hours
 
 kolm meetrit sekundis kilo meetrites tunnis
 
 
 convert 3 c to km/µs
 
+convert three speed of light to kilo meters per micro seconds
+
 kolm valgus kiirust kilo meetrites mikro sekundis
 
 
 convert 3 km/µs to c
+
+convert three kilo meters per micro seconds to speed of light
 
 kolm kilo meetrit mikro sekundis valgus kiirustes
 
 
 convert 3 m*s^-2 to km*µs^-2
 
+convert three meters per seconds squared to kilo meters per micro seconds squared
+
 kolm meetrit ruut sekundis kilo meetrites ruut mikro sekundis
 
 
 convert 3 in to ft
 
+convert three inches to feet
+
 kolm tolli jalgades
 
 
 convert 2 HUF to EUR
+
+convert two Hungarian forints to Euros
 
 kaks forintit eurodes
 
@@ -439,10 +523,14 @@ kaks ungari raha suures valuutas
 
 convert 2 c/s to km/h/s
 
+convert two speed of light per seconds to kilo meters per hours per seconds
+
 kaks valgus kiirust sekundis kilo meetrites tunnis sekundis
 
 
 convert 2 °C to °F
+
+convert two degrees to fahrenheits
 
 kaks kraadi fahrenheitides
 

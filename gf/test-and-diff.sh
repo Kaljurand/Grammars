@@ -9,8 +9,9 @@ date
 for x in Alarm Date Go Numeral Unitconv Expr Fraction Calc Address Direction Action Digit Letter Estvrp Tallinnaddress Tallinndirection; do
 	echo " $x";
 	echo "   ${of}";
-	gf --make --quiet --optimize-pgf --output-format=${of} --path $path --output-dir $x $x/${x}Est.gf
+	gf --make --quiet --optimize-pgf --output-format=${of} --path $path --output-dir $x $x/${x}{Est,Eng}.gf
 	diff $x/${of}/${x}Est.${of} $x/${x}Est.${of}
+	diff $x/${of}/${x}Eng.${of} $x/${x}Eng.${of}
 	echo "   test";
 	cd $x;
 	sh test.sh > test_out.txt;
