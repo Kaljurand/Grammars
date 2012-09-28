@@ -1,18 +1,9 @@
-concrete UnitEng of Unit = PrefixEng, CurrencyEng ** open StringOper in {
+concrete UnitEng of Unit = PrefixEng, CurrencyEng ** open StringOper, English in {
 
 -- @author Kaarel Kaljurand
 -- @version 2012-09-26
 
 flags coding=utf8;
-
-oper
-
-	mkUnit = overload {
-		mkUnit : (x : Str) -> SS = ss;
-	};
-
-    mkMeterPerSecond : Str -> SS -> SS -> SS = \p,x,y ->
-        { s = x.s ++ "per" ++ y.s ++ p };
 
 lincat
 	Length, LengthUnit,

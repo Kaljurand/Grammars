@@ -147,21 +147,24 @@ Guidelines for grammar developers
 
 The PGF packs two types of concrete syntaxes.
 
-#### Parsing grammars (e.g. Est)
+#### Parsing grammars (e.g. Est, Eng)
 
-  * used in parsing
+  * input to parser
   * correspond to natural language speech
+    * tokens have a clear mapping to phonemes
     * use words (`two`), not symbols (`2`)
     * do not use `glue`
   * possibly allow ambiguous input (i.e. produce multiple parse trees)
+    * e.g. `minute` is ambiguous between time and angle
   * possibly allow variants (synonyms)
 
 #### Linearization grammars (e.g. Wolframalpha)
 
-  * used in linearization
+  * output of linearizer
     * `glue` is OK because we use `linearize -bind`
   * typically correspond to a machine language
     * symbols are OK
+  * unambiguous (i.e. single tree per sentence)
   * typically we do not care about variants (no `linearize -all`)
 
 ### Naming conventions

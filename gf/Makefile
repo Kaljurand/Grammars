@@ -2,7 +2,6 @@
 path = lib:Numeral:Date:Action:Alarm:Calc:Expr:Fraction:Unitconv:Direction:Address:Eeppl:Tallinnaddress
 
 langs = App Est Eng
-langs2 = App Est
 
 gf = gf --make --optimize-pgf --mk-index --path=$(path)
 

@@ -8,7 +8,4 @@ sense in the context of "voice actions", e.g.
   * map queries
   * event/alarm scheduling
 
-Compiling
----------
-
-    gf -s --make --optimize-pgf --mk-index --path "Alarm:Calc:Date:Eeppl:Address:Direction:Expr:Unitconv:Numeral:Fraction:Tallinnaddress:lib" Action/Action???.gf
+Not all languages support all grammars, e.g. `Eng` does not support `Direction`.
