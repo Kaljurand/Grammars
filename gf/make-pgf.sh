@@ -9,7 +9,7 @@ mkdir -p ${dir_gr}
 mkdir -p ${dir_pgf}
 
 echo "Building PGF files..."
-for grammar in Action Address Alarm Calc Digit Direction Estvrp Expr Fraction Go Letter Symbols Tallinndirection Unitconv; do
+for grammar in Action Address Alarm Calc Digit Direction Estvrp Expr Go Symbols Tallinndirection Unitconv; do
 	files=`ls -m ${grammar}/${grammar}*.gf`;
 	echo "  ${grammar}: $files";
 	echo "    PGF";

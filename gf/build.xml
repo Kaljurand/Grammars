@@ -7,6 +7,8 @@
 			<fileset dir="." includes="**/test_out.txt"/>
 			<fileset dir="." includes="**/*.gfo"/>
 			<fileset dir="." includes="**/*.pgf"/>
+			<fileset dir="." includes="**/*.jsgf" excludes="**/jsgf/*.jsgf"/>
+			<fileset dir="." includes="**/*.dict" excludes="**/dict/*.dict"/>
 		</delete>
 	</target>
 
