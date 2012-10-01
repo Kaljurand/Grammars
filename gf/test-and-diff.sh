@@ -4,6 +4,8 @@
 of=jsgf
 dict=dict
 
+tools=../tools/
+
 jsgf_langs="Est Eng"
 dict_langs="Est"
 
@@ -21,7 +23,8 @@ for pgf in *.pgf; do
 	done
 	for lang in $dict_langs; do
 		conc=${name}/${name}${lang}
-		cat ${conc}.${of} | sh ../tools/jsgf-to-dict.sh $lang > ${conc}.${dict}
+		#cat ${conc}.${of} | sh ../tools/jsgf-to-dict.sh $lang > ${conc}.${dict}
+		sh ${tools}/pgf-to-dict.sh ${pgf} ${lang} > ${conc}.${dict}
 		diff $name/${dict}/${name}${lang}.${dict} ${conc}.${dict}
 	done
 	cd $name;
