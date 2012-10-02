@@ -17,6 +17,8 @@ oper
 	-- Identity function
 	id : (A : Type) -> A -> A = \_,a -> a ;
 
+	nonExistType : (A : Type) -> A = \_ -> variants {} ;
+
 	-- TODO: glue that takes arbitrarily many input arguments
 	glue = overload {
 		glue : (x1,x2 : Str) -> Str = \x1,x2 -> x1 ++ BIND ++ x2 ;
