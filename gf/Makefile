@@ -1,5 +1,5 @@
 
-path = lib:Numeral:Date:Action:Alarm:Calc:Expr:Fraction:Unitconv:Direction:Address:Eeppl:Tallinnaddress
+path = lib:Numeral:Date:Dial:Digit:Action:Alarm:Calc:Expr:Fraction:Unitconv:Direction:Address:Eeppl:Tallinnaddress
 
 langs = App Est Eng
 
@@ -26,6 +26,9 @@ build_Numeral:
 
 build_Date:
 	$(gf) $(foreach lang,$(langs),Date/Date$(lang).gf)
+
+build_Dial:
+	$(gf) $(foreach lang,$(langs),Dial/Dial$(lang).gf)
 
 build_Alarm:
 	$(gf) $(foreach lang,$(langs),Alarm/Alarm$(lang).gf)

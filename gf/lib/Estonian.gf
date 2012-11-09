@@ -1,4 +1,4 @@
-resource Estonian = {
+resource Estonian = open StringOper in {
 
 -- @author Kaarel Kaljurand
 -- @version 2011-10-05
@@ -19,6 +19,9 @@ oper
 		mkUnit : (x1,x2 : Str) -> CaseStr = f ;
 		mkUnit : (x1,x2,x3 : Str) -> CaseStr = f3 ;
 	};
+
+
+	request : Str -> Str = \x -> (x ++ optStr "palun") | "palun" ++ x;
 
 
 	f3 : Str -> Str -> Str -> CaseStr = \sg1,sg2,pl1 ->
