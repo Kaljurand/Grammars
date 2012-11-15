@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Extracts jsgf- and dict-files from the pgf-files in this directory.
 # Compares the extracted files with their previous versions.
 # Runs the test.sh-files in the directories that correspond to the pgf-files.
@@ -27,10 +29,13 @@ for pgf in *.pgf; do
 		sh ${tools}/pgf-to-dict.sh ${pgf} ${lang} > ${conc}.${dict}
 		diff $name/${dict}/${name}${lang}.${dict} ${conc}.${dict}
 	done
-	cd $name;
-	sh test.sh > test_out.txt;
-	diff test_gold.txt test_out.txt;
-	cd ..
+	if [ -r ${name}/test.sh ]
+	then
+		cd $name;
+		sh test.sh > test_out.txt;
+		diff test_gold.txt test_out.txt;
+		cd ..
+	fi
 done
 date
 echo "done."

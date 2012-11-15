@@ -1,4 +1,4 @@
-abstract Action = Alarm, Calc, Direction ** {
+abstract Action = Alarm, Calc, Dial, Direction ** {
 
 flags startcat = Action;
 
@@ -8,4 +8,5 @@ fun
 	f1 : Direction -> Action;
 	f2 : Calc -> Action;
 	f3 : Alarm -> Action;
+	f4 : Dial -> Action;
 }

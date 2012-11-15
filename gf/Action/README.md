@@ -2,10 +2,17 @@ Action
 ======
 
 This grammar is meant to be the union of all other grammars that make
-sense in the context of "voice actions", e.g.
+sense in the context of "voice actions".
+Not all grammars support all languages, e.g. `Direction` does not support `Eng`.
+The current components are:
 
-  * calculations
-  * map queries
-  * event/alarm scheduling
+  - Alarm (Est, Eng)
+  - Calc (Est, Eng)
+  - Dial (Est)
+  - Direction (Est)
 
-Not all languages support all grammars, e.g. `Eng` does not support `Direction`.
+TODO: support DialEng (currently there is a conflict caused by DigitEng)
+
+TODO: generate this grammar automatically based on a small
+configuration file that just lists the desired abstract modules and
+their corresponding concrete modules.

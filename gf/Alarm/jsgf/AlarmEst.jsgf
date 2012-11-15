@@ -8,8 +8,8 @@ public <MAIN> = <Alarm_cat> ;
 <Alarm_1> = (ärata mind [palun]
              | palun ärata mind)
             <Period_1> hiljem
-            | (ärata mind [palun [kell] | kell]
-               | palun ärata mind [kell])
+            | (palun ärata mind [kell]
+               | ärata mind [palun [kell] | kell])
               <Timestamp_1> ;
 
 public <Alarm_cat> = <Alarm_1> ;
