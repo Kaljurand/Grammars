@@ -51,13 +51,7 @@ oper
 	-- TODO: Maybe we should return a more complex structure with a field
 	-- for the prefix, instead of doing string concatenation here.
 	add_prefix : Str -> CaseStr -> CaseStr = \p,w ->
-		{
-			s = table {
-				SgPart => p ++ (w.s ! SgPart) ;
-				SgIn => p ++ (w.s ! SgIn) ;
-				PlIn => p ++ (w.s ! PlIn)
-			}
-	};
+		{ s = \\c => p ++ (w.s ! c) } ;
 
 	-- Note that the compound expressions do not have the SgIn-form
 	-- so we will not implement it:
