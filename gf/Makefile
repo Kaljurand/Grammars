@@ -18,6 +18,9 @@ build_Expr:
 build_Unitconv:
 	$(gf) $(foreach lang,$(langs),Unitconv/Unitconv$(lang).gf)
 
+build_Unitconvext:
+	$(gf) $(foreach lang,$(langs),Unitconvext/Unitconvext$(lang).gf)
+
 build_Fraction:
 	$(gf) $(foreach lang,$(langs),Fraction/Fraction$(lang).gf)
 

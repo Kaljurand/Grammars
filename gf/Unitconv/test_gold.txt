@@ -306,30 +306,6 @@ convert two meters per seconds per seconds to knots per hours
 kaks meetrit sekundis sekundis sõlmedes tunnis
 
 
-((( convert EUR to NOK ) / ( convert h to s )) * ((2 * 0.75) / (0.5 * 0.25)))
-
-two Euros in zero point five hours makes in zero point seventy five seconds in zero point twenty five Norwegian crowns
-
-kaks eurot pool tunnis teeb kolm veerand sekundis veerand norra kroonides
-
-kaks eurot pool tunnis teeb kolm veerand sekundis veerand norra rahas
-
-kaks suurt valuutat pool tunnis teeb kolm veerand sekundis veerand norra kroonides
-
-kaks suurt valuutat pool tunnis teeb kolm veerand sekundis veerand norra rahas
-
-
-((( convert EUR to NOK ) / ( convert h to s )) * ((2 * 1) / (1 * 1)))
-
-two Euros in hours makes in seconds in Norwegian crowns
-
-kaks eurot tunnis teeb sekundis norra kroonides
-
-kaks eurot tunnis teeb sekundis norra rahas
-
-kaks suurt valuutat tunnis teeb sekundis norra kroonides
-
-kaks suurt valuutat tunnis teeb sekundis norra rahas
 
 
 convert 817650401305 m to ft

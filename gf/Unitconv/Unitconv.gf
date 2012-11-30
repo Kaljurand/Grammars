@@ -5,23 +5,10 @@ flags startcat = Main ;
 cat
 	Main ;
 	Conv ;
-	FractionD ;
 
 fun
 	-- Quantified unit conversion
 	main : Fraction -> Conv -> Main ;
-
-	fraction_default : FractionD;
-	fraction_copy : Fraction -> FractionD;
-
-	-- TODO: this should cover all possible type pairs
-	-- TODO: move this to another grammar. This expression
-	-- is relatively complex so it will be linearized as a sentence.
-	-- As Calc optionally adds the "how much is" prefix we currently
-	-- get incorrect syntax.
-	general :
-		FractionD -> CurrencyUnit -> FractionD -> TimeUnit ->
-		FractionD -> CurrencyUnit -> FractionD -> TimeUnit -> Main ;
 
 	-- Type-aware unit conversion
 	-- TODO: use dependent types

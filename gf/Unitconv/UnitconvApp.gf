@@ -1,14 +1,10 @@
 concrete UnitconvApp of Unitconv = FractionApp, UnitApp ** open StringOper in {
 
 oper
-	c : { s : Str } -> { s : Str } -> { s : Str }
+	c : SS -> SS -> SS
 		= \x,y -> { s = x.s ++ "to" ++ y.s };
 
-	c1 : { s : Str } -> { s : Str } -> { s : Str }
-		= \x,y -> { s = "convert" ++ x.s ++ "to" ++ y.s };
-
-
-lincat Main, Conv, FractionD = {s : Str} ;
+lincat Main, Conv = SS ;
 
 lin
 	main num conv = {s = "convert" ++ num.s ++ conv.s} ;
@@ -18,11 +14,4 @@ lin
 	conv_energy, conv_power,
 	currency = c ;
 
-	general x1 u1 x2 u2 y1 v1 y2 v2 =
-		infix "*"
-		(infix "/" (parenthSS (c1 u1 v1)) (parenthSS (c1 u2 v2)))
-		(infix "/" (infix "*" x1 y2) (infix "*" x2 y1)) ;
-
-	fraction_copy = id SS;
-	fraction_default = ss "1";
 }
