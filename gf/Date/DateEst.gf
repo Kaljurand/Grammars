@@ -1,10 +1,10 @@
-concrete DateEst of Date = NumeralEst ** open StringOper in {
+concrete DateEst of Date = NumeralEst ** open StringOper, Estonian in {
 
 flags coding = utf8 ;
 
 lincat
   Year, Day, Hour, Minute = Str ;
-  Month, Weekday = Case => Str ;
+  Month, Weekday = DateEst__Case => Str ;
   Date, Timestamp, YearNumber = SS ;
 
 lin
@@ -56,7 +56,7 @@ lin
   H22 = mkKym d2 d2;
   H23 = mkKym d2 d3;
 
-  M00 = "null null";
+  M00 = mkNull d0;
   M01 = mkNull d1;
   M02 = mkNull d2;
   M03 = mkNull d3;
@@ -129,31 +129,21 @@ oper
   opts = optStr ;
   klo = "kell" ;
 
-  d1 = "üks";
-  d2 = "kaks";
-  d3 = "kolm";
-  d4 = "neli";
-  d5 = "viis";
-  d6 = "kuus";
-  d7 = "seitse";
-  d8 = "kaheksa";
-  d9 = "üheksa";
-
   mkKym = overload {
     mkKym : Str -> Str -> Str = \x,y -> x ++ "kümmend" ++ y;
     mkKym : Str -> Str = \x -> x ++ "kümmend";
   };
 
   mkTeist : Str -> Str = \x -> x ++ "teist";
-  mkNull : Str -> Str = \x -> "null" ++ x;
+  mkNull : Str -> Str = \x -> d0 ++ x;
 
-  mkNoun : Str -> Case => Str = \w -> table {
+  mkNoun : Str -> DateEst__Case => Str = \w -> table {
     Nom => w ;
     Ad => w + "al"
   } ;
 
 param
-  Case = Nom | Ad ;
+  DateEst__Case = Nom | Ad ;
 
 lin
   DToday t     = ss ("täna" ++ opts (klo ++ t.s)) ;

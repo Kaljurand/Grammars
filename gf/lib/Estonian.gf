@@ -76,4 +76,16 @@ oper
 			}
 		};
 
+
+	-- Estonian digits
+	d0 = "null";
+	d1 = "üks";
+	d2 = "kaks";
+	d3 = "kolm";
+	d4 = "neli";
+	d5 = "viis";
+	d6 = "kuus";
+	d7 = "seitse";
+	d8 = "kaheksa";
+	d9 = "üheksa";
 }

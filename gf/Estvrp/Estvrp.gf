@@ -8,5 +8,5 @@ flags startcat = Estvrp;
 cat Estvrp;
 
 fun
-	estvrp : (_, _, _ : Digit) -> (_, _, _ : Letter) -> Estvrp;
+	estvrp : (_, _, _ : Digit__Digit) -> (_, _, _ : Letter) -> Estvrp;
 }

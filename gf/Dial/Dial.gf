@@ -6,6 +6,6 @@ cat Dial; Numbers;
 
 fun
 	dial : Numbers -> Dial;
-	number : Digit -> Numbers;
-	numbers : Digit -> Numbers -> Numbers;
+	number : Digit__Digit -> Numbers;
+	numbers : Digit__Digit -> Numbers -> Numbers;
 }

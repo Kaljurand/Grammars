@@ -10,6 +10,6 @@ cat Symbols;
 
 fun
 	empty : Symbols;
-	digit : Digit -> Symbols -> Symbols;
+	digit : Digit__Digit -> Symbols -> Symbols;
 	letter : Letter -> Symbols -> Symbols;
 }
