@@ -1,18 +1,18 @@
-concrete DigitEng of Digit = open StringOper in {
+concrete DigitEng of Digit = open StringOper, (Res=English) in {
 
 flags coding = utf8;
 
 lincat Digit__Digit = SS;
 
 lin
-	d0 = ss "zero";
-	d1 = ss "one";
-	d2 = ss "two";
-	d3 = ss "three";
-	d4 = ss "four";
-	d5 = ss "five";
-	d6 = ss "six";
-	d7 = ss "seven";
-	d8 = ss "eight";
-	d9 = ss "nine";
+	d0 = ss Res.d0;
+	d1 = ss Res.d1;
+	d2 = ss Res.d2;
+	d3 = ss Res.d3;
+	d4 = ss Res.d4;
+	d5 = ss Res.d5;
+	d6 = ss Res.d6;
+	d7 = ss Res.d7;
+	d8 = ss Res.d8;
+	d9 = ss Res.d9;
 }
