@@ -6,10 +6,10 @@ lincat Fraction, FractionBase, NumeralPair = SS;
 
 lin
 	null = ss "zero";
-	quarter = ss "zero point twenty five";
-	half = ss "zero point five";
-	three_quarters = ss "zero point seventy five";
-	one_and_half = ss "one point five";
+	quarter = ss "quarter";
+	half = ss "half";
+	three_quarters = ss "three quarters";
+	one_and_half = ss "one and half";
 	pi = ss "pie";
 	pair = infixSS "point";
 	neg1, neg2 = prefixSS "minus";

@@ -2,7 +2,7 @@ Parsing examples/Est.txt
 -------
 ((( convert EUR to NOK ) / ( convert h to s )) * ((2 * 0.75) / (0.5 * 0.25)))
 
-two Euros in zero point five hours makes in zero point seventy five seconds in zero point twenty five Norwegian crowns
+two Euros in half hours makes in three quarters seconds in quarter Norwegian crowns
 
 kaks eurot pool tunnis teeb kolm veerand sekundis veerand norra kroonides
 
