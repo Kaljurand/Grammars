@@ -74,7 +74,6 @@ if args.langs is None:
 
 
 for name in args.names:
-	time_start = time.time()
 	url = args.grammars + name + EXT
 	cmd = [curl, '--get', '-d', 'url=' + url, '-d', 'lang=' + args.langs]
 	cmd.append(args.server + "/fetch-pgf")
@@ -85,6 +84,7 @@ for name in args.names:
 	if args.verbosity > 2:
 		print >> sys.stderr, ' '.join(cmd)
 
+	time_start = time.time()
 	out,err = get_result(cmd)
 	time_end = time.time()
 

@@ -112,10 +112,10 @@ salme
 s
 
 
-s~aaaa
+šaaaa
 
 
-s~
+š
 
 
 tsett
@@ -124,10 +124,10 @@ tsett
 z
 
 
-z~eeee
+žeeee
 
 
-z~
+ž
 
 
 tango

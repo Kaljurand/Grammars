@@ -9,7 +9,7 @@ fun
 
 AU = "Austraalia",
 CA = "Kanada",
-CH = "S~veits",
+CH = "Šveits",
 DK = "Taani",
 EE = "Eesti",
 GB = "Suurbritannia",

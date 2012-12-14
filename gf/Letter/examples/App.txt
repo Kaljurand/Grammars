@@ -17,9 +17,9 @@ p
 q
 r
 s
-s~
+š
 z
-z~
+ž
 t
 u
 v

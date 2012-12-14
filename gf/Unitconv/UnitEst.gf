@@ -118,8 +118,7 @@ the_speed_of_light = mkUnit "valgus kiirust";
 knot = mkUnit "sõlme";
 
 -- Energy
--- TODO: use Unicode!
-joule = mkUnit "dz~auli";
+joule = mkUnit "džauli";
 calorie = mkUnit "kalorit";
 watt_hour = mkUnit "vatt tundi";
 

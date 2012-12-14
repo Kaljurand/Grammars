@@ -180,17 +180,17 @@ kaks franki vene rublades
 
 kaks franki vene rahas
 
-kaks s~veitsi franki rublades
+kaks šveitsi franki rublades
 
-kaks s~veitsi franki vene rublades
+kaks šveitsi franki vene rublades
 
-kaks s~veitsi franki vene rahas
+kaks šveitsi franki vene rahas
 
-kaks s~veitsi raha rublades
+kaks šveitsi raha rublades
 
-kaks s~veitsi raha vene rublades
+kaks šveitsi raha vene rublades
 
-kaks s~veitsi raha vene rahas
+kaks šveitsi raha vene rahas
 
 kaks suurt valuutat rublades
 
@@ -212,17 +212,17 @@ convert two Norwegian crowns to Swiss francs
 
 kaks norra krooni frankides
 
-kaks norra krooni s~veitsi frankides
+kaks norra krooni šveitsi frankides
 
-kaks norra krooni s~veitsi rahas
+kaks norra krooni šveitsi rahas
 
 kaks norra krooni suures valuutas
 
 kaks norra raha frankides
 
-kaks norra raha s~veitsi frankides
+kaks norra raha šveitsi frankides
 
-kaks norra raha s~veitsi rahas
+kaks norra raha šveitsi rahas
 
 kaks norra raha suures valuutas
 

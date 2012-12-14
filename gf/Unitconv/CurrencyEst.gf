@@ -52,8 +52,7 @@ isk = mk_currency_variants_2 "islandi" "krooni";
 -- TODO: what does it depend on?
 eur = f "eurot" "eurodes" | mk_major_currency;
 
--- TODO: use Unicode!
-chf = mk_currency_variants_4 "s~veitsi" "franki";
+chf = mk_currency_variants_4 "šveitsi" "franki";
 
 eek = variants {
 		mk "krooni" ;
