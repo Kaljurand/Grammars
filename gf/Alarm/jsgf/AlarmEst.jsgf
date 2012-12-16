@@ -37,7 +37,7 @@ public <Hour_cat> = <Hour_1> ;
 
 public <MPeriod_cat> = <MPeriod_1> ;
 
-<Minute_1> = null null | null üks | null kaks
+<Minute_1> = [null null] | null üks | null kaks
              | null kolm | null neli | null viis | null kuus
              | null seitse | null kaheksa | null üheksa | kümme
              | üks teist | kaks teist | kolm teist | neli teist
@@ -89,6 +89,6 @@ public <Sub100_cat> = <Sub100_1> ;
 
 public <Sub10_cat> = <Sub10_1> | <Sub10_2> ;
 
-<Timestamp_1> = <Hour_1> <Minute_1> | <Hour_1> ;
+<Timestamp_1> = <Hour_1> <Minute_1> ;
 
 public <Timestamp_cat> = <Timestamp_1> ;

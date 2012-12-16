@@ -29,7 +29,7 @@ lin
 
   MkDay i = i.s ;
 
-  MkTime h m = ss (h ++ (opts m)) ;
+  MkTime h m = ss (h ++ m) ;
 
   H00 = mkTen d2 d4;
   H01 = mkUnit d1;
@@ -56,7 +56,7 @@ lin
   H22 = mkTen d2 d2;
   H23 = mkTen d2 d3;
 
-  M00 = "oh clock";
+  M00 = optStr "oh clock";
   M01 = mkNull d1;
   M02 = mkNull d2;
   M03 = mkNull d3;

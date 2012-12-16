@@ -8,8 +8,12 @@ oper
 	-- Note sure which preposition is used in alarm/time expressions,
 	-- so we support several of them.
 	prep : Str = "to" | "at" | "for" | "in";
-	request_time : Str = "set" ++ optStr "the" ++ "alarm" ++ prep;
-	request_period : Str = "set" ++ optStr "the" ++ "timer" ++ prep;
+	request_time : Str =
+		"set" ++ optStr "the" ++ "alarm" ++ prep |
+		"wake me up at" ;
+	request_period : Str =
+		"set" ++ optStr "the" ++ ("alarm" | "timer") ++ prep |
+		"wake me up in" ;
 
 lin
 	alarm_time x = requestSS (prefixSS request_time x);

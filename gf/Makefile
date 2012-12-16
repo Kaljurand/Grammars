@@ -3,8 +3,19 @@ path = lib:Numeral:Date:Dial:Digit:Action:Alarm:Calc:Expr:Fraction:Unitconv:Dire
 
 langs = App Est Eng
 
-gf = gf --make --optimize-pgf --mk-index --path=$(path)
+# Modules reachable from Action
+modules_Action=Action,Address,Alarm,Calc,Currency,Date,Dial,Digit,Direction,Eeppl,Estvrp,Expr,Fraction,Go,Letter,Numeral,Prefix,Symbols,Tallinnaddress,Tallinndirection,Town,Unit,Unitconv
 
+gf = gf --make --optimize-pgf --mk-index --path=$(path)
+gf_retain = gf --run --retain --path=$(path)
+gfdepgraph = _gfdepgraph.dot
+
+
+dg_Action:
+	echo "dg -only=$(modules_Action)" | $(gf_retain) $(foreach lang,$(langs),Action/Action$(lang).gf)
+	dot -Tpng $(gfdepgraph) > Action.png
+	rm $(gfdepgraph)
+	eog Action.png
 
 build_Action:
 	$(gf) $(foreach lang,$(langs),Action/Action$(lang).gf)

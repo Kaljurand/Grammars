@@ -2,27 +2,15 @@ alarm_time (MkTime H04 M15)
 
 ärata mind palun kell neli viis teist
 
-ärata mind palun kell neli
-
 ärata mind palun neli viis teist
-
-ärata mind palun neli
 
 ärata mind kell neli viis teist
 
-ärata mind kell neli
-
 ärata mind neli viis teist
-
-ärata mind neli
 
 palun ärata mind kell neli viis teist
 
-palun ärata mind kell neli
-
 palun ärata mind neli viis teist
-
-palun ärata mind neli
 
 
 
@@ -68,27 +56,15 @@ alarm_time (MkTime H04 M02)
 
 ärata mind palun kell neli null kaks
 
-ärata mind palun kell neli
-
 ärata mind palun neli null kaks
-
-ärata mind palun neli
 
 ärata mind kell neli null kaks
 
-ärata mind kell neli
-
 ärata mind neli null kaks
-
-ärata mind neli
 
 palun ärata mind kell neli null kaks
 
-palun ärata mind kell neli
-
 palun ärata mind neli null kaks
-
-palun ärata mind neli
 
 
 
@@ -96,27 +72,15 @@ alarm_time (MkTime H04 M02)
 
 ärata mind palun kell neli null kaks
 
-ärata mind palun kell neli
-
 ärata mind palun neli null kaks
-
-ärata mind palun neli
 
 ärata mind kell neli null kaks
 
-ärata mind kell neli
-
 ärata mind neli null kaks
-
-ärata mind neli
 
 palun ärata mind kell neli null kaks
 
-palun ärata mind kell neli
-
 palun ärata mind neli null kaks
-
-palun ärata mind neli
 
 
 
