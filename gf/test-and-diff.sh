@@ -11,7 +11,7 @@ tools=../tools/
 jsgf_langs="Est Eng"
 dict_langs="Est"
 
-date
+time_start=`date +%s`
 for pgf in *.pgf; do
 	name=$(basename "$pgf")
 	ext="${name##*.}"
@@ -37,5 +37,6 @@ for pgf in *.pgf; do
 		cd ..
 	fi
 done
-date
-echo "done."
+time_end=`date +%s`
+time_elapsed=$((time_end - time_start))
+echo "Duration: $time_elapsed sec (" $(( time_elapsed / 60 ))m $(( time_elapsed % 60 ))s ")"

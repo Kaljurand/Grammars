@@ -35,3 +35,6 @@ build_Dial:
 
 build_Alarm:
 	$(gf) $(foreach lang,$(langs),Alarm/Alarm$(lang).gf)
+
+commit:
+	git commit -a -m "f"

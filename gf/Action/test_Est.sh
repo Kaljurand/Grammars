@@ -1,11 +1,6 @@
-
 name=$1
-
-# These you probably do not need to modify
-l="${name}Est"
-
+sedscript="../../tools/make_gf_parse_lin_command_Est.sed"
 examples="examples/"
 e_f="${examples}Est.txt"
 
-# These are the actual tests
-cat ${e_f} | sed "s/^/p -tr -lang=${l} \"/" | sed 's/$/" | l -all/' | gf --run ../${name}.pgf
+cat ${e_f} | sed -f ${sedscript} | gf --run ../${name}.pgf

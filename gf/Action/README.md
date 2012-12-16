@@ -8,10 +8,8 @@ The current components are:
 
   - Alarm (Est, Eng)
   - Calc (Est, Eng)
-  - Dial (Est)
+  - Dial (Est, Eng)
   - Direction (Est)
-
-TODO: support DialEng (currently there is a conflict caused by DigitEng)
 
 TODO: generate this grammar automatically based on a small
 configuration file that just lists the desired abstract modules and

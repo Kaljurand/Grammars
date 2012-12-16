@@ -1,513 +1,171 @@
 Parsing examples/Est.txt
 -------
 convert 2 m to ft
-
-convert two meters to feet
-
+please convert two meters to feet
 kaks meetrit jalgades
 
-
 convert 3000 L to cup_us
-
-convert three thousand liters to cups
-
+please convert three thousand liters to cups
 kolm tuhat liitrit tassides
 
-
 convert 111110 flour-cup to flour-cup
-
-convert one hundred and eleven thousand one hundred and ten cups of flour to cups of flour
-
+please convert one hundred and eleven thousand one hundred and ten cups of flour to cups of flour
 sada üks teist tuhat sada kümme tassi jahu jahu tassides
 
-sada üks teist tuhat üks sada kümme tassi jahu jahu tassides
-
-üks sada üks teist tuhat sada kümme tassi jahu jahu tassides
-
-üks sada üks teist tuhat üks sada kümme tassi jahu jahu tassides
-
-
 convert 12 ft to ft
-
-convert twelve feet to feet
-
+please convert twelve feet to feet
 kaks teist jalga jalgades
 
-
 convert 5 ' to "
-
-convert five minutes to seconds
-
+please convert five minutes to seconds
 viis minutit sekundites
-
 convert 5 min to s
-
-convert five minutes to seconds
-
+please convert five minutes to seconds
 viis minutit sekundites
-
 
 convert 2 ha to km^2
-
-convert two hectares to square kilo meters
-
+please convert two hectares to square kilo meters
 kaks hektarit ruut kilo meetrites
 
-
 convert 2 km to cm
-
-convert two kilo meters to centi meters
-
+please convert two kilo meters to centi meters
 kaks kilo meetrit senti meetrites
 
-
 convert 2 NOK to EEK
-
-convert two Norwegian crowns to Estonian crowns
-
+please convert two Norwegian crowns to Estonian crowns
 kaks norra krooni kroonides
 
-kaks norra krooni eesti kroonides
-
-kaks norra krooni eesti rahas
-
-kaks norra krooni vanas rahas
-
-kaks norra raha kroonides
-
-kaks norra raha eesti kroonides
-
-kaks norra raha eesti rahas
-
-kaks norra raha vanas rahas
-
-
 convert 2 NOK to EEK
-
-convert two Norwegian crowns to Estonian crowns
-
+please convert two Norwegian crowns to Estonian crowns
 kaks norra krooni kroonides
-
-kaks norra krooni eesti kroonides
-
-kaks norra krooni eesti rahas
-
-kaks norra krooni vanas rahas
-
-kaks norra raha kroonides
-
-kaks norra raha eesti kroonides
-
-kaks norra raha eesti rahas
-
-kaks norra raha vanas rahas
-
 
 convert 2 EEK to USD
-
-convert two Estonian crowns to American dollars
-
+please convert two Estonian crowns to American dollars
 kaks krooni dollarites
 
-kaks krooni ameerika dollarites
-
-kaks krooni ameerika rahas
-
-kaks krooni suures valuutas
-
-kaks eesti krooni dollarites
-
-kaks eesti krooni ameerika dollarites
-
-kaks eesti krooni ameerika rahas
-
-kaks eesti krooni suures valuutas
-
-kaks eesti raha dollarites
-
-kaks eesti raha ameerika dollarites
-
-kaks eesti raha ameerika rahas
-
-kaks eesti raha suures valuutas
-
-kaks vana raha dollarites
-
-kaks vana raha ameerika dollarites
-
-kaks vana raha ameerika rahas
-
-kaks vana raha suures valuutas
-
-
 convert 2 mL to µcup_us
-
-convert two milli liters to micro cups
-
+please convert two milli liters to micro cups
 kaks milli liitrit mikro tassides
 
-
 convert 2 Mha to km^2
-
-convert two mega hectares to square kilo meters
-
+please convert two mega hectares to square kilo meters
 kaks mega hektarit ruut kilo meetrites
 
-
 convert 500 cm^3 to µft^3
-
-convert five hundred cubic centi meters to cubic micro feet
-
+please convert five hundred cubic centi meters to cubic micro feet
 viis sada kuup senti meetrit kuup mikro jalgades
 
 
 
-
 convert 2 kW⋅h to MW⋅h
-
-convert two kilo watt hours to mega watt hours
-
+please convert two kilo watt hours to mega watt hours
 kaks kilo vatt tundi mega vatt tundides
 
-
 convert 2 CHF to RUB
-
-convert two Swiss francs to Russian roubles
-
+please convert two Swiss francs to Russian roubles
 kaks franki rublades
 
-kaks franki vene rublades
-
-kaks franki vene rahas
-
-kaks šveitsi franki rublades
-
-kaks šveitsi franki vene rublades
-
-kaks šveitsi franki vene rahas
-
-kaks šveitsi raha rublades
-
-kaks šveitsi raha vene rublades
-
-kaks šveitsi raha vene rahas
-
-kaks suurt valuutat rublades
-
-kaks suurt valuutat vene rublades
-
-kaks suurt valuutat vene rahas
-
-
 convert 2 m*s^-2 to ft*min^-2
-
-convert two meters per seconds squared to feet per minutes squared
-
+please convert two meters per seconds squared to feet per minutes squared
 kaks meetrit ruut sekundis jalgades ruut minutis
 
-
 convert 2 NOK to CHF
-
-convert two Norwegian crowns to Swiss francs
-
+please convert two Norwegian crowns to Swiss francs
 kaks norra krooni frankides
-
-kaks norra krooni šveitsi frankides
-
-kaks norra krooni šveitsi rahas
-
-kaks norra krooni suures valuutas
-
-kaks norra raha frankides
-
-kaks norra raha šveitsi frankides
-
-kaks norra raha šveitsi rahas
-
-kaks norra raha suures valuutas
-
 convert 2 NOK to EUR
-
-convert two Norwegian crowns to Euros
-
+please convert two Norwegian crowns to Euros
 kaks norra krooni eurodes
-
-kaks norra krooni suures valuutas
-
-kaks norra raha eurodes
-
-kaks norra raha suures valuutas
-
 convert 2 NOK to GBP
-
-convert two Norwegian crowns to British pounds
-
+please convert two Norwegian crowns to British pounds
 kaks norra krooni naelades
-
-kaks norra krooni inglise naelades
-
-kaks norra krooni inglise rahas
-
-kaks norra krooni suures valuutas
-
-kaks norra raha naelades
-
-kaks norra raha inglise naelades
-
-kaks norra raha inglise rahas
-
-kaks norra raha suures valuutas
-
 convert 2 NOK to JPY
-
-convert two Norwegian crowns to Japanese yens
-
+please convert two Norwegian crowns to Japanese yens
 kaks norra krooni jeenides
-
-kaks norra krooni jaapani jeenides
-
-kaks norra krooni jaapani rahas
-
-kaks norra krooni suures valuutas
-
-kaks norra raha jeenides
-
-kaks norra raha jaapani jeenides
-
-kaks norra raha jaapani rahas
-
-kaks norra raha suures valuutas
-
 convert 2 NOK to USD
-
-convert two Norwegian crowns to American dollars
-
+please convert two Norwegian crowns to American dollars
 kaks norra krooni dollarites
 
-kaks norra krooni ameerika dollarites
-
-kaks norra krooni ameerika rahas
-
-kaks norra krooni suures valuutas
-
-kaks norra raha dollarites
-
-kaks norra raha ameerika dollarites
-
-kaks norra raha ameerika rahas
-
-kaks norra raha suures valuutas
-
-
 convert 2 m/s/s to knot/h
-
-convert two meters per seconds per seconds to knots per hours
-
+please convert two meters per seconds per seconds to knots per hours
 kaks meetrit sekundis sekundis sõlmedes tunnis
 
 
 
-
 convert 817650401305 m to ft
-
-convert eight hundred and seventeen billion six hundred and fifty million four hundred and one thousand three hundred and five meters to feet
-
+please convert eight hundred and seventeen billion six hundred and fifty million four hundred and one thousand three hundred and five meters to feet
 kaheksa sada seitse teist miljardit ja kuus sada viis kümmend miljonit ja neli sada üks tuhat kolm sada viis meetrit jalgades
-
-kaheksa sada seitse teist miljardit ja kuus sada viis kümmend miljonit neli sada üks tuhat kolm sada viis meetrit jalgades
-
-kaheksa sada seitse teist miljardit kuus sada viis kümmend miljonit ja neli sada üks tuhat kolm sada viis meetrit jalgades
-
-kaheksa sada seitse teist miljardit kuus sada viis kümmend miljonit neli sada üks tuhat kolm sada viis meetrit jalgades
-
 
 Parsing examples/App.txt
 -------
 convert 2 m to ft
-
-convert two meters to feet
-
+please convert two meters to feet
 kaks meetrit jalgades
 
-
 convert 1000 m°C to °C
-
-convert one thousand milli degrees to degrees
-
+please convert one thousand milli degrees to degrees
 tuhat milli kraadi kraadides
 
-üks tuhat milli kraadi kraadides
-
-
 convert 2 km^2 to ha
-
-convert two square kilo meters to hectares
-
+please convert two square kilo meters to hectares
 kaks ruut kilo meetrit hektarites
 
-
 convert 3 mm to µm
-
-convert three milli meters to micro meters
-
+please convert three milli meters to micro meters
 kolm milli meetrit mikro meetrites
 
-
 convert 3 kg to ng
-
-convert three kilo grams to nano grams
-
+please convert three kilo grams to nano grams
 kolm kilo grammi nano grammides
 
-
 convert 3 °C to m°C
-
-convert three degrees to milli degrees
-
+please convert three degrees to milli degrees
 kolm kraadi milli kraadides
 
-
 convert 3 EEK to EUR
-
-convert three Estonian crowns to Euros
-
+please convert three Estonian crowns to Euros
 kolm krooni eurodes
 
-kolm krooni suures valuutas
-
-kolm eesti krooni eurodes
-
-kolm eesti krooni suures valuutas
-
-kolm eesti raha eurodes
-
-kolm eesti raha suures valuutas
-
-kolm vana raha eurodes
-
-kolm vana raha suures valuutas
-
-
 convert 3 NOK to NOK
-
-convert three Norwegian crowns to Norwegian crowns
-
+please convert three Norwegian crowns to Norwegian crowns
 kolm norra krooni norra kroonides
 
-kolm norra krooni norra rahas
-
-kolm norra raha norra kroonides
-
-kolm norra raha norra rahas
-
-
 convert 3 USD to USD
-
-convert three American dollars to American dollars
-
+please convert three American dollars to American dollars
 kolm dollarit dollarites
 
-kolm dollarit ameerika dollarites
-
-kolm dollarit ameerika rahas
-
-kolm dollarit suures valuutas
-
-kolm ameerika dollarit dollarites
-
-kolm ameerika dollarit ameerika dollarites
-
-kolm ameerika dollarit ameerika rahas
-
-kolm ameerika dollarit suures valuutas
-
-kolm ameerika raha dollarites
-
-kolm ameerika raha ameerika dollarites
-
-kolm ameerika raha ameerika rahas
-
-kolm ameerika raha suures valuutas
-
-kolm suurt valuutat dollarites
-
-kolm suurt valuutat ameerika dollarites
-
-kolm suurt valuutat ameerika rahas
-
-kolm suurt valuutat suures valuutas
-
-
 convert 3 mHz to µHz
-
-convert three milli hertz to micro hertz
-
+please convert three milli hertz to micro hertz
 kolm milli hertsi mikro hertsides
 
-
 convert 3 m/s to km/h
-
-convert three meters per seconds to kilo meters per hours
-
+please convert three meters per seconds to kilo meters per hours
 kolm meetrit sekundis kilo meetrites tunnis
 
-
 convert 3 c to km/µs
-
-convert three speed of light to kilo meters per micro seconds
-
+please convert three speed of light to kilo meters per micro seconds
 kolm valgus kiirust kilo meetrites mikro sekundis
 
-
 convert 3 km/µs to c
-
-convert three kilo meters per micro seconds to speed of light
-
+please convert three kilo meters per micro seconds to speed of light
 kolm kilo meetrit mikro sekundis valgus kiirustes
 
-
 convert 3 m*s^-2 to km*µs^-2
-
-convert three meters per seconds squared to kilo meters per micro seconds squared
-
+please convert three meters per seconds squared to kilo meters per micro seconds squared
 kolm meetrit ruut sekundis kilo meetrites ruut mikro sekundis
 
-
 convert 3 in to ft
-
-convert three inches to feet
-
+please convert three inches to feet
 kolm tolli jalgades
 
-
 convert 2 HUF to EUR
-
-convert two Hungarian forints to Euros
-
+please convert two Hungarian forints to Euros
 kaks forintit eurodes
 
-kaks forintit suures valuutas
-
-kaks ungari forintit eurodes
-
-kaks ungari forintit suures valuutas
-
-kaks ungari raha eurodes
-
-kaks ungari raha suures valuutas
-
-
 convert 2 c/s to km/h/s
-
-convert two speed of light per seconds to kilo meters per hours per seconds
-
+please convert two speed of light per seconds to kilo meters per hours per seconds
 kaks valgus kiirust sekundis kilo meetrites tunnis sekundis
 
-
 convert 2 °C to °F
-
-convert two degrees to fahrenheits
-
+please convert two degrees to fahrenheits
 kaks kraadi fahrenheitides
-
 

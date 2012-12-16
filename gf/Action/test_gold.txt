@@ -1,90 +1,28 @@
-f2 (expr (e_mult (e_plus (numeral (fraction (copy1 (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n2)))))))))) (numeral (fraction (copy1 (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n3))))))))))) (numeral (fraction (copy1 (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n5))))))))))))
-
-( &+ ( &+ 2 + 3 &+ ) * 5 &+ )
-
-two plus three times five
-
+((2 + 3) * 5)
+how much is two plus three times five
 kui palju on kaks pluss kolm korda viis
 
-kaks pluss kolm korda viis
-
-
-
-f2 (expr (e_pow (e_mult (e_plus (numeral (fraction (copy1 (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n2)))))))))) (numeral (fraction (copy1 (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n3))))))))))) (numeral (fraction (copy1 (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n5))))))))))) (numeral (fraction (neg1 (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n6))))))))))))
-
-( &+ ( &+ ( &+ 2 + 3 &+ ) * 5 &+ ) ^ ( &+ - &+ 6 &+ ) &+ )
-
-two plus three times five to the power of minus six
-
+(((2 + 3) * 5) ^ (-6))
+how much is two plus three times five to the power of minus six
 kui palju on kaks pluss kolm korda viis astmel miinus kuus
 
-kaks pluss kolm korda viis astmel miinus kuus
-
-
-
-f2 (unitconv (main (fraction (copy2 (pair (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n2))))))) (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n3)))))))))) (length (length_unit meter) (length_unit foot))))
-
-convert 2 &+ . &+ 3 m to ft
-
-convert two point three meters to feet
-
+convert 2.3 m to ft
+please convert two point three meters to feet
 kui palju on kaks koma kolm meetrit jalgades
-
-kaks koma kolm meetrit jalgades
-
-
-
-f1 (direction_id (address2 (small_num (pot1as2 (pot0as1 (pot0 n2)))) Estonia_puiestee tallinn))
 
 Estonia puiestee 2 , Tallinn
 
-
 Estonia puiestee kaks Tallinn
-
-Estonia puiestee kaks
-
-
-
-f1 (direction (address2 (small_num (pot1as2 (pot0as1 (pot0 n2)))) Estonia_puiestee tallinn) (address1 Estonia_puiestee tallinn))
 
 FROM Estonia puiestee 2 , Tallinn TO Estonia puiestee , Tallinn
 
-
 Algus Estonia puiestee kaks Tallinn Lõpp Estonia puiestee Tallinn
 
-Algus Estonia puiestee kaks Tallinn Lõpp Estonia puiestee
-
-Algus Estonia puiestee kaks Lõpp Estonia puiestee Tallinn
-
-Algus Estonia puiestee kaks Lõpp Estonia puiestee
-
-
-
 convert 2 ft^2 to m^2
-
-
-convert two square feet to square meters
-
-
+please convert two square feet to square meters
 kui palju on kaks ruut jalga ruut meetrites
 
-
-kaks ruut jalga ruut meetrites
-
-
-
-
 (((2 + 3) * 5) ^ (-6.3))
-
-
-two plus three times five to the power of minus six point three
-
-
+how much is two plus three times five to the power of minus six point three
 kui palju on kaks pluss kolm korda viis astmel miinus kuus koma kolm
-
-
-kaks pluss kolm korda viis astmel miinus kuus koma kolm
-
-
-
 
