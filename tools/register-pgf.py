@@ -79,10 +79,9 @@ for name in args.names:
 	cmd.append(args.server + "/fetch-pgf")
 
 	if args.verbosity > 1:
-		print >> sys.stderr, 'Registering {:} ...'.format(name)
-
-	if args.verbosity > 2:
-		print >> sys.stderr, ' '.join(cmd)
+		print >> sys.stderr, 'Registering {:} ({:}) ...'.format(name, args.langs)
+		if args.verbosity > 2:
+			print >> sys.stderr, ' '.join(cmd)
 
 	time_start = time.time()
 	out,err = get_result(cmd)
