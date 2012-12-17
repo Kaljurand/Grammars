@@ -1,235 +1,19 @@
-Letter: lu
-LetterApp: u
+Letter: louml
+LetterApp: ö
 
-LetterEst: uuuu
-
-
-Letter: lc
-LetterApp: c
-
-LetterEst: tseesar
-
-
-Letter: lzcaron
-LetterApp: z~
-
-LetterEst: z~eeee
-
-
-Letter: luuml
-LetterApp: ä
-
-LetterEst: ääää
-
-
-Letter: luuml
-LetterApp: ä
-
-LetterEst: ääää
-
-
-Letter: lx
-LetterApp: x
-
-LetterEst: iks
-
-
-Letter: lf
-LetterApp: f
-
-LetterEst: eff
-
-
-Letter: lh
-LetterApp: h
-
-LetterEst: haaaa
-
-
-Letter: lu
-LetterApp: u
-
-LetterEst: uuuu
-
-
-Letter: luuml
-LetterApp: ä
-
-LetterEst: ääää
-
-
-Letter: ls
-LetterApp: s
-
-LetterEst: ess
-
-
-Letter: lk
-LetterApp: k
-
-LetterEst: kaaaa
-
-
-Letter: lt
-LetterApp: t
-
-LetterEst: teeee
-
-
-Letter: lr
-LetterApp: r
-
-LetterEst: err
-
-
-Letter: ls
-LetterApp: s
-
-LetterEst: ess
-
-
-Letter: lh
-LetterApp: h
-
-LetterEst: haaaa
-
-
-Letter: lzcaron
-LetterApp: z~
-
-LetterEst: z~eeee
-
-
-Letter: lv
-LetterApp: v
-
-LetterEst: veeee
+LetterEst: ööbik
 
 
 Letter: li
 LetterApp: i
 
-LetterEst: iiii
-
-
-Letter: ll
-LetterApp: l
-
-LetterEst: ell
-
-
-Letter: lb
-LetterApp: b
-
-LetterEst: berta
-
-
-Letter: lb
-LetterApp: b
-
-LetterEst: berta
-
-
-Letter: lauml
-LetterApp: ü
-
-LetterEst: üüüü
-
-
-Letter: lzcaron
-LetterApp: z~
-
-LetterEst: z~eeee
-
-
-Letter: lk
-LetterApp: k
-
-LetterEst: kaaaa
-
-
-Letter: ll
-LetterApp: l
-
-LetterEst: ell
-
-
-Letter: ls
-LetterApp: s
-
-LetterEst: ess
-
-
-Letter: lx
-LetterApp: x
-
-LetterEst: iks
-
-
-Letter: lz
-LetterApp: z
-
-LetterEst: tsett
-
-
-Letter: ln
-LetterApp: n
-
-LetterEst: enn
-
-
-Letter: la
-LetterApp: a
-
-LetterEst: alfa
-
-
-Letter: ls
-LetterApp: s
-
-LetterEst: ess
-
-
-Letter: lm
-LetterApp: m
-
-LetterEst: emm
-
-
-Letter: lauml
-LetterApp: ü
-
-LetterEst: üüüü
-
-
-Letter: lp
-LetterApp: p
-
-LetterEst: peeee
-
-
-Letter: lr
-LetterApp: r
-
-LetterEst: err
-
-
-Letter: le
-LetterApp: e
-
-LetterEst: eeee
+LetterEst: iida
 
 
 Letter: lo
 LetterApp: o
 
-LetterEst: oooo
-
-
-Letter: lz
-LetterApp: z
-
-LetterEst: tsett
+LetterEst: oskar
 
 
 Letter: ly
@@ -241,37 +25,139 @@ LetterEst: igrek
 Letter: le
 LetterApp: e
 
-LetterEst: eeee
+LetterEst: eedu
 
 
-Letter: lp
-LetterApp: p
+Letter: ls
+LetterApp: s
 
-LetterEst: peeee
-
-
-Letter: lt
-LetterApp: t
-
-LetterEst: teeee
+LetterEst: salme
 
 
-Letter: lotilde
-LetterApp: õ
+Letter: lf
+LetterApp: f
 
-LetterEst: õõõõ
-
-
-Letter: lo
-LetterApp: o
-
-LetterEst: oooo
+LetterEst: eff
 
 
-Letter: lw
-LetterApp: w
+Letter: ld
+LetterApp: d
 
-LetterEst: kaksisvee
+LetterEst: daavid
+
+
+Letter: lu
+LetterApp: u
+
+LetterEst: uuno
+
+
+Letter: lscaron
+LetterApp: š
+
+LetterEst: šaaaa
+
+
+Letter: ld
+LetterApp: d
+
+LetterEst: daavid
+
+
+Letter: lq
+LetterApp: q
+
+LetterEst: kuu
+
+
+Letter: lc
+LetterApp: c
+
+LetterEst: tseesar
+
+
+Letter: lj
+LetterApp: j
+
+LetterEst: jaan
+
+
+Letter: lj
+LetterApp: j
+
+LetterEst: jaan
+
+
+Letter: louml
+LetterApp: ö
+
+LetterEst: ööbik
+
+
+Letter: lh
+LetterApp: h
+
+LetterEst: harald
+
+
+Letter: la
+LetterApp: a
+
+LetterEst: anna
+
+
+Letter: lx
+LetterApp: x
+
+LetterEst: iks
+
+
+Letter: lx
+LetterApp: x
+
+LetterEst: iks
+
+
+Letter: lc
+LetterApp: c
+
+LetterEst: tseesar
+
+
+Letter: lk
+LetterApp: k
+
+LetterEst: kalle
+
+
+Letter: louml
+LetterApp: ö
+
+LetterEst: ööbik
+
+
+Letter: ld
+LetterApp: d
+
+LetterEst: daavid
+
+
+Letter: lzcaron
+LetterApp: ž
+
+LetterEst: žeeee
+
+
+Letter: lz
+LetterApp: z
+
+LetterEst: tsett
+
+
+Letter: le
+LetterApp: e
+
+LetterEst: eedu
 
 
 Letter: lb
@@ -280,22 +166,136 @@ LetterApp: b
 LetterEst: berta
 
 
-Letter: lr
-LetterApp: r
+Letter: lc
+LetterApp: c
 
-LetterEst: err
-
-
-Letter: lj
-LetterApp: j
-
-LetterEst: jott
+LetterEst: tseesar
 
 
-Letter: lotilde
-LetterApp: õ
+Letter: lf
+LetterApp: f
 
-LetterEst: õõõõ
+LetterEst: eff
+
+
+Letter: le
+LetterApp: e
+
+LetterEst: eedu
+
+
+Letter: louml
+LetterApp: ö
+
+LetterEst: ööbik
+
+
+Letter: lv
+LetterApp: v
+
+LetterEst: viktor
+
+
+Letter: lc
+LetterApp: c
+
+LetterEst: tseesar
+
+
+Letter: louml
+LetterApp: ö
+
+LetterEst: ööbik
+
+
+Letter: lq
+LetterApp: q
+
+LetterEst: kuu
+
+
+Letter: lh
+LetterApp: h
+
+LetterEst: harald
+
+
+Letter: lg
+LetterApp: g
+
+LetterEst: gustav
+
+
+Letter: lg
+LetterApp: g
+
+LetterEst: gustav
+
+
+Letter: lk
+LetterApp: k
+
+LetterEst: kalle
+
+
+Letter: lx
+LetterApp: x
+
+LetterEst: iks
+
+
+Letter: lx
+LetterApp: x
+
+LetterEst: iks
+
+
+Letter: le
+LetterApp: e
+
+LetterEst: eedu
+
+
+Letter: lh
+LetterApp: h
+
+LetterEst: harald
+
+
+Letter: li
+LetterApp: i
+
+LetterEst: iida
+
+
+Letter: lu
+LetterApp: u
+
+LetterEst: uuno
+
+
+Letter: lt
+LetterApp: t
+
+LetterEst: tango
+
+
+Letter: ll
+LetterApp: l
+
+LetterEst: linda
+
+
+Letter: ln
+LetterApp: n
+
+LetterEst: narva
+
+
+Letter: lf
+LetterApp: f
+
+LetterEst: eff
 
 
 

@@ -1,301 +1,401 @@
-Digit: n6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: n5
-DigitApp: 5
-
-DigitEst: viis
-
-
-Digit: n4
-DigitApp: 4
-
-DigitEst: neli
-
-
-Digit: n5
-DigitApp: 5
-
-DigitEst: viis
-
-
-Digit: n1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: n1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: n6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: n5
-DigitApp: 5
-
-DigitEst: viis
-
-
-Digit: n9
-DigitApp: 9
-
-DigitEst: üheksa
-
-
-Digit: n6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: n5
-DigitApp: 5
-
-DigitEst: viis
-
-
-Digit: n4
-DigitApp: 4
-
-DigitEst: neli
-
-
-Digit: n1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: n8
-DigitApp: 8
-
-DigitEst: kaheksa
-
-
-Digit: n1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: n4
-DigitApp: 4
-
-DigitEst: neli
-
-
-Digit: n3
-DigitApp: 3
-
-DigitEst: kolm
-
-
-Digit: n0
-DigitApp: 0
-
-DigitEst: null
-
-
-Digit: n1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: n0
-DigitApp: 0
-
-DigitEst: null
-
-
-Digit: n0
-DigitApp: 0
-
-DigitEst: null
-
-
-Digit: n8
-DigitApp: 8
-
-DigitEst: kaheksa
-
-
-Digit: n9
-DigitApp: 9
-
-DigitEst: üheksa
-
-
-Digit: n1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: n9
-DigitApp: 9
-
-DigitEst: üheksa
-
-
-Digit: n9
-DigitApp: 9
-
-DigitEst: üheksa
-
-
-Digit: n1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: n8
-DigitApp: 8
-
-DigitEst: kaheksa
-
-
-Digit: n5
-DigitApp: 5
-
-DigitEst: viis
-
-
-Digit: n8
-DigitApp: 8
-
-DigitEst: kaheksa
-
-
-Digit: n0
-DigitApp: 0
-
-DigitEst: null
-
-
-Digit: n8
-DigitApp: 8
-
-DigitEst: kaheksa
-
-
-Digit: n6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: n0
-DigitApp: 0
-
-DigitEst: null
-
-
-Digit: n0
-DigitApp: 0
-
-DigitEst: null
-
-
-Digit: n4
-DigitApp: 4
-
-DigitEst: neli
-
-
-Digit: n1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: n1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: n1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: n6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: n1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: n2
+Digit: d2
 DigitApp: 2
+
+DigitEng: two
 
 DigitEst: kaks
 
 
-Digit: n6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: n7
-DigitApp: 7
-
-DigitEst: seitse
-
-
-Digit: n6
-DigitApp: 6
-
-DigitEst: kuus
-
-
-Digit: n1
-DigitApp: 1
-
-DigitEst: üks
-
-
-Digit: n5
-DigitApp: 5
-
-DigitEst: viis
-
-
-Digit: n8
+Digit: d8
 DigitApp: 8
+
+DigitEng: eight
 
 DigitEst: kaheksa
 
 
-Digit: n4
+Digit: d7
+DigitApp: 7
+
+DigitEng: seven
+
+DigitEst: seitse
+
+
+Digit: d9
+DigitApp: 9
+
+DigitEng: nine
+
+DigitEst: üheksa
+
+
+Digit: d8
+DigitApp: 8
+
+DigitEng: eight
+
+DigitEst: kaheksa
+
+
+Digit: d7
+DigitApp: 7
+
+DigitEng: seven
+
+DigitEst: seitse
+
+
+Digit: d8
+DigitApp: 8
+
+DigitEng: eight
+
+DigitEst: kaheksa
+
+
+Digit: d3
+DigitApp: 3
+
+DigitEng: three
+
+DigitEst: kolm
+
+
+Digit: d6
+DigitApp: 6
+
+DigitEng: six
+
+DigitEst: kuus
+
+
+Digit: d4
 DigitApp: 4
+
+DigitEng: four
 
 DigitEst: neli
 
 
-Digit: n5
+Digit: d9
+DigitApp: 9
+
+DigitEng: nine
+
+DigitEst: üheksa
+
+
+Digit: d8
+DigitApp: 8
+
+DigitEng: eight
+
+DigitEst: kaheksa
+
+
+Digit: d8
+DigitApp: 8
+
+DigitEng: eight
+
+DigitEst: kaheksa
+
+
+Digit: d7
+DigitApp: 7
+
+DigitEng: seven
+
+DigitEst: seitse
+
+
+Digit: d7
+DigitApp: 7
+
+DigitEng: seven
+
+DigitEst: seitse
+
+
+Digit: d4
+DigitApp: 4
+
+DigitEng: four
+
+DigitEst: neli
+
+
+Digit: d5
 DigitApp: 5
 
+DigitEng: five
+
 DigitEst: viis
+
+
+Digit: d0
+DigitApp: 0
+
+DigitEng: zero
+
+DigitEst: null
+
+
+Digit: d1
+DigitApp: 1
+
+DigitEng: one
+
+DigitEst: üks
+
+
+Digit: d5
+DigitApp: 5
+
+DigitEng: five
+
+DigitEst: viis
+
+
+Digit: d3
+DigitApp: 3
+
+DigitEng: three
+
+DigitEst: kolm
+
+
+Digit: d7
+DigitApp: 7
+
+DigitEng: seven
+
+DigitEst: seitse
+
+
+Digit: d2
+DigitApp: 2
+
+DigitEng: two
+
+DigitEst: kaks
+
+
+Digit: d6
+DigitApp: 6
+
+DigitEng: six
+
+DigitEst: kuus
+
+
+Digit: d4
+DigitApp: 4
+
+DigitEng: four
+
+DigitEst: neli
+
+
+Digit: d7
+DigitApp: 7
+
+DigitEng: seven
+
+DigitEst: seitse
+
+
+Digit: d2
+DigitApp: 2
+
+DigitEng: two
+
+DigitEst: kaks
+
+
+Digit: d6
+DigitApp: 6
+
+DigitEng: six
+
+DigitEst: kuus
+
+
+Digit: d2
+DigitApp: 2
+
+DigitEng: two
+
+DigitEst: kaks
+
+
+Digit: d1
+DigitApp: 1
+
+DigitEng: one
+
+DigitEst: üks
+
+
+Digit: d8
+DigitApp: 8
+
+DigitEng: eight
+
+DigitEst: kaheksa
+
+
+Digit: d3
+DigitApp: 3
+
+DigitEng: three
+
+DigitEst: kolm
+
+
+Digit: d4
+DigitApp: 4
+
+DigitEng: four
+
+DigitEst: neli
+
+
+Digit: d8
+DigitApp: 8
+
+DigitEng: eight
+
+DigitEst: kaheksa
+
+
+Digit: d5
+DigitApp: 5
+
+DigitEng: five
+
+DigitEst: viis
+
+
+Digit: d0
+DigitApp: 0
+
+DigitEng: zero
+
+DigitEst: null
+
+
+Digit: d2
+DigitApp: 2
+
+DigitEng: two
+
+DigitEst: kaks
+
+
+Digit: d2
+DigitApp: 2
+
+DigitEng: two
+
+DigitEst: kaks
+
+
+Digit: d5
+DigitApp: 5
+
+DigitEng: five
+
+DigitEst: viis
+
+
+Digit: d6
+DigitApp: 6
+
+DigitEng: six
+
+DigitEst: kuus
+
+
+Digit: d2
+DigitApp: 2
+
+DigitEng: two
+
+DigitEst: kaks
+
+
+Digit: d2
+DigitApp: 2
+
+DigitEng: two
+
+DigitEst: kaks
+
+
+Digit: d1
+DigitApp: 1
+
+DigitEng: one
+
+DigitEst: üks
+
+
+Digit: d7
+DigitApp: 7
+
+DigitEng: seven
+
+DigitEst: seitse
+
+
+Digit: d5
+DigitApp: 5
+
+DigitEng: five
+
+DigitEst: viis
+
+
+Digit: d7
+DigitApp: 7
+
+DigitEng: seven
+
+DigitEst: seitse
+
+
+Digit: d9
+DigitApp: 9
+
+DigitEng: nine
+
+DigitEst: üheksa
+
+
+Digit: d5
+DigitApp: 5
+
+DigitEng: five
+
+DigitEst: viis
+
+
+Digit: d1
+DigitApp: 1
+
+DigitEng: one
+
+DigitEst: üks
+
+
+Digit: d4
+DigitApp: 4
+
+DigitEng: four
+
+DigitEst: neli
 
 
 

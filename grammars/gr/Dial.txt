@@ -1,0 +1,401 @@
+Dial: dial (number d2)
+DialApp: call 2
+
+DialEng: please call two
+
+DialEst: helista palun kaks
+
+
+Dial: dial (numbers d6 (numbers d5 (numbers d8 (number d8))))
+DialApp: call 6 5 8 8
+
+DialEng: please call six five eight eight
+
+DialEst: helista palun kuus viis kaheksa kaheksa
+
+
+Dial: dial (number d8)
+DialApp: call 8
+
+DialEng: please call eight
+
+DialEst: helista palun kaheksa
+
+
+Dial: dial (numbers d8 (number d1))
+DialApp: call 8 1
+
+DialEng: please call eight one
+
+DialEst: helista palun kaheksa üks
+
+
+Dial: dial (numbers d7 (numbers d1 (numbers d2 (number d1))))
+DialApp: call 7 1 2 1
+
+DialEng: please call seven one two one
+
+DialEst: helista palun seitse üks kaks üks
+
+
+Dial: dial (numbers d1 (numbers d9 (numbers d2 (number d2))))
+DialApp: call 1 9 2 2
+
+DialEng: please call one nine two two
+
+DialEst: helista palun üks üheksa kaks kaks
+
+
+Dial: dial (number d6)
+DialApp: call 6
+
+DialEng: please call six
+
+DialEst: helista palun kuus
+
+
+Dial: dial (number d2)
+DialApp: call 2
+
+DialEng: please call two
+
+DialEst: helista palun kaks
+
+
+Dial: dial (number d3)
+DialApp: call 3
+
+DialEng: please call three
+
+DialEst: helista palun kolm
+
+
+Dial: dial (number d3)
+DialApp: call 3
+
+DialEng: please call three
+
+DialEst: helista palun kolm
+
+
+Dial: dial (numbers d6 (numbers d8 (numbers d2 (number d2))))
+DialApp: call 6 8 2 2
+
+DialEng: please call six eight two two
+
+DialEst: helista palun kuus kaheksa kaks kaks
+
+
+Dial: dial (numbers d6 (number d5))
+DialApp: call 6 5
+
+DialEng: please call six five
+
+DialEst: helista palun kuus viis
+
+
+Dial: dial (number d6)
+DialApp: call 6
+
+DialEng: please call six
+
+DialEst: helista palun kuus
+
+
+Dial: dial (numbers d5 (numbers d6 (number d1)))
+DialApp: call 5 6 1
+
+DialEng: please call five six one
+
+DialEst: helista palun viis kuus üks
+
+
+Dial: dial (number d3)
+DialApp: call 3
+
+DialEng: please call three
+
+DialEst: helista palun kolm
+
+
+Dial: dial (number d6)
+DialApp: call 6
+
+DialEng: please call six
+
+DialEst: helista palun kuus
+
+
+Dial: dial (numbers d8 (numbers d0 (numbers d2 (number d8))))
+DialApp: call 8 0 2 8
+
+DialEng: please call eight zero two eight
+
+DialEst: helista palun kaheksa null kaks kaheksa
+
+
+Dial: dial (number d7)
+DialApp: call 7
+
+DialEng: please call seven
+
+DialEst: helista palun seitse
+
+
+Dial: dial (number d3)
+DialApp: call 3
+
+DialEng: please call three
+
+DialEst: helista palun kolm
+
+
+Dial: dial (number d4)
+DialApp: call 4
+
+DialEng: please call four
+
+DialEst: helista palun neli
+
+
+Dial: dial (numbers d9 (number d7))
+DialApp: call 9 7
+
+DialEng: please call nine seven
+
+DialEst: helista palun üheksa seitse
+
+
+Dial: dial (number d0)
+DialApp: call 0
+
+DialEng: please call zero
+
+DialEst: helista palun null
+
+
+Dial: dial (number d6)
+DialApp: call 6
+
+DialEng: please call six
+
+DialEst: helista palun kuus
+
+
+Dial: dial (number d9)
+DialApp: call 9
+
+DialEng: please call nine
+
+DialEst: helista palun üheksa
+
+
+Dial: dial (number d0)
+DialApp: call 0
+
+DialEng: please call zero
+
+DialEst: helista palun null
+
+
+Dial: dial (numbers d4 (number d7))
+DialApp: call 4 7
+
+DialEng: please call four seven
+
+DialEst: helista palun neli seitse
+
+
+Dial: dial (numbers d3 (number d5))
+DialApp: call 3 5
+
+DialEng: please call three five
+
+DialEst: helista palun kolm viis
+
+
+Dial: dial (numbers d5 (number d2))
+DialApp: call 5 2
+
+DialEng: please call five two
+
+DialEst: helista palun viis kaks
+
+
+Dial: dial (numbers d4 (number d8))
+DialApp: call 4 8
+
+DialEng: please call four eight
+
+DialEst: helista palun neli kaheksa
+
+
+Dial: dial (number d4)
+DialApp: call 4
+
+DialEng: please call four
+
+DialEst: helista palun neli
+
+
+Dial: dial (number d8)
+DialApp: call 8
+
+DialEng: please call eight
+
+DialEst: helista palun kaheksa
+
+
+Dial: dial (numbers d6 (numbers d0 (numbers d7 (number d1))))
+DialApp: call 6 0 7 1
+
+DialEng: please call six zero seven one
+
+DialEst: helista palun kuus null seitse üks
+
+
+Dial: dial (numbers d7 (numbers d1 (number d7)))
+DialApp: call 7 1 7
+
+DialEng: please call seven one seven
+
+DialEst: helista palun seitse üks seitse
+
+
+Dial: dial (numbers d7 (number d6))
+DialApp: call 7 6
+
+DialEng: please call seven six
+
+DialEst: helista palun seitse kuus
+
+
+Dial: dial (number d5)
+DialApp: call 5
+
+DialEng: please call five
+
+DialEst: helista palun viis
+
+
+Dial: dial (number d4)
+DialApp: call 4
+
+DialEng: please call four
+
+DialEst: helista palun neli
+
+
+Dial: dial (numbers d0 (number d3))
+DialApp: call 0 3
+
+DialEng: please call zero three
+
+DialEst: helista palun null kolm
+
+
+Dial: dial (numbers d6 (number d2))
+DialApp: call 6 2
+
+DialEng: please call six two
+
+DialEst: helista palun kuus kaks
+
+
+Dial: dial (number d9)
+DialApp: call 9
+
+DialEng: please call nine
+
+DialEst: helista palun üheksa
+
+
+Dial: dial (numbers d6 (numbers d8 (number d9)))
+DialApp: call 6 8 9
+
+DialEng: please call six eight nine
+
+DialEst: helista palun kuus kaheksa üheksa
+
+
+Dial: dial (numbers d5 (numbers d1 (numbers d0 (number d6))))
+DialApp: call 5 1 0 6
+
+DialEng: please call five one zero six
+
+DialEst: helista palun viis üks null kuus
+
+
+Dial: dial (numbers d0 (numbers d5 (numbers d7 (number d6))))
+DialApp: call 0 5 7 6
+
+DialEng: please call zero five seven six
+
+DialEst: helista palun null viis seitse kuus
+
+
+Dial: dial (number d1)
+DialApp: call 1
+
+DialEng: please call one
+
+DialEst: helista palun üks
+
+
+Dial: dial (number d3)
+DialApp: call 3
+
+DialEng: please call three
+
+DialEst: helista palun kolm
+
+
+Dial: dial (number d2)
+DialApp: call 2
+
+DialEng: please call two
+
+DialEst: helista palun kaks
+
+
+Dial: dial (number d5)
+DialApp: call 5
+
+DialEng: please call five
+
+DialEst: helista palun viis
+
+
+Dial: dial (number d0)
+DialApp: call 0
+
+DialEng: please call zero
+
+DialEst: helista palun null
+
+
+Dial: dial (numbers d6 (number d2))
+DialApp: call 6 2
+
+DialEng: please call six two
+
+DialEst: helista palun kuus kaks
+
+
+Dial: dial (numbers d7 (numbers d6 (number d0)))
+DialApp: call 7 6 0
+
+DialEng: please call seven six zero
+
+DialEst: helista palun seitse kuus null
+
+
+Dial: dial (number d2)
+DialApp: call 2
+
+DialEng: please call two
+
+DialEst: helista palun kaks
+
+
+
