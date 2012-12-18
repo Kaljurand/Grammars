@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-<title>GF-based speech recognition grammars for Estonian</title>
+<title>GF-based speech grammars</title>
 <meta name="Author" content="Kaarel Kaljurand"/>
 
 <!--
@@ -34,70 +34,79 @@ a:hover { text-decoration: underline }
 -->
 <body>
 
-<h1>GF-based speech recognition grammars for Estonian</h1>
+<h1>GF-based speech grammars</h1>
 
 <h2>Introduction</h2>
 
 <p>The grammars that are available on this page cover some fixed domains (e.g.
 calculator, maps, alarm clock) and
-support two languages <em>Est</em> and <em>App</em> for talking about
-these domains.</p>
+define two kinds of languages for talking about these domains.</p>
 
 <ul>
-<li><em>Est</em> corresponds to spoken Estonian and is meant to guide the
-speech recognizer</li>
-<li><em>App</em>
-corresponds to a machine language (e.g. standard calculator,
-Google Maps query language)</li>
+<li>natural (spoken) languages, currently Estonian (<em>Est</em>) and English
+(<em>Eng</em>);</li>
+<li>machine languages, currently a single language <em>App</em>.</li>
 </ul>
 
-<p><a href="http://www.grammaticalframework.org/">Grammatical Framework (GF)</a> is a grammar
-formalism with a focus on translation.
-Describing the domains and languages in GF allows us to translate
-from <em>Est</em> to <em>App</em> in order to "execute" an Estonian utterance.
-For example, a spoken input (in <em>Est</em>):</p>
+<p>The syntax of the natural languages is designed to reflect the common
+ways of expressing the sentences of the domains. Furthermore, it mimics spoken
+language (e.g. the syntax does not describe any orthographic symbols or
+conventions).</p>
+<p>The language <em>App</em> has the following properties:</p>
 
-<pre>
-Algus Keskuse kaheksa teist Lõpp Filtri tee Tallinn
-(Begin Keskuse eighteen End Filtri street Tallinn)
-</pre>
+<ul>
+<li>its syntax is neutral to any natural language, although is uses some
+English keywords;</li>
+<li>its sentences are never ambiguous;</li>
+<li>its sentences can be evaluated by machines such as
+a standard calculator, Google Maps search box, WolframAlpha search box,
+etc.</li>
+</ul>
 
-<p>could be translated into Google Maps query language (<em>App</em>)</p>
+<p>The grammars are implemented in
+<a href="http://www.grammaticalframework.org/">Grammatical Framework (GF)</a>
+which is a formalism that supports precise translation between the
+languages. For example we can automatically translate the English</p>
 
-<pre>
-FROM Keskuse 18 , Tallinn TO Filtri tee , Tallinn
-</pre>
-
-<p>which can be directly executed by resolving the URL</p>
 <blockquote>
-<a href="http://maps.google.com/maps?q=FROM+Keskuse+18+,+Tallinn+TO+Filtri+tee+,+Tallinn">http://maps.google.com/maps?q=FROM+Keskuse+18+,+Tallinn+TO+Filtri+tee+,+Tallinn</a>
+<em>how much is two liters in cubic centi meters</em>
+</blockquote>
+
+<p>to Estonian and <em>App</em>:</p>
+
+<blockquote>
+<p><em>kui palju on kaks liitrit kuup senti meetrites</em></p>
+<p><em>convert 2 L to cm^3</em></p>
+</blockquote>
+
+<p>The last form can be directly evaluated by resolving e.g. the URL</p>
+<blockquote>
+<a href="http://www.wolframalpha.com/input/?i=convert+2+L+to+cm^3">http://www.wolframalpha.com/input/?i=convert+2+L+to+cm^3</a>
 </blockquote>
 
 
 <h2>Grammars</h2>
 
-<p>The grammars can be downloaded in the (binary) PGF-format. This format
-can be used directly in applications (e.g. via the
-<a href="https://github.com/GrammaticalFramework/JPGF">JPGF Java library</a>) or it
-can be opened by the GF commandline tool and converted into other formats
-(e.g. JSGF, Javascript, ...). Some of the grammars are also referenced in the
-Android speech recognition app
-<a href="http://code.google.com/p/recognizer-intent/">Kõnele</a>.
-The source code of all the grammars is available at
-<a href="https://github.com/Kaljurand/Grammars/">http://github.com/Kaljurand/Grammars/</a>.
-The PGF files have been generated based on
-<a href="https://github.com/Kaljurand/Grammars/commit/8f28440f48d9bd40ad97b56b1f7d88f8865b7ea0">this commit</a>.</p>
+<p>The grammars are listed in the following table where the
+columns stand for:</p>
 
-<p>To get an overview of the sentences allowed by the grammars, look at the
-examples. Note that the examples have been obtained by random generation
-(which doesn't always agree with common sense but which does convey some idea of what
-is syntactically possible in the described languages).</p>
+<ol>
+<li>name of the grammar;</li>
+<li>short description;</li>
+<li>supported natural languages (note that
+every grammar contains the <em>App</em>-language);</li>
+<li>random-generated example sentences (which often do not
+agree with common sense but still convey some
+idea of what is syntactically possible in the described languages);</li>
+<li>link to a compiled/portable grammar file.</li>
+</ol>
 
 <table>
 <thead>
 <tr>
 <td>Name</td>
 <td>Description</td>
+<td>Languages</td>
 <td>Examples</td>
 <td>PGF</td>
 </tr>
@@ -105,14 +114,16 @@ is syntactically possible in the described languages).</p>
 <tbody>
 <tr>
 <td>Action</td>
-<td>Alarm + Calc + Direction</td>
+<td>Alarm + Calc + Dial + Direction</td>
+<td>Est,Eng</td>
 <td/>
 <td><a href="grammars/pgf/Action.pgf">pgf</a></td>
 </tr>
 
 <tr>
 <td>Alarm</td>
-<td>Simple 24h-clock, e.g. "ärata mind kell kuus null viis"</td>
+<td>Simple 24h-clock, e.g. "set alarm to fourteen fifty seven"</td>
+<td>Est,Eng</td>
 <td><a href="grammars/gr/Alarm.txt">txt</a></td>
 <td><a href="grammars/pgf/Alarm.pgf">pgf</a></td>
 </tr>
@@ -120,14 +131,24 @@ is syntactically possible in the described languages).</p>
 <tr>
 <td>Calc</td>
 <td>Expr + Unitconv</td>
+<td>Est,Eng</td>
 <td/>
 <td><a href="grammars/pgf/Calc.pgf">pgf</a></td>
+</tr>
+
+<tr>
+<td>Dial</td>
+<td>Sequence of digits forming a phone number</td>
+<td>Est,Eng</td>
+<td><a href="grammars/gr/Dial.txt">txt</a></td>
+<td><a href="grammars/pgf/Dial.pgf">pgf</a></td>
 </tr>
 
 <tr>
 <td>Direction</td>
 <td>FROM-TO queries over Estonian place names (e.g. "Pariisi")
 and Tallinn's street addresses (e.g. "Lossi plats kaks")</td>
+<td>Est</td>
 <td><a href="grammars/gr/Direction.txt">txt</a></td>
 <td><a href="grammars/pgf/Direction.pgf">pgf</a></td>
 </tr>
@@ -135,6 +156,7 @@ and Tallinn's street addresses (e.g. "Lossi plats kaks")</td>
 <tr>
 <td>Estvrp</td>
 <td>Estonian vehicle registration plate language, e.g. "ABC 123"</td>
+<td>Est</td>
 <td><a href="grammars/gr/Estvrp.txt">txt</a></td>
 <td><a href="grammars/pgf/Estvrp.pgf">pgf</a></td>
 </tr>
@@ -143,13 +165,15 @@ and Tallinn's street addresses (e.g. "Lossi plats kaks")</td>
 <td>Expr</td>
 <td>Arithmetical expressions, e.g.
 <a href="http://www.google.com/search?q=(((1%2B-2.3)*PI)^5)">(((1 + -2.3) * PI) ^ 5)</a></td>
+<td>Est,Eng</td>
 <td><a href="grammars/gr/Expr.txt">txt</a></td>
 <td><a href="grammars/pgf/Expr.pgf">pgf</a></td>
 </tr>
 
 <tr>
 <td>Go</td>
-<td>Tiny example grammar with 3 concrete syntaxes (<em>Est</em>, <em>App</em>, <em>Eng</em>)</td>
+<td>Tiny example grammar</td>
+<td>Est,Eng</td>
 <td><a href="grammars/gr/Go.txt">txt</a></td>
 <td><a href="grammars/pgf/Go.pgf">pgf</a></td>
 </tr>
@@ -157,13 +181,15 @@ and Tallinn's street addresses (e.g. "Lossi plats kaks")</td>
 <tr>
 <td>Symbols</td>
 <td>Arbitrary length sequence of digits and Estonian letters</td>
+<td>Est</td>
 <td><a href="grammars/gr/Symbols.txt">txt</a></td>
 <td><a href="grammars/pgf/Symbols.pgf">pgf</a></td>
 </tr>
 
 <tr>
 <td>Tallinndirection</td>
-<td>FROM-TO queries over Tallinn's addresses with 3 concrete syntaxes (<em>Est</em>, <em>App</em>, <em>Edwin</em>)</td>
+<td>FROM-TO queries over Tallinn's addresses</td>
+<td>Est</td>
 <td><a href="grammars/gr/Tallinndirection.txt">txt</a></td>
 <td><a href="grammars/pgf/Tallinndirection.pgf">pgf</a></td>
 </tr>
@@ -172,49 +198,58 @@ and Tallinn's street addresses (e.g. "Lossi plats kaks")</td>
 <td>Unitconv</td>
 <td>Unit conversion expressions, e.g.
 <a href="http://www.google.com/search?q=12.34+km^2+IN+ft^2">12.34 km^2 in ft^2</a></td>
+<td>Est,Eng</td>
 <td><a href="grammars/gr/Unitconv.txt">txt</a></td>
 <td><a href="grammars/pgf/Unitconv.pgf">pgf</a></td>
 </tr>
 </tbody>
 </table>
 
-<p>The above table lists only the top level grammars.
-The full module import-hierarchy of the abstract grammars is depicted by the
-following diagram.</p>
+<p>Note that the examples only list one form for each example. The <em>App</em>
+sentences typically do not have more forms anyway, but the natural languages
+do contain some variation, e.g. articles can be dropped or requests can be
+optionally prefixed by "please".</p>
+
+<p>All the grammars are modular, e.g. <em>Calc</em> is a union of
+<em>Expr</em> and <em>Unitconv</em>.
+The above table lists mostly the higher-level grammars.
+The module import-hierarchy of the <em>Action</em>-grammar is displayed
+below.</p>
 
 <div class="image">
-<img src="images/grammars_abstract.png" alt="Abstract grammar component hierarchy"/>
+<img src="images/Action.png"
+alt="Abstract grammar component hierarchy for the Action-grammar"/>
 </div>
 
-<p>See also <a href="images/grammars.png">this diagram</a> that covers
-both the abstract and concrete grammars.</p>
 
+<h2>Usage</h2>
 
-<h2>Examples</h2>
-
-<p>Examples of using the PGF file with the GF commandline tool.</p>
-
-<h3>Translating</h3>
-
-<p>Translation is performed by parsing as <em>Est</em> and linearizing the resulting
-syntax tree into <em>App</em>.</p>
+<p>The grammars can be downloaded in the (binary) PGF-format. This format
+can be used directly in applications (e.g. via the
+<a href="https://github.com/GrammaticalFramework/JPGF">JPGF Java library</a>)
+or it
+can be opened by the GF commandline tool and converted into other formats
+(e.g. JSGF, Javascript, ...). The example sentences of the introduction were
+produced with this Unix+GF commandline:</p>
 
 <pre>
-$ gf Direction.pgf
-Direction> parse -lang=DirectionEst "Algus Keskuse kaheksa teist Lõpp Filtri tee Tallinn" | linearize -lang=DirectionApp -bind
-FROM Keskuse 18 , Tallinn TO Filtri tee , Tallinn
+echo 'p -lang=Eng "how much is two liters in cubic centi meters" | l -lang=Eng,App -bind' |\
+gf --run Action.pgf
 </pre>
 
+<p>Some of the grammars are referenced in the
+Android speech recognition app
+<a href="http://code.google.com/p/recognizer-intent/">Kõnele</a>.
+The Android voice actions app
+<a href="http://kaljurand.github.com/Arvutaja/">Arvutaja</a> uses the
+Action-grammar.</p>
 
-<h3>Generating JSGF</h3>
 
-<pre>
-$ gf --make --output-format=jsgf Symbols.pgf
-Reading Symbols.pgf...
-Refusing to overwrite Symbols.pgf
-Writing SymbolsApp.jsgf...
-Writing SymbolsEst.jsgf...
-</pre>
+<h2>Source code</h2>
+<p>The source code of all the grammars is available at
+<a href="https://github.com/Kaljurand/Grammars/">http://github.com/Kaljurand/Grammars/</a>.
+The PGF files have been generated based on
+<a href="https://github.com/Kaljurand/Grammars/commit/8f28440f48d9bd40ad97b56b1f7d88f8865b7ea0">this commit</a>.</p>
 
 
 <h2>Contributing</h2>
@@ -250,7 +285,7 @@ sending pull requests</a>.</p>
 
 <address>
 Kaarel Kaljurand (kaljurand@gmail.com),
-2012-12-17
+2012-12-18
 </address>
 
 </body>
