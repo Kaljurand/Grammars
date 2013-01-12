@@ -1,10 +1,11 @@
 
-path = lib:Numeral:Date:Dial:Digit:Action:Alarm:Calc:Expr:Fraction:Unitconv:Direction:Address:Eeppl:Tallinnaddress
+path = lib:Numeral:Date:Dial:Digit:Action:Alarm:Calc:Expr:Fraction:Unitconv:Direction:Address:Eeppl:Tallinnaddress:Weather
 
 langs = App Est Eng
+langs1 = App Est
 
 # Modules reachable from Action
-modules_Action=Action,Address,Alarm,Calc,Currency,Date,Dial,Digit,Direction,Eeppl,Estvrp,Expr,Fraction,Go,Letter,Numeral,Prefix,Symbols,Tallinnaddress,Tallinndirection,Town,Unit,Unitconv
+modules_Action=Action,Address,Alarm,Calc,Currency,Date,Dial,Digit,Direction,Eeppl,Estvrp,Expr,Fraction,Go,Letter,Numeral,Prefix,Symbols,Tallinnaddress,Tallinndirection,Town,Unit,Unitconv,Weather
 
 gf = gf --make --optimize-pgf --mk-index --path=$(path)
 gf_retain = gf --run --retain --path=$(path)
@@ -46,6 +47,9 @@ build_Dial:
 
 build_Alarm:
 	$(gf) $(foreach lang,$(langs),Alarm/Alarm$(lang).gf)
+
+build_Weather:
+	$(gf) $(foreach lang,$(langs1),Weather/Weather$(lang).gf)
 
 commit:
 	git commit -a -m "f"
