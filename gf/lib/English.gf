@@ -14,7 +14,7 @@ oper
         { s = x.s ++ "per" ++ y.s ++ p };
 
 	-- English digits
-	d0 = "zero";
+	d0 = "zero" | "oh" ;
 	d1 = "one";
 	d2 = "two";
 	d3 = "three";
