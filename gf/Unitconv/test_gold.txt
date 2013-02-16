@@ -101,9 +101,6 @@ convert 2 m to ft
 please convert two meters to feet
 kaks meetrit jalgades
 
-convert 1000 m°C to °C
-please convert one thousand milli degrees to degrees
-tuhat milli kraadi kraadides
 
 convert 2 km^2 to ha
 please convert two square kilo meters to hectares
@@ -117,9 +114,6 @@ convert 3 kg to ng
 please convert three kilo grams to nano grams
 kolm kilo grammi nano grammides
 
-convert 3 °C to m°C
-please convert three degrees to milli degrees
-kolm kraadi milli kraadides
 
 convert 3 EEK to EUR
 please convert three Estonian crowns to Euros
@@ -166,6 +160,6 @@ please convert two speed of light per seconds to kilo meters per hours per secon
 kaks valgus kiirust sekundis kilo meetrites tunnis sekundis
 
 convert 2 °C to °F
-please convert two degrees to fahrenheits
+please convert two Celcius to Fahrenheits
 kaks kraadi fahrenheitides
 

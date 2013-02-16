@@ -28,7 +28,6 @@ fun
 	-- TODO: maybe require that the 2nd argument is a SI unit
 	prefixed_length_unit : Prefix -> Length -> LengthUnit ;
 	prefixed_mass_unit : Prefix -> Mass -> MassUnit ;
-	prefixed_temperature_unit : Prefix -> Temperature -> TemperatureUnit ;
 	prefixed_area_unit : Prefix -> Area -> AreaUnit ;
 	prefixed_volume_unit : Prefix -> Volume -> VolumeUnit ;
 	prefixed_frequency_unit : Prefix -> Frequency -> FrequencyUnit ;

@@ -30,7 +30,6 @@ energy_unit,
 power_unit = id SS;
 
 prefixed_length_unit, prefixed_mass_unit,
-prefixed_temperature_unit,
 prefixed_area_unit,
 prefixed_volume_unit,
 prefixed_energy_unit,
@@ -72,8 +71,8 @@ decade = mkUnit "decades";
 century = mkUnit "centuries";
 
 --Temperature
-celsius = mkUnit "degrees";
-fahrenheit = mkUnit "fahrenheits";
+celsius = optPrePostSS "degrees" (mkUnit "Celcius");
+fahrenheit = optPrePostSS "degrees" (mkUnit "Fahrenheits");
 
 --Area
 hectare = mkUnit "hectares";

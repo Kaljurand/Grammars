@@ -55,7 +55,6 @@ energy_unit,
 power_unit = id CaseStr ;
 
 prefixed_length_unit, prefixed_mass_unit,
-prefixed_temperature_unit,
 prefixed_area_unit,
 prefixed_volume_unit,
 prefixed_energy_unit,
@@ -98,7 +97,7 @@ decade = mkUnit "dekaadi";
 century = mkUnit "sajandit";
 
 --Temperature
-celsius = mkUnit "kraadi";
+celsius = mkUnit "kraadi" | mkUnit "celsiust" ;
 fahrenheit = mkUnit "fahrenheiti";
 
 --Area

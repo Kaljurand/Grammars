@@ -36,7 +36,6 @@ energy_unit,
 power_unit = id SS;
 
 prefixed_length_unit, prefixed_mass_unit,
-prefixed_temperature_unit,
 prefixed_area_unit, prefixed_volume_unit,
 prefixed_energy_unit,
 prefixed_power_unit,

@@ -51,6 +51,13 @@ oper
 	postfixSS : Str -> SS -> SS = \f,x -> ss (x.s ++ f) ;
 	postfixSS_glue : Str -> SS -> SS = \f,x -> ss (glue x.s f) ;
 
+	-- optional pre- and postfix, e.g. "degrees" (ss "Celsius"):
+	-- Celsius
+	-- degrees Celsius
+	-- Celsius degrees
+	optPrePostSS : Str -> SS -> SS = \f,x ->
+		variants {x ; ss (f ++ x.s) ; ss (x.s ++ f)} ;
+
 	infixSS : Str -> SS -> SS -> SS
 		= \f,x,y -> ss (x.s ++ f ++ y.s) ;
 	infixSS_glue : Str -> SS -> SS -> SS

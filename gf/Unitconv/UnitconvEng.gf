@@ -18,7 +18,7 @@ lincat Main = SS; Conv = PhraseType => Str ;
 lin
 	main num conv =
 		requestSS (ss ("convert" ++ num.s ++ conv ! REQUEST)) |
-		ss ("how much is" ++ num.s ++ conv ! EXPRESSION) ;
+		ss ((optStr "how much is") ++ num.s ++ conv ! EXPRESSION) ;
 	length, mass, time, temperature, area, volume, angle, frequency,
 	conv_speed, conv_acceleration,
 	conv_energy, conv_power, currency = c ;
