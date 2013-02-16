@@ -202,6 +202,16 @@ and Tallinn's street addresses (e.g. "Lossi plats kaks")</td>
 <td><a href="grammars/gr/Unitconv.txt">txt</a></td>
 <td><a href="grammars/pgf/Unitconv.pgf">pgf</a></td>
 </tr>
+
+<tr>
+<td>Weather</td>
+<td>Weather queries with Estonian place names (e.g.
+Est: "Lasila ilmateade";
+App: <a href="http://www.google.com/search?q=weather+Lasila%2C+Estonia">weather Lasila, Estonia</a>)</td>
+<td>Est</td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 
@@ -233,7 +243,7 @@ can be opened by the GF commandline tool and converted into other formats
 produced with this Unix+GF commandline:</p>
 
 <pre>
-echo 'p -lang=Eng "how much is two liters in cubic centi meters" | l -lang=Eng,App -bind' |\
+echo 'p -lang=Eng "how much is two liters in cubic centi meters" | l -lang=Est,App -bind' |\
 gf --run Action.pgf
 </pre>
 
@@ -249,7 +259,7 @@ Action-grammar.</p>
 <p>The source code of all the grammars is available at
 <a href="https://github.com/Kaljurand/Grammars/">http://github.com/Kaljurand/Grammars/</a>.
 The PGF files have been generated based on
-<a href="https://github.com/Kaljurand/Grammars/commit/8f28440f48d9bd40ad97b56b1f7d88f8865b7ea0">this commit</a>.</p>
+<a href="https://github.com/Kaljurand/Grammars/commit/e84dc249190dff9f991ad40030aad05745b387f0">this commit</a>.</p>
 
 
 <h2>Contributing</h2>
@@ -285,7 +295,7 @@ sending pull requests</a>.</p>
 
 <address>
 Kaarel Kaljurand (kaljurand@gmail.com),
-2012-12-18
+2013-02-16
 </address>
 
 </body>

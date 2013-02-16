@@ -8,9 +8,9 @@ Compiling the website
 
 	ant clean
 
-	sh make-diagrams.sh
+	make-pgf.sh
 
-	sh make-pgf.sh
+	make dg_Action
 
 	git checkout gh-pages
 
@@ -18,7 +18,7 @@ Compiling the website
 
 	cp gf/*.pgf grammars/pgf/
 
-	cp gf/*.png images/
+	cp gf/Action.png images/
 
 	vim index.html # update the date and the commit ID
 

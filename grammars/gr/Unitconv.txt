@@ -94,14 +94,6 @@ UnitconvEng: please convert three quarters degrees to degrees
 UnitconvEst: kolm veerand kraadi kraadides
 
 
-Unitconv: main (fraction (neg2 (pair null null))) (temperature (temperature_unit fahrenheit) (prefixed_temperature_unit hecto fahrenheit))
-UnitconvApp: convert (-0.0) °F to h°F
-
-UnitconvEng: please convert minus zero point zero fahrenheits to hecto fahrenheits
-
-UnitconvEst: miinus null koma null fahrenheiti hekto fahrenheitides
-
-
 Unitconv: main (fraction pi) (frequency (frequency_unit hertz) (frequency_unit hertz))
 UnitconvApp: convert PI Hz to Hz
 
@@ -156,14 +148,6 @@ UnitconvApp: convert 0.25 mi/µs to mmi/ms
 UnitconvEng: please convert quarter miles per micro seconds to milli miles per milli seconds
 
 UnitconvEst: veerand miili mikro sekundis milli miilides milli sekundis
-
-
-Unitconv: main (fraction (neg1 null)) (temperature (temperature_unit fahrenheit) (prefixed_temperature_unit deka celsius))
-UnitconvApp: convert (-0) °F to da°C
-
-UnitconvEng: please convert minus zero fahrenheits to deka degrees
-
-UnitconvEst: miinus null fahrenheiti deka kraadides
 
 
 Unitconv: main (fraction three_quarters) (conv_speed (speed (length_unit meter) (time_unit second)) (speed (prefixed_length_unit nano yard) (time_unit day)))
