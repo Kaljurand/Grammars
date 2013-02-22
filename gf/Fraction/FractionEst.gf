@@ -6,6 +6,7 @@ lincat Fraction, FractionBase, NumeralPair = SS;
 
 lin
 	null = ss "null";
+	meaning_of_life = ss "elu mõte";
 	quarter = ss "veerand";
 	half = ss "pool";
 	three_quarters = ss "kolm veerand";

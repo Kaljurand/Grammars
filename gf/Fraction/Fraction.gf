@@ -13,6 +13,7 @@ cat Fraction; FractionBase; NumeralPair;
 
 fun
 	null : Numeral;
+	meaning_of_life : Numeral ;
 	pair : Numeral -> Numeral -> NumeralPair;
 
 	copy1 : Numeral -> FractionBase;
@@ -32,4 +33,7 @@ fun
 
 	-- There should be only one top node of the syntax tree.
 	fraction : FractionBase -> Fraction;
+
+def
+	meaning_of_life = num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot1plus n4 (pot0 n2)))))) ;
 }

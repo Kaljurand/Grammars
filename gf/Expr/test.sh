@@ -17,4 +17,4 @@ e_est="${examples}Est.txt"
 
 # These are the actual tests
 echo "read_file -file=\"${e_est}\" -lines | p -lang=${l_estamb} | l -bind" | gf --run --path $path ${g_estamb} ${g_app}
-echo "read_file -file=\"${e_est}\" -lines | p -lang=${l_est} | l -bind" | gf --run --path $path ${g_est} ${g_app}
+echo "read_file -file=\"${e_est}\" -lines | p -lang=${l_est} | pt -compute | l -bind" | gf --run --path $path ${g_est} ${g_app}

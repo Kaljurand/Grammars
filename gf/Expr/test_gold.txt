@@ -133,6 +133,11 @@ kaks pluss kolm astmel neli korda viis
 kaks pluss kolm astmel neli korda viis
 
 
+([meaning_of_life] * 1)
+
+elu mõte korda üks
+
+
 
 12
 
@@ -167,6 +172,11 @@ kaks astmel kolm astmel neli
 (((2 + 3) ^ 4) * 5)
 
 kaks pluss kolm astmel neli korda viis
+
+
+(42 * 1)
+
+neli kümmend kaks korda üks
 
 
 
