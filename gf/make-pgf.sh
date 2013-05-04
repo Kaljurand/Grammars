@@ -19,9 +19,8 @@ for grammar in "${grammars[@]}"; do
 	echo "    PGF";
 	# TODO: does --mk-index have any effect? (it seems to generate the same file)
 	gf -s --make --optimize-pgf --mk-index --path $path --output-dir ${dir_pgf} ${grammar}/${grammar}*.gf
-	echo "    gr";
-	# TODO: how to make sure that the trees can be linearized in all the languages?
-	#echo "gr -lang=${grammar}Est,${grammar}App -number=50 -depth=5 | l -treebank -bind" | gf --run ${grammar}.pgf > ${dir_gr}/${grammar}.txt
-	echo "gr -number=50 -depth=5 | l -treebank -bind" | gf --run ${grammar}.pgf > ${dir_gr}/${grammar}.txt
+	echo "    generate";
+	# TODO: This requires GF-Utils, skip if they do not exist
+	bash generate.bash ${grammar}.pgf ${grammar} ${dir_gr}/${grammar}
 done
 echo "done."
