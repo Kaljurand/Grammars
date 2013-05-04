@@ -4,7 +4,7 @@ oper
 	c : SS -> SS -> SS
 		= \x,y -> { s = x.s ++ "to" ++ y.s };
 
-lincat Main, Conv = SS ;
+lincat Unitconv, Conv = SS ;
 
 lin
 	main num conv = {s = "convert" ++ num.s ++ conv.s} ;

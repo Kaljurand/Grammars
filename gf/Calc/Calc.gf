@@ -11,5 +11,5 @@ cat Calc;
 
 fun
 	expr : Expr -> Calc;
-	unitconv : Main -> Calc;
+	unitconv : Unitconv -> Calc;
 }

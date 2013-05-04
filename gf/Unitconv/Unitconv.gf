@@ -1,14 +1,14 @@
 abstract Unitconv = Fraction, Unit ** {
 
-flags startcat = Main ;
+flags startcat = Unitconv ;
 
 cat
-	Main ;
+	Unitconv ;
 	Conv ;
 
 fun
 	-- Quantified unit conversion
-	main : Fraction -> Conv -> Main ;
+	main : Fraction -> Conv -> Unitconv ;
 
 	-- Type-aware unit conversion
 	-- TODO: use dependent types

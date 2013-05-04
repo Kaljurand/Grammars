@@ -1,9 +1,9 @@
 abstract Unitconvext = Unitconv ** {
 
-flags startcat = Main ;
+flags startcat = Unitconv ;
 
 cat
-	Main ;
+	Unitconv ;
 	FractionD ;
 
 fun
@@ -13,6 +13,6 @@ fun
 	-- TODO: this could cover all possible type pairs
 	general :
 		FractionD -> CurrencyUnit -> FractionD -> TimeUnit ->
-		FractionD -> CurrencyUnit -> FractionD -> TimeUnit -> Main ;
+		FractionD -> CurrencyUnit -> FractionD -> TimeUnit -> Unitconv ;
 
 }

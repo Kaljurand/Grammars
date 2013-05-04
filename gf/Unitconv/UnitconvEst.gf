@@ -6,7 +6,7 @@ oper
 	c : CaseStr -> CaseStr -> SS
 		= \x,y -> { s = x.s ! SgPart ++ y.s ! PlIn };
 
-lincat Main, Conv = SS;
+lincat Unitconv, Conv = SS;
 
 lin
 	main num conv = { s = num.s ++ conv.s } ;

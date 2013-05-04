@@ -13,7 +13,7 @@ oper
 		EXPRESSION => x.s ++ "in" ++ y.s
 	} ;
 
-lincat Main = SS; Conv = PhraseType => Str ;
+lincat Unitconv = SS; Conv = PhraseType => Str ;
 
 lin
 	main num conv =
