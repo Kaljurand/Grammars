@@ -1,0 +1,816 @@
+
+ActionApp: FROM Tõnuküla , Estonia TO Sepapaja 100 , Tallinn
+ActionEng: 
+ActionEst: Algus Tõnuküla Lõpp Sepapaja sada Tallinn
+
+ActionApp: FROM Lambi , Tallinn TO Praakli , Estonia
+ActionEng: 
+ActionEst: Algus Lambi Tallinn Lõpp Praakli
+
+ActionApp: FROM Niguliste , Tallinn TO Miti , Estonia
+ActionEng: 
+ActionEst: Algus Niguliste Tallinn Lõpp Miti
+
+ActionApp: FROM Villem Reimani , Tallinn TO Laulupeo , Tallinn
+ActionEng: 
+ActionEst: Algus Villem Reimani Tallinn Lõpp Laulupeo Tallinn
+
+ActionApp: FROM Uus 1 , Tallinn TO Käokannu tee 101 , Tallinn
+ActionEng: 
+ActionEst: Algus Uus üks Tallinn Lõpp Käokannu tee sada üks Tallinn
+
+ActionApp: FROM Kaasiku 10 , Tallinn TO Kuhja , Tallinn
+ActionEng: 
+ActionEst: Algus Kaasiku kümme Tallinn Lõpp Kuhja Tallinn
+
+ActionApp: FROM Tuukri 10 , Tallinn TO Männiku , Estonia
+ActionEng: 
+ActionEst: Algus Tuukri kümme Tallinn Lõpp Männiku
+
+ActionApp: FROM Pühavaimu 80 , Tallinn TO Kesk-Sõjamäe , Tallinn
+ActionEng: 
+ActionEst: Algus Pühavaimu kaheksa kümmend Tallinn Lõpp Kesk-Sõjamäe Tallinn
+
+ActionApp: FROM Roo 791 , Tallinn TO Kulli 40 , Tallinn
+ActionEng: 
+ActionEst: Algus Roo seitse sada üheksa kümmend üks Tallinn Lõpp Kulli neli kümmend Tallinn
+
+ActionApp: Pakre , Estonia
+ActionEng: 
+ActionEst: Pakre
+
+ActionApp: Sookaera , Estonia
+ActionEng: 
+ActionEst: Sookaera
+
+ActionApp: Unguma , Estonia
+ActionEng: 
+ActionEst: Unguma
+
+ActionApp: Ants Lauteri , Tallinn
+ActionEng: 
+ActionEst: Ants Lauteri Tallinn
+
+ActionApp: Kasteheina , Tallinn
+ActionEng: 
+ActionEst: Kasteheina Tallinn
+
+ActionApp: Tüve , Tallinn
+ActionEng: 
+ActionEst: Tüve Tallinn
+
+ActionApp: Paekivi 20 , Tallinn
+ActionEng: 
+ActionEst: Paekivi kaks kümmend Tallinn
+
+ActionApp: Virve 104 , Tallinn
+ActionEng: 
+ActionEst: Virve sada neli Tallinn
+
+ActionApp: Laaniku 710 , Tallinn
+ActionEng: 
+ActionEst: Laaniku seitse sada kümme Tallinn
+
+ActionApp: ((((PI * 1.5) ^ 0.75) * 0.75) / 0.25)
+ActionEng: how much is pie times one and half to the power of three quarters times three quarters divided by quarter
+ActionEst: kui palju on Pii korda pool teist astmel kolm veerand korda kolm veerand jagatud veerand
+
+ActionApp: ((((0.75 - 1.5) * (1.5 / 0.75)) + ((0.75 * 0.25) / 0.25)) / (((0.25 * PI) * (0.25 + 0.5)) + (0.75 / (1.5 / PI))))
+ActionEng: how much is three quarters minus one and half times ( one and half divided by three quarters ) plus ( three quarters times quarter divided by quarter ) divided by ( quarter times pie times ( quarter plus half ) plus ( three quarters divided by ( one and half divided by pie ) ) )
+ActionEst: kui palju on kolm veerand miinus pool teist korda ( pool teist jagatud kolm veerand ) pluss ( kolm veerand korda veerand jagatud veerand ) jagatud ( veerand korda Pii korda ( veerand pluss pool ) pluss ( kolm veerand jagatud ( pool teist jagatud Pii ) ) )
+
+ActionApp: ((-0) / 0.0)
+ActionEng: how much is minus zero divided by zero point zero
+ActionEst: kui palju on miinus null jagatud null koma null
+
+ActionApp: ((((0.5 / 0.25) * PI) / ((0.5 - 0.75) * (PI * 0.75))) - (((0.75 * 0.75) * (1.5 + 0.5)) / (-0.0)))
+ActionEng: how much is half divided by quarter times pie divided by ( half minus three quarters times ( pie times three quarters ) ) minus ( three quarters times three quarters times ( one and half plus half ) divided by minus zero point zero )
+ActionEst: kui palju on pool jagatud veerand korda Pii jagatud ( pool miinus kolm veerand korda ( Pii korda kolm veerand ) ) miinus ( kolm veerand korda kolm veerand korda ( pool teist pluss pool ) jagatud miinus null koma null )
+
+ActionApp: ((((0.75 + 0.75) - (0.5 - 0.5)) * (0 - (0.25 ^ PI))) - (((PI + 0.25) - (0.75 - PI)) * ((0.25 / 0.5) * (0.75 + PI))))
+ActionEng: how much is three quarters plus three quarters minus ( half minus half ) times ( zero minus ( quarter to the power of pie ) ) minus ( pie plus quarter minus ( three quarters minus pie ) times ( quarter divided by half times ( three quarters plus pie ) ) )
+ActionEst: kui palju on kolm veerand pluss kolm veerand miinus ( pool miinus pool ) korda ( null miinus ( veerand astmel Pii ) ) miinus ( Pii pluss veerand miinus ( kolm veerand miinus Pii ) korda ( veerand jagatud pool korda ( kolm veerand pluss Pii ) ) )
+
+ActionApp: (((PI - (0.75 ^ 1.5)) + ((0.5 + 0.25) ^ (0.25 * 0.25))) - (PI ^ ((PI ^ PI) * (0.75 * 0.5))))
+ActionEng: how much is pie minus ( three quarters to the power of one and half ) plus ( half plus quarter to the power of ( quarter times quarter ) ) minus ( pie to the power of ( pie to the power of pie times ( three quarters times half ) ) )
+ActionEst: kui palju on Pii miinus ( kolm veerand astmel pool teist ) pluss ( pool pluss veerand astmel ( veerand korda veerand ) ) miinus ( Pii astmel ( Pii astmel Pii korda ( kolm veerand korda pool ) ) )
+
+ActionApp: ((((PI - 1.5) ^ (0.5 / 0.75)) / ((PI + PI) ^ 1.5)) * ((0 / (0.75 * 0.25)) * ((PI / 0.5) / (1.5 / 0.25))))
+ActionEng: how much is pie minus one and half to the power of ( half divided by three quarters ) divided by ( pie plus pie to the power of one and half ) times ( zero divided by ( three quarters times quarter ) times ( pie divided by half divided by ( one and half divided by quarter ) ) )
+ActionEst: kui palju on Pii miinus pool teist astmel ( pool jagatud kolm veerand ) jagatud ( Pii pluss Pii astmel pool teist ) korda ( null jagatud ( kolm veerand korda veerand ) korda ( Pii jagatud pool jagatud ( pool teist jagatud veerand ) ) )
+
+ActionApp: ((0 - ((1.5 - 0.5) - (0.75 - PI))) * (((0.25 / 0.75) ^ (0.25 / 0.75)) ^ ((1.5 * 0.5) / 0.75)))
+ActionEng: how much is zero minus ( one and half minus half minus ( three quarters minus pie ) ) times ( quarter divided by three quarters to the power of ( quarter divided by three quarters ) to the power of ( one and half times half divided by three quarters ) )
+ActionEst: kui palju on null miinus ( pool teist miinus pool miinus ( kolm veerand miinus Pii ) ) korda ( veerand jagatud kolm veerand astmel ( veerand jagatud kolm veerand ) astmel ( pool teist korda pool jagatud kolm veerand ) )
+
+ActionApp: ((((0.5 * 0.75) + (0.5 - 0.5)) + ((0.5 / 0.75) - (0.5 * PI))) * PI)
+ActionEng: how much is half times three quarters plus ( half minus half ) plus ( half divided by three quarters minus ( half times pie ) ) times pie
+ActionEst: kui palju on pool korda kolm veerand pluss ( pool miinus pool ) pluss ( pool jagatud kolm veerand miinus ( pool korda Pii ) ) korda Pii
+
+ActionApp: ((((0.75 / 0.75) - (0.75 * PI)) + (1.5 * (PI / 1.5))) + (((0.25 * PI) - (0.25 * 0.5)) + ((0.75 * 1.5) * (0.75 * 0.75))))
+ActionEng: how much is three quarters divided by three quarters minus ( three quarters times pie ) plus ( one and half times ( pie divided by one and half ) ) plus ( quarter times pie minus ( quarter times half ) plus ( three quarters times one and half times ( three quarters times three quarters ) ) )
+ActionEst: kui palju on kolm veerand jagatud kolm veerand miinus ( kolm veerand korda Pii ) pluss ( pool teist korda ( Pii jagatud pool teist ) ) pluss ( veerand korda Pii miinus ( veerand korda pool ) pluss ( kolm veerand korda pool teist korda ( kolm veerand korda kolm veerand ) ) )
+
+ActionApp: ((((0.75 * 0.5) + (0.5 * PI)) + (0.25 * (0.25 + 0.5))) + (((0.5 + 0.25) ^ (0.5 / 0.5)) - ((0.25 * 1.5) / (1.5 ^ 0.25))))
+ActionEng: how much is three quarters times half plus ( half times pie ) plus ( quarter times ( quarter plus half ) ) plus ( half plus quarter to the power of ( half divided by half ) minus ( quarter times one and half divided by ( one and half to the power of quarter ) ) )
+ActionEst: kui palju on kolm veerand korda pool pluss ( pool korda Pii ) pluss ( veerand korda ( veerand pluss pool ) ) pluss ( pool pluss veerand astmel ( pool jagatud pool ) miinus ( veerand korda pool teist jagatud ( pool teist astmel veerand ) ) )
+
+ActionApp: ((((0.25 ^ 0.75) - (0.25 / PI)) ^ ((0.5 - PI) - (0.25 * 1.5))) + ((1.5 / (0.25 / 0.75)) * ((1.5 / 0.75) * (0.25 + 1.5))))
+ActionEng: how much is quarter to the power of three quarters minus ( quarter divided by pie ) to the power of ( half minus pie minus ( quarter times one and half ) ) plus ( one and half divided by ( quarter divided by three quarters ) times ( one and half divided by three quarters times ( quarter plus one and half ) ) )
+ActionEst: kui palju on veerand astmel kolm veerand miinus ( veerand jagatud Pii ) astmel ( pool miinus Pii miinus ( veerand korda pool teist ) ) pluss ( pool teist jagatud ( veerand jagatud kolm veerand ) korda ( pool teist jagatud kolm veerand korda ( veerand pluss pool teist ) ) )
+
+ActionApp: ((((0.25 + 1.5) - (0.75 - PI)) - ((PI / PI) ^ (PI + 0.75))) ^ ((0.75 * (0.5 - PI)) ^ ((PI - 0.75) * 0.75)))
+ActionEng: how much is quarter plus one and half minus ( three quarters minus pie ) minus ( pie divided by pie to the power of ( pie plus three quarters ) ) to the power of ( three quarters times ( half minus pie ) to the power of ( pie minus three quarters times three quarters ) )
+ActionEst: kui palju on veerand pluss pool teist miinus ( kolm veerand miinus Pii ) miinus ( Pii jagatud Pii astmel ( Pii pluss kolm veerand ) ) astmel ( kolm veerand korda ( pool miinus Pii ) astmel ( Pii miinus kolm veerand korda kolm veerand ) )
+
+ActionApp: ((((0.5 / 0.25) - (0.25 ^ 0.25)) + ((0.5 * 0.5) ^ (1.5 * 1.5))) ^ (((0.75 + 0.5) - (0.25 - 0.5)) ^ ((0.5 + PI) / (0.75 * 0.25))))
+ActionEng: how much is half divided by quarter minus ( quarter to the power of quarter ) plus ( half times half to the power of ( one and half times one and half ) ) to the power of ( three quarters plus half minus ( quarter minus half ) to the power of ( half plus pie divided by ( three quarters times quarter ) ) )
+ActionEst: kui palju on pool jagatud veerand miinus ( veerand astmel veerand ) pluss ( pool korda pool astmel ( pool teist korda pool teist ) ) astmel ( kolm veerand pluss pool miinus ( veerand miinus pool ) astmel ( pool pluss Pii jagatud ( kolm veerand korda veerand ) ) )
+
+ActionApp: ((((0.25 + 0.5) - (PI / 0.25)) ^ 0) ^ (((0.5 * 1.5) * (0.5 + 0.25)) * (PI ^ (PI - 0.5))))
+ActionEng: how much is quarter plus half minus ( pie divided by quarter ) to the power of zero to the power of ( half times one and half times ( half plus quarter ) times ( pie to the power of ( pie minus half ) ) )
+ActionEst: kui palju on veerand pluss pool miinus ( Pii jagatud veerand ) astmel null astmel ( pool korda pool teist korda ( pool pluss veerand ) korda ( Pii astmel ( Pii miinus pool ) ) )
+
+ActionApp: 0
+ActionEng: how much is zero
+ActionEst: kui palju on null
+
+ActionApp: 10000000
+ActionEng: how much is ten million
+ActionEst: kui palju on kümme miljonit
+
+ActionApp: 111010000000
+ActionEng: how much is one hundred and eleven billion ten million
+ActionEst: kui palju on sada üks teist miljardit ja kümme miljonit
+
+ActionApp: 19100000000.0
+ActionEng: how much is nineteen billion one hundred million point zero
+ActionEst: kui palju on üheksa teist miljardit ja sada miljonit koma null
+
+ActionApp: 100010000000.101100000000
+ActionEng: how much is one hundred billion ten million point one hundred and one billion one hundred million
+ActionEst: kui palju on sada miljardit ja kümme miljonit koma sada üks miljardit ja sada miljonit
+
+ActionApp: 700000000000.0
+ActionEng: how much is seven hundred billion point zero
+ActionEst: kui palju on seitse sada miljardit koma null
+
+ActionApp: (-10)
+ActionEng: how much is minus ten
+ActionEst: kui palju on miinus kümme
+
+ActionApp: (-100)
+ActionEng: how much is minus one hundred
+ActionEst: kui palju on miinus sada
+
+ActionApp: (-400)
+ActionEng: how much is minus four hundred
+ActionEst: kui palju on miinus neli sada
+
+ActionApp: (-60100)
+ActionEng: how much is minus sixty thousand one hundred
+ActionEst: kui palju on miinus kuus kümmend tuhat sada
+
+ActionApp: (-601011)
+ActionEng: how much is minus six hundred and one thousand eleven
+ActionEst: kui palju on miinus kuus sada üks tuhat üks teist
+
+ActionApp: (-800010)
+ActionEng: how much is minus eight hundred thousand ten
+ActionEst: kui palju on miinus kaheksa sada tuhat kümme
+
+ActionApp: (-40000)
+ActionEng: how much is minus forty thousand
+ActionEst: kui palju on miinus neli kümmend tuhat
+
+ActionApp: (-50000)
+ActionEng: how much is minus fifty thousand
+ActionEst: kui palju on miinus viis kümmend tuhat
+
+ActionApp: (-90000)
+ActionEng: how much is minus ninety thousand
+ActionEst: kui palju on miinus üheksa kümmend tuhat
+
+ActionApp: (-13000)
+ActionEng: how much is minus thirteen thousand
+ActionEst: kui palju on miinus kolm teist tuhat
+
+ActionApp: (-16000)
+ActionEng: how much is minus sixteen thousand
+ActionEst: kui palju on miinus kuus teist tuhat
+
+ActionApp: (-18000)
+ActionEng: how much is minus eighteen thousand
+ActionEst: kui palju on miinus kaheksa teist tuhat
+
+ActionApp: (-200000)
+ActionEng: how much is minus two hundred thousand
+ActionEst: kui palju on miinus kaks sada tuhat
+
+ActionApp: (-400000)
+ActionEng: how much is minus four hundred thousand
+ActionEst: kui palju on miinus neli sada tuhat
+
+ActionApp: (-700000)
+ActionEng: how much is minus seven hundred thousand
+ActionEst: kui palju on miinus seitse sada tuhat
+
+ActionApp: (-10000100)
+ActionEng: how much is minus ten million one hundred
+ActionEst: kui palju on miinus kümme miljonit ja sada
+
+ActionApp: (-50000610)
+ActionEng: how much is minus fifty million six hundred and ten
+ActionEst: kui palju on miinus viis kümmend miljonit ja kuus sada kümme
+
+ActionApp: (-330613200)
+ActionEng: how much is minus three hundred and thirty million six hundred and thirteen thousand two hundred
+ActionEst: kui palju on miinus kolm sada kolm kümmend miljonit ja kuus sada kolm teist tuhat kaks sada
+
+ActionApp: (-1000000)
+ActionEng: how much is minus one million
+ActionEst: kui palju on miinus üks miljonit
+
+ActionApp: (-101000000)
+ActionEng: how much is minus one hundred and one million
+ActionEst: kui palju on miinus sada üks miljonit
+
+ActionApp: (-140000000)
+ActionEng: how much is minus one hundred and forty million
+ActionEst: kui palju on miinus sada neli kümmend miljonit
+
+ActionApp: (-911000000)
+ActionEng: how much is minus nine hundred and eleven million
+ActionEst: kui palju on miinus üheksa sada üks teist miljonit
+
+ActionApp: (-110110000180)
+ActionEng: how much is minus one hundred and ten billion one hundred and ten million one hundred and eighty
+ActionEst: kui palju on miinus sada kümme miljardit ja sada kümme miljonit ja sada kaheksa kümmend
+
+ActionApp: (-139100011200)
+ActionEng: how much is minus one hundred and thirty nine billion one hundred million eleven thousand two hundred
+ActionEst: kui palju on miinus sada kolm kümmend üheksa miljardit ja sada miljonit ja üks teist tuhat kaks sada
+
+ActionApp: (-900700011000)
+ActionEng: how much is minus nine hundred billion seven hundred million eleven thousand
+ActionEst: kui palju on miinus üheksa sada miljardit ja seitse sada miljonit ja üks teist tuhat
+
+ActionApp: (-21000000000)
+ActionEng: how much is minus twenty one billion
+ActionEst: kui palju on miinus kaks kümmend üks miljardit
+
+ActionApp: (-35000000000)
+ActionEng: how much is minus thirty five billion
+ActionEst: kui palju on miinus kolm kümmend viis miljardit
+
+ActionApp: (-41000000000)
+ActionEng: how much is minus forty one billion
+ActionEst: kui palju on miinus neli kümmend üks miljardit
+
+ActionApp: (-0.0)
+ActionEng: how much is minus zero point zero
+ActionEst: kui palju on miinus null koma null
+
+ActionApp: (-0.903000000000)
+ActionEng: how much is minus zero point nine hundred and three billion
+ActionEst: kui palju on miinus null koma üheksa sada kolm miljardit
+
+ActionApp: (-100000.100000000)
+ActionEng: how much is minus one hundred thousand point one hundred million
+ActionEst: kui palju on miinus sada tuhat koma sada miljonit
+
+ActionApp: convert 0 ° to rad
+ActionEng: please convert zero degrees to radians
+ActionEst: kui palju on null kraadi radiaanides
+
+ActionApp: convert 0 myd*month^-2 to dain/century/decade
+ActionEng: please convert zero milli yards per months squared to deka inches per centuries per decades
+ActionEst: kui palju on null milli jardi ruut kuus deka tollides sajandis dekaadis
+
+ActionApp: convert 0 °F to °C
+ActionEng: please convert zero Fahrenheits to Celcius
+ActionEst: kui palju on null fahrenheiti kraadides
+
+ActionApp: convert 0 day to decade
+ActionEng: please convert zero days to decades
+ActionEst: kui palju on null päeva dekaadides
+
+ActionApp: convert 900000000 µW⋅h to W⋅h
+ActionEng: please convert nine hundred million micro watt hours to watt hours
+ActionEst: kui palju on üheksa sada miljonit mikro vatt tundi vatt tundides
+
+ActionApp: convert 10000000000 USD to CAD
+ActionEng: please convert ten billion American dollars to Canadian dollars
+ActionEst: kui palju on kümme miljardit dollarit kanada dollarites
+
+ActionApp: convert 11000000000 °F to °F
+ActionEng: please convert eleven billion Fahrenheits to Fahrenheits
+ActionEst: kui palju on üks teist miljardit fahrenheiti fahrenheitides
+
+ActionApp: convert 101000000000 nW⋅h to Gcal
+ActionEng: please convert one hundred and one billion nano watt hours to giga calories
+ActionEst: kui palju on sada üks miljardit nano vatt tundi giga kalorites
+
+ActionApp: convert 110000000000 °F to °C
+ActionEng: please convert one hundred and ten billion Fahrenheits to Celcius
+ActionEst: kui palju on sada kümme miljardit fahrenheiti kraadides
+
+ActionApp: convert 111000000000 flour-cup to lb
+ActionEng: please convert one hundred and eleven billion cups of flour to pounds
+ActionEst: kui palju on sada üks teist miljardit tassi jahu naelades
+
+ActionApp: convert 111000000000 Tt to ng
+ActionEng: please convert one hundred and eleven billion tera tons to nano grams
+ActionEst: kui palju on sada üks teist miljardit tera tonni nano grammides
+
+ActionApp: convert 0.0 acre to dha
+ActionEng: please convert zero point zero acres to deci hectares
+ActionEst: kui palju on null koma null aakrit detsi hektarites
+
+ActionApp: convert 0.0 ha to m^2
+ActionEng: please convert zero point zero hectares to square meters
+ActionEst: kui palju on null koma null hektarit ruut meetrites
+
+ActionApp: convert 0.0 mha to µha
+ActionEng: please convert zero point zero milli hectares to micro hectares
+ActionEst: kui palju on null koma null milli hektarit mikro hektarites
+
+ActionApp: convert 0.0 cmi/week/century to in*day^-2
+ActionEng: please convert zero point zero centi miles per weeks per centuries to inches per days squared
+ActionEst: kui palju on null koma null senti miili nädalas sajandis tollides ruut päevas
+
+ActionApp: convert 0.0 cal to W⋅h
+ActionEng: please convert zero point zero calories to watt hours
+ActionEst: kui palju on null koma null kalorit vatt tundides
+
+ActionApp: convert 0.0 ft/decade to µmi/decade
+ActionEng: please convert zero point zero feet per decades to micro miles per decades
+ActionEst: kui palju on null koma null jalga dekaadis mikro miilides dekaadis
+
+ActionApp: convert 0.0 nin/h to knot
+ActionEng: please convert zero point zero nano inches per hours to knots
+ActionEst: kui palju on null koma null nano tolli tunnis sõlmedes
+
+ActionApp: convert 0.0 cHz to hHz
+ActionEng: please convert zero point zero centi hertz to hecto hertz
+ActionEst: kui palju on null koma null senti hertsi hekto hertsides
+
+ActionApp: convert 0.0 g to nt
+ActionEng: please convert zero point zero grams to nano tons
+ActionEst: kui palju on null koma null grammi nano tonnides
+
+ActionApp: convert 0.0 Moz to flour-cup
+ActionEng: please convert zero point zero mega ounces to cups of flour
+ActionEst: kui palju on null koma null mega untsi jahu tassides
+
+ActionApp: convert 0.0 Tg to g
+ActionEng: please convert zero point zero tera grams to grams
+ActionEst: kui palju on null koma null tera grammi grammides
+
+ActionApp: convert 0.111000000 µin^2 to acre
+ActionEng: please convert zero point one hundred and eleven million square micro inches to acres
+ActionEst: kui palju on null koma sada üks teist miljonit ruut mikro tolli aakrites
+
+ActionApp: convert 70011000000.111000000 cal to J
+ActionEng: please convert seventy billion eleven million point one hundred and eleven million calories to joules
+ActionEst: kui palju on seitse kümmend miljardit ja üks teist miljonit koma sada üks teist miljonit kalorit džaulides
+
+ActionApp: convert 0.5 ft^2 to nft^2
+ActionEng: please convert half square feet to square nano feet
+ActionEst: kui palju on pool ruut jalga ruut nano jalgades
+
+ActionApp: convert 0.5 cal to cJ
+ActionEng: please convert half calories to centi joules
+ActionEst: kui palju on pool kalorit senti džaulides
+
+ActionApp: convert 0.5 µJ to Mcal
+ActionEng: please convert half micro joules to mega calories
+ActionEst: kui palju on pool mikro džauli mega kalorites
+
+ActionApp: convert 0.5 daW to nW
+ActionEng: please convert half deka watts to nano watts
+ActionEst: kui palju on pool deka vatti nano vattides
+
+ActionApp: convert 0.5 yd/month to c
+ActionEng: please convert half yards per months to speed of light
+ActionEst: kui palju on pool jardi kuus valgus kiirustes
+
+ActionApp: convert 0.5 c to m/week
+ActionEng: please convert half speed of light to meters per weeks
+ActionEst: kui palju on pool valgus kiirust meetrites nädalas
+
+ActionApp: convert 0.5 min to decade
+ActionEng: please convert half minutes to decades
+ActionEst: kui palju on pool minutit dekaadides
+
+ActionApp: convert (-0) ° to "
+ActionEng: please convert minus zero degrees to seconds
+ActionEst: kui palju on miinus null kraadi sekundites
+
+ActionApp: convert (-0) Tha to acre
+ActionEng: please convert minus zero tera hectares to acres
+ActionEst: kui palju on miinus null tera hektarit aakrites
+
+ActionApp: convert (-0) knot/µs to µyd/day/ms
+ActionEng: please convert minus zero knots per micro seconds to micro yards per days per milli seconds
+ActionEst: kui palju on miinus null sõlme mikro sekundis mikro jardides päevas milli sekundis
+
+ActionApp: convert (-0) c/week to c/month
+ActionEng: please convert minus zero speed of light per weeks to speed of light per months
+ActionEst: kui palju on miinus null valgus kiirust nädalas valgus kiirustes kuus
+
+ActionApp: convert (-0) µJ to dW⋅h
+ActionEng: please convert minus zero micro joules to deci watt hours
+ActionEst: kui palju on miinus null mikro džauli detsi vatt tundides
+
+ActionApp: convert (-0) GW to W
+ActionEng: please convert minus zero giga watts to watts
+ActionEst: kui palju on miinus null giga vatti vattides
+
+ActionApp: convert (-0) Hz to GHz
+ActionEng: please convert minus zero hertz to giga hertz
+ActionEst: kui palju on miinus null hertsi giga hertsides
+
+ActionApp: convert (-13) mha to nin^2
+ActionEng: please convert minus thirteen milli hectares to square nano inches
+ActionEst: kui palju on miinus kolm teist milli hektarit ruut nano tollides
+
+ActionApp: convert (-310) W⋅h to GW⋅h
+ActionEng: please convert minus three hundred and ten watt hours to giga watt hours
+ActionEst: kui palju on miinus kolm sada kümme vatt tundi giga vatt tundides
+
+ActionApp: convert (-100) acre to ha
+ActionEng: please convert minus one hundred acres to hectares
+ActionEst: kui palju on miinus sada aakrit hektarites
+
+ActionApp: convert (-111019) t to g
+ActionEng: please convert minus one hundred and eleven thousand nineteen tons to grams
+ActionEst: kui palju on miinus sada üks teist tuhat üheksa teist tonni grammides
+
+ActionApp: convert (-135121) t to Tg
+ActionEng: please convert minus one hundred and thirty five thousand one hundred and twenty one tons to tera grams
+ActionEst: kui palju on miinus sada kolm kümmend viis tuhat sada kaks kümmend üks tonni tera grammides
+
+ActionApp: convert (-116004) dam to dmi
+ActionEng: please convert minus one hundred and sixteen thousand four deka meters to deci miles
+ActionEst: kui palju on miinus sada kuus teist tuhat neli deka meetrit detsi miilides
+
+ActionApp: convert (-400000) Hz to nHz
+ActionEng: please convert minus four hundred thousand hertz to nano hertz
+ActionEst: kui palju on miinus neli sada tuhat hertsi nano hertsides
+
+ActionApp: convert (-400000) °C to °F
+ActionEng: please convert minus four hundred thousand Celcius to Fahrenheits
+ActionEst: kui palju on miinus neli sada tuhat kraadi fahrenheitides
+
+ActionApp: convert (-600000) °F to °F
+ActionEng: please convert minus six hundred thousand Fahrenheits to Fahrenheits
+ActionEst: kui palju on miinus kuus sada tuhat fahrenheiti fahrenheitides
+
+ActionApp: convert (-2101000) Tyd/s to c
+ActionEng: please convert minus two million one hundred and one thousand tera yards per seconds to speed of light
+ActionEst: kui palju on miinus kaks miljonit ja sada üks tuhat tera jardi sekundis valgus kiirustes
+
+ActionApp: convert (-7400000) year to decade
+ActionEng: please convert minus seven million four hundred thousand years to decades
+ActionEst: kui palju on miinus seitse miljonit ja neli sada tuhat aastat dekaadides
+
+ActionApp: convert (-111601200) W to MW
+ActionEng: please convert minus one hundred and eleven million six hundred and one thousand two hundred watts to mega watts
+ActionEst: kui palju on miinus sada üks teist miljonit ja kuus sada üks tuhat kaks sada vatti mega vattides
+
+ActionApp: convert (-111000000) cal to dJ
+ActionEng: please convert minus one hundred and eleven million calories to deci joules
+ActionEst: kui palju on miinus sada üks teist miljonit kalorit detsi džaulides
+
+ActionApp: convert (-120000000) Mmi to µyd
+ActionEng: please convert minus one hundred and twenty million mega miles to micro yards
+ActionEst: kui palju on miinus sada kaks kümmend miljonit mega miili mikro jardides
+
+ActionApp: convert (-160000000) ha to Tin^2
+ActionEng: please convert minus one hundred and sixty million hectares to square tera inches
+ActionEst: kui palju on miinus sada kuus kümmend miljonit hektarit ruut tera tollides
+
+ActionApp: convert (-100100094477) °F to °C
+ActionEng: please convert minus one hundred billion one hundred million ninety four thousand four hundred and seventy seven Fahrenheits to Celcius
+ActionEst: kui palju on miinus sada miljardit ja sada miljonit ja üheksa kümmend neli tuhat neli sada seitse kümmend seitse fahrenheiti kraadides
+
+ActionApp: convert (-200110000000) m^3 to pt
+ActionEng: please convert minus two hundred billion one hundred and ten million cubic meters to pints
+ActionEst: kui palju on miinus kaks sada miljardit ja sada kümme miljonit kuup meetrit pintides
+
+ActionApp: convert (-300006811000) W to nW
+ActionEng: please convert minus three hundred billion six million eight hundred and eleven thousand watts to nano watts
+ActionEst: kui palju on miinus kolm sada miljardit ja kuus miljonit ja kaheksa sada üks teist tuhat vatti nano vattides
+
+ActionApp: convert (-11000000000) acre to in^2
+ActionEng: please convert minus eleven billion acres to square inches
+ActionEst: kui palju on miinus üks teist miljardit aakrit ruut tollides
+
+ActionApp: convert (-11000000000) W to mW
+ActionEng: please convert minus eleven billion watts to milli watts
+ActionEst: kui palju on miinus üks teist miljardit vatti milli vattides
+
+ActionApp: convert (-27000000000) MW to µW
+ActionEng: please convert minus twenty seven billion mega watts to micro watts
+ActionEst: kui palju on miinus kaks kümmend seitse miljardit mega vatti mikro vattides
+
+ActionApp: convert (-77000000000) hha to acre
+ActionEng: please convert minus seventy seven billion hecto hectares to acres
+ActionEst: kui palju on miinus seitse kümmend seitse miljardit hekto hektarit aakrites
+
+ActionApp: convert (-99000000000) mi^2 to min^2
+ActionEng: please convert minus ninety nine billion square miles to square milli inches
+ActionEst: kui palju on miinus üheksa kümmend üheksa miljardit ruut miili ruut milli tollides
+
+ActionApp: convert (-111000000000) ha to kacre
+ActionEng: please convert minus one hundred and eleven billion hectares to kilo acres
+ActionEst: kui palju on miinus sada üks teist miljardit hektarit kilo aakrites
+
+ActionApp: convert (-111000000000) dcup_us to yd^3
+ActionEng: please convert minus one hundred and eleven billion deci cups to cubic yards
+ActionEst: kui palju on miinus sada üks teist miljardit detsi tassi kuup jardides
+
+ActionApp: convert (-0.0) yd*ns^-2 to Gin*min^-2
+ActionEng: please convert minus zero point zero yards per nano seconds squared to giga inches per minutes squared
+ActionEst: kui palju on miinus null koma null jardi ruut nano sekundis giga tollides ruut minutis
+
+ActionApp: convert (-0.0) in to hyd
+ActionEng: please convert minus zero point zero inches to hecto yards
+ActionEst: kui palju on miinus null koma null tolli hekto jardides
+
+ActionApp: convert (-0.0) m to µmi
+ActionEng: please convert minus zero point zero meters to micro miles
+ActionEst: kui palju on miinus null koma null meetrit mikro miilides
+
+ActionApp: convert (-0.0) yd to in
+ActionEng: please convert minus zero point zero yards to inches
+ActionEst: kui palju on miinus null koma null jardi tollides
+
+ActionApp: convert (-0.0) lb to dag
+ActionEng: please convert minus zero point zero pounds to deka grams
+ActionEst: kui palju on miinus null koma null naela deka grammides
+
+ActionApp: convert (-0.0) h to month
+ActionEng: please convert minus zero point zero hours to months
+ActionEst: kui palju on miinus null koma null tundi kuudes
+
+ActionApp: convert (-0.0) Tyd^3 to ft^3
+ActionEng: please convert minus zero point zero cubic tera yards to cubic feet
+ActionEst: kui palju on miinus null koma null kuup tera jardi kuup jalgades
+
+ActionApp: convert (-0.0) ML to ft^3
+ActionEng: please convert minus zero point zero mega liters to cubic feet
+ActionEst: kui palju on miinus null koma null mega liitrit kuup jalgades
+
+ActionApp: convert (-0.0) µpt to Mgal
+ActionEng: please convert minus zero point zero micro pints to mega gallons
+ActionEst: kui palju on miinus null koma null mikro pinti mega gallonites
+
+ActionApp: convert (-0.0) ngal to Tm^3
+ActionEng: please convert minus zero point zero nano gallons to cubic tera meters
+ActionEst: kui palju on miinus null koma null nano gallonit kuup tera meetrites
+
+ActionApp: convert (-0.0) gal to Tm^3
+ActionEng: please convert minus zero point zero gallons to cubic tera meters
+ActionEst: kui palju on miinus null koma null gallonit kuup tera meetrites
+
+ActionApp: convert (-0.700000000) mi*year^-2 to yd*day^-2
+ActionEng: please convert minus zero point seven hundred million miles per years squared to yards per days squared
+ActionEst: kui palju on miinus null koma seitse sada miljonit miili ruut aastas jardides ruut päevas
+
+ActionApp: convert 1.5 ha to Gm^2
+ActionEng: please convert one and half hectares to square giga meters
+ActionEst: kui palju on pool teist hektarit ruut giga meetrites
+
+ActionApp: convert 1.5 Gyd*s^-2 to in*day^-2
+ActionEng: please convert one and half giga yards per seconds squared to inches per days squared
+ActionEst: kui palju on pool teist giga jardi ruut sekundis tollides ruut päevas
+
+ActionApp: convert 1.5 TJ to J
+ActionEng: please convert one and half tera joules to joules
+ActionEst: kui palju on pool teist tera džauli džaulides
+
+ActionApp: convert 1.5 µW to W
+ActionEng: please convert one and half micro watts to watts
+ActionEst: kui palju on pool teist mikro vatti vattides
+
+ActionApp: convert 1.5 Mm/day to knot
+ActionEng: please convert one and half mega meters per days to knots
+ActionEst: kui palju on pool teist mega meetrit päevas sõlmedes
+
+ActionApp: convert 1.5 c to Gin/min
+ActionEng: please convert one and half speed of light to giga inches per minutes
+ActionEst: kui palju on pool teist valgus kiirust giga tollides minutis
+
+ActionApp: convert 1.5 min to year
+ActionEng: please convert one and half minutes to years
+ActionEst: kui palju on pool teist minutit aastates
+
+ActionApp: convert 1.5 cpt to dmi^3
+ActionEng: please convert one and half centi pints to cubic deci miles
+ActionEst: kui palju on pool teist senti pinti kuup detsi miilides
+
+ActionApp: convert 1.5 gal to daL
+ActionEng: please convert one and half gallons to deka liters
+ActionEst: kui palju on pool teist gallonit deka liitrites
+
+ActionApp: convert PI ' to °
+ActionEng: please convert pie minutes to degrees
+ActionEst: kui palju on Pii minutit kraadides
+
+ActionApp: convert PI mi^2 to ft^2
+ActionEng: please convert pie square miles to square feet
+ActionEst: kui palju on Pii ruut miili ruut jalgades
+
+ActionApp: convert PI din^2 to dft^2
+ActionEng: please convert pie square deci inches to square deci feet
+ActionEst: kui palju on Pii ruut detsi tolli ruut detsi jalgades
+
+ActionApp: convert PI ft/ms/s to knot/µs
+ActionEng: please convert pie feet per milli seconds per seconds to knots per micro seconds
+ActionEst: kui palju on Pii jalga milli sekundis sekundis sõlmedes mikro sekundis
+
+ActionApp: convert PI cal to J
+ActionEng: please convert pie calories to joules
+ActionEst: kui palju on Pii kalorit džaulides
+
+ActionApp: convert PI CHF to CHF
+ActionEng: please convert pie Swiss francs to Swiss francs
+ActionEst: kui palju on Pii franki frankides
+
+ActionApp: convert PI Hz to Hz
+ActionEng: please convert pie hertz to hertz
+ActionEst: kui palju on Pii hertsi hertsides
+
+ActionApp: convert PI in^3 to mL
+ActionEng: please convert pie cubic inches to milli liters
+ActionEst: kui palju on Pii kuup tolli milli liitrites
+
+ActionApp: convert PI km^3 to cup_us
+ActionEng: please convert pie cubic kilo meters to cups
+ActionEst: kui palju on Pii kuup kilo meetrit tassides
+
+ActionApp: convert 0.25 ha to ha
+ActionEng: please convert quarter hectares to hectares
+ActionEst: kui palju on veerand hektarit hektarites
+
+ActionApp: convert 0.25 yd/century/week to in/year/day
+ActionEng: please convert quarter yards per centuries per weeks to inches per years per days
+ActionEst: kui palju on veerand jardi sajandis nädalas tollides aastas päevas
+
+ActionApp: convert 0.25 daft/min/ms to nft*ms^-2
+ActionEng: please convert quarter deka feet per minutes per milli seconds to nano feet per milli seconds squared
+ActionEst: kui palju on veerand deka jalga minutis milli sekundis nano jalgades ruut milli sekundis
+
+ActionApp: convert 0.25 W to W
+ActionEng: please convert quarter watts to watts
+ActionEst: kui palju on veerand vatti vattides
+
+ActionApp: convert 0.25 W to µW
+ActionEng: please convert quarter watts to micro watts
+ActionEst: kui palju on veerand vatti mikro vattides
+
+ActionApp: convert 0.25 Hz to Hz
+ActionEng: please convert quarter hertz to hertz
+ActionEst: kui palju on veerand hertsi hertsides
+
+ActionApp: convert 0.25 day to ns
+ActionEng: please convert quarter days to nano seconds
+ActionEst: kui palju on veerand päeva nano sekundites
+
+ActionApp: convert 0.75 hacre to acre
+ActionEng: please convert three quarters hecto acres to acres
+ActionEst: kui palju on kolm veerand hekto aakrit aakrites
+
+ActionApp: convert 0.75 m/week/month to c/min
+ActionEng: please convert three quarters meters per weeks per months to speed of light per minutes
+ActionEst: kui palju on kolm veerand meetrit nädalas kuus valgus kiirustes minutis
+
+ActionApp: convert 0.75 NZD to SEK
+ActionEng: please convert three quarters New Zealand dollars to Swedish crowns
+ActionEst: kui palju on kolm veerand uus mere maa dollarit rootsi kroonides
+
+ActionApp: convert 0.75 Hz to Hz
+ActionEng: please convert three quarters hertz to hertz
+ActionEst: kui palju on kolm veerand hertsi hertsides
+
+ActionApp: convert 0.75 Hz to MHz
+ActionEng: please convert three quarters hertz to mega hertz
+ActionEst: kui palju on kolm veerand hertsi mega hertsides
+
+ActionApp: convert 0.75 oz to flour-cup
+ActionEng: please convert three quarters ounces to cups of flour
+ActionEst: kui palju on kolm veerand untsi jahu tassides
+
+ActionApp: convert 0.75 µgal to pt
+ActionEng: please convert three quarters micro gallons to pints
+ActionEst: kui palju on kolm veerand mikro gallonit pintides
+
+ActionApp: convert 0.75 L to L
+ActionEng: please convert three quarters liters to liters
+ActionEst: kui palju on kolm veerand liitrit liitrites
+
+ActionApp: alarm in 1 hours and 10 minutes
+ActionEng: please set the alarm to one hours and ten minutes
+ActionEst: ärata mind palun üks tundi ja kümme minutit hiljem
+
+ActionApp: alarm in 1 hours and 114 minutes
+ActionEng: please set the alarm to one hours and one hundred and fourteen minutes
+ActionEst: ärata mind palun üks tundi ja sada neli teist minutit hiljem
+
+ActionApp: alarm in 3 hours and 300 minutes
+ActionEng: please set the alarm to three hours and three hundred minutes
+ActionEst: ärata mind palun kolm tundi ja kolm sada minutit hiljem
+
+ActionApp: alarm in 10 hours and 4 minutes
+ActionEng: please set the alarm to ten hours and four minutes
+ActionEst: ärata mind palun kümme tundi ja neli minutit hiljem
+
+ActionApp: alarm in 10 hours and 500 minutes
+ActionEng: please set the alarm to ten hours and five hundred minutes
+ActionEst: ärata mind palun kümme tundi ja viis sada minutit hiljem
+
+ActionApp: alarm in 30 hours and 10 minutes
+ActionEng: please set the alarm to thirty hours and ten minutes
+ActionEst: ärata mind palun kolm kümmend tundi ja kümme minutit hiljem
+
+ActionApp: alarm in 50 hours and 101 minutes
+ActionEng: please set the alarm to fifty hours and one hundred and one minutes
+ActionEst: ärata mind palun viis kümmend tundi ja sada üks minutit hiljem
+
+ActionApp: alarm in 70 hours and 50 minutes
+ActionEng: please set the alarm to seventy hours and fifty minutes
+ActionEst: ärata mind palun seitse kümmend tundi ja viis kümmend minutit hiljem
+
+ActionApp: alarm in 13 hours and 19 minutes
+ActionEng: please set the alarm to thirteen hours and nineteen minutes
+ActionEst: ärata mind palun kolm teist tundi ja üheksa teist minutit hiljem
+
+ActionApp: alarm in 15 hours and 5 minutes
+ActionEng: please set the alarm to fifteen hours and five minutes
+ActionEst: ärata mind palun viis teist tundi ja viis minutit hiljem
+
+ActionApp: alarm in 15 hours and 9 minutes
+ActionEng: please set the alarm to fifteen hours and nine minutes
+ActionEst: ärata mind palun viis teist tundi ja üheksa minutit hiljem
+
+ActionApp: alarm in 17 hours and 100 minutes
+ActionEng: please set the alarm to seventeen hours and one hundred minutes
+ActionEst: ärata mind palun seitse teist tundi ja sada minutit hiljem
+
+ActionApp: alarm in 73 minutes
+ActionEng: please set the alarm to seventy three minutes
+ActionEst: ärata mind palun seitse kümmend kolm minutit hiljem
+
+ActionApp: alarm in 610 minutes
+ActionEng: please set the alarm to six hundred and ten minutes
+ActionEst: ärata mind palun kuus sada kümme minutit hiljem
+
+ActionApp: alarm in 100 minutes
+ActionEng: please set the alarm to one hundred minutes
+ActionEst: ärata mind palun sada minutit hiljem
+
+ActionApp: alarm 08 : 08
+ActionEng: please set the alarm to eight oh eight
+ActionEst: ärata mind palun kell kaheksa null kaheksa
+
+ActionApp: alarm 19 : 12
+ActionEng: please set the alarm to nineteen twelve
+ActionEst: ärata mind palun kell üheksa teist kaks teist
+
+ActionApp: alarm 21 : 29
+ActionEng: please set the alarm to twenty one twenty nine
+ActionEst: ärata mind palun kell kaks kümmend üks kaks kümmend üheksa
+
+ActionApp: call 1
+ActionEng: please call one
+ActionEst: helista palun üks
+
+ActionApp: call 2
+ActionEng: please call two
+ActionEst: helista palun kaks
+
+ActionApp: call 5 4
+ActionEng: please call five four
+ActionEst: helista palun viis neli
+
+ActionApp: call 7 3
+ActionEng: please call seven three
+ActionEst: helista palun seitse kolm
+
+ActionApp: call 7 4 0
+ActionEng: please call seven four zero
+ActionEst: helista palun seitse neli null
+
+ActionApp: weather Jalalõpe , Estonia
+ActionEng: 
+ActionEst: ilma teade Jalalõpe
+
+ActionApp: weather Koolme , Estonia
+ActionEng: 
+ActionEst: ilma teade Koolme
+
+ActionApp: weather Rebaski , Estonia
+ActionEng: 
+ActionEst: ilma teade Rebaski

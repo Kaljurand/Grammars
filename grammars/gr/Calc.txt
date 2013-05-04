@@ -1,0 +1,664 @@
+
+CalcApp: ((((0.25 * 0.5) - 0.25) / ((PI - 1.5) / (0.25 ^ 0.75))) / (0.5 - ((0.75 * 0.75) * (0.5 * PI))))
+CalcEng: how much is quarter times half minus quarter divided by ( pie minus one and half divided by ( quarter to the power of three quarters ) ) divided by ( half minus ( three quarters times three quarters times ( half times pie ) ) )
+CalcEst: kui palju on veerand korda pool miinus veerand jagatud ( Pii miinus pool teist jagatud ( veerand astmel kolm veerand ) ) jagatud ( pool miinus ( kolm veerand korda kolm veerand korda ( pool korda Pii ) ) )
+
+CalcApp: ((((0.25 ^ PI) + (1.5 ^ PI)) - 0) / (((0.75 ^ PI) - (0.25 - 0.25)) / ((1.5 - 0.75) * (0.5 / 0.5))))
+CalcEng: how much is quarter to the power of pie plus ( one and half to the power of pie ) minus zero divided by ( three quarters to the power of pie minus ( quarter minus quarter ) divided by ( one and half minus three quarters times ( half divided by half ) ) )
+CalcEst: kui palju on veerand astmel Pii pluss ( pool teist astmel Pii ) miinus null jagatud ( kolm veerand astmel Pii miinus ( veerand miinus veerand ) jagatud ( pool teist miinus kolm veerand korda ( pool jagatud pool ) ) )
+
+CalcApp: ((((0.5 / PI) ^ (0.5 ^ 0.25)) * ((1.5 * 0.75) - (0.5 * PI))) / (((0.75 + 1.5) / (0.75 + 0.75)) * ((1.5 ^ 0.5) / (0.5 ^ 1.5))))
+CalcEng: how much is half divided by pie to the power of ( half to the power of quarter ) times ( one and half times three quarters minus ( half times pie ) ) divided by ( three quarters plus one and half divided by ( three quarters plus three quarters ) times ( one and half to the power of half divided by ( half to the power of one and half ) ) )
+CalcEst: kui palju on pool jagatud Pii astmel ( pool astmel veerand ) korda ( pool teist korda kolm veerand miinus ( pool korda Pii ) ) jagatud ( kolm veerand pluss pool teist jagatud ( kolm veerand pluss kolm veerand ) korda ( pool teist astmel pool jagatud ( pool astmel pool teist ) ) )
+
+CalcApp: ((((0.5 ^ 1.5) / (1.5 + 0.25)) / ((0.5 * 0.75) - (0.5 * 0.75))) - (((0.25 / 1.5) / (PI * 0.25)) / ((0.5 * PI) - (1.5 + 0.75))))
+CalcEng: how much is half to the power of one and half divided by ( one and half plus quarter ) divided by ( half times three quarters minus ( half times three quarters ) ) minus ( quarter divided by one and half divided by ( pie times quarter ) divided by ( half times pie minus ( one and half plus three quarters ) ) )
+CalcEst: kui palju on pool astmel pool teist jagatud ( pool teist pluss veerand ) jagatud ( pool korda kolm veerand miinus ( pool korda kolm veerand ) ) miinus ( veerand jagatud pool teist jagatud ( Pii korda veerand ) jagatud ( pool korda Pii miinus ( pool teist pluss kolm veerand ) ) )
+
+CalcApp: ((((PI * 0.5) - (0.75 / 0.75)) / 0.5) - (((0.75 * 0.75) + (PI - 0.25)) + 0.0))
+CalcEng: how much is pie times half minus ( three quarters divided by three quarters ) divided by half minus ( three quarters times three quarters plus ( pie minus quarter ) plus zero point zero )
+CalcEst: kui palju on Pii korda pool miinus ( kolm veerand jagatud kolm veerand ) jagatud pool miinus ( kolm veerand korda kolm veerand pluss ( Pii miinus veerand ) pluss null koma null )
+
+CalcApp: ((PI / ((0.75 - 0.25) ^ (0.75 / 1.5))) - (((0.25 + 0.5) / PI) + (-0)))
+CalcEng: how much is pie divided by ( three quarters minus quarter to the power of ( three quarters divided by one and half ) ) minus ( quarter plus half divided by pie plus minus zero )
+CalcEst: kui palju on Pii jagatud ( kolm veerand miinus veerand astmel ( kolm veerand jagatud pool teist ) ) miinus ( veerand pluss pool jagatud Pii pluss miinus null )
+
+CalcApp: ((((PI / 1.5) + (0.25 ^ 0.25)) / ((1.5 + PI) - (PI - 0.75))) * (((PI ^ 0.75) / (0.25 * 1.5)) - ((1.5 / 0.25) * 1.5)))
+CalcEng: how much is pie divided by one and half plus ( quarter to the power of quarter ) divided by ( one and half plus pie minus ( pie minus three quarters ) ) times ( pie to the power of three quarters divided by ( quarter times one and half ) minus ( one and half divided by quarter times one and half ) )
+CalcEst: kui palju on Pii jagatud pool teist pluss ( veerand astmel veerand ) jagatud ( pool teist pluss Pii miinus ( Pii miinus kolm veerand ) ) korda ( Pii astmel kolm veerand jagatud ( veerand korda pool teist ) miinus ( pool teist jagatud veerand korda pool teist ) )
+
+CalcApp: ((((PI - 0.5) - 0.75) - ((PI ^ 1.5) * (0.5 * PI))) * ((0.75 ^ (1.5 * PI)) + ((0.75 ^ 0.5) * (0.5 / 0.5))))
+CalcEng: how much is pie minus half minus three quarters minus ( pie to the power of one and half times ( half times pie ) ) times ( three quarters to the power of ( one and half times pie ) plus ( three quarters to the power of half times ( half divided by half ) ) )
+CalcEst: kui palju on Pii miinus pool miinus kolm veerand miinus ( Pii astmel pool teist korda ( pool korda Pii ) ) korda ( kolm veerand astmel ( pool teist korda Pii ) pluss ( kolm veerand astmel pool korda ( pool jagatud pool ) ) )
+
+CalcApp: ((((0.75 * 1.5) ^ (PI + PI)) - ((0.25 + 0.25) * 0)) * 0.25)
+CalcEng: how much is three quarters times one and half to the power of ( pie plus pie ) minus ( quarter plus quarter times zero ) times quarter
+CalcEst: kui palju on kolm veerand korda pool teist astmel ( Pii pluss Pii ) miinus ( veerand pluss veerand korda null ) korda veerand
+
+CalcApp: ((((0.75 ^ 0.25) + (0.75 / 0.25)) / (PI * (0.25 * 0.25))) + (((PI * 0.75) * (0.75 - 0.5)) - (PI ^ 1.5)))
+CalcEng: how much is three quarters to the power of quarter plus ( three quarters divided by quarter ) divided by ( pie times ( quarter times quarter ) ) plus ( pie times three quarters times ( three quarters minus half ) minus ( pie to the power of one and half ) )
+CalcEst: kui palju on kolm veerand astmel veerand pluss ( kolm veerand jagatud veerand ) jagatud ( Pii korda ( veerand korda veerand ) ) pluss ( Pii korda kolm veerand korda ( kolm veerand miinus pool ) miinus ( Pii astmel pool teist ) )
+
+CalcApp: ((((0.5 ^ 1.5) + (PI - 0.25)) * ((1.5 * PI) * (0.75 - 1.5))) + ((0.75 * 0) - (-0.0)))
+CalcEng: how much is half to the power of one and half plus ( pie minus quarter ) times ( one and half times pie times ( three quarters minus one and half ) ) plus ( three quarters times zero minus minus zero point zero )
+CalcEst: kui palju on pool astmel pool teist pluss ( Pii miinus veerand ) korda ( pool teist korda Pii korda ( kolm veerand miinus pool teist ) ) pluss ( kolm veerand korda null miinus miinus null koma null )
+
+CalcApp: ((((0.5 - PI) ^ (PI - 0.25)) ^ ((0.25 * 0.75) ^ (0.75 * 1.5))) + ((-0.0) + (0.5 * (1.5 - PI))))
+CalcEng: how much is half minus pie to the power of ( pie minus quarter ) to the power of ( quarter times three quarters to the power of ( three quarters times one and half ) ) plus ( minus zero point zero plus ( half times ( one and half minus pie ) ) )
+CalcEst: kui palju on pool miinus Pii astmel ( Pii miinus veerand ) astmel ( veerand korda kolm veerand astmel ( kolm veerand korda pool teist ) ) pluss ( miinus null koma null pluss ( pool korda ( pool teist miinus Pii ) ) )
+
+CalcApp: ((((0.25 - 0.75) / (PI ^ 0.75)) / ((0.25 / PI) / (0.75 - PI))) ^ (((0.5 ^ 1.5) ^ (1.5 ^ 0.5)) * ((0.5 / 0.25) ^ 0.25)))
+CalcEng: how much is quarter minus three quarters divided by ( pie to the power of three quarters ) divided by ( quarter divided by pie divided by ( three quarters minus pie ) ) to the power of ( half to the power of one and half to the power of ( one and half to the power of half ) times ( half divided by quarter to the power of quarter ) )
+CalcEst: kui palju on veerand miinus kolm veerand jagatud ( Pii astmel kolm veerand ) jagatud ( veerand jagatud Pii jagatud ( kolm veerand miinus Pii ) ) astmel ( pool astmel pool teist astmel ( pool teist astmel pool ) korda ( pool jagatud veerand astmel veerand ) )
+
+CalcApp: ((((PI ^ 0.75) / (0.5 + 0.75)) / ((PI / 0.25) * (1.5 ^ PI))) ^ (((1.5 * 0.75) + PI) / ((0.25 / 0.5) * (0.25 * 0.5))))
+CalcEng: how much is pie to the power of three quarters divided by ( half plus three quarters ) divided by ( pie divided by quarter times ( one and half to the power of pie ) ) to the power of ( one and half times three quarters plus pie divided by ( quarter divided by half times ( quarter times half ) ) )
+CalcEst: kui palju on Pii astmel kolm veerand jagatud ( pool pluss kolm veerand ) jagatud ( Pii jagatud veerand korda ( pool teist astmel Pii ) ) astmel ( pool teist korda kolm veerand pluss Pii jagatud ( veerand jagatud pool korda ( veerand korda pool ) ) )
+
+CalcApp: ((((PI + 0.5) - PI) / ((0.25 + 1.5) - (0.25 ^ 0.75))) ^ (((PI / 0.25) - (0.5 * PI)) + ((-0) + (0.25 + 0.25))))
+CalcEng: how much is pie plus half minus pie divided by ( quarter plus one and half minus ( quarter to the power of three quarters ) ) to the power of ( pie divided by quarter minus ( half times pie ) plus ( minus zero plus ( quarter plus quarter ) ) )
+CalcEst: kui palju on Pii pluss pool miinus Pii jagatud ( veerand pluss pool teist miinus ( veerand astmel kolm veerand ) ) astmel ( Pii jagatud veerand miinus ( pool korda Pii ) pluss ( miinus null pluss ( veerand pluss veerand ) ) )
+
+CalcApp: 0
+CalcEng: how much is zero
+CalcEst: kui palju on null
+
+CalcApp: 806013000000
+CalcEng: how much is eight hundred and six billion thirteen million
+CalcEst: kui palju on kaheksa sada kuus miljardit ja kolm teist miljonit
+
+CalcApp: 880000000000
+CalcEng: how much is eight hundred and eighty billion
+CalcEst: kui palju on kaheksa sada kaheksa kümmend miljardit
+
+CalcApp: 0.10000000
+CalcEng: how much is zero point ten million
+CalcEst: kui palju on null koma kümme miljonit
+
+CalcApp: 0.11000000
+CalcEng: how much is zero point eleven million
+CalcEst: kui palju on null koma üks teist miljonit
+
+CalcApp: 0.11111000000
+CalcEng: how much is zero point eleven billion one hundred and eleven million
+CalcEst: kui palju on null koma üks teist miljardit ja sada üks teist miljonit
+
+CalcApp: (-10)
+CalcEng: how much is minus ten
+CalcEst: kui palju on miinus kümme
+
+CalcApp: (-100)
+CalcEng: how much is minus one hundred
+CalcEst: kui palju on miinus sada
+
+CalcApp: (-14011)
+CalcEng: how much is minus fourteen thousand eleven
+CalcEst: kui palju on miinus neli teist tuhat üks teist
+
+CalcApp: (-14050)
+CalcEng: how much is minus fourteen thousand fifty
+CalcEst: kui palju on miinus neli teist tuhat viis kümmend
+
+CalcApp: (-721010)
+CalcEng: how much is minus seven hundred and twenty one thousand ten
+CalcEst: kui palju on miinus seitse sada kaks kümmend üks tuhat kümme
+
+CalcApp: (-50000)
+CalcEng: how much is minus fifty thousand
+CalcEst: kui palju on miinus viis kümmend tuhat
+
+CalcApp: (-70000)
+CalcEng: how much is minus seventy thousand
+CalcEst: kui palju on miinus seitse kümmend tuhat
+
+CalcApp: (-90000)
+CalcEng: how much is minus ninety thousand
+CalcEst: kui palju on miinus üheksa kümmend tuhat
+
+CalcApp: (-3200400)
+CalcEng: how much is minus three million two hundred thousand four hundred
+CalcEst: kui palju on miinus kolm miljonit ja kaks sada tuhat neli sada
+
+CalcApp: (-40111811)
+CalcEng: how much is minus forty million one hundred and eleven thousand eight hundred and eleven
+CalcEst: kui palju on miinus neli kümmend miljonit ja sada üks teist tuhat kaheksa sada üks teist
+
+CalcApp: (-450100115)
+CalcEng: how much is minus four hundred and fifty million one hundred thousand one hundred and fifteen
+CalcEst: kui palju on miinus neli sada viis kümmend miljonit ja sada tuhat sada viis teist
+
+CalcApp: (-13000000)
+CalcEng: how much is minus thirteen million
+CalcEst: kui palju on miinus kolm teist miljonit
+
+CalcApp: (-18000000)
+CalcEng: how much is minus eighteen million
+CalcEst: kui palju on miinus kaheksa teist miljonit
+
+CalcApp: (-171000000)
+CalcEng: how much is minus one hundred and seventy one million
+CalcEst: kui palju on miinus sada seitse kümmend üks miljonit
+
+CalcApp: (-304000000)
+CalcEng: how much is minus three hundred and four million
+CalcEst: kui palju on miinus kolm sada neli miljonit
+
+CalcApp: (-901000000)
+CalcEng: how much is minus nine hundred and one million
+CalcEst: kui palju on miinus üheksa sada üks miljonit
+
+CalcApp: (-200000000)
+CalcEng: how much is minus two hundred million
+CalcEst: kui palju on miinus kaks sada miljonit
+
+CalcApp: (-300000000)
+CalcEng: how much is minus three hundred million
+CalcEst: kui palju on miinus kolm sada miljonit
+
+CalcApp: (-12000000300)
+CalcEng: how much is minus twelve billion three hundred
+CalcEst: kui palju on miinus kaks teist miljardit ja kolm sada
+
+CalcApp: (-500000011111)
+CalcEng: how much is minus five hundred billion eleven thousand one hundred and eleven
+CalcEst: kui palju on miinus viis sada miljardit ja üks teist tuhat sada üks teist
+
+CalcApp: (-900714000010)
+CalcEng: how much is minus nine hundred billion seven hundred and fourteen million ten
+CalcEst: kui palju on miinus üheksa sada miljardit ja seitse sada neli teist miljonit ja kümme
+
+CalcApp: (-1000000000)
+CalcEng: how much is minus one billion
+CalcEst: kui palju on miinus üks miljardit
+
+CalcApp: (-6000000000)
+CalcEng: how much is minus six billion
+CalcEst: kui palju on miinus kuus miljardit
+
+CalcApp: (-21000000000)
+CalcEng: how much is minus twenty one billion
+CalcEst: kui palju on miinus kaks kümmend üks miljardit
+
+CalcApp: (-89000000000)
+CalcEng: how much is minus eighty nine billion
+CalcEst: kui palju on miinus kaheksa kümmend üheksa miljardit
+
+CalcApp: (-91000000000)
+CalcEng: how much is minus ninety one billion
+CalcEst: kui palju on miinus üheksa kümmend üks miljardit
+
+CalcApp: (-0.0)
+CalcEng: how much is minus zero point zero
+CalcEst: kui palju on miinus null koma null
+
+CalcApp: (-0.130131000000)
+CalcEng: how much is minus zero point one hundred and thirty billion one hundred and thirty one million
+CalcEst: kui palju on miinus null koma sada kolm kümmend miljardit ja sada kolm kümmend üks miljonit
+
+CalcApp: convert 0 nin*µs^-2 to in*ms^-2
+CalcEng: please convert zero nano inches per micro seconds squared to inches per milli seconds squared
+CalcEst: kui palju on null nano tolli ruut mikro sekundis tollides ruut milli sekundis
+
+CalcApp: convert 0 mi/month to knot
+CalcEng: please convert zero miles per months to knots
+CalcEst: kui palju on null miili kuus sõlmedes
+
+CalcApp: convert 0 Hz to Hz
+CalcEng: please convert zero hertz to hertz
+CalcEst: kui palju on null hertsi hertsides
+
+CalcApp: convert 0 °F to °C
+CalcEng: please convert zero Fahrenheits to Celcius
+CalcEst: kui palju on null fahrenheiti kraadides
+
+CalcApp: convert 18100111 g to kt
+CalcEng: please convert eighteen million one hundred thousand one hundred and eleven grams to kilo tons
+CalcEst: kui palju on kaheksa teist miljonit ja sada tuhat sada üks teist grammi kilo tonnides
+
+CalcApp: convert 116000011000 MW to nW
+CalcEng: please convert one hundred and sixteen billion eleven thousand mega watts to nano watts
+CalcEst: kui palju on sada kuus teist miljardit ja üks teist tuhat mega vatti nano vattides
+
+CalcApp: convert 100000000000 ft^2 to ha
+CalcEng: please convert one hundred billion square feet to hectares
+CalcEst: kui palju on sada miljardit ruut jalga hektarites
+
+CalcApp: convert 0.0 daacre to ha
+CalcEng: please convert zero point zero deka acres to hectares
+CalcEst: kui palju on null koma null deka aakrit hektarites
+
+CalcApp: convert 0.0 in*s^-2 to c/century
+CalcEng: please convert zero point zero inches per seconds squared to speed of light per centuries
+CalcEst: kui palju on null koma null tolli ruut sekundis valgus kiirustes sajandis
+
+CalcApp: convert 0.0 mi*ns^-2 to knot/century
+CalcEng: please convert zero point zero miles per nano seconds squared to knots per centuries
+CalcEst: kui palju on null koma null miili ruut nano sekundis sõlmedes sajandis
+
+CalcApp: convert 0.0 W⋅h to W⋅h
+CalcEng: please convert zero point zero watt hours to watt hours
+CalcEst: kui palju on null koma null vatt tundi vatt tundides
+
+CalcApp: convert 0.0 knot to dain/h
+CalcEng: please convert zero point zero knots to deka inches per hours
+CalcEst: kui palju on null koma null sõlme deka tollides tunnis
+
+CalcApp: convert 0.0 RUB to HUF
+CalcEng: please convert zero point zero Russian roubles to Hungarian forints
+CalcEst: kui palju on null koma null rubla forintites
+
+CalcApp: convert 0.0 Hz to hHz
+CalcEng: please convert zero point zero hertz to hecto hertz
+CalcEst: kui palju on null koma null hertsi hekto hertsides
+
+CalcApp: convert 0.0 dHz to µHz
+CalcEng: please convert zero point zero deci hertz to micro hertz
+CalcEst: kui palju on null koma null detsi hertsi mikro hertsides
+
+CalcApp: convert 0.0 g to Glb
+CalcEng: please convert zero point zero grams to giga pounds
+CalcEst: kui palju on null koma null grammi giga naelades
+
+CalcApp: convert 0.0 °C to °C
+CalcEng: please convert zero point zero Celcius to Celcius
+CalcEst: kui palju on null koma null kraadi kraadides
+
+CalcApp: convert 0.0 °F to °F
+CalcEng: please convert zero point zero Fahrenheits to Fahrenheits
+CalcEst: kui palju on null koma null fahrenheiti fahrenheitides
+
+CalcApp: convert 0.0 s to week
+CalcEng: please convert zero point zero seconds to weeks
+CalcEst: kui palju on null koma null sekundit nädalates
+
+CalcApp: convert 0.0 cyd^3 to dgal
+CalcEng: please convert zero point zero cubic centi yards to deci gallons
+CalcEst: kui palju on null koma null kuup senti jardi detsi gallonites
+
+CalcApp: convert 0.0 nL to L
+CalcEng: please convert zero point zero nano liters to liters
+CalcEst: kui palju on null koma null nano liitrit liitrites
+
+CalcApp: convert 200110000000.0 " to rad
+CalcEng: please convert two hundred billion one hundred and ten million point zero seconds to radians
+CalcEst: kui palju on kaks sada miljardit ja sada kümme miljonit koma null sekundit radiaanides
+
+CalcApp: convert 914000000000.0 yd^3 to L
+CalcEng: please convert nine hundred and fourteen billion point zero cubic yards to liters
+CalcEst: kui palju on üheksa sada neli teist miljardit koma null kuup jardi liitrites
+
+CalcApp: convert 0.5 acre to Tmi^2
+CalcEng: please convert half acres to square tera miles
+CalcEst: kui palju on pool aakrit ruut tera miilides
+
+CalcApp: convert 0.5 ha to Tacre
+CalcEng: please convert half hectares to tera acres
+CalcEst: kui palju on pool hektarit tera aakrites
+
+CalcApp: convert 0.5 ha to nin^2
+CalcEng: please convert half hectares to square nano inches
+CalcEst: kui palju on pool hektarit ruut nano tollides
+
+CalcApp: convert 0.5 ft*ns^-2 to knot/h
+CalcEng: please convert half feet per nano seconds squared to knots per hours
+CalcEst: kui palju on pool jalga ruut nano sekundis sõlmedes tunnis
+
+CalcApp: convert 0.5 kJ to cal
+CalcEng: please convert half kilo joules to calories
+CalcEst: kui palju on pool kilo džauli kalorites
+
+CalcApp: convert 0.5 yd/h to c
+CalcEng: please convert half yards per hours to speed of light
+CalcEst: kui palju on pool jardi tunnis valgus kiirustes
+
+CalcApp: convert 0.5 ft to din
+CalcEng: please convert half feet to deci inches
+CalcEst: kui palju on pool jalga detsi tollides
+
+CalcApp: convert (-0) knot/h to in/h/ms
+CalcEng: please convert minus zero knots per hours to inches per hours per milli seconds
+CalcEst: kui palju on miinus null sõlme tunnis tollides tunnis milli sekundis
+
+CalcApp: convert (-0) in*century^-2 to dayd/µs/s
+CalcEng: please convert minus zero inches per centuries squared to deka yards per micro seconds per seconds
+CalcEst: kui palju on miinus null tolli ruut sajandis deka jardides mikro sekundis sekundis
+
+CalcApp: convert (-0) W⋅h to hJ
+CalcEng: please convert minus zero watt hours to hecto joules
+CalcEst: kui palju on miinus null vatt tundi hekto džaulides
+
+CalcApp: convert (-0) dJ to W⋅h
+CalcEng: please convert minus zero deci joules to watt hours
+CalcEst: kui palju on miinus null detsi džauli vatt tundides
+
+CalcApp: convert (-0) TW to W
+CalcEng: please convert minus zero tera watts to watts
+CalcEst: kui palju on miinus null tera vatti vattides
+
+CalcApp: convert (-0) GBP to HUF
+CalcEng: please convert minus zero British pounds to Hungarian forints
+CalcEst: kui palju on miinus null naela forintites
+
+CalcApp: convert (-0) din^3 to cft^3
+CalcEng: please convert minus zero cubic deci inches to cubic centi feet
+CalcEst: kui palju on miinus null kuup detsi tolli kuup senti jalgades
+
+CalcApp: convert (-11) c to m/year
+CalcEng: please convert minus eleven speed of light to meters per years
+CalcEst: kui palju on miinus üks teist valgus kiirust meetrites aastas
+
+CalcApp: convert (-111) °F to °C
+CalcEng: please convert minus one hundred and eleven Fahrenheits to Celcius
+CalcEst: kui palju on miinus sada üks teist fahrenheiti kraadides
+
+CalcApp: convert (-150) hm to yd
+CalcEng: please convert minus one hundred and fifty hecto meters to yards
+CalcEst: kui palju on miinus sada viis kümmend hekto meetrit jardides
+
+CalcApp: convert (-90800) ' to "
+CalcEng: please convert minus ninety thousand eight hundred minutes to seconds
+CalcEst: kui palju on miinus üheksa kümmend tuhat kaheksa sada minutit sekundites
+
+CalcApp: convert (-700150) W to W
+CalcEng: please convert minus seven hundred thousand one hundred and fifty watts to watts
+CalcEst: kui palju on miinus seitse sada tuhat sada viis kümmend vatti vattides
+
+CalcApp: convert (-900700) mi to in
+CalcEng: please convert minus nine hundred thousand seven hundred miles to inches
+CalcEst: kui palju on miinus üheksa sada tuhat seitse sada miili tollides
+
+CalcApp: convert (-60000) W⋅h to MJ
+CalcEng: please convert minus sixty thousand watt hours to mega joules
+CalcEst: kui palju on miinus kuus kümmend tuhat vatt tundi mega džaulides
+
+CalcApp: convert (-80000) moz to t
+CalcEng: please convert minus eighty thousand milli ounces to tons
+CalcEst: kui palju on miinus kaheksa kümmend tuhat milli untsi tonnides
+
+CalcApp: convert (-90000) daft to kft
+CalcEng: please convert minus ninety thousand deka feet to kilo feet
+CalcEst: kui palju on miinus üheksa kümmend tuhat deka jalga kilo jalgades
+
+CalcApp: convert (-11000500) °C to °C
+CalcEng: please convert minus eleven million five hundred Celcius to Celcius
+CalcEst: kui palju on miinus üks teist miljonit ja viis sada kraadi kraadides
+
+CalcApp: convert (-13030005) yd/µs to Gft/day
+CalcEng: please convert minus thirteen million thirty thousand five yards per micro seconds to giga feet per days
+CalcEst: kui palju on miinus kolm teist miljonit ja kolm kümmend tuhat viis jardi mikro sekundis giga jalgades päevas
+
+CalcApp: convert (-113000051) USD to NZD
+CalcEng: please convert minus one hundred and thirteen million fifty one American dollars to New Zealand dollars
+CalcEst: kui palju on miinus sada kolm teist miljonit ja viis kümmend üks dollarit uus mere maa dollarites
+
+CalcApp: convert (-13000000) pt to dain^3
+CalcEng: please convert minus thirteen million pints to cubic deka inches
+CalcEst: kui palju on miinus kolm teist miljonit pinti kuup deka tollides
+
+CalcApp: convert (-15000000) cm*year^-2 to mm*s^-2
+CalcEng: please convert minus fifteen million centi meters per years squared to milli meters per seconds squared
+CalcEst: kui palju on miinus viis teist miljonit senti meetrit ruut aastas milli meetrites ruut sekundis
+
+CalcApp: convert (-15000000) ft to yd
+CalcEng: please convert minus fifteen million feet to yards
+CalcEst: kui palju on miinus viis teist miljonit jalga jardides
+
+CalcApp: convert (-111000000) oz to dg
+CalcEng: please convert minus one hundred and eleven million ounces to deci grams
+CalcEst: kui palju on miinus sada üks teist miljonit untsi detsi grammides
+
+CalcApp: convert (-179000000) MHz to Hz
+CalcEng: please convert minus one hundred and seventy nine million mega hertz to hertz
+CalcEst: kui palju on miinus sada seitse kümmend üheksa miljonit mega hertsi hertsides
+
+CalcApp: convert (-201000000) week to week
+CalcEng: please convert minus two hundred and one million weeks to weeks
+CalcEst: kui palju on miinus kaks sada üks miljonit nädalat nädalates
+
+CalcApp: convert (-500000000) µL to L
+CalcEng: please convert minus five hundred million micro liters to liters
+CalcEst: kui palju on miinus viis sada miljonit mikro liitrit liitrites
+
+CalcApp: convert (-800000000) rad to rad
+CalcEng: please convert minus eight hundred million radians to radians
+CalcEst: kui palju on miinus kaheksa sada miljonit radiaani radiaanides
+
+CalcApp: convert (-800000000) µW to cW
+CalcEng: please convert minus eight hundred million micro watts to centi watts
+CalcEst: kui palju on miinus kaheksa sada miljonit mikro vatti senti vattides
+
+CalcApp: convert (-10016810000) c/month to knot/s
+CalcEng: please convert minus ten billion sixteen million eight hundred and ten thousand speed of light per months to knots per seconds
+CalcEst: kui palju on miinus kümme miljardit ja kuus teist miljonit ja kaheksa sada kümme tuhat valgus kiirust kuus sõlmedes sekundis
+
+CalcApp: convert (-319114000000) day to year
+CalcEng: please convert minus three hundred and nineteen billion one hundred and fourteen million days to years
+CalcEst: kui palju on miinus kolm sada üheksa teist miljardit ja sada neli teist miljonit päeva aastates
+
+CalcApp: convert (-500500000990) kW to kW
+CalcEng: please convert minus five hundred billion five hundred million nine hundred and ninety kilo watts to kilo watts
+CalcEst: kui palju on miinus viis sada miljardit ja viis sada miljonit ja üheksa sada üheksa kümmend kilo vatti kilo vattides
+
+CalcApp: convert (-1000000000) mm/century to c
+CalcEng: please convert minus one billion milli meters per centuries to speed of light
+CalcEst: kui palju on miinus üks miljardit milli meetrit sajandis valgus kiirustes
+
+CalcApp: convert (-2000000000) °F to °F
+CalcEng: please convert minus two billion Fahrenheits to Fahrenheits
+CalcEst: kui palju on miinus kaks miljardit fahrenheiti fahrenheitides
+
+CalcApp: convert (-3000000000) °F to °C
+CalcEng: please convert minus three billion Fahrenheits to Celcius
+CalcEst: kui palju on miinus kolm miljardit fahrenheiti kraadides
+
+CalcApp: convert (-10000000000) hgal to mft^3
+CalcEng: please convert minus ten billion hecto gallons to cubic milli feet
+CalcEst: kui palju on miinus kümme miljardit hekto gallonit kuup milli jalgades
+
+CalcApp: convert (-11000000000) knot to knot
+CalcEng: please convert minus eleven billion knots to knots
+CalcEst: kui palju on miinus üks teist miljardit sõlme sõlmedes
+
+CalcApp: convert (-41000000000) µm/month to ft/century
+CalcEng: please convert minus forty one billion micro meters per months to feet per centuries
+CalcEst: kui palju on miinus neli kümmend üks miljardit mikro meetrit kuus jalgades sajandis
+
+CalcApp: convert (-71000000000) mft to cin
+CalcEng: please convert minus seventy one billion milli feet to centi inches
+CalcEst: kui palju on miinus seitse kümmend üks miljardit milli jalga senti tollides
+
+CalcApp: convert (-81000000000) m to dayd
+CalcEng: please convert minus eighty one billion meters to deka yards
+CalcEst: kui palju on miinus kaheksa kümmend üks miljardit meetrit deka jardides
+
+CalcApp: convert (-111000000000) oz to lb
+CalcEng: please convert minus one hundred and eleven billion ounces to pounds
+CalcEst: kui palju on miinus sada üks teist miljardit untsi naelades
+
+CalcApp: convert (-100000000000) W⋅h to TJ
+CalcEng: please convert minus one hundred billion watt hours to tera joules
+CalcEst: kui palju on miinus sada miljardit vatt tundi tera džaulides
+
+CalcApp: convert (-100000000000) µin/month to mi/decade
+CalcEng: please convert minus one hundred billion micro inches per months to miles per decades
+CalcEst: kui palju on miinus sada miljardit mikro tolli kuus miilides dekaadis
+
+CalcApp: convert (-100000000000) hm to cft
+CalcEng: please convert minus one hundred billion hecto meters to centi feet
+CalcEst: kui palju on miinus sada miljardit hekto meetrit senti jalgades
+
+CalcApp: convert (-0.0) ft*decade^-2 to Gmi/day/s
+CalcEng: please convert minus zero point zero feet per decades squared to giga miles per days per seconds
+CalcEst: kui palju on miinus null koma null jalga ruut dekaadis giga miilides päevas sekundis
+
+CalcApp: convert (-0.0) cin*h^-2 to ft*day^-2
+CalcEng: please convert minus zero point zero centi inches per hours squared to feet per days squared
+CalcEst: kui palju on miinus null koma null senti tolli ruut tunnis jalgades ruut päevas
+
+CalcApp: convert (-0.0) daW to daW
+CalcEng: please convert minus zero point zero deka watts to deka watts
+CalcEst: kui palju on miinus null koma null deka vatti deka vattides
+
+CalcApp: convert (-0.0) hW to W
+CalcEng: please convert minus zero point zero hecto watts to watts
+CalcEst: kui palju on miinus null koma null hekto vatti vattides
+
+CalcApp: convert (-0.0) flour-cup to lb
+CalcEng: please convert minus zero point zero cups of flour to pounds
+CalcEst: kui palju on miinus null koma null tassi jahu naelades
+
+CalcApp: convert (-0.0) mflour-cup to t
+CalcEng: please convert minus zero point zero milli cups of flour to tons
+CalcEst: kui palju on miinus null koma null milli tassi jahu tonnides
+
+CalcApp: convert (-0.0) week to ms
+CalcEng: please convert minus zero point zero weeks to milli seconds
+CalcEst: kui palju on miinus null koma null nädalat milli sekundites
+
+CalcApp: convert (-0.0) Gcup_us to cL
+CalcEng: please convert minus zero point zero giga cups to centi liters
+CalcEst: kui palju on miinus null koma null giga tassi senti liitrites
+
+CalcApp: convert (-0.0) kgal to mi^3
+CalcEng: please convert minus zero point zero kilo gallons to cubic miles
+CalcEst: kui palju on miinus null koma null kilo gallonit kuup miilides
+
+CalcApp: convert 1.5 rad to °
+CalcEng: please convert one and half radians to degrees
+CalcEst: kui palju on pool teist radiaani kraadides
+
+CalcApp: convert 1.5 ft^2 to m^2
+CalcEng: please convert one and half square feet to square meters
+CalcEst: kui palju on pool teist ruut jalga ruut meetrites
+
+CalcApp: convert 1.5 nW to W
+CalcEng: please convert one and half nano watts to watts
+CalcEst: kui palju on pool teist nano vatti vattides
+
+CalcApp: convert 1.5 mHz to Hz
+CalcEng: please convert one and half milli hertz to hertz
+CalcEst: kui palju on pool teist milli hertsi hertsides
+
+CalcApp: convert PI Gha to nin^2
+CalcEng: please convert pie giga hectares to square nano inches
+CalcEst: kui palju on Pii giga hektarit ruut nano tollides
+
+CalcApp: convert PI mi^2 to mi^2
+CalcEng: please convert pie square miles to square miles
+CalcEst: kui palju on Pii ruut miili ruut miilides
+
+CalcApp: convert PI W⋅h to daJ
+CalcEng: please convert pie watt hours to deka joules
+CalcEst: kui palju on Pii vatt tundi deka džaulides
+
+CalcApp: convert PI W to MW
+CalcEng: please convert pie watts to mega watts
+CalcEst: kui palju on Pii vatti mega vattides
+
+CalcApp: convert PI dam/s to cm/ms
+CalcEng: please convert pie deka meters per seconds to centi meters per milli seconds
+CalcEst: kui palju on Pii deka meetrit sekundis senti meetrites milli sekundis
+
+CalcApp: convert PI Hz to nHz
+CalcEng: please convert pie hertz to nano hertz
+CalcEst: kui palju on Pii hertsi nano hertsides
+
+CalcApp: convert PI year to year
+CalcEng: please convert pie years to years
+CalcEst: kui palju on Pii aastat aastates
+
+CalcApp: convert PI Mgal to pt
+CalcEng: please convert pie mega gallons to pints
+CalcEst: kui palju on Pii mega gallonit pintides
+
+CalcApp: convert PI gal to mi^3
+CalcEng: please convert pie gallons to cubic miles
+CalcEst: kui palju on Pii gallonit kuup miilides
+
+CalcApp: convert 0.25 rad to "
+CalcEng: please convert quarter radians to seconds
+CalcEst: kui palju on veerand radiaani sekundites
+
+CalcApp: convert 0.25 kacre to mi^2
+CalcEng: please convert quarter kilo acres to square miles
+CalcEst: kui palju on veerand kilo aakrit ruut miilides
+
+CalcApp: convert 0.25 Tha to dha
+CalcEng: please convert quarter tera hectares to deci hectares
+CalcEst: kui palju on veerand tera hektarit detsi hektarites
+
+CalcApp: convert 0.25 yd^2 to ha
+CalcEng: please convert quarter square yards to hectares
+CalcEst: kui palju on veerand ruut jardi hektarites
+
+CalcApp: convert 0.25 dW to W
+CalcEng: please convert quarter deci watts to watts
+CalcEst: kui palju on veerand detsi vatti vattides
+
+CalcApp: convert 0.25 hW to µW
+CalcEng: please convert quarter hecto watts to micro watts
+CalcEst: kui palju on veerand hekto vatti mikro vattides
+
+CalcApp: convert 0.25 Hz to Hz
+CalcEng: please convert quarter hertz to hertz
+CalcEst: kui palju on veerand hertsi hertsides
+
+CalcApp: convert 0.25 Mm to yd
+CalcEng: please convert quarter mega meters to yards
+CalcEst: kui palju on veerand mega meetrit jardides
+
+CalcApp: convert 0.25 oz to coz
+CalcEng: please convert quarter ounces to centi ounces
+CalcEst: kui palju on veerand untsi senti untsides
+
+CalcApp: convert 0.25 °C to °C
+CalcEng: please convert quarter Celcius to Celcius
+CalcEst: kui palju on veerand kraadi kraadides
+
+CalcApp: convert 0.25 gal to m^3
+CalcEng: please convert quarter gallons to cubic meters
+CalcEst: kui palju on veerand gallonit kuup meetrites
+
+CalcApp: convert 0.25 pt to ncup_us
+CalcEng: please convert quarter pints to nano cups
+CalcEst: kui palju on veerand pinti nano tassides
+
+CalcApp: convert 0.75 ° to "
+CalcEng: please convert three quarters degrees to seconds
+CalcEst: kui palju on kolm veerand kraadi sekundites
+
+CalcApp: convert 0.75 µin^2 to kha
+CalcEng: please convert three quarters square micro inches to kilo hectares
+CalcEst: kui palju on kolm veerand ruut mikro tolli kilo hektarites
+
+CalcApp: convert 0.75 c/day to Gin*h^-2
+CalcEng: please convert three quarters speed of light per days to giga inches per hours squared
+CalcEst: kui palju on kolm veerand valgus kiirust päevas giga tollides ruut tunnis
+
+CalcApp: convert 0.75 JPY to ISK
+CalcEng: please convert three quarters Japanese yens to Icelandic crowns
+CalcEst: kui palju on kolm veerand jeeni islandi kroonides
+
+CalcApp: convert 0.75 lb to flour-cup
+CalcEng: please convert three quarters pounds to cups of flour
+CalcEst: kui palju on kolm veerand naela jahu tassides
+
+CalcApp: convert 0.75 dt to koz
+CalcEng: please convert three quarters deci tons to kilo ounces
+CalcEst: kui palju on kolm veerand detsi tonni kilo untsides
+
+CalcApp: convert 0.75 month to h
+CalcEng: please convert three quarters months to hours
+CalcEst: kui palju on kolm veerand kuud tundides
+
+CalcApp: convert 0.75 nin^3 to pt
+CalcEng: please convert three quarters cubic nano inches to pints
+CalcEst: kui palju on kolm veerand kuup nano tolli pintides
+
+CalcApp: convert 0.75 nL to cyd^3
+CalcEng: please convert three quarters nano liters to cubic centi yards
+CalcEst: kui palju on kolm veerand nano liitrit kuup senti jardides
+
+CalcApp: convert 0.75 pt to dacup_us
+CalcEng: please convert three quarters pints to deka cups
+CalcEst: kui palju on kolm veerand pinti deka tassides

@@ -1,401 +1,141 @@
-Tallinndirection: direction_id (address2 (small_num (pot1as2 (pot1plus n5 pot01))) Puusepa)
-TallinndirectionApp: Puusepa 51 , Tallinn
 
-TallinndirectionEdwin: map Puusepa 51 , Tallinn
+TallinndirectionApp: FROM Coca-Cola Plaza , Tallinn TO Filtri tee , Tallinn
+TallinndirectionEst: Algus Coca-Cola Plaza Lõpp Filtri tee
 
-TallinndirectionEst: Puusepa viis kümmend üks
+TallinndirectionApp: FROM Coca-Cola Plaza , Tallinn TO Hallivanamehe 6 , Tallinn
+TallinndirectionEst: Algus Coca-Cola Plaza Lõpp Hallivanamehe kuus
 
+TallinndirectionApp: FROM Kanuti aed , Tallinn TO Sepapaja 20 , Tallinn
+TallinndirectionEst: Algus Kanuti aed Lõpp Sepapaja kaks kümmend
 
-Tallinndirection: direction_id (address1 Laumlaumlnemere_tee)
-TallinndirectionApp: Läänemere tee , Tallinn
+TallinndirectionApp: FROM Kanuti aed , Tallinn TO Soovildiku 18 , Tallinn
+TallinndirectionEst: Algus Kanuti aed Lõpp Soovildiku kaheksa teist
 
-TallinndirectionEdwin: map Läänemere tee , Tallinn
+TallinndirectionApp: FROM Kanuti aed , Tallinn TO Riisika 600 , Tallinn
+TallinndirectionEst: Algus Kanuti aed Lõpp Riisika kuus sada
 
-TallinndirectionEst: Läänemere tee
+TallinndirectionApp: FROM Linnahall , Tallinn TO Põllu 80 , Tallinn
+TallinndirectionEst: Algus Linnahall Lõpp Põllu kaheksa kümmend
 
+TallinndirectionApp: FROM Linnahall , Tallinn TO Alajaama 96 , Tallinn
+TallinndirectionEst: Algus Linnahall Lõpp Alajaama üheksa kümmend kuus
 
-Tallinndirection: direction_id (address2 (small_num (pot2 (pot0 n3))) Trummi)
-TallinndirectionApp: Trummi 300 , Tallinn
+TallinndirectionApp: FROM Linnahall , Tallinn TO Taime 17 , Tallinn
+TallinndirectionEst: Algus Linnahall Lõpp Taime seitse teist
 
-TallinndirectionEdwin: map Trummi 300 , Tallinn
+TallinndirectionApp: FROM Linnahall , Tallinn TO Nabra 400 , Tallinn
+TallinndirectionEst: Algus Linnahall Lõpp Nabra neli sada
 
-TallinndirectionEst: Trummi kolm sada
+TallinndirectionApp: FROM Juurdeveo , Tallinn TO Puhma 61 , Tallinn
+TallinndirectionEst: Algus Juurdeveo Lõpp Puhma kuus kümmend üks
 
+TallinndirectionApp: FROM Kärestiku , Tallinn TO Müta 703 , Tallinn
+TallinndirectionEst: Algus Kärestiku Lõpp Müta seitse sada kolm
 
-Tallinndirection: direction_id (address2 (small_num (pot2plus pot01 (pot0as1 pot01))) Vigla)
-TallinndirectionApp: Vigla 101 , Tallinn
+TallinndirectionApp: FROM Kulli , Tallinn TO Seene 31 , Tallinn
+TallinndirectionEst: Algus Kulli Lõpp Seene kolm kümmend üks
 
-TallinndirectionEdwin: map Vigla 101 , Tallinn
+TallinndirectionApp: FROM Laane , Tallinn TO Kanuti aed , Tallinn
+TallinndirectionEst: Algus Laane Lõpp Kanuti aed
 
-TallinndirectionEst: Vigla sada üks
+TallinndirectionApp: FROM Loometsa , Tallinn TO Kloostri tee 4 , Tallinn
+TallinndirectionEst: Algus Loometsa Lõpp Kloostri tee neli
 
+TallinndirectionApp: FROM Metsa põik , Tallinn TO Puhkekodu tee 200 , Tallinn
+TallinndirectionEst: Algus Metsa põik Lõpp Puhkekodu tee kaks sada
 
-Tallinndirection: direction_id (address1 Kaumlaumlnu)
-TallinndirectionApp: Käänu , Tallinn
+TallinndirectionApp: FROM Toomapere 40 , Tallinn TO Linnahall , Tallinn
+TallinndirectionEst: Algus Toomapere neli kümmend Lõpp Linnahall
 
-TallinndirectionEdwin: map Käänu , Tallinn
+TallinndirectionApp: FROM Sikupilli 38 , Tallinn TO Kalaranna , Tallinn
+TallinndirectionEst: Algus Sikupilli kolm kümmend kaheksa Lõpp Kalaranna
 
-TallinndirectionEst: Käänu
+TallinndirectionApp: FROM Pedaja 14 , Tallinn TO Seemne 15 , Tallinn
+TallinndirectionEst: Algus Pedaja neli teist Lõpp Seemne viis teist
 
+TallinndirectionApp: FROM Tarja 19 , Tallinn TO Jahu , Tallinn
+TallinndirectionEst: Algus Tarja üheksa teist Lõpp Jahu
 
-Tallinndirection: direction_id (address2 (small_num (pot2plus pot01 pot110)) Koge)
-TallinndirectionApp: Koge 110 , Tallinn
+TallinndirectionApp: FROM Trepi 152 , Tallinn TO Pikk jalg 90 , Tallinn
+TallinndirectionEst: Algus Trepi sada viis kümmend kaks Lõpp Pikk jalg üheksa kümmend
 
-TallinndirectionEdwin: map Koge 110 , Tallinn
+TallinndirectionApp: FROM Halla 100 , Tallinn TO Kurni põik 611 , Tallinn
+TallinndirectionEst: Algus Halla sada Lõpp Kurni põik kuus sada üks teist
 
-TallinndirectionEst: Koge sada kümme
+TallinndirectionApp: FROM Marati 100 , Tallinn TO Tiskre tee 717 , Tallinn
+TallinndirectionEst: Algus Marati sada Lõpp Tiskre tee seitse sada seitse teist
 
+TallinndirectionApp: FROM Ranna tee 500 , Tallinn TO Kanuti aed , Tallinn
+TallinndirectionEst: Algus Ranna tee viis sada Lõpp Kanuti aed
 
-Tallinndirection: direction (address2 (small_num (pot2plus pot01 (pot1to19 n8))) Kaladi) (address2 (small_num (pot2 (pot0 n8))) Vene)
-TallinndirectionApp: FROM Kaladi 118 , Tallinn TO Vene 800 , Tallinn
+TallinndirectionApp: FROM Väina tee 600 , Tallinn TO Näituse 1 , Tallinn
+TallinndirectionEst: Algus Väina tee kuus sada Lõpp Näituse üks
 
-TallinndirectionEdwin: get directions to Vene 800 , Tallinn
-
-TallinndirectionEst: Algus Kaladi sada kaheksa teist Lõpp Vene kaheksa sada
-
-
-Tallinndirection: direction (address1 Totildenu) (address1 Kari)
-TallinndirectionApp: FROM Tõnu , Tallinn TO Kari , Tallinn
-
-TallinndirectionEdwin: get directions to Kari , Tallinn
-
-TallinndirectionEst: Algus Tõnu Lõpp Kari
-
-
-Tallinndirection: direction (address2 (small_num (pot1as2 pot110)) Tammede_puiestee) (address2 (small_num (pot2 (pot0 n2))) Tirgu)
-TallinndirectionApp: FROM Tammede puiestee 10 , Tallinn TO Tirgu 200 , Tallinn
-
-TallinndirectionEdwin: get directions to Tirgu 200 , Tallinn
-
-TallinndirectionEst: Algus Tammede puiestee kümme Lõpp Tirgu kaks sada
-
-
-Tallinndirection: direction (address0 Kanuti_aed) (address1 Vaumlstriku)
-TallinndirectionApp: FROM Kanuti aed , Tallinn TO Västriku , Tallinn
-
-TallinndirectionEdwin: get directions to Västriku , Tallinn
-
-TallinndirectionEst: Algus Kanuti aed Lõpp Västriku
-
-
-Tallinndirection: direction_id (address1 Kaumlo)
-TallinndirectionApp: Käo , Tallinn
-
-TallinndirectionEdwin: map Käo , Tallinn
-
-TallinndirectionEst: Käo
-
-
-Tallinndirection: direction_id (address2 (small_num (pot2 (pot0 n6))) Kasvu)
-TallinndirectionApp: Kasvu 600 , Tallinn
-
-TallinndirectionEdwin: map Kasvu 600 , Tallinn
-
-TallinndirectionEst: Kasvu kuus sada
-
-
-Tallinndirection: direction (address1 Lavamaa) (address1 Taumlhe)
-TallinndirectionApp: FROM Lavamaa , Tallinn TO Tähe , Tallinn
-
-TallinndirectionEdwin: get directions to Tähe , Tallinn
-
-TallinndirectionEst: Algus Lavamaa Lõpp Tähe
-
-
-Tallinndirection: direction (address0 Kanuti_aed) (address1 Paul_Kerese)
-TallinndirectionApp: FROM Kanuti aed , Tallinn TO Paul Kerese , Tallinn
-
-TallinndirectionEdwin: get directions to Paul Kerese , Tallinn
-
-TallinndirectionEst: Algus Kanuti aed Lõpp Paul Kerese
-
-
-Tallinndirection: direction_id (address1 Otildenne)
-TallinndirectionApp: Õnne , Tallinn
-
-TallinndirectionEdwin: map Õnne , Tallinn
-
-TallinndirectionEst: Õnne
-
-
-Tallinndirection: direction (address2 (small_num (pot2plus pot01 (pot1to19 n6))) Suur_Sotildejamaumle_potildeik) (address2 (small_num (pot2 pot01)) Kaabli)
-TallinndirectionApp: FROM Suur-Sõjamäe põik 116 , Tallinn TO Kaabli 100 , Tallinn
-
-TallinndirectionEdwin: get directions to Kaabli 100 , Tallinn
-
-TallinndirectionEst: Algus Suur-Sõjamäe põik sada kuus teist Lõpp Kaabli sada
-
-
-Tallinndirection: direction_id (address1 Siia)
-TallinndirectionApp: Siia , Tallinn
-
-TallinndirectionEdwin: map Siia , Tallinn
-
-TallinndirectionEst: Siia
-
-
-Tallinndirection: direction_id (address1 Tondiraba)
-TallinndirectionApp: Tondiraba , Tallinn
-
-TallinndirectionEdwin: map Tondiraba , Tallinn
-
-TallinndirectionEst: Tondiraba
-
-
-Tallinndirection: direction_id (address1 Lehtmaumle)
-TallinndirectionApp: Lehtmäe , Tallinn
-
-TallinndirectionEdwin: map Lehtmäe , Tallinn
-
-TallinndirectionEst: Lehtmäe
-
-
-Tallinndirection: direction_id (address0 Kanuti_aed)
 TallinndirectionApp: Kanuti aed , Tallinn
-
-TallinndirectionEdwin: map Kanuti aed , Tallinn
-
 TallinndirectionEst: Kanuti aed
 
-
-Tallinndirection: direction (address2 (small_num (pot2plus (pot0 n9) pot111)) Saarepuu) (address2 (small_num (pot2plus (pot0 n9) (pot1 n4))) August_Kitzbergi)
-TallinndirectionApp: FROM Saarepuu 911 , Tallinn TO August Kitzbergi 940 , Tallinn
-
-TallinndirectionEdwin: get directions to August Kitzbergi 940 , Tallinn
-
-TallinndirectionEst: Algus Saarepuu üheksa sada üks teist Lõpp August Kitzbergi üheksa sada neli kümmend
-
-
-Tallinndirection: direction (address0 Kanuti_aed) (address1 Tohu)
-TallinndirectionApp: FROM Kanuti aed , Tallinn TO Tohu , Tallinn
-
-TallinndirectionEdwin: get directions to Tohu , Tallinn
-
-TallinndirectionEst: Algus Kanuti aed Lõpp Tohu
-
-
-Tallinndirection: direction_id (address0 Coca_Cola_Plaza)
-TallinndirectionApp: Coca-Cola Plaza , Tallinn
-
-TallinndirectionEdwin: map Coca-Cola Plaza , Tallinn
-
-TallinndirectionEst: Coca-Cola Plaza
-
-
-Tallinndirection: direction_id (address1 Paasiku)
-TallinndirectionApp: Paasiku , Tallinn
-
-TallinndirectionEdwin: map Paasiku , Tallinn
-
-TallinndirectionEst: Paasiku
-
-
-Tallinndirection: direction_id (address2 (small_num (pot2 pot01)) Hao)
-TallinndirectionApp: Hao 100 , Tallinn
-
-TallinndirectionEdwin: map Hao 100 , Tallinn
-
-TallinndirectionEst: Hao sada
-
-
-Tallinndirection: direction (address0 Linnahall) (address2 (small_num (pot1as2 (pot1to19 n5))) Elektri)
-TallinndirectionApp: FROM Linnahall , Tallinn TO Elektri 15 , Tallinn
-
-TallinndirectionEdwin: get directions to Elektri 15 , Tallinn
-
-TallinndirectionEst: Algus Linnahall Lõpp Elektri viis teist
-
-
-Tallinndirection: direction_id (address0 Kanuti_aed)
-TallinndirectionApp: Kanuti aed , Tallinn
-
-TallinndirectionEdwin: map Kanuti aed , Tallinn
-
-TallinndirectionEst: Kanuti aed
-
-
-Tallinndirection: direction_id (address2 (small_num (pot2 pot01)) Vaumlike)
-TallinndirectionApp: Väike 100 , Tallinn
-
-TallinndirectionEdwin: map Väike 100 , Tallinn
-
-TallinndirectionEst: Väike sada
-
-
-Tallinndirection: direction_id (address0 Linnahall)
 TallinndirectionApp: Linnahall , Tallinn
-
-TallinndirectionEdwin: map Linnahall , Tallinn
-
 TallinndirectionEst: Linnahall
 
+TallinndirectionApp: Abaja , Tallinn
+TallinndirectionEst: Abaja
 
-Tallinndirection: direction (address1 Kuhja) (address1 Viimsi_potildeik)
-TallinndirectionApp: FROM Kuhja , Tallinn TO Viimsi põik , Tallinn
+TallinndirectionApp: Islandi väljak , Tallinn
+TallinndirectionEst: Islandi väljak
 
-TallinndirectionEdwin: get directions to Viimsi põik , Tallinn
+TallinndirectionApp: Roosikrantsi , Tallinn
+TallinndirectionEst: Roosikrantsi
 
-TallinndirectionEst: Algus Kuhja Lõpp Viimsi põik
+TallinndirectionApp: Vahtriku tee 1 , Tallinn
+TallinndirectionEst: Vahtriku tee üks
 
+TallinndirectionApp: Leete 5 , Tallinn
+TallinndirectionEst: Leete viis
 
-Tallinndirection: direction_id (address1 Hansu)
-TallinndirectionApp: Hansu , Tallinn
+TallinndirectionApp: Rapla 6 , Tallinn
+TallinndirectionEst: Rapla kuus
 
-TallinndirectionEdwin: map Hansu , Tallinn
+TallinndirectionApp: Hane 40 , Tallinn
+TallinndirectionEst: Hane neli kümmend
 
-TallinndirectionEst: Hansu
+TallinndirectionApp: Puraviku 50 , Tallinn
+TallinndirectionEst: Puraviku viis kümmend
 
+TallinndirectionApp: Tulekivi 80 , Tallinn
+TallinndirectionEst: Tulekivi kaheksa kümmend
 
-Tallinndirection: direction_id (address1 Potildellumaumle)
-TallinndirectionApp: Põllumäe , Tallinn
+TallinndirectionApp: Prii 31 , Tallinn
+TallinndirectionEst: Prii kolm kümmend üks
 
-TallinndirectionEdwin: map Põllumäe , Tallinn
+TallinndirectionApp: Pilviku 72 , Tallinn
+TallinndirectionEst: Pilviku seitse kümmend kaks
 
-TallinndirectionEst: Põllumäe
+TallinndirectionApp: Vuti 81 , Tallinn
+TallinndirectionEst: Vuti kaheksa kümmend üks
 
+TallinndirectionApp: Saha põik 12 , Tallinn
+TallinndirectionEst: Saha põik kaks teist
 
-Tallinndirection: direction_id (address1 Komeedi)
-TallinndirectionApp: Komeedi , Tallinn
+TallinndirectionApp: Johann Köleri 15 , Tallinn
+TallinndirectionEst: Johann Köleri viis teist
 
-TallinndirectionEdwin: map Komeedi , Tallinn
+TallinndirectionApp: Hariduse 19 , Tallinn
+TallinndirectionEst: Hariduse üheksa teist
 
-TallinndirectionEst: Komeedi
+TallinndirectionApp: Parda 101 , Tallinn
+TallinndirectionEst: Parda sada üks
 
+TallinndirectionApp: Villardi 111 , Tallinn
+TallinndirectionEst: Villardi sada üks teist
 
-Tallinndirection: direction_id (address0 Linnahall)
-TallinndirectionApp: Linnahall , Tallinn
+TallinndirectionApp: Vana-Tartu maantee 408 , Tallinn
+TallinndirectionEst: Vana-Tartu maantee neli sada kaheksa
 
-TallinndirectionEdwin: map Linnahall , Tallinn
+TallinndirectionApp: Maarjamäe 200 , Tallinn
+TallinndirectionEst: Maarjamäe kaks sada
 
-TallinndirectionEst: Linnahall
+TallinndirectionApp: Soolahe tee 800 , Tallinn
+TallinndirectionEst: Soolahe tee kaheksa sada
 
-
-Tallinndirection: direction_id (address1 Vana_Tartu_maantee)
-TallinndirectionApp: Vana-Tartu maantee , Tallinn
-
-TallinndirectionEdwin: map Vana-Tartu maantee , Tallinn
-
-TallinndirectionEst: Vana-Tartu maantee
-
-
-Tallinndirection: direction_id (address2 (small_num (pot2plus pot01 (pot1plus n2 pot01))) Bremeni_kaumlik)
-TallinndirectionApp: Bremeni käik 121 , Tallinn
-
-TallinndirectionEdwin: map Bremeni käik 121 , Tallinn
-
-TallinndirectionEst: Bremeni käik sada kaks kümmend üks
-
-
-Tallinndirection: direction_id (address0 Kanuti_aed)
-TallinndirectionApp: Kanuti aed , Tallinn
-
-TallinndirectionEdwin: map Kanuti aed , Tallinn
-
-TallinndirectionEst: Kanuti aed
-
-
-Tallinndirection: direction (address2 (small_num (pot2 pot01)) Kure) (address1 Mardi)
-TallinndirectionApp: FROM Kure 100 , Tallinn TO Mardi , Tallinn
-
-TallinndirectionEdwin: get directions to Mardi , Tallinn
-
-TallinndirectionEst: Algus Kure sada Lõpp Mardi
-
-
-Tallinndirection: direction (address2 (small_num (pot1as2 (pot1plus n6 pot01))) Kaarna) (address1 Oleviste)
-TallinndirectionApp: FROM Kaarna 61 , Tallinn TO Oleviste , Tallinn
-
-TallinndirectionEdwin: get directions to Oleviste , Tallinn
-
-TallinndirectionEst: Algus Kaarna kuus kümmend üks Lõpp Oleviste
-
-
-Tallinndirection: direction_id (address2 (small_num (pot2 pot01)) Eerikneeme_tee)
-TallinndirectionApp: Eerikneeme tee 100 , Tallinn
-
-TallinndirectionEdwin: map Eerikneeme tee 100 , Tallinn
-
-TallinndirectionEst: Eerikneeme tee sada
-
-
-Tallinndirection: direction (address1 Ruumlndi) (address1 Moonalao)
-TallinndirectionApp: FROM Ründi , Tallinn TO Moonalao , Tallinn
-
-TallinndirectionEdwin: get directions to Moonalao , Tallinn
-
-TallinndirectionEst: Algus Ründi Lõpp Moonalao
-
-
-Tallinndirection: direction (address0 Linnahall) (address1 Lehtri)
-TallinndirectionApp: FROM Linnahall , Tallinn TO Lehtri , Tallinn
-
-TallinndirectionEdwin: get directions to Lehtri , Tallinn
-
-TallinndirectionEst: Algus Linnahall Lõpp Lehtri
-
-
-Tallinndirection: direction (address2 (small_num (pot1as2 (pot1to19 n8))) Koskla) (address0 Coca_Cola_Plaza)
-TallinndirectionApp: FROM Koskla 18 , Tallinn TO Coca-Cola Plaza , Tallinn
-
-TallinndirectionEdwin: get directions to Coca-Cola Plaza , Tallinn
-
-TallinndirectionEst: Algus Koskla kaheksa teist Lõpp Coca-Cola Plaza
-
-
-Tallinndirection: direction_id (address0 Coca_Cola_Plaza)
-TallinndirectionApp: Coca-Cola Plaza , Tallinn
-
-TallinndirectionEdwin: map Coca-Cola Plaza , Tallinn
-
-TallinndirectionEst: Coca-Cola Plaza
-
-
-Tallinndirection: direction (address2 (small_num (pot2 (pot0 n3))) Luha) (address2 (small_num (pot2plus (pot0 n2) pot110)) Viadukti)
-TallinndirectionApp: FROM Luha 300 , Tallinn TO Viadukti 210 , Tallinn
-
-TallinndirectionEdwin: get directions to Viadukti 210 , Tallinn
-
-TallinndirectionEst: Algus Luha kolm sada Lõpp Viadukti kaks sada kümme
-
-
-Tallinndirection: direction_id (address0 Linnahall)
-TallinndirectionApp: Linnahall , Tallinn
-
-TallinndirectionEdwin: map Linnahall , Tallinn
-
-TallinndirectionEst: Linnahall
-
-
-Tallinndirection: direction_id (address0 Kanuti_aed)
-TallinndirectionApp: Kanuti aed , Tallinn
-
-TallinndirectionEdwin: map Kanuti aed , Tallinn
-
-TallinndirectionEst: Kanuti aed
-
-
-Tallinndirection: direction (address2 (small_num (pot2 (pot0 n8))) Tedrepere) (address0 Linnahall)
-TallinndirectionApp: FROM Tedrepere 800 , Tallinn TO Linnahall , Tallinn
-
-TallinndirectionEdwin: get directions to Linnahall , Tallinn
-
-TallinndirectionEst: Algus Tedrepere kaheksa sada Lõpp Linnahall
-
-
-Tallinndirection: direction_id (address0 Linnahall)
-TallinndirectionApp: Linnahall , Tallinn
-
-TallinndirectionEdwin: map Linnahall , Tallinn
-
-TallinndirectionEst: Linnahall
-
-
-Tallinndirection: direction (address1 Rotildeotildemu) (address0 Linnahall)
-TallinndirectionApp: FROM Rõõmu , Tallinn TO Linnahall , Tallinn
-
-TallinndirectionEdwin: get directions to Linnahall , Tallinn
-
-TallinndirectionEst: Algus Rõõmu Lõpp Linnahall
-
-
-
+TallinndirectionApp: Tedre põik 900 , Tallinn
+TallinndirectionEst: Tedre põik üheksa sada
