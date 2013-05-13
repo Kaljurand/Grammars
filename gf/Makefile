@@ -11,6 +11,15 @@ gf = gf --make --optimize-pgf --mk-index --path=$(path)
 gf_retain = gf --run --retain --path=$(path)
 gfdepgraph = _gfdepgraph.dot
 
+all: help
+
+help:
+	@echo Targets:
+	@echo
+	@echo "  dg_Action:    draws module hierarchy diagram"
+	@echo "  build_Action: builds PGF of Action grammar"
+	@echo "  ..."
+
 
 dg_Action:
 	echo "dg -only=$(modules_Action)" | $(gf_retain) $(foreach lang,$(langs),Action/Action$(lang).gf)

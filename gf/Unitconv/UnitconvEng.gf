@@ -20,7 +20,7 @@ lin
 		requestSS (ss ("convert" ++ num.s ++ conv ! REQUEST)) |
 		ss ((optStr "how much is") ++ num.s ++ conv ! EXPRESSION) ;
 	length, mass, time, temperature, area, volume, angle, frequency,
-	conv_speed, conv_acceleration,
+	conv_density, conv_speed, conv_acceleration,
 	conv_energy, conv_power, currency = c ;
 
 }

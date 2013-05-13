@@ -11,7 +11,7 @@ lincat Unitconv, Conv = SS;
 lin
 	main num conv = { s = num.s ++ conv.s } ;
 	length, mass, time, temperature, area, volume, angle, frequency,
-	conv_speed, conv_acceleration,
+	conv_density, conv_speed, conv_acceleration,
 	conv_energy, conv_power, currency = c ;
 
 }

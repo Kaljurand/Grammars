@@ -5,9 +5,10 @@ abstract Unit = Prefix, Currency ** {
 -- represents a definite predetermined length."
 
 -- @author Kaarel Kaljurand
--- @version 2011-10-13
+-- @version 2013-05-13
 
 cat
+	DensityUnit ;
 	Length ; LengthUnit ;
 	Mass ; MassUnit ;
 	Time ; TimeUnit ;
@@ -47,6 +48,8 @@ fun
 	energy_unit : Energy -> EnergyUnit ;
 	power_unit : Power -> PowerUnit ;
 	speed_unit : Speed -> SpeedUnit ;
+
+	density : MassUnit -> VolumeUnit -> DensityUnit ;
 
 	-- Length (possibly prefixed) can be turned into
 	-- Area (by square) or Volume (by cube), e.g.

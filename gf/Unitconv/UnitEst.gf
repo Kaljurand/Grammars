@@ -26,11 +26,12 @@ concrete UnitEst of Unit = PrefixEst, CurrencyEst ** open StringOper, Estonian i
 -- in most cases it doesn't even end up in the compiled grammar (e.g. JSGF file).
 --
 -- @author Kaarel Kaljurand
--- @version 2011-11-05
+-- @version 2013-05-13
 
 flags coding=utf8;
 
 lincat
+	DensityUnit,
 	Length, LengthUnit,
 	Mass, MassUnit,
 	Time, TimeUnit,
@@ -64,13 +65,13 @@ prefixed_frequency_unit = prefix ;
 square = prefix "ruut";
 cube = prefix "kuup";
 
-speed, acceleration2 = mk_meter_per_second "";
+density, speed, acceleration2 = mk_meter_per_second "";
 acceleration = mk_meter_per_second "ruut";
 
 --Length
 meter = mkUnit "meetrit";
 inch = mkUnit "tolli";
-foot = mkUnit "jalga";
+foot = mkUnit "jalga" "jalas" "jalgades";
 yard = mkUnit "jardi";
 mile = mkUnit "miili";
 
@@ -106,7 +107,7 @@ acre = mkUnit "aakrit";
 
 --Volume
 liter = mkUnit "liitrit";
-pint = mkUnit "pinti";
+pint = mkUnit "pinti" "pindis" "pintides";
 gallon = mkUnit "gallonit";
 cup = mkUnit "tassi";
 

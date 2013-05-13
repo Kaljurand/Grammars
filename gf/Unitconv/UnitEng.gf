@@ -1,11 +1,12 @@
 concrete UnitEng of Unit = PrefixEng, CurrencyEng ** open StringOper, English in {
 
 -- @author Kaarel Kaljurand
--- @version 2012-09-26
+-- @version 2013-05-13
 
 flags coding=utf8;
 
 lincat
+	DensityUnit,
 	Length, LengthUnit,
 	Mass, MassUnit,
 	Time, TimeUnit,
@@ -39,7 +40,7 @@ prefixed_frequency_unit = prefixSS ;
 square = prefixSS "square";
 cube = prefixSS "cubic";
 
-speed, acceleration2 = mkMeterPerSecond "";
+density, speed, acceleration2 = mkMeterPerSecond "";
 acceleration = mkMeterPerSecond "squared";
 
 --Length

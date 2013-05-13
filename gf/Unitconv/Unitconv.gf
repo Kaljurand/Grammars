@@ -28,6 +28,7 @@ fun
 	angle : AngleUnit -> AngleUnit -> Conv ;
 
 	frequency : FrequencyUnit -> FrequencyUnit -> Conv ;
+	conv_density : DensityUnit -> DensityUnit -> Conv ;
 	conv_speed : SpeedUnit -> SpeedUnit -> Conv ;
 	conv_acceleration : AccelerationUnit -> AccelerationUnit -> Conv ;
 	conv_energy : EnergyUnit -> EnergyUnit -> Conv ;

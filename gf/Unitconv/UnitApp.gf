@@ -12,6 +12,7 @@ oper
 
 
 lincat
+	DensityUnit,
 	Length, LengthUnit,
 	Mass, MassUnit,
 	Time, TimeUnit,
@@ -44,7 +45,7 @@ prefixed_frequency_unit = prefixSS_glue ;
 square = postfixSS_glue "^2";
 cube = postfixSS_glue "^3";
 
-speed = infixSS_glue "/";
+density, speed = infixSS_glue "/";
 --acceleration = product "1" "-2";
 acceleration = simple_product "-2";
 
