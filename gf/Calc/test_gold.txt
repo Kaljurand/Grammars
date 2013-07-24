@@ -1,4 +1,4 @@
-expr (e_mult (e_plus (numeral (fraction (copy1 (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n2)))))))))) (numeral (fraction (copy1 (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n3))))))))))) (numeral (fraction (copy1 (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n5)))))))))))
+expr (e_plus (fraction (copy1 (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n2))))))))) (e_mult (fraction (copy1 (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n3))))))))) (numeral (fraction (copy1 (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as1 (pot0 n5))))))))))))
 
 kui palju on kaks pluss kolm korda viis
 
@@ -10,9 +10,6 @@ unitconv (main (fraction (copy1 (num (pot4as5 (pot3as4 (pot2as3 (pot1as2 (pot0as
 kui palju on kaks meetrit jalgades
 
 kaks meetrit jalgades
-
-
-((2 + 3) * 5)
 
 
 convert 2 ft^2 to m^2

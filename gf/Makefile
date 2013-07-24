@@ -1,11 +1,11 @@
 
-path = lib:Numeral:Date:Dial:Digit:Action:Alarm:Calc:Expr:Fraction:Unitconv:Direction:Address:Eeppl:Tallinnaddress:Weather
+path = lib:Numeral:Date:Dial:Digit:Action:Alarm:ArithExpr:Calc:Expr:Fraction:Unitconv:Direction:Address:Eeppl:Tallinnaddress:Weather
 
 langs = App Est Eng
 langs1 = App Est
 
 # Modules reachable from Action
-modules_Action=Action,Address,Alarm,Calc,Currency,Date,Dial,Digit,Direction,Eeppl,Estvrp,Expr,Fraction,Go,Letter,Numeral,Prefix,Symbols,Tallinnaddress,Tallinndirection,Town,Unit,Unitconv,Weather
+modules_Action=Action,Address,Alarm,ArithExpr,Calc,Currency,Date,Dial,Digit,Direction,Eeppl,Estvrp,Expr,Fraction,Go,Letter,Numeral,Prefix,Symbols,Tallinnaddress,Tallinndirection,Town,Unit,Unitconv,Weather
 
 gf = gf --make --optimize-pgf --mk-index --path=$(path)
 gf_retain = gf --run --retain --path=$(path)

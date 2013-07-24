@@ -1,4 +1,4 @@
-concrete CalcEng of Calc = ExprEng, UnitconvEng ** open StringOper, English in {
+concrete CalcEng of Calc = ArithExprEng, UnitconvEng ** open StringOper, English in {
 
 lincat Calc = SS;
 lin

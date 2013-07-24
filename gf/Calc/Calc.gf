@@ -1,15 +1,10 @@
-abstract Calc = Expr, Unitconv ** {
-
--- Calc is a union of Expr and Unitconv.
---
--- @author Kaarel Kaljurand
--- @version 2011-10-03
+abstract Calc = ArithExpr, Unitconv ** {
 
 flags startcat = Calc;
 
 cat Calc;
 
 fun
-	expr : Expr -> Calc;
+	expr : ArithExpr -> Calc;
 	unitconv : Unitconv -> Calc;
 }

@@ -1,9 +1,4 @@
-concrete CalcApp of Calc = ExprApp, UnitconvApp ** open StringOper in {
-
--- CalcApp is a union of ExprApp and UnitconvApp.
---
--- @author Kaarel Kaljurand
--- @version 2011-10-03
+concrete CalcApp of Calc = ArithExprApp, UnitconvApp ** open StringOper in {
 
 lincat Calc = SS;
 lin expr, unitconv = id SS;
