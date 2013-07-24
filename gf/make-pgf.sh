@@ -1,6 +1,6 @@
 #!/bin/bash
 
-path="lib:Address:Alarm:Calc:Date:Dial:Digit:Direction:Eeppl:Expr:Fraction:Letter:Numeral:Tallinnaddress:Unitconv:Weather"
+path="lib:Address:Alarm:ArithExpr:Calc:Date:Dial:Digit:Direction:Eeppl:Expr:Fraction:Letter:Numeral:Tallinnaddress:Unitconv:Weather"
 
 build=build
 dir_gr=${build}/gr/
@@ -10,7 +10,7 @@ echo "Making output directories"
 mkdir -p ${dir_gr}
 mkdir -p ${dir_pgf}
 
-grammars=(Action Alarm Calc Dial Digit Direction Estvrp Expr Go Letter Symbols Tallinndirection Unitconv Unitconvext Weather)
+grammars=(Action Alarm ArithExpr Calc Dial Digit Direction Estvrp Expr Go Letter Symbols Tallinndirection Unitconv Unitconvext Weather)
 
 echo "Building PGF files..."
 for grammar in "${grammars[@]}"; do

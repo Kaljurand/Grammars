@@ -36,6 +36,9 @@ build_Calc:
 build_Expr:
 	$(gf) $(foreach lang,$(langs),Expr/Expr$(lang).gf)
 
+build_ArithExpr:
+	$(gf) $(foreach lang,$(langs),ArithExpr/ArithExpr$(lang).gf)
+
 build_Unitconv:
 	$(gf) $(foreach lang,$(langs),Unitconv/Unitconv$(lang).gf)
 

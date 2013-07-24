@@ -163,3 +163,7 @@ convert 2 °C to °F
 please convert two Celcius to Fahrenheits
 kaks kraadi fahrenheitides
 
+convert 2 g/ft^3 to lb/pt
+please convert two grams per cubic feet to pounds per pints
+kaks grammi kuup jalas naelades pindis
+

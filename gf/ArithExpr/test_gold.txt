@@ -1,0 +1,57 @@
+12
+
+twelve
+
+kaks teist
+
+
+2 + 3
+
+two plus three
+
+kaks pluss kolm
+
+
+2 + 3 * 4
+
+two plus three times four
+
+kaks pluss kolm korda neli
+
+
+1 + 2 - 3 * 4 / 5
+
+one plus two minus three times four divided by five
+
+üks pluss kaks miinus kolm korda neli jagatud viis
+
+
+2 + 3 ^ 4
+
+two plus three to the power of four
+
+kaks pluss kolm astmel neli
+
+
+2 ^ 3 ^ 4
+
+two to the power of three to the power of four
+
+kaks astmel kolm astmel neli
+
+
+2 + 3 ^ 4 * 5
+
+two plus three to the power of four times five
+
+kaks pluss kolm astmel neli korda viis
+
+
+42 * 1
+
+forty two times one
+
+neli kümmend kaks korda üks
+
+
+
