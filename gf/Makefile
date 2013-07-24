@@ -20,6 +20,8 @@ help:
 	@echo "  build_Action: builds PGF of Action grammar"
 	@echo "  ..."
 
+fsg:
+	../tools/allpgf-to-fsg.bash . build/fsg
 
 dg_Action:
 	echo "dg -only=$(modules_Action)" | $(gf_retain) $(foreach lang,$(langs),Action/Action$(lang).gf)
