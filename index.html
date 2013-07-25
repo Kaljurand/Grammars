@@ -40,7 +40,7 @@ a:hover { text-decoration: underline }
 
 <p>The grammars that are available on this page cover some fixed domains (e.g.
 calculator, maps, alarm clock) and
-define two kinds of languages for talking about these domains.</p>
+define two kinds of languages for talking about these domains:</p>
 
 <ul>
 <li>natural (spoken) languages, currently Estonian (<em>Est</em>) and English
@@ -66,7 +66,7 @@ etc.</li>
 <p>The grammars are implemented in
 <a href="http://www.grammaticalframework.org/">Grammatical Framework (GF)</a>
 which is a formalism that supports precise translation between the
-languages. For example we can automatically translate the English</p>
+languages. For example, we can automatically translate the English</p>
 
 <blockquote>
 <em>how much is two liters in cubic centi meters</em>
@@ -114,7 +114,7 @@ idea of what is syntactically possible in the described languages);</li>
 <tbody>
 <tr>
 <td>Action</td>
-<td>Alarm + Calc + Dial + Direction</td>
+<td>Union of Alarm, Calc, Dial, Direction, and Weather</td>
 <td>Est,Eng</td>
 <td><a href="grammars/gr/Action.txt">txt</a></td>
 <td><a href="grammars/pgf/Action.pgf">pgf</a></td>
@@ -130,7 +130,7 @@ idea of what is syntactically possible in the described languages);</li>
 
 <tr>
 <td>Calc</td>
-<td>Expr + Unitconv</td>
+<td>Union of ArithExpr and Unitconv</td>
 <td>Est,Eng</td>
 <td><a href="grammars/gr/Calc.txt">txt</a></td>
 <td><a href="grammars/pgf/Calc.pgf">pgf</a></td>
@@ -162,12 +162,12 @@ and Tallinn's street addresses (e.g. "Lossi plats kaks")</td>
 </tr>
 
 <tr>
-<td>Expr</td>
+<td>ArithExpr</td>
 <td>Arithmetical expressions, e.g.
-<a href="http://www.google.com/search?q=(((1%2B-2.3)*PI)^5)">(((1 + -2.3) * PI) ^ 5)</a></td>
+<a href="http://www.google.com/search?q=1%2B-2.3*PI^5)">1 + -2.3 * PI ^ 5</a></td>
 <td>Est,Eng</td>
-<td><a href="grammars/gr/Expr.txt">txt</a></td>
-<td><a href="grammars/pgf/Expr.pgf">pgf</a></td>
+<td><a href="grammars/gr/ArithExpr.txt">txt</a></td>
+<td><a href="grammars/pgf/ArithExpr.pgf">pgf</a></td>
 </tr>
 
 <tr>
@@ -188,7 +188,7 @@ and Tallinn's street addresses (e.g. "Lossi plats kaks")</td>
 
 <tr>
 <td>Tallinndirection</td>
-<td>FROM-TO queries over Tallinn's addresses</td>
+<td>FROM-TO queries over Tallinn's street addresses</td>
 <td>Est</td>
 <td><a href="grammars/gr/Tallinndirection.txt">txt</a></td>
 <td><a href="grammars/pgf/Tallinndirection.pgf">pgf</a></td>
@@ -209,7 +209,7 @@ and Tallinn's street addresses (e.g. "Lossi plats kaks")</td>
 Est: "Lasila ilmateade";
 App: <a href="http://www.google.com/search?q=weather+Lasila%2C+Estonia">weather Lasila, Estonia</a>)</td>
 <td>Est</td>
-<td></td>
+<td><a href="grammars/gr/Weather.txt">txt</a></td>
 <td></td>
 </tr>
 </tbody>
@@ -221,7 +221,7 @@ do contain some variation, e.g. articles can be dropped or requests can be
 optionally prefixed by "please".</p>
 
 <p>All the grammars are modular, e.g. <em>Calc</em> is a union of
-<em>Expr</em> and <em>Unitconv</em>.
+<em>ArithExpr</em> and <em>Unitconv</em>.
 The above table lists mostly the higher-level grammars.
 The module import-hierarchy of the <em>Action</em>-grammar is displayed
 below.</p>
@@ -235,9 +235,8 @@ alt="Abstract grammar component hierarchy for the Action-grammar"/>
 <h2>Usage</h2>
 
 <p>The grammars can be downloaded in the (binary) PGF-format. This format
-can be used directly in applications (e.g. via the
-<a href="https://github.com/GrammaticalFramework/JPGF">JPGF Java library</a>)
-or it
+can be embedded into applications (using existing GF libraries for various programming
+languages) or it
 can be opened by the GF commandline tool and converted into other formats
 (e.g. JSGF, Javascript, ...). The example sentences of the introduction were
 produced with this Unix+GF commandline:</p>
@@ -251,7 +250,7 @@ gf --run Action.pgf
 Android speech recognition app
 <a href="http://code.google.com/p/recognizer-intent/">Kõnele</a>.
 The Android voice actions app
-<a href="http://kaljurand.github.com/Arvutaja/">Arvutaja</a> uses the
+<a href="http://kaljurand.github.io/Arvutaja/">Arvutaja</a> uses the
 Action-grammar.</p>
 
 
@@ -259,7 +258,7 @@ Action-grammar.</p>
 <p>The source code of all the grammars is available at
 <a href="https://github.com/Kaljurand/Grammars/">http://github.com/Kaljurand/Grammars/</a>.
 The PGF files have been generated based on
-<a href="https://github.com/Kaljurand/Grammars/commit/e84dc249190dff9f991ad40030aad05745b387f0">this commit</a>.</p>
+<a href="https://github.com/Kaljurand/Grammars/commit/c9b230b67147d1555373fd5a283deeccea9ea7a2">this commit</a>.</p>
 
 
 <h2>Contributing</h2>
@@ -297,7 +296,7 @@ sending pull requests</a>.</p>
 
 <address>
 Kaarel Kaljurand (kaljurand@gmail.com),
-2013-05-04
+2013-07-25
 </address>
 
 </body>

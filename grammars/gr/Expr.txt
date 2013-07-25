@@ -1,332 +1,320 @@
 
-ExprApp: ((((0.25 ^ 0.5) - 0.75) / ((1.5 ^ 0.25) * PI)) / (-0))
-ExprEng: quarter to the power of half minus three quarters divided by ( one and half to the power of quarter times pie ) divided by minus zero
-ExprEst: veerand astmel pool miinus kolm veerand jagatud ( pool teist astmel veerand korda Pii ) jagatud miinus null
+ExprApp: (((1.5 * (0.75 + 0.5)) + (0.75 * 0.25)) / (((0.75 + 1.5) - (PI ^ 0.25)) * 0))
+ExprEng: one and half times ( three quarters plus half ) plus ( three quarters times quarter ) divided by ( three quarters plus one and half minus ( pie to the power of quarter ) times zero )
+ExprEst: pool teist korda ( kolm veerand pluss pool ) pluss ( kolm veerand korda veerand ) jagatud ( kolm veerand pluss pool teist miinus ( Pii astmel veerand ) korda null )
 
-ExprApp: ((((PI - 0.5) ^ (0.5 - PI)) - ((0.25 / 0.75) ^ (1.5 / 0.25))) / (((0.75 / 0.5) ^ 0) / ((PI ^ 0.75) / (1.5 ^ 0.25))))
-ExprEng: pie minus half to the power of ( half minus pie ) minus ( quarter divided by three quarters to the power of ( one and half divided by quarter ) ) divided by ( three quarters divided by half to the power of zero divided by ( pie to the power of three quarters divided by ( one and half to the power of quarter ) ) )
-ExprEst: Pii miinus pool astmel ( pool miinus Pii ) miinus ( veerand jagatud kolm veerand astmel ( pool teist jagatud veerand ) ) jagatud ( kolm veerand jagatud pool astmel null jagatud ( Pii astmel kolm veerand jagatud ( pool teist astmel veerand ) ) )
+ExprApp: ((((0.5 - 0.25) + (PI * PI)) ^ 0.0) / (((0.5 * 1.5) - PI) / 0.75))
+ExprEng: half minus quarter plus ( pie times pie ) to the power of zero point zero divided by ( half times one and half minus pie divided by three quarters )
+ExprEst: pool miinus veerand pluss ( Pii korda Pii ) astmel null koma null jagatud ( pool korda pool teist miinus Pii jagatud kolm veerand )
 
-ExprApp: ((((0.5 / 1.5) + (0.75 / 1.5)) ^ ((0.5 / 0.25) * 0.5)) / 0.25)
-ExprEng: half divided by one and half plus ( three quarters divided by one and half ) to the power of ( half divided by quarter times half ) divided by quarter
-ExprEst: pool jagatud pool teist pluss ( kolm veerand jagatud pool teist ) astmel ( pool jagatud veerand korda pool ) jagatud veerand
+ExprApp: (1.5 / 1.5)
+ExprEng: one and half divided by one and half
+ExprEst: pool teist jagatud pool teist
 
-ExprApp: ((((0.5 - PI) * 1.5) / ((0.75 * 0.5) / 1.5)) - 1.5)
-ExprEng: half minus pie times one and half divided by ( three quarters times half divided by one and half ) minus one and half
-ExprEst: pool miinus Pii korda pool teist jagatud ( kolm veerand korda pool jagatud pool teist ) miinus pool teist
+ExprApp: ((((0.25 - 1.5) + (0.75 - PI)) - 0) - ((0 / (0.5 ^ 0.75)) - ((PI * 0.75) ^ (0.25 / 1.5))))
+ExprEng: quarter minus one and half plus ( three quarters minus pie ) minus zero minus ( zero divided by ( half to the power of three quarters ) minus ( pie times three quarters to the power of ( quarter divided by one and half ) ) )
+ExprEst: veerand miinus pool teist pluss ( kolm veerand miinus Pii ) miinus null miinus ( null jagatud ( pool astmel kolm veerand ) miinus ( Pii korda kolm veerand astmel ( veerand jagatud pool teist ) ) )
 
-ExprApp: (((-0) ^ ((0.5 ^ 0.75) + (0.25 / 0.75))) - (((0.5 + 0.75) / 0) + ((0.25 / 0.5) - 1.5)))
-ExprEng: minus zero to the power of ( half to the power of three quarters plus ( quarter divided by three quarters ) ) minus ( half plus three quarters divided by zero plus ( quarter divided by half minus one and half ) )
-ExprEst: miinus null astmel ( pool astmel kolm veerand pluss ( veerand jagatud kolm veerand ) ) miinus ( pool pluss kolm veerand jagatud null pluss ( veerand jagatud pool miinus pool teist ) )
+ExprApp: ((((0.5 + 0.25) * (0.5 + 1.5)) + ((PI ^ PI) ^ 0.75)) - (((0.75 * 0.5) + (PI * 1.5)) * ((1.5 - 1.5) ^ 0.5)))
+ExprEng: half plus quarter times ( half plus one and half ) plus ( pie to the power of pie to the power of three quarters ) minus ( three quarters times half plus ( pie times one and half ) times ( one and half minus one and half to the power of half ) )
+ExprEst: pool pluss veerand korda ( pool pluss pool teist ) pluss ( Pii astmel Pii astmel kolm veerand ) miinus ( kolm veerand korda pool pluss ( Pii korda pool teist ) korda ( pool teist miinus pool teist astmel pool ) )
 
-ExprApp: (PI - (((0.25 - PI) / (0.5 - PI)) * ((PI * 1.5) - (1.5 * 0.25))))
-ExprEng: pie minus ( quarter minus pie divided by ( half minus pie ) times ( pie times one and half minus ( one and half times quarter ) ) )
-ExprEst: Pii miinus ( veerand miinus Pii jagatud ( pool miinus Pii ) korda ( Pii korda pool teist miinus ( pool teist korda veerand ) ) )
+ExprApp: (0.25 - ((1.5 / (1.5 * 0.5)) - ((0.25 / 1.5) + (0.5 / PI))))
+ExprEng: quarter minus ( one and half divided by ( one and half times half ) minus ( quarter divided by one and half plus ( half divided by pie ) ) )
+ExprEst: veerand miinus ( pool teist jagatud ( pool teist korda pool ) miinus ( veerand jagatud pool teist pluss ( pool jagatud Pii ) ) )
 
-ExprApp: ((((1.5 + 1.5) * 0.25) / ((0.75 + 0.5) - PI)) * (((0.25 * 0.5) - (PI ^ 1.5)) ^ ((PI - 0.75) / (PI ^ 1.5))))
-ExprEng: one and half plus one and half times quarter divided by ( three quarters plus half minus pie ) times ( quarter times half minus ( pie to the power of one and half ) to the power of ( pie minus three quarters divided by ( pie to the power of one and half ) ) )
-ExprEst: pool teist pluss pool teist korda veerand jagatud ( kolm veerand pluss pool miinus Pii ) korda ( veerand korda pool miinus ( Pii astmel pool teist ) astmel ( Pii miinus kolm veerand jagatud ( Pii astmel pool teist ) ) )
+ExprApp: ((((PI * 0.25) - (0.5 + 1.5)) - ((0.25 + 0.75) + (PI / 1.5))) * (((0.5 / PI) + (1.5 / 0.75)) / ((0.25 / 0.5) ^ (1.5 ^ 0.5))))
+ExprEng: pie times quarter minus ( half plus one and half ) minus ( quarter plus three quarters plus ( pie divided by one and half ) ) times ( half divided by pie plus ( one and half divided by three quarters ) divided by ( quarter divided by half to the power of ( one and half to the power of half ) ) )
+ExprEst: Pii korda veerand miinus ( pool pluss pool teist ) miinus ( veerand pluss kolm veerand pluss ( Pii jagatud pool teist ) ) korda ( pool jagatud Pii pluss ( pool teist jagatud kolm veerand ) jagatud ( veerand jagatud pool astmel ( pool teist astmel pool ) ) )
 
-ExprApp: ((0.75 / (1.5 ^ PI)) * ((PI * (0.5 * 0.25)) + ((0.75 - 0.75) * (PI + 1.5))))
-ExprEng: three quarters divided by ( one and half to the power of pie ) times ( pie times ( half times quarter ) plus ( three quarters minus three quarters times ( pie plus one and half ) ) )
-ExprEst: kolm veerand jagatud ( pool teist astmel Pii ) korda ( Pii korda ( pool korda veerand ) pluss ( kolm veerand miinus kolm veerand korda ( Pii pluss pool teist ) ) )
+ExprApp: ((((PI + PI) - (1.5 - 1.5)) + (0.25 - (0.25 * 0.25))) * (0.25 / (0.5 * 0)))
+ExprEng: pie plus pie minus ( one and half minus one and half ) plus ( quarter minus ( quarter times quarter ) ) times ( quarter divided by ( half times zero ) )
+ExprEst: Pii pluss Pii miinus ( pool teist miinus pool teist ) pluss ( veerand miinus ( veerand korda veerand ) ) korda ( veerand jagatud ( pool korda null ) )
 
-ExprApp: (1.5 * (((0.25 / 0.25) + (PI ^ 1.5)) / ((1.5 ^ PI) + (0.75 + 1.5))))
-ExprEng: one and half times ( quarter divided by quarter plus ( pie to the power of one and half ) divided by ( one and half to the power of pie plus ( three quarters plus one and half ) ) )
-ExprEst: pool teist korda ( veerand jagatud veerand pluss ( Pii astmel pool teist ) jagatud ( pool teist astmel Pii pluss ( kolm veerand pluss pool teist ) ) )
+ExprApp: ((0.0 + (0.25 ^ 1.5)) * ((-0.0) ^ (0 + (0.5 - PI))))
+ExprEng: zero point zero plus ( quarter to the power of one and half ) times ( minus zero point zero to the power of ( zero plus ( half minus pie ) ) )
+ExprEst: null koma null pluss ( veerand astmel pool teist ) korda ( miinus null koma null astmel ( null pluss ( pool miinus Pii ) ) )
 
-ExprApp: ((((0.5 / 0.75) / (PI ^ 0.75)) - ((1.5 ^ 1.5) * 1.5)) + (((0.75 - 0.5) + (-0)) * ((0.25 * 0.75) ^ (0.25 - PI))))
-ExprEng: half divided by three quarters divided by ( pie to the power of three quarters ) minus ( one and half to the power of one and half times one and half ) plus ( three quarters minus half plus minus zero times ( quarter times three quarters to the power of ( quarter minus pie ) ) )
-ExprEst: pool jagatud kolm veerand jagatud ( Pii astmel kolm veerand ) miinus ( pool teist astmel pool teist korda pool teist ) pluss ( kolm veerand miinus pool pluss miinus null korda ( veerand korda kolm veerand astmel ( veerand miinus Pii ) ) )
+ExprApp: ((((0.5 / 1.5) * (1.5 + PI)) / ((0.75 + 0.75) / (1.5 + 1.5))) + (0.0 * ((1.5 - 0.5) - 0)))
+ExprEng: half divided by one and half times ( one and half plus pie ) divided by ( three quarters plus three quarters divided by ( one and half plus one and half ) ) plus ( zero point zero times ( one and half minus half minus zero ) )
+ExprEst: pool jagatud pool teist korda ( pool teist pluss Pii ) jagatud ( kolm veerand pluss kolm veerand jagatud ( pool teist pluss pool teist ) ) pluss ( null koma null korda ( pool teist miinus pool miinus null ) )
 
-ExprApp: ((((0.75 ^ 1.5) - (0.25 * 1.5)) + ((0.25 / PI) ^ (PI - PI))) + ((0.75 * (0.25 ^ 0.75)) + (-0)))
-ExprEng: three quarters to the power of one and half minus ( quarter times one and half ) plus ( quarter divided by pie to the power of ( pie minus pie ) ) plus ( three quarters times ( quarter to the power of three quarters ) plus minus zero )
-ExprEst: kolm veerand astmel pool teist miinus ( veerand korda pool teist ) pluss ( veerand jagatud Pii astmel ( Pii miinus Pii ) ) pluss ( kolm veerand korda ( veerand astmel kolm veerand ) pluss miinus null )
+ExprApp: ((((0.25 * 0.75) / (0.5 + 0.25)) + ((0.5 / 0.25) + (0.5 * PI))) + (((0.5 / 1.5) - (0.75 - 0.5)) / 0.25))
+ExprEng: quarter times three quarters divided by ( half plus quarter ) plus ( half divided by quarter plus ( half times pie ) ) plus ( half divided by one and half minus ( three quarters minus half ) divided by quarter )
+ExprEst: veerand korda kolm veerand jagatud ( pool pluss veerand ) pluss ( pool jagatud veerand pluss ( pool korda Pii ) ) pluss ( pool jagatud pool teist miinus ( kolm veerand miinus pool ) jagatud veerand )
 
-ExprApp: ((((PI / 0.25) + (0.5 + 1.5)) ^ ((0.25 / PI) + (1.5 + 0.25))) + 0)
-ExprEng: pie divided by quarter plus ( half plus one and half ) to the power of ( quarter divided by pie plus ( one and half plus quarter ) ) plus zero
-ExprEst: Pii jagatud veerand pluss ( pool pluss pool teist ) astmel ( veerand jagatud Pii pluss ( pool teist pluss veerand ) ) pluss null
+ExprApp: (0 + (0.5 * ((1.5 / PI) - 0.75)))
+ExprEng: zero plus ( half times ( one and half divided by pie minus three quarters ) )
+ExprEst: null pluss ( pool korda ( pool teist jagatud Pii miinus kolm veerand ) )
 
-ExprApp: (((0.25 * (PI ^ 0.25)) * (PI - (0.25 ^ 1.5))) ^ (((0.75 - 1.5) + (-0)) / ((PI + PI) - (0.25 / 1.5))))
-ExprEng: quarter times ( pie to the power of quarter ) times ( pie minus ( quarter to the power of one and half ) ) to the power of ( three quarters minus one and half plus minus zero divided by ( pie plus pie minus ( quarter divided by one and half ) ) )
-ExprEst: veerand korda ( Pii astmel veerand ) korda ( Pii miinus ( veerand astmel pool teist ) ) astmel ( kolm veerand miinus pool teist pluss miinus null jagatud ( Pii pluss Pii miinus ( veerand jagatud pool teist ) ) )
+ExprApp: ((((0.5 / PI) + (0.5 ^ PI)) - (0.25 - (0.5 - 0.25))) ^ (((0.25 + 0.25) ^ (PI - 1.5)) - ((PI ^ 0.25) + (0.5 * 1.5))))
+ExprEng: half divided by pie plus ( half to the power of pie ) minus ( quarter minus ( half minus quarter ) ) to the power of ( quarter plus quarter to the power of ( pie minus one and half ) minus ( pie to the power of quarter plus ( half times one and half ) ) )
+ExprEst: pool jagatud Pii pluss ( pool astmel Pii ) miinus ( veerand miinus ( pool miinus veerand ) ) astmel ( veerand pluss veerand astmel ( Pii miinus pool teist ) miinus ( Pii astmel veerand pluss ( pool korda pool teist ) ) )
 
-ExprApp: ((0.75 ^ (0.75 ^ 0.5)) ^ (((0.25 + 0.75) ^ (0.75 ^ 1.5)) * ((1.5 / 0.75) * (0.25 * 0.5))))
-ExprEng: three quarters to the power of ( three quarters to the power of half ) to the power of ( quarter plus three quarters to the power of ( three quarters to the power of one and half ) times ( one and half divided by three quarters times ( quarter times half ) ) )
-ExprEst: kolm veerand astmel ( kolm veerand astmel pool ) astmel ( veerand pluss kolm veerand astmel ( kolm veerand astmel pool teist ) korda ( pool teist jagatud kolm veerand korda ( veerand korda pool ) ) )
+ExprApp: ((0.5 - 0.0) ^ (((PI * PI) + (0.25 - 0.25)) + ((0.75 / 0.75) + (0.25 + 0.25))))
+ExprEng: half minus zero point zero to the power of ( pie times pie plus ( quarter minus quarter ) plus ( three quarters divided by three quarters plus ( quarter plus quarter ) ) )
+ExprEst: pool miinus null koma null astmel ( Pii korda Pii pluss ( veerand miinus veerand ) pluss ( kolm veerand jagatud kolm veerand pluss ( veerand pluss veerand ) ) )
 
-ExprApp: (0.5 ^ (-0))
-ExprEng: half to the power of minus zero
-ExprEst: pool astmel miinus null
+ExprApp: (((-0) ^ (-0.0)) ^ PI)
+ExprEng: minus zero to the power of minus zero point zero to the power of pie
+ExprEst: miinus null astmel miinus null koma null astmel Pii
 
-ExprApp: 113
-ExprEng: one hundred and thirteen
-ExprEst: sada kolm teist
+ExprApp: 11
+ExprEng: eleven
+ExprEst: üks teist
 
-ExprApp: 100
-ExprEng: one hundred
-ExprEst: sada
+ExprApp: 110
+ExprEng: one hundred and ten
+ExprEst: sada kümme
 
-ExprApp: 800
-ExprEng: eight hundred
-ExprEst: kaheksa sada
+ExprApp: 420
+ExprEng: four hundred and twenty
+ExprEst: neli sada kaks kümmend
 
-ExprApp: 211100
-ExprEng: two hundred and eleven thousand one hundred
-ExprEst: kaks sada üks teist tuhat sada
+ExprApp: 4010
+ExprEng: four thousand ten
+ExprEst: neli tuhat kümme
 
-ExprApp: 980001
-ExprEng: nine hundred and eighty thousand one
-ExprEst: üheksa sada kaheksa kümmend tuhat üks
+ExprApp: 10500
+ExprEng: ten thousand five hundred
+ExprEst: kümme tuhat viis sada
 
-ExprApp: 100123
-ExprEng: one hundred thousand one hundred and twenty three
-ExprEst: sada tuhat sada kaks kümmend kolm
-
-ExprApp: 2000
-ExprEng: two thousand
-ExprEst: kaks tuhat
-
-ExprApp: 3000
-ExprEng: three thousand
-ExprEst: kolm tuhat
-
-ExprApp: 6000
-ExprEng: six thousand
-ExprEst: kuus tuhat
-
-ExprApp: 13000
-ExprEng: thirteen thousand
-ExprEst: kolm teist tuhat
+ExprApp: 810750
+ExprEng: eight hundred and ten thousand seven hundred and fifty
+ExprEst: kaheksa sada kümme tuhat seitse sada viis kümmend
 
 ExprApp: 17000
 ExprEng: seventeen thousand
 ExprEst: seitse teist tuhat
 
-ExprApp: 19000
-ExprEng: nineteen thousand
-ExprEst: üheksa teist tuhat
+ExprApp: 18000
+ExprEng: eighteen thousand
+ExprEst: kaheksa teist tuhat
 
-ExprApp: 10001110
-ExprEng: ten million one thousand one hundred and ten
-ExprEst: kümme miljonit ja tuhat sada kümme
+ExprApp: 600000
+ExprEng: six hundred thousand
+ExprEst: kuus sada tuhat
 
-ExprApp: 111900001
-ExprEng: one hundred and eleven million nine hundred thousand one
-ExprEst: sada üks teist miljonit ja üheksa sada tuhat üks
+ExprApp: 800000
+ExprEng: eight hundred thousand
+ExprEst: kaheksa sada tuhat
 
-ExprApp: 116000910
-ExprEng: one hundred and sixteen million nine hundred and ten
-ExprEst: sada kuus teist miljonit ja üheksa sada kümme
+ExprApp: 104100000
+ExprEng: one hundred and four million one hundred thousand
+ExprEst: sada neli miljonit ja sada tuhat
 
-ExprApp: 50000000
-ExprEng: fifty million
-ExprEst: viis kümmend miljonit
+ExprApp: 100100001
+ExprEng: one hundred million one hundred thousand one
+ExprEst: sada miljonit ja sada tuhat üks
 
-ExprApp: 70000000
-ExprEng: seventy million
-ExprEst: seitse kümmend miljonit
+ExprApp: 900600000
+ExprEng: nine hundred million six hundred thousand
+ExprEst: üheksa sada miljonit ja kuus sada tuhat
 
-ExprApp: 90000000
-ExprEng: ninety million
-ExprEst: üheksa kümmend miljonit
+ExprApp: 20000000
+ExprEng: twenty million
+ExprEst: kaks kümmend miljonit
 
-ExprApp: 49000000
-ExprEng: forty nine million
-ExprEst: neli kümmend üheksa miljonit
+ExprApp: 57000000
+ExprEng: fifty seven million
+ExprEst: viis kümmend seitse miljonit
 
-ExprApp: 71000000
-ExprEng: seventy one million
-ExprEst: seitse kümmend üks miljonit
+ExprApp: 66000000
+ExprEng: sixty six million
+ExprEst: kuus kümmend kuus miljonit
 
-ExprApp: 89000000
-ExprEng: eighty nine million
-ExprEst: kaheksa kümmend üheksa miljonit
+ExprApp: 94000000
+ExprEng: ninety four million
+ExprEst: üheksa kümmend neli miljonit
 
-ExprApp: 102000000
-ExprEng: one hundred and two million
-ExprEst: sada kaks miljonit
+ExprApp: 101000000
+ExprEng: one hundred and one million
+ExprEst: sada üks miljonit
 
-ExprApp: 143000000
-ExprEng: one hundred and forty three million
-ExprEst: sada neli kümmend kolm miljonit
+ExprApp: 130000000
+ExprEng: one hundred and thirty million
+ExprEst: sada kolm kümmend miljonit
 
-ExprApp: 119000000
-ExprEng: one hundred and nineteen million
-ExprEst: sada üheksa teist miljonit
+ExprApp: 511000000
+ExprEng: five hundred and eleven million
+ExprEst: viis sada üks teist miljonit
 
-ExprApp: 88818000110
-ExprEng: eighty eight billion eight hundred and eighteen million one hundred and ten
-ExprEst: kaheksa kümmend kaheksa miljardit ja kaheksa sada kaheksa teist miljonit ja sada kümme
+ExprApp: 100000000
+ExprEng: one hundred million
+ExprEst: sada miljonit
 
-ExprApp: 610070000000
-ExprEng: six hundred and ten billion seventy million
-ExprEst: kuus sada kümme miljardit ja seitse kümmend miljonit
+ExprApp: 300000000
+ExprEng: three hundred million
+ExprEst: kolm sada miljonit
 
-ExprApp: 100810083100
-ExprEng: one hundred billion eight hundred and ten million eighty three thousand one hundred
-ExprEst: sada miljardit ja kaheksa sada kümme miljonit ja kaheksa kümmend kolm tuhat sada
+ExprApp: 900000000
+ExprEng: nine hundred million
+ExprEst: üheksa sada miljonit
 
-ExprApp: 8000000000
-ExprEng: eight billion
-ExprEst: kaheksa miljardit
+ExprApp: 162111000000
+ExprEng: one hundred and sixty two billion one hundred and eleven million
+ExprEst: sada kuus kümmend kaks miljardit ja sada üks teist miljonit
 
-ExprApp: 10000000000
-ExprEng: ten billion
-ExprEst: kümme miljardit
+ExprApp: 100510100000
+ExprEng: one hundred billion five hundred and ten million one hundred thousand
+ExprEst: sada miljardit ja viis sada kümme miljonit ja sada tuhat
 
-ExprApp: 300000000000
-ExprEng: three hundred billion
-ExprEst: kolm sada miljardit
+ExprApp: 100004000000
+ExprEng: one hundred billion four million
+ExprEst: sada miljardit ja neli miljonit
 
-ExprApp: 800000000000
-ExprEng: eight hundred billion
-ExprEst: kaheksa sada miljardit
+ExprApp: 1000000000
+ExprEng: one billion
+ExprEst: üks miljardit
 
-ExprApp: 900000000000
-ExprEng: nine hundred billion
-ExprEst: üheksa sada miljardit
+ExprApp: 4000000000
+ExprEng: four billion
+ExprEst: neli miljardit
 
-ExprApp: 0.0
-ExprEng: zero point zero
-ExprEst: null koma null
+ExprApp: 7000000000
+ExprEng: seven billion
+ExprEst: seitse miljardit
 
-ExprApp: 0.110000010100
-ExprEng: zero point one hundred and ten billion ten thousand one hundred
-ExprEst: null koma sada kümme miljardit ja kümme tuhat sada
+ExprApp: 0.131110111
+ExprEng: zero point one hundred and thirty one million one hundred and ten thousand one hundred and eleven
+ExprEst: null koma sada kolm kümmend üks miljonit ja sada kümme tuhat sada üks teist
 
-ExprApp: 5000000000.102000000000
-ExprEng: five billion point one hundred and two billion
-ExprEst: viis miljardit koma sada kaks miljardit
+ExprApp: 111000000.3011110010
+ExprEng: one hundred and eleven million point three billion eleven million one hundred and ten thousand ten
+ExprEst: sada üks teist miljonit koma kolm miljardit ja üks teist miljonit ja sada kümme tuhat kümme
 
-ExprApp: (-10)
-ExprEng: minus ten
-ExprEst: miinus kümme
+ExprApp: 100000000000.100010
+ExprEng: one hundred billion point one hundred thousand ten
+ExprEst: sada miljardit koma sada tuhat kümme
 
-ExprApp: (-41)
-ExprEng: minus forty one
-ExprEst: miinus neli kümmend üks
+ExprApp: (-111)
+ExprEng: minus one hundred and eleven
+ExprEst: miinus sada üks teist
 
-ExprApp: (-200)
-ExprEng: minus two hundred
-ExprEst: miinus kaks sada
+ExprApp: (-160)
+ExprEng: minus one hundred and sixty
+ExprEst: miinus sada kuus kümmend
 
-ExprApp: (-6612)
-ExprEng: minus six thousand six hundred and twelve
-ExprEst: miinus kuus tuhat kuus sada kaks teist
+ExprApp: (-410)
+ExprEng: minus four hundred and ten
+ExprEst: miinus neli sada kümme
 
-ExprApp: (-101110)
-ExprEng: minus one hundred and one thousand one hundred and ten
-ExprEst: miinus sada üks tuhat sada kümme
+ExprApp: (-5111)
+ExprEng: minus five thousand one hundred and eleven
+ExprEst: miinus viis tuhat sada üks teist
 
-ExprApp: (-911700)
-ExprEng: minus nine hundred and eleven thousand seven hundred
-ExprEst: miinus üheksa sada üks teist tuhat seitse sada
+ExprApp: (-100541)
+ExprEng: minus one hundred thousand five hundred and forty one
+ExprEst: miinus sada tuhat viis sada neli kümmend üks
 
-ExprApp: (-1000)
-ExprEng: minus one thousand
-ExprEst: miinus tuhat
+ExprApp: (-200100)
+ExprEng: minus two hundred thousand one hundred
+ExprEst: miinus kaks sada tuhat sada
 
-ExprApp: (-2000)
-ExprEng: minus two thousand
-ExprEst: miinus kaks tuhat
-
-ExprApp: (-6000)
-ExprEng: minus six thousand
-ExprEst: miinus kuus tuhat
+ExprApp: (-12000)
+ExprEng: minus twelve thousand
+ExprEst: miinus kaks teist tuhat
 
 ExprApp: (-13000)
 ExprEng: minus thirteen thousand
 ExprEst: miinus kolm teist tuhat
 
-ExprApp: (-17000)
-ExprEng: minus seventeen thousand
-ExprEst: miinus seitse teist tuhat
+ExprApp: (-19000)
+ExprEng: minus nineteen thousand
+ExprEst: miinus üheksa teist tuhat
 
-ExprApp: (-10200000)
-ExprEng: minus ten million two hundred thousand
-ExprEst: miinus kümme miljonit ja kaks sada tuhat
+ExprApp: (-300000)
+ExprEng: minus three hundred thousand
+ExprEst: miinus kolm sada tuhat
 
-ExprApp: (-619018915)
-ExprEng: minus six hundred and nineteen million eighteen thousand nine hundred and fifteen
-ExprEst: miinus kuus sada üheksa teist miljonit ja kaheksa teist tuhat üheksa sada viis teist
+ExprApp: (-500000)
+ExprEng: minus five hundred thousand
+ExprEst: miinus viis sada tuhat
 
-ExprApp: (-710018000)
-ExprEng: minus seven hundred and ten million eighteen thousand
-ExprEst: miinus seitse sada kümme miljonit ja kaheksa teist tuhat
+ExprApp: (-800000)
+ExprEng: minus eight hundred thousand
+ExprEst: miinus kaheksa sada tuhat
+
+ExprApp: (-11000100)
+ExprEng: minus eleven million one hundred
+ExprEst: miinus üks teist miljonit ja sada
+
+ExprApp: (-13101000)
+ExprEng: minus thirteen million one hundred and one thousand
+ExprEst: miinus kolm teist miljonit ja sada üks tuhat
+
+ExprApp: (-104011000)
+ExprEng: minus one hundred and four million eleven thousand
+ExprEst: miinus sada neli miljonit ja üks teist tuhat
 
 ExprApp: (-20000000)
 ExprEng: minus twenty million
 ExprEst: miinus kaks kümmend miljonit
 
+ExprApp: (-50000000)
+ExprEng: minus fifty million
+ExprEst: miinus viis kümmend miljonit
+
 ExprApp: (-80000000)
 ExprEng: minus eighty million
 ExprEst: miinus kaheksa kümmend miljonit
 
-ExprApp: (-51000000)
-ExprEng: minus fifty one million
-ExprEst: miinus viis kümmend üks miljonit
+ExprApp: (-21000000)
+ExprEng: minus twenty one million
+ExprEst: miinus kaks kümmend üks miljonit
 
-ExprApp: (-61000000)
-ExprEng: minus sixty one million
-ExprEst: miinus kuus kümmend üks miljonit
+ExprApp: (-82000000)
+ExprEng: minus eighty two million
+ExprEst: miinus kaheksa kümmend kaks miljonit
 
-ExprApp: (-81000000)
-ExprEng: minus eighty one million
-ExprEst: miinus kaheksa kümmend üks miljonit
+ExprApp: (-93000000)
+ExprEng: minus ninety three million
+ExprEst: miinus üheksa kümmend kolm miljonit
 
-ExprApp: (-132000000)
-ExprEng: minus one hundred and thirty two million
-ExprEst: miinus sada kolm kümmend kaks miljonit
+ExprApp: (-116000000)
+ExprEng: minus one hundred and sixteen million
+ExprEst: miinus sada kuus teist miljonit
 
-ExprApp: (-401000000)
-ExprEng: minus four hundred and one million
-ExprEst: miinus neli sada üks miljonit
+ExprApp: (-210000000)
+ExprEng: minus two hundred and ten million
+ExprEst: miinus kaks sada kümme miljonit
 
-ExprApp: (-831000000)
-ExprEng: minus eight hundred and thirty one million
-ExprEst: miinus kaheksa sada kolm kümmend üks miljonit
+ExprApp: (-518000000)
+ExprEng: minus five hundred and eighteen million
+ExprEst: miinus viis sada kaheksa teist miljonit
 
-ExprApp: (-16051000000)
-ExprEng: minus sixteen billion fifty one million
-ExprEst: miinus kuus teist miljardit ja viis kümmend üks miljonit
+ExprApp: (-100000000)
+ExprEng: minus one hundred million
+ExprEst: miinus sada miljonit
 
-ExprApp: (-100005000000)
-ExprEng: minus one hundred billion five million
-ExprEst: miinus sada miljardit ja viis miljonit
+ExprApp: (-4035000000)
+ExprEng: minus four billion thirty five million
+ExprEst: miinus neli miljardit ja kolm kümmend viis miljonit
 
-ExprApp: (-800000011000)
-ExprEng: minus eight hundred billion eleven thousand
-ExprEst: miinus kaheksa sada miljardit ja üks teist tuhat
+ExprApp: (-40000100000)
+ExprEng: minus forty billion one hundred thousand
+ExprEst: miinus neli kümmend miljardit ja sada tuhat
 
-ExprApp: (-11000000000)
-ExprEng: minus eleven billion
-ExprEst: miinus üks teist miljardit
+ExprApp: (-60200000000)
+ExprEng: minus sixty billion two hundred million
+ExprEst: miinus kuus kümmend miljardit ja kaks sada miljonit
 
-ExprApp: (-70000000000)
-ExprEng: minus seventy billion
-ExprEst: miinus seitse kümmend miljardit
+ExprApp: (-1000000000)
+ExprEng: minus one billion
+ExprEst: miinus üks miljardit
 
-ExprApp: (-80000000000)
-ExprEng: minus eighty billion
-ExprEst: miinus kaheksa kümmend miljardit
-
-ExprApp: (-400000000000)
-ExprEng: minus four hundred billion
-ExprEst: miinus neli sada miljardit
-
-ExprApp: (-600000000000)
-ExprEng: minus six hundred billion
-ExprEst: miinus kuus sada miljardit
+ExprApp: (-5000000000)
+ExprEng: minus five billion
+ExprEst: miinus viis miljardit
 
 ExprApp: (-0.0)
 ExprEng: minus zero point zero
 ExprEst: miinus null koma null
 
-ExprApp: (-0.190000000000)
-ExprEng: minus zero point one hundred and ninety billion
-ExprEst: miinus null koma sada üheksa kümmend miljardit
+ExprApp: (-100000.0)
+ExprEng: minus one hundred thousand point zero
+ExprEst: miinus sada tuhat koma null
 
-ExprApp: (-400611000100.500000000000)
-ExprEng: minus four hundred billion six hundred and eleven million one hundred point five hundred billion
-ExprEst: miinus neli sada miljardit ja kuus sada üks teist miljonit ja sada koma viis sada miljardit
+ExprApp: (-12000000000.0)
+ExprEng: minus twelve billion point zero
+ExprEst: miinus kaks teist miljardit koma null

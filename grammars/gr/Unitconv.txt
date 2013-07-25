@@ -1,596 +1,660 @@
 
-UnitconvApp: convert 0 TW to daW
-UnitconvEng: please convert zero tera watts to deka watts
-UnitconvEst: null tera vatti deka vattides
+UnitconvApp: convert 0 rad to rad
+UnitconvEng: please convert zero radians to radians
+UnitconvEst: null radiaani radiaanides
 
-UnitconvApp: convert 0 nft/µs to c
-UnitconvEng: please convert zero nano feet per micro seconds to speed of light
-UnitconvEst: null nano jalga mikro sekundis valgus kiirustes
+UnitconvApp: convert 0 c/ns to c/century
+UnitconvEng: please convert zero speed of light per nano seconds to speed of light per centuries
+UnitconvEst: null valgus kiirust nano sekundis valgus kiirustes sajandis
 
-UnitconvApp: convert 0 CAD to DKK
-UnitconvEng: please convert zero Canadian dollars to Danish crowns
-UnitconvEst: null kanada dollarit taani kroonides
+UnitconvApp: convert 0 g/cup_us to Tt/gal
+UnitconvEng: please convert zero grams per cups to tera tons per gallons
+UnitconvEst: null grammi tassis tera tonnides gallonis
 
-UnitconvApp: convert 0 CHF to EUR
-UnitconvEng: please convert zero Swiss francs to Euros
-UnitconvEst: null franki eurodes
+UnitconvApp: convert 0 cal to cal
+UnitconvEng: please convert zero calories to calories
+UnitconvEst: null kalorit kalorites
 
-UnitconvApp: convert 0 flour-cup to lb
-UnitconvEng: please convert zero cups of flour to pounds
-UnitconvEst: null tassi jahu naelades
+UnitconvApp: convert 0 L to pt
+UnitconvEng: please convert zero liters to pints
+UnitconvEst: null liitrit pintides
 
-UnitconvApp: convert 0 flour-cup to Toz
-UnitconvEng: please convert zero cups of flour to tera ounces
-UnitconvEst: null tassi jahu tera untsides
+UnitconvApp: convert 10 nin^3 to nin^3
+UnitconvEng: please convert ten cubic nano inches to cubic nano inches
+UnitconvEst: kümme kuup nano tolli kuup nano tollides
 
-UnitconvApp: convert 310 W⋅h to hW⋅h
-UnitconvEng: please convert three hundred and ten watt hours to hecto watt hours
-UnitconvEst: kolm sada kümme vatt tundi hekto vatt tundides
+UnitconvApp: convert 80 " to '
+UnitconvEng: please convert eighty seconds to minutes
+UnitconvEst: kaheksa kümmend sekundit minutites
 
-UnitconvApp: convert 100 mm*min^-2 to hin/µs/day
-UnitconvEng: please convert one hundred milli meters per minutes squared to hecto inches per micro seconds per days
-UnitconvEst: sada milli meetrit ruut minutis hekto tollides mikro sekundis päevas
+UnitconvApp: convert 100 kacre to Gacre
+UnitconvEng: please convert one hundred kilo acres to giga acres
+UnitconvEst: sada kilo aakrit giga aakrites
 
-UnitconvApp: convert 600 hm to Tft
-UnitconvEng: please convert six hundred hecto meters to tera feet
-UnitconvEst: kuus sada hekto meetrit tera jalgades
+UnitconvApp: convert 19400 ° to "
+UnitconvEng: please convert nineteen thousand four hundred degrees to seconds
+UnitconvEst: üheksa teist tuhat neli sada kraadi sekundites
 
-UnitconvApp: convert 110610 lb to lb
-UnitconvEng: please convert one hundred and ten thousand six hundred and ten pounds to pounds
-UnitconvEst: sada kümme tuhat kuus sada kümme naela naelades
+UnitconvApp: convert 910010 NZD to HUF
+UnitconvEng: please convert nine hundred and ten thousand ten New Zealand dollars to Hungarian forints
+UnitconvEst: üheksa sada kümme tuhat kümme uus mere maa dollarit forintites
 
-UnitconvApp: convert 312364 hW to W
-UnitconvEng: please convert three hundred and twelve thousand three hundred and sixty four hecto watts to watts
-UnitconvEst: kolm sada kaks teist tuhat kolm sada kuus kümmend neli hekto vatti vattides
+UnitconvApp: convert 941915 daW to W
+UnitconvEng: please convert nine hundred and forty one thousand nine hundred and fifteen deka watts to watts
+UnitconvEst: üheksa sada neli kümmend üks tuhat üheksa sada viis teist deka vatti vattides
 
-UnitconvApp: convert 411011 g to t
-UnitconvEng: please convert four hundred and eleven thousand eleven grams to tons
-UnitconvEst: neli sada üks teist tuhat üks teist grammi tonnides
+UnitconvApp: convert 20000 °F to °C
+UnitconvEng: please convert twenty thousand Fahrenheits to Celcius
+UnitconvEst: kaks kümmend tuhat fahrenheiti kraadides
 
-UnitconvApp: convert 1000 in*h^-2 to kmi*month^-2
-UnitconvEng: please convert one thousand inches per hours squared to kilo miles per months squared
-UnitconvEst: tuhat tolli ruut tunnis kilo miilides ruut kuus
+UnitconvApp: convert 70000 °C to °C
+UnitconvEng: please convert seventy thousand Celcius to Celcius
+UnitconvEst: seitse kümmend tuhat kraadi kraadides
 
-UnitconvApp: convert 1000 dagal to mi^3
-UnitconvEng: please convert one thousand deka gallons to cubic miles
-UnitconvEst: tuhat deka gallonit kuup miilides
+UnitconvApp: convert 90000 yd/year to c
+UnitconvEng: please convert ninety thousand yards per years to speed of light
+UnitconvEst: üheksa kümmend tuhat jardi aastas valgus kiirustes
 
-UnitconvApp: convert 8000 ngal to cup_us
-UnitconvEng: please convert eight thousand nano gallons to cups
-UnitconvEst: kaheksa tuhat nano gallonit tassides
+UnitconvApp: convert 21000 Tin*century^-2 to µyd*century^-2
+UnitconvEng: please convert twenty one thousand tera inches per centuries squared to micro yards per centuries squared
+UnitconvEst: kaks kümmend üks tuhat tera tolli ruut sajandis mikro jardides ruut sajandis
 
-UnitconvApp: convert 600000 nt to Tlb
-UnitconvEng: please convert six hundred thousand nano tons to tera pounds
-UnitconvEst: kuus sada tuhat nano tonni tera naelades
+UnitconvApp: convert 81000 oz/Tm^3 to mflour-cup/dgal
+UnitconvEng: please convert eighty one thousand ounces per cubic tera meters to milli cups of flour per deci gallons
+UnitconvEst: kaheksa kümmend üks tuhat untsi kuup tera meetris milli jahu tassides detsi gallonis
 
-UnitconvApp: convert 700000 kW to W
-UnitconvEng: please convert seven hundred thousand kilo watts to watts
-UnitconvEst: seitse sada tuhat kilo vatti vattides
+UnitconvApp: convert 81000 cm to mi
+UnitconvEng: please convert eighty one thousand centi meters to miles
+UnitconvEst: kaheksa kümmend üks tuhat senti meetrit miilides
 
-UnitconvApp: convert 900000 dam to m
-UnitconvEng: please convert nine hundred thousand deka meters to meters
-UnitconvEst: üheksa sada tuhat deka meetrit meetrites
+UnitconvApp: convert 61100040 ncup_us to pt
+UnitconvEng: please convert sixty one million one hundred thousand forty nano cups to pints
+UnitconvEst: kuus kümmend üks miljonit ja sada tuhat neli kümmend nano tassi pintides
 
-UnitconvApp: convert 118000200 cft to in
-UnitconvEng: please convert one hundred and eighteen million two hundred centi feet to inches
-UnitconvEst: sada kaheksa teist miljonit ja kaks sada senti jalga tollides
+UnitconvApp: convert 310100000 century to month
+UnitconvEng: please convert three hundred and ten million one hundred thousand centuries to months
+UnitconvEst: kolm sada kümme miljonit ja sada tuhat sajandit kuudes
 
-UnitconvApp: convert 100187000 Mmi to in
-UnitconvEng: please convert one hundred million one hundred and eighty seven thousand mega miles to inches
-UnitconvEst: sada miljonit ja sada kaheksa kümmend seitse tuhat mega miili tollides
+UnitconvApp: convert 100000029 kflour-cup to dflour-cup
+UnitconvEng: please convert one hundred million twenty nine kilo cups of flour to deci cups of flour
+UnitconvEst: sada miljonit ja kaks kümmend üheksa kilo tassi jahu detsi jahu tassides
 
-UnitconvApp: convert 600001000 ft/century to in/decade
-UnitconvEng: please convert six hundred million one thousand feet per centuries to inches per decades
-UnitconvEst: kuus sada miljonit ja tuhat jalga sajandis tollides dekaadis
+UnitconvApp: convert 12000000 ha to mi^2
+UnitconvEng: please convert twelve million hectares to square miles
+UnitconvEst: kaks teist miljonit hektarit ruut miilides
 
-UnitconvApp: convert 12000000 dacre to nin^2
-UnitconvEng: please convert twelve million deci acres to square nano inches
-UnitconvEst: kaks teist miljonit detsi aakrit ruut nano tollides
+UnitconvApp: convert 19000000 " to °
+UnitconvEng: please convert nineteen million seconds to degrees
+UnitconvEst: üheksa teist miljonit sekundit kraadides
 
-UnitconvApp: convert 17000000 kt to lb
-UnitconvEng: please convert seventeen million kilo tons to pounds
-UnitconvEst: seitse teist miljonit kilo tonni naelades
+UnitconvApp: convert 19000000 cft/min to knot
+UnitconvEng: please convert nineteen million centi feet per minutes to knots
+UnitconvEst: üheksa teist miljonit senti jalga minutis sõlmedes
 
-UnitconvApp: convert 19000000 SEK to CAD
-UnitconvEng: please convert nineteen million Swedish crowns to Canadian dollars
-UnitconvEst: üheksa teist miljonit rootsi krooni kanada dollarites
+UnitconvApp: convert 105000000 " to rad
+UnitconvEng: please convert one hundred and five million seconds to radians
+UnitconvEst: sada viis miljonit sekundit radiaanides
 
-UnitconvApp: convert 110000000 yd^2 to acre
-UnitconvEng: please convert one hundred and ten million square yards to acres
-UnitconvEst: sada kümme miljonit ruut jardi aakrites
+UnitconvApp: convert 106000000 Gha to macre
+UnitconvEng: please convert one hundred and six million giga hectares to milli acres
+UnitconvEst: sada kuus miljonit giga hektarit milli aakrites
 
-UnitconvApp: convert 111000000 cal to W⋅h
-UnitconvEng: please convert one hundred and eleven million calories to watt hours
-UnitconvEst: sada üks teist miljonit kalorit vatt tundides
+UnitconvApp: convert 410000000 hW to W
+UnitconvEng: please convert four hundred and ten million hecto watts to watts
+UnitconvEst: neli sada kümme miljonit hekto vatti vattides
 
-UnitconvApp: convert 501000000 CAD to NOK
-UnitconvEng: please convert five hundred and one million Canadian dollars to Norwegian crowns
-UnitconvEst: viis sada üks miljonit kanada dollarit norra kroonides
+UnitconvApp: convert 100000000 knot to c
+UnitconvEng: please convert one hundred million knots to speed of light
+UnitconvEst: sada miljonit sõlme valgus kiirustes
 
-UnitconvApp: convert 100000000 rad to rad
-UnitconvEng: please convert one hundred million radians to radians
-UnitconvEst: sada miljonit radiaani radiaanides
+UnitconvApp: convert 300000000 ' to °
+UnitconvEng: please convert three hundred million minutes to degrees
+UnitconvEst: kolm sada miljonit minutit kraadides
 
-UnitconvApp: convert 100000000 lb to oz
-UnitconvEng: please convert one hundred million pounds to ounces
-UnitconvEst: sada miljonit naela untsides
+UnitconvApp: convert 300000000 kft^2 to acre
+UnitconvEng: please convert three hundred million square kilo feet to acres
+UnitconvEst: kolm sada miljonit ruut kilo jalga aakrites
 
-UnitconvApp: convert 100000000 m^3 to cup_us
-UnitconvEng: please convert one hundred million cubic meters to cups
-UnitconvEst: sada miljonit kuup meetrit tassides
+UnitconvApp: convert 13100000004 moz/ncup_us to µlb/yd^3
+UnitconvEng: please convert thirteen billion one hundred million four milli ounces per nano cups to micro pounds per cubic yards
+UnitconvEst: kolm teist miljardit ja sada miljonit ja neli milli untsi nano tassis mikro naelades kuup jardis
 
-UnitconvApp: convert 101000000410 oz to nlb
-UnitconvEng: please convert one hundred and one billion four hundred and ten ounces to nano pounds
-UnitconvEst: sada üks miljardit ja neli sada kümme untsi nano naelades
+UnitconvApp: convert 140111400115 yd to mi
+UnitconvEng: please convert one hundred and forty billion one hundred and eleven million four hundred thousand one hundred and fifteen yards to miles
+UnitconvEst: sada neli kümmend miljardit ja sada üks teist miljonit ja neli sada tuhat sada viis teist jardi miilides
 
-UnitconvApp: convert 710160000000 RUB to EUR
-UnitconvEng: please convert seven hundred and ten billion one hundred and sixty million Russian roubles to Euros
-UnitconvEst: seitse sada kümme miljardit ja sada kuus kümmend miljonit rubla eurodes
+UnitconvApp: convert 200000200000 ms to h
+UnitconvEng: please convert two hundred billion two hundred thousand milli seconds to hours
+UnitconvEst: kaks sada miljardit ja kaks sada tuhat milli sekundit tundides
 
-UnitconvApp: convert 760080000000 Hz to µHz
-UnitconvEng: please convert seven hundred and sixty billion eighty million hertz to micro hertz
-UnitconvEst: seitse sada kuus kümmend miljardit ja kaheksa kümmend miljonit hertsi mikro hertsides
+UnitconvApp: convert 1000000000 ISK to RUB
+UnitconvEng: please convert one billion Icelandic crowns to Russian roubles
+UnitconvEst: üks miljardit islandi krooni rublades
 
-UnitconvApp: convert 11000000000 kacre to mha
-UnitconvEng: please convert eleven billion kilo acres to milli hectares
-UnitconvEst: üks teist miljardit kilo aakrit milli hektarites
+UnitconvApp: convert 6000000000 hyd to m
+UnitconvEng: please convert six billion hecto yards to meters
+UnitconvEst: kuus miljardit hekto jardi meetrites
 
-UnitconvApp: convert 30000000000 ns to ns
-UnitconvEng: please convert thirty billion nano seconds to nano seconds
-UnitconvEst: kolm kümmend miljardit nano sekundit nano sekundites
+UnitconvApp: convert 8000000000 µha to µacre
+UnitconvEng: please convert eight billion micro hectares to micro acres
+UnitconvEst: kaheksa miljardit mikro hektarit mikro aakrites
 
-UnitconvApp: convert 60000000000 ha to acre
-UnitconvEng: please convert sixty billion hectares to acres
-UnitconvEst: kuus kümmend miljardit hektarit aakrites
+UnitconvApp: convert 111000000000 t/TL to t/dL
+UnitconvEng: please convert one hundred and eleven billion tons per tera liters to tons per deci liters
+UnitconvEst: sada üks teist miljardit tonni tera liitris tonnides detsi liitris
 
-UnitconvApp: convert 80000000000 W to W
-UnitconvEng: please convert eighty billion watts to watts
-UnitconvEst: kaheksa kümmend miljardit vatti vattides
+UnitconvApp: convert 100000000000 in*ns^-2 to yd/s/µs
+UnitconvEng: please convert one hundred billion inches per nano seconds squared to yards per seconds per micro seconds
+UnitconvEst: sada miljardit tolli ruut nano sekundis jardides sekundis mikro sekundis
 
-UnitconvApp: convert 21000000000 ° to "
-UnitconvEng: please convert twenty one billion degrees to seconds
-UnitconvEst: kaks kümmend üks miljardit kraadi sekundites
-
-UnitconvApp: convert 41000000000 °C to °C
-UnitconvEng: please convert forty one billion Celcius to Celcius
-UnitconvEst: neli kümmend üks miljardit kraadi kraadides
-
-UnitconvApp: convert 51000000000 ft^2 to Mha
-UnitconvEng: please convert fifty one billion square feet to mega hectares
-UnitconvEst: viis kümmend üks miljardit ruut jalga mega hektarites
-
-UnitconvApp: convert 110000000000 Mft^2 to hha
-UnitconvEng: please convert one hundred and ten billion square mega feet to hecto hectares
-UnitconvEst: sada kümme miljardit ruut mega jalga hekto hektarites
-
-UnitconvApp: convert 110000000000 W⋅h to hcal
-UnitconvEng: please convert one hundred and ten billion watt hours to hecto calories
-UnitconvEst: sada kümme miljardit vatt tundi hekto kalorites
-
-UnitconvApp: convert 110000000000 Hz to MHz
-UnitconvEng: please convert one hundred and ten billion hertz to mega hertz
-UnitconvEst: sada kümme miljardit hertsi mega hertsides
-
-UnitconvApp: convert 110000000000 pt to L
-UnitconvEng: please convert one hundred and ten billion pints to liters
-UnitconvEst: sada kümme miljardit pinti liitrites
-
-UnitconvApp: convert 100000000000 kha to acre
-UnitconvEng: please convert one hundred billion kilo hectares to acres
-UnitconvEst: sada miljardit kilo hektarit aakrites
+UnitconvApp: convert 100000000000 knot to mi/min
+UnitconvEng: please convert one hundred billion knots to miles per minutes
+UnitconvEst: sada miljardit sõlme miilides minutis
 
 UnitconvApp: convert 100000000000 °F to °C
 UnitconvEng: please convert one hundred billion Fahrenheits to Celcius
 UnitconvEst: sada miljardit fahrenheiti kraadides
 
-UnitconvApp: convert 0.0 ' to "
-UnitconvEng: please convert zero point zero minutes to seconds
-UnitconvEst: null koma null minutit sekundites
-
-UnitconvApp: convert 0.0 ha to cm^2
-UnitconvEng: please convert zero point zero hectares to square centi meters
-UnitconvEst: null koma null hektarit ruut senti meetrites
-
-UnitconvApp: convert 0.0 m*decade^-2 to Mmi*month^-2
-UnitconvEng: please convert zero point zero meters per decades squared to mega miles per months squared
-UnitconvEst: null koma null meetrit ruut dekaadis mega miilides ruut kuus
-
-UnitconvApp: convert 0.0 yd*month^-2 to knot/ms
-UnitconvEng: please convert zero point zero yards per months squared to knots per milli seconds
-UnitconvEst: null koma null jardi ruut kuus sõlmedes milli sekundis
-
-UnitconvApp: convert 0.0 J to kJ
-UnitconvEng: please convert zero point zero joules to kilo joules
-UnitconvEst: null koma null džauli kilo džaulides
-
-UnitconvApp: convert 0.0 W to W
-UnitconvEng: please convert zero point zero watts to watts
-UnitconvEst: null koma null vatti vattides
-
-UnitconvApp: convert 0.0 c to hmi/µs
-UnitconvEng: please convert zero point zero speed of light to hecto miles per micro seconds
-UnitconvEst: null koma null valgus kiirust hekto miilides mikro sekundis
-
-UnitconvApp: convert 0.0 Hz to MHz
-UnitconvEng: please convert zero point zero hertz to mega hertz
-UnitconvEst: null koma null hertsi mega hertsides
-
-UnitconvApp: convert 0.0 daHz to µHz
-UnitconvEng: please convert zero point zero deka hertz to micro hertz
-UnitconvEst: null koma null deka hertsi mikro hertsides
-
-UnitconvApp: convert 0.0 ft to dmi
-UnitconvEng: please convert zero point zero feet to deci miles
-UnitconvEst: null koma null jalga detsi miilides
-
-UnitconvApp: convert 0.0 flour-cup to lb
-UnitconvEng: please convert zero point zero cups of flour to pounds
-UnitconvEst: null koma null tassi jahu naelades
-
-UnitconvApp: convert 0.0 g to Goz
-UnitconvEng: please convert zero point zero grams to giga ounces
-UnitconvEst: null koma null grammi giga untsides
-
-UnitconvApp: convert 0.0 moz to lb
-UnitconvEng: please convert zero point zero milli ounces to pounds
-UnitconvEst: null koma null milli untsi naelades
-
-UnitconvApp: convert 0.0 ms to min
-UnitconvEng: please convert zero point zero milli seconds to minutes
-UnitconvEst: null koma null milli sekundit minutites
-
-UnitconvApp: convert 0.0 mi^3 to mgal
-UnitconvEng: please convert zero point zero cubic miles to milli gallons
-UnitconvEst: null koma null kuup miili milli gallonites
-
-UnitconvApp: convert 0.0 yd^3 to ft^3
-UnitconvEng: please convert zero point zero cubic yards to cubic feet
-UnitconvEst: null koma null kuup jardi kuup jalgades
-
-UnitconvApp: convert 0.0 dft^3 to in^3
-UnitconvEng: please convert zero point zero cubic deci feet to cubic inches
-UnitconvEst: null koma null kuup detsi jalga kuup tollides
-
-UnitconvApp: convert 0.31000000000 acre to µha
-UnitconvEng: please convert zero point thirty one billion acres to micro hectares
-UnitconvEst: null koma kolm kümmend üks miljardit aakrit mikro hektarites
-
-UnitconvApp: convert 0.300000000000 W⋅h to J
-UnitconvEng: please convert zero point three hundred billion watt hours to joules
-UnitconvEst: null koma kolm sada miljardit vatt tundi džaulides
-
-UnitconvApp: convert 0.5 acre to Gyd^2
-UnitconvEng: please convert half acres to square giga yards
-UnitconvEst: pool aakrit ruut giga jardides
-
-UnitconvApp: convert 0.5 MJ to cal
-UnitconvEng: please convert half mega joules to calories
-UnitconvEst: pool mega džauli kalorites
-
-UnitconvApp: convert 0.5 TW⋅h to J
-UnitconvEng: please convert half tera watt hours to joules
-UnitconvEst: pool tera vatt tundi džaulides
-
-UnitconvApp: convert 0.5 W to mW
-UnitconvEng: please convert half watts to milli watts
-UnitconvEst: pool vatti milli vattides
-
-UnitconvApp: convert 0.5 Hz to Hz
-UnitconvEng: please convert half hertz to hertz
-UnitconvEst: pool hertsi hertsides
-
-UnitconvApp: convert 0.5 GHz to µHz
-UnitconvEng: please convert half giga hertz to micro hertz
-UnitconvEst: pool giga hertsi mikro hertsides
-
-UnitconvApp: convert 0.5 decade to century
-UnitconvEng: please convert half decades to centuries
-UnitconvEst: pool dekaadi sajandites
-
-UnitconvApp: convert 0.5 m^3 to in^3
-UnitconvEng: please convert half cubic meters to cubic inches
-UnitconvEst: pool kuup meetrit kuup tollides
-
-UnitconvApp: convert 0.5 L to mL
-UnitconvEng: please convert half liters to milli liters
-UnitconvEst: pool liitrit milli liitrites
-
-UnitconvApp: convert (-0) acre to acre
-UnitconvEng: please convert minus zero acres to acres
-UnitconvEst: miinus null aakrit aakrites
-
-UnitconvApp: convert (-0) dami/h/ms to m/s/century
-UnitconvEng: please convert minus zero deka miles per hours per milli seconds to meters per seconds per centuries
-UnitconvEst: miinus null deka miili tunnis milli sekundis meetrites sekundis sajandis
-
-UnitconvApp: convert (-0) mi/year to knot
-UnitconvEng: please convert minus zero miles per years to knots
-UnitconvEst: miinus null miili aastas sõlmedes
-
-UnitconvApp: convert (-0) Hz to Hz
-UnitconvEng: please convert minus zero hertz to hertz
-UnitconvEst: miinus null hertsi hertsides
-
-UnitconvApp: convert (-10) J to W⋅h
-UnitconvEng: please convert minus ten joules to watt hours
-UnitconvEst: miinus kümme džauli vatt tundides
-
-UnitconvApp: convert (-11) Mg to flour-cup
-UnitconvEng: please convert minus eleven mega grams to cups of flour
-UnitconvEst: miinus üks teist mega grammi jahu tassides
-
-UnitconvApp: convert (-121) cm/decade to c
-UnitconvEng: please convert minus one hundred and twenty one centi meters per decades to speed of light
-UnitconvEst: miinus sada kaks kümmend üks senti meetrit dekaadis valgus kiirustes
-
-UnitconvApp: convert (-10100) gal to gal
-UnitconvEng: please convert minus ten thousand one hundred gallons to gallons
-UnitconvEst: miinus kümme tuhat sada gallonit gallonites
-
-UnitconvApp: convert (-100823) GBP to RUB
-UnitconvEng: please convert minus one hundred thousand eight hundred and twenty three British pounds to Russian roubles
-UnitconvEst: miinus sada tuhat kaheksa sada kaks kümmend kolm naela rublades
-
-UnitconvApp: convert (-800100) ° to °
-UnitconvEng: please convert minus eight hundred thousand one hundred degrees to degrees
-UnitconvEst: miinus kaheksa sada tuhat sada kraadi kraadides
-
-UnitconvApp: convert (-1000) Gft/min to Gyd/ns
-UnitconvEng: please convert minus one thousand giga feet per minutes to giga yards per nano seconds
-UnitconvEst: miinus tuhat giga jalga minutis giga jardides nano sekundis
-
-UnitconvApp: convert (-1000) °F to °C
-UnitconvEng: please convert minus one thousand Fahrenheits to Celcius
-UnitconvEst: miinus tuhat fahrenheiti kraadides
-
-UnitconvApp: convert (-7000) µin to Tft
-UnitconvEng: please convert minus seven thousand micro inches to tera feet
-UnitconvEst: miinus seitse tuhat mikro tolli tera jalgades
-
-UnitconvApp: convert (-200000) cW to W
-UnitconvEng: please convert minus two hundred thousand centi watts to watts
-UnitconvEst: miinus kaks sada tuhat senti vatti vattides
-
-UnitconvApp: convert (-300000) " to °
-UnitconvEng: please convert minus three hundred thousand seconds to degrees
-UnitconvEst: miinus kolm sada tuhat sekundit kraadides
-
-UnitconvApp: convert (-700000) Gacre to dayd^2
-UnitconvEng: please convert minus seven hundred thousand giga acres to square deka yards
-UnitconvEst: miinus seitse sada tuhat giga aakrit ruut deka jardides
-
-UnitconvApp: convert (-219000170) ' to rad
-UnitconvEng: please convert minus two hundred and nineteen million one hundred and seventy minutes to radians
-UnitconvEst: miinus kaks sada üheksa teist miljonit ja sada seitse kümmend minutit radiaanides
-
-UnitconvApp: convert (-100800600) knot to mft/h
-UnitconvEng: please convert minus one hundred million eight hundred thousand six hundred knots to milli feet per hours
-UnitconvEst: miinus sada miljonit ja kaheksa sada tuhat kuus sada sõlme milli jalgades tunnis
-
-UnitconvApp: convert (-200000510) hHz to Hz
-UnitconvEng: please convert minus two hundred million five hundred and ten hecto hertz to hertz
-UnitconvEst: miinus kaks sada miljonit ja viis sada kümme hekto hertsi hertsides
-
-UnitconvApp: convert (-14000000) kW to W
-UnitconvEng: please convert minus fourteen million kilo watts to watts
-UnitconvEst: miinus neli teist miljonit kilo vatti vattides
-
-UnitconvApp: convert (-16000000) Tin to Gyd
-UnitconvEng: please convert minus sixteen million tera inches to giga yards
-UnitconvEst: miinus kuus teist miljonit tera tolli giga jardides
-
-UnitconvApp: convert (-17000000) µW⋅h to cal
-UnitconvEng: please convert minus seventeen million micro watt hours to calories
-UnitconvEst: miinus seitse teist miljonit mikro vatt tundi kalorites
-
-UnitconvApp: convert (-110000000) rad to °
-UnitconvEng: please convert minus one hundred and ten million radians to degrees
-UnitconvEst: miinus sada kümme miljonit radiaani kraadides
-
-UnitconvApp: convert (-309000000) hW⋅h to daW⋅h
-UnitconvEng: please convert minus three hundred and nine million hecto watt hours to deka watt hours
-UnitconvEst: miinus kolm sada üheksa miljonit hekto vatt tundi deka vatt tundides
-
-UnitconvApp: convert (-610000000) Hz to GHz
-UnitconvEng: please convert minus six hundred and ten million hertz to giga hertz
-UnitconvEst: miinus kuus sada kümme miljonit hertsi giga hertsides
-
-UnitconvApp: convert (-100000000) SEK to CAD
-UnitconvEng: please convert minus one hundred million Swedish crowns to Canadian dollars
-UnitconvEst: miinus sada miljonit rootsi krooni kanada dollarites
-
-UnitconvApp: convert (-400000000) hm*day^-2 to yd*min^-2
-UnitconvEng: please convert minus four hundred million hecto meters per days squared to yards per minutes squared
-UnitconvEst: miinus neli sada miljonit hekto meetrit ruut päevas jardides ruut minutis
-
-UnitconvApp: convert (-900000000) J to J
-UnitconvEng: please convert minus nine hundred million joules to joules
-UnitconvEst: miinus üheksa sada miljonit džauli džaulides
-
-UnitconvApp: convert (-1000070011) Hz to Hz
-UnitconvEng: please convert minus one billion seventy thousand eleven hertz to hertz
-UnitconvEst: miinus üks miljardit ja seitse kümmend tuhat üks teist hertsi hertsides
-
-UnitconvApp: convert (-800100000000) cup_us to kL
-UnitconvEng: please convert minus eight hundred billion one hundred million cups to kilo liters
-UnitconvEst: miinus kaheksa sada miljardit ja sada miljonit tassi kilo liitrites
-
-UnitconvApp: convert (-900000500081) dam*ns^-2 to c/ms
-UnitconvEng: please convert minus nine hundred billion five hundred thousand eighty one deka meters per nano seconds squared to speed of light per milli seconds
-UnitconvEst: miinus üheksa sada miljardit ja viis sada tuhat kaheksa kümmend üks deka meetrit ruut nano sekundis valgus kiirustes milli sekundis
-
-UnitconvApp: convert (-10000000000) W to GW
-UnitconvEng: please convert minus ten billion watts to giga watts
-UnitconvEst: miinus kümme miljardit vatti giga vattides
-
-UnitconvApp: convert (-40000000000) week to week
-UnitconvEng: please convert minus forty billion weeks to weeks
-UnitconvEst: miinus neli kümmend miljardit nädalat nädalates
-
-UnitconvApp: convert (-70000000000) nW to mW
-UnitconvEng: please convert minus seventy billion nano watts to milli watts
-UnitconvEst: miinus seitse kümmend miljardit nano vatti milli vattides
-
-UnitconvApp: convert (-90000000000) µin^2 to in^2
-UnitconvEng: please convert minus ninety billion square micro inches to square inches
-UnitconvEst: miinus üheksa kümmend miljardit ruut mikro tolli ruut tollides
-
-UnitconvApp: convert (-31000000000) hha to Gha
-UnitconvEng: please convert minus thirty one billion hecto hectares to giga hectares
-UnitconvEst: miinus kolm kümmend üks miljardit hekto hektarit giga hektarites
-
-UnitconvApp: convert (-32000000000) min to in
-UnitconvEng: please convert minus thirty two billion milli inches to inches
-UnitconvEst: miinus kolm kümmend kaks miljardit milli tolli tollides
-
-UnitconvApp: convert (-46000000000) Tcup_us to dcup_us
-UnitconvEng: please convert minus forty six billion tera cups to deci cups
-UnitconvEst: miinus neli kümmend kuus miljardit tera tassi detsi tassides
-
-UnitconvApp: convert (-100000000000) ' to rad
-UnitconvEng: please convert minus one hundred billion minutes to radians
-UnitconvEst: miinus sada miljardit minutit radiaanides
-
-UnitconvApp: convert (-0.0) acre to in^2
-UnitconvEng: please convert minus zero point zero acres to square inches
-UnitconvEst: miinus null koma null aakrit ruut tollides
-
-UnitconvApp: convert (-0.0) hyd^2 to µft^2
-UnitconvEng: please convert minus zero point zero square hecto yards to square micro feet
-UnitconvEst: miinus null koma null ruut hekto jardi ruut mikro jalgades
-
-UnitconvApp: convert (-0.0) c/min to knot/year
-UnitconvEng: please convert minus zero point zero speed of light per minutes to knots per years
-UnitconvEst: miinus null koma null valgus kiirust minutis sõlmedes aastas
-
-UnitconvApp: convert (-0.0) in*year^-2 to cft/h/decade
-UnitconvEng: please convert minus zero point zero inches per years squared to centi feet per hours per decades
-UnitconvEst: miinus null koma null tolli ruut aastas senti jalgades tunnis dekaadis
-
-UnitconvApp: convert (-0.0) J to J
-UnitconvEng: please convert minus zero point zero joules to joules
-UnitconvEst: miinus null koma null džauli džaulides
-
-UnitconvApp: convert (-0.0) Gpt to L
-UnitconvEng: please convert minus zero point zero giga pints to liters
-UnitconvEst: miinus null koma null giga pinti liitrites
-
-UnitconvApp: convert (-0.0) nL to hft^3
-UnitconvEng: please convert minus zero point zero nano liters to cubic hecto feet
-UnitconvEst: miinus null koma null nano liitrit kuup hekto jalgades
-
-UnitconvApp: convert (-0.620101111000) cJ to cal
-UnitconvEng: please convert minus zero point six hundred and twenty billion one hundred and one million one hundred and eleven thousand centi joules to calories
-UnitconvEst: miinus null koma kuus sada kaks kümmend miljardit ja sada üks miljonit ja sada üks teist tuhat senti džauli kalorites
-
-UnitconvApp: convert (-40000000000.0) cal to µW⋅h
-UnitconvEng: please convert minus forty billion point zero calories to micro watt hours
-UnitconvEst: miinus neli kümmend miljardit koma null kalorit mikro vatt tundides
-
-UnitconvApp: convert (-181000000000.111100) c/year to yd*µs^-2
-UnitconvEng: please convert minus one hundred and eighty one billion point one hundred and eleven thousand one hundred speed of light per years to yards per micro seconds squared
-UnitconvEst: miinus sada kaheksa kümmend üks miljardit koma sada üks teist tuhat sada valgus kiirust aastas jardides ruut mikro sekundis
-
-UnitconvApp: convert 1.5 Gha to acre
-UnitconvEng: please convert one and half giga hectares to acres
-UnitconvEst: pool teist giga hektarit aakrites
-
-UnitconvApp: convert 1.5 Gft*h^-2 to m*ms^-2
-UnitconvEng: please convert one and half giga feet per hours squared to meters per milli seconds squared
-UnitconvEst: pool teist giga jalga ruut tunnis meetrites ruut milli sekundis
-
-UnitconvApp: convert 1.5 W to W
-UnitconvEng: please convert one and half watts to watts
-UnitconvEst: pool teist vatti vattides
-
-UnitconvApp: convert 1.5 Hz to Hz
-UnitconvEng: please convert one and half hertz to hertz
-UnitconvEst: pool teist hertsi hertsides
-
-UnitconvApp: convert 1.5 °F to °F
-UnitconvEng: please convert one and half Fahrenheits to Fahrenheits
-UnitconvEst: pool teist fahrenheiti fahrenheitides
-
-UnitconvApp: convert 1.5 gal to mmi^3
-UnitconvEng: please convert one and half gallons to cubic milli miles
-UnitconvEst: pool teist gallonit kuup milli miilides
-
-UnitconvApp: convert PI ° to rad
-UnitconvEng: please convert pie degrees to radians
-UnitconvEst: Pii kraadi radiaanides
-
-UnitconvApp: convert PI ha to ft^2
-UnitconvEng: please convert pie hectares to square feet
-UnitconvEst: Pii hektarit ruut jalgades
-
-UnitconvApp: convert PI mi*month^-2 to knot/min
-UnitconvEng: please convert pie miles per months squared to knots per minutes
-UnitconvEst: Pii miili ruut kuus sõlmedes minutis
-
-UnitconvApp: convert PI µft*day^-2 to ft*ms^-2
-UnitconvEng: please convert pie micro feet per days squared to feet per milli seconds squared
-UnitconvEst: Pii mikro jalga ruut päevas jalgades ruut milli sekundis
-
-UnitconvApp: convert PI hft to Mmi
-UnitconvEng: please convert pie hecto feet to mega miles
-UnitconvEst: Pii hekto jalga mega miilides
-
-UnitconvApp: convert PI g to koz
-UnitconvEng: please convert pie grams to kilo ounces
-UnitconvEst: Pii grammi kilo untsides
-
-UnitconvApp: convert PI ft^3 to kcup_us
-UnitconvEng: please convert pie cubic feet to kilo cups
-UnitconvEst: Pii kuup jalga kilo tassides
-
-UnitconvApp: convert PI mft^3 to L
-UnitconvEng: please convert pie cubic milli feet to liters
-UnitconvEst: Pii kuup milli jalga liitrites
-
-UnitconvApp: convert 0.25 din^2 to Tacre
-UnitconvEng: please convert quarter square deci inches to tera acres
-UnitconvEst: veerand ruut detsi tolli tera aakrites
-
-UnitconvApp: convert 0.25 dW⋅h to ncal
-UnitconvEng: please convert quarter deci watt hours to nano calories
-UnitconvEst: veerand detsi vatt tundi nano kalorites
-
-UnitconvApp: convert 0.25 dmi/ns to yd/µs
-UnitconvEng: please convert quarter deci miles per nano seconds to yards per micro seconds
-UnitconvEst: veerand detsi miili nano sekundis jardides mikro sekundis
-
-UnitconvApp: convert 0.25 Gin/h to c
-UnitconvEng: please convert quarter giga inches per hours to speed of light
-UnitconvEst: veerand giga tolli tunnis valgus kiirustes
-
-UnitconvApp: convert 0.25 knot to yd/ns
-UnitconvEng: please convert quarter knots to yards per nano seconds
-UnitconvEst: veerand sõlme jardides nano sekundis
-
-UnitconvApp: convert 0.75 dami^2 to mi^2
-UnitconvEng: please convert three quarters square deka miles to square miles
-UnitconvEst: kolm veerand ruut deka miili ruut miilides
-
-UnitconvApp: convert 0.75 km/s/µs to µyd/year/century
-UnitconvEng: please convert three quarters kilo meters per seconds per micro seconds to micro yards per years per centuries
-UnitconvEst: kolm veerand kilo meetrit sekundis mikro sekundis mikro jardides aastas sajandis
-
-UnitconvApp: convert 0.75 JPY to JPY
-UnitconvEng: please convert three quarters Japanese yens to Japanese yens
-UnitconvEst: kolm veerand jeeni jeenides
-
-UnitconvApp: convert 0.75 min to yd
-UnitconvEng: please convert three quarters milli inches to yards
-UnitconvEst: kolm veerand milli tolli jardides
-
-UnitconvApp: convert 0.75 °C to °C
-UnitconvEng: please convert three quarters Celcius to Celcius
-UnitconvEst: kolm veerand kraadi kraadides
-
-UnitconvApp: convert 0.75 day to decade
-UnitconvEng: please convert three quarters days to decades
-UnitconvEst: kolm veerand päeva dekaadides
-
-UnitconvApp: convert 0.75 L to Mm^3
-UnitconvEng: please convert three quarters liters to cubic mega meters
-UnitconvEst: kolm veerand liitrit kuup mega meetrites
+UnitconvApp: convert 200000000000 hJ to TJ
+UnitconvEng: please convert two hundred billion hecto joules to tera joules
+UnitconvEst: kaks sada miljardit hekto džauli tera džaulides
+
+UnitconvApp: convert 200000000000 hHz to kHz
+UnitconvEng: please convert two hundred billion hecto hertz to kilo hertz
+UnitconvEst: kaks sada miljardit hekto hertsi kilo hertsides
+
+UnitconvApp: convert 800000000000 ' to "
+UnitconvEng: please convert eight hundred billion minutes to seconds
+UnitconvEst: kaheksa sada miljardit minutit sekundites
+
+UnitconvApp: convert 0.0 c/h to m/month/µs
+UnitconvEng: please convert zero point zero speed of light per hours to meters per months per micro seconds
+UnitconvEst: null koma null valgus kiirust tunnis meetrites kuus mikro sekundis
+
+UnitconvApp: convert 0.0 flour-cup/pt to t/gal
+UnitconvEng: please convert zero point zero cups of flour per pints to tons per gallons
+UnitconvEst: null koma null tassi jahu pindis tonnides gallonis
+
+UnitconvApp: convert 0.0 lb/in^3 to g/mgal
+UnitconvEng: please convert zero point zero pounds per cubic inches to grams per milli gallons
+UnitconvEst: null koma null naela kuup tollis grammides milli gallonis
+
+UnitconvApp: convert 0.0 km/century to knot
+UnitconvEng: please convert zero point zero kilo meters per centuries to knots
+UnitconvEst: null koma null kilo meetrit sajandis sõlmedes
+
+UnitconvApp: convert 0.0 GBP to NOK
+UnitconvEng: please convert zero point zero British pounds to Norwegian crowns
+UnitconvEst: null koma null naela norra kroonides
+
+UnitconvApp: convert 0.0 cHz to Hz
+UnitconvEng: please convert zero point zero centi hertz to hertz
+UnitconvEst: null koma null senti hertsi hertsides
+
+UnitconvApp: convert 0.0 dHz to Hz
+UnitconvEng: please convert zero point zero deci hertz to hertz
+UnitconvEst: null koma null detsi hertsi hertsides
+
+UnitconvApp: convert 0.0 min to min
+UnitconvEng: please convert zero point zero minutes to minutes
+UnitconvEst: null koma null minutit minutites
+
+UnitconvApp: convert 0.0 ft^3 to cyd^3
+UnitconvEng: please convert zero point zero cubic feet to cubic centi yards
+UnitconvEst: null koma null kuup jalga kuup senti jardides
+
+UnitconvApp: convert 0.0 nm^3 to mi^3
+UnitconvEng: please convert zero point zero cubic nano meters to cubic miles
+UnitconvEst: null koma null kuup nano meetrit kuup miilides
+
+UnitconvApp: convert 0.0 µcup_us to m^3
+UnitconvEng: please convert zero point zero micro cups to cubic meters
+UnitconvEst: null koma null mikro tassi kuup meetrites
+
+UnitconvApp: convert 0.100100000 mi to Mmi
+UnitconvEng: please convert zero point one hundred million one hundred thousand miles to mega miles
+UnitconvEst: null koma sada miljonit ja sada tuhat miili mega miilides
+
+UnitconvApp: convert 0.211011000010 month to year
+UnitconvEng: please convert zero point two hundred and eleven billion eleven million ten months to years
+UnitconvEst: null koma kaks sada üks teist miljardit ja üks teist miljonit ja kümme kuud aastates
+
+UnitconvApp: convert 312900000000.110000000000 GHz to Hz
+UnitconvEng: please convert three hundred and twelve billion nine hundred million point one hundred and ten billion giga hertz to hertz
+UnitconvEst: kolm sada kaks teist miljardit ja üheksa sada miljonit koma sada kümme miljardit giga hertsi hertsides
+
+UnitconvApp: convert 0.5 mha to hmi^2
+UnitconvEng: please convert half milli hectares to square hecto miles
+UnitconvEst: pool milli hektarit ruut hekto miilides
+
+UnitconvApp: convert 0.5 g/pt to lb/cft^3
+UnitconvEng: please convert half grams per pints to pounds per cubic centi feet
+UnitconvEst: pool grammi pindis naelades kuup senti jalas
+
+UnitconvApp: convert 0.5 lb/in^3 to Gt/µpt
+UnitconvEng: please convert half pounds per cubic inches to giga tons per micro pints
+UnitconvEst: pool naela kuup tollis giga tonnides mikro pindis
+
+UnitconvApp: convert 0.5 t/dagal to kt/µpt
+UnitconvEng: please convert half tons per deka gallons to kilo tons per micro pints
+UnitconvEst: pool tonni deka gallonis kilo tonnides mikro pindis
+
+UnitconvApp: convert 0.5 µoz/dL to t/Mm^3
+UnitconvEng: please convert half micro ounces per deci liters to tons per cubic mega meters
+UnitconvEst: pool mikro untsi detsi liitris tonnides kuup mega meetris
+
+UnitconvApp: convert 0.5 W to µW
+UnitconvEng: please convert half watts to micro watts
+UnitconvEst: pool vatti mikro vattides
+
+UnitconvApp: convert 0.5 kmi/min to knot
+UnitconvEng: please convert half kilo miles per minutes to knots
+UnitconvEst: pool kilo miili minutis sõlmedes
+
+UnitconvApp: convert 0.5 THz to µHz
+UnitconvEng: please convert half tera hertz to micro hertz
+UnitconvEst: pool tera hertsi mikro hertsides
+
+UnitconvApp: convert 0.5 µs to decade
+UnitconvEng: please convert half micro seconds to decades
+UnitconvEst: pool mikro sekundit dekaadides
+
+UnitconvApp: convert 0.5 dapt to L
+UnitconvEng: please convert half deka pints to liters
+UnitconvEst: pool deka pinti liitrites
+
+UnitconvApp: convert 0.5 L to Ggal
+UnitconvEng: please convert half liters to giga gallons
+UnitconvEst: pool liitrit giga gallonites
+
+UnitconvApp: convert (-0) daacre to Gha
+UnitconvEng: please convert minus zero deka acres to giga hectares
+UnitconvEst: miinus null deka aakrit giga hektarites
+
+UnitconvApp: convert (-0) µha to acre
+UnitconvEng: please convert minus zero micro hectares to acres
+UnitconvEst: miinus null mikro hektarit aakrites
+
+UnitconvApp: convert (-0) c/century to nft*h^-2
+UnitconvEng: please convert minus zero speed of light per centuries to nano feet per hours squared
+UnitconvEst: miinus null valgus kiirust sajandis nano jalgades ruut tunnis
+
+UnitconvApp: convert (-0) c/h to c/ns
+UnitconvEng: please convert minus zero speed of light per hours to speed of light per nano seconds
+UnitconvEst: miinus null valgus kiirust tunnis valgus kiirustes nano sekundis
+
+UnitconvApp: convert (-0) ISK to SEK
+UnitconvEng: please convert minus zero Icelandic crowns to Swedish crowns
+UnitconvEst: miinus null islandi krooni rootsi kroonides
+
+UnitconvApp: convert (-9) oz to dlb
+UnitconvEng: please convert minus nine ounces to deci pounds
+UnitconvEst: miinus üheksa untsi detsi naelades
+
+UnitconvApp: convert (-10) µyd/ms to knot
+UnitconvEng: please convert minus ten micro yards per milli seconds to knots
+UnitconvEst: miinus kümme mikro jardi milli sekundis sõlmedes
+
+UnitconvApp: convert (-800) Mmi/year to c
+UnitconvEng: please convert minus eight hundred mega miles per years to speed of light
+UnitconvEst: miinus kaheksa sada mega miili aastas valgus kiirustes
+
+UnitconvApp: convert (-70011) cin to kmi
+UnitconvEng: please convert minus seventy thousand eleven centi inches to kilo miles
+UnitconvEst: miinus seitse kümmend tuhat üks teist senti tolli kilo miilides
+
+UnitconvApp: convert (-135020) W⋅h to W⋅h
+UnitconvEng: please convert minus one hundred and thirty five thousand twenty watt hours to watt hours
+UnitconvEst: miinus sada kolm kümmend viis tuhat kaks kümmend vatt tundi vatt tundides
+
+UnitconvApp: convert (-905080) hHz to Hz
+UnitconvEng: please convert minus nine hundred and five thousand eighty hecto hertz to hertz
+UnitconvEst: miinus üheksa sada viis tuhat kaheksa kümmend hekto hertsi hertsides
+
+UnitconvApp: convert (-20000) c to c
+UnitconvEng: please convert minus twenty thousand speed of light to speed of light
+UnitconvEst: miinus kaks kümmend tuhat valgus kiirust valgus kiirustes
+
+UnitconvApp: convert (-30000) mi^3 to mL
+UnitconvEng: please convert minus thirty thousand cubic miles to milli liters
+UnitconvEst: miinus kolm kümmend tuhat kuup miili milli liitrites
+
+UnitconvApp: convert (-50000) oz to µt
+UnitconvEng: please convert minus fifty thousand ounces to micro tons
+UnitconvEst: miinus viis kümmend tuhat untsi mikro tonnides
+
+UnitconvApp: convert (-61000) ML to dam^3
+UnitconvEng: please convert minus sixty one thousand mega liters to cubic deka meters
+UnitconvEst: miinus kuus kümmend üks tuhat mega liitrit kuup deka meetrites
+
+UnitconvApp: convert (-78000) cmi^2 to kacre
+UnitconvEng: please convert minus seventy eight thousand square centi miles to kilo acres
+UnitconvEst: miinus seitse kümmend kaheksa tuhat ruut senti miili kilo aakrites
+
+UnitconvApp: convert (-87000) ° to '
+UnitconvEng: please convert minus eighty seven thousand degrees to minutes
+UnitconvEst: miinus kaheksa kümmend seitse tuhat kraadi minutites
+
+UnitconvApp: convert (-60000800) " to °
+UnitconvEng: please convert minus sixty million eight hundred seconds to degrees
+UnitconvEst: miinus kuus kümmend miljonit ja kaheksa sada sekundit kraadides
+
+UnitconvApp: convert (-811100000) noz to flour-cup
+UnitconvEng: please convert minus eight hundred and eleven million one hundred thousand nano ounces to cups of flour
+UnitconvEst: miinus kaheksa sada üks teist miljonit ja sada tuhat nano untsi jahu tassides
+
+UnitconvApp: convert (-400000001) knot/µs to Tmi*ms^-2
+UnitconvEng: please convert minus four hundred million one knots per micro seconds to tera miles per milli seconds squared
+UnitconvEst: miinus neli sada miljonit ja üks sõlme mikro sekundis tera miilides ruut milli sekundis
+
+UnitconvApp: convert (-12000000) mt/ft^3 to flour-cup/hL
+UnitconvEng: please convert minus twelve million milli tons per cubic feet to cups of flour per hecto liters
+UnitconvEst: miinus kaks teist miljonit milli tonni kuup jalas jahu tassides hekto liitris
+
+UnitconvApp: convert (-13000000) W⋅h to dW⋅h
+UnitconvEng: please convert minus thirteen million watt hours to deci watt hours
+UnitconvEst: miinus kolm teist miljonit vatt tundi detsi vatt tundides
+
+UnitconvApp: convert (-16000000) µs to week
+UnitconvEng: please convert minus sixteen million micro seconds to weeks
+UnitconvEst: miinus kuus teist miljonit mikro sekundit nädalates
+
+UnitconvApp: convert (-107000000) day to year
+UnitconvEng: please convert minus one hundred and seven million days to years
+UnitconvEst: miinus sada seitse miljonit päeva aastates
+
+UnitconvApp: convert (-111000000) knot to ft/year
+UnitconvEng: please convert minus one hundred and eleven million knots to feet per years
+UnitconvEst: miinus sada üks teist miljonit sõlme jalgades aastas
+
+UnitconvApp: convert (-390000000) Gft to mmi
+UnitconvEng: please convert minus three hundred and ninety million giga feet to milli miles
+UnitconvEst: miinus kolm sada üheksa kümmend miljonit giga jalga milli miilides
+
+UnitconvApp: convert (-200000000) cup_us to dL
+UnitconvEng: please convert minus two hundred million cups to deci liters
+UnitconvEst: miinus kaks sada miljonit tassi detsi liitrites
+
+UnitconvApp: convert (-600000000) cal to J
+UnitconvEng: please convert minus six hundred million calories to joules
+UnitconvEst: miinus kuus sada miljonit kalorit džaulides
+
+UnitconvApp: convert (-800000000) W to W
+UnitconvEng: please convert minus eight hundred million watts to watts
+UnitconvEst: miinus kaheksa sada miljonit vatti vattides
+
+UnitconvApp: convert (-160000100000) dW to nW
+UnitconvEng: please convert minus one hundred and sixty billion one hundred thousand deci watts to nano watts
+UnitconvEst: miinus sada kuus kümmend miljardit ja sada tuhat detsi vatti nano vattides
+
+UnitconvApp: convert (-161041000000) c to m/ns
+UnitconvEng: please convert minus one hundred and sixty one billion forty one million speed of light to meters per nano seconds
+UnitconvEst: miinus sada kuus kümmend üks miljardit ja neli kümmend üks miljonit valgus kiirust meetrites nano sekundis
+
+UnitconvApp: convert (-511021000000) W to W
+UnitconvEng: please convert minus five hundred and eleven billion twenty one million watts to watts
+UnitconvEst: miinus viis sada üks teist miljardit ja kaks kümmend üks miljonit vatti vattides
+
+UnitconvApp: convert (-1000000000) nm*h^-2 to in/min/year
+UnitconvEng: please convert minus one billion nano meters per hours squared to inches per minutes per years
+UnitconvEst: miinus üks miljardit nano meetrit ruut tunnis tollides minutis aastas
+
+UnitconvApp: convert (-1000000000) g/cmi^3 to t/gal
+UnitconvEng: please convert minus one billion grams per cubic centi miles to tons per gallons
+UnitconvEst: miinus üks miljardit grammi kuup senti miilis tonnides gallonis
+
+UnitconvApp: convert (-1000000000) week to year
+UnitconvEng: please convert minus one billion weeks to years
+UnitconvEst: miinus üks miljardit nädalat aastates
+
+UnitconvApp: convert (-10000000000) g/cup_us to t/yd^3
+UnitconvEng: please convert minus ten billion grams per cups to tons per cubic yards
+UnitconvEst: miinus kümme miljardit grammi tassis tonnides kuup jardis
+
+UnitconvApp: convert (-10000000000) W to W
+UnitconvEng: please convert minus ten billion watts to watts
+UnitconvEst: miinus kümme miljardit vatti vattides
+
+UnitconvApp: convert (-11000000000) t to flour-cup
+UnitconvEng: please convert minus eleven billion tons to cups of flour
+UnitconvEst: miinus üks teist miljardit tonni jahu tassides
+
+UnitconvApp: convert (-110000000000) cW to kW
+UnitconvEng: please convert minus one hundred and ten billion centi watts to kilo watts
+UnitconvEst: miinus sada kümme miljardit senti vatti kilo vattides
+
+UnitconvApp: convert (-111000000000) Hz to MHz
+UnitconvEng: please convert minus one hundred and eleven billion hertz to mega hertz
+UnitconvEst: miinus sada üks teist miljardit hertsi mega hertsides
+
+UnitconvApp: convert (-100000000000) cyd^2 to mmi^2
+UnitconvEng: please convert minus one hundred billion square centi yards to square milli miles
+UnitconvEst: miinus sada miljardit ruut senti jardi ruut milli miilides
+
+UnitconvApp: convert (-100000000000) c to in/month
+UnitconvEng: please convert minus one hundred billion speed of light to inches per months
+UnitconvEst: miinus sada miljardit valgus kiirust tollides kuus
+
+UnitconvApp: convert (-400000000000) CHF to AUD
+UnitconvEng: please convert minus four hundred billion Swiss francs to Australian dollars
+UnitconvEst: miinus neli sada miljardit franki austraalia dollarites
+
+UnitconvApp: convert (-600000000000) century to week
+UnitconvEng: please convert minus six hundred billion centuries to weeks
+UnitconvEst: miinus kuus sada miljardit sajandit nädalates
+
+UnitconvApp: convert (-900000000000) daHz to Hz
+UnitconvEng: please convert minus nine hundred billion deka hertz to hertz
+UnitconvEst: miinus üheksa sada miljardit deka hertsi hertsides
+
+UnitconvApp: convert (-0.0) rad to rad
+UnitconvEng: please convert minus zero point zero radians to radians
+UnitconvEst: miinus null koma null radiaani radiaanides
+
+UnitconvApp: convert (-0.0) hm^2 to acre
+UnitconvEng: please convert minus zero point zero square hecto meters to acres
+UnitconvEst: miinus null koma null ruut hekto meetrit aakrites
+
+UnitconvApp: convert (-0.0) Tyd^2 to hha
+UnitconvEng: please convert minus zero point zero square tera yards to hecto hectares
+UnitconvEst: miinus null koma null ruut tera jardi hekto hektarites
+
+UnitconvApp: convert (-0.0) dami/decade/ns to ft*week^-2
+UnitconvEng: please convert minus zero point zero deka miles per decades per nano seconds to feet per weeks squared
+UnitconvEst: miinus null koma null deka miili dekaadis nano sekundis jalgades ruut nädalas
+
+UnitconvApp: convert (-0.0) mi*min^-2 to dami*µs^-2
+UnitconvEng: please convert minus zero point zero miles per minutes squared to deka miles per micro seconds squared
+UnitconvEst: miinus null koma null miili ruut minutis deka miilides ruut mikro sekundis
+
+UnitconvApp: convert (-0.0) koz/cup_us to µt/L
+UnitconvEng: please convert minus zero point zero kilo ounces per cups to micro tons per liters
+UnitconvEst: miinus null koma null kilo untsi tassis mikro tonnides liitris
+
+UnitconvApp: convert (-0.0) Tlb/mcup_us to µlb/cmi^3
+UnitconvEng: please convert minus zero point zero tera pounds per milli cups to micro pounds per cubic centi miles
+UnitconvEst: miinus null koma null tera naela milli tassis mikro naelades kuup senti miilis
+
+UnitconvApp: convert (-0.0) cal to mW⋅h
+UnitconvEng: please convert minus zero point zero calories to milli watt hours
+UnitconvEst: miinus null koma null kalorit milli vatt tundides
+
+UnitconvApp: convert (-0.0) W⋅h to ncal
+UnitconvEng: please convert minus zero point zero watt hours to nano calories
+UnitconvEst: miinus null koma null vatt tundi nano kalorites
+
+UnitconvApp: convert (-0.0) nyd/week to mi/ms
+UnitconvEng: please convert minus zero point zero nano yards per weeks to miles per milli seconds
+UnitconvEst: miinus null koma null nano jardi nädalas miilides milli sekundis
+
+UnitconvApp: convert (-0.0) CHF to NZD
+UnitconvEng: please convert minus zero point zero Swiss francs to New Zealand dollars
+UnitconvEst: miinus null koma null franki uus mere maa dollarites
+
+UnitconvApp: convert (-0.0) yd to ft
+UnitconvEng: please convert minus zero point zero yards to feet
+UnitconvEst: miinus null koma null jardi jalgades
+
+UnitconvApp: convert (-0.0) dat to oz
+UnitconvEng: please convert minus zero point zero deka tons to ounces
+UnitconvEst: miinus null koma null deka tonni untsides
+
+UnitconvApp: convert (-0.0) m^3 to gal
+UnitconvEng: please convert minus zero point zero cubic meters to gallons
+UnitconvEst: miinus null koma null kuup meetrit gallonites
+
+UnitconvApp: convert (-0.18000000000) Mft^2 to ha
+UnitconvEng: please convert minus zero point eighteen billion square mega feet to hectares
+UnitconvEst: miinus null koma kaheksa teist miljardit ruut mega jalga hektarites
+
+UnitconvApp: convert (-0.110000000000) ML to mm^3
+UnitconvEng: please convert minus zero point one hundred and ten billion mega liters to cubic milli meters
+UnitconvEst: miinus null koma sada kümme miljardit mega liitrit kuup milli meetrites
+
+UnitconvApp: convert 1.5 ° to '
+UnitconvEng: please convert one and half degrees to minutes
+UnitconvEst: pool teist kraadi minutites
+
+UnitconvApp: convert 1.5 Gflour-cup/Gcup_us to dag/in^3
+UnitconvEng: please convert one and half giga cups of flour per giga cups to deka grams per cubic inches
+UnitconvEst: pool teist giga tassi jahu giga tassis deka grammides kuup tollis
+
+UnitconvApp: convert 1.5 ccal to ccal
+UnitconvEng: please convert one and half centi calories to centi calories
+UnitconvEst: pool teist senti kalorit senti kalorites
+
+UnitconvApp: convert 1.5 t to Mg
+UnitconvEng: please convert one and half tons to mega grams
+UnitconvEst: pool teist tonni mega grammides
+
+UnitconvApp: convert PI " to "
+UnitconvEng: please convert pie seconds to seconds
+UnitconvEst: Pii sekundit sekundites
+
+UnitconvApp: convert PI m*year^-2 to ft/min/week
+UnitconvEng: please convert pie meters per years squared to feet per minutes per weeks
+UnitconvEst: Pii meetrit ruut aastas jalgades minutis nädalas
+
+UnitconvApp: convert PI g/gal to g/gal
+UnitconvEng: please convert pie grams per gallons to grams per gallons
+UnitconvEst: Pii grammi gallonis grammides gallonis
+
+UnitconvApp: convert PI lb/cup_us to t/yd^3
+UnitconvEng: please convert pie pounds per cups to tons per cubic yards
+UnitconvEst: Pii naela tassis tonnides kuup jardis
+
+UnitconvApp: convert PI nflour-cup/L to µg/dm^3
+UnitconvEng: please convert pie nano cups of flour per liters to micro grams per cubic deci meters
+UnitconvEst: Pii nano tassi jahu liitris mikro grammides kuup detsi meetris
+
+UnitconvApp: convert PI W to nW
+UnitconvEng: please convert pie watts to nano watts
+UnitconvEst: Pii vatti nano vattides
+
+UnitconvApp: convert PI Hz to THz
+UnitconvEng: please convert pie hertz to tera hertz
+UnitconvEst: Pii hertsi tera hertsides
+
+UnitconvApp: convert PI °C to °C
+UnitconvEng: please convert pie Celcius to Celcius
+UnitconvEst: Pii kraadi kraadides
+
+UnitconvApp: convert PI m^3 to dain^3
+UnitconvEng: please convert pie cubic meters to cubic deka inches
+UnitconvEst: Pii kuup meetrit kuup deka tollides
+
+UnitconvApp: convert 0.25 dha to Mm^2
+UnitconvEng: please convert quarter deci hectares to square mega meters
+UnitconvEst: veerand detsi hektarit ruut mega meetrites
+
+UnitconvApp: convert 0.25 ft/week/month to knot/ms
+UnitconvEng: please convert quarter feet per weeks per months to knots per milli seconds
+UnitconvEst: veerand jalga nädalas kuus sõlmedes milli sekundis
+
+UnitconvApp: convert 0.25 lb/GL to lb/ML
+UnitconvEng: please convert quarter pounds per giga liters to pounds per mega liters
+UnitconvEst: veerand naela giga liitris naelades mega liitris
+
+UnitconvApp: convert 0.25 cJ to J
+UnitconvEng: please convert quarter centi joules to joules
+UnitconvEst: veerand senti džauli džaulides
+
+UnitconvApp: convert 0.25 kcal to J
+UnitconvEng: please convert quarter kilo calories to joules
+UnitconvEst: veerand kilo kalorit džaulides
+
+UnitconvApp: convert 0.25 W to W
+UnitconvEng: please convert quarter watts to watts
+UnitconvEst: veerand vatti vattides
+
+UnitconvApp: convert 0.25 Hz to Hz
+UnitconvEng: please convert quarter hertz to hertz
+UnitconvEst: veerand hertsi hertsides
+
+UnitconvApp: convert 0.25 g to Tt
+UnitconvEng: please convert quarter grams to tera tons
+UnitconvEst: veerand grammi tera tonnides
+
+UnitconvApp: convert 0.25 lb to µg
+UnitconvEng: please convert quarter pounds to micro grams
+UnitconvEst: veerand naela mikro grammides
+
+UnitconvApp: convert 0.25 °C to °C
+UnitconvEng: please convert quarter Celcius to Celcius
+UnitconvEst: veerand kraadi kraadides
+
+UnitconvApp: convert 0.25 cup_us to Tcup_us
+UnitconvEng: please convert quarter cups to tera cups
+UnitconvEst: veerand tassi tera tassides
+
+UnitconvApp: convert 0.25 gal to dayd^3
+UnitconvEng: please convert quarter gallons to cubic deka yards
+UnitconvEst: veerand gallonit kuup deka jardides
+
+UnitconvApp: convert 0.75 macre to acre
+UnitconvEng: please convert three quarters milli acres to acres
+UnitconvEst: kolm veerand milli aakrit aakrites
+
+UnitconvApp: convert 0.75 Tm^2 to kha
+UnitconvEng: please convert three quarters square tera meters to kilo hectares
+UnitconvEst: kolm veerand ruut tera meetrit kilo hektarites
+
+UnitconvApp: convert 0.75 t/dpt to kg/cin^3
+UnitconvEng: please convert three quarters tons per deci pints to kilo grams per cubic centi inches
+UnitconvEst: kolm veerand tonni detsi pindis kilo grammides kuup senti tollis
+
+UnitconvApp: convert 0.75 hlb/gal to Tflour-cup/npt
+UnitconvEng: please convert three quarters hecto pounds per gallons to tera cups of flour per nano pints
+UnitconvEst: kolm veerand hekto naela gallonis tera jahu tassides nano pindis
+
+UnitconvApp: convert 0.75 W to W
+UnitconvEng: please convert three quarters watts to watts
+UnitconvEst: kolm veerand vatti vattides
+
+UnitconvApp: convert 0.75 µm/h to c
+UnitconvEng: please convert three quarters micro meters per hours to speed of light
+UnitconvEst: kolm veerand mikro meetrit tunnis valgus kiirustes
+
+UnitconvApp: convert 0.75 mi to ft
+UnitconvEng: please convert three quarters miles to feet
+UnitconvEst: kolm veerand miili jalgades
+
+UnitconvApp: convert 0.75 dam to yd
+UnitconvEng: please convert three quarters deka meters to yards
+UnitconvEst: kolm veerand deka meetrit jardides
+
+UnitconvApp: convert 0.75 Gt to t
+UnitconvEng: please convert three quarters giga tons to tons
+UnitconvEst: kolm veerand giga tonni tonnides
+
+UnitconvApp: convert 0.75 min to µs
+UnitconvEng: please convert three quarters minutes to micro seconds
+UnitconvEst: kolm veerand minutit mikro sekundites
+
+UnitconvApp: convert 0.75 µcup_us to mpt
+UnitconvEng: please convert three quarters micro cups to milli pints
+UnitconvEst: kolm veerand mikro tassi milli pintides
+
+UnitconvApp: convert 0.75 pt to m^3
+UnitconvEng: please convert three quarters pints to cubic meters
+UnitconvEst: kolm veerand pinti kuup meetrites

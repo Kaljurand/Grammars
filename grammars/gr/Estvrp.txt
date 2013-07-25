@@ -1,9 +1,9 @@
 
-EstvrpApp: 1 7 0 y g ü
-EstvrpEst: üks seitse null igrek gustav ülle
+EstvrpApp: 1 4 3 l b k
+EstvrpEst: üks neli kolm linda berta kalle
 
-EstvrpApp: 8 5 6 x i c
-EstvrpEst: kaheksa viis kuus iks iida tseesar
+EstvrpApp: 4 7 5 m d p
+EstvrpEst: neli seitse viis mati daavid paul
 
-EstvrpApp: 8 8 0 o d v
-EstvrpEst: kaheksa kaheksa null oskar daavid viktor
+EstvrpApp: 8 9 4 l s s
+EstvrpEst: kaheksa üheksa neli linda salme salme

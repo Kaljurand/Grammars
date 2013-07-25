@@ -10,18 +10,22 @@ Compiling the website
 
 	make-pgf.sh
 
-	make dg_Action
+	make dg_Action_png
 
 	git checkout gh-pages
 
-	cp gf/build/gr/* grammars/gr/
+	# Update automatically generated input examples
+	bash copy_gr.bash
 
+	# Update PGF files
 	cp gf/*.pgf grammars/pgf/
 
+	# Update documentation
 	cp gf/Action.png images/
-
 	vim index.html # update the date and the commit ID
+	xmllint index.html
 
+	# Publish
 	git commit -a
 
 	git push

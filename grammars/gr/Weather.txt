@@ -1,0 +1,9 @@
+
+WeatherApp: weather Jäneda , Estonia
+WeatherEst: ilma teade Jäneda
+
+WeatherApp: weather Jüriküla , Estonia
+WeatherEst: ilma teade Jüriküla
+
+WeatherApp: weather Sepu , Estonia
+WeatherEst: ilma teade Sepu

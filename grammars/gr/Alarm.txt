@@ -1,152 +1,148 @@
 
-AlarmApp: alarm in 10 hours and 9 minutes
-AlarmEng: please set the alarm to ten hours and nine minutes
-AlarmEst: ärata mind palun kümme tundi ja üheksa minutit hiljem
+AlarmApp: alarm in 1 hours and 30 minutes
+AlarmEng: please set the alarm to one hours and thirty minutes
+AlarmEst: ärata mind palun üks tundi ja kolm kümmend minutit hiljem
 
-AlarmApp: alarm in 10 hours and 70 minutes
-AlarmEng: please set the alarm to ten hours and seventy minutes
-AlarmEst: ärata mind palun kümme tundi ja seitse kümmend minutit hiljem
+AlarmApp: alarm in 1 hours and 111 minutes
+AlarmEng: please set the alarm to one hours and one hundred and eleven minutes
+AlarmEst: ärata mind palun üks tundi ja sada üks teist minutit hiljem
 
-AlarmApp: alarm in 10 hours and 200 minutes
-AlarmEng: please set the alarm to ten hours and two hundred minutes
-AlarmEst: ärata mind palun kümme tundi ja kaks sada minutit hiljem
+AlarmApp: alarm in 1 hours and 213 minutes
+AlarmEng: please set the alarm to one hours and two hundred and thirteen minutes
+AlarmEst: ärata mind palun üks tundi ja kaks sada kolm teist minutit hiljem
 
-AlarmApp: alarm in 11 hours and 1 minutes
-AlarmEng: please set the alarm to eleven hours and one minutes
-AlarmEst: ärata mind palun üks teist tundi ja üks minutit hiljem
+AlarmApp: alarm in 1 hours and 100 minutes
+AlarmEng: please set the alarm to one hours and one hundred minutes
+AlarmEst: ärata mind palun üks tundi ja sada minutit hiljem
 
-AlarmApp: alarm in 11 hours and 41 minutes
-AlarmEng: please set the alarm to eleven hours and forty one minutes
-AlarmEst: ärata mind palun üks teist tundi ja neli kümmend üks minutit hiljem
+AlarmApp: alarm in 7 hours and 100 minutes
+AlarmEng: please set the alarm to seven hours and one hundred minutes
+AlarmEst: ärata mind palun seitse tundi ja sada minutit hiljem
 
-AlarmApp: alarm in 11 hours and 67 minutes
-AlarmEng: please set the alarm to eleven hours and sixty seven minutes
-AlarmEst: ärata mind palun üks teist tundi ja kuus kümmend seitse minutit hiljem
+AlarmApp: alarm in 10 hours and 44 minutes
+AlarmEng: please set the alarm to ten hours and forty four minutes
+AlarmEst: ärata mind palun kümme tundi ja neli kümmend neli minutit hiljem
 
-AlarmApp: alarm in 11 hours and 500 minutes
-AlarmEng: please set the alarm to eleven hours and five hundred minutes
-AlarmEst: ärata mind palun üks teist tundi ja viis sada minutit hiljem
+AlarmApp: alarm in 10 hours and 49 minutes
+AlarmEng: please set the alarm to ten hours and forty nine minutes
+AlarmEst: ärata mind palun kümme tundi ja neli kümmend üheksa minutit hiljem
 
-AlarmApp: alarm in 60 hours and 611 minutes
-AlarmEng: please set the alarm to sixty hours and six hundred and eleven minutes
-AlarmEst: ärata mind palun kuus kümmend tundi ja kuus sada üks teist minutit hiljem
+AlarmApp: alarm in 11 hours and 60 minutes
+AlarmEng: please set the alarm to eleven hours and sixty minutes
+AlarmEst: ärata mind palun üks teist tundi ja kuus kümmend minutit hiljem
 
-AlarmApp: alarm in 90 hours and 56 minutes
-AlarmEng: please set the alarm to ninety hours and fifty six minutes
-AlarmEst: ärata mind palun üheksa kümmend tundi ja viis kümmend kuus minutit hiljem
+AlarmApp: alarm in 11 hours and 908 minutes
+AlarmEng: please set the alarm to eleven hours and nine hundred and eight minutes
+AlarmEst: ärata mind palun üks teist tundi ja üheksa sada kaheksa minutit hiljem
 
-AlarmApp: alarm in 48 hours and 50 minutes
-AlarmEng: please set the alarm to forty eight hours and fifty minutes
-AlarmEst: ärata mind palun neli kümmend kaheksa tundi ja viis kümmend minutit hiljem
+AlarmApp: alarm in 11 hours and 800 minutes
+AlarmEng: please set the alarm to eleven hours and eight hundred minutes
+AlarmEst: ärata mind palun üks teist tundi ja kaheksa sada minutit hiljem
 
-AlarmApp: alarm in 75 hours and 611 minutes
-AlarmEng: please set the alarm to seventy five hours and six hundred and eleven minutes
-AlarmEst: ärata mind palun seitse kümmend viis tundi ja kuus sada üks teist minutit hiljem
+AlarmApp: alarm in 50 hours and 101 minutes
+AlarmEng: please set the alarm to fifty hours and one hundred and one minutes
+AlarmEst: ärata mind palun viis kümmend tundi ja sada üks minutit hiljem
 
-AlarmApp: alarm in 81 hours and 1 minutes
-AlarmEng: please set the alarm to eighty one hours and one minutes
-AlarmEst: ärata mind palun kaheksa kümmend üks tundi ja üks minutit hiljem
+AlarmApp: alarm in 70 hours and 700 minutes
+AlarmEng: please set the alarm to seventy hours and seven hundred minutes
+AlarmEst: ärata mind palun seitse kümmend tundi ja seitse sada minutit hiljem
 
-AlarmApp: alarm in 12 hours and 100 minutes
-AlarmEng: please set the alarm to twelve hours and one hundred minutes
-AlarmEst: ärata mind palun kaks teist tundi ja sada minutit hiljem
+AlarmApp: alarm in 80 hours and 51 minutes
+AlarmEng: please set the alarm to eighty hours and fifty one minutes
+AlarmEst: ärata mind palun kaheksa kümmend tundi ja viis kümmend üks minutit hiljem
 
-AlarmApp: alarm in 13 hours and 116 minutes
-AlarmEng: please set the alarm to thirteen hours and one hundred and sixteen minutes
-AlarmEst: ärata mind palun kolm teist tundi ja sada kuus teist minutit hiljem
+AlarmApp: alarm in 78 hours and 90 minutes
+AlarmEng: please set the alarm to seventy eight hours and ninety minutes
+AlarmEst: ärata mind palun seitse kümmend kaheksa tundi ja üheksa kümmend minutit hiljem
 
-AlarmApp: alarm in 13 hours and 100 minutes
-AlarmEng: please set the alarm to thirteen hours and one hundred minutes
-AlarmEst: ärata mind palun kolm teist tundi ja sada minutit hiljem
+AlarmApp: alarm in 13 hours and 200 minutes
+AlarmEng: please set the alarm to thirteen hours and two hundred minutes
+AlarmEst: ärata mind palun kolm teist tundi ja kaks sada minutit hiljem
 
-AlarmApp: alarm in 14 hours and 60 minutes
-AlarmEng: please set the alarm to fourteen hours and sixty minutes
-AlarmEst: ärata mind palun neli teist tundi ja kuus kümmend minutit hiljem
+AlarmApp: alarm in 16 hours and 1 minutes
+AlarmEng: please set the alarm to sixteen hours and one minutes
+AlarmEst: ärata mind palun kuus teist tundi ja üks minutit hiljem
 
-AlarmApp: alarm in 14 hours and 400 minutes
-AlarmEng: please set the alarm to fourteen hours and four hundred minutes
-AlarmEst: ärata mind palun neli teist tundi ja neli sada minutit hiljem
+AlarmApp: alarm in 17 hours and 170 minutes
+AlarmEng: please set the alarm to seventeen hours and one hundred and seventy minutes
+AlarmEst: ärata mind palun seitse teist tundi ja sada seitse kümmend minutit hiljem
 
-AlarmApp: alarm in 17 hours and 11 minutes
-AlarmEng: please set the alarm to seventeen hours and eleven minutes
-AlarmEst: ärata mind palun seitse teist tundi ja üks teist minutit hiljem
+AlarmApp: alarm in 19 hours and 100 minutes
+AlarmEng: please set the alarm to nineteen hours and one hundred minutes
+AlarmEst: ärata mind palun üheksa teist tundi ja sada minutit hiljem
 
 AlarmApp: alarm in 1 minutes
 AlarmEng: please set the alarm to one minutes
 AlarmEst: ärata mind palun üks minutit hiljem
 
-AlarmApp: alarm in 3 minutes
-AlarmEng: please set the alarm to three minutes
-AlarmEst: ärata mind palun kolm minutit hiljem
+AlarmApp: alarm in 6 minutes
+AlarmEng: please set the alarm to six minutes
+AlarmEst: ärata mind palun kuus minutit hiljem
 
-AlarmApp: alarm in 8 minutes
-AlarmEng: please set the alarm to eight minutes
-AlarmEst: ärata mind palun kaheksa minutit hiljem
-
-AlarmApp: alarm in 20 minutes
-AlarmEng: please set the alarm to twenty minutes
-AlarmEst: ärata mind palun kaks kümmend minutit hiljem
+AlarmApp: alarm in 9 minutes
+AlarmEng: please set the alarm to nine minutes
+AlarmEst: ärata mind palun üheksa minutit hiljem
 
 AlarmApp: alarm in 30 minutes
 AlarmEng: please set the alarm to thirty minutes
 AlarmEst: ärata mind palun kolm kümmend minutit hiljem
 
-AlarmApp: alarm in 50 minutes
-AlarmEng: please set the alarm to fifty minutes
-AlarmEst: ärata mind palun viis kümmend minutit hiljem
+AlarmApp: alarm in 90 minutes
+AlarmEng: please set the alarm to ninety minutes
+AlarmEst: ärata mind palun üheksa kümmend minutit hiljem
+
+AlarmApp: alarm in 21 minutes
+AlarmEng: please set the alarm to twenty one minutes
+AlarmEst: ärata mind palun kaks kümmend üks minutit hiljem
+
+AlarmApp: alarm in 23 minutes
+AlarmEng: please set the alarm to twenty three minutes
+AlarmEst: ärata mind palun kaks kümmend kolm minutit hiljem
 
 AlarmApp: alarm in 81 minutes
 AlarmEng: please set the alarm to eighty one minutes
 AlarmEst: ärata mind palun kaheksa kümmend üks minutit hiljem
 
-AlarmApp: alarm in 91 minutes
-AlarmEng: please set the alarm to ninety one minutes
-AlarmEst: ärata mind palun üheksa kümmend üks minutit hiljem
+AlarmApp: alarm in 16 minutes
+AlarmEng: please set the alarm to sixteen minutes
+AlarmEst: ärata mind palun kuus teist minutit hiljem
 
-AlarmApp: alarm in 12 minutes
-AlarmEng: please set the alarm to twelve minutes
-AlarmEst: ärata mind palun kaks teist minutit hiljem
+AlarmApp: alarm in 18 minutes
+AlarmEng: please set the alarm to eighteen minutes
+AlarmEst: ärata mind palun kaheksa teist minutit hiljem
 
-AlarmApp: alarm in 15 minutes
-AlarmEng: please set the alarm to fifteen minutes
-AlarmEst: ärata mind palun viis teist minutit hiljem
+AlarmApp: alarm in 115 minutes
+AlarmEng: please set the alarm to one hundred and fifteen minutes
+AlarmEst: ärata mind palun sada viis teist minutit hiljem
 
-AlarmApp: alarm in 19 minutes
-AlarmEng: please set the alarm to nineteen minutes
-AlarmEst: ärata mind palun üheksa teist minutit hiljem
+AlarmApp: alarm in 361 minutes
+AlarmEng: please set the alarm to three hundred and sixty one minutes
+AlarmEst: ärata mind palun kolm sada kuus kümmend üks minutit hiljem
 
-AlarmApp: alarm in 101 minutes
-AlarmEng: please set the alarm to one hundred and one minutes
-AlarmEst: ärata mind palun sada üks minutit hiljem
-
-AlarmApp: alarm in 119 minutes
-AlarmEng: please set the alarm to one hundred and nineteen minutes
-AlarmEst: ärata mind palun sada üheksa teist minutit hiljem
-
-AlarmApp: alarm in 510 minutes
-AlarmEng: please set the alarm to five hundred and ten minutes
-AlarmEst: ärata mind palun viis sada kümme minutit hiljem
+AlarmApp: alarm in 611 minutes
+AlarmEng: please set the alarm to six hundred and eleven minutes
+AlarmEst: ärata mind palun kuus sada üks teist minutit hiljem
 
 AlarmApp: alarm in 200 minutes
 AlarmEng: please set the alarm to two hundred minutes
 AlarmEst: ärata mind palun kaks sada minutit hiljem
 
-AlarmApp: alarm in 600 minutes
-AlarmEng: please set the alarm to six hundred minutes
-AlarmEst: ärata mind palun kuus sada minutit hiljem
+AlarmApp: alarm in 300 minutes
+AlarmEng: please set the alarm to three hundred minutes
+AlarmEst: ärata mind palun kolm sada minutit hiljem
 
-AlarmApp: alarm in 800 minutes
-AlarmEng: please set the alarm to eight hundred minutes
-AlarmEst: ärata mind palun kaheksa sada minutit hiljem
+AlarmApp: alarm in 400 minutes
+AlarmEng: please set the alarm to four hundred minutes
+AlarmEst: ärata mind palun neli sada minutit hiljem
 
-AlarmApp: alarm 02 : 14
-AlarmEng: please set the alarm to two fourteen
-AlarmEst: ärata mind palun kell kaks neli teist
+AlarmApp: alarm 10 : 41
+AlarmEng: please set the alarm to ten forty one
+AlarmEst: ärata mind palun kell kümme neli kümmend üks
 
-AlarmApp: alarm 10 : 37
-AlarmEng: please set the alarm to ten thirty seven
-AlarmEst: ärata mind palun kell kümme kolm kümmend seitse
+AlarmApp: alarm 17 : 15
+AlarmEng: please set the alarm to seventeen fifteen
+AlarmEst: ärata mind palun kell seitse teist viis teist
 
-AlarmApp: alarm 21 : 35
-AlarmEng: please set the alarm to twenty one thirty five
-AlarmEst: ärata mind palun kell kaks kümmend üks kolm kümmend viis
+AlarmApp: alarm 19 : 33
+AlarmEng: please set the alarm to nineteen thirty three
+AlarmEst: ärata mind palun kell üheksa teist kolm kümmend kolm

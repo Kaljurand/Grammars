@@ -1,18 +1,18 @@
 
-SymbolsApp: 2 6
-SymbolsEst: kaks kuus
+SymbolsApp: 3 8 7
+SymbolsEst: kolm kaheksa seitse
 
-SymbolsApp: 4 ž 9 d
-SymbolsEst: neli žeee üheksa daavid
+SymbolsApp: 4 x f 8 o
+SymbolsEst: neli iks eff kaheksa oskar
 
-SymbolsApp: 8 g ö 4 5 2
-SymbolsEst: kaheksa gustav ööbik neli viis kaks
+SymbolsApp: 6
+SymbolsEst: kuus
 
-SymbolsApp: e i 7 0 f
-SymbolsEst: eedu iida seitse null eff
+SymbolsApp: d 9 8
+SymbolsEst: daavid üheksa kaheksa
 
-SymbolsApp: f õ s 3 4
-SymbolsEst: eff õnne salme kolm neli
+SymbolsApp: g z w f 6 c
+SymbolsEst: gustav tsett washington eff kuus tseesar
 
-SymbolsApp: ä
-SymbolsEst: ärni
+SymbolsApp: ž 4 ö 1 8 i
+SymbolsEst: žeee neli ööbik üks kaheksa iida

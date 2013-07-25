@@ -1,144 +1,144 @@
 
-DirectionApp: FROM Holopi , Estonia TO Riida 110 , Tallinn
-DirectionEst: Algus Holopi Lõpp Riida sada kümme Tallinn
+DirectionApp: FROM Kyapa , Estonia TO Palli 31 , Tallinn
+DirectionEst: Algus Kyapa Lõpp Palli kolm kümmend üks Tallinn
 
-DirectionApp: FROM Ilmandu , Estonia TO Roostiku 8 , Tallinn
-DirectionEst: Algus Ilmandu Lõpp Roostiku kaheksa Tallinn
+DirectionApp: FROM Lõimetsa , Estonia TO Vabaõhumuuseumi tee 800 , Tallinn
+DirectionEst: Algus Lõimetsa Lõpp Vabaõhumuuseumi tee kaheksa sada Tallinn
 
-DirectionApp: FROM Lahepera , Estonia TO Suvila , Tallinn
-DirectionEst: Algus Lahepera Lõpp Suvila Tallinn
+DirectionApp: FROM Saueaugu , Estonia TO Saviliiva tee 71 , Tallinn
+DirectionEst: Algus Saueaugu Lõpp Saviliiva tee seitse kümmend üks Tallinn
 
-DirectionApp: FROM Liva , Estonia TO Eerikneeme tee , Tallinn
-DirectionEst: Algus Liva Lõpp Eerikneeme tee Tallinn
+DirectionApp: FROM Georg Otsa , Tallinn TO Luutsniku , Estonia
+DirectionEst: Algus Georg Otsa Tallinn Lõpp Luutsniku
 
-DirectionApp: FROM Meiuste , Estonia TO Võrgukivi 717 , Tallinn
-DirectionEst: Algus Meiuste Lõpp Võrgukivi seitse sada seitse teist Tallinn
+DirectionApp: FROM Ketta , Tallinn TO Põlde 2 , Tallinn
+DirectionEst: Algus Ketta Tallinn Lõpp Põlde kaks Tallinn
 
-DirectionApp: FROM Pirsu , Estonia TO Saabolda , Estonia
-DirectionEst: Algus Pirsu Lõpp Saabolda
+DirectionApp: FROM Laane , Tallinn TO Gümnaasiumi , Tallinn
+DirectionEst: Algus Laane Tallinn Lõpp Gümnaasiumi Tallinn
 
-DirectionApp: FROM Põgari , Estonia TO Kuiv 90 , Tallinn
-DirectionEst: Algus Põgari Lõpp Kuiv üheksa kümmend Tallinn
+DirectionApp: FROM Mõisapõllu , Tallinn TO Ränduri 14 , Tallinn
+DirectionEst: Algus Mõisapõllu Tallinn Lõpp Ränduri neli teist Tallinn
 
-DirectionApp: FROM Seira , Estonia TO Püssirohu 30 , Tallinn
-DirectionEst: Algus Seira Lõpp Püssirohu kolm kümmend Tallinn
+DirectionApp: FROM Rändrahnu tee , Tallinn TO Ravi 170 , Tallinn
+DirectionEst: Algus Rändrahnu tee Tallinn Lõpp Ravi sada seitse kümmend Tallinn
 
-DirectionApp: FROM Uurita , Estonia TO Kurni 18 , Tallinn
-DirectionEst: Algus Uurita Lõpp Kurni kaheksa teist Tallinn
+DirectionApp: FROM Rätsepa tee , Tallinn TO Kiisa 60 , Tallinn
+DirectionEst: Algus Rätsepa tee Tallinn Lõpp Kiisa kuus kümmend Tallinn
 
-DirectionApp: FROM Varni , Estonia TO Manufaktuuri 16 , Tallinn
-DirectionEst: Algus Varni Lõpp Manufaktuuri kuus teist Tallinn
+DirectionApp: FROM Tuha , Tallinn TO Lääneotsa , Estonia
+DirectionEst: Algus Tuha Tallinn Lõpp Lääneotsa
 
-DirectionApp: FROM Madalmaa , Tallinn TO Kiige 700 , Tallinn
-DirectionEst: Algus Madalmaa Tallinn Lõpp Kiige seitse sada Tallinn
+DirectionApp: FROM Tüve , Tallinn TO Paneeli 1 , Tallinn
+DirectionEst: Algus Tüve Tallinn Lõpp Paneeli üks Tallinn
 
-DirectionApp: FROM Meleka , Tallinn TO Palu 57 , Tallinn
-DirectionEst: Algus Meleka Tallinn Lõpp Palu viis kümmend seitse Tallinn
+DirectionApp: FROM Võsara , Tallinn TO Põllu põik 19 , Tallinn
+DirectionEst: Algus Võsara Tallinn Lõpp Põllu põik üheksa teist Tallinn
 
-DirectionApp: FROM Miina Härma , Tallinn TO Kammelja 8 , Tallinn
-DirectionEst: Algus Miina Härma Tallinn Lõpp Kammelja kaheksa Tallinn
+DirectionApp: FROM Puuvilla 10 , Tallinn TO Kessi 21 , Tallinn
+DirectionEst: Algus Puuvilla kümme Tallinn Lõpp Kessi kaks kümmend üks Tallinn
 
-DirectionApp: FROM Paide , Tallinn TO Liimi 12 , Tallinn
-DirectionEst: Algus Paide Tallinn Lõpp Liimi kaks teist Tallinn
+DirectionApp: FROM Lehise 11 , Tallinn TO Viimsi tee 1 , Tallinn
+DirectionEst: Algus Lehise üks teist Tallinn Lõpp Viimsi tee üks Tallinn
 
-DirectionApp: FROM Pilviku , Tallinn TO Liblika 81 , Tallinn
-DirectionEst: Algus Pilviku Tallinn Lõpp Liblika kaheksa kümmend üks Tallinn
+DirectionApp: FROM Suurtüki 20 , Tallinn TO Altnurga , Estonia
+DirectionEst: Algus Suurtüki kaks kümmend Tallinn Lõpp Altnurga
 
-DirectionApp: FROM Rahukohtu , Tallinn TO Paekivi 70 , Tallinn
-DirectionEst: Algus Rahukohtu Tallinn Lõpp Paekivi seitse kümmend Tallinn
+DirectionApp: FROM Rabaveere 46 , Tallinn TO Hallikivi 60 , Tallinn
+DirectionEst: Algus Rabaveere neli kümmend kuus Tallinn Lõpp Hallikivi kuus kümmend Tallinn
 
-DirectionApp: FROM Veerenni põik , Tallinn TO Mäepealse , Tallinn
-DirectionEst: Algus Veerenni põik Tallinn Lõpp Mäepealse Tallinn
+DirectionApp: FROM Nurmiku põik 14 , Tallinn TO Risti 107 , Tallinn
+DirectionEst: Algus Nurmiku põik neli teist Tallinn Lõpp Risti sada seitse Tallinn
 
-DirectionApp: FROM Suur-Karja 38 , Tallinn TO Piibri 300 , Tallinn
-DirectionEst: Algus Suur-Karja kolm kümmend kaheksa Tallinn Lõpp Piibri kolm sada Tallinn
+DirectionApp: FROM Valve 16 , Tallinn TO Hõbekuuse tee , Tallinn
+DirectionEst: Algus Valve kuus teist Tallinn Lõpp Hõbekuuse tee Tallinn
 
-DirectionApp: FROM Lehe 91 , Tallinn TO Kotlepi 27 , Tallinn
-DirectionEst: Algus Lehe üheksa kümmend üks Tallinn Lõpp Kotlepi kaks kümmend seitse Tallinn
+DirectionApp: FROM Reisijate 290 , Tallinn TO Valli 200 , Tallinn
+DirectionEst: Algus Reisijate kaks sada üheksa kümmend Tallinn Lõpp Valli kaks sada Tallinn
 
-DirectionApp: FROM Mait Metsanurga 19 , Tallinn TO Valve 600 , Tallinn
-DirectionEst: Algus Mait Metsanurga üheksa teist Tallinn Lõpp Valve kuus sada Tallinn
+DirectionApp: FROM Metsniku tee 100 , Tallinn TO Tartu maantee 614 , Tallinn
+DirectionEst: Algus Metsniku tee sada Tallinn Lõpp Tartu maantee kuus sada neli teist Tallinn
 
-DirectionApp: FROM Raua põik 808 , Tallinn TO Hurmi , Estonia
-DirectionEst: Algus Raua põik kaheksa sada kaheksa Tallinn Lõpp Hurmi
+DirectionApp: FROM Võsa tee 100 , Tallinn TO Ratta , Tallinn
+DirectionEst: Algus Võsa tee sada Tallinn Lõpp Ratta Tallinn
 
-DirectionApp: FROM Tehnika 810 , Tallinn TO Kaevu 1 , Tallinn
-DirectionEst: Algus Tehnika kaheksa sada kümme Tallinn Lõpp Kaevu üks Tallinn
+DirectionApp: FROM Voolu 200 , Tallinn TO Köie 700 , Tallinn
+DirectionEst: Algus Voolu kaks sada Tallinn Lõpp Köie seitse sada Tallinn
 
-DirectionApp: FROM Mõigu 100 , Tallinn TO Võerdla , Estonia
-DirectionEst: Algus Mõigu sada Tallinn Lõpp Võerdla
+DirectionApp: FROM Merihärja 600 , Tallinn TO Narva maantee 16 , Tallinn
+DirectionEst: Algus Merihärja kuus sada Tallinn Lõpp Narva maantee kuus teist Tallinn
 
-DirectionApp: FROM Kagu 200 , Tallinn TO Joone 104 , Tallinn
-DirectionEst: Algus Kagu kaks sada Tallinn Lõpp Joone sada neli Tallinn
+DirectionApp: FROM Piiritsa 900 , Tallinn TO Tüve 20 , Tallinn
+DirectionEst: Algus Piiritsa üheksa sada Tallinn Lõpp Tüve kaks kümmend Tallinn
 
-DirectionApp: Harmi , Estonia
-DirectionEst: Harmi
+DirectionApp: Jõempa , Estonia
+DirectionEst: Jõempa
 
-DirectionApp: Lante , Estonia
-DirectionEst: Lante
+DirectionApp: Nutu , Estonia
+DirectionEst: Nutu
 
-DirectionApp: Varese , Estonia
-DirectionEst: Varese
+DirectionApp: Velise , Estonia
+DirectionEst: Velise
 
-DirectionApp: Pilve , Tallinn
-DirectionEst: Pilve Tallinn
+DirectionApp: Alevi , Tallinn
+DirectionEst: Alevi Tallinn
 
-DirectionApp: Roseni , Tallinn
-DirectionEst: Roseni Tallinn
+DirectionApp: Õie , Tallinn
+DirectionEst: Õie Tallinn
 
-DirectionApp: Uuepere , Tallinn
-DirectionEst: Uuepere Tallinn
+DirectionApp: Soolahe tee , Tallinn
+DirectionEst: Soolahe tee Tallinn
 
-DirectionApp: Tala 5 , Tallinn
-DirectionEst: Tala viis Tallinn
+DirectionApp: Võra tee 1 , Tallinn
+DirectionEst: Võra tee üks Tallinn
 
-DirectionApp: Karuse 7 , Tallinn
-DirectionEst: Karuse seitse Tallinn
+DirectionApp: Lodumetsa tee 4 , Tallinn
+DirectionEst: Lodumetsa tee neli Tallinn
 
-DirectionApp: Vaikne 8 , Tallinn
-DirectionEst: Vaikne kaheksa Tallinn
+DirectionApp: Seedri 9 , Tallinn
+DirectionEst: Seedri üheksa Tallinn
 
-DirectionApp: Ploomi 50 , Tallinn
-DirectionEst: Ploomi viis kümmend Tallinn
+DirectionApp: Astri 50 , Tallinn
+DirectionEst: Astri viis kümmend Tallinn
 
-DirectionApp: Külmallika põik 70 , Tallinn
-DirectionEst: Külmallika põik seitse kümmend Tallinn
+DirectionApp: Karl August Hermanni 50 , Tallinn
+DirectionEst: Karl August Hermanni viis kümmend Tallinn
 
-DirectionApp: Naeri 90 , Tallinn
-DirectionEst: Naeri üheksa kümmend Tallinn
+DirectionApp: Kaisla 80 , Tallinn
+DirectionEst: Kaisla kaheksa kümmend Tallinn
 
-DirectionApp: Kallaste 21 , Tallinn
-DirectionEst: Kallaste kaks kümmend üks Tallinn
+DirectionApp: Pakase 21 , Tallinn
+DirectionEst: Pakase kaks kümmend üks Tallinn
 
-DirectionApp: Tuhkru 73 , Tallinn
-DirectionEst: Tuhkru seitse kümmend kolm Tallinn
+DirectionApp: Pille 61 , Tallinn
+DirectionEst: Pille kuus kümmend üks Tallinn
 
-DirectionApp: Nulu 94 , Tallinn
-DirectionEst: Nulu üheksa kümmend neli Tallinn
+DirectionApp: Punane 71 , Tallinn
+DirectionEst: Punane seitse kümmend üks Tallinn
 
-DirectionApp: Kelluka tee 16 , Tallinn
-DirectionEst: Kelluka tee kuus teist Tallinn
+DirectionApp: Mai põik 13 , Tallinn
+DirectionEst: Mai põik kolm teist Tallinn
 
-DirectionApp: Kotzebue 18 , Tallinn
-DirectionEst: Kotzebue kaheksa teist Tallinn
+DirectionApp: Oksa 18 , Tallinn
+DirectionEst: Oksa kaheksa teist Tallinn
 
-DirectionApp: Västriku 18 , Tallinn
-DirectionEst: Västriku kaheksa teist Tallinn
+DirectionApp: Vana-Tartu maantee 19 , Tallinn
+DirectionEst: Vana-Tartu maantee üheksa teist Tallinn
 
-DirectionApp: Reketi 110 , Tallinn
-DirectionEst: Reketi sada kümme Tallinn
+DirectionApp: Piiri 113 , Tallinn
+DirectionEst: Piiri sada kolm teist Tallinn
 
-DirectionApp: Tõusu tee 510 , Tallinn
-DirectionEst: Tõusu tee viis sada kümme Tallinn
+DirectionApp: Jugapuu tee 511 , Tallinn
+DirectionEst: Jugapuu tee viis sada üks teist Tallinn
 
-DirectionApp: Leina 626 , Tallinn
-DirectionEst: Leina kuus sada kaks kümmend kuus Tallinn
+DirectionApp: Värvi 701 , Tallinn
+DirectionEst: Värvi seitse sada üks Tallinn
 
-DirectionApp: Haljas tee 600 , Tallinn
-DirectionEst: Haljas tee kuus sada Tallinn
+DirectionApp: Hiidtamme 400 , Tallinn
+DirectionEst: Hiidtamme neli sada Tallinn
 
-DirectionApp: Põhjakaare 600 , Tallinn
-DirectionEst: Põhjakaare kuus sada Tallinn
+DirectionApp: Muuluka 400 , Tallinn
+DirectionEst: Muuluka neli sada Tallinn
 
-DirectionApp: Tuki 600 , Tallinn
-DirectionEst: Tuki kuus sada Tallinn
+DirectionApp: Kiili 800 , Tallinn
+DirectionEst: Kiili kaheksa sada Tallinn
