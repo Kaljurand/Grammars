@@ -11,7 +11,7 @@ Examples
 Different grammars support different sets of languages, which must
 be specified when the grammar is registered, e.g.
 
-  - Est,Eng: Action Alarm Calc Expr Go Unitconv
+  - Est,Eng: Action Alarm Calc ArithExpr Go Unitconv
   - Est: Direction Estvrp Symbols Tallinndirection
 
 Commandline examples:
@@ -32,13 +32,11 @@ Examples of possible error conditions:
 
 Examples of registration speeds:
 
-	Action: 47.09 sec: Request completed
-	Alarm: 1.79 sec: Request completed
-	Calc: 36.91 sec: Request completed
-	Expr: 8.51 sec: Request completed
-	Go: 1.41 sec: Request completed
-	Unitconv: 3.06 sec: Request completed
-	Direction: 10.77 sec: Request completed
-	Estvrp: 1.32 sec: Request completed
-	Symbols: 1.45 sec: Request completed
-	Tallinndirection: 3.96 sec: Request completed
+	Action (Est): 17 sec
+	Action (Eng): 11 sec
+	Alarm (Est,Eng): 3 sec
+	Calc (Eng): 5 sec
+	Expr (Est,Eng): 8 sec
+	Unitconv (Est,Eng): 5 sec
+	Direction (Est): 10 sec
+	Tallinndirection (Est): 4 sec

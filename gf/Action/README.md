@@ -10,6 +10,7 @@ The current components are:
   - Calc (Est, Eng)
   - Dial (Est, Eng)
   - Direction (Est)
+  - Weather (Est)
 
 TODO: generate this grammar automatically based on a small
 configuration file that just lists the desired abstract modules and

@@ -16,18 +16,26 @@ all: help
 help:
 	@echo Targets:
 	@echo
-	@echo "  dg_Action:    draws module hierarchy diagram"
+	@echo "  dg_Action_eog:  displays module hierarchy diagram for the Action-grammar"
+	@echo "  dg_Action_png:  saves module hierarchy diagram for the Action-grammar as PNG"
+	@echo "  fsg:          converts all PGFs to FSGs"
 	@echo "  build_Action: builds PGF of Action grammar"
 	@echo "  ..."
 
 fsg:
 	../tools/allpgf-to-fsg.bash . build/fsg
 
-dg_Action:
+dg_Action_dot:
 	echo "dg -only=$(modules_Action)" | $(gf_retain) $(foreach lang,$(langs),Action/Action$(lang).gf)
+
+dg_Action_eog: dg_Action_dot
+	dot -Tsvg $(gfdepgraph) > Action.svg
+	rm $(gfdepgraph)
+	eog Action.svg
+
+dg_Action_png: dg_Action_dot
 	dot -Tpng $(gfdepgraph) > Action.png
 	rm $(gfdepgraph)
-	eog Action.png
 
 build_Action:
 	$(gf) $(foreach lang,$(langs),Action/Action$(lang).gf)
@@ -67,3 +75,7 @@ build_Weather:
 
 commit:
 	git commit -a -m "f"
+
+clean:
+	find -name "*.gfo" | xargs rm -f
+	find -name "*.pgf" | xargs rm -f
