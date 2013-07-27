@@ -40,6 +40,8 @@ translations = (
 	('Ä', 'Auml'),
 	('Ö', 'Ouml'),
 	('Ü', 'Uuml'),
+	('ž', 'zcaron'),
+	('Ž', 'Zcaron'),
 )
 
 
@@ -82,7 +84,7 @@ for line in sys.stdin.readlines():
 	line_val = line
 	for from_str, to_str in translations:
 		line_key = line_key.replace(from_str, to_str)
-	if not re.match('^[a-zA-Z0-9\'_]+$', line_key):
+	if not re.match('^[a-zA-ZžŽ0-9\'_]+$', line_key):
 		print >> sys.stderr, 'Warning: Ignoring line {:}: {:}'.format(i, line)
 	else:
 		line_key = args.name + "__" + line_key

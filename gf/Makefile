@@ -70,6 +70,9 @@ build_Dial:
 build_Alarm:
 	$(gf) $(foreach lang,$(langs),Alarm/Alarm$(lang).gf)
 
+build_Tallinndirection:
+	$(gf) $(foreach lang,$(langs1),Tallinndirection/Tallinndirection$(lang).gf)
+
 build_Weather:
 	$(gf) $(foreach lang,$(langs1),Weather/Weather$(lang).gf)
 
