@@ -11,8 +11,10 @@ dict=dict
 
 tools=../tools/
 
-jsgf_langs="Est Eng"
+jsgf_langs="Eng Est"
 dict_langs="Est"
+
+rm -r ${test_out_dir}
 
 time_start=`date +%s`
 for pgf in *.pgf; do
@@ -22,14 +24,18 @@ for pgf in *.pgf; do
 	echo "$name";
 	dir="${test_out_dir}/${name}"
 	mkdir -p $dir
+	report="${dir}/${name}.report"
+
+	# TODO: do not create JSGF for irrelevant languages
 	echo "  $jsgf";
-	gf --make --quiet --output-format=${jsgf} --output-dir ${dir} $pgf
-	# TODO: delete irrelevant languages
+	/usr/bin/time -f'PGF->JSGF: %E' -a -o ${report} gf --make --quiet --output-format=${jsgf} --output-dir ${dir} $pgf
+
 	echo "  $dict";
 	for lang in $dict_langs; do
 		conc="${dir}/${name}${lang}"
 		sh ${tools}/pgf-to-dict.sh ${pgf} ${lang} > ${conc}.${dict}
 	done
+
 	if [ -r ${name}/test.sh ]
 	then
 		echo "  testing";
@@ -37,6 +43,17 @@ for pgf in *.pgf; do
 		sh test.sh > ../${dir}/${name}.out;
 		cd ..
 	fi
+
+	echo "  fsg";
+	for lang in $jsgf_langs; do
+		conc="${dir}/${name}${lang}"
+		concjsgf="${dir}/${name}${lang}.jsgf"
+		if [ -r ${concjsgf} ]
+		then
+			/usr/bin/time -f'%E' -a -o ${report} ${tools}/jsgf-to-fsg.bash ${concjsgf} $dir
+			wc -l ${conc}.fsg >> ${report}
+		fi
+	done
 done
 diff -r ${test_gold_dir} ${test_out_dir}
 time_end=`date +%s`
