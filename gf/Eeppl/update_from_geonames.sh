@@ -8,4 +8,4 @@ unzip -p ${zip} EE.txt | cut -f2,8 | grep PPL | cut -f1 | sort | uniq | python $
 
 count=$(cat Eeppl.gf | grep "Eeppl__" | wc -l)
 
-echo "Number of places: $count"
+echo "Number of place names: $count"

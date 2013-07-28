@@ -55,7 +55,7 @@ for pgf in *.pgf; do
 		fi
 	done
 done
-diff -r ${test_gold_dir} ${test_out_dir}
+diff -r -x *.fsm -x *.fsg -x *.sym ${test_gold_dir} ${test_out_dir}
 time_end=`date +%s`
 time_elapsed=$((time_end - time_start))
 echo "Duration: $time_elapsed sec (" $(( time_elapsed / 60 ))m $(( time_elapsed % 60 ))s ")"
