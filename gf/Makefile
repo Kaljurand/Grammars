@@ -5,7 +5,7 @@ langs = App Est Eng
 langs1 = App Est
 
 # Modules reachable from Action
-modules_Action=Action,Address,Alarm,ArithExpr,Calc,Currency,Date,Dial,Digit,Direction,Eeppl,Estvrp,Expr,Fraction,Go,Letter,Numeral,Prefix,Symbols,Tallinnaddress,Tallinndirection,Town,Unit,Unitconv,Weather
+modules_Action=Action,Address,Alarm,ArithExpr,Calc,Currency,Date,Dial,Digit,Direction,Eeppl,Estvrp,Expr,Fraction,Go,Letter,Numeral,Prefix,Symbols,Tallinnaddress,Tallinndirection,Unit,Unitconv,Weather
 
 gf = gf --make --optimize-pgf --mk-index --path=$(path)
 gf_retain = gf --run --retain --path=$(path)
@@ -36,6 +36,9 @@ dg_Action_eog: dg_Action_dot
 dg_Action_png: dg_Action_dot
 	dot -Tpng $(gfdepgraph) > Action.png
 	rm $(gfdepgraph)
+
+show_test_results:
+	diff -r -x *.fsm -x *.fsg -x *.sym test_gold/ build/test_out/
 
 build_Action:
 	$(gf) $(foreach lang,$(langs),Action/Action$(lang).gf)

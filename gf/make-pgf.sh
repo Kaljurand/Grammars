@@ -10,7 +10,7 @@ echo "Making output directories"
 mkdir -p ${dir_gr}
 mkdir -p ${dir_pgf}
 
-grammars=(Action Alarm ArithExpr Calc Dial Digit Direction Estvrp Expr Go Letter Symbols Tallinndirection Unitconv Unitconvext Weather)
+grammars=(Action Address Alarm ArithExpr Calc Dial Digit Direction Estvrp Expr Go Letter Symbols Tallinndirection Unitconv Weather)
 
 echo "Building PGF files..."
 for grammar in "${grammars[@]}"; do
@@ -21,6 +21,6 @@ for grammar in "${grammars[@]}"; do
 	gf -s --make --optimize-pgf --mk-index --path $path --output-dir ${dir_pgf} ${grammar}/${grammar}*.gf
 	echo "    generate";
 	# TODO: This requires GF-Utils, skip if they do not exist
-	bash generate.bash ${grammar}.pgf ${grammar} ${dir_gr}/${grammar}
+	#bash generate.bash ${grammar}.pgf ${grammar} ${dir_gr}/${grammar}
 done
 echo "done."

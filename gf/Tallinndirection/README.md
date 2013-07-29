@@ -1,14 +1,8 @@
 Tallinndirection
 ================
 
-Compiling
----------
-
-    gf -s --make --optimize-pgf --mk-index --path "Tallinnaddress:Numeral:lib" Tallinndirection/Tallinndirection*.gf
-
 Languages
 ---------
-
 
 ### Edwin
 

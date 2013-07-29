@@ -1,4 +1,4 @@
-concrete AddressApp of Address = EepplEst, TownEst, TallinnstreetEst, NumeralApp ** open StringOper in {
+concrete AddressApp of Address = EepplEst, TallinnstreetEst, TartustreetEst, NumeralApp ** open StringOper in {
 
 -- AddressApp refers to the Google Maps query language
 -- which has the following features:
@@ -13,9 +13,16 @@ flags coding=utf8;
 
 lincat Address, SmallNumeral = SS;
 
+oper
+    estonia = ", Estonia";
+    tallinn = ", Tallinn";
+    tartu = ", Tartu";
+
 lin
 	small_num n = {s = n.s ! noz} ;
-	address0 x = ss (x ++ "," ++ "Estonia");
-	address1 x y = ss (x ++ "," ++ y);
-	address2 x y z = ss (y ++ x.s ++ "," ++ z);
+	address0 x = ss (x ++ estonia);
+	address1 x = ss (x ++ tallinn);
+	address2 x y = ss (y ++ x.s ++ tallinn);
+	tartu1 x = ss (x ++ tartu);
+	tartu2 x y = ss (y ++ x.s ++ tartu);
 }
