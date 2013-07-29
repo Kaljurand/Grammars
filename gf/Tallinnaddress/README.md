@@ -1,18 +1,19 @@
-Tallinnaddress
-==============
+Addresses in Estonian towns
+===========================
 
 Introduction
 ------------
 
-This is a simple grammar for Tallinn's addresses, e.g.
+This is a simple grammar for addresses in Estonian towns, e.g.
 
   - Keskuse 18
   - Estonia puiestee
   - Kanuti aed
 
-covering all Tallinn's street names (~1500) and
+currently covering all Tallinn's street names (~1500) and
+Tartu street names (~470), and
 allowing them to be combined with numbers between 1 and 1000.
-Also, some other place names are included.
+Also, some other place names (e.g. names of parks) are included.
 
 The grammar is simple in the sense that it does not do any geocoding.
 
@@ -27,13 +28,12 @@ i.e. all the input search fields have the default values.
 Last update: 2013-07-27
 
 
-Pre-processing
---------------
+Extracting street names and other place names
+---------------------------------------------
 
-Extracting street names and other place names.
-
-	cat knr.csv | sh filter.sh | python ../tools/make_fun.py --lang Est Tallinnstreet
-	cat knr.csv | sh filter_nonstreet.sh | python ../tools/make_fun.py --lang Est Tallinnplace
+	sh make-city.sh knr.csv Tallinn
+	sh make-city.sh knr.csv Tartu
+	...
 
 
 TODO

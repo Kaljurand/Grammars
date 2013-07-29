@@ -1,0 +1,36 @@
+make_fun="../tools/make_fun.py"
+
+if [ $# -ne 2 ]
+then
+	echo "Usage: `basename $0` <knrfile> <town>"
+	exit 1
+fi
+
+knr=$1
+town=$2
+search="${town} linn"
+
+if [ "$town" = "Tallinn" ]
+then
+	search="Tallinna linn"
+fi
+
+cat ${knr} |\
+grep "${search}" |\
+grep "liiklus" |\
+cut -f2 -d';' |\
+sed -f filter.sed |\
+sort |\
+uniq |\
+python ${make_fun} --lang Est ${town}street
+
+
+cat ${knr} |\
+grep "${search}" |\
+grep -v "liiklus" |\
+cut -f2 -d';' |\
+grep -v "linnaosa" |\
+grep -v "${search}" |\
+sort |\
+uniq |\
+python ${make_fun} --lang Est ${town}place

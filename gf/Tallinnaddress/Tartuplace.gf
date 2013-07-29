@@ -1,0 +1,21 @@
+abstract Tartuplace = {
+flags startcat = Tartuplace;
+cat Tartuplace;
+fun
+Tartuplace__Aardla_raudteepeatus,
+Tartuplace__Anne_kanal,
+Tartuplace__Anne_kanal_I,
+Tartuplace__Anne_kanal_II,
+Tartuplace__Johann_Wilhelm_Friedrich_Hezeli_taumlnav,
+Tartuplace__Kirsi_raudteepeatus,
+Tartuplace__Raadi_jaumlrv,
+Tartuplace__Rebase_paadisadam,
+Tartuplace__Supilinna_tiik,
+Tartuplace__Taumlhtvere_kraav,
+Tartuplace__Tartu_Maarja_kihelkond,
+Tartuplace__Tartu_raudteejaam,
+Tartuplace__Toomemaumlgi,
+Tartuplace__Turusadam,
+Tartuplace__Vabadussild,
+Tartuplace__Vaumlike_Turu_sadam
+: Tartuplace;}
