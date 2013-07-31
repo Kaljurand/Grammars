@@ -45,7 +45,7 @@ build_Action:
 	$(gf) $(foreach lang,$(langs),Action/Action$(lang).gf)
 
 build_Calc:
-	$(gf) $(foreach lang,$(langs),Calc/Calc$(lang).gf)
+	$(gf) $(foreach l,$(langs2),Calc/Calc$(l).gf)
 
 build_Expr:
 	$(gf) $(foreach lang,$(langs),Expr/Expr$(lang).gf)
