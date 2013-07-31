@@ -1,37 +1,36 @@
-GF grammars in speech applications
-==================================
+GF-based speech grammars
+========================
 
 Introduction
 ------------
 
 This document describes how to use GF grammars in speech-enabled applications.
 
-The main idea is that every grammar comes with two concrete syntaxes. One corresponds
-to the spoken input and the other to the desired output, either (1) the language that the user wants
-to eventually see/read or (2) the language (machine code) that an application can
-directly process.
+The main idea is that every grammar comes with 3 types of concrete syntaxes
+which describe the
 
-In case of (1) the "raw" recognizer output will undergo some normalization
+  - input, human-spoken (voice action)
+  - output, machine-spoken (confirmation)
+  - output, machine-executable (evaluation)
 
-  * converting numbers to digits ("two" -> "2"),
-  * converting spoken language to written language ("kakskend obust" -> "kakskümmend hobust")
 
-The user will receive such normalized output and will do something with it (e.g. post it
-to Twitter), sometimes relaunching the recognizer service because the result was incorrect.
+Naming conventions
+------------------
 
-In case of (2) the "raw" output will be converted into some machine code which the user will
-not directly see, but which will be executed by his/her application. To handle the case that
-the recognition result is wrong, the application must
-provide a way to ask the user for a confirmation or allow for an UNDO.
-
-The following gives the technical details of grammar creation and usage by the server.
-The following examples use a grammar called "Go".
-
-TODO: describe also error handling
+  - Alarm: abstract
+  - AlarmApp: concrete for the machine language (App)
+  - AlarmIEst: incomplete concrete for Est and Esttts
+  - AlarmLexEst: interface for Est lexicon, shared by Est and Esttts
+  - AlarmLexEst1: instance for Est
+  - AlarmLexEst2: instance for Esttts
+  - AlarmEst: concrete for input language (human-spoken)
+  - AlarmEsttts: concrete for output language (machine-spoken)
 
 
 Compile time
 ------------
+
+__TODO: update this and the following sections__
 
 The grammar author creates
 
@@ -72,8 +71,6 @@ and extracts from it the spoken input syntax(es) in the JSGF-format
 (TODO: the above commandline converts all the concrete syntaxes into JSGF, how
 to specify that only some have to be converted.)
 
-The resulting JSGF-files need possibly some post-processing: conversion into Latin1-encoding
-and removal of superfluous public-keywords (see the script `make_jsgf.sh`).
 
 
 Run time
@@ -93,7 +90,7 @@ then linearized into all the desired syntaxes.
 
 For example
 
-    echo "parse -lang=GoEst \"${recognizer_output}\"  | linearize -lang=GoApp -bind" | gf --run Go.pgf
+	echo "parse -lang=GoEst \"${recognizer_output}\" | linearize -lang=GoApp -bind" | gf --run Go.pgf
 
 The (simple plain text) linearization is then returned to the client.
 In case more outputs are desired then some container format must be used.
@@ -102,8 +99,8 @@ Note also, that parsing can result in more than one parse tree.
 This is the case when the input is ambiguous, e.g. "2 - 3 - 4" with respect
 to a simple calculator grammar:
 
-    minus : Expr -> Expr -> Expr;
-    number : Number -> Expr;
+	minus : Expr -> Expr -> Expr;
+	number : Number -> Expr;
 
 in case the concrete syntax (which describes the "-" sign) does not specify the associativity.
 As a result of multiple parse trees also multiple linearizations are produced

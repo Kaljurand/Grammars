@@ -3,6 +3,7 @@ path = lib:Numeral:Date:Dial:Digit:Action:Alarm:ArithExpr:Calc:Expr:Fraction:Uni
 
 langs = App Est Eng
 langs1 = App Est
+langs2 = App Est Esttts Eng Engtts
 
 # Modules reachable from Action
 modules_Action=Action,Address,Alarm,ArithExpr,Calc,Currency,Date,Dial,Digit,Direction,Eeppl,Estvrp,Expr,Fraction,Go,Letter,Numeral,Prefix,Symbols,Tallinnaddress,Tallinndirection,Unit,Unitconv,Weather
@@ -71,7 +72,7 @@ build_Dial:
 	$(gf) $(foreach lang,$(langs),Dial/Dial$(lang).gf)
 
 build_Alarm:
-	$(gf) $(foreach lang,$(langs),Alarm/Alarm$(lang).gf)
+	$(gf) $(foreach l,$(langs2),Alarm/Alarm$(l).gf)
 
 build_Tallinndirection:
 	$(gf) $(foreach lang,$(langs1),Tallinndirection/Tallinndirection$(lang).gf)

@@ -20,9 +20,3 @@ The latter would sound much better as
 
 but this requires genitive case endings, which we cannot yet generate for
 numerals.
-
-
-Compiling
----------
-
-    gf -s --make --optimize-pgf --mk-index --path "Date:Numeral:lib" Alarm/Alarm*.gf
