@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # Converts the given JSGF to FSG.
-# Warning: modified the given JSGF! (TODO: fix this)
+# Warning: modifies the given JSGF! (TODO: fix this)
 #
 # Expects the following to be on the PATH:
 #  - sed

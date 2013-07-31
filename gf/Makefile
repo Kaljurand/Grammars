@@ -42,7 +42,7 @@ show_test_results:
 	diff -r -x *.fsm -x *.fsg -x *.sym test_gold/ build/test_out/
 
 build_Action:
-	$(gf) $(foreach lang,$(langs),Action/Action$(lang).gf)
+	$(gf) $(foreach l,$(langs2),Action/Action$(l).gf)
 
 build_Calc:
 	$(gf) $(foreach l,$(langs2),Calc/Calc$(l).gf)
