@@ -1,5 +1,5 @@
 
-path = lib:Numeral:Date:Dial:Digit:Action:Alarm:ArithExpr:Calc:Expr:Fraction:Unitconv:Direction:Address:Eeppl:Tallinnaddress:Weather
+path = lib:Numeral:Date:Dial:Digit:Action:Alarm:ArithExpr:Calc:Expr:Fraction:ISO639:Unitconv:Direction:Address:Eeppl:Tallinnaddress:Uri:Weather
 
 langs = App Est Eng
 langs1 = App Est
@@ -79,6 +79,9 @@ build_Tallinndirection:
 
 build_Weather:
 	$(gf) $(foreach lang,$(langs1),Weather/Weather$(lang).gf)
+
+build_Uri:
+	$(gf) $(foreach lang,$(langs),Uri/Uri$(lang).gf)
 
 commit:
 	git commit -a -m "f"

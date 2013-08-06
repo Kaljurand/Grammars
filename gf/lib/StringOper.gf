@@ -25,6 +25,7 @@ oper
 		glue : (x1,x2,x3 : Str) -> Str = \x1,x2,x3 -> x1 ++ BIND ++ x2 ++ BIND ++ x3;
 		glue : (x1,x2,x3,x4 : Str) -> Str = \x1,x2,x3,x4 -> x1 ++ BIND ++ x2 ++ BIND ++ x3 ++ BIND ++ x4;
 		glue : (x1,x2,x3,x4,x5 : Str) -> Str = \x1,x2,x3,x4,x5 -> x1 ++ BIND ++ x2 ++ BIND ++ x3 ++ BIND ++ x4 ++ BIND ++ x5;
+		glue : (x1,x2,x3,x4,x5,x6 : Str) -> Str = \x1,x2,x3,x4,x5,x6 -> x1 ++ BIND ++ x2 ++ BIND ++ x3 ++ BIND ++ x4 ++ BIND ++ x5 ++ BIND ++ x6;
 	};
 
 	BIND : Str = "&+" ;
