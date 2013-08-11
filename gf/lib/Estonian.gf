@@ -21,7 +21,7 @@ oper
 	};
 
 
-	request : Str -> Str = \x -> (x ++ optStr "palun") | "palun" ++ x;
+	request : Str -> Str = \x -> (x ++ strOpt "palun") | "palun" ++ x;
 
 
 	f3 : Str -> Str -> Str -> CaseStr = \sg1,sg2,pl1 ->

@@ -4,7 +4,7 @@ flags coding=utf8;
 
 oper
 
-	requestSS : SS -> SS = prefixSS (optStr "please") ;
+	requestSS : SS -> SS = prefixSS (strOpt "please") ;
 
     mkUnit = overload {
         mkUnit : (x : Str) -> SS = ss;

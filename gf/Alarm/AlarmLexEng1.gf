@@ -6,10 +6,10 @@ oper
     prep : Str = "to" | "at" | "for" | "in" ;
 
     request_time =
-        optStr "please" ++ ("set" ++ optStr "the" ++ "alarm" ++ prep |
+        strOpt "please" ++ ("set" ++ optStr "the" ++ "alarm" ++ prep |
         "wake me up at") ;
     request_period time =
-        ss ((optStr "please" ++ ("set" ++ optStr "the" ++ ("alarm" | "timer") ++ prep |
-        "wake me up in")) ++ time.s) ;
+        ss ((strOpt "please" ++ ("set" ++ optStr "the" ++ ("alarm" | "timer") ++ prep |
+        "wake me up in")) ++ time.s ++ strOpt "from now") ;
 
 }
