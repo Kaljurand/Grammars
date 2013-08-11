@@ -2,25 +2,12 @@ concrete UnitconvEng of Unitconv = FractionEng, UnitEng ** open StringOper, Engl
 
 flags coding=utf8;
 
-param
-	PhraseType = REQUEST | EXPRESSION ;
-
-oper
-	-- TODO: this got approximated in JSGF
-	-- c : SS -> SS -> { p1:Str; p2:Str } = \x,y -> {p1 = x.s ; p2 = y.s};
-	c : SS -> SS -> PhraseType => Str = \x,y -> table {
-		REQUEST => x.s ++ "to" ++ y.s ;
-		EXPRESSION => x.s ++ "in" ++ y.s
-	} ;
-
-lincat Unitconv = SS; Conv = PhraseType => Str ;
+lincat Unitconv, Conv = SS ;
 
 lin
-	main num conv =
-		requestSS (ss ("convert" ++ num.s ++ conv ! REQUEST)) |
-		ss ((optStr "how much is") ++ num.s ++ conv ! EXPRESSION) ;
+	main num conv = ss (num.s ++ conv.s) ;
 	length, mass, time, temperature, area, volume, angle, frequency,
 	conv_density, conv_speed, conv_acceleration,
-	conv_energy, conv_power, currency = c ;
+	conv_energy, conv_power, currency = infixSS ("in" | "to") ;
 
 }

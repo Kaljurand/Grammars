@@ -1,4 +1,4 @@
 interface CalcLexEst = {
 oper
-request : Str ;
+question : Str ;
 }

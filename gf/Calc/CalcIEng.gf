@@ -2,6 +2,7 @@ incomplete concrete CalcIEng of Calc = ArithExprEng, UnitconvEng ** open CalcLex
 
 lincat Calc = SS;
 lin
-	unitconv = id SS;
-	expr = prefixSS request;
+	unitconv = prefixSS (question | command) ;
+	expr = prefixSS question ;
+
 }
