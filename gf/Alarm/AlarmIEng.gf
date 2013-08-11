@@ -6,11 +6,12 @@ lincat Alarm, HPeriod, MPeriod, Period = SS;
 
 lin
 	alarm_time x = prefixSS request_time x;
-	alarm_period p = ss (request_period ++ p.s);
+	alarm_period = request_period;
 
 	hperiod n = n;
 	mperiod n = n;
 
 	period_h_min h m = ss (h.s ++ "hours and" ++ m.s ++ "minutes");
+	period_h = postfixSS "hours";
 	period_min = postfixSS "minutes";
 }

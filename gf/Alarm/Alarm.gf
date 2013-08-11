@@ -15,5 +15,6 @@ fun
 	mperiod : Sub1000 -> MPeriod;
 
 	period_h_min : HPeriod -> MPeriod -> Period;
+	period_h : HPeriod -> Period;
 	period_min : MPeriod -> Period;
 }

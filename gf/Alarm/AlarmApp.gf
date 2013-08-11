@@ -12,6 +12,7 @@ lin
 	mperiod n = ss (n.s ! noz);
 
 	period_h_min h m = ss (h.s ++ "hours and" ++ m.s ++ "minutes");
+	period_h = postfixSS "hours and 0 minutes";
 	period_min = postfixSS "minutes";
 
 }

@@ -12,6 +12,7 @@ lin
 	mperiod n = ss (n.s ! indep);
 
 	period_h_min h m = ss (h.s ++ "tundi ja" ++ m.s ++ "minutit");
+	period_h = postfixSS "tundi";
 	period_min = postfixSS "minutit";
 
 }
