@@ -83,9 +83,6 @@ build_Weather:
 build_Uri:
 	$(gf) $(foreach lang,$(langs),Uri/Uri$(lang).gf)
 
-commit:
-	git commit -a -m "f"
-
 clean:
 	find -name "*.gfo" | xargs rm -f
 	find -name "*.pgf" | xargs rm -f
