@@ -1,0 +1,17 @@
+Test: s (sA a a)
+TestC1: a a
+
+TestC2: a a
+
+TestC3: a a
+
+
+Test: s (sB b b)
+TestC1: b b
+
+TestC2: b b
+
+TestC3: b b
+
+
+
