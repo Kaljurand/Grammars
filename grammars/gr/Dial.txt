@@ -1,24 +1,24 @@
 
-DialApp: call 1
-DialEng: please call one
-DialEst: helista palun üks
+DialApp: call 2
+DialEng: call two
+DialEst: helista kaks
 
-DialApp: call 3
-DialEng: please call three
-DialEst: helista palun kolm
+DialApp: call 4
+DialEng: call four
+DialEst: helista neli
 
-DialApp: call 7
-DialEng: please call seven
-DialEst: helista palun seitse
+DialApp: call 6
+DialEng: call six
+DialEst: helista kuus
 
-DialApp: call 1 3
-DialEng: please call one three
-DialEst: helista palun üks kolm
+DialApp: call 5 7 8
+DialEng: call five seven eight
+DialEst: helista viis seitse kaheksa
 
 DialApp: call 6 8
-DialEng: please call six eight
-DialEst: helista palun kuus kaheksa
+DialEng: call six eight
+DialEst: helista kuus kaheksa
 
-DialApp: call 8 9 7 5 1 5
-DialEng: please call eight nine seven five one five
-DialEst: helista palun kaheksa üheksa seitse viis üks viis
+DialApp: call 7 3 3 6 1
+DialEng: call seven three three six one
+DialEst: helista seitse kolm kolm kuus üks

@@ -1,376 +1,392 @@
 
-ArithExprApp: 0 / (-0) / 0 ^ 0.75 - 0.5
-ArithExprEng: zero divided by minus zero divided by zero to the power of three quarters minus half
-ArithExprEst: null jagatud miinus null jagatud null astmel kolm veerand miinus pool
+ArithExprApp: 0 / 0.0 ^ 0.5 - 0.75 - 0.25
+ArithExprEng: zero divided by zero point zero to the power of half minus three quarters minus quarter
+ArithExprEst: null jagatud null koma null astmel pool miinus kolm veerand miinus veerand
 
-ArithExprApp: 300111000100 / PI
-ArithExprEng: three hundred billion one hundred and eleven million one hundred divided by pie
-ArithExprEst: kolm sada miljardit ja sada üks teist miljonit ja sada jagatud Pii
+ArithExprApp: 0 / 0.25 ^ PI / 0.75 ^ 0.25
+ArithExprEng: zero divided by quarter to the power of pie divided by three quarters to the power of quarter
+ArithExprEst: null jagatud veerand astmel Pii jagatud kolm veerand astmel veerand
 
-ArithExprApp: 115000000000 / (-0.0) + PI
-ArithExprEng: one hundred and fifteen billion divided by minus zero point zero plus pie
-ArithExprEst: sada viis teist miljardit jagatud miinus null koma null pluss Pii
+ArithExprApp: 500000000000 / 0.0 - PI ^ (-0) * PI
+ArithExprEng: five hundred billion divided by zero point zero minus pie to the power of minus zero times pie
+ArithExprEst: viis sada miljardit jagatud null koma null miinus Pii astmel miinus null korda Pii
 
-ArithExprApp: 110000000.600010000000 / 0.5
-ArithExprEng: one hundred and ten million point six hundred billion ten million divided by half
-ArithExprEst: sada kümme miljonit koma kuus sada miljardit ja kümme miljonit jagatud pool
+ArithExprApp: (-24000017) / 0.0 + 0.0 + 1.5 ^ 0.25
+ArithExprEng: minus twenty four million seventeen divided by zero point zero plus zero point zero plus one and half to the power of quarter
+ArithExprEst: miinus kaks kümmend neli miljonit ja seitse teist jagatud null koma null pluss null koma null pluss pool teist astmel veerand
 
-ArithExprApp: 100000000.10000000000 / 0.25 / (-0) ^ PI ^ PI
-ArithExprEng: one hundred million point ten billion divided by quarter divided by minus zero to the power of pie to the power of pie
-ArithExprEst: sada miljonit koma kümme miljardit jagatud veerand jagatud miinus null astmel Pii astmel Pii
+ArithExprApp: (-111000115) / (-0.0) ^ (-0.0) * 1.5 ^ PI
+ArithExprEng: minus one hundred and eleven million one hundred and fifteen divided by minus zero point zero to the power of minus zero point zero times one and half to the power of pie
+ArithExprEst: miinus sada üks teist miljonit ja sada viis teist jagatud miinus null koma null astmel miinus null koma null korda pool teist astmel Pii
 
-ArithExprApp: 1000000000.101000000000 / 0.75 / 1.5 / 0.75 / 0.25
-ArithExprEng: one billion point one hundred and one billion divided by three quarters divided by one and half divided by three quarters divided by quarter
-ArithExprEst: üks miljardit koma sada üks miljardit jagatud kolm veerand jagatud pool teist jagatud kolm veerand jagatud veerand
+ArithExprApp: (-100611000) / 0.5 ^ (-0) + 0 + 0.75
+ArithExprEng: minus one hundred million six hundred and eleven thousand divided by half to the power of minus zero plus zero plus three quarters
+ArithExprEst: miinus sada miljonit ja kuus sada üks teist tuhat jagatud pool astmel miinus null pluss null pluss kolm veerand
 
-ArithExprApp: (-170000) / 0.0 + (-0.0) / 0.25 * 0.25
-ArithExprEng: minus one hundred and seventy thousand divided by zero point zero plus minus zero point zero divided by quarter times quarter
-ArithExprEst: miinus sada seitse kümmend tuhat jagatud null koma null pluss miinus null koma null jagatud veerand korda veerand
+ArithExprApp: (-600000000) / 0.0 / 0.0 - 0.75 * PI
+ArithExprEng: minus six hundred million divided by zero point zero divided by zero point zero minus three quarters times pie
+ArithExprEst: miinus kuus sada miljonit jagatud null koma null jagatud null koma null miinus kolm veerand korda Pii
 
-ArithExprApp: (-210000) / 1.5 + 0.25 ^ 0.75 / 0.25
-ArithExprEng: minus two hundred and ten thousand divided by one and half plus quarter to the power of three quarters divided by quarter
-ArithExprEst: miinus kaks sada kümme tuhat jagatud pool teist pluss veerand astmel kolm veerand jagatud veerand
+ArithExprApp: (-900000000) / 0.5 / 0.5 + 0 * 0.75
+ArithExprEng: minus nine hundred million divided by half divided by half plus zero times three quarters
+ArithExprEst: miinus üheksa sada miljonit jagatud pool jagatud pool pluss null korda kolm veerand
 
-ArithExprApp: (-700000) / 0.25 * 0.75 + (-0) * PI
-ArithExprEng: minus seven hundred thousand divided by quarter times three quarters plus minus zero times pie
-ArithExprEst: miinus seitse sada tuhat jagatud veerand korda kolm veerand pluss miinus null korda Pii
+ArithExprApp: (-900000000) / PI + 0 - (-0) * 0.5
+ArithExprEng: minus nine hundred million divided by pie plus zero minus minus zero times half
+ArithExprEst: miinus üheksa sada miljonit jagatud Pii pluss null miinus miinus null korda pool
 
-ArithExprApp: (-15000000) / 0.25 - PI / 0.75 / 0.25
-ArithExprEng: minus fifteen million divided by quarter minus pie divided by three quarters divided by quarter
-ArithExprEst: miinus viis teist miljonit jagatud veerand miinus Pii jagatud kolm veerand jagatud veerand
+ArithExprApp: (-11000211013) / 0.75 * 0.5 - 0.75 / 0.25
+ArithExprEng: minus eleven billion two hundred and eleven thousand thirteen divided by three quarters times half minus three quarters divided by quarter
+ArithExprEst: miinus üks teist miljardit ja kaks sada üks teist tuhat kolm teist jagatud kolm veerand korda pool miinus kolm veerand jagatud veerand
 
-ArithExprApp: (-16000000) / (-0) - 0.5
-ArithExprEng: minus sixteen million divided by minus zero minus half
-ArithExprEst: miinus kuus teist miljonit jagatud miinus null miinus pool
+ArithExprApp: (-910000000500) / PI * 0.25 * 0.5 - 1.5
+ArithExprEng: minus nine hundred and ten billion five hundred divided by pie times quarter times half minus one and half
+ArithExprEst: miinus üheksa sada kümme miljardit ja viis sada jagatud Pii korda veerand korda pool miinus pool teist
 
-ArithExprApp: (-19000000) / (-0) - 0.0 - (-0) - 0.25
-ArithExprEng: minus nineteen million divided by minus zero minus zero point zero minus minus zero minus quarter
-ArithExprEst: miinus üheksa teist miljonit jagatud miinus null miinus null koma null miinus miinus null miinus veerand
+ArithExprApp: (-100000009000) / (-0.0) / 1.5 / 0.5 ^ PI
+ArithExprEng: minus one hundred billion nine thousand divided by minus zero point zero divided by one and half divided by half to the power of pie
+ArithExprEst: miinus sada miljardit ja üheksa tuhat jagatud miinus null koma null jagatud pool teist jagatud pool astmel Pii
 
-ArithExprApp: (-200000000) / 1.5 / 0
-ArithExprEng: minus two hundred million divided by one and half divided by zero
-ArithExprEst: miinus kaks sada miljonit jagatud pool teist jagatud null
+ArithExprApp: (-3000000000) / 1.5
+ArithExprEng: minus three billion divided by one and half
+ArithExprEst: miinus kolm miljardit jagatud pool teist
 
-ArithExprApp: (-300000000) / PI + 0.75 * 1.5
-ArithExprEng: minus three hundred million divided by pie plus three quarters times one and half
-ArithExprEst: miinus kolm sada miljonit jagatud Pii pluss kolm veerand korda pool teist
+ArithExprApp: (-81000000000) / (-0.0) / PI + 0.25 / 0.25
+ArithExprEng: minus eighty one billion divided by minus zero point zero divided by pie plus quarter divided by quarter
+ArithExprEst: miinus kaheksa kümmend üks miljardit jagatud miinus null koma null jagatud Pii pluss veerand jagatud veerand
 
-ArithExprApp: (-700000000) / (-0.0) ^ 0.0 - (-0)
-ArithExprEng: minus seven hundred million divided by minus zero point zero to the power of zero point zero minus minus zero
-ArithExprEst: miinus seitse sada miljonit jagatud miinus null koma null astmel null koma null miinus miinus null
+ArithExprApp: (-13000000000) / 0.75 - 0.75 / 0.75 / 0.5
+ArithExprEng: minus thirteen billion divided by three quarters minus three quarters divided by three quarters divided by half
+ArithExprEst: miinus kolm teist miljardit jagatud kolm veerand miinus kolm veerand jagatud kolm veerand jagatud pool
 
-ArithExprApp: (-20000000000) / (-0.0) - 0.25 + 0.25 * 0.5
-ArithExprEng: minus twenty billion divided by minus zero point zero minus quarter plus quarter times half
-ArithExprEst: miinus kaks kümmend miljardit jagatud miinus null koma null miinus veerand pluss veerand korda pool
+ArithExprApp: (-0.11000000000) / 0.25
+ArithExprEng: minus zero point eleven billion divided by quarter
+ArithExprEst: miinus null koma üks teist miljardit jagatud veerand
 
-ArithExprApp: (-50000000000) / 0.25 * (-0.0) / 0.5 + 0.25
-ArithExprEng: minus fifty billion divided by quarter times minus zero point zero divided by half plus quarter
-ArithExprEst: miinus viis kümmend miljardit jagatud veerand korda miinus null koma null jagatud pool pluss veerand
+ArithExprApp: (-11000000.0) / 0.5 - 0
+ArithExprEng: minus eleven million point zero divided by half minus zero
+ArithExprEst: miinus üks teist miljonit koma null jagatud pool miinus null
 
-ArithExprApp: (-90000000000) / 1.5 * (-0.0) - 1.5 ^ 0.75
-ArithExprEng: minus ninety billion divided by one and half times minus zero point zero minus one and half to the power of three quarters
-ArithExprEst: miinus üheksa kümmend miljardit jagatud pool teist korda miinus null koma null miinus pool teist astmel kolm veerand
+ArithExprApp: (-100000000.0) / 0.5 - 0 * PI ^ PI
+ArithExprEng: minus one hundred million point zero divided by half minus zero times pie to the power of pie
+ArithExprEst: miinus sada miljonit koma null jagatud pool miinus null korda Pii astmel Pii
 
-ArithExprApp: (-200000000000) / 1.5 / 0.75 / 0.25 / 0.5
-ArithExprEng: minus two hundred billion divided by one and half divided by three quarters divided by quarter divided by half
-ArithExprEst: miinus kaks sada miljardit jagatud pool teist jagatud kolm veerand jagatud veerand jagatud pool
+ArithExprApp: (-0.0) - (-0.0) + 1.5 / (-0) - 0.5
+ArithExprEng: minus zero point zero minus minus zero point zero plus one and half divided by minus zero minus half
+ArithExprEst: miinus null koma null miinus miinus null koma null pluss pool teist jagatud miinus null miinus pool
 
-ArithExprApp: (-200000000000) / (-0.0) + (-0.0) ^ (-0) * 0.75
-ArithExprEng: minus two hundred billion divided by minus zero point zero plus minus zero point zero to the power of minus zero times three quarters
-ArithExprEst: miinus kaks sada miljardit jagatud miinus null koma null pluss miinus null koma null astmel miinus null korda kolm veerand
+ArithExprApp: 0.25 - 0.5 - (-0.0) + 0 * 0.5
+ArithExprEng: quarter minus half minus minus zero point zero plus zero times half
+ArithExprEst: veerand miinus pool miinus miinus null koma null pluss null korda pool
 
-ArithExprApp: (-400000000000) / (-0) / PI * 0.5
-ArithExprEng: minus four hundred billion divided by minus zero divided by pie times half
-ArithExprEst: miinus neli sada miljardit jagatud miinus null jagatud Pii korda pool
+ArithExprApp: 0.75 - (-0.0) + 0 ^ 1.5 * 0.75
+ArithExprEng: three quarters minus minus zero point zero plus zero to the power of one and half times three quarters
+ArithExprEst: kolm veerand miinus miinus null koma null pluss null astmel pool teist korda kolm veerand
 
-ArithExprApp: (-0.0) / 0.25 * 0.5 * PI * 0.5
-ArithExprEng: minus zero point zero divided by quarter times half times pie times half
-ArithExprEst: miinus null koma null jagatud veerand korda pool korda Pii korda pool
+ArithExprApp: 0.5 * 0.5 - 0.0 + 0.75 - 0.25
+ArithExprEng: half times half minus zero point zero plus three quarters minus quarter
+ArithExprEst: pool korda pool miinus null koma null pluss kolm veerand miinus veerand
 
-ArithExprApp: (-0.100000000000) / 0.25 + 0.0 - PI + PI
-ArithExprEng: minus zero point one hundred billion divided by quarter plus zero point zero minus pie plus pie
-ArithExprEst: miinus null koma sada miljardit jagatud veerand pluss null koma null miinus Pii pluss Pii
+ArithExprApp: 0.5 * 0.75 - 1.5 + 0
+ArithExprEng: half times three quarters minus one and half plus zero
+ArithExprEst: pool korda kolm veerand miinus pool teist pluss null
 
-ArithExprApp: (-1110000.0) / (-0.0) + 0.0 / 0.75 * PI
-ArithExprEng: minus one million one hundred and ten thousand point zero divided by minus zero point zero plus zero point zero divided by three quarters times pie
-ArithExprEst: miinus üks miljonit ja sada kümme tuhat koma null jagatud miinus null koma null pluss null koma null jagatud kolm veerand korda Pii
+ArithExprApp: 0.25 * (-0.0) / 0.5 + 0 * 0.25
+ArithExprEng: quarter times minus zero point zero divided by half plus zero times quarter
+ArithExprEst: veerand korda miinus null koma null jagatud pool pluss null korda veerand
 
-ArithExprApp: 0.5 - 0.5 ^ (-0.0)
-ArithExprEng: half minus half to the power of minus zero point zero
-ArithExprEst: pool miinus pool astmel miinus null koma null
+ArithExprApp: 0.0 + PI - 0.0 + 0.25 - 1.5
+ArithExprEng: zero point zero plus pie minus zero point zero plus quarter minus one and half
+ArithExprEst: null koma null pluss Pii miinus null koma null pluss veerand miinus pool teist
 
-ArithExprApp: (-0.0) - (-0.0) * 0.5 / (-0) - 0.5
-ArithExprEng: minus zero point zero minus minus zero point zero times half divided by minus zero minus half
-ArithExprEst: miinus null koma null miinus miinus null koma null korda pool jagatud miinus null miinus pool
+ArithExprApp: 0.25 + PI + 1.5 - (-0) * 0.5
+ArithExprEng: quarter plus pie plus one and half minus minus zero times half
+ArithExprEst: veerand pluss Pii pluss pool teist miinus miinus null korda pool
 
-ArithExprApp: (-0.0) - 0.25 + PI + 0 / PI
-ArithExprEng: minus zero point zero minus quarter plus pie plus zero divided by pie
-ArithExprEst: miinus null koma null miinus veerand pluss Pii pluss null jagatud Pii
+ArithExprApp: 0.75 + PI - (-0) * 0.75 * 1.5
+ArithExprEng: three quarters plus pie minus minus zero times three quarters times one and half
+ArithExprEst: kolm veerand pluss Pii miinus miinus null korda kolm veerand korda pool teist
 
-ArithExprApp: 0.0 * 1.5 / PI * 0.5
-ArithExprEng: zero point zero times one and half divided by pie times half
-ArithExprEst: null koma null korda pool teist jagatud Pii korda pool
+ArithExprApp: 0.0 ^ 0.75 ^ 0.75 ^ 0.5
+ArithExprEng: zero point zero to the power of three quarters to the power of three quarters to the power of half
+ArithExprEst: null koma null astmel kolm veerand astmel kolm veerand astmel pool
 
-ArithExprApp: 1.5 * 1.5 / (-0.0) ^ 0.25
-ArithExprEng: one and half times one and half divided by minus zero point zero to the power of quarter
-ArithExprEst: pool teist korda pool teist jagatud miinus null koma null astmel veerand
+ArithExprApp: 0.140000000000 ^ 0 - 1.5
+ArithExprEng: zero point one hundred and forty billion to the power of zero minus one and half
+ArithExprEst: null koma sada neli kümmend miljardit astmel null miinus pool teist
 
-ArithExprApp: PI * (-0.0) ^ 0 ^ 1.5 - 0.75
-ArithExprEng: pie times minus zero point zero to the power of zero to the power of one and half minus three quarters
-ArithExprEst: Pii korda miinus null koma null astmel null astmel pool teist miinus kolm veerand
+ArithExprApp: 600011000000.600100000000 ^ 1.5 + (-0.0) * (-0) * PI
+ArithExprEng: six hundred billion eleven million point six hundred billion one hundred million to the power of one and half plus minus zero point zero times minus zero times pie
+ArithExprEst: kuus sada miljardit ja üks teist miljonit koma kuus sada miljardit ja sada miljonit astmel pool teist pluss miinus null koma null korda miinus null korda Pii
 
-ArithExprApp: 0 + (-0) - 0.5 * 0.25
-ArithExprEng: zero plus minus zero minus half times quarter
-ArithExprEst: null pluss miinus null miinus pool korda veerand
+ArithExprApp: (-370) ^ 0.25
+ArithExprEng: minus three hundred and seventy to the power of quarter
+ArithExprEst: miinus kolm sada seitse kümmend astmel veerand
 
-ArithExprApp: 0 + 1.5 * 0.0
-ArithExprEng: zero plus one and half times zero point zero
-ArithExprEst: null pluss pool teist korda null koma null
+ArithExprApp: (-500) ^ PI * 0.25 ^ 0 / 0.25
+ArithExprEng: minus five hundred to the power of pie times quarter to the power of zero divided by quarter
+ArithExprEst: miinus viis sada astmel Pii korda veerand astmel null jagatud veerand
 
-ArithExprApp: 0.75 + 0
-ArithExprEng: three quarters plus zero
-ArithExprEst: kolm veerand pluss null
+ArithExprApp: (-700) ^ 0 / PI + 0.75 + PI
+ArithExprEng: minus seven hundred to the power of zero divided by pie plus three quarters plus pie
+ArithExprEst: miinus seitse sada astmel null jagatud Pii pluss kolm veerand pluss Pii
 
-ArithExprApp: (-40) ^ 0 + 0.5 / 0.5 / 0.75
-ArithExprEng: minus forty to the power of zero plus half divided by half divided by three quarters
-ArithExprEst: miinus neli kümmend astmel null pluss pool jagatud pool jagatud kolm veerand
+ArithExprApp: (-10100) ^ 0.25 + (-0) - 0 / 1.5
+ArithExprEng: minus ten thousand one hundred to the power of quarter plus minus zero minus zero divided by one and half
+ArithExprEst: miinus kümme tuhat sada astmel veerand pluss miinus null miinus null jagatud pool teist
 
-ArithExprApp: (-100) ^ 0
-ArithExprEng: minus one hundred to the power of zero
-ArithExprEst: miinus sada astmel null
+ArithExprApp: (-501011) ^ 0
+ArithExprEng: minus five hundred and one thousand eleven to the power of zero
+ArithExprEst: miinus viis sada üks tuhat üks teist astmel null
 
-ArithExprApp: (-500) ^ 0.25
-ArithExprEng: minus five hundred to the power of quarter
-ArithExprEst: miinus viis sada astmel veerand
+ArithExprApp: (-500004) ^ 0.5
+ArithExprEng: minus five hundred thousand four to the power of half
+ArithExprEst: miinus viis sada tuhat neli astmel pool
 
-ArithExprApp: (-61030) ^ (-0) + 0.0 + 0 * PI
-ArithExprEng: minus sixty one thousand thirty to the power of minus zero plus zero point zero plus zero times pie
-ArithExprEst: miinus kuus kümmend üks tuhat kolm kümmend astmel miinus null pluss null koma null pluss null korda Pii
+ArithExprApp: (-51000) ^ 0.5 / PI * 0.5 / 0.5
+ArithExprEng: minus fifty one thousand to the power of half divided by pie times half divided by half
+ArithExprEst: miinus viis kümmend üks tuhat astmel pool jagatud Pii korda pool jagatud pool
 
-ArithExprApp: (-300100) ^ 0.0 - (-0.0) ^ 1.5 - 1.5
-ArithExprEng: minus three hundred thousand one hundred to the power of zero point zero minus minus zero point zero to the power of one and half minus one and half
-ArithExprEst: miinus kolm sada tuhat sada astmel null koma null miinus miinus null koma null astmel pool teist miinus pool teist
+ArithExprApp: (-85000) ^ (-0) ^ (-0.0) ^ 0 / 1.5
+ArithExprEng: minus eighty five thousand to the power of minus zero to the power of minus zero point zero to the power of zero divided by one and half
+ArithExprEst: miinus kaheksa kümmend viis tuhat astmel miinus null astmel miinus null koma null astmel null jagatud pool teist
 
-ArithExprApp: (-400350) ^ (-0.0) - 0.5 - 1.5 * 0.5
-ArithExprEng: minus four hundred thousand three hundred and fifty to the power of minus zero point zero minus half minus one and half times half
-ArithExprEst: miinus neli sada tuhat kolm sada viis kümmend astmel miinus null koma null miinus pool miinus pool teist korda pool
+ArithExprApp: (-97000) ^ PI ^ 0.0 + 0.75 * 0.75
+ArithExprEng: minus ninety seven thousand to the power of pie to the power of zero point zero plus three quarters times three quarters
+ArithExprEst: miinus üheksa kümmend seitse tuhat astmel Pii astmel null koma null pluss kolm veerand korda kolm veerand
 
-ArithExprApp: (-1000) ^ 0 + 0
-ArithExprEng: minus one thousand to the power of zero plus zero
-ArithExprEst: miinus tuhat astmel null pluss null
+ArithExprApp: (-13000) ^ 1.5 - 1.5 ^ 0 / PI
+ArithExprEng: minus thirteen thousand to the power of one and half minus one and half to the power of zero divided by pie
+ArithExprEst: miinus kolm teist tuhat astmel pool teist miinus pool teist astmel null jagatud Pii
 
-ArithExprApp: (-1000) ^ 0 ^ 0.75 ^ 0.75 ^ 0.25
-ArithExprEng: minus one thousand to the power of zero to the power of three quarters to the power of three quarters to the power of quarter
-ArithExprEst: miinus tuhat astmel null astmel kolm veerand astmel kolm veerand astmel veerand
+ArithExprApp: (-15000) ^ PI
+ArithExprEng: minus fifteen thousand to the power of pie
+ArithExprEst: miinus viis teist tuhat astmel Pii
 
-ArithExprApp: (-2000) ^ (-0.0)
-ArithExprEng: minus two thousand to the power of minus zero point zero
-ArithExprEst: miinus kaks tuhat astmel miinus null koma null
+ArithExprApp: (-16000) ^ PI * 1.5
+ArithExprEng: minus sixteen thousand to the power of pie times one and half
+ArithExprEst: miinus kuus teist tuhat astmel Pii korda pool teist
 
-ArithExprApp: (-80700180) ^ 0 - 1.5
-ArithExprEng: minus eighty million seven hundred thousand one hundred and eighty to the power of zero minus one and half
-ArithExprEst: miinus kaheksa kümmend miljonit ja seitse sada tuhat sada kaheksa kümmend astmel null miinus pool teist
+ArithExprApp: (-1000000) ^ 0.0 / 0.75 ^ PI / 0.25
+ArithExprEng: minus one million to the power of zero point zero divided by three quarters to the power of pie divided by quarter
+ArithExprEst: miinus üks miljonit astmel null koma null jagatud kolm veerand astmel Pii jagatud veerand
 
-ArithExprApp: (-110111000) ^ PI * 1.5 * PI * PI
-ArithExprEng: minus one hundred and ten million one hundred and eleven thousand to the power of pie times one and half times pie times pie
-ArithExprEst: miinus sada kümme miljonit ja sada üks teist tuhat astmel Pii korda pool teist korda Pii korda Pii
+ArithExprApp: (-3000000) ^ 0.75 / 0.5 / PI / PI
+ArithExprEng: minus three million to the power of three quarters divided by half divided by pie divided by pie
+ArithExprEst: miinus kolm miljonit astmel kolm veerand jagatud pool jagatud Pii jagatud Pii
 
-ArithExprApp: (-400900000) ^ (-0) ^ 0.25 - 0.5 * 0.75
-ArithExprEng: minus four hundred million nine hundred thousand to the power of minus zero to the power of quarter minus half times three quarters
-ArithExprEst: miinus neli sada miljonit ja üheksa sada tuhat astmel miinus null astmel veerand miinus pool korda kolm veerand
+ArithExprApp: (-7000000) ^ 0
+ArithExprEng: minus seven million to the power of zero
+ArithExprEst: miinus seitse miljonit astmel null
 
-ArithExprApp: (-71000000) ^ 1.5 * (-0.0) ^ 0.25 ^ 0.75
-ArithExprEng: minus seventy one million to the power of one and half times minus zero point zero to the power of quarter to the power of three quarters
-ArithExprEst: miinus seitse kümmend üks miljonit astmel pool teist korda miinus null koma null astmel veerand astmel kolm veerand
+ArithExprApp: (-50000000) ^ 0 / (-0) ^ 0.25 + PI
+ArithExprEng: minus fifty million to the power of zero divided by minus zero to the power of quarter plus pie
+ArithExprEst: miinus viis kümmend miljonit astmel null jagatud miinus null astmel veerand pluss Pii
 
-ArithExprApp: (-78000000) ^ 0 / 0 ^ (-0) - PI
-ArithExprEng: minus seventy eight million to the power of zero divided by zero to the power of minus zero minus pie
-ArithExprEst: miinus seitse kümmend kaheksa miljonit astmel null jagatud null astmel miinus null miinus Pii
+ArithExprApp: (-60000000) ^ 0.25 - 0.5 ^ PI ^ PI
+ArithExprEng: minus sixty million to the power of quarter minus half to the power of pie to the power of pie
+ArithExprEst: miinus kuus kümmend miljonit astmel veerand miinus pool astmel Pii astmel Pii
 
-ArithExprApp: (-81000000) ^ 0.0
-ArithExprEng: minus eighty one million to the power of zero point zero
-ArithExprEst: miinus kaheksa kümmend üks miljonit astmel null koma null
+ArithExprApp: (-60000000) ^ 0
+ArithExprEng: minus sixty million to the power of zero
+ArithExprEst: miinus kuus kümmend miljonit astmel null
 
-ArithExprApp: (-11000047010) ^ PI + 0.25 * 0 / 1.5
-ArithExprEng: minus eleven billion forty seven thousand ten to the power of pie plus quarter times zero divided by one and half
-ArithExprEst: miinus üks teist miljardit ja neli kümmend seitse tuhat kümme astmel Pii pluss veerand korda null jagatud pool teist
+ArithExprApp: (-110000000) ^ (-0)
+ArithExprEng: minus one hundred and ten million to the power of minus zero
+ArithExprEst: miinus sada kümme miljonit astmel miinus null
 
-ArithExprApp: (-710000000100) ^ 1.5 / 0.0 - 0 - 0.25
-ArithExprEng: minus seven hundred and ten billion one hundred to the power of one and half divided by zero point zero minus zero minus quarter
-ArithExprEst: miinus seitse sada kümme miljardit ja sada astmel pool teist jagatud null koma null miinus null miinus veerand
+ArithExprApp: (-211000000) ^ 0.5 + (-0.0)
+ArithExprEng: minus two hundred and eleven million to the power of half plus minus zero point zero
+ArithExprEst: miinus kaks sada üks teist miljonit astmel pool pluss miinus null koma null
 
-ArithExprApp: (-600461500000) ^ (-0.0) / (-0)
-ArithExprEng: minus six hundred billion four hundred and sixty one million five hundred thousand to the power of minus zero point zero divided by minus zero
-ArithExprEst: miinus kuus sada miljardit ja neli sada kuus kümmend üks miljonit ja viis sada tuhat astmel miinus null koma null jagatud miinus null
+ArithExprApp: (-710000000) ^ (-0.0)
+ArithExprEng: minus seven hundred and ten million to the power of minus zero point zero
+ArithExprEst: miinus seitse sada kümme miljonit astmel miinus null koma null
 
-ArithExprApp: (-111000000000) ^ 0.0 - 1.5 - 1.5 + 0.5
-ArithExprEng: minus one hundred and eleven billion to the power of zero point zero minus one and half minus one and half plus half
-ArithExprEst: miinus sada üks teist miljardit astmel null koma null miinus pool teist miinus pool teist pluss pool
+ArithExprApp: (-100000000) ^ 0.5 / 0.0 + (-0) + 0.5
+ArithExprEng: minus one hundred million to the power of half divided by zero point zero plus minus zero plus half
+ArithExprEst: miinus sada miljonit astmel pool jagatud null koma null pluss miinus null pluss pool
 
-ArithExprApp: (-111000000000) ^ 0.25 * 0.75 - 0 ^ PI
-ArithExprEng: minus one hundred and eleven billion to the power of quarter times three quarters minus zero to the power of pie
-ArithExprEst: miinus sada üks teist miljardit astmel veerand korda kolm veerand miinus null astmel Pii
+ArithExprApp: (-100000000) ^ 0.0 ^ PI ^ 1.5 / 0.5
+ArithExprEng: minus one hundred million to the power of zero point zero to the power of pie to the power of one and half divided by half
+ArithExprEst: miinus sada miljonit astmel null koma null astmel Pii astmel pool teist jagatud pool
 
-ArithExprApp: (-417000000000) ^ 1.5 * 0.5 / 0 / 0.75
-ArithExprEng: minus four hundred and seventeen billion to the power of one and half times half divided by zero divided by three quarters
-ArithExprEst: miinus neli sada seitse teist miljardit astmel pool teist korda pool jagatud null jagatud kolm veerand
+ArithExprApp: (-600000000) ^ (-0.0) / (-0.0) / 1.5 * 0.5
+ArithExprEng: minus six hundred million to the power of minus zero point zero divided by minus zero point zero divided by one and half times half
+ArithExprEst: miinus kuus sada miljonit astmel miinus null koma null jagatud miinus null koma null jagatud pool teist korda pool
+
+ArithExprApp: (-0.0) ^ 0.5 - 0 * PI
+ArithExprEng: minus zero point zero to the power of half minus zero times pie
+ArithExprEst: miinus null koma null astmel pool miinus null korda Pii
+
+ArithExprApp: (-416000000000.0) ^ (-0.0) ^ 0.0 * (-0) - 0.25
+ArithExprEng: minus four hundred and sixteen billion point zero to the power of minus zero point zero to the power of zero point zero times minus zero minus quarter
+ArithExprEst: miinus neli sada kuus teist miljardit koma null astmel miinus null koma null astmel null koma null korda miinus null miinus veerand
+
+ArithExprApp: (-660000000000.0) ^ (-0) / 0.5 / 0.75 - 0.5
+ArithExprEng: minus six hundred and sixty billion point zero to the power of minus zero divided by half divided by three quarters minus half
+ArithExprEst: miinus kuus sada kuus kümmend miljardit koma null astmel miinus null jagatud pool jagatud kolm veerand miinus pool
 
 ArithExprApp: 0
 ArithExprEng: zero
 ArithExprEst: null
 
-ArithExprApp: 741000100
-ArithExprEng: seven hundred and forty one million one hundred
-ArithExprEst: seitse sada neli kümmend üks miljonit ja sada
+ArithExprApp: 51000100
+ArithExprEng: fifty one million one hundred
+ArithExprEst: viis kümmend üks miljonit ja sada
 
-ArithExprApp: 100111000
-ArithExprEng: one hundred million one hundred and eleven thousand
-ArithExprEst: sada miljonit ja sada üks teist tuhat
+ArithExprApp: 100401000000
+ArithExprEng: one hundred billion four hundred and one million
+ArithExprEst: sada miljardit ja neli sada üks miljonit
 
-ArithExprApp: 10000000.0
-ArithExprEng: ten million point zero
-ArithExprEst: kümme miljonit koma null
+ArithExprApp: 0.0
+ArithExprEng: zero point zero
+ArithExprEst: null koma null
 
-ArithExprApp: 91000000000.110000000
-ArithExprEng: ninety one billion point one hundred and ten million
-ArithExprEst: üheksa kümmend üks miljardit koma sada kümme miljonit
+ArithExprApp: 0.812000000000
+ArithExprEng: zero point eight hundred and twelve billion
+ArithExprEst: null koma kaheksa sada kaks teist miljardit
 
-ArithExprApp: (-9)
-ArithExprEng: minus nine
-ArithExprEst: miinus üheksa
+ArithExprApp: 100010000000.0
+ArithExprEng: one hundred billion ten million point zero
+ArithExprEst: sada miljardit ja kümme miljonit koma null
 
-ArithExprApp: (-10)
-ArithExprEng: minus ten
-ArithExprEst: miinus kümme
+ArithExprApp: (-18)
+ArithExprEng: minus eighteen
+ArithExprEst: miinus kaheksa teist
+
+ArithExprApp: (-111)
+ArithExprEng: minus one hundred and eleven
+ArithExprEst: miinus sada üks teist
 
 ArithExprApp: (-800)
 ArithExprEng: minus eight hundred
 ArithExprEst: miinus kaheksa sada
 
-ArithExprApp: (-1112)
-ArithExprEng: minus one thousand one hundred and twelve
-ArithExprEst: miinus tuhat sada kaks teist
+ArithExprApp: (-1334)
+ArithExprEng: minus one thousand three hundred and thirty four
+ArithExprEst: miinus tuhat kolm sada kolm kümmend neli
 
-ArithExprApp: (-100800)
-ArithExprEng: minus one hundred thousand eight hundred
-ArithExprEst: miinus sada tuhat kaheksa sada
+ArithExprApp: (-806020)
+ArithExprEng: minus eight hundred and six thousand twenty
+ArithExprEst: miinus kaheksa sada kuus tuhat kaks kümmend
 
-ArithExprApp: (-900170)
-ArithExprEng: minus nine hundred thousand one hundred and seventy
-ArithExprEst: miinus üheksa sada tuhat sada seitse kümmend
+ArithExprApp: (-100837)
+ArithExprEng: minus one hundred thousand eight hundred and thirty seven
+ArithExprEst: miinus sada tuhat kaheksa sada kolm kümmend seitse
 
-ArithExprApp: (-7000)
-ArithExprEng: minus seven thousand
-ArithExprEst: miinus seitse tuhat
+ArithExprApp: (-41000)
+ArithExprEng: minus forty one thousand
+ArithExprEst: miinus neli kümmend üks tuhat
 
-ArithExprApp: (-8000)
-ArithExprEng: minus eight thousand
-ArithExprEst: miinus kaheksa tuhat
+ArithExprApp: (-52000)
+ArithExprEng: minus fifty two thousand
+ArithExprEst: miinus viis kümmend kaks tuhat
 
-ArithExprApp: (-17371000)
-ArithExprEng: minus seventeen million three hundred and seventy one thousand
-ArithExprEst: miinus seitse teist miljonit ja kolm sada seitse kümmend üks tuhat
+ArithExprApp: (-77000)
+ArithExprEng: minus seventy seven thousand
+ArithExprEst: miinus seitse kümmend seitse tuhat
 
-ArithExprApp: (-826001000)
-ArithExprEng: minus eight hundred and twenty six million one thousand
-ArithExprEst: miinus kaheksa sada kaks kümmend kuus miljonit ja tuhat
+ArithExprApp: (-12000)
+ArithExprEng: minus twelve thousand
+ArithExprEst: miinus kaks teist tuhat
 
-ArithExprApp: (-100018100)
-ArithExprEng: minus one hundred million eighteen thousand one hundred
-ArithExprEst: miinus sada miljonit ja kaheksa teist tuhat sada
+ArithExprApp: (-18000)
+ArithExprEng: minus eighteen thousand
+ArithExprEst: miinus kaheksa teist tuhat
 
-ArithExprApp: (-61000000)
-ArithExprEng: minus sixty one million
-ArithExprEst: miinus kuus kümmend üks miljonit
+ArithExprApp: (-19000)
+ArithExprEng: minus nineteen thousand
+ArithExprEst: miinus üheksa teist tuhat
 
-ArithExprApp: (-63000000)
-ArithExprEng: minus sixty three million
-ArithExprEst: miinus kuus kümmend kolm miljonit
+ArithExprApp: (-11316100)
+ArithExprEng: minus eleven million three hundred and sixteen thousand one hundred
+ArithExprEst: miinus üks teist miljonit ja kolm sada kuus teist tuhat sada
 
-ArithExprApp: (-71000000)
-ArithExprEng: minus seventy one million
-ArithExprEst: miinus seitse kümmend üks miljonit
+ArithExprApp: (-110590000)
+ArithExprEng: minus one hundred and ten million five hundred and ninety thousand
+ArithExprEst: miinus sada kümme miljonit ja viis sada üheksa kümmend tuhat
 
-ArithExprApp: (-13000000)
-ArithExprEng: minus thirteen million
-ArithExprEst: miinus kolm teist miljonit
+ArithExprApp: (-100000130)
+ArithExprEng: minus one hundred million one hundred and thirty
+ArithExprEst: miinus sada miljonit ja sada kolm kümmend
 
-ArithExprApp: (-16000000)
-ArithExprEng: minus sixteen million
-ArithExprEst: miinus kuus teist miljonit
+ArithExprApp: (-8000000)
+ArithExprEng: minus eight million
+ArithExprEst: miinus kaheksa miljonit
 
-ArithExprApp: (-17000000)
-ArithExprEng: minus seventeen million
-ArithExprEst: miinus seitse teist miljonit
+ArithExprApp: (-9000000)
+ArithExprEng: minus nine million
+ArithExprEst: miinus üheksa miljonit
 
-ArithExprApp: (-100000000)
-ArithExprEng: minus one hundred million
-ArithExprEst: miinus sada miljonit
+ArithExprApp: (-20000000)
+ArithExprEng: minus twenty million
+ArithExprEst: miinus kaks kümmend miljonit
 
-ArithExprApp: (-300000000)
-ArithExprEng: minus three hundred million
-ArithExprEst: miinus kolm sada miljonit
+ArithExprApp: (-50000000)
+ArithExprEng: minus fifty million
+ArithExprEst: miinus viis kümmend miljonit
+
+ArithExprApp: (-70000000)
+ArithExprEng: minus seventy million
+ArithExprEst: miinus seitse kümmend miljonit
+
+ArithExprApp: (-101000000)
+ArithExprEng: minus one hundred and one million
+ArithExprEst: miinus sada üks miljonit
+
+ArithExprApp: (-310000000)
+ArithExprEng: minus three hundred and ten million
+ArithExprEst: miinus kolm sada kümme miljonit
+
+ArithExprApp: (-820000000)
+ArithExprEng: minus eight hundred and twenty million
+ArithExprEst: miinus kaheksa sada kaks kümmend miljonit
 
 ArithExprApp: (-600000000)
 ArithExprEng: minus six hundred million
 ArithExprEst: miinus kuus sada miljonit
 
-ArithExprApp: (-602061604600)
-ArithExprEng: minus six hundred and two billion sixty one million six hundred and four thousand six hundred
-ArithExprEst: miinus kuus sada kaks miljardit ja kuus kümmend üks miljonit ja kuus sada neli tuhat kuus sada
+ArithExprApp: (-700000000)
+ArithExprEng: minus seven hundred million
+ArithExprEst: miinus seitse sada miljonit
 
-ArithExprApp: (-100000112000)
-ArithExprEng: minus one hundred billion one hundred and twelve thousand
-ArithExprEst: miinus sada miljardit ja sada kaks teist tuhat
+ArithExprApp: (-800000000)
+ArithExprEng: minus eight hundred million
+ArithExprEst: miinus kaheksa sada miljonit
 
-ArithExprApp: (-600300000000)
-ArithExprEng: minus six hundred billion three hundred million
-ArithExprEst: miinus kuus sada miljardit ja kolm sada miljonit
+ArithExprApp: (-70401000000)
+ArithExprEng: minus seventy billion four hundred and one million
+ArithExprEst: miinus seitse kümmend miljardit ja neli sada üks miljonit
 
-ArithExprApp: (-50000000000)
-ArithExprEng: minus fifty billion
-ArithExprEst: miinus viis kümmend miljardit
+ArithExprApp: (-170500000000)
+ArithExprEng: minus one hundred and seventy billion five hundred million
+ArithExprEst: miinus sada seitse kümmend miljardit ja viis sada miljonit
 
-ArithExprApp: (-80000000000)
-ArithExprEng: minus eighty billion
-ArithExprEst: miinus kaheksa kümmend miljardit
+ArithExprApp: (-131010000100)
+ArithExprEng: minus one hundred and thirty one billion ten million one hundred
+ArithExprEst: miinus sada kolm kümmend üks miljardit ja kümme miljonit ja sada
 
-ArithExprApp: (-90000000000)
-ArithExprEng: minus ninety billion
-ArithExprEst: miinus üheksa kümmend miljardit
+ArithExprApp: (-4000000000)
+ArithExprEng: minus four billion
+ArithExprEst: miinus neli miljardit
 
-ArithExprApp: (-106000000000)
-ArithExprEng: minus one hundred and six billion
-ArithExprEst: miinus sada kuus miljardit
+ArithExprApp: (-11000000000)
+ArithExprEng: minus eleven billion
+ArithExprEst: miinus üks teist miljardit
 
-ArithExprApp: (-709000000000)
-ArithExprEng: minus seven hundred and nine billion
-ArithExprEst: miinus seitse sada üheksa miljardit
+ArithExprApp: (-13000000000)
+ArithExprEng: minus thirteen billion
+ArithExprEst: miinus kolm teist miljardit
 
-ArithExprApp: (-945000000000)
-ArithExprEng: minus nine hundred and forty five billion
-ArithExprEst: miinus üheksa sada neli kümmend viis miljardit
+ArithExprApp: (-0.0)
+ArithExprEng: minus zero point zero
+ArithExprEst: miinus null koma null
 
-ArithExprApp: (-300000000000)
-ArithExprEng: minus three hundred billion
-ArithExprEst: miinus kolm sada miljardit
+ArithExprApp: (-0.691100000111)
+ArithExprEng: minus zero point six hundred and ninety one billion one hundred million one hundred and eleven
+ArithExprEst: miinus null koma kuus sada üheksa kümmend üks miljardit ja sada miljonit ja sada üks teist
 
-ArithExprApp: (-400000000000)
-ArithExprEng: minus four hundred billion
-ArithExprEst: miinus neli sada miljardit
-
-ArithExprApp: (-700000000000)
-ArithExprEng: minus seven hundred billion
-ArithExprEst: miinus seitse sada miljardit
-
-ArithExprApp: (-0.15000100)
-ArithExprEng: minus zero point fifteen million one hundred
-ArithExprEst: miinus null koma viis teist miljonit ja sada
-
-ArithExprApp: (-13091000111.0)
-ArithExprEng: minus thirteen billion ninety one million one hundred and eleven point zero
-ArithExprEst: miinus kolm teist miljardit ja üheksa kümmend üks miljonit ja sada üks teist koma null
-
-ArithExprApp: (-200000000100.213000000011)
-ArithExprEng: minus two hundred billion one hundred point two hundred and thirteen billion eleven
-ArithExprEst: miinus kaks sada miljardit ja sada koma kaks sada kolm teist miljardit ja üks teist
+ArithExprApp: (-100000000.0)
+ArithExprEng: minus one hundred million point zero
+ArithExprEst: miinus sada miljonit koma null

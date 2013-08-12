@@ -1,301 +1,135 @@
-Address: address0 Eeppl__Kirikuvalla
-AddressApp: Kirikuvalla , Estonia
 
-AddressEst: Kirikuvalla
+AddressApp: Kutsala , Estonia
+AddressEst: Kutsala
 
+AddressApp: Storbyn , Estonia
+AddressEst: Storbyn
 
-Address: address1 Joone tallinn
-AddressApp: Joone , Tallinn
+AddressApp: Urge , Estonia
+AddressEst: Urge
 
-AddressEst: Joone Tallinn
+AddressApp: Armatuuri , Tallinn
+AddressEst: Armatuuri Tallinn
 
+AddressApp: Marana , Tallinn
+AddressEst: Marana Tallinn
 
-Address: address1 Lotildeo tallinn
-AddressApp: Lõo , Tallinn
-
-AddressEst: Lõo Tallinn
-
-
-Address: address0 Eeppl__Kolepi
-AddressApp: Kolepi , Estonia
-
-AddressEst: Kolepi
-
-
-Address: address2 (small_num (pot2 (pot0 n8))) Pargi tallinn
-AddressApp: Pargi 800 , Tallinn
-
-AddressEst: Pargi kaheksa sada Tallinn
-
-
-Address: address1 Tuluste tallinn
-AddressApp: Tuluste , Tallinn
-
-AddressEst: Tuluste Tallinn
-
-
-Address: address1 Kraavi tallinn
-AddressApp: Kraavi , Tallinn
-
-AddressEst: Kraavi Tallinn
-
-
-Address: address2 (small_num (pot1as2 (pot1plus n6 (pot0 n2)))) Kaumlrbi tallinn
-AddressApp: Kärbi 62 , Tallinn
-
-AddressEst: Kärbi kuus kümmend kaks Tallinn
-
-
-Address: address2 (small_num (pot1as2 (pot1plus n7 (pot0 n3)))) Alemaa tallinn
-AddressApp: Alemaa 73 , Tallinn
-
-AddressEst: Alemaa seitse kümmend kolm Tallinn
-
-
-Address: address2 (small_num (pot2plus (pot0 n3) (pot0as1 (pot0 n5)))) Kuke tallinn
-AddressApp: Kuke 305 , Tallinn
-
-AddressEst: Kuke kolm sada viis Tallinn
-
-
-Address: address0 Eeppl__Kivisaare
-AddressApp: Kivisaare , Estonia
-
-AddressEst: Kivisaare
-
-
-Address: address1 Saumlina tallinn
-AddressApp: Säina , Tallinn
-
-AddressEst: Säina Tallinn
-
-
-Address: address2 (small_num (pot2 (pot0 n3))) Mailase_tee tallinn
-AddressApp: Mailase tee 300 , Tallinn
-
-AddressEst: Mailase tee kolm sada Tallinn
-
-
-Address: address1 Liiva tallinn
-AddressApp: Liiva , Tallinn
-
-AddressEst: Liiva Tallinn
-
-
-Address: address2 (small_num (pot2plus (pot0 n4) pot110)) Jaaniku tallinn
-AddressApp: Jaaniku 410 , Tallinn
-
-AddressEst: Jaaniku neli sada kümme Tallinn
-
-
-Address: address1 Kinga tallinn
-AddressApp: Kinga , Tallinn
-
-AddressEst: Kinga Tallinn
-
-
-Address: address0 Eeppl__Parapalu
-AddressApp: Parapalu , Estonia
-
-AddressEst: Parapalu
-
-
-Address: address2 (small_num (pot2plus (pot0 n6) (pot1to19 n6))) Paavli tallinn
-AddressApp: Paavli 616 , Tallinn
-
-AddressEst: Paavli kuus sada kuus teist Tallinn
-
-
-Address: address1 Rotildeugu tallinn
-AddressApp: Rõugu , Tallinn
-
-AddressEst: Rõugu Tallinn
-
-
-Address: address1 Videviku tallinn
-AddressApp: Videviku , Tallinn
-
-AddressEst: Videviku Tallinn
-
-
-Address: address2 (small_num (pot2 (pot0 n8))) Jotildehvika tallinn
-AddressApp: Jõhvika 800 , Tallinn
-
-AddressEst: Jõhvika kaheksa sada Tallinn
-
-
-Address: address2 (small_num (pot2 (pot0 n6))) Tagala tallinn
-AddressApp: Tagala 600 , Tallinn
-
-AddressEst: Tagala kuus sada Tallinn
-
-
-Address: address1 Vabriku tallinn
-AddressApp: Vabriku , Tallinn
-
-AddressEst: Vabriku Tallinn
-
-
-Address: address0 Eeppl__Raanitsa
-AddressApp: Raanitsa , Estonia
-
-AddressEst: Raanitsa
-
-
-Address: address1 Ao tallinn
-AddressApp: Ao , Tallinn
-
-AddressEst: Ao Tallinn
-
-
-Address: address2 (small_num (pot2plus (pot0 n2) (pot1 n5))) Reketi tallinn
-AddressApp: Reketi 250 , Tallinn
-
-AddressEst: Reketi kaks sada viis kümmend Tallinn
-
-
-Address: address0 Eeppl__Kotildergepalu
-AddressApp: Kõrgepalu , Estonia
-
-AddressEst: Kõrgepalu
-
-
-Address: address1 Rannaniidu tallinn
 AddressApp: Rannaniidu , Tallinn
-
 AddressEst: Rannaniidu Tallinn
 
+AddressApp: Hundipea 4 , Tallinn
+AddressEst: Hundipea neli Tallinn
 
-Address: address1 Viimsi_tee tallinn
-AddressApp: Viimsi tee , Tallinn
+AddressApp: Andrekse tee 6 , Tallinn
+AddressEst: Andrekse tee kuus Tallinn
 
-AddressEst: Viimsi tee Tallinn
+AddressApp: Kiuru 6 , Tallinn
+AddressEst: Kiuru kuus Tallinn
 
+AddressApp: Maisi 30 , Tallinn
+AddressEst: Maisi kolm kümmend Tallinn
 
-Address: address2 (small_num (pot2 (pot0 n3))) Sulevimaumlgi tallinn
-AddressApp: Sulevimägi 300 , Tallinn
+AddressApp: Printsu tee 50 , Tallinn
+AddressEst: Printsu tee viis kümmend Tallinn
 
-AddressEst: Sulevimägi kolm sada Tallinn
+AddressApp: Halu 70 , Tallinn
+AddressEst: Halu seitse kümmend Tallinn
 
+AddressApp: Tiiru 36 , Tallinn
+AddressEst: Tiiru kolm kümmend kuus Tallinn
 
-Address: address1 Tammepaumlrja tallinn
-AddressApp: Tammepärja , Tallinn
+AddressApp: Looga 43 , Tallinn
+AddressEst: Looga neli kümmend kolm Tallinn
 
-AddressEst: Tammepärja Tallinn
+AddressApp: Vainu 51 , Tallinn
+AddressEst: Vainu viis kümmend üks Tallinn
 
+AddressApp: Videviku 14 , Tallinn
+AddressEst: Videviku neli teist Tallinn
 
-Address: address2 (small_num (pot2plus (pot0 n8) pot111)) Vaumlrsi tallinn
-AddressApp: Värsi 811 , Tallinn
+AddressApp: Lembitu 18 , Tallinn
+AddressEst: Lembitu kaheksa teist Tallinn
 
-AddressEst: Värsi kaheksa sada üks teist Tallinn
+AddressApp: Kõlviku tee 19 , Tallinn
+AddressEst: Kõlviku tee üheksa teist Tallinn
 
+AddressApp: Merinõela 110 , Tallinn
+AddressEst: Merinõela sada kümme Tallinn
 
-Address: address2 (small_num (pot2plus pot01 pot111)) Liivaranna_tee tallinn
-AddressApp: Liivaranna tee 111 , Tallinn
+AddressApp: Toomiku tee 111 , Tallinn
+AddressEst: Toomiku tee sada üks teist Tallinn
 
-AddressEst: Liivaranna tee sada üks teist Tallinn
+AddressApp: Villardi 166 , Tallinn
+AddressEst: Villardi sada kuus kümmend kuus Tallinn
 
+AddressApp: Kalmistu tee 200 , Tallinn
+AddressEst: Kalmistu tee kaks sada Tallinn
 
-Address: address0 Eeppl__Kandle
-AddressApp: Kandle , Estonia
+AddressApp: Kahlu 300 , Tallinn
+AddressEst: Kahlu kolm sada Tallinn
 
-AddressEst: Kandle
+AddressApp: Eduard Viiralti 900 , Tallinn
+AddressEst: Eduard Viiralti üheksa sada Tallinn
 
+AddressApp: Alasi , Tartu
+AddressEst: Alasi Tartu
 
-Address: address2 (small_num (pot1as2 (pot1plus n6 pot01))) Haljas_tee tallinn
-AddressApp: Haljas tee 61 , Tallinn
+AddressApp: Tulika , Tartu
+AddressEst: Tulika Tartu
 
-AddressEst: Haljas tee kuus kümmend üks Tallinn
+AddressApp: Vallikraavi , Tartu
+AddressEst: Vallikraavi Tartu
 
+AddressApp: Kirde 1 , Tartu
+AddressEst: Kirde üks Tartu
 
-Address: address1 Sagari tallinn
-AddressApp: Sagari , Tallinn
+AddressApp: Kompanii 1 , Tartu
+AddressEst: Kompanii üks Tartu
 
-AddressEst: Sagari Tallinn
+AddressApp: Aardla 5 , Tartu
+AddressEst: Aardla viis Tartu
 
+AddressApp: Kaunase puiestee 30 , Tartu
+AddressEst: Kaunase puiestee kolm kümmend Tartu
 
-Address: address0 Eeppl__Lenderma
-AddressApp: Lenderma , Estonia
+AddressApp: Mureli 70 , Tartu
+AddressEst: Mureli seitse kümmend Tartu
 
-AddressEst: Lenderma
+AddressApp: Poe 70 , Tartu
+AddressEst: Poe seitse kümmend Tartu
 
+AddressApp: Räägu 31 , Tartu
+AddressEst: Räägu kolm kümmend üks Tartu
 
-Address: address1 Potildedra tallinn
-AddressApp: Põdra , Tallinn
+AddressApp: Tungla 66 , Tartu
+AddressEst: Tungla kuus kümmend kuus Tartu
 
-AddressEst: Põdra Tallinn
+AddressApp: Paju 71 , Tartu
+AddressEst: Paju seitse kümmend üks Tartu
 
+AddressApp: Lepalinnu 12 , Tartu
+AddressEst: Lepalinnu kaks teist Tartu
 
-Address: address1 Komeedi tallinn
-AddressApp: Komeedi , Tallinn
+AddressApp: Vasara põik 13 , Tartu
+AddressEst: Vasara põik kolm teist Tartu
 
-AddressEst: Komeedi Tallinn
+AddressApp: Melissi 15 , Tartu
+AddressEst: Melissi viis teist Tartu
 
+AddressApp: Vaarika 131 , Tartu
+AddressEst: Vaarika sada kolm kümmend üks Tartu
 
-Address: address1 Kiviranna_tee tallinn
-AddressApp: Kiviranna tee , Tallinn
+AddressApp: Võru 270 , Tartu
+AddressEst: Võru kaks sada seitse kümmend Tartu
 
-AddressEst: Kiviranna tee Tallinn
+AddressApp: Surnuaia 510 , Tartu
+AddressEst: Surnuaia viis sada kümme Tartu
 
+AddressApp: Ihaste põik 200 , Tartu
+AddressEst: Ihaste põik kaks sada Tartu
 
-Address: address1 Saariku_tee tallinn
-AddressApp: Saariku tee , Tallinn
+AddressApp: Lõo 900 , Tartu
+AddressEst: Lõo üheksa sada Tartu
 
-AddressEst: Saariku tee Tallinn
-
-
-Address: address0 Eeppl__Irvala
-AddressApp: Irvala , Estonia
-
-AddressEst: Irvala
-
-
-Address: address1 Palu tallinn
-AddressApp: Palu , Tallinn
-
-AddressEst: Palu Tallinn
-
-
-Address: address1 Keskkuumlla tallinn
-AddressApp: Keskküla , Tallinn
-
-AddressEst: Keskküla Tallinn
-
-
-Address: address2 (small_num (pot2plus pot01 pot110)) Saeveski tallinn
-AddressApp: Saeveski 110 , Tallinn
-
-AddressEst: Saeveski sada kümme Tallinn
-
-
-Address: address2 (small_num (pot2 pot01)) Sepa tallinn
-AddressApp: Sepa 100 , Tallinn
-
-AddressEst: Sepa sada Tallinn
-
-
-Address: address0 Eeppl__Kihlepa
-AddressApp: Kihlepa , Estonia
-
-AddressEst: Kihlepa
-
-
-Address: address0 Eeppl__Rangu
-AddressApp: Rangu , Estonia
-
-AddressEst: Rangu
-
-
-Address: address0 Eeppl__Kavandu
-AddressApp: Kavandu , Estonia
-
-AddressEst: Kavandu
-
-
-Address: address0 Eeppl__Kullamaumle
-AddressApp: Kullamäe , Estonia
-
-AddressEst: Kullamäe
-
-
-
+AddressApp: Väike-Turu 900 , Tartu
+AddressEst: Väike-Turu üheksa sada Tartu

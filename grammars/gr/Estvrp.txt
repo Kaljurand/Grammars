@@ -1,9 +1,9 @@
 
-EstvrpApp: 1 4 3 l b k
-EstvrpEst: üks neli kolm linda berta kalle
+EstvrpApp: 0 4 3 q z q
+EstvrpEst: null neli kolm kuu tsett kuu
 
-EstvrpApp: 4 7 5 m d p
-EstvrpEst: neli seitse viis mati daavid paul
+EstvrpApp: 3 2 6 š r u
+EstvrpEst: kolm kaks kuus šaaa raivo uuno
 
-EstvrpApp: 8 9 4 l s s
-EstvrpEst: kaheksa üheksa neli linda salme salme
+EstvrpApp: 8 4 9 r y š
+EstvrpEst: kaheksa neli üheksa raivo igrek šaaa

@@ -1,8 +1,4 @@
 
-GoApp: 2 m <
-GoEng: go two meters back
-GoEst: mine kaks meetrit tagasi
-
 GoApp: 4 m <
 GoEng: go four meters back
 GoEst: mine neli meetrit tagasi
@@ -10,3 +6,7 @@ GoEst: mine neli meetrit tagasi
 GoApp: 4 m >
 GoEng: go four meters forward
 GoEst: mine neli meetrit edasi
+
+GoApp: 5 m >
+GoEng: go five meters forward
+GoEst: mine viis meetrit edasi
