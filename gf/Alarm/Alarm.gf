@@ -9,6 +9,7 @@ cat MPeriod;
 
 fun
 	alarm_time : Timestamp -> Alarm;
+	alarm_time_hour : Hour -> Alarm;
 	alarm_period : Period -> Alarm;
 
 	hperiod : Sub100 -> HPeriod;

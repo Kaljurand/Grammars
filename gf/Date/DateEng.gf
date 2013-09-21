@@ -56,7 +56,7 @@ lin
   H22 = mkTen d2 d2;
   H23 = mkTen d2 d3;
 
-  M00 = optStr "oh clock";
+  M00 = "oh clock";
   M01 = mkNull d1;
   M02 = mkNull d2;
   M03 = mkNull d3;

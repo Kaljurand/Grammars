@@ -56,7 +56,7 @@ lin
   H22 = mkKym d2 d2;
   H23 = mkKym d2 d3;
 
-  M00 = optStr (mkNull d0);
+  M00 = mkNull d0;
   M01 = mkNull d1;
   M02 = mkNull d2;
   M03 = mkNull d3;

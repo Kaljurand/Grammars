@@ -3,4 +3,4 @@ Date
 
 Work in progress!
 
-Based on GF/examples/dates/
+See also <https://github.com/GrammaticalFramework/gf-contrib/tree/master/dates>

@@ -6,6 +6,7 @@ lincat Alarm, HPeriod, MPeriod, Period = SS;
 
 lin
 	alarm_time = prefixSS (request ++ kell);
+	alarm_time_hour x = prefixSS (request ++ "kell") (ss x); -- "kell" is obligatory
 	alarm_period p = ss (request ++ p.s ++ "hiljem");
 
 	hperiod n = ss (n.s ! indep);

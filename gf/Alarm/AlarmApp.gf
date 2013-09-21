@@ -6,6 +6,7 @@ lincat Alarm, HPeriod, MPeriod, Period = SS;
 
 lin
 	alarm_time = prefixSS "alarm";
+	alarm_time_hour x = prefixSS "alarm" (ss (x ++ ": 00"));
 	alarm_period = prefixSS "alarm in";
 
 	hperiod n = ss (n.s ! noz);
