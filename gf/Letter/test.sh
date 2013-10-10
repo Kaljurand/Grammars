@@ -1,4 +1,4 @@
-path="../lib/"
+path=$1
 
 # Testing the roundtrip: App -> Est -> App
 

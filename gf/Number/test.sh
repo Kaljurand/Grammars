@@ -1,4 +1,4 @@
-path="../lib/"
+path=$1
 
 echo "Testing: App -> ALL"
 echo

@@ -17,16 +17,14 @@ concrete UnitEst of Unit = PrefixEst, CurrencyEst ** open StringOper, Estonian i
 --   * singular partitiv (SgPart),
 --   * singular inessiv (SgIn),
 --   * plural inessiv (PlIn).
--- By using the mkUnit-function you can only provide the partitive form,
--- the inessives will be generated automatically.
--- If the single argument mkUnit-function fails to generate the
--- correct forms then specify the other forms explicitly (see some examples in the code)
--- or improve the mkUnit-function to handle the new paradigm.
--- The singular inessiv form is required only in a few cases (e.g. "kilomeetrites *tunnis*"),
+-- By using the mkUnit-function you must usually provide only the sg nom form.
+-- The sg iness form is required only in a few cases (e.g. "kilomeetrites *tunnis*"),
 -- in most cases it doesn't even end up in the compiled grammar (e.g. JSGF file).
 --
+-- TODO: remove the need for mkForms
+--
 -- @author Kaarel Kaljurand
--- @version 2013-05-13
+-- @version 2013-10-10
 
 flags coding=utf8;
 
@@ -69,66 +67,66 @@ density, speed, acceleration2 = mk_meter_per_second "";
 acceleration = mk_meter_per_second "ruut";
 
 --Length
-meter = mkUnit "meetrit";
-inch = mkUnit "tolli";
-foot = mkUnit "jalga" "jalas" "jalgades";
-yard = mkUnit "jardi";
-mile = mkUnit "miili";
+meter = mkUnit "meeter";
+inch = mkUnit "toll";
+foot = mkUnit "jalg" "jala" "jalga";
+yard = mkUnit "jard";
+mile = mkUnit "miil";
 
 --Mass
-gram = mkUnit "grammi";
-ounce = mkUnit "untsi";
-pound = mkUnit "naela";
-ton = mkUnit "tonni";
-cup_flour = mkUnit "tassi jahu" "jahu tassides";
+gram = mkUnit "gramm";
+ounce = mkUnit "unts";
+pound = mkForms "naela" "naelas" "naelades";
+ton = mkUnit "tonn";
+cup_flour = mkForms "tassi jahu" "jahu tassis" "jahu tassides";
 
 --Time
 -- TODO: take the symbols from PrefixEst
-nano_second = mkUnit "nano sekundit";
-micro_second = mkUnit "mikro sekundit";
-milli_second = mkUnit "milli sekundit";
-second = mkUnit "sekundit";
-minute = mkUnit "minutit";
-hour = mkUnit "tundi" "tunnis" "tundides";
-day = mkUnit "päeva";
-week = mkUnit "nädalat";
-month = mkUnit "kuud";
-year = mkUnit "aastat";
-decade = mkUnit "dekaadi";
-century = mkUnit "sajandit";
+nano_second = prefix "nano" second;
+micro_second = prefix "mikro" second;
+milli_second = prefix "milli" second;
+second = mkUnit "sekund";
+minute = mkUnit "minut";
+hour = mkUnit "tund" "tunni" "tundi";
+day = mkUnit "päev" "päeva" "päeva";
+week = mkUnit "nädal" "nädala" "nädalat";
+month = mkUnit "kuu";
+year = mkUnit "aasta";
+decade = mkUnit "dekaad";
+century = mkUnit "sajand";
 
 --Temperature
-celsius = mkUnit "kraadi" | mkUnit "celsiust" ;
-fahrenheit = mkUnit "fahrenheiti";
+celsius = degree | mkUnit "celsius" ;
+fahrenheit = mkUnit "fahrenheit";
 
 --Area
-hectare = mkUnit "hektarit";
-acre = mkUnit "aakrit";
+hectare = mkUnit "hektar";
+acre = mkUnit "aaker";
 
 --Volume
-liter = mkUnit "liitrit";
-pint = mkUnit "pinti" "pindis" "pintides";
-gallon = mkUnit "gallonit";
-cup = mkUnit "tassi";
+liter = mkUnit "liiter";
+pint = mkUnit "pint";
+gallon = mkUnit "gallon";
+cup = mkUnit "tass";
 
 --Frequency
-hertz = mkUnit "hertsi";
+hertz = mkUnit "herts";
 
-the_speed_of_light = mkUnit "valgus kiirust";
-knot = mkUnit "sõlme";
+the_speed_of_light = mkForms "valgus kiirust" "valgus kiiruses" "valgus kiirustes" ;
+knot = mkUnit "sõlm" "sõlme" "sõlme";
 
 -- Energy
-joule = mkUnit "džauli";
-calorie = mkUnit "kalorit";
-watt_hour = mkUnit "vatt tundi";
+joule = mkUnit "džaul";
+calorie = mkUnit "kalor";
+watt_hour = prefix "vatt" hour;
 
 -- Power
-watt = mkUnit "vatti";
+watt = mkUnit "vatt";
 
 --Angle
-radian = mkUnit "radiaani";
-arcsecond = mkUnit "sekundit";
-arcminute = mkUnit "minutit";
-degree = mkUnit "kraadi";
+radian = mkUnit "radiaan";
+arcsecond = second;
+arcminute = minute;
+degree = mkUnit "kraad";
 
 }

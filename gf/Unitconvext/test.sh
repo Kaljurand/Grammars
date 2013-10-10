@@ -1,6 +1,6 @@
 # Declare the name of the grammar and the paths to the used libraries
 g="Unitconvext"
-path="../Unitconv:../Number/:../Fraction/:../lib/"
+path=$1
 
 examples="examples/"
 e_est="${examples}Est.txt"

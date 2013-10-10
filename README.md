@@ -7,7 +7,12 @@ This project is about natural language grammars with the focus on
 Dependecies
 -----------
 
-The grammars are implemented in GF.
+The grammars are implemented in GF. In addition to the GF compiler and runtime,
+you need
+
+  - [Estonian resource grammar](https://github.com/GF-Estonian/GF-Estonian)
+    - set `GF_EST_SRC` to point to its root directory
+
 Various tools are needed for testing etc.:
 
   - [GF-Utils](https://github.com/Kaljurand/GF-Utils)
