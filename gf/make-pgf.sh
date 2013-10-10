@@ -1,6 +1,6 @@
 #!/bin/bash
 
-path="lib:Address:Alarm:ArithExpr:Calc:Date:Dial:Digit:Direction:Eeppl:Expr:Fraction:Letter:Numeral:Tallinnaddress:Unitconv:Weather"
+path="lib:Address:Alarm:ArithExpr:Calc:Date:Dial:Digit:Direction:Eeppl:Expr:Fraction:Letter:Number:Tallinnaddress:Unitconv:Weather"
 
 build=build
 dir_gr=${build}/gr/

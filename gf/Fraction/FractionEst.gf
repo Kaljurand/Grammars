@@ -1,4 +1,4 @@
-concrete FractionEst of Fraction = NumeralEst ** open StringOper in {
+concrete FractionEst of Fraction = NumberEst ** open StringOper in {
 
 flags coding = utf8;
 

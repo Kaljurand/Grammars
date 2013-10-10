@@ -1,11 +1,11 @@
-abstract Numeral = {
+abstract Number = {
 
 -- numerals from 1 to (10^12 - 1) in decimal notation
 
-flags startcat=Numeral ;
+flags startcat=Number;
 
 cat
-  Numeral ;     -- 0..
+  Number ;      -- 0..
   Digit ;       -- 2..9
   Sub10 ;       -- 1..9
   Sub100 ;      -- 1..99
@@ -15,7 +15,7 @@ cat
   Sub12 ;       -- 1..10^12 -1 (trillion - 1)
 
 fun
-  num : Sub12 -> Numeral ;
+  num : Sub12 -> Number ;
 
   n2, n3, n4, n5, n6, n7, n8, n9 : Digit ;
 

@@ -1,4 +1,4 @@
-concrete FractionEng of Fraction = NumeralEng ** open StringOper in {
+concrete FractionEng of Fraction = NumberEng ** open StringOper in {
 
 flags coding = utf8;
 

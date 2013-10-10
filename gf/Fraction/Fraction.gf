@@ -1,6 +1,6 @@
-abstract Fraction = Numeral ** {
+abstract Fraction = Number ** {
 
--- Fraction is an extension of Numeral which adds a function
+-- Fraction is an extension of Number which adds a function
 -- for combining two numerals (e.g. with a decimal point).
 -- It also adds a few numerals (null, half, pi, ...).
 --
@@ -12,14 +12,14 @@ flags startcat = Fraction ;
 cat Fraction; FractionBase; NumeralPair;
 
 fun
-	null : Numeral;
-	meaning_of_life : Numeral ;
-	pair : Numeral -> Numeral -> NumeralPair;
+	null : Number ;
+	meaning_of_life : Number ;
+	pair : Number -> Number -> NumeralPair;
 
-	copy1 : Numeral -> FractionBase;
+	copy1 : Number -> FractionBase;
 	copy2 : NumeralPair -> FractionBase;
 
-	neg1 : Numeral -> FractionBase;
+	neg1 : Number -> FractionBase;
 	neg2 : NumeralPair -> FractionBase;
 
 	-- One cannot apply 'minus' to the result of 'quarter', e.g.

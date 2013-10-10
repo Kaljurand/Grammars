@@ -1,4 +1,4 @@
-abstract Tallinnaddress = Tallinnplace, Tallinnstreet, Numeral ** {
+abstract Tallinnaddress = Tallinnplace, Tallinnstreet, Number ** {
 
 flags startcat = Tallinnaddress;
 
@@ -7,7 +7,7 @@ cat Tallinnaddress; SmallNumeral;
 fun
 	-- We want to redefine `num` to exclude numbers larger than 999
 	-- because these do not occur as part of Estonian street addresses.
-	-- Inheriting "Numerals - [num]" and defining "num : Sub1000 -> Numeral"
+	-- Inheriting "Number - [num]" and defining "num : Sub1000 -> Number"
 	-- did not work. :(
 	-- The problem (or at least part of it) is that Sub1000 and Sub1000000
 	-- do not necessarily have the same linearization type in all concrete

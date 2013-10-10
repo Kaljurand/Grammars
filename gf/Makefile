@@ -1,12 +1,13 @@
 
-path = lib:Numeral:Date:Dial:Digit:Action:Alarm:ArithExpr:Calc:Expr:Fraction:ISO639:Unitconv:Direction:Address:Eeppl:Tallinnaddress:Uri:Weather
+path = $(GF_EST_SRC)/estonian:lib:Number:Date:Dial:Digit:Action:Alarm:ArithExpr:Calc:Expr:Fraction:ISO639:Unitconv:Direction:Address:Eeppl:Tallinnaddress:Uri:Weather
+#path = lib:Number:Date:Dial:Digit:Action:Alarm:ArithExpr:Calc:Expr:Fraction:ISO639:Unitconv:Direction:Address:Eeppl:Tallinnaddress:Uri:Weather
 
 langs = App Est Eng
 langs1 = App Est
 langs2 = App Est Esttts Eng Engtts
 
 # Modules reachable from Action
-modules_Action=Action,Address,Alarm,ArithExpr,Calc,Currency,Date,Dial,Digit,Direction,Eeppl,Estvrp,Expr,Fraction,Go,Letter,Numeral,Prefix,Symbols,Tallinnaddress,Tallinndirection,Unit,Unitconv,Weather
+modules_Action=Action,Address,Alarm,ArithExpr,Calc,Currency,Date,Dial,Digit,Direction,Eeppl,Estvrp,Expr,Fraction,Go,Letter,Number,Prefix,Symbols,Tallinnaddress,Tallinndirection,Unit,Unitconv,Weather
 
 gf = gf --make --optimize-pgf --mk-index --path=$(path)
 gf_retain = gf --run --retain --path=$(path)
@@ -62,8 +63,8 @@ build_Unitconvext:
 build_Fraction:
 	$(gf) $(foreach lang,$(langs),Fraction/Fraction$(lang).gf)
 
-build_Numeral:
-	$(gf) $(foreach lang,$(langs),Numeral/Numeral$(lang).gf)
+build_Number:
+	$(gf) $(foreach lang,$(langs),Number/Number$(lang).gf)
 
 build_Date:
 	$(gf) $(foreach lang,$(langs),Date/Date$(lang).gf)

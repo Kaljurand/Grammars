@@ -1,4 +1,4 @@
-resource ResDateEng = NumeralEng ** open StringOper in {
+resource ResDateEng = NumberEng ** open StringOper in {
 
 flags coding = utf8 ;
 

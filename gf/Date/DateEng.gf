@@ -1,4 +1,4 @@
-concrete DateEng of Date = NumeralEng ** open StringOper, ResDateEng in {
+concrete DateEng of Date = NumberEng ** open StringOper, ResDateEng in {
 
 flags coding = utf8 ;
 

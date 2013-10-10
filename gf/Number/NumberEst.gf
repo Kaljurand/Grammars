@@ -1,4 +1,4 @@
-concrete NumeralEst of Numeral = open StringOper in {
+concrete NumberEst of Number = open StringOper in {
 
 -- Note: this grammar does not glue -teist, -kümmend, ja -sada, which is
 -- orthographically incorrect but more suitable for the Estonian speech recognizer.
@@ -14,7 +14,7 @@ concrete NumeralEst of Numeral = open StringOper in {
 flags coding=utf8;
 
 param Place = indep | attr ;
-lincat Numeral = {s : Str} ;
+lincat Number = {s : Str} ;
 lincat Digit = {s : Str} ;
 lincat Sub10 = {s : Place => Str} ;
 lincat Sub100 = {s : Place => Str} ;

@@ -1,4 +1,4 @@
-abstract Date = Numeral ** {
+abstract Date = Number ** {
 
 flags startcat = Date ;
 
