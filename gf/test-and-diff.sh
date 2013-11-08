@@ -3,6 +3,8 @@
 test_out_dir=build/test_out
 test_gold_dir=test_gold
 
+path="${GF_EST_SRC}/estonian:../lib:../Address:../Alarm:../ArithExpr:../Calc:../Date:../Dial:../Digit:../Direction:../Eeppl:../Expr:../Fraction:../Letter:../Number:../Tallinnaddress:../Unitconv:../Weather"
+
 # Extracts jsgf- and dict-files from the pgf-files in this directory.
 # Compares the extracted files with their previous versions.
 # Runs the test.sh-files in the directories that correspond to the pgf-files.
@@ -40,7 +42,7 @@ for pgf in *.pgf; do
 	then
 		echo "  testing";
 		cd $name;
-		sh test.sh > ../${dir}/${name}.out;
+		sh test.sh ${path} > ../${dir}/${name}.out;
 		cd ..
 	fi
 

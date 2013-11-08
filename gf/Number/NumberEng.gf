@@ -1,10 +1,10 @@
-concrete NumeralEng of Numeral = open StringOper in {
+concrete NumberEng of Number = open StringOper in {
 
 flags coding=utf8;
 
 param DForm = unit | teen | ten ;
 
-lincat Numeral = SS ;
+lincat Number = SS ;
 oper LinDigit = {s : DForm => Str} ;
 lincat Digit = LinDigit ;
 

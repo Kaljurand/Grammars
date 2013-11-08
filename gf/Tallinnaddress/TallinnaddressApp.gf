@@ -1,4 +1,4 @@
-concrete TallinnaddressApp of Tallinnaddress = TallinnplaceEst, TallinnstreetEst, NumeralApp ** open StringOper in {
+concrete TallinnaddressApp of Tallinnaddress = TallinnplaceEst, TallinnstreetEst, NumberApp ** open StringOper in {
 
 -- TallinnaddressApp refers to the Google Maps query language
 -- which has the following features:

@@ -1,4 +1,4 @@
-concrete DateApp of Date = NumeralApp ** open StringOper in {
+concrete DateApp of Date = NumberApp ** open StringOper in {
 
 flags coding = utf8 ;
 

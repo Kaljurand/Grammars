@@ -1,8 +1,8 @@
-concrete NumeralApp of Numeral = open StringOper in {
+concrete NumberApp of Number = open StringOper in {
 
 param Zeros = noz | zz ;
 
-lincat Numeral = { s : Str } ;
+lincat Number = { s : Str } ;
 lincat Digit = { s : Str } ;
 lincat Sub10 = { s : Str } ;
 lincat Sub100 = {s : Zeros => Str} ;

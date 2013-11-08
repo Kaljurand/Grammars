@@ -1,5 +1,5 @@
-Numeral
-=======
+Number
+======
 
 Based on
 
@@ -10,6 +10,6 @@ Based on
 
 found in the GF 3.2.9 source distribution.
 
-`NumeralEst` is based on `finnish`.
+`NumberEst` is based on `finnish`.
 
-`NumeralApp` is based on `decimal` but uses `glue` instead of `++`.
+`NumberApp` is based on `decimal` but uses `glue` instead of `++`.

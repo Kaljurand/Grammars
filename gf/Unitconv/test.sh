@@ -1,6 +1,6 @@
 # Declare the name of the grammar and the paths to the used libraries
 g="Unitconv"
-path="../Numeral/:../Fraction/:../lib/"
+path=$1
 
 sedscript="../../tools/make_gf_parse_lin_command.sed"
 sedscript_Est="../../tools/make_gf_parse_lin_command_Est.sed"

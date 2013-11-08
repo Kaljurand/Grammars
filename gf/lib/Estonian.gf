@@ -1,7 +1,7 @@
-resource Estonian = open StringOper in {
+resource Estonian = open StringOper, CatEst, ResEst, ParadigmsEst in {
 
 -- @author Kaarel Kaljurand
--- @version 2011-10-05
+-- @version 2013-10-10
 
 flags coding=utf8;
 
@@ -15,16 +15,16 @@ oper
 	prefix : Str -> CaseStr -> CaseStr = \x,y -> add_prefix x y;
 
 	mkUnit = overload {
-		mkUnit : (x1 : Str) -> CaseStr = mk ;
-		mkUnit : (x1,x2 : Str) -> CaseStr = f ;
-		mkUnit : (x1,x2,x3 : Str) -> CaseStr = f3 ;
+		mkUnit : (x1 : Str) -> CaseStr = mk1 ;
+		mkUnit : (x1,x2 : Str) -> CaseStr = mk2 ;
+		mkUnit : (x1,x2,x3 : Str) -> CaseStr = mk3 ;
 	};
 
 
 	request : Str -> Str = \x -> (x ++ strOpt "palun") | "palun" ++ x;
 
 
-	f3 : Str -> Str -> Str -> CaseStr = \sg1,sg2,pl1 ->
+	mkForms : Str -> Str -> Str -> CaseStr = \sg1,sg2,pl1 ->
 		{
 			s = table {
 				SgPart => sg1 ;
@@ -33,19 +33,28 @@ oper
 			}
 	};
 
-	f : Str -> Str -> CaseStr = \x,y -> f3 x "NOT_IMPLEMENTED" y;
+	mk1 : Str -> CaseStr = \sg_nom ->
+		let
+			n : N = mkN sg_nom ;
+			sg_part : Str = (n.s ! NCase Sg Part) ;
+			sg_in : Str = (n.s ! NCase Sg Iness) ;
+			pl_in : Str = (n.s ! NCase Pl Iness)
+		in mkForms sg_part sg_in pl_in ;
 
-	mk : Str -> CaseStr = \sg_part -> 
-		let 
-			pl_in : Str = case sg_part of {
-				_ + ("a" | "e" | "i" | "o") => sg_part + "des" ; -- jalga + des
-				_                           => sg_part + "es"    -- liitrit + es
-			} ;
-			sg_in : Str = case sg_part of {
-				base + ("t" | "d")          => base + "s" ; -- sekundit -> sekundis
-				_                           => sg_part + "s" -- raha + s
-			} 
-		in f3 sg_part sg_in pl_in;
+	mk2 : Str -> Str -> CaseStr = \sg_nom,sg_gen ->
+		let
+			n : N = mkN sg_nom sg_gen ;
+			sg_part : Str = (n.s ! NCase Sg Part) ;
+			sg_in : Str = (n.s ! NCase Sg Iness) ;
+			pl_in : Str = (n.s ! NCase Pl Iness)
+		in mkForms sg_part sg_in pl_in ;
+
+	mk3 : Str -> Str -> Str -> CaseStr = \nom,gen,part ->
+		let
+			n : N = mkN nom gen part ;
+			sg_in : Str = (n.s ! NCase Sg Iness) ;
+			pl_in : Str = (n.s ! NCase Pl Iness)
+		in mkForms part sg_in pl_in ;
 
 	-- Places a prefix (`kilo`) in front of the given unit word (`meeter`).
 	-- TODO: Maybe we should return a more complex structure with a field

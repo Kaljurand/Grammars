@@ -1,4 +1,4 @@
-concrete FractionApp of Fraction = NumeralApp ** open StringOper in {
+concrete FractionApp of Fraction = NumberApp ** open StringOper in {
 
 -- The simple combination by placing a dot between two numerals has the
 -- following consequences for the lexical space:

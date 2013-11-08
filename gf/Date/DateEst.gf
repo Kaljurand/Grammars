@@ -1,4 +1,4 @@
-concrete DateEst of Date = NumeralEst ** open StringOper, Estonian in {
+concrete DateEst of Date = NumberEst ** open StringOper, Estonian in {
 
 flags coding = utf8 ;
 
