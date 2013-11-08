@@ -39,7 +39,7 @@ lin
 
 -- TODO: get the country names from the Country-module
 usd = mk_currency_variants_4 "ameerika" (mkUnit "dollar") ;
-gbp = mk_currency_variants_4 "inglise" (mkForms "naela" "naelas" "naelades") ;
+gbp = mk_currency_variants_4 "inglise" (mkUnit "nael" "naela") ;
 jpy = mk_currency_variants_4 "jaapani" (mkUnit "jeen") ;
 rub = mk_currency_variants_3 "vene" (mkUnit "rubla" "rubla" "rubla");
 -- TODO: inflects like 'audit' ?

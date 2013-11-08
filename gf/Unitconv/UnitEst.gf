@@ -1,6 +1,6 @@
 concrete UnitEst of Unit = PrefixEst, CurrencyEst ** open StringOper, Estonian in {
 
--- This is a lexicon of the words of measurement units in Estonian.
+-- This is a lexicon of the words of measurement units.
 -- Some examples:
 --   * meetrit
 --   * kilo meetrit
@@ -13,18 +13,16 @@ concrete UnitEst of Unit = PrefixEst, CurrencyEst ** open StringOper, Estonian i
 --   * meetrit sekundis sekundis [= (m/s)/s]
 -- For the currency examples see `CurrencyEst`.
 --
--- Internally three forms of each word are used:
---   * singular partitiv (SgPart),
---   * singular inessiv (SgIn),
---   * plural inessiv (PlIn).
--- By using the mkUnit-function you must usually provide only the sg nom form.
--- The sg iness form is required only in a few cases (e.g. "kilomeetrites *tunnis*"),
--- in most cases it doesn't even end up in the compiled grammar (e.g. JSGF file).
+-- The phrases use the forms:
+--   * singular partitiv (meetrit)
+--   * singular inessiv (sekundis),
+--   * plural inessiv (meetrites).
+-- The forms are constructed by mkUnit which takes 1-3 arguments (sg nom, gen, part).
 --
 -- TODO: remove the need for mkForms
 --
 -- @author Kaarel Kaljurand
--- @version 2013-10-10
+-- @version 2013-11-08
 
 flags coding=utf8;
 
@@ -69,14 +67,14 @@ acceleration = mk_meter_per_second "ruut";
 --Length
 meter = mkUnit "meeter";
 inch = mkUnit "toll";
-foot = mkUnit "jalg" "jala" "jalga";
+foot = mkUnit "jalg" "jala" ;
 yard = mkUnit "jard";
 mile = mkUnit "miil";
 
 --Mass
 gram = mkUnit "gramm";
 ounce = mkUnit "unts";
-pound = mkForms "naela" "naelas" "naelades";
+pound = mkUnit "nael" "naela";
 ton = mkUnit "tonn";
 cup_flour = mkForms "tassi jahu" "jahu tassis" "jahu tassides";
 
@@ -87,9 +85,9 @@ micro_second = prefix "mikro" second;
 milli_second = prefix "milli" second;
 second = mkUnit "sekund";
 minute = mkUnit "minut";
-hour = mkUnit "tund" "tunni" "tundi";
-day = mkUnit "päev" "päeva" "päeva";
-week = mkUnit "nädal" "nädala" "nädalat";
+hour = mkUnit "tund" "tunni";
+day = mkUnit "päev" "päeva" ;
+week = mkUnit "nädal" "nädala" ;
 month = mkUnit "kuu";
 year = mkUnit "aasta";
 decade = mkUnit "dekaad";
@@ -113,7 +111,7 @@ cup = mkUnit "tass";
 hertz = mkUnit "herts";
 
 the_speed_of_light = mkForms "valgus kiirust" "valgus kiiruses" "valgus kiirustes" ;
-knot = mkUnit "sõlm" "sõlme" "sõlme";
+knot = mkUnit "sõlm" "sõlme" ;
 
 -- Energy
 joule = mkUnit "džaul";
