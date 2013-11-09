@@ -1,10 +1,9 @@
 #! /usr/bin/env python
 
+# Register grammars from the given URL with the given server.
+
 # Author: Kaarel Kaljurand
-# Version: 2012-12-14
-#
-# Examples:
-#
+# Version: 2013-11-09
 #
 import argparse
 import json
@@ -16,6 +15,9 @@ import time
 
 curl='curl'
 EXT='.pgf'
+
+default_server='http://bark.phon.ioc.ee/test/speech-api/v1'
+default_grammars='http://kaljurand.github.com/Grammars/grammars/pgf/'
 
 def get_result(cmd):
 	p = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -50,14 +52,15 @@ parser.add_argument('names', metavar=('NAMES'), type=str, nargs='+',
 	help='name of the grammar (i.e. abstract syntax)')
 
 parser.add_argument('-s', '--server', type=str, action='store', dest='server',
-	default='http://bark.phon.ioc.ee/test/speech-api/v1',
-	help='name of the speech recognition server, default=http://bark.phon.ioc.ee/test/speech-api/v1')
+	default=default_server,
+	help='name of the speech recognition server, default=' + default_server)
 
 parser.add_argument('-g', '--grammars', type=str, action='store', dest='grammars',
-	default='http://kaljurand.github.com/Grammars/grammars/pgf/',
-	help='name of the grammars repository, default=http://kaljurand.github.com/Grammars/grammars/pgf/')
+	default=default_grammars,
+	help='name of the grammars repository, default=' + default_grammars)
 
 parser.add_argument('-l', '--langs', type=str, action='store', dest='langs',
+	required=True,
 	help='comma-separated list of 3-letter language codes, e.g. Est,Eng (OBLIGATORY)')
 
 parser.add_argument('--verbosity', type=int, action='store', dest='verbosity',
@@ -67,10 +70,6 @@ parser.add_argument('--verbosity', type=int, action='store', dest='verbosity',
 parser.add_argument('-v', '--version', action='version', version='%(prog)s v0.1')
 
 args = parser.parse_args()
-
-if args.langs is None:
-	print >> sys.stderr, 'ERROR: argument -l/--langs is not specified'
-	exit()
 
 
 for name in args.names:
