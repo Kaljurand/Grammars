@@ -84,6 +84,7 @@ liter = mkUnit "liters";
 pint = mkUnit "pints";
 gallon = mkUnit "gallons";
 cup = mkUnit "cups";
+fluid_ounce = mkUnit "fluid ounces" | ounce ;
 
 --Frequency
 hertz = mkUnit "hertz";

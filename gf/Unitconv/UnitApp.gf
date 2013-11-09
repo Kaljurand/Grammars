@@ -95,6 +95,7 @@ liter = ss "L";
 pint = ss "pt";
 gallon = ss "gal";
 cup = ss "cup_us";
+fluid_ounce = ss "fl oz";
 
 --Frequency
 hertz = ss "Hz";

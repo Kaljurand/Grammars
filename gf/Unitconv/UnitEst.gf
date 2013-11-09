@@ -106,6 +106,7 @@ liter = mkUnit "liiter";
 pint = mkUnit "pint";
 gallon = mkUnit "gallon";
 cup = mkUnit "tass";
+fluid_ounce = mkUnit "vedelunts"; -- TODO: what's the official term?
 
 --Frequency
 hertz = mkUnit "herts";

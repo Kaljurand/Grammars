@@ -68,7 +68,10 @@ fun
 	-- Simple units
 
 	meter, foot, inch, yard, mile : Length ;
-	gram, ounce, pound, ton, cup_flour : Mass ;
+	gram, pound, ton, cup_flour : Mass ;
+	-- Classifying 'ounce' directly as MassUnit avoids prefixing
+	-- (* 'milli ounces')
+	ounce : MassUnit ;
 
 	-- We don't generally allow SI-prefixes with Time, because
 	-- they only make sense for seconds.
@@ -84,6 +87,7 @@ fun
 
 	-- Only the Volume units which are not constructed from Length (e.g. cm^3)
 	liter, gallon, pint, cup : Volume ;
+	fluid_ounce : VolumeUnit ;
 
 	hertz : Frequency ;
 
