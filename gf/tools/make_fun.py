@@ -40,6 +40,8 @@ translations = (
 	('Ä', 'Auml'),
 	('Ö', 'Ouml'),
 	('Ü', 'Uuml'),
+	('š', 'scaron'),
+	('Š', 'Scaron'),
 	('ž', 'zcaron'),
 	('Ž', 'Zcaron'),
 )
