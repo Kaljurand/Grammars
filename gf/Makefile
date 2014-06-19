@@ -9,7 +9,7 @@ langs2 = App Est Esttts Eng Engtts
 # Modules reachable from Action
 modules_Action=Action,Address,Alarm,ArithExpr,Calc,Currency,Date,Dial,Digit,Direction,Eeppl,Estvrp,Expr,Fraction,Go,Letter,Number,Prefix,Symbols,Tallinnaddress,Tallinndirection,Unit,Unitconv,Weather
 
-gf = gf --make --optimize-pgf --mk-index --path=$(path)
+gf = gf --make --optimize-pgf --path=$(path)
 gf_retain = gf --run --retain --path=$(path)
 gfdepgraph = _gfdepgraph.dot
 

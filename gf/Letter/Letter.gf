@@ -1,3 +1,4 @@
+--# -coding=utf8
 abstract Letter = {
 
 -- Aa, Bb, Dd, Ee, Ff, Gg, Hh, Ii, Jj, Kk, Ll, Mm, Nn, Oo, Pp, Rr, Ss, Šš, Zz, Žž, Tt, Uu, Vv, Õõ, Ää, Öö, Üü.

@@ -16,9 +16,8 @@ echo "Building PGF files..."
 for grammar in "${grammars[@]}"; do
 	echo "  ${grammar}: $listing";
 	echo "    PGF";
-	# TODO: does --mk-index have any effect? (it seems to generate the same file)
 	listing=$(find ${grammar} -name "*.gf" | egrep "${grammar}...(tts)?\.gf" | tr '\n' ' ')
-	gf -s --make --optimize-pgf --mk-index --path $path --output-dir ${dir_pgf} ${listing}
+	gf -s --make --optimize-pgf --path $path --output-dir ${dir_pgf} ${listing}
 	#echo "    generate";
 	# TODO: This requires GF-Utils, skip if they do not exist
 	#bash generate.bash ${grammar}.pgf ${grammar} ${dir_gr}/${grammar}

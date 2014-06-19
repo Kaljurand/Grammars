@@ -21,7 +21,7 @@ This grammar demonstrates:
 Compiling
 ---------
 
-    gf -s --make --optimize-pgf --mk-index --path "Numeral:Fraction:lib" Unitconv/Unitconv???.gf
+    gf -s --make --optimize-pgf --path "Numeral:Fraction:lib" Unitconv/Unitconv???.gf
 
 
 TODO
