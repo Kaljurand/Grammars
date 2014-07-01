@@ -246,12 +246,18 @@ echo 'p -lang=Eng "how much is two liters in cubic centi meters" | l -lang=Est,A
 gf --run Action.pgf
 </pre>
 
-<p>Some of the grammars are referenced in the
-Android speech recognition app
-<a href="http://code.google.com/p/recognizer-intent/">Kõnele</a>.
-The Android voice actions app
-<a href="http://kaljurand.github.io/Arvutaja/">Arvutaja</a> uses the
-Action-grammar.</p>
+<p>Usage in applications:</p>
+
+<ul>
+<li>the Android speech recognition service
+<a href="http://code.google.com/p/recognizer-intent/">Kõnele</a> references some of the grammars,
+making them available to Android apps;</li>
+<li>the Android voice actions app
+<a href="http://kaljurand.github.io/Arvutaja/">Arvutaja</a> is based on the
+Action-grammar;</li>
+<li>the web app <a href="https://touchless-timer.appspot.com">Touchless Timer</a> (source: <a href="https://github.com/Kaljurand/touchless-timer">https://github.com/Kaljurand/touchless-timer</a>)
+is based on the Alarm-grammar (converted into Javascript).</li>
+</ul>
 
 
 <h2>Source code</h2>
@@ -301,7 +307,7 @@ sending pull requests</a>.</p>
 
 <address>
 Kaarel Kaljurand (kaljurand@gmail.com),
-2013-08-28
+2014-07-01
 </address>
 
 </body>
