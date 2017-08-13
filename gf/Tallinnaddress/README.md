@@ -17,22 +17,13 @@ Also, some other place names (e.g. names of parks) are included.
 
 The grammar is simple in the sense that it does not do any geocoding.
 
-
-Origin
-------
-
-Data downloaded from <http://xgis.maaamet.ee/knravalik/knr>
-by "Otsi" + "Export CSV",
-i.e. all the input search fields have the default values.
-
-Last update: 2013-07-27
-
-
 Extracting street names and other place names
 ---------------------------------------------
 
-	sh make-city.sh knr.csv Tallinn
-	sh make-city.sh knr.csv Tartu
+First update the data in ../../data/knr/.
+
+    ./make-city.sh ../../data/knr/knr_20170813.csv Tallinn
+    ./make-city.sh ../../data/knr/knr_20170813.csv Tartu
 	...
 
 

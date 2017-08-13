@@ -10,11 +10,11 @@ fi
 
 knr=$1
 town=$2
-search="${town} linn"
+search=", ${town} linn;"
 
 if [ "$town" = "Tallinn" ]
 then
-	search="Tallinna linn"
+	search=", Tallinn, .* linnaosa;"
 fi
 
 # Streets

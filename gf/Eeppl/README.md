@@ -11,7 +11,10 @@ The grammar is automatically generated and should _not_ be manually edited.
 In order to improve the names edit the source (KNR or GeoNames),
 and the changes will propagate into the grammar at some point.
 
-Last update: 2014-06-19 (KNR)
+Last updates:
+
+- 2017-08-13 (KNR)
+- 2014-06-19 (KNR)
 
 Variants and ambiguity
 ----------------------
@@ -32,12 +35,9 @@ Disambiguation must be performed by an external application (e.g. Google Maps).
 KNR
 ---
 
-Data downloaded from <http://xgis.maaamet.ee/knravalik/knr>
-by "Otsi" + "Export CSV"
-(i.e. all the input search fields have the default values) and
-converted to GF using [update_from_knr.sh](update_from_knr.sh).
+First update the data in ../../data/knr/.
 
-	$ cat download.csv | sh update_from_knr.sh
+	$ cat ../../data/knr/knr_20170813.csv | sh update_from_knr.sh
     Warning: Ignoring line 2644: Persåker
     Warning: Ignoring line 3379: Skåtanäs
     Number of place names: 4419
